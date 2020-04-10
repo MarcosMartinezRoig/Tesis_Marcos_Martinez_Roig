@@ -1,0 +1,201 @@
+\documentclass[12pt,a4paper]{book}
+
+\input{./Sections/1Previous_pages/11PaquetesTrabajo}
+
+\begin{document}
+\captionsetup[figure]{labelfont={bf},labelformat={default},labelsep= endash,name={Figura}}
+\input{./Sections/1Previous_pages/12Cover_page}
+
+$\ $
+\thispagestyle{empty}  % para que no se numere esta pagina
+\chapter*{}
+
+\pagenumbering{Roman} %for using romain numbers (page numering)
+
+
+\begin{flushright}
+\textit{Dedicated to \\
+my family}
+\end{flushright} 
+
+\newpage
+
+\chapter*{Acknowledgements} \label{chap:Acknowledgements}  %pongo el asterisco para que no se numere ni aparezca en el índice
+%%\cleardoublepage
+\addcontentsline{toc}{chapter}{Acknowledgements} % para que aparezca en el indice de contenidos
+\input{./Sections/1Previous_pages/13Acknowledgements}
+
+\newpage
+
+\chapter*{Abstract} \label{chap:Abstract}
+%%\cleardoublepage
+\addcontentsline{toc}{chapter}{Abstract} % para que aparezca en el indice de contenidos
+\input{./Sections/1Previous_pages/14Abstract}
+
+%\begin{abstract}
+%Texto           del           abstract
+%\end{abstract}
+
+\newpage
+
+
+\chapter*{Nomenclature and acronyms} \label{chap:NomenclatureAcronyms}  %pongo el asterisco para que no se numere ni aparezca en el índice
+%%\cleardoublepage
+\addcontentsline{toc}{chapter}{Nomenclature and acronyms} % para que aparezca en el indice de contenidos
+\input{./Sections/1Previous_pages/15NomenclatureAcronyms}
+
+%%añadir bibliografía al indice
+\let\OLDthebibliography=\thebibliography
+\def\thebibliography#1{\OLDthebibliography{#1}%
+\addcontentsline{toc}{chapter}{\bibname}}
+
+%%indice
+\tableofcontents
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Lista de figuras} % para que aparezca en el indice de contenidos
+
+%%lista de figuras
+\listoffigures
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Lista de tablas} % para que aparezca en el indice de contenidos
+
+%%lista de tablas
+\listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%
+
+
+
+\chapter{Introduction}  \label{chap:GeneralIntroduction} %(%(I have to use latin numbers inside of this chapter))
+\pagenumbering{arabic} %for using romain numbers (page numering)
+%%\setcounter{page}{-1} %%first number of the counter
+	\section{Global energy context}
+	\input{./Sections/2Introduction/21Introduccion} \label{sec:Introduction}
+	\newpage
+
+	\section{Tritium properties}
+	\input{./Sections/2Introduction/22Tritium_properties}\label{sec:TritiumProperties}
+	\newpage
+	
+	\section{State-of-the-art in tritium detection}
+	\input{./Sections/2Introduction/23State_of_the_art}\label{sec:StateOfTheArt}
+	\newpage
+	
+	\section{Tritium project and Tritium detector}
+	\input{./Sections/2Introduction/24Tritium_project}\label{sec:TritiumProject}
+	\newpage
+	
+	\section{Work scheme}
+	%\input{./Sections/2Introduction/25Work_scheme}\label{sec:WorkScheme}
+	\newpage
+
+%\newpage
+%\chapter{Scintillator fibers} \label{chap:GeneralFibers}
+%\input{./Sections/4Fibras}
+	%\section{Introduction}\label{sec:IntroductionFibers}
+	%%\input{./Sections/5SiPM/52Equipo}
+	
+	%\section{Organic and inorganic scintillators}\label{sec:OrganicInorganicFibers}
+	%\input{./Sections/5SiPM/53CalibracionTarjeta}	
+
+	%\section{Scintillator fibers}\label{sec:ScintillatorFibers}
+	%\input{./Sections/5SiPM/53CalibracionTarjeta}	
+	
+	%\section{Choice of the comercial scintillator fibers}\label{sec:ChoiceFiber}
+	%\input{./Sections/5SiPM/53CalibracionTarjeta}
+	
+	%\section{Cutting device for scintillator fiber}\label{sec:CuttingFibers}
+	%%\input{./Sections/5SiPM/54Analisis}
+	
+	%\section{Polishing task for scintillator fiber}\label{sec:PolishingTask}
+	%%\input{./Sections/5SiPM/55Temperatura}
+
+	%\section{Automatic polishing machine for scintillator fiber}\label{sec:PolishingMachine}
+	%%\input{./Sections/5SiPM/56Voltaje}
+	
+	%\section{Splicing machine for scintillator fiber}\label{sec:SplicingMachine}
+	%%\input{./Sections/5SiPM/56Voltaje}
+	
+	%DE aquí para abajo todos los estudios realizados con fibras...
+	%\section{Estabilización de la ganancia}\label{sec:Compensacion}
+	%%\input{./Sections/5SiPM/57Compensacion}
+
+%\chapter{Photomultiplier tubes (PMTs)} \label{sec:PMT}
+%\input{./Sections/4Fibras}
+	%\section{Introduction}\label{sec:IntroductionPMTs}
+	%%\input{./Sections/5SiPM/56Voltaje}
+	
+	%\section{Calibration of the PMTs}\label{sec:CalibrationPMTs}
+	%%\input{./Sections/5SiPM/56Voltaje}
+	
+	%\subsection{Gain calibration of the PMTs}\label{sec:GainCalibrationPMTs}
+	%%\input{./Sections/5SiPM/56Voltaje}
+	
+	%\subsection{Aquí para abajo las demas calibraciones que haré con los PMTs}\label{sec:demáscalibraciones}
+	%%\input{./Sections/5SiPM/56Voltaje}
+
+%\newpage
+%\chapter{Calibracion de los fotomultiplicadores de silicio (SiPM)} \label{chap:SiPM}
+%%\input{./Sections/5SiPM/51IntroSiPM}
+	%\section{Equipo y montaje experimental}\label{sec:Equipo}
+	%%\input{./Sections/5SiPM/52Equipo}
+	
+	%\section{Características de la tarjeta}\label{sec:Tarjeta}
+	%\input{./Sections/5SiPM/53CalibracionTarjeta}
+	
+	%\section{Análisis de datos}\label{sec:Analisis}
+	%%\input{./Sections/5SiPM/54Analisis}
+	
+	%\section{Calibración en temperatura}\label{sec:Temperatura}
+	%%\input{./Sections/5SiPM/55Temperatura}
+
+	%\section{Calibración en voltaje de operación}\label{sec:Voltaje}
+	%%\input{./Sections/5SiPM/56Voltaje}
+	
+	%\section{Estabilización de la ganancia}\label{sec:Compensacion}
+	%%\input{./Sections/5SiPM/57Compensacion}
+
+%\newpage
+%\chapter{Prototipo} \label{chap:Prototipo}  
+%%\input{./Sections/6Prototipos/61IntroPrototipos}
+	%\section{Configuración del prototipo}\label{sec:Configuracion}
+	%%\input{./Sections/6Prototipos/62Configuracionprototipo}
+	
+	%\section{Procedimiento de llenado}\label{sec:Llenado}
+	%%\input{./Sections/6Prototipos/63Llenado}
+	
+	%\section{Configuración de la electrónica}\label{sec:Electronica}
+	%%\input{./Sections/6Prototipos/64Configuracionelectronica}
+	
+	%\section{Resultados}\label{sec:Resultados}
+	%%\input{./Sections/6Prototipos/65Resultados}
+
+%\newpage
+%\chapter{Simulaciones} \label{chap:Simulaciones}
+%%\input{./Sections/7Simulaciones}
+
+%\newpage
+%\chapter{Previsiones de futuro} \label{chap:Futuro}
+%%\input{./Sections/8Previsiones}
+
+%\newpage
+%\chapter{Resultados y conclusiones} \label{chap:Conclusiones}
+%%\input{./Sections/9Conclusiones2}
+
+\appendix
+\appendixpage
+\noappendicestocpagenum
+\addappheadtotoc
+
+\chapter{Más cosas}\label{App:A}
+Aún faltan cosas por decir.
+
+\chapter{Y más cosas aún}\label{App:B}
+Y más cosas aún.
+
+%\chapter{Bibliografía} \label{chap:bibliographia}
+\input{./Sections/11Bibliografia}
+
+\end{document}
