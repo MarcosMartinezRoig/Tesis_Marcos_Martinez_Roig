@@ -38,7 +38,6 @@ my family}
 
 \newpage
 
-
 \chapter*{Nomenclature and acronyms} \label{chap:NomenclatureAcronyms}  %pongo el asterisco para que no se numere ni aparezca en el índice
 %%\cleardoublepage
 \addcontentsline{toc}{chapter}{Nomenclature and acronyms} % para que aparezca en el indice de contenidos
@@ -52,17 +51,17 @@ my family}
 %%indice
 \tableofcontents
 
-\cleardoublepage
-\addcontentsline{toc}{chapter}{Lista de figuras} % para que aparezca en el indice de contenidos
-
 %%lista de figuras
 \listoffigures
 
-\cleardoublepage
-\addcontentsline{toc}{chapter}{Lista de tablas} % para que aparezca en el indice de contenidos
+%\cleardoublepage
+\addcontentsline{toc}{chapter}{List of Figures} % para que aparezca en el indice de contenidos
 
 %%lista de tablas
 \listoftables
+
+%\cleardoublepage
+\addcontentsline{toc}{chapter}{List of Tables} % para que aparezca en el indice de contenidos
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%
 
@@ -91,83 +90,85 @@ my family}
 	%\input{./Sections/2Introduction/25Work_scheme}\label{sec:WorkScheme}
 	\newpage
 
-\chapter{Tritium monitor}  \label{chap:Tritium_monitor}
-%\input{./Sections/3TritiumMonitor/1IntroductionTritiumMonitor} \label{sec:IntroductionTritiumDetector}
-
-
-	\section{Final emplacement}
-	%\input{./Sections/3TritiumMonitor/2FinalEmplacement} \label{sec:FinalEmplacement}
+\chapter{Research \& Development on detector design and components}\label{chap:ResearchandDevelopment}
+	\section{Design principles of a tritium monitor}
+	%\input{./Sections/3RyD/31Principles} \label{sec:Principles}
 	\newpage
 	
-	\section{Ultra-pure water system}
-	%\input{./Sections/3TritiumMonitor/3UltraPureWaterSystem} \label{sec:UltraPureWaterSystem}
+	\section{Scintillating fibers} \label{sec:Scintillating}
+		\subsection{Introduction}
+		%\input{./Sections/3RyD/31ScintillatingFibers/311IntroductionSF}\label{subsec:IntroductionSF}
+		\newpage
+		
+		\subsection{R\&D on scintillating fibers}
+		%\input{./Sections/3RyD/31ScintillatingFibers/312RyD_SF}\label{subsec:RyDSF}
+		\newpage
+		
+	\section{Photosensors}\label{sec:Photosensors}		
+		\subsection{Photomultiplier Tubs (PMTs)}\label{subsec:PMTs}
+			\subsubsection{Introduction}
+			%\input{./Sections/3RyD/32PhotoMultiplierTubs/321IntroductionPMTs}\label{subsubsec:IntroductionPMTs}
+			\newpage
+		
+		\subsection{Silicon Photomultiplier array (SiPMs array)}\label{subsec:SiPMs}
+			\subsubsection{Introduction}
+			%\input{./Sections/3RyD/33SiliconPhotoMultiplier/331IntroductionSiPM}\label{subsubsec:IntroductionSiPM}
+			\newpage
+		
+			\subsubsection{R\&D on the SiPM arrays}
+			%\input{./Sections/3RyD/33SiliconPhotoMultiplier/332RyD_SiPM}\label{subsubsec:RyDSiPM}
+			\newpage
+
+\chapter{Tritium Monitor prototypes}\label{chap:Prototypes}		
+	\section{Preliminary prototypes, TRITIUM-IFIC 0 and TRITIUM-IFIC 1}\label{Preliminary_prototypes}
+		\subsection{Tritium-IFIC 0}
+		%\input{./Sections/4Prototypes/41TritiumIFIC0}\label{subsec:TritiumIFIC0}
+		\newpage
+		
+		\subsection{Tritium-IFIC 1}
+		%\input{./Sections/4Prototypes/42TritiumIFIC1}\label{subsec:TritiumIFIC1}
+		\newpage
+		
+		\subsection{Tritium-Aveiro}
+		%\input{./Sections/4Prototypes/43TritiumAveiro}\label{subsec:TritiumAveiro}
+		\newpage
+		
+	\section{Advanced prototype, Tritium-IFIC 2}
+		%\input{./Sections/4Prototypes/44TritiumIFIC2}\label{sec:TritiumIFIC2}
+		\newpage
+		
+	\section{Modular TRITIUM prototype for in-situ tritium monitoring}
+		%\input{./Sections/4Prototypes/45TritiumIFICMonitor}\label{sec:TritiumMonitor}
+		\newpage
+		
+\chapter{Tritium Monitor Background Shields}\label{chap:Shields}
+	\section{Tritium Monitor Background}
+	%\input{./Sections/5Shields/51IntroductionShields}\label{sec:IntroductionShields}
+	\newpage
+		
+	\section{Passive shield (Lead)}
+	%\input{./Sections/5Shields/52PasiveShields}\label{sec:PasiveShields}
+	\newpage	
+	
+	\section{Active shield (cosmic veto)}
+	%\input{./Sections/5Shields/53ActiveShields}\label{sec:ActiveShield}
 	\newpage
 	
-	\section{Scintillating fibers}
-		\subsection{Introduction}
-		%\input{./Sections/3TritiumMonitor/3ScintillatingFibers/1IntroductionSF}\label{sec:IntroductionSF}
-		\newpage
+\chapter{TRITIUM Monitor results and Discussion}\label{chap:Results}
+	\section{Results from Laboratory measurements}
+	%\input{./Sections/6Results/61Results_prototypes}\label{sec:ResultsPrototypes}
+	\newpage
 		
-		\subsection{Characaterization of scintillating fibers}
-		%\input{./Sections/3TritiumMonitor/3ScintillatingFibers/2CharacterizationSF}\label{sec:CharacterizationSF}
-		\newpage
-		
-	\section{PhotoMultiplier Tubs (PMTs)}
-		\subsection{Introduction}
-		%\input{./Sections/3TritiumMonitor/4PhotoMultiplierTubs/1IntroductionPMTs}\label{sec:IntroductionPMTs}
-		\newpage
-		
-	\section{Silicon PhotoMultiplier Array (SiPMs array)}
-		\subsection{Introduction}
-		%\input{./Sections/3TritiumMonitor/5SiliconPhotoMultiplier/1IntroductionSiPM}\label{sec:IntroductionSiPM}
-		\newpage
-		
-		\subsection{Characaterization of the SiPM arrays}
-		%\input{./Sections/3TritiumMonitor/5SiliconPhotoMultiplier/2CharacterizationSiPM}\label{sec:CharacterizationSiPM}
-		\newpage
-		
-	\section{Tritium detector}
-		\subsection{Introduction}
-		%\input{./Sections/3TritiumMonitor/6TritiumDetector/1IntroductionTD}\label{sec:IntroductionSiPM}
-		\newpage
-		
-		\subsection{Tritium-IFIC 0 prototype}
-		%\input{./Sections/3TritiumMonitor/6TritiumDetector/2TritiumIFIC0}\label{sec:TritiumIFIC0}
-		\newpage
-		
-		\subsection{Tritium-IFIC 1 prototype}
-		%\input{./Sections/3TritiumMonitor/6TritiumDetector/2TritiumIFIC1}\label{sec:TritiumIFIC1}
-		\newpage
-		
-		\subsection{Tritium-Aveiro prototype}
-		%\input{./Sections/3TritiumMonitor/6TritiumDetector/2TritiumAveiro}\label{sec:TritiumAveiro}
-		\newpage
-		
-		\subsection{Tritium-IFIC 2 prototype}
-		%\input{./Sections/3TritiumMonitor/6TritiumDetector/2TritiumIFIC2}\label{sec:TritiumIFIC2}
-		\newpage
-		
-	\section{Pasive shielding}
-		%\subsection{Introduction}
-		%\input{./Sections/3TritiumMonitor/7PasiveShielding}\label{sec:PasiveShielding}
-		\newpage
-		
-	\section{Active veto}
-		\subsection{Introduction}
-		%\input{./Sections/3TritiumMonitor/8ActiveVeto/1IntroductionActiveVeto}\label{sec:IntroductionActiveVeto}
-		\newpage
-		
-		\subsection{Characterization of Active Veto}
-		%\input{./Sections/3TritiumMonitor/8ActiveVeto/2CharacterizationActiveVeto}\label{sec:CharacterizationActiveVeto}
-		\newpage
-			
-		
-\chapter{Simulations of Tritium detector}  \label{chap:Simulations}
-%\input{./Sections/4Simulations} \label{sec:Simulations}
-\newpage
+	\section{Results from measurements at Arrocampo Dam}
+	%\input{./Sections/6Results/61ResultsArrocampo}\label{sec:ResultsArrocampo}
+	\newpage	
 
-\chapter{Conclusions}  \label{chap:Conclusions}
-%\input{./Sections/5Conclusions} \label{sec:Conclusions}
+\chapter{Simulations}  \label{chap:Simulations}
+%\input{./Sections/7Simulations}
+\newpage	
+
+\chapter{Conclusions and prospects}  \label{chap:Conclusions}
+%\input{./Sections/8Conclusions}
 \newpage
 
 

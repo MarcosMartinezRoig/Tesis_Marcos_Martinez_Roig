@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  13 APR 2020 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  23 APR 2020 13:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1145,7 +1145,7 @@ LaTeX Info: Redefining \nameref on input line 5.
 
 
 (./Sections/1Previous_pages/12Cover_page.tex
-<Figures/1Cover_page/Logo2.jpg, id=152, 1768.6075pt x 2334.7225pt>
+<Figures/1Cover_page/Logo2.jpg, id=156, 1768.6075pt x 2334.7225pt>
 File: Figures/1Cover_page/Logo2.jpg Graphic file (type jpg)
 <use Figures/1Cover_page/Logo2.jpg>
 Package pdftex.def Info: Figures/1Cover_page/Logo2.jpg  used on input line 27.
@@ -1206,7 +1206,7 @@ Overfull \hbox (76.19986pt too wide) in alignment at lines 74--85
 [8]) [9] [10
 
 ] (./Tesis_Marcos_Martinez_Roig_v1.toc [11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4441) has occurred while \output is active []
 
  [12])
 \tf@toc=\write4
@@ -1219,9 +1219,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \tf@lof=\write5
 \openout5 = `Tesis_Marcos_Martinez_Roig_v1.lof'.
 
- [15
-
-] [16
+ [15] [16
 
 ]
 (./Tesis_Marcos_Martinez_Roig_v1.lot
@@ -1234,9 +1232,7 @@ nu-clear reactors[[]][] []
 \tf@lot=\write6
 \openout6 = `Tesis_Marcos_Martinez_Roig_v1.lot'.
 
- [17
-
-] [18
+ [17] [18
 
 ]
 Chapter 1.
@@ -1253,7 +1249,7 @@ l.6
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 7.
 
-<Figures/2Introduction/world_energy_consumption_bar.png, id=353, 369.38pt x 278
+<Figures/2Introduction/world_energy_consumption_bar.png, id=360, 369.38pt x 278
 .03876pt>
 File: Figures/2Introduction/world_energy_consumption_bar.png Graphic file (type
  png)
@@ -1261,7 +1257,7 @@ File: Figures/2Introduction/world_energy_consumption_bar.png Graphic file (type
 Package pdftex.def Info: Figures/2Introduction/world_energy_consumption_bar.png
   used on input line 11.
 (pdftex.def)             Requested size: 192.0561pt x 144.56401pt.
-<Figures/2Introduction/world_energy_consumption_graph.png, id=355, 370.38374pt 
+<Figures/2Introduction/world_energy_consumption_graph.png, id=362, 370.38374pt 
 x 284.06125pt>
 File: Figures/2Introduction/world_energy_consumption_graph.png Graphic file (ty
 pe png)
@@ -1308,7 +1304,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `CrossSeccionNeutrinos' on page 12 undefined on input 
 line 64.
 
-<Figures/2Introduction/esquema_niveles_energeticos.png, id=476, 460.72125pt x 2
+<Figures/2Introduction/esquema_niveles_energeticos.png, id=483, 460.72125pt x 2
 37.88875pt>
 File: Figures/2Introduction/esquema_niveles_energeticos.png Graphic file (type 
 png)
@@ -1316,7 +1312,7 @@ png)
 Package pdftex.def Info: Figures/2Introduction/esquema_niveles_energeticos.png 
  used on input line 70.
 (pdftex.def)             Requested size: 180.5332pt x 93.21544pt.
-<Figures/2Introduction/representacion_desintegracion.png, id=479, 258.9675pt x 
+<Figures/2Introduction/representacion_desintegracion.png, id=486, 258.9675pt x 
 232.87pt>
 File: Figures/2Introduction/representacion_desintegracion.png Graphic file (typ
 e png)
@@ -1333,7 +1329,7 @@ Overfull \hbox (7.8314pt too wide) in paragraph at lines 70--74
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-<Figures/2Introduction/Espectro.png, id=491, 495.8525pt x 362.35374pt>
+<Figures/2Introduction/Espectro.png, id=498, 495.8525pt x 362.35374pt>
 File: Figures/2Introduction/Espectro.png Graphic file (type png)
 <use Figures/2Introduction/Espectro.png>
 Package pdftex.def Info: Figures/2Introduction/Espectro.png  used on input line
@@ -1372,13 +1368,13 @@ Overfull \hbox (4.0918pt too wide) in paragraph at lines 53--53
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-<Figures/2Introduction/ArrocampoDam.jpeg, id=606, 309.155pt x 164.615pt>
+<Figures/2Introduction/ArrocampoDam.jpeg, id=613, 309.155pt x 164.615pt>
 File: Figures/2Introduction/ArrocampoDam.jpeg Graphic file (type jpg)
 <use Figures/2Introduction/ArrocampoDam.jpeg>
 Package pdftex.def Info: Figures/2Introduction/ArrocampoDam.jpeg  used on input
  line 19.
 (pdftex.def)             Requested size: 180.5332pt x 96.12984pt.
-<Figures/2Introduction/RioTajo.jpeg, id=607, 302.12875pt x 167.62625pt>
+<Figures/2Introduction/RioTajo.jpeg, id=614, 302.12875pt x 167.62625pt>
 File: Figures/2Introduction/RioTajo.jpeg Graphic file (type jpg)
 <use Figures/2Introduction/RioTajo.jpeg>
 Package pdftex.def Info: Figures/2Introduction/RioTajo.jpeg  used on input line
@@ -1402,26 +1398,67 @@ LaTeX Warning: Reference `MeanFreePath' on page 24 undefined on input line 49.
 
 ]
 Chapter 2.
-[29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43]
-[44
+[29]
+Overfull \hbox (137.83813pt too wide) has occurred while \output is active
+\T1/cmr/m/n/12 30 \T1/cmr/m/sl/12 CHAPTER 2.  RESEARCH & DEVELOPMENT ON DETECTO
+R DESIGN AND COMPONENTS
+ []
 
-]
+[30] [31]
+Overfull \hbox (137.83813pt too wide) has occurred while \output is active
+\T1/cmr/m/n/12 32 \T1/cmr/m/sl/12 CHAPTER 2.  RESEARCH & DEVELOPMENT ON DETECTO
+R DESIGN AND COMPONENTS
+ []
+
+[32] [33]
+Overfull \hbox (137.83813pt too wide) has occurred while \output is active
+\T1/cmr/m/n/12 34 \T1/cmr/m/sl/12 CHAPTER 2.  RESEARCH & DEVELOPMENT ON DETECTO
+R DESIGN AND COMPONENTS
+ []
+
+[34]
 Chapter 3.
-[45] [46
+[35
+
+] [36]
+Overfull \hbox (43.12201pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/12 3.1.  PRELIMINARY PROTOTYPES, TRITIUM-IFIC 0 AND TRITIUM-IFIC 1
+ \T1/cmr/m/n/12 37
+ []
+
+[37] [38]
+Overfull \hbox (66.69836pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/12 3.3.  MODULAR TRITIUM PROTOTYPE FOR IN-SITU TRITIUM MONITORING 
+\T1/cmr/m/n/12 39
+ []
+
+[39] [40
 
 ]
 Chapter 4.
-[47] [48
+[41] [42] [43] [44
 
-] [49] [50]
+]
+Chapter 5.
+[45] [46]
+Chapter 6.
+[47
+
+] [48
+
+]
+Chapter 7.
+[49] [50
+
+] [51] [52]
 Appendix A.
-[51
+[53
 
-] [52
+] [54
 
 ]
 Appendix B.
-(./Sections/11Bibliografia.tex [53] [54
+(./Sections/11Bibliografia.tex [55] [56
 
 ]
 Underfull \hbox (badness 5260) in paragraph at lines 28--30
@@ -1429,13 +1466,13 @@ Underfull \hbox (badness 5260) in paragraph at lines 28--30
 uárez Hon-to-ria\T1/cmr/m/n/12 ,
  []
 
-[55]
+[57]
 Underfull \hbox (badness 4739) in paragraph at lines 65--68
 []\T1/cmr/m/sc/12 McDermott Tech-nol-ogy, Inc. (MTI)\T1/cmr/m/n/12 , \T1/cmr/m/
 it/12 In Situ Tri-tium
  []
 
-[56]
+[58]
 Underfull \hbox (badness 5022) in paragraph at lines 106--108
 []\T1/cmr/m/sc/12 Luis W. Al-varez \T1/cmr/m/n/12 and \T1/cmr/m/sc/12 R. Cornog
 \T1/cmr/m/n/12 , \T1/cmr/m/it/12 He-lium and Hy-dro-
@@ -1447,7 +1484,7 @@ Underfull \hbox (badness 2961) in paragraph at lines 106--108
 ive, 53, 613
  []
 
-[57]
+[59]
 Underfull \hbox (badness 5533) in paragraph at lines 147--149
 []\T1/cmr/m/sc/12 M. Palomo\T1/cmr/m/n/12 . \T1/cmr/m/sc/12 A. Peñalver\T1/cmr/
 m/n/12 , \T1/cmr/m/sc/12 C. Aguilar \T1/cmr/m/n/12 and \T1/cmr/m/sc/12 F. Bor-
@@ -1493,13 +1530,13 @@ Underfull \hbox (badness 1888) in paragraph at lines 168--170
 \T1/cmr/m/n/12 sign, Vol-ume 88, Is-sue 11, Novem-ber 2013, Pages 2865-2869
  []
 
-[58]
+[60]
 Underfull \hbox (badness 1596) in paragraph at lines 176--178
 []\T1/cmr/m/sc/12 M. Mat-suyama\T1/cmr/m/n/12 , \T1/cmr/m/it/12 De-vel-op-ment 
 of a new de-tec-tion sys-tem for
  []
 
-[59]
+[61]
 Underfull \hbox (badness 1112) in paragraph at lines 208--210
 \T1/cmr/m/it/12 line Tritium-in-Water Mon-i-tor\T1/cmr/m/n/12 , Nu-clear In-str
 u-ments and Meth-
@@ -1516,34 +1553,27 @@ Underfull \hbox (badness 1194) in paragraph at lines 224--226
 ium, In-ter-reg Su-doe
  []
 
-[60])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
- [61]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
+[62])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
+ [63]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
  (./Tesis_Marcos_Martinez_Roig_v1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 282.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 283.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 283.
+Package rerunfilecheck Info: File `Tesis_Marcos_Martinez_Roig_v1.out' has not c
+hanged.
+(rerunfilecheck)             Checksum: 20A38464B94866490EE7A779EA019698;2653.
 
-
-Package rerunfilecheck Warning: File `Tesis_Marcos_Martinez_Roig_v1.out' has ch
-anged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Tesis_Marcos_Martinez_Roig_v1.out':
-
-(rerunfilecheck)             Before: 54760665E14B8C056A0534302A965E8E;2431
-(rerunfilecheck)             After:  F3C40270A1698408CFB8EC64FB97C3FA;2450.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 283.
  ) 
 Here is how much of TeX's memory you used:
- 19095 strings out of 492982
- 337656 string characters out of 6134895
- 438687 words of memory out of 5000000
- 22190 multiletter control sequences out of 15000+600000
+ 19110 strings out of 492982
+ 337805 string characters out of 6134895
+ 439205 words of memory out of 5000000
+ 22199 multiletter control sequences out of 15000+600000
  555240 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,24n,69p,10424b,706s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1568,10 +1598,10 @@ pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texm
 f/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public
 /cm-super/sfti0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.p
 fb>
-Output written on Tesis_Marcos_Martinez_Roig_v1.pdf (81 pages, 1237178 bytes).
+Output written on Tesis_Marcos_Martinez_Roig_v1.pdf (83 pages, 1241408 bytes).
 PDF statistics:
- 909 PDF objects out of 1000 (max. 8388607)
- 771 compressed objects within 8 object streams
- 204 named destinations out of 1000 (max. 500000)
- 337 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 928 PDF objects out of 1000 (max. 8388607)
+ 788 compressed objects within 8 object streams
+ 210 named destinations out of 1000 (max. 500000)
+ 345 words of extra memory for PDF output out of 10000 (max. 10000000)
 
