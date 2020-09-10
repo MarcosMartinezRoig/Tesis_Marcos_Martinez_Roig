@@ -6,11 +6,11 @@ This project has been funded by Interreg Sudoe program of the EEC in the 2016 ca
 
 The tritium detector is based on measurements of low energy beta radiation from the radioactive decay of tritium. For doing this task this detector consists of scintillator fibers, that we put directly in contact with water which can contain tritium. We need to put both, scintillator fibers and tritium water, in contact due to such a low mean free path of tritium electrons (table \ref{MeanFreePathTritium} of the seccion \ref{sec:TritiumProperties}). Then, the photons produced on this fibers will be read out by several photosensors. The photosensors which we have tested in this experiment are photomultiplier tubes (PMT) and silicon photomultiplier (SiPM) arrays. 
 
-The difficulty when trying to measure tritium is to distinguish these signals from the background. This is because tritium signals are small since tritium events has low energy ($\sim~\keV$) and this is the energy range in the spectrum where there are more background counts (the lower energy, the more background events). We will use coincidence techniques in order to reduce the counts from the background.
+The difficulty when we try to measure tritium is to distinguish these signals from the background. This is because tritium signals are small since tritium events has low energy ($\sim~\keV$) and this is the energy range in the spectrum where there are more background counts (the lower energy, the more background events). We will use coincidence techniques in order to reduce the counts from the background.
 
 It is important to check the water tightness of each prototype because if the water reaches the photosensor it will be irreparably damaged. On top of that if we use high concentrations of tritium in water for laboratory tests we can contaminate this laboratory, which could be dangerous for the healthy of the workers and it could spoil measurements of future experiments.
 
-Finally this monitor will be installed in the dam of Arrocampo, Almaraz, Spain, where the Almaraz nuclear power plant release the water which is used in their cooling system, Figure \ref{fig:Arrocampo}. This NPP has two nuclear reactors whose type is PWR. This dam is located near the Tajus river, which is the largest river in Spain, $1007~\kilo\meter$. This river cross from Aragon (Spain) to Lisbon (Portugal) and flows into the atlantic ocean. This river is used for an important quantity of animals, plants and even humans because the water of this river is used as drinking water by the spanish and portuguese people. Therefore the international cooperation in order to maintain the quality of this water is very important.
+Finally this monitor will be installed in the Arrocampo dam, Almaraz, Spain, where the Almaraz nuclear power plant release the water which is used in their cooling system, Figure \ref{fig:Arrocampo}. This NPP has two nuclear reactors whose type is PWR. This dam is located near the Tajus river, which is the largest river in Spain, $1007~\kilo\meter$. This river cross from Aragon (Spain) to Lisbon (Portugal) and flows into the atlantic ocean. This river is used for an important quantity of animals, plants and even humans because the water of this river is used as drinking water by the spanish and portuguese people. Therefore the international cooperation in order to maintain the quality of this water is very important.
 
 \begin{figure}[hbtp]
  \centering
@@ -24,19 +24,19 @@ Finally this monitor will be installed in the dam of Arrocampo, Almaraz, Spain, 
  \label{fig:Arrocampo}
 \end{figure}
 
-The collaboration \textit{Tritium} is a international group consisting of a consortium of 6 different southwestern european institution of 3 different countries: The University of Aveiro, in Portugal, The University of Bordeaux and the CNRS  (Section Aquitaine-Limousin), in France and the University of Extremadura, \textit{Junta de Extremadura} and University of Valencia, in Spain.
+The \textit{Tritium} collaboration is a international group consisting of a consortium of 6 different southwestern european institution of 3 different countries: The University of Aveiro, in Portugal, The University of Bordeaux and the CNRS  (Section Aquitaine-Limousin), in France and the University of Extremadura, \textit{Junta de Extremadura} and University of Valencia, in Spain.
 
 FOTOO TRITIUM
 
 Each institution has focused in the development of a different part of all this project:
 \begin{itemize}
-\item{} First, the Extremadura group has developed and installed the ultra pure water system with wich we get water with very low conductivity, $\sigma \approx 10 ~\mu S / \cm$. The conductivity of the water before the cleaning proces is around $ 1000 ~\mu S / \cm$. This clean process is very important for two reasons. On the one hand it is important for maintaining our detector very clean, which is a critical point. On the other hand it's important because with this process we reduce the natural background since we remove several natural radiactive isotopes that there are in this water (except tritium) such as $\ce{^{222}Rn}$, $\ce{^{40}K}$ or $\ce{^{137}Cs}$. This system will be explained in the chapter REFERENCIA, seccion REFERENCIA.
+\item{} First, the Extremadura group has developed and installed the ultra pure water system with wich we get water with very low conductivity, $\sigma \approx 10 ~\mu S / \cm$. The conductivity of the water before the cleaning proces is around $ 1000 ~\mu S / \cm$. This clean process is very important for two reasons. On the one hand, it is important for maintaining our detector very clean, which is a critical point. On the other hand, it's important because with this process we reduce the natural background since we remove several natural radiactive isotopes that there are in this water (except tritium) such as $\ce{^{222}Rn}$, $\ce{^{40}K}$ or $\ce{^{137}Cs}$. This system will be explained in the chapter \ref{chap:Ultrapure}.
 
-\item{} Second, french group has develop the pasive shielding where our detector will work inside. It is based in ultra radiopure lead with very low intrinsic activity. It has two objectives, on the one hand it reduce the external natural background that affect to our system, for this reason we use lead, and, on the other hand, this shielding doesn't have to affect to the measurement of our system, for this reason we use radiopure elements with very low intrinsic activity. This shielding will be explained in the chapter REFERENCIA, section REFERENCIA.
+\item{} Second, french group has develop the pasive shielding where our detector will work inside. It is based in ultra radiopure lead with very low intrinsic activity. The objective of this pasive shielding is to reduce the external natural background that affect to our system, for this reason we use lead. Obviously, this shielding doesn't have to affect to the measurement of our system, for this reason we use radiopure elements with very low intrinsic activity. This shielding will be explained in the chapter \ref{chap:Shields}, section \ref{sec:PasiveShields}.
 
-\item{} Third, The Portugal people has developed the simulations about this system. The program which we have used in this project is GEANT 4, which is a simulation package. It consiste in a extensive C++ library with which we can design the geometry to our detector, the physical processes which happen there, etc. This simulation will be explained in the chapter REFERENCIA, seccion REFERENCIA.
+\item{} Third, The Portugal and Spanish people has developed the simulations about this system. The program which we have used in this project is GEANT 4, which is a simulation package. It consiste in a extensive C++ library with which we can design the geometry of our detector, the physical processes which happen there, etc. This simulation will be explained in the chapter \ref{chap:Simulations}.
 
-\item{} Lastly, The Portugal and Spain people has collaborated for designing, developing and building four different prototypes of tritium detector and active vetos for removing cosmic events. These prototypes and vetos will be explained in the chapter REFERENCIA, seccion REFERENCIA.
+\item{} Lastly, The Portugal and Spain people has collaborated for designing, developing and building four different prototypes of tritium detector and active vetos for removing cosmic events. These prototypes and vetos will be explained in the chapter \ref{chap:Prototypes}.
 
 \end{itemize}
 
@@ -46,7 +46,7 @@ The tritium level which we want to mesure follow the ALARA principle (As Low As 
 
 \item{} \textit{Compact}. This is important because in the place where this detector will be installed the useful space that we can use is finite.
 
-\item{} \textit{Thin active volume and large active area}. On the one hand, we have to take into account that, as we have seen in the table \ref{MeanFreePath} of the seccion \ref{sec:TritiumProperties}, The mean free path of the $\beta$ particle of tritium decay is very low so we need to work with thin active volumes. In the practice, Active thickness beyond the mean free path of the tritium will only contribute to the background. On the other hand, as we have checked in the seccion \ref{sec:StateOfTheArt} the efficiency of this type of detector scales with the active area so we need to design our detector with the largest possible active area.
+\item{} \textit{Thin active volume and large active area}. On the one hand, we have to take into account that, as we have seen in the table \ref{MeanFreePathTritium} of the seccion \ref{sec:TritiumProperties}, the mean free path of the $\beta$ particle of tritium decay is very low so we need to work with thin active volumes. In the practice, Active thickness beyond the mean free path of the tritium will only contribute to the background. On the other hand, as we have checked in the seccion \ref{sec:StateOfTheArt} the efficiency of this type of detector scales with the active area so we need to design our detector with the largest possible active area.
 
 \item{} \textit{High sensitivity to tritium}. We are going to work with low tritium activities so we need to reduce as much as possible the non-detected tritium events.
 
@@ -54,7 +54,7 @@ The tritium level which we want to mesure follow the ALARA principle (As Low As 
 
 \item{} \textit{Quasi-real time response}. As we have seen it is important that our sistem can work in quasi-real time in order to detect any problem as fast as possible. 
 
-\item{} \textit{Rugged system}. Finally, we have to take into account that our objective will be installing and automatical system which will work during a lot of years without specialized people so we need that our monitor are rugged. 
+\item{} \textit{Rugged system}. Finally, we have to take into account that our objective will be installing an automatical system which will work during a lot of years without specialized people so we need that our monitor are rugged. 
 
 \end{itemize}
 
