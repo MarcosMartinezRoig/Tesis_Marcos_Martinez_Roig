@@ -87,40 +87,62 @@ my family}
 	\newpage
 	
 	\section{Work scheme}
-	%\input{./Sections/2Introduction/25Work_scheme}\label{sec:WorkScheme}
-	\newpage
-
-\chapter{Research \& Development on detector design and components}\label{chap:ResearchandDevelopment}
-	\section{Design principles of a tritium monitor}
-	%\input{./Sections/3RyD/31Principles} \label{sec:Principles}
+	\input{./Sections/2Introduction/25Work_scheme}\label{sec:WorkScheme}
 	\newpage
 	
-	\section{Scintillating fibers} \label{sec:Scintillating}
-		\subsection{Introduction}
-		%\input{./Sections/3RyD/31ScintillatingFibers/311IntroductionSF}\label{subsec:IntroductionSF}
+\chapter[Design principles]{Design principles of the Tritium monitor}\label{chap:DesignPrinciples}
+	\section{Chapter scheme}
+	\input{./Sections/3Design_Principles/3Introduction_Chapter} \label{sec:IntroDesignPrinciples}
+	%\newpage
+
+	\section[Interaction of particles with matter]{Interaction of fast electrons and photons with matter}
+	\input{./Sections/3Design_Principles/31Interaction} \label{sec:Interaction}
+	\newpage	
+	
+	\section{The detection process in a scintillation detector}
+	\input{./Sections/3Design_Principles/32Detection_Process} \label{sec:DetectionProcess}
+	\newpage
+	
+	\section{Plastic scintillators} %\label{sec:Scintillators}
+	\input{./Sections/3Design_Principles/33Plastic_Scintillators/331Plastic_Scintillators}\label{sec:PlasticScintillators}
+		\subsection{Plastic scintillation fibers}
+		\input{./Sections/3Design_Principles/33Plastic_Scintillators/332Fibers}\label{subsec:PlasticScintillatorFibers}
 		\newpage
 		
-		\subsection{R\&D on scintillating fibers}
-		%\input{./Sections/3RyD/31ScintillatingFibers/312RyD_SF}\label{subsec:RyDSF}
+	\section{The detection process in a Photosensors} %\label{sec:Photosensors}
+	\input{./Sections/3Design_Principles/34Photosensors/34IntroPhotosensors}\label{sec:Photosensors}
+	
+			\subsection{Photomultiplier Tubs (PMTs)}%\label{subsec:PMTs}
+			\input{./Sections/3Design_Principles/34Photosensors/341PhotoMultiplierTubs}\label{subsec:PMTs}
+			%\newpage
+		
+			\subsection{Silicon Photomultiplier array (SiPMs array)}%\label{subsec:SiPMs}
+			\input{./Sections/3Design_Principles/34Photosensors/342SiliconPhotoMultiplierArrays}\label{subsec:SiPM}
+			\newpage
+		
+	\section{Detector pulse analysis}%\label{sec:PulseAnalysis}
+	\input{./Sections/3Design_Principles/35Pulse_Analysis}\label{sec:PulseAnalysis}
+	\newpage
+	
+	\section{Tritium monitor parts}%\label{sec:PulseAnalysis}
+	\input{./Sections/3Design_Principles/36Tritium_Monitor_Parts}\label{sec:TritiumMonitorParts}	
+	\newpage
+	
+\chapter[Research \& Development]{Research \& Development on detector design and components}\label{chap:ResearchandDevelopment}
+	\section{Introduction (why is important)}
+	%\input{./Sections/3ResearchAndDevelopment/3IntroductionChapter} \label{sec:IntroChap}
+	%\newpage
+	
+	\section{Characterization and R\&D on scintillating fibers}
+	%\input{./Sections/3ResearchAndDevelopment/33ScintillatingFibers/332RyD_SF}\label{subsec:RyDSF}
 		\newpage
 		
-	\section{Photosensors}\label{sec:Photosensors}		
-		\subsection{Photomultiplier Tubs (PMTs)}\label{subsec:PMTs}
-			\subsubsection{Introduction}
-			%\input{./Sections/3RyD/32PhotoMultiplierTubs/321IntroductionPMTs}\label{subsubsec:IntroductionPMTs}
-			\newpage
-		
-		\subsection{Silicon Photomultiplier array (SiPMs array)}\label{subsec:SiPMs}
-			\subsubsection{Introduction}
-			%\input{./Sections/3RyD/33SiliconPhotoMultiplier/331IntroductionSiPM}\label{subsubsec:IntroductionSiPM}
-			\newpage
-		
-			\subsubsection{R\&D on the SiPM arrays}
-			%\input{./Sections/3RyD/33SiliconPhotoMultiplier/332RyD_SiPM}\label{subsubsec:RyDSiPM}
+	\section{Characterization and R\&D on the SiPM arrays}
+				%\input{./Sections/3ResearchAndDevelopment/34Photosensors/342SiliconPhotoMultiplier/3422RyD_SiPM}\label{subsubsec:RyDSiPM}
 			\newpage
 
 \chapter{Tritium Monitor prototypes}\label{chap:Prototypes}		
-	\section{Preliminary prototypes, TRITIUM-IFIC 0 and TRITIUM-IFIC 1}\label{Preliminary_prototypes}
+	\section[Preliminary prototypes]{Preliminary prototypes, TRITIUM-IFIC 0 and TRITIUM-IFIC 1}\label{Preliminary_prototypes}
 		\subsection{Tritium-IFIC 0}
 		%\input{./Sections/4Prototypes/41TritiumIFIC0}\label{subsec:TritiumIFIC0}
 		\newpage
@@ -133,26 +155,50 @@ my family}
 		%\input{./Sections/4Prototypes/43TritiumAveiro}\label{subsec:TritiumAveiro}
 		\newpage
 		
-	\section{Advanced prototype, Tritium-IFIC 2}
+	\section[Tritium-IFIC 2]{Advanced prototype, Tritium-IFIC 2}
 		%\input{./Sections/4Prototypes/44TritiumIFIC2}\label{sec:TritiumIFIC2}
 		\newpage
 		
-	\section{Modular TRITIUM prototype for in-situ tritium monitoring}
+	\section[Modular TRITIUM prototype]{Modular TRITIUM prototype for in-situ tritium monitoring}
 		%\input{./Sections/4Prototypes/45TritiumIFICMonitor}\label{sec:TritiumMonitor}
 		\newpage
 		
-\chapter{Tritium Monitor Background Shields}\label{chap:Shields}
+\chapter[Background Shields]{Tritium Monitor Background Shields}\label{chap:Shields}
 	\section{Tritium Monitor Background}
 	%\input{./Sections/5Shields/51IntroductionShields}\label{sec:IntroductionShields}
 	\newpage
 		
 	\section{Passive shield (Lead)}
 	%\input{./Sections/5Shields/52PasiveShields}\label{sec:PasiveShields}
-	\newpage	
+	%\newpage
+		
+		\subsection{Introduccion}
+		%\input{./Sections/5Shields/52PasiveShields}\label{sec:PasiveShields}
+		%\newpage
+		
+		\subsection{Set up of the Passive shield}
+		%\input{./Sections/5Shields/52PasiveShields}\label{sec:PasiveShields}
+		%\newpage
+		
+		\subsection{Measurements with the Passive shield}
+		%\input{./Sections/5Shields/52PasiveShields}\label{sec:PasiveShields}
+		\newpage	
 	
 	\section{Active shield (cosmic veto)}
 	%\input{./Sections/5Shields/53ActiveShields}\label{sec:ActiveShield}
-	\newpage
+	%\newpage
+	
+		\subsection{Introduccion}
+		%\input{./Sections/5Shields/52PasiveShields}\label{sec:PasiveShields}
+		%\newpage
+		
+		\subsection{Set up of the Active shield}
+		%\input{./Sections/5Shields/52PasiveShields}\label{sec:PasiveShields}
+		%\newpage
+		
+		\subsection{Measurements with the Active shield}
+		%\input{./Sections/5Shields/52PasiveShields}\label{sec:PasiveShields}
+		\newpage
 	
 \chapter{Ultrapure water system}\label{chap:Ultrapure}
 	\section{Introduction}
@@ -163,11 +209,11 @@ my family}
 	%\input{./Sections/6Shields/62SetupUltraPure}\label{sec:SetupUltrapure}
 	\newpage
 	
-	\section{Results of the Ultrapure water System}
+	\section{Measurements of the Ultrapure water System}
 	%\input{./Sections/6Shields/63ResultsUltraPure}\label{sec:ResultsUltrapure}
 	\newpage
 	
-\chapter{TRITIUM Monitor results and Discussion}\label{chap:Results}
+\chapter[Results and Discussion]{TRITIUM Monitor results and Discussion}\label{chap:Results}
 	\section{Results from Laboratory measurements}
 	%\input{./Sections/7Results/71Results_prototypes}\label{sec:ResultsPrototypes}
 	\newpage
