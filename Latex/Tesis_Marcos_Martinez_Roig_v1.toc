@@ -3,7 +3,7 @@
 \contentsline {chapter}{Abstract}{V}{chapter*.4}
 \contentsline {chapter}{Nomenclature and acronyms}{VII}{chapter*.5}
 \contentsline {chapter}{List of Figures}{XV}{chapter*.7}
-\contentsline {chapter}{List of Tables}{XVII}{chapter*.8}
+\contentsline {chapter}{List of Tables}{XVIII}{chapter*.8}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Global energy context}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Tritium properties}{11}{section.1.2}
@@ -12,46 +12,52 @@
 \contentsline {section}{\numberline {1.5}Work scheme}{26}{section.1.5}
 \contentsline {chapter}{\numberline {2}Design principles}{31}{chapter.2}
 \contentsline {section}{\numberline {2.1}Chapter scheme}{31}{section.2.1}
-\contentsline {section}{\numberline {2.2}Interaction of particles with matter}{31}{section.2.2}
-\contentsline {section}{\numberline {2.3}The detection process in a scintillation detector}{36}{section.2.3}
-\contentsline {section}{\numberline {2.4}Plastic scintillators}{37}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Plastic scintillation fibers}{37}{subsection.2.4.1}
-\contentsline {section}{\numberline {2.5}The detection process in a Photosensors}{38}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Photomultiplier Tubs (PMTs)}{38}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Silicon Photomultiplier array (SiPMs array)}{38}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Detector pulse analysis}{39}{section.2.6}
-\contentsline {section}{\numberline {2.7}Tritium monitor parts}{40}{section.2.7}
-\contentsline {chapter}{\numberline {3}Research \& Development}{41}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction (why is important)}{41}{section.3.1}
-\contentsline {section}{\numberline {3.2}Characterization and R\&D on scintillating fibers}{41}{section.3.2}
-\contentsline {section}{\numberline {3.3}Characterization and R\&D on the SiPM arrays}{42}{section.3.3}
-\contentsline {chapter}{\numberline {4}Tritium Monitor prototypes}{43}{chapter.4}
-\contentsline {section}{\numberline {4.1}Preliminary prototypes}{43}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Tritium-IFIC 0}{43}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Tritium-IFIC 1}{44}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Tritium-Aveiro}{45}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Tritium-IFIC 2}{46}{section.4.2}
-\contentsline {section}{\numberline {4.3}Modular TRITIUM prototype}{47}{section.4.3}
-\contentsline {chapter}{\numberline {5}Background Shields}{49}{chapter.5}
-\contentsline {section}{\numberline {5.1}Tritium Monitor Background}{49}{section.5.1}
-\contentsline {section}{\numberline {5.2}Passive shield (Lead)}{50}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Introduccion}{50}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Set up of the Passive shield}{50}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Measurements with the Passive shield}{50}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Active shield (cosmic veto)}{51}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Introduccion}{51}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Set up of the Active shield}{51}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Measurements with the Active shield}{51}{subsection.5.3.3}
-\contentsline {chapter}{\numberline {6}Ultrapure water system}{53}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{53}{section.6.1}
-\contentsline {section}{\numberline {6.2}Set up of the Ultrapure water System}{54}{section.6.2}
-\contentsline {section}{\numberline {6.3}Measurements of the Ultrapure water System}{55}{section.6.3}
-\contentsline {chapter}{\numberline {7}Results and Discussion}{57}{chapter.7}
-\contentsline {section}{\numberline {7.1}Results from Laboratory measurements}{57}{section.7.1}
-\contentsline {section}{\numberline {7.2}Results from measurements at Arrocampo Dam}{58}{section.7.2}
-\contentsline {chapter}{\numberline {8}Simulations}{59}{chapter.8}
-\contentsline {chapter}{\numberline {9}Conclusions and prospects}{61}{chapter.9}
-\contentsline {chapter}{Appendices}{}{section*.22}
-\contentsline {chapter}{\numberline {A}M\IeC {\'a}s cosas}{65}{appendix.A}
-\contentsline {chapter}{\numberline {B}Y m\IeC {\'a}s cosas a\IeC {\'u}n}{67}{appendix.B}
-\contentsline {chapter}{Bibliography}{69}{appendix*.23}
+\contentsline {section}{\numberline {2.2}Interaction of particles with matter}{32}{section.2.2}
+\contentsline {section}{\numberline {2.3}The detection process}{36}{section.2.3}
+\contentsline {section}{\numberline {2.4}Scintillators plastic}{38}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Plastic scintillation fibers}{42}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.5}The light process in photosensors}{47}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Photoelectron multiplier Tubs (PMTs)}{48}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Silicon Photoelectron Multiplier Array (SiPMs array)}{49}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Comparison photosensors}{50}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Detector pulse analysis}{51}{section.2.6}
+\contentsline {section}{\numberline {2.7}Tritium monitor parts}{52}{section.2.7}
+\contentsline {chapter}{\numberline {3}Research \& Development}{53}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction (why is important)}{53}{section.3.1}
+\contentsline {section}{\numberline {3.2}Characetrization fibers}{54}{section.3.2}
+\contentsline {section}{\numberline {3.3}Characterization SiPM arrays}{55}{section.3.3}
+\contentsline {chapter}{\numberline {4}Tritium monitor prototypes}{57}{chapter.4}
+\contentsline {section}{\numberline {4.1}Preliminary prototypes}{57}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Tritium-IFIC 0}{57}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Tritium-IFIC 1}{57}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Tritium-Aveiro}{57}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Tritium-IFIC 2}{58}{section.4.2}
+\contentsline {section}{\numberline {4.3}Modular TRITIUM prototype}{59}{section.4.3}
+\contentsline {chapter}{\numberline {5}Background shields}{61}{chapter.5}
+\contentsline {section}{\numberline {5.1}Tritium monitor background}{61}{section.5.1}
+\contentsline {section}{\numberline {5.2}Passive shield (lead)}{62}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Introduccion}{62}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Set up of the shield}{62}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Measurements of the shield}{62}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Active shield (cosmic veto)}{63}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Introduccion}{63}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Set up of the shield}{63}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Measurements of the veto}{63}{subsection.5.3.3}
+\contentsline {chapter}{\numberline {6}Ultrapure water system}{65}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{65}{section.6.1}
+\contentsline {section}{\numberline {6.2}Set up of water system}{66}{section.6.2}
+\contentsline {section}{\numberline {6.3}Measurements of water system}{67}{section.6.3}
+\contentsline {chapter}{\numberline {7}Electronical system}{69}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{69}{section.7.1}
+\contentsline {section}{\numberline {7.2}Electronical system for PMTs}{70}{section.7.2}
+\contentsline {section}{\numberline {7.3}PETSYS (SiPMs)}{71}{section.7.3}
+\contentsline {chapter}{\numberline {8}Results and discussion}{73}{chapter.8}
+\contentsline {section}{\numberline {8.1}Results from laboratory measurements}{73}{section.8.1}
+\contentsline {section}{\numberline {8.2}Results from measurements at Arrocampo dam}{74}{section.8.2}
+\contentsline {chapter}{\numberline {9}Simulations}{75}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusions and prospects}{77}{chapter.10}
+\contentsline {chapter}{Appendices}{}{section*.29}
+\contentsline {chapter}{\numberline {A}Birks coefficient study}{81}{appendix.A}
+\contentsline {chapter}{\numberline {B}M\IeC {\'a}s cosas}{83}{appendix.B}
+\contentsline {chapter}{\numberline {C}Y m\IeC {\'a}s cosas a\IeC {\'u}n}{85}{appendix.C}
+\contentsline {chapter}{Bibliography}{87}{appendix*.30}

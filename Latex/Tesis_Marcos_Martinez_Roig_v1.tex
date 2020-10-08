@@ -7,7 +7,7 @@
 \input{./Sections/1Previous_pages/12Cover_page}
 
 $\ $
-\thispagestyle{empty}  % para que no se numere esta pagina
+\thispagestyle{empty}  %para que no se numere esta pagina
 \chapter*{}
 
 \pagenumbering{Roman} %for using romain numbers (page numering)
@@ -38,7 +38,7 @@ my family}
 
 \newpage
 
-\chapter*{Nomenclature and acronyms} \label{chap:NomenclatureAcronyms}  %pongo el asterisco para que no se numere ni aparezca en el índice
+\chapter*{Nomenclature and Acronyms} \label{chap:NomenclatureAcronyms}  %pongo el asterisco para que no se numere ni aparezca en el índice
 %%\cleardoublepage
 \addcontentsline{toc}{chapter}{Nomenclature and acronyms} % para que aparezca en el indice de contenidos
 \input{./Sections/1Previous_pages/15NomenclatureAcronyms}
@@ -93,31 +93,36 @@ my family}
 \chapter[Design principles]{Design principles of the Tritium monitor}\label{chap:DesignPrinciples}
 	\section{Chapter scheme}
 	\input{./Sections/3Design_Principles/3Introduction_Chapter} \label{sec:IntroDesignPrinciples}
-	%\newpage
+	\newpage
 
 	\section[Interaction of particles with matter]{Interaction of fast electrons and photons with matter}
 	\input{./Sections/3Design_Principles/31Interaction} \label{sec:Interaction}
 	\newpage	
 	
-	\section{The detection process in a scintillation detector}
+	\section[The detection process]{The detection process in a scintillation detector}
 	\input{./Sections/3Design_Principles/32Detection_Process} \label{sec:DetectionProcess}
 	\newpage
 	
-	\section{Plastic scintillators} %\label{sec:Scintillators}
+	\section{Scintillators plastic} %\label{sec:Scintillators}
 	\input{./Sections/3Design_Principles/33Plastic_Scintillators/331Plastic_Scintillators}\label{sec:PlasticScintillators}
+		
 		\subsection{Plastic scintillation fibers}
 		\input{./Sections/3Design_Principles/33Plastic_Scintillators/332Fibers}\label{subsec:PlasticScintillatorFibers}
 		\newpage
 		
-	\section{The detection process in a Photosensors} %\label{sec:Photosensors}
+	\section{The light process in photosensors} %\label{sec:Photosensors}
 	\input{./Sections/3Design_Principles/34Photosensors/34IntroPhotosensors}\label{sec:Photosensors}
 	
-			\subsection{Photomultiplier Tubs (PMTs)}%\label{subsec:PMTs}
+			\subsection{Photoelectron multiplier Tubs (PMTs)}%\label{subsec:PMTs}
 			\input{./Sections/3Design_Principles/34Photosensors/341PhotoMultiplierTubs}\label{subsec:PMTs}
-			%\newpage
+			%\newpageand
 		
-			\subsection{Silicon Photomultiplier array (SiPMs array)}%\label{subsec:SiPMs}
+			\subsection{Silicon Photoelectron Multiplier Array (SiPMs array)}%\label{subsec:SiPMs}
 			\input{./Sections/3Design_Principles/34Photosensors/342SiliconPhotoMultiplierArrays}\label{subsec:SiPM}
+			%\newpage
+			
+			\subsection[Comparison photosensors]{Comparison of photosensors considered}%\label{subsec:SiPMs}
+			\input{./Sections/3Design_Principles/34Photosensors/343Comparison_Photosensors}\label{subsec:ComparisonPhotosensors}
 			\newpage
 		
 	\section{Detector pulse analysis}%\label{sec:PulseAnalysis}
@@ -131,44 +136,44 @@ my family}
 \chapter[Research \& Development]{Research \& Development on detector design and components}\label{chap:ResearchandDevelopment}
 	\section{Introduction (why is important)}
 	%\input{./Sections/3ResearchAndDevelopment/3IntroductionChapter} \label{sec:IntroChap}
-	%\newpage
+	\newpage
 	
-	\section{Characterization and R\&D on scintillating fibers}
+	\section[Characetrization fibers]{Characterization and R\&D on scintillating fibers}
 	%\input{./Sections/3ResearchAndDevelopment/33ScintillatingFibers/332RyD_SF}\label{subsec:RyDSF}
-		\newpage
+	\newpage
 		
-	\section{Characterization and R\&D on the SiPM arrays}
-				%\input{./Sections/3ResearchAndDevelopment/34Photosensors/342SiliconPhotoMultiplier/3422RyD_SiPM}\label{subsubsec:RyDSiPM}
-			\newpage
+	\section[Characterization SiPM arrays]{Characterization and R\&D on the SiPM arrays}
+	%\input{./Sections/3ResearchAndDevelopment/34Photosensors/342SiliconPhotoMultiplier/3422RyD_SiPM}\label{subsubsec:RyDSiPM}
+	\newpage
 
-\chapter{Tritium Monitor prototypes}\label{chap:Prototypes}		
-	\section[Preliminary prototypes]{Preliminary prototypes, TRITIUM-IFIC 0 and TRITIUM-IFIC 1}\label{Preliminary_prototypes}
+\chapter{Tritium monitor prototypes}\label{chap:Prototypes}		
+	\section[Preliminary prototypes]{Preliminary prototypes, TRITIUM-IFIC 0, TRITIUM-IFIC 1 and TRITIUM-Aveiro}\label{Preliminary_prototypes}
 		\subsection{Tritium-IFIC 0}
 		%\input{./Sections/4Prototypes/41TritiumIFIC0}\label{subsec:TritiumIFIC0}
-		\newpage
+		%\newpage
 		
 		\subsection{Tritium-IFIC 1}
 		%\input{./Sections/4Prototypes/42TritiumIFIC1}\label{subsec:TritiumIFIC1}
-		\newpage
+		%\newpage
 		
 		\subsection{Tritium-Aveiro}
 		%\input{./Sections/4Prototypes/43TritiumAveiro}\label{subsec:TritiumAveiro}
 		\newpage
 		
 	\section[Tritium-IFIC 2]{Advanced prototype, Tritium-IFIC 2}
-		%\input{./Sections/4Prototypes/44TritiumIFIC2}\label{sec:TritiumIFIC2}
-		\newpage
+	%\input{./Sections/4Prototypes/44TritiumIFIC2}\label{sec:TritiumIFIC2}
+	\newpage
 		
 	\section[Modular TRITIUM prototype]{Modular TRITIUM prototype for in-situ tritium monitoring}
-		%\input{./Sections/4Prototypes/45TritiumIFICMonitor}\label{sec:TritiumMonitor}
-		\newpage
+	%\input{./Sections/4Prototypes/45TritiumIFICMonitor}\label{sec:TritiumMonitor}
+	\newpage
 		
-\chapter[Background Shields]{Tritium Monitor Background Shields}\label{chap:Shields}
-	\section{Tritium Monitor Background}
+\chapter[Background shields]{Tritium monitor background shields}\label{chap:Shields}
+	\section{Tritium monitor background}
 	%\input{./Sections/5Shields/51IntroductionShields}\label{sec:IntroductionShields}
 	\newpage
 		
-	\section{Passive shield (Lead)}
+	\section{Passive shield (lead)}
 	%\input{./Sections/5Shields/52PasiveShields}\label{sec:PasiveShields}
 	%\newpage
 		
@@ -176,11 +181,11 @@ my family}
 		%\input{./Sections/5Shields/52PasiveShields}\label{sec:PasiveShields}
 		%\newpage
 		
-		\subsection{Set up of the Passive shield}
+		\subsection[Set up of the shield]{Set up of the Passive shield}
 		%\input{./Sections/5Shields/52PasiveShields}\label{sec:PasiveShields}
 		%\newpage
 		
-		\subsection{Measurements with the Passive shield}
+		\subsection[Measurements of the shield]{Measurements with the passive shield}
 		%\input{./Sections/5Shields/52PasiveShields}\label{sec:PasiveShields}
 		\newpage	
 	
@@ -192,11 +197,11 @@ my family}
 		%\input{./Sections/5Shields/52PasiveShields}\label{sec:PasiveShields}
 		%\newpage
 		
-		\subsection{Set up of the Active shield}
+		\subsection[Set up of the shield]{Set up of the active shield}
 		%\input{./Sections/5Shields/52PasiveShields}\label{sec:PasiveShields}
 		%\newpage
 		
-		\subsection{Measurements with the Active shield}
+		\subsection[Measurements of the veto]{Measurements with the active shield}
 		%\input{./Sections/5Shields/52PasiveShields}\label{sec:PasiveShields}
 		\newpage
 	
@@ -205,20 +210,33 @@ my family}
 	%\input{./Sections/6Shields/61IntroductionUltraPure}\label{sec:IntroductionUltrapure}
 	\newpage
 	
-	\section{Set up of the Ultrapure water System}
+	\section[Set up of water system]{Set up of the ultrapure water system}
 	%\input{./Sections/6Shields/62SetupUltraPure}\label{sec:SetupUltrapure}
 	\newpage
 	
-	\section{Measurements of the Ultrapure water System}
+	\section[Measurements of water system]{Measurements of the ultrapure water system}
 	%\input{./Sections/6Shields/63ResultsUltraPure}\label{sec:ResultsUltrapure}
 	\newpage
 	
-\chapter[Results and Discussion]{TRITIUM Monitor results and Discussion}\label{chap:Results}
-	\section{Results from Laboratory measurements}
+\chapter{Electronical system}\label{chap:Electronic}
+	\section{Introduction}
+	%\input{./Sections/6Shields/61IntroductionUltraPure}\label{sec:IntroductionUltrapure}
+	\newpage
+	
+	\section[Electronical system for PMTs]{Electronical system for PMTs}
+	%\input{./Sections/6Shields/62SetupUltraPure}\label{sec:ElectronicaPMTs}
+	\newpage
+	
+	\section[PETSYS (SiPMs)]{Electronical system for SiPMs arrays (PETSYS) }
+	%\input{./Sections/6Shields/63ResultsUltraPure}\label{sec:PETSYS}
+	\newpage
+	
+\chapter[Results and discussion]{TRITIUM Monitor results and discussion}\label{chap:Results}
+	\section{Results from laboratory measurements}
 	%\input{./Sections/7Results/71Results_prototypes}\label{sec:ResultsPrototypes}
 	\newpage
 		
-	\section{Results from measurements at Arrocampo Dam}
+	\section{Results from measurements at Arrocampo dam}
 	%\input{./Sections/7Results/72ResultsArrocampo}\label{sec:ResultsArrocampo}
 	\newpage	
 
@@ -231,104 +249,13 @@ my family}
 \newpage
 
 
-
-%\newpage
-%\chapter{Scintillator fibers} \label{chap:GeneralFibers}
-%\input{./Sections/4Fibras}
-	%\section{Introduction}\label{sec:IntroductionFibers}
-	%%\input{./Sections/5SiPM/52Equipo}
-	
-	%\section{Organic and inorganic scintillators}\label{sec:OrganicInorganicFibers}
-	%\input{./Sections/5SiPM/53CalibracionTarjeta}	
-
-	%\section{Scintillator fibers}\label{sec:ScintillatorFibers}
-	%\input{./Sections/5SiPM/53CalibracionTarjeta}	
-	
-	%\section{Choice of the comercial scintillator fibers}\label{sec:ChoiceFiber}
-	%\input{./Sections/5SiPM/53CalibracionTarjeta}
-	
-	%\section{Cutting device for scintillator fiber}\label{sec:CuttingFibers}
-	%%\input{./Sections/5SiPM/54Analisis}
-	
-	%\section{Polishing task for scintillator fiber}\label{sec:PolishingTask}
-	%%\input{./Sections/5SiPM/55Temperatura}
-
-	%\section{Automatic polishing machine for scintillator fiber}\label{sec:PolishingMachine}
-	%%\input{./Sections/5SiPM/56Voltaje}
-	
-	%\section{Splicing machine for scintillator fiber}\label{sec:SplicingMachine}
-	%%\input{./Sections/5SiPM/56Voltaje}
-	
-	%DE aquí para abajo todos los estudios realizados con fibras...
-	%\section{Estabilización de la ganancia}\label{sec:Compensacion}
-	%%\input{./Sections/5SiPM/57Compensacion}
-
-%\chapter{Photomultiplier tubes (PMTs)} \label{sec:PMT}
-%\input{./Sections/4Fibras}
-	%\section{Introduction}\label{sec:IntroductionPMTs}
-	%%\input{./Sections/5SiPM/56Voltaje}
-	
-	%\section{Calibration of the PMTs}\label{sec:CalibrationPMTs}
-	%%\input{./Sections/5SiPM/56Voltaje}
-	
-	%\subsection{Gain calibration of the PMTs}\label{sec:GainCalibrationPMTs}
-	%%\input{./Sections/5SiPM/56Voltaje}
-	
-	%\subsection{Aquí para abajo las demas calibraciones que haré con los PMTs}\label{sec:demáscalibraciones}
-	%%\input{./Sections/5SiPM/56Voltaje}
-
-%\newpage
-%\chapter{Calibracion de los fotomultiplicadores de silicio (SiPM)} \label{chap:SiPM}
-%%\input{./Sections/5SiPM/51IntroSiPM}
-	%\section{Equipo y montaje experimental}\label{sec:Equipo}
-	%%\input{./Sections/5SiPM/52Equipo}
-	
-	%\section{Características de la tarjeta}\label{sec:Tarjeta}
-	%\input{./Sections/5SiPM/53CalibracionTarjeta}
-	
-	%\section{Análisis de datos}\label{sec:Analisis}
-	%%\input{./Sections/5SiPM/54Analisis}
-	
-	%\section{Calibración en temperatura}\label{sec:Temperatura}
-	%%\input{./Sections/5SiPM/55Temperatura}
-
-	%\section{Calibración en voltaje de operación}\label{sec:Voltaje}
-	%%\input{./Sections/5SiPM/56Voltaje}
-	
-	%\section{Estabilización de la ganancia}\label{sec:Compensacion}
-	%%\input{./Sections/5SiPM/57Compensacion}
-
-%\newpage
-%\chapter{Prototipo} \label{chap:Prototipo}  
-%%\input{./Sections/6Prototipos/61IntroPrototipos}
-	%\section{Configuración del prototipo}\label{sec:Configuracion}
-	%%\input{./Sections/6Prototipos/62Configuracionprototipo}
-	
-	%\section{Procedimiento de llenado}\label{sec:Llenado}
-	%%\input{./Sections/6Prototipos/63Llenado}
-	
-	%\section{Configuración de la electrónica}\label{sec:Electronica}
-	%%\input{./Sections/6Prototipos/64Configuracionelectronica}
-	
-	%\section{Resultados}\label{sec:Resultados}
-	%%\input{./Sections/6Prototipos/65Resultados}
-
-%\newpage
-%\chapter{Simulaciones} \label{chap:Simulaciones}
-%%\input{./Sections/7Simulaciones}
-
-%\newpage
-%\chapter{Previsiones de futuro} \label{chap:Futuro}
-%%\input{./Sections/8Previsiones}
-
-%\newpage
-%\chapter{Resultados y conclusiones} \label{chap:Conclusiones}
-%%\input{./Sections/9Conclusiones2}
-
 \appendix
 \appendixpage
 \noappendicestocpagenum
 \addappheadtotoc
+
+\chapter{Birks coefficient study}\label{App:Birks}
+Aún faltan cosas por decir.
 
 \chapter{Más cosas}\label{App:A}
 Aún faltan cosas por decir.
