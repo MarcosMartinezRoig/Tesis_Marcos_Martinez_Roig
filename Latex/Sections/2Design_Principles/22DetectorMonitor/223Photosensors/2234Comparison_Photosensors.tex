@@ -1,0 +1,17 @@
+As we have said before, we are going to use two of the most widely used photosensors in the world, PMT and SiPM. Each has some properties that are better than the other for our experiment and its own problems. We will have to test both and choose the one with which we achieve better results.
+
+The output signal of both photosensors used is proportional to the number of incident photons and they have a similar internal gain (of the order of $10^6$). Both properties are essential for our experiment in order to detect tritium events and obtain a signal large enough to be measured and processed. 
+
+They have fast output signals, whose rise time is shorter than nanoseconds, and a wide spectral sensitivity that is similar for both ($[200-800]~\nano\second$ for PMT and $[300-900]~\nano\second$ for SiPM).
+
+The supply voltage necessary to work with SiPM, on the order of tens of volts, is much lower than that of PMTs, which require high voltage, that is, on the order of thousands of volts and the PDE at $420~\nano\meter$,  achieved with SiPM is higher, around $50\%$, than PMT, whose PDE is around $20\%$. A large PDE is essential because, as we have seen before, the number of photons that we will read in each tritium event will be very low, so we must detect as many photons in each event as we can.
+
+Furthermore PMTs, due to the reason that they consist of a vacuum tube, are more bulky and fragile than SiPMs, which are compactness and robust. It is an advantage of the SiPMs because we want that our detector work during a lot of years so we need that this to be durable. For the same reason, SiPMs are easier to build and therefore much cheaper, tens of euros, than PMTs, thousands of euros.
+
+On top of that the behavior of the PMTs is affected by magnetic fields, something which doesn't happen with SiPMs with which it has been tested that it can work correctly with magnetic field intensities between 0 and 7 Tesla. 
+
+In addition to that, due to their enormous uniformity, SiPMs are capable of distinguishing the exact number of photoelectrons detected and even resolving a spectrum of a single photoelectron, which is not possible with PMTs due to variations in their gain.
+
+On the other hand, the dark current rate for PMTs is much lower (a few counts per second) than for SiPMs, whose dark current rate is between 0.1 and 1 Mcps\footnote{Mega counts per second, $10^6$c/$\second$} (depends on its size) and it happens almost entirely at the level of a single photoelectron. It is a problem of the SiPMs because we need to distinguis the tritium signal from this background. In addition to that, SiPMs have other properties, such as the crosstalk of the afterpulses, that must be measured and extracted since they can affect the correct measurement. We will see how to do it in the section \ref{sec:CharacterizationSiPM}
+
+Also, the SiPMs output signal is affected by a slight change in temperature, something which doesn't happen with PMTs. It is a serious problem of the SiPMs for our experiment because we will work in the field, where we cannot avoid such a low temperature change. As we will see in section \ref{sec:CharacterizationSiPM} we will solve this problem with a suitable change in the supply voltage that compensates for this variation.

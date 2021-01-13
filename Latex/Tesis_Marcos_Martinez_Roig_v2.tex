@@ -18,6 +18,17 @@ $\ $
 my family}
 \end{flushright} 
 
+\vspace{10cm}
+
+\begin{flushleft}
+Sometimes it's the people no one imagines anything \\
+of whom do the things that no one can imagine.
+\end{flushleft} 
+\begin{flushright}
+\textbf{"Alan Turing"}
+\end{flushright} 
+
+
 \newpage
 
 \chapter*{Acknowledgements} \label{chap:Acknowledgements}  %pongo el asterisco para que no se numere ni aparezca en el índice
@@ -88,7 +99,7 @@ my family}
 	\newpage
 	
 	\section{Work scheme}
-	\input{./Sections/1Introduction/15Work_scheme}\label{sec:WorkScheme}
+	%\input{./Sections/1Introduction/15Work_scheme}\label{sec:WorkScheme}
 	\newpage	
 	
 \chapter[Design principles]{Design principles of the Tritium monitor}\label{chap:DesignPrinciples}
@@ -130,15 +141,19 @@ my family}
 					
 		\subsection{Readout system of photosensors}\label{subsec:Electronic}
 			%\subsubsection{Introduction}
-			\input{./Sections/2Design_Principles/22DetectorMonitor/224ElectronicalSystem/2241ElectronicalSystemIntro}\label{subsec:IntroductionElectronicalSystem}
+			\input{./Sections/2Design_Principles/22DetectorMonitor/224ElectronicalSystem/2241ElectronicalSystemIntro}\label{subsec:IntroductionHemos hablado ElectronicalSystem}
 			%\newpage
 	
 			\subsubsection[Electronical system for PMTs]{Electronical system for PMTs}
 			\input{./Sections/2Design_Principles/22DetectorMonitor/224ElectronicalSystem/2242PMTsElectronicalSystem}\label{subsubsec:PMTsElectronicalSystem}
 			%\newpage
-	
+			
+			\subsubsection[Electronical system for a SiPM]{Electronical system for reading a SiPM }
+			\input{./Sections/2Design_Principles/22DetectorMonitor/224ElectronicalSystem/2243SiPMElectronicalSystem}\label{subsubsec:SiPMElectronicalSystem}
+			%\newpage			
+			
 			\subsubsection[PETSYS (SiPMs)]{Electronical system for SiPMs arrays (PETSYS) }
-			\input{./Sections/2Design_Principles/22DetectorMonitor/224ElectronicalSystem/2243PETSYS}\label{subsubsec:PETSYS}
+			\input{./Sections/2Design_Principles/22DetectorMonitor/224ElectronicalSystem/2244PETSYS}\label{subsubsec:PETSYS}
 			\newpage		
 		
 	\section{Ultrapure water system}\label{sec:UltraPureWaterSystem}
@@ -154,7 +169,7 @@ my family}
 		\newpage	
 	
 	\section[Background shields]{Tritium monitor background shields}\label{sec:BackgroundShields}
-	\input{./Sections/2Design_Principles/24BackgroundShields/241IntroBackgrund} \label{sec:IntroductionBackground}
+	%\input{./Sections/2Design_Principles/24BackgroundShields/241IntroBackgrund} \label{sec:IntroductionBackground}
 	%\newpage
 	
 		\subsection[Set up passive shield]{Set up of the passive shield (lead)} %\label{sec:Scintillators}
@@ -247,8 +262,8 @@ my family}
 \chapter{Birks coefficient study}\label{App:BirksA}
 \input{./Sections/9Appendix/91BirksAppendix}
 
-\chapter{More things}\label{App:B}
-\input{./Sections/9Appendix/92AppendixB}
+\chapter{Electronic system configuration parameters}\label{App:B}
+\input{./Sections/9Appendix/92ElectronicsParametersAppendix}
 
 \chapter{And even more things}\label{App:C}
 \input{./Sections/9Appendix/93AppendixC}

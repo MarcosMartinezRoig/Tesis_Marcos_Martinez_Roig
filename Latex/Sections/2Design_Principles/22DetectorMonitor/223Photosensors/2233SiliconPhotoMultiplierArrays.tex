@@ -1,95 +1,139 @@
-0Basado en la tesis de NEXT y completar con cosas del TFG de Andrea Chana y la tesis larga.
+The Silicon Photomultiplier (SiPM) is a photosensor, based on semiconductor materials, which has been developed in recent decades and they are replacing conventional PMTs in some experiments or applications. They have been designed to archive outstading photon-counting capabilities better than conventional PMTs with high gain and high photodetection efficiency equal to or larger than conventional PMTs but with some important differences like insensitiveness to magnetic fields, low operating voltage, compactness among other differences.
 
-Me quedo con el SiPM array de area de SiPM mayor debido a la sensibilidad... punto 4.2 de la tesis de SiPM (LARGA).
+\textbf{Semiconductor materials} 
 
-resumen de como varía cada magnitud con la temperatura y el voltaje. Tesis SiPMs.
+Silicon is a semiconductor material and, like any semiconductor material, it has an electronic band structure that consists of two bands: Valence band and conduction band which are separated by a forbidden energy gap (with width of around $1~\eV$ for semiconductors \cite{Leo}) where there cannot be electrons. These energy bands are based on many energy levels that are so close that we can consider a continuum. You can see a diagram of these bands in Figure \ref{fig:EnergyBandsSC}.
 
-tabla con las propiedades del SiPM.
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.6]{3DesignPrinciples/32Tritium_detector/Energy_bands_isolate_semiconductor_conductor.png}
+\caption{Energy band scheme for (a) insulator, (b) semiconductor and (c) conductor.\label{fig:EnergyBandsSC}~\cite{Leo}}
+\end{figure}
 
-Hablar de la electrónica como en el tema 5 de la tesis larga.
+Electrons in the conduction band, unlike those in the Valence band, can move freely in the material so they contribute to the electric current. 
 
-Inocherent light source!
+Silicon has four electrons in their valence band (tetravalent atom) so it form four covalent bounds creating a cristal lattice ($\ce{Si_2}$). Normally a small quantity of impurities ($10^{13}$ atoms/$cm^3$) are added to modifying this lattice, that's dopping the material. 
 
-fired cells.
+If the dopant has 5 valence electrons (pentavalent atom like phosphorus or arsenic) there will be a free electron which will be at an energy level created in the forbbiden band, very close to the conduction band. It is called "n-type" semiconductor and the electrons are the majority charge carriers.
 
-Trabajo de Fernando Hueso.
+Otherwise, if the dopant has 3 valence atoms (trivalent atom like gallium or boron) it will have a hole\footnote{Electron absence in the crystal lattice} that will be at an energy level created in the forbidden band, very close to the valence band. In this case, the holes are the major charge carriers and this element is called "p-type" semiconductor.
 
-Con la serie S13360 de SiPMs (la nuestra) -> The MPPCs inherits the superb low afterpulse characteristics of previous products and further provide lower crosstalk and lower dark count.
+Both configurations (p-type or n-type semiconductor) are shown in the figure \ref{fig:NPType_SC}.
 
-Describir un APD -> Tesis NEXT.
-Describir un SiPM -> Tesis NEXT, completar con lo de Andrea y la tesis larga.
-Descrpción de SiPMs array. Data sheet 
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.6]{3DesignPrinciples/32Tritium_detector/N_P_type_semiconductors.png}
+\caption{Crystal lattice and energy band scheme formed by a silicon with (left) a pentavalent dopant that creates an n-type semiconductor (right) a trivalent dopant that creates a p-type semiconductor. \label{fig:NPType_SC}~\cite{Leo}}
+\end{figure}
 
-SiPMs are small solid state photosensors with signal levels similar to PMTs and excellent photon counting capabilities. Their use as imaging cells in NEXT-100 has moreover the advantage of providing an optimal spatial resolution (active area down to 1 mm 2 ) at a moderate cost and a reduced radioactivity budget (micro Bq/kg level for the 238 U and 232 Th radioactive chains [21]). SiPMs have an optimal sensitivity in the blue spectral region (around 440nm).
+SiPM is based on a silicon diode formed by a junction of n-type and p-type semiconductors that is made with special techniques to archive a good contact between both surfaces.
 
-B. Photon Detection Efficiency -> entero.
+This union creates the so-called depletion zone, which is the interface between both materials. In this zone, there are a diffusion of electrons to the p-type semiconductor and holes to the n-type semiconductor due to the difference in the concentration of the majority charge. This re-arrange of the charge creates an electric field in the depletion zone contrary to the movement of these charges, whose potential difference, called contact potential, is $V_0 = 0.7~\volt$ for silicon \cite{Leo}. All this information is shown schematically in the figure \ref{fig:DiodeScheme}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.6]{3DesignPrinciples/32Tritium_detector/SchemeSiPMDiodo.png}
+\caption{(Above) Schematic of the charge distribution and electric field created in a pn-junction. (Bottom) Commonly used symbol for a diode.\label{fig:DiodeScheme}~\cite{TesisNEXTSiPMs}}
+\end{figure}
+
+There are no charge carriers in the depletion zone and, if any one are created, they will be swept out by the electronic field (special interesting property for radiation detectors since charge carriers are created in this zone when ionizing radiation crosses through it).
+
+If we want to use this p-n junction as a particle detector, this setup has some problems that we have to overcome. On the one hand we need to prevent the charge recombination in order to optimize its collection in the depletion zone. On the other hand we need to increase the width of the depletion zone (it is $0.5~\micro\meter$, too small to stop interesting particles) and, as we will see in the section \ref{sec:CharacterizationSiPM}, this small width increases the capacitance value that will increase the noise in the output signal.
+
+We managed to overcome these problems if we apply a bias voltage across the junction. If this bias voltage is with positive terminal in p-type semiconductor and negative terminal in n-type semiconductor, which is called forward bias voltage, it will create an additional electric field opposite the internal electric field, which will attract electrons in n-type towards p-type and holes in p-type towards n-type. In short, it will reduce the depletion zone, and if the applied voltage is greater than the contact potential, an electric current will be created even if no charge has deposited their energy in the depletion zone.
+
+However, if this bias voltage is applied with positive terminal in n-type semiconductor, negative terminal in p-type semiconductor, which is called reverse bias voltage, the contrary effect will happen and the intensity of the electric field in the depletion zone will be increased. This effect will be limited by the resistence of the semiconductor and if we use a too large bias voltage the pn-juntion will breakdown and it will begin conducting. 
+
+If reverse bias voltage is applied, we can solve all the problems mentioned above. In this case, the charge collection will be improved and the width of the depletion zone will be increased. If ionizing radiation crosses the depletion zone, which is wide enough to detect interesting particles, it will deposit their energy and, due to that, charge charriers will be created\footnote{The energy required to create an electron-hole pair in silicon is $3.62~\eV$ in STP\cite{Leo}} which will be swept due to the electric field and an optimized current signal will be created. 
+
+Depending on the intensity of the polarization voltage we can work in different modes and we will have different output signals. If the bias voltage is less than the threshold, the charge carriers will recombine and no output signal will be produced. If the bias voltage is larger than threshold an avalanche is created due to each original electron and it is independent of other possible avalenches. Due to this avalanche, it has a gain whose valuer is around $200$. This mode is called proportional mode since the collected charged is proportional to the energy deposited. Finally, If the bias voltage is even larger, each avalanche can trigger a second avalanche and, due to that, their internal gain is higher than the proportional mode\footnote{The gain of commercial SiPMs, for example Hammamatsu, is of the order of $10^6$, similar to the PMTs}, that's, it's output signal will be larger. This mode is called Geiger mode since the output signal only show when a detection has happened but it is not proporcional to the energy deposited. 
+
+The voltage at which the SiPM changes from proportional to geiger mode is called the breakdown voltage, $ V_ {BR} $. If it works at a lower voltage it is in proportional mode but if it works at a higher voltage, it works in geiger mode. The measurement of the breakdown voltage is one of the most important things to characterize the SiPM and I show how we have done it in the section \ref{sec:CharacterizationSiPM}.
+
+\textbf{Silicon photomultiplier}
+
+The SiPM is based on a matrix of APDs which are photodiodes operating in geiger mode. A scheme of an APD used in a SiPM is shown in the figure \ref{fig:SchemeAPD}. It has p+ and a n+ layers\footnote{p+ and n+ layers are the same as p and n layers, explained before, but with higher concentrations of acceptor impurities or donor impurities respectively CHECK THAT!!} that are used because they improve the properties of SiPMs but the way these APDs work is the same as that described before. 
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.6]{3DesignPrinciples/32Tritium_detector/APD_scheme.png}
+\caption{Scheme of a APD and electrical symbol used.\label{fig:SchemeAPD}~\cite{OSI}}
+\end{figure}
+ 
+These APDs, called pixels when they are part of a SiPM, are connected in parallel and we read the sum of all of them at each moment. The output signal of each pixel is approximately the same regardless of the energy deposited, with some difference due to the uncertainty in the SiPM manufacturing process and the statistical nature of the detection process. Due to that, we cannot know the energy deposited in each APD but, as we read all SiPM pixels at the same time, as you can see in the figure \ref{}, the charge on the output signal when we detect n photons simultaneously will be n times the charge we have when we detect only one photon. Due to this property, after a correct calibration of our SiPMs which will be shown in the section \ref{sec:CharacterizationSiPM}, we can know how many particles (photons in our case) we have detected, which have a linear relationship with the output signal. 
+
+Furthermore, as we saw in section \ref{subsec:PlasticScintillators}, since we work with scintillators, in our case, the number of photons is proportional to the deposited energy, so we can recover the characteristic linearity of its output signal and to know the energy deposited in our scintillator, and, therefore, the energy of the initial radioactive event, which will be one of the most important parameters in our signal.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.6]{3DesignPrinciples/32Tritium_detector/Several_SiPM_pulses.png}
+\caption{Using persistence on the oscilloscope to show several pulses with different heights. Each height associated with a different number of  SiPM pixels lit at the same time.\label{fig:PulsesOfSiPM}}
+\end{figure}
+
+On top of that, these pixels need to be so small\footnote{Pixel sizes for commercial SiPMs are $50$ or $75\mu\meter$ \cite{DataSheetHammamatsu_1_SiPM_50}, \cite{DataSheetHammamatsu_1_SiPM_75}} that, if the photon density to be detected is low enough, we only detect one photon in each pixel. If it doesn't happen, we will detect two or more photons with the same pixel but the output signal will be the same as one detected photon, so we will have a loss of linearity of our output signal. This effect is known as saturation and it is important to know the photon density at which it happens for our SiPMs. The experimental measurements of this effect, which have been done for our SiPMs, is shown in the section \ref{sec:CharacterizationSiPM}. SI LA MIDO YO PERFECTO, SI NO PONER UNA FOTO DE LA TESIS LARGA.
+
+Each of these pixels has a quenching resistance\footnote{The tipical valuer of this quenching resistance for commercial SiPMs is around $500~\kilo\Omega$} in series that is used to stop the current produced when this pixel has detected a particle. It is used for limit the current drawn by the diode during breakdown and reduce the reverse voltage seen by the diode to one below the breakdown voltage. After that, the voltage seen by the diode is reset to the bias voltage and this pixel is ready to detect a new particle again. In figure \ref{fig:ChenchingResistance} (left) a diagram of these chenching resistances and APDs in a SiPM and (right) how it works is shown respectively.
+
+\begin{figure}[htbp]
+\centering
+{
+%\subfloat[PDE]
+\includegraphics[scale=0.35]{3DesignPrinciples/32Tritium_detector/Quenching_resistence_of_a_SiPM_scheme.png}
+%\caption{Simple electronic model of a SiPM.\label{fig:ElectricModelSiPM}~\cite{DataSheetSensL}}
+}
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.5]{3DesignPrinciples/32Tritium_detector/How_a_quenching_resistence_in_a_SiPM_works.png}
+%\caption{Output current of a SiPM as a function of the reverse voltage. It show that the quenching mechanism is essential for working with SiPMs\label{fig:HowSiPMworks}~\cite{DataSheetSensL}}
+}
+\caption{(Left) Electronic scheme of a SiPM and (right) output current of a SiPM as a function of the reverse voltage. It show that the quenching mechanism is essential for working with SiPMs\label{fig:ChenchingResistance}~\cite{DataSheetSensL}}
+\end{figure}
+
+In this simple electrical scheme we can see that all pixels have a common cathode and anode which means that, as we said before, they are at the same bias voltage and the output is the sum of all of them.
+
+We have a lot of names to refer to these photosensors such as SiPMs, MPPCs, G-APDs, SSPMs, MRS-ADPs or AMPDs. The candidate for TRITIUM project is S13360-6075 from Hamamatsu photonics \cite{DataSheetHammamatsu_1_SiPM_75} because its characteristics are the ones that best fit our objectives since this model has super low afterpulses, crosstalk and dark counts than other SiPM models from Hammamatsu. Its characteristics and properties are shown in the table \ref{tab:PropertiesOfSiPM75}. 
+
+\begin{table}[htbp]
+%%\centering.
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+Parameter & Numerical value \\
+\hline \hline \hline
+Serie & $S13360$ \\ \hline
+Model & $6075$ \\ \hline
+Pixel Pitch ($\mu\meter$) & $75$ \\ \hline
+Effective photosensitive area ($mm^2$) & $6.0 \times 6.0$ \\ \hline
+Number of pixels & $6400$ \\ \hline
+Fill factor & $82\%$ \\ \hline
+Refractive index of windows material & $1.55$ \\ \hline
+Operating temperature range ($\degree C$)& $[-20,60]$ \\ \hline
+Spectral response range, $\lambda$ ($\nano\meter$) & $[320, 900]$ \\ \hline
+Peak sensitivity wavelength, $\lambda_p$ ($\nano\meter$) & $450$ \\ \hline
+PhotoDetection Efficiency, PDE, $\lambda=\lambda_p$ ($\%$) & $50$ \\ \hline
+Dark counts, Typical/Maximum (kcps) & $2000/6000$ \\ \hline
+Terminal capacitance, $C_t$ ($\pico\farad$) & $1280$ \\ \hline
+Gain, M, & $4 \cdot{} 10^6$ \\ \hline
+Breakdown Voltage, $V_{BR}$ ($\volt$) & $53$ \\ \hline
+Cross talk probability($\%$) & $7$ \\ \hline
+Temperature coefficient $\Delta TV_{op}$ (m$\volt/\degree C$) & $54$ \\ \hline
+\end{tabular}
+\caption{Characteristics of SiPM S13360-6075 from Hammamatsu Photonics \cite{DataSheetHammamatsu_1_SiPM_75}.}
+\label{tab:PropertiesOfSiPM75}
+\end{center}
+\end{table}
+
+These characteristics and properties will be explained and their experimental measurements will be shown in section \ref{sec:CharacterizationSiPM}. These numerical values, which appear in the table \ref{tab:PropertiesOfSiPM75}, are provided by Hammamatsu photonics but it is only an approximation for this model. These parameters must be determined experimentally for each SiPM used because it can be very different even if it is the same model.
+
+It must be taken into account that we will do this characterization at the level of a single SiPM because, at the beginning, it is easier to understand the results but we will work with a matrix of them and we will have to do this characterization for each matrix used. 
+
+The matrices under consideration are the model "S13361-6050" from Hammamatsu, which consists of a $4\times 4$ SiPM matrix where the active area of each SiPM is $6\times 6$ m$\meter$ \cite{DataSheetHammamatsu_array_SiPM_6050} or the model "S13361-3050" from Hammamatsu, which consists of a $8\times 8$ SiPM where the active area of each is $3\times 3$ m$\meter$ \cite{DataSheetHammamatsu_array_SiPM_3050}. They are a commercial matrices from Hammamatsu and, as you can see, the total active area that we will cover with these arrangements is the same in both cases, $24\times 24$ m$\meter$ and it is approximatelly the same that the active area covered with the PMTs used, which has been shown in the previous section.
+
+These matrices have a common bias voltage and common ground for all SiPMs that are contained and we will have an output signal for each SiPM. 
+
+We hope to obtain better results with the 4x4 matrix for theoretical reasons which we will see in the section \ref{sec:CharacterizationSiPM} like larger PDE, mainly due to a larger active area but it is something that we will have to verify with experimental measurements.
 
 
-Algunas de estas ventajas son: inmunidad a campos magnéticos, facilidad de uso (simpleza de resultados generados), tamaño compacto, buena linealidad, electrónica simple, alta ganancia a bajo voltaje de polarización, alta eficiencia de detección de fotones (Photon detection efficiency), tiempo de respuesta corto, alto ritmo de conteo (count rate), buena resolución temporal, y un amplio rango de respuesta espectral (MANUAL MPPC HAMAMATSU, España et al., 2009, Ramili et al, 2012). Se ha comprobado que estos aparatos tienen buen desempeño bajo campos magnéticos de 0 a 7 Tesla, al igual que su conveniencia para adquisiciones tipo PET bajo la presencia de gradientes cambiantes y secuencias de radiofrecuencia de MRI (España et al., 2009, p. 1)
-
-Aunque el aumentar el voltaje inverso mejora la eficiencia de detección de fotones, también aumenta la corriente oscura. Reducir la temperatura sin embargo disminuye la corriente oscura.
-
-Para contar el número de veces que dos o más fotones son detectados simultáneamente, el umbral les establecido en N – 0.5 p.e. (donde N es un número arbitrario de fotones). Al contar el número de pulsos que exceden este umbral se puede saber el número de veces que se han detectado simultáneamente N o más fotones (Manual Hamamatsu, 2008, 2007)
-
-En este trabajo se estudió tanto la variación en la resolución en energía de un SiPM como la variación del centroide de un pico (explicado a detalle en los próximos capítulos) con la temperatura y el voltaje. Para ello se estableció una electrónica de adquisición adecuada para la mayor eliminación de ruido posible y óptima resolución (explicada en el Capítulo 3).
 
 
-Superponer 2 plots con el LED a distintos voltajes (2 o mas... probar varios voltajes a Vov recomendado y quedarnos con los mejores).
-
-Intro 1.1 de la tesis "Uso de fotomultiplicadores de silicio para medidas der alta velocida y baja intensidad luminosa".
-
-"Solid state technologies have evolved a lot in recent decades and the development of new high sensitivity semiconductor devices is a reality nowadays. In fact, current Silicon Photomultipliers (SiPMs) are replacing PMTs in many fields, and probably, they will not have rival in a next future."
-
-Basarse en la memoria de Andrea Chana y completar
-
-Un fotomultiplicador es un aparato que convierte señales luminosas en señales eléctricas.
-
-poner PDE en la lista de nomenclatura
-
-poner APD en nomenclatura
-
-Durante los últimos años se han introducido fotodetectores de estado sólido compatibles con altos campos magnéticos: APDs y más recientemente SiPMs. Esta tendencia de uso de detectores compactos, unido al aumento del número de canales en los detectores, ha hecho imprescindible el desarrollo de electrónica integrada en PET. La arquitectura electrónica típica para PET se basa en la digitalización y lectura de la carga que proporcionan los fotosensores, para lo cual se realiza un proceso de amplificación de bajo ruido y adaptación de señal al digitalizador. Sin embargo, existen hoy en día otras formas de detección alternativas, como esquemas time over threshold (ToT) o digitalizadores directos de formas de onda.
-
-Los detectores basados en semiconductores, que comprenden a los APDs y a los SiPMs, son insensibles a los campos magnéticos y actualmente ofrecen una alternativa a la opción clásica basada en PMTs. Ambos dispositivos generan portadores libres debido al efecto fotoeléctrico, produciendo una corriente eléctrica proporcional a la intensidad de la luz incidente. Cuando los fotodetectores son capaces de multiplicar fotoelectrones primarios, se pueden producir corrientes eléctricas grandes incluso en el caso de que incida un único fotón.
-
-Figura 11 de la tesis de cristales monoliticos
-
-Este proceso multiplicativo en un APD también produce un ruido estocástico inherente que no está presente en un fotodiodo convencional y que se conoce con el nombre de factor de ruido en exceso (F). Este ruido aumenta según lo hace la ganancia M del APD (Ec.15), lo que obliga a operar con una ganancia interna moderada, ya que este ruido en exceso es uno de los principales factores limitantes con estos dispositivos.
-
-La ganancia M, depende exponencialmente de la tensión de polarización inversa del dispositivo (Fig. 11, derecha). Sin embargo, en la región de operación de los APDs con M ~ 100, un cambio relativo de tensión de polarización corresponde a un cambio lineal en la ganancia, con pendientes típicas de 10 \%/V. Además, la temperatura debe estar debidamente estabilizada en un sistema con APDs ya que estos detectores sufren variaciones importantes con la temperatura, típicamente ~ 2-3 \%/ oC
-
-Todo el apartado de SiPMs de esta tesis. Lo de antes era de APDs.
-
-IMPORTANTE PARA JUSTIFICAR EL SIPM ARRAY ESCOGIDO -> 4X4:
-
-El número de celdas de un SiPM dependerá de la aplicación específica. Será lo suficientemente elevado para detectar la cantidad de fotones esperada pero sin exceder innecesariamente este valor, ya que cada celda necesita de espacio para las resistencias de quenching de cada APD y para la separación y aislamiento entre las diferentes celdas. Cuanto mayor sea el número de celdas, mayor será el espacio muerto y menor su eficiencia. Por el contrario, un número de celdas inferior con celdas de mayor tamaño, implica una alta eficiencia de detección de fotones (Photon Detection efficiency, PDE) pero un rango dinámico bajo. La PDE en un SiPM se define como su eficiencia cuántica por el ratio entre el área sensitiva y el área total del dispositivo, lo que se conoce como factor de llenado (fill factor) y se representa con “epsilon”, por la probabilidad de que un fotoelectrón comience un proceso de avalancha (Ec. 19). Aparte de la longitud de onda, 
-
-
-señal lineal con la luz entrante.
-
-MPPC Multi-Pixel Photon Counter
-
-Linear response with the incoming photons.
-
-Ver apuntes generales comentados de photosensores en la intro de photosensores
-
-Los tubos fotodetectores (PMT) son los dispositivos adecuados para esto, aunque, sin embargo, los avances tecnologicos de las ultimas decadas en tecnologia de semiconductores ha permitido el desarrollo de los fotodiodos de avalancha operados en modo Geiger (APD, Avalanche PhotoDiode)
-
-Actualmente, la tecnologia de semiconductores ha permitido el desarrollo de fotodiodos que, por sus prestaciones, pueden reemplazar adecuadamente a los PMT. 
-
-4.5. Recent trends on SiPMs
-The size of commercially available SiPMs is currently limited to approximately 10 mm 2 [164] Roncali-2011 . The restricted are is dictated both by manufacturing and noise considerations. 
-
-Most of the devices produced up today have an area of 1 x 1 mm 2 . SiPMs of 3 x 3 mm 2 and 4 x 4 mm 2 have been also produced, but their use is limited since the noise level scales with the area of the device. 2D matrixes of 1 x 1 mm 2 SiPMs devices on the same substrate are suitable. Such devices increase the detection area maintaining on each read-out channel a noise level corresponding to a SiPM of 1 mm 2 and providing at the same time 2D position information with a spatial resolution of 1 mm 2 [165] Dinu-2009 .
-
-
-produced in the process. If each ionization process could be considered independent of the others, the fluctuations would then be described by a Poisson distribution where the variance (sigma 2 ) would be equal to the mean number of ionization electrons, N I . However, the fluctuations in the mean number of ionization electrons present a lower value, as predicted by Fano’s theory [66], being proportional to a factor F, known as the Fano Factor, which multiplies the mean primary ionization yield. 
-
-NEXT:
-To shield NEXT-100 from the remanent external flux of high-energy gamma rays, a lead castle structure has been designed and built (see Figure 3.9). The lead wall has a thickness of 20 cm and is made of layers of staggered lead bricks held with a steel structure. The lead bricks have standard dimensions (200 x 100 x 50 mm 3 ), and by requirement, an activity in uranium and thorium lower than 0.4 mBq/kg. The lead castle, with a total weight of 60 tons,
-
-
-
-
-Por su parte, el fotomultiplicador de Silicio (SiPM en adelante), desarrollado a finales del pasado milenio, acomete finalmente con éxito el reto de detectar, medir temporalmente y cuantificar señales poco luminosas hasta el nivel de un solo fotón. Los SiPM ofrecen una alternativa altamente atractiva que replica minuciosamente las propiedades de detección en condiciones de baja luminosidad de los PMT, proporcionando al mismo tiempo todos y cada uno de los beneficios de los detectores de estado sólido. Un SiPM ofrece la opción de trabajar con bajos voltajes de operación (menos de
-100 V normalmente), posee insensibilidad a los campos magnéticos, destaca por su robustez mecánica y excelente uniformidad de la respuesta y es además muy compacto en dimensiones.
+Nuestro SiPM esta dopado? con que?

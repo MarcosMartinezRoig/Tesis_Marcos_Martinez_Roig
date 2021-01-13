@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  16 DEC 2020 10:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  18 DEC 2020 12:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -193,38 +193,77 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no ) in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
+! Undefined control sequence.
+\@footnotetext ...tins {\reset@font \footnotesize 
+                                                  \interlinepenalty \interfo...
+l.1 ...otnote{photons in the visible energy range}
+                                                   which we can detect and q...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@footnotetext ...}\color@begingroup \@makefntext 
+                                                  {\rule \z@ \footnotesep \i...
+l.1 ...otnote{photons in the visible energy range}
+                                                   which we can detect and q...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (34.50009pt too wide) in paragraph at lines 1--1
+[][]\OT1/cmr/m/n/10 photons
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 1--1
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 1--1
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (15.33336pt too wide) in paragraph at lines 1--1
+\OT1/cmr/m/n/10 vis-
+ []
+
+
+Overfull \hbox (6.11111pt too wide) in paragraph at lines 1--1
+\OT1/cmr/m/n/10 i-
+ []
+
+
+Overfull \hbox (12.7778pt too wide) in paragraph at lines 1--1
+\OT1/cmr/m/n/10 ble
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 1--1
+\OT1/cmr/m/n/10 en-
+ []
+
+
+Overfull \hbox (18.63893pt too wide) in paragraph at lines 1--1
+\OT1/cmr/m/n/10 ergy
+ []
+
+
+Overfull \hbox (23.91672pt too wide) in paragraph at lines 1--1
+\OT1/cmr/m/n/10 range| 
+ []
+
 Missing character: There is no w in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -413,6 +452,11 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
+[]
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 1--2
 []
  []
 
@@ -1719,10 +1763,6 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no , in font nullfont!
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 9.
 ! Undefined control sequence.
 <recently read> \ce 
                     
@@ -2876,36 +2916,68 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no P in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+\@footnotetext ...tins {\reset@font \footnotesize 
+                                                  \interlinepenalty \interfo...
+l.19 ... \footnote{standar temperature conditions}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@footnotetext ...}\color@begingroup \@makefntext 
+                                                  {\rule \z@ \footnotesep \i...
+l.19 ... \footnote{standar temperature conditions}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (32.86119pt too wide) in paragraph at lines 19--19
+[][]\OT1/cmr/m/n/10 standar
+ []
+
+
+Overfull \hbox (20.00003pt too wide) in paragraph at lines 19--19
+\OT1/cmr/m/n/10 tem-
+ []
+
+
+Overfull \hbox (17.5278pt too wide) in paragraph at lines 19--19
+\OT1/cmr/m/n/10 per-
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 19--19
+\OT1/cmr/m/n/10 a-
+ []
+
+
+Overfull \hbox (17.80559pt too wide) in paragraph at lines 19--19
+\OT1/cmr/m/n/10 ture
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 19--19
+\OT1/cmr/m/n/10 con-
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 19--19
+\OT1/cmr/m/n/10 di-
+ []
+
+
+Overfull \hbox (21.16672pt too wide) in paragraph at lines 19--19
+\OT1/cmr/m/n/10 tions| 
+ []
+
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 19--20
@@ -2920,6 +2992,11 @@ Overfull \hbox (22.77785pt too wide) in paragraph at lines 19--20
 
 Overfull \hbox (14.6042pt too wide) in paragraph at lines 19--20
 \OML/cmm/m/it/10 S[]$
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 19--20
+[] 
  []
 
 
@@ -4032,7 +4109,6 @@ Missing character: There is no x in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no q in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -6201,9 +6277,9 @@ Missing character: There is no . in font nullfont!
 Here is how much of TeX's memory you used:
  20 strings out of 492982
  363 string characters out of 6134895
- 57242 words of memory out of 5000000
+ 58242 words of memory out of 5000000
  3685 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 19i,5n,21p,885b,140s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 24i,5n,21p,885b,138s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

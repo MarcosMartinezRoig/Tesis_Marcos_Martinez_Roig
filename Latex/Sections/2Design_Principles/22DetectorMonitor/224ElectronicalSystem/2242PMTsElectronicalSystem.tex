@@ -1,3 +1,29 @@
+In the different tests in which we have used PMT, we were interested in two different main objectives. On the one hand, we were interested in knowing the amount of incident photons that reached the PMT photocathode, which could be interesting, for example, to characterize the fibers, and, on the other hand, we were interested in the energy of each event that occurred, which could be interesting, for instance, to obtain an energy spectrum or to discriminate events based on their energy(for counting only interesting events or for knowing the origin of these events).
+
+In the first case, if we want to know how many photons have reached the photocathode and for this we must avoid the electron multiplication stage that we saw in section \ref{}. The reason for this is that it introduces a large uncertainty in the measurement result. This stage could be interesting in other situations such as when we need to know the energy of the event because, as we saw, the use of it greatly enlarge our signal, a factor of the order of $10^6$, and, due to that, it is easier to analyze and process this signal. MAS RAZONES??
+
+To achieve this, we design, build and test special PCBs, whose electronic scheme is shown in the figure \ref{}, in which we short-circuit all the dynodes and read the signal directly from the photocathode.
+
+PHOTOGRAPHIC AND ELECTRONIC DESIGN.
+
+This PCB is designed to be powered with positive supply voltage and, due to the reason that we don't need to create a voltage difference between each pair of dinodes in the chain (we only need to create a voltage difference between the photocathode and the first one dinode), the supply voltage needed to work in this way is less, $[0-400~\volt]$.
+
+The problem with this configuration is that the output signal of our photosensor is very fast and small (currents of the order of hundreds of picoamperes\footnote{One ampere equals $10^{12}$ picoamperes, $1~\ampere=10^{12}~\pico\ampere$}) and we need a special system to analyze these types of currents. The one we have chosen is "...", which is a commercial system from the "..." company, because it has some interesting options for this study such as automatic baseline correction, the ability to read signals as small as picoamps and the ability to perform some interesting mathematical operation, such as the average of N measurements with the associated statistical error, where N is programmable by the user ($N=100$ in all our studies).
+
+With this configuration we can measure the output current of our photosensors and, from this, quantify how many photons have been detected by the photocathode of the PMT.
+
+The mathematical operation that has been used to know the number of photons in the PMT output current is shown in the equation \ref{} 
+
+ECUACIÓOOOON
+
+This equation takes into account the quantum efficiency of the detection of photons in the photocathode, which is close to $30\%$ for the PMTs used, the capture efficiency in the dyndes, which is equal to 1 because we read the signal directly from the photocathode and it is taken into account that, due to the photoelectric effect in which this detection consists, each detected photon only generates one electron.
+
+
+En el segundo caso estamos interesados en medir la energía del evento... 
+
+
+
+
 2 posibles configuración. 
 Cuando leo con un solo PMT...
 Cuando leo con 2 PMTs en coincidencia...
