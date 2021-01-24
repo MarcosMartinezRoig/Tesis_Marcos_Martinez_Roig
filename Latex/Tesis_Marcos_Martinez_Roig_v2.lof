@@ -26,6 +26,22 @@
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Scheme of a APD and electrical symbol used.~\cite {OSI}\relax }}{56}{figure.caption.37}
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Using persistence on the oscilloscope to show several pulses with different heights. Each height associated with a different number of SiPM pixels lit at the same time.\relax }}{57}{figure.caption.38}
 \contentsline {figure}{\numberline {2.15}{\ignorespaces (Left) Electronic scheme of a SiPM and (right) output current of a SiPM as a function of the reverse voltage. It show that the quenching mechanism is essential for working with SiPMs~\cite {DataSheetSensL}\relax }}{58}{figure.caption.39}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Different situation that can happen when we do time coincidences with PMTs.\relax }}{66}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Event detected in only one PMT.}}}{66}{subfigure.16.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Event detected in two PMTs, one detector.}}}{66}{subfigure.16.2}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Different situation that can happen when we do time coincidences with PMTs.\relax }}{70}{figure.caption.44}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Event detected in only one PMT.}}}{70}{subfigure.17.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Event detected in two PMTs, one detector.}}}{70}{subfigure.17.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Event detected in two PMTs, other detector.}}}{70}{subfigure.17.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Event detected in all PMTs, both detector.}}}{70}{subfigure.17.4}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Signal amplificated and logical gate (input signals of MCA).\relax }}{71}{figure.caption.45}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Energy spectrum obtained with the electronic configuration explained in this section for four PMTs.\relax }}{71}{figure.caption.46}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Different parts of PETSYS system.~\cite {PETSYS}\relax }}{72}{figure.caption.48}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Three PCBs used for the SiPM characterization and LED emission spectrum.\relax }}{75}{figure.caption.49}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PCB 1 used to arrang 8 SiPMs and black box.}}}{75}{subfigure.21.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {PCB 2 used to sum and amplify the output signals of SiPMs}}}{75}{subfigure.21.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PCB 3 used to arrange the different singals of the system.}}}{75}{subfigure.21.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Emission spectrum of the LED.}}}{75}{subfigure.21.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
