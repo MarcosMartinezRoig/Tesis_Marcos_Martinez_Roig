@@ -1,2 +1,22 @@
-NEXT:
-To shield NEXT-100 from the remanent external flux of high-energy gamma rays, a lead castle structure has been designed and built (see Figure 3.9). The lead wall has a thickness of 20 cm and is made of layers of staggered lead bricks held with a steel structure. The lead bricks have standard dimensions (200 x 100 x 50 mm 3 ), and by requirement, an activity in uranium and thorium lower than 0.4 mBq/kg. The lead castle, with a total weight of 60 tons,
+The objective of this section is to reduce the radioactive background that affects the TRITIUM detector. It is important because we are following the ALARA principle for the tritium activity measurement, that is, to measure tritium activity "as low as reasonably achievable".
+
+We have to take into account that the low limit reached in the tritium activity measured with our detector will be limited due to the uncertainty in the activity of the radioactive background measured since we cannot measure tritium activities lower than this uncertainty. Therefore, if we want to measure tritium activities as low as possible, we must reduce this background uncertainty as much as possible.
+
+The total uncertainty of the measurement is a quadratic sum of all the different uncertainties present in this measurement, which is the statistical uncertainty, $\sigma_{st}$, (due to the statistical nature of the radioactivity process), the systematic uncertainty, $\sigma_{si}$, (due to the manufacture of the detectors), etc (equation \ref{eq:SquareSumUncerainty}).
+
+With the background rejection system of TRITIUM monitor we try to minimize the statistical component. Because of the Poissonian nature of the process, the statistical component of the uncertainty corresponds to the square root of the measured activity, $A_{m}$, equation \ref{eq:SquareSumUncerainty}, so, if we want to reduce this component, we must minimize the radiological background that affects our detector as much as posible.
+
+\begin{equation}
+\sigma_{T}^2 = \sigma_{st}^2 +\sigma_{si}^2 + ... ; \qquad \qquad \sigma_{st;bac} = \sqrt{A_{m;bac}}
+\label{eq:SquareSumUncerainty}
+\end{equation} 
+
+The radiological background that affects our detector can come from the environment and the universe (cosmic radiation) and contains all possible types of decay ($\beta$, $\gamma$, etc.) with all possible energy emissions. We will divide this radiological brackground into two parts and use a different technique to prevent these events from affecting the tritium measurement:
+
+\begin{itemize}
+
+\item{}  On the one hand, we have weak radiation, which is any radiation whose energy emission is below $200~\MeV$. To avoid that these events affect the tritium measurement, we will use a lead shield, explained in the section \ref{subsec:SetUpPassiveShield}, with which we intend to stop this radiation before it reaches the tritium detector.
+
+\item{} On the other hand, we have the hard radiation, that is, any radiation whose energy emission is greater than $200~\MeV$ (mainly cosmic radiation). We have to keep in mind that it is much more difficult to stop hard radiation than weak radiation, so instead of stopping this radiation, what we will do is to build an active veto, which are explained in the section \ref{subsec:SetUpActiveShield}, with which we only detect a hard cosmic event and it will be used in anti-coincidence with the TRITIUM detector, that is, we will save the measured tritium event just when we don't measure any hard cosmic event.
+
+\end{itemize}

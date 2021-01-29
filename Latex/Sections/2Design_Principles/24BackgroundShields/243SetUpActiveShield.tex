@@ -1,0 +1,91 @@
+For this section we have to take into account that the mean free path of particles is proportional to their energy. Therefore, we would need too thick walls to build a lead shield that would be able to stop hard radiation. Instead of trying to stop it, we have used the so-called active vetos.
+
+The active veto consists of several complementary detectors, called cosmic detectors, two complementary detectors for each active veto in our case, with which the hard cosmic events that affect the tritium measurement will be detected and subtracted from the tritium measurement.
+
+As you can see in the figure \ref{fig:VetoAndPrototype}, the way we have done it is to place two complementary detectors, one above the TRITIUM detector and the other below it. 
+
+\begin{figure}[]
+\centering
+\includegraphics[scale=0.45]{3DesignPrinciples/34BackgroundRejectionSystem/Vetos_y_prototipo.png}
+\caption{Active veto and Tritium-IFIC 2 prototype in an aluminum mechanical structure developed by IFIC's mechanical engineering department.\label{fig:VetoAndPrototype}}
+\end{figure}
+
+We must keep in mind that we only want to eliminate the hard cosmic events that affect the tritium measurement. For that we must take into account that this active veto must be placed within the lead shielding. This is because, in this case, the weak radiation, which can contribute as a false hard comic events, has been removed.
+
+Each cosmic detector will have two photosensors, four photosensors in each active veto. The most likely hard cosmic events that can affect the tritium measurement will pass through both cosmic detectors at the same time. To eliminate only them, the first thing we will do is detect only these hard cosmic events, which is achieved by reading both cosmic detectors in coincidence with the electron configuration shown in figure \ref{subfig:ElectronicConfiguraiton4PMT} and then we will read the TRITIUM detector in anti-coincidence with the active veto, that is, store the tritium measurement only when we don't detecte any hard cosmic event in the active veto. 
+
+In this case, if we have detect a hard cosmic event (time coincidence event in both cosmic detectors), we can be quite sure that it will cross through the tritium detector and, therefore, it will affect to their measurement, as you can see in the figure \ref{subfig:RealHardCosmicEvent}.
+
+There is a possibility that this hard cosmic event detected in the active veto comes from two different hard cosmic events (one detected in each cosmic detector as shown in figure \ref{subfig:FakeHardCosmicEvent} but, if we take into account the hard cosmic distribution, shown in figure \ref{subfig:HardCoscmicRate}, we can see that this probability is practically negligible.
+
+The hard cosmic events expected at sea level are of the order of $10^{-2}~$event$/\second/\cm^2$. If we take into account that we are doing time coincidences with signals whose width is of the order of $10~\nano\second$ we can see that the probability of obtaining two different hard cosmic events in temporal coincidence is less than $10^{-9}$ which is practically insignificant so they are not worth considering.
+
+\begin{figure}[]
+ \centering
+  \subfloat[Real hard cosmic event.]{
+   \label{subfig:RealHardCosmicEvent}
+    \includegraphics[width=0.25\textwidth]{3DesignPrinciples/34BackgroundRejectionSystem/Real_Event.png}}    
+  \subfloat[Fake hard cosmic event.]{
+   \label{subfig:FakeHardCosmicEvent}
+    \includegraphics[width=0.25\textwidth]{3DesignPrinciples/34BackgroundRejectionSystem/Fake_Event.png}} 
+    \subfloat[Hard cosmic rate.]{
+   \label{subfig:HardCoscmicRate}
+    \includegraphics[width=0.42\textwidth]{3DesignPrinciples/34BackgroundRejectionSystem/HardCosmicRate.png}}     
+ \caption{Hard cosmic events detected with the active veto of TRITIUM: a) Affecting to the tritium measurement, b) Does not affecting to the tritium measurement. c) Hard cosmic rate.}
+ \label{fig:HardCosmicEventsSimulation}
+\end{figure}
+
+Finally, these individual cosmic detectors, on which the active veto is based, consist of a plastic scintillator block from Epic-Crystal \cite{ScintillatorVeto}, whose properties and energy emission spectrum are shown in table \ref{tab:ParametersScintillatorVeto} and figure \ref{fig:EmissionEnergySpectrumVeto} respectively.
+
+\begin{table}[htbp]
+%%\centering
+\begin{center}
+\begin{tabular}{|c|c|c|}
+%\hline
+%Material & Refractive index \\
+\hline \hline 
+Base material & Polystyrene \\ \hline
+Growth method & Polymeric \\ \hline
+Density ($\gram/\cm^3$)& 1.05 \\ \hline
+Refractive index & 1.58 \\ \hline
+Soften temperature ($\degree$) & 75-80 \\ \hline
+Light output (Anthracene) & 50-60\% \\ \hline
+H/C raito & 1.1 \\ \hline
+Emission peak (nm) & 415 (Blue) \\ \hline
+Decay Time, (ns) & 2.4 \\ \hline
+Hygroscopic & No \\ \hline
+\end{tabular}
+\caption{Properties of plastic scintillator blocks from Epic-Crystals. \cite{ScintillatorVeto}}
+\label{tab:ParametersScintillatorVeto}
+\end{center}
+\end{table}
+
+\begin{figure}[]
+\centering
+\includegraphics[scale=0.45]{3DesignPrinciples/34BackgroundRejectionSystem/EmissionEnergySpectrumVetos.png}
+\caption{Emission energy spectrum of the plastic scintillation used for the active vetos.\label{fig:EmissionEnergySpectrumVeto}~\cite{ScintillatorVeto}}
+\end{figure}
+
+The dimensions used are $45~\cm$ long, $17~\cm$ deep and $1~\cm$ of thickness and they are covered by three layers, teflon, aluminum and black tape, shown in figure \ref{fig:LayersVeto}, which is used, on the one hand, to prevent external photons from reaching the scintillator plastic, giving false hard cosmic events and, on the other hand, to prevent the photons generated by the scintillator plastic from escaping before reaching the photosensor, losing real hard cosmic events.
+
+\begin{figure}[]
+ \centering
+  \subfloat[Scintillator without coating.]{
+   \label{subfig:PlasticScintillatorNoCoating}
+    \includegraphics[width=0.23\textwidth]{3DesignPrinciples/34BackgroundRejectionSystem/NoCoating.jpeg}}    
+  \subfloat[Teflon coating.]{
+   \label{subfig:PlasticScintillatorTeflon}
+    \includegraphics[width=0.23\textwidth]{3DesignPrinciples/34BackgroundRejectionSystem/TeflonCoating.jpeg}}  
+  \subfloat[Aluminium coating.]{
+   \label{subfig:PlasticScintillatorAluminium}
+    \includegraphics[width=0.23\textwidth]{3DesignPrinciples/34BackgroundRejectionSystem/AluminiumCoating.jpeg}}    
+  \subfloat[Black tape coating.]{
+   \label{subfig:PlasticScintillatorBlackTape}
+    \includegraphics[width=0.23\textwidth]{3DesignPrinciples/34BackgroundRejectionSystem/BlackTapeCoating.jpeg}}
+ \caption{Different layers used to cover of the active veto.}
+ \label{fig:LayersVeto}
+\end{figure}
+
+This coating has two windows where we can place both photosensorsto read the photons produced by the plastic scintillator.
+
+For TRITIUM active vetos we should expect a rate of $1$ events$/\second$ for hard cosmic events. This value has been calculated integrating the previously mentioned value, $10^{-2}~$event$/\second/\cm^2$, over the area of the TRITIUM active vetos. For our specifically case, we can check that the probability of obtaining two different hard cosmic events in temporal coincidence is $10^{-7}$ and it remain insignificant.

@@ -21,30 +21,30 @@ Where $I_{PMT}$ is the output current of the PMT when it detects photons and $I_
 
 In the second case, if we want to know the energy of the event that occurred, we need to work with the internal gain of the PMT. For that we will use the electron multiplication stage that we saw in section \ref{subsubsec:PMTs}.
 
-In all our studies we have used several PMTs in our experiments (two or four depend on the case). The electronic schematics used, which are shown in figure \ref{} and \ref{} respectively, are based on various NIM technology modules\footnote{The Nuclear Instrumentation Module (NIM) is a standard specification convention for electrical and mechanical parameters defined in electronic modules used in experimental nuclear and particle physics.}.
+In all our studies we have used several PMTs in our experiments (two or four depend on the case). The electronic schematics used, which are shown in figure \ref{subfig:ElectronicConfiguraiton2PMT} and \ref{subfig:ElectronicConfiguraiton2PMT} respectively, are based on various NIM technology modules\footnote{The Nuclear Instrumentation Module (NIM) is a standard specification convention for electrical and mechanical parameters defined in electronic modules used in experimental nuclear and particle physics.}.
 
 \begin{figure}[htbp]
  \centering
-  \subfloat[Event detected in only one PMT.]{
-   \label{subfig:signalInOnePMT}
+  \subfloat[Electronical configuraiton scheme used to measure with two PMTs..]{
+   \label{subfig:ElectronicConfiguraiton2PMT}
     \includegraphics[width=1.0\textwidth]{3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_detector.png}}
     \newline
-  \subfloat[Event detected in two PMTs, one detector.]{
-   \label{subfig:signalInTwoPMTOneDetector}
+  \subfloat[Electronical configuraiton scheme used to measure with four PMTs.]{
+   \label{subfig:ElectronicConfiguraiton4PMT}
     \includegraphics[width=1.0\textwidth]{3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_detectors.png}}
- \caption{Different situation that can happen when we do time coincidences with PMTs.}
- \label{fig:DifferentCoincidences}
+ \caption{Schemes of different electronic configuration used to measure with PMT.}
+ \label{fig:ElectronicConfiguraitonsPMT}
 \end{figure}
 
 The PMTs used in each situation are feeded with the voltage supply "TC 952 High Voltage Supply" from Tennelec \cite{DataSheetHVSupplyTennelec}. It has four channels for feeding up to four different PMTs so it is enough for both configurations. In some situations we need to work with both configurations at the same time, that's, with six PMTs at the same time.  In this cases other voltage supply had been used, called  "HV Power Supply N 1130-4" from "Wenzel Elektronik" \cite{DataSheetHVSupplyWenzel} company with which we get 4 additional channels for feeding PMTs. The high voltage used in each case will be named in each specific situation.
 
-As you can see in the figures \ref{} and \ref{}, in both electronic configurations there are two different paths that must be followed by the output signals of each PMT, the amplification part and the time coincidence part. Therefore, the first module we need is the analogic FAN IN-OUT module which is used to duplicate the input signal.
+As you can see in the figures \ref{subfig:ElectronicConfiguraiton2PMT} and \ref{subfig:ElectronicConfiguraiton2PMT}, in both electronic configurations there are two different paths that must be followed by the output signals of each PMT, the amplification part and the time coincidence part. Therefore, the first module we need is the analogic FAN IN-OUT module which is used to duplicate the input signal.
 
 The module used is the "Quad linear FAN IN-OUT MODEL 740" module from the company "Philips Scintific" \cite{DataSheetFANINOUT}. With this module we can obtain up to 4 output signals (we only need two) that are totally identical to each input signal. For each PMT we have two identical output signals. One will be used as the input for the amplification part and the other will be used as the input for the time coincidence part.
 
 \begin{itemize}
 
-\item{} The amplification part, which is the same for both electronic configurations, figures \ref{} and \ref{}, is used to process and amplify the output signal and it is the same for both configurations. We have to take into accout that we have only used the signal from one PMT for the amplification part. We could have added a stage where we add the four PMT output signals and it would probably improve our results, but since our ultimate goal is to work with SiPM, we have not delved into that.
+\item{} The amplification part, which is the same for both electronic configurations, figures \ref{subfig:ElectronicConfiguraiton2PMT} and \ref{subfig:ElectronicConfiguraiton4PMT}, is used to process and amplify the output signal and it is the same for both configurations. We have to take into accout that we have only used the signal from one PMT for the amplification part. We could have added a stage where we add the four PMT output signals and it would probably improve our results, but since our ultimate goal is to work with SiPM, we have not delved into that.
 
 The electronic path we have followed to achieve this amplification is:
 
