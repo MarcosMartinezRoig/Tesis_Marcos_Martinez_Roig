@@ -27,7 +27,7 @@
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Using persistence on the oscilloscope to show several pulses with different heights. Each height associated with a different number of SiPM pixels lit at the same time.\relax }}{57}{figure.caption.38}
 \contentsline {figure}{\numberline {2.15}{\ignorespaces (Left) Electronic scheme of a SiPM and (right) output current of a SiPM as a function of the reverse voltage. It show that the quenching mechanism is essential for working with SiPMs~\cite {DataSheetSensL}\relax }}{58}{figure.caption.39}
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Schemes of different electronic configuration used to measure with PMT.\relax }}{66}{figure.caption.43}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Electronical configuraiton scheme used to measure with two PMTs..}}}{66}{subfigure.16.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Electronical configuraiton scheme used to measure with two PMTs.}}}{66}{subfigure.16.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Electronical configuraiton scheme used to measure with four PMTs.}}}{66}{subfigure.16.2}
 \contentsline {figure}{\numberline {2.17}{\ignorespaces Different situation that can happen when we do time coincidences with PMTs.\relax }}{70}{figure.caption.44}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Event detected in only one PMT.}}}{70}{subfigure.17.1}
@@ -62,6 +62,19 @@
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Aluminium coating.}}}{88}{subfigure.28.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Black tape coating.}}}{88}{subfigure.28.4}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Unsuccessful results of using commercial techniques to cut fibers.\relax }}{93}{figure.caption.61}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Fiber end deformation.}}}{93}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Fiber end cracks.}}}{93}{subfigure.1.2}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Microscopes used to check the results.\relax }}{93}{figure.caption.62}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {EUROMEX microscope}}}{93}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Jiusion microscope}}}{93}{subfigure.2.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Cutting device developed in the TRITIUM experiment and additional part to make precise measurements of fiber length.\relax }}{94}{figure.caption.63}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {TRITIUM Cutting device}}}{94}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {TRITIUM Cutting device}}}{94}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Additional piece of TRITIUM cutting device}}}{94}{subfigure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Result of the polishing process. a) Fiber end after cutting with TRITIUM devices b) Fiber end after cutting with TRITIUM devices and polishing with Thorlabs technic.\relax }}{96}{figure.caption.64}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Fiber end after cutting with Tritium device.}}}{96}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Fiber end after cutting and polishing.}}}{96}{subfigure.4.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -70,17 +83,17 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Scheme of the ultrapure water system.\relax }}{117}{figure.caption.60}
-\contentsline {figure}{\numberline {D.2}{\ignorespaces Different stages of filtration of the ultrapure water system.\relax }}{118}{figure.caption.61}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gross filtering stage.}}}{118}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Fine filtering stage.}}}{118}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Super fine filtering stage.}}}{118}{subfigure.2.3}
-\contentsline {figure}{\numberline {D.3}{\ignorespaces Doble phase reverse osmosis stage and containers used to store the outlet water of the ultrapure water system.\relax }}{119}{figure.caption.62}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Doble phase reverse osmosis stage.}}}{119}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Storage containers of reject and ultrapure water.}}}{119}{subfigure.3.2}
-\contentsline {figure}{\numberline {D.4}{\ignorespaces Siemens PLC, software for remote control of ultrapure water system.\relax }}{119}{figure.caption.63}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{119}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{119}{subfigure.4.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{119}{subfigure.4.3}
-\contentsline {figure}{\numberline {D.5}{\ignorespaces General photo of the complete ultrapure water system.\relax }}{120}{figure.caption.64}
-\contentsline {figure}{\numberline {D.6}{\ignorespaces Raw water, reject water and ultrapure water obtained with this system.\relax }}{120}{figure.caption.65}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Scheme of the ultrapure water system.\relax }}{123}{figure.caption.69}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Different stages of filtration of the ultrapure water system.\relax }}{124}{figure.caption.70}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gross filtering stage.}}}{124}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Fine filtering stage.}}}{124}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Super fine filtering stage.}}}{124}{subfigure.2.3}
+\contentsline {figure}{\numberline {D.3}{\ignorespaces Doble phase reverse osmosis stage and containers used to store the outlet water of the ultrapure water system.\relax }}{125}{figure.caption.71}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Doble phase reverse osmosis stage.}}}{125}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Storage containers of reject and ultrapure water.}}}{125}{subfigure.3.2}
+\contentsline {figure}{\numberline {D.4}{\ignorespaces Siemens PLC, software for remote control of ultrapure water system.\relax }}{125}{figure.caption.72}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{125}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{125}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{125}{subfigure.4.3}
+\contentsline {figure}{\numberline {D.5}{\ignorespaces General photo of the complete ultrapure water system.\relax }}{126}{figure.caption.73}
+\contentsline {figure}{\numberline {D.6}{\ignorespaces Raw water, reject water and ultrapure water obtained with this system.\relax }}{126}{figure.caption.74}
