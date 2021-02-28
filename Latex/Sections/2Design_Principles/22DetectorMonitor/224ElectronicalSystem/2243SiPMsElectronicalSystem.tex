@@ -2,7 +2,6 @@ Before talking about the electronic system that is used for reading SiPM, we hav
 
 Petsys system, figure \ref{fig:PETSYS}, is a complete acquisition and digitization system that is capable of working with up to 1024 SiPM arranged in matrices of up to 64 SiPM per matrix. This capacity is necessary because, as we will see in chapter \ref{chap:Prototypes}, TRITIUM monitor will use dozens of SiPM matrices with 16 channels (SiPMs) per matrix.
 
-
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.6]{3DesignPrinciples/32Tritium_detector/PETSYS_System.png}
@@ -26,7 +25,7 @@ This system is based on three different PCBs\footnote{PCB, Printed Circuit Board
 \begin{enumerate}
 \item{} The first PCB, shown in figure \ref{subfig:PCB1}, is used to organize the SiPMs and sensor temperature in this system. This PCB has the ability to place up to 8 different SiPMs and a temperature sensor and arrange these signals on two HDMI connections.
 
-This PCB will be inside a special black box, from "" company, that has a high degree of light tightness. This black box has a small hole, whose diameter is $1~\mm$, prepared to introduce an optical fiber\footnote{The optical fibers used are BCF-98 from Saint Gobain company \cite{OpticalFibers}} with which we will illuminate the SiPM with a incoherent light source. The light source used is a LED, "" from the "" company \cite{}, whose emission spectrum is shown in the figure \ref{subfig:LEDSpectrum}. With this LED we try to simulate the output signal of the fibers used in our experiment.
+This PCB will be inside a special black box, from "" company, that has a high degree of light tightness. This black box has a small hole, whose diameter is $1~\mm$, prepared to introduce an optical fiber\footnote{The optical fiber used is BCF-98 from Saint Gobain company \cite{OpticalFibers}} with which we will illuminate the SiPM with a incoherent light source. The light source used is a LED, model 430L from Thorlabs company \cite{LEDThorlabs}, whose emission spectrum is shown in figure \ref{subfig:LEDSpectrum}, which has been experimentaly measured using a spectrometer and fitted to a Gaussian function. We can see that the emission peak of this LED is produced at $436.3$ with a FWHM\footnote{The FWHM parameter, Full Width at Half Maximum, of a Gaussian fit can be calculated from its sigma using the equation: FWHM$=2.35 \cdot{} \sigma$} of $19.1~\nano\meter$. With this LED we intend to simulate the light emission of the fibers used in the TRITIUM experiment to calibrate the SiPMs at the working wavelength. 
 
 \item{} The second PCB, shown in figure \ref{subfig:PCB2}, is used to sum the different signals from the SiPMs used in the first PCB and amplify the output signal by a factor G. This PCB uses a differential amplification with which we achieve to reduce the electronic noise of the system.
 
@@ -40,17 +39,17 @@ The input signals of this system are the supply voltage of the SiPMs and the sup
  \centering
   \subfloat[PCB 1 used to arrang 8 SiPMs and black box.]{
    \label{subfig:PCB1}
-    \includegraphics[width=0.5\textwidth]{3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg}}
+    \includegraphics[angle=90,width=0.5\textwidth]{3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg}}
   \subfloat[PCB 2 used to sum and amplify the output signals of SiPMs]{
    \label{subfig:PCB2}
-    \includegraphics[width=0.5\textwidth]{3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.jpg}}
+    \includegraphics[width=0.45\textwidth]{3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png}}
    \newline
   \subfloat[PCB 3 used to arrange the different singals of the system.]{
    \label{subfig:PCB3}
-    \includegraphics[width=0.5\textwidth]{3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.jpeg}}
+    \includegraphics[width=0.4\textwidth]{3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png}}
     \subfloat[Emission spectrum of the LED.]{
    \label{subfig:LEDSpectrum}
-    \includegraphics[width=0.5\textwidth]{3DesignPrinciples/32Tritium_detector/4_coincidences.png}}
+    \includegraphics[width=0.6\textwidth]{3DesignPrinciples/32Tritium_detector/LED_DUNE.pdf}}
  \caption{Three PCBs used for the SiPM characterization and LED emission spectrum.}
  \label{fig:PCBs_LEDSpectrum}
 \end{figure}

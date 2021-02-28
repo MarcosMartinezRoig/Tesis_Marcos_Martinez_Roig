@@ -2,9 +2,20 @@ In the different tests in which we have used PMT, we were interested in two diff
 
 In the first case, if we want to know how many photons have reached the photocathode, we have to work without the internal gain of the PMT. The reason for this is that it introduces a large uncertainty in the measurement. The use of this internal gain could be interesting in other situations such as when we need to know the energy of the event because, as we saw in the section \ref{subsubsec:PMTs}, its use greatly enlarges our signal, a factor of the order of $10^6$, and, due to that, it is easier to process and analyze it.
 
-For working without the internal gain of the PMT we need to avoid the use of the electron multiplication stage that we saw in section \ref{subsubsec:PMTs}. To achieve this, we design, build and test special PCBs, whose electronic scheme is shown in figure \ref{}, in which we short-circuit all the dindes and read the signal directly from the photocathode.
+For working without the internal gain of the PMT we need to avoid the use of the electron multiplication stage that we saw in section \ref{subsubsec:PMTs}. To achieve this, we design, build and test special PCBs, whose electronic scheme is shown in figure \ref{fig:PMTBaseWithoutGain}, in which we short-circuit all the dindes and read the signal directly from the photocathode.
 
-PHOTO AND ELECTRONIC DESIGN.
+\begin{figure}[htbp]
+ \centering
+  \subfloat[Electronic Voltage Divider Circuit.]{
+   \label{subfig:BasePMTNoGain}
+    \includegraphics[width=0.5\textwidth]{3DesignPrinciples/32Tritium_detector/BasePMTNoGain.jpeg}}
+    %\newline
+  \subfloat[Electronic scheme of the electronic voltage divider circuit.]{
+   \label{subfig:ElectronicSchemeBasePMTNoGain}
+    \includegraphics[width=0.5\textwidth]{3DesignPrinciples/32Tritium_detector/ElectronicSchemBasePMTNoGain.png}}
+ \caption{Electronic voltage divider circuit ant its electronic scheme for working with PMTs without its internal gain.}
+ \label{fig:PMTBaseWithoutGain}
+\end{figure}
 
 This PCB is designed to be powered with positive supply voltage which is less thant the normal situation $[0-400~\volt]$. The reason of this lower supply voltage is that we don't need to create a voltage difference between each pair of dynodes in the chain (we only need to create a voltage difference between the photocathode and the first dinode).
 
@@ -21,9 +32,9 @@ Where $I_{PMT}$ is the output current of the PMT when it detects photons and $I_
 
 In the second case, if we want to know the energy of the event that occurred, we need to work with the internal gain of the PMT. For that we will use the electron multiplication stage that we saw in section \ref{subsubsec:PMTs}.
 
-In all our studies we have used several PMTs in our experiments (two or four depend on the case). The electronic schematics used, which are shown in figure \ref{subfig:ElectronicConfiguraiton2PMT} and \ref{subfig:ElectronicConfiguraiton2PMT} respectively, are based on various NIM technology modules\footnote{The Nuclear Instrumentation Module (NIM) is a standard specification convention for electrical and mechanical parameters defined in electronic modules used in experimental nuclear and particle physics.}.
+In all our studies we have used several PMTs in our experiments (two or four depend on the case). The electronic schematics used, which are shown in the figures \ref{subfig:ElectronicConfiguraiton2PMT} and \ref{subfig:ElectronicConfiguraiton4PMT} respectively, are based on various NIM technology modules\footnote{The Nuclear Instrumentation Module (NIM) is a standard specification convention for electrical and mechanical parameters defined in electronic modules used in experimental nuclear and particle physics.}.
 
-\begin{figure}[htbp]
+\begin{figure}[h]
  \centering
   \subfloat[Electronical configuraiton scheme used to measure with two PMTs.]{
    \label{subfig:ElectronicConfiguraiton2PMT}
