@@ -2,19 +2,12 @@ In the different tests in which we have used PMT, we were interested in two diff
 
 In the first case, if we want to know how many photons have reached the photocathode, we have to work without the internal gain of the PMT. The reason for this is that it introduces a large uncertainty in the measurement. The use of this internal gain could be interesting in other situations such as when we need to know the energy of the event because, as we saw in the section \ref{subsubsec:PMTs}, its use greatly enlarges our signal, a factor of the order of $10^6$, and, due to that, it is easier to process and analyze it.
 
-For working without the internal gain of the PMT we need to avoid the use of the electron multiplication stage that we saw in section \ref{subsubsec:PMTs}. To achieve this, we design, build and test special PCBs, whose electronic scheme is shown in figure \ref{fig:PMTBaseWithoutGain}, in which we short-circuit all the dindes and read the signal directly from the photocathode.
+For working without the internal gain of the PMT we need to avoid the use of the electron multiplication stage that we saw in section \ref{subsubsec:PMTs}. To achieve this, we design, build and test special PCBs, whose electronic scheme is shown in figure \ref{fig:ElectronicSchemeBasePMTNoGain}, in which we short-circuit all the dindes and read the signal directly from the photocathode.
 
 \begin{figure}[htbp]
- \centering
-  \subfloat[Electronic Voltage Divider Circuit.]{
-   \label{subfig:BasePMTNoGain}
-    \includegraphics[width=0.5\textwidth]{3DesignPrinciples/32Tritium_detector/BasePMTNoGain.jpeg}}
-    %\newline
-  \subfloat[Electronic scheme of the electronic voltage divider circuit.]{
-   \label{subfig:ElectronicSchemeBasePMTNoGain}
-    \includegraphics[width=0.5\textwidth]{3DesignPrinciples/32Tritium_detector/ElectronicSchemBasePMTNoGain.png}}
- \caption{Electronic voltage divider circuit ant its electronic scheme for working with PMTs without its internal gain.}
- \label{fig:PMTBaseWithoutGain}
+\centering
+\includegraphics[scale=0.5]{3DesignPrinciples/32Tritium_detector/ElectronicSchemBasePMTNoGain.png}
+\caption{Electronic scheme of the electronic voltage divider circuit used for working with PMTs without its internal gain.).\label{fig:ElectronicSchemeBasePMTNoGain}}
 \end{figure}
 
 This PCB is designed to be powered with positive supply voltage which is less thant the normal situation $[0-400~\volt]$. The reason of this lower supply voltage is that we don't need to create a voltage difference between each pair of dynodes in the chain (we only need to create a voltage difference between the photocathode and the first dinode).
@@ -55,13 +48,13 @@ The module used is the "Quad linear FAN IN-OUT MODEL 740" module from the compan
 
 \begin{itemize}
 
-\item{} The amplification part, which is the same for both electronic configurations, figures \ref{subfig:ElectronicConfiguraiton2PMT} and \ref{subfig:ElectronicConfiguraiton4PMT}, is used to process and amplify the output signal and it is the same for both configurations. We have to take into accout that we have only used the signal from one PMT for the amplification part. We could have added a stage where we add the four PMT output signals and it would probably improve our results, but since our ultimate goal is to work with SiPM, we have not delved into that.
+\item{} The amplification part, which is the same for both electronic configurations, figures \ref{subfig:ElectronicConfiguraiton2PMT} and \ref{subfig:ElectronicConfiguraiton4PMT}, is used to process and amplify the output signal. We have to take into accout that we have only used the signal from one PMT for the amplification part. We could have added a stage where we add the four PMT output signals and it would probably improve our results, but since our ultimate goal is to work with SiPM, we have not delved into that.
 
 The electronic path we have followed to achieve this amplification is:
 
 \begin{enumerate}
 
-\item{} In this part we introduce one of the output signals of the previous module (FAN IN-OUT) in a preamplifier that is used to prepare the signal to be amplified, appendix \ref{App:ElectronicModulesNIM}. The preamplifier used is "MODEL 9326 FAST PREAMP" from ORTEC \cite{DataSheetPreAmp}.
+\item{} One of the output signals of the previous module (FAN IN-OUT) is introduced in a preamplifier that is used to prepare the signal to be amplified, appendix \ref{App:ElectronicModulesNIM}. The preamplifier used is "MODEL 9326 FAST PREAMP" from ORTEC \cite{DataSheetPreAmp}.
 
 \item{} The output signal from the preamplifier is introduced into the amplifier where it will be converted to a positive signal with a shape close to the Gaussian function and an amplification factor will be applied. The amplifier modules used on this studies are "model 575A" and "model 671", both from ORTEC company \cite{DataSheet575Amp}, \cite{DataSheet671Amp}. The output signal for 575A module is shown in figure \ref{fig:InputSignalsMCA}, green color.
 
@@ -73,24 +66,24 @@ This part is practically the same in both cases with just one additional step wh
 
 \begin{enumerate}
 
-\item{} The second output signals of the FAN IN-OUT module for each PMT are introduced into a discriminator module where we obtain an output logic signal with height of $-1.2~\volt$ and width of $240~\nano\second$ when a threshold, the one programmed by the user, is exceeded. The discriminators used in our experiments are  "Octuple Constant-Fraction Discriminator CF8000" module from ORTEC company \cite{DataSheetDiscriminator} and "4 channels discriminator model 84" from CAEN company. These four output signals are shown in figure \ref{subfig:signalInAllPMTsBothDetector} for four PMTs in coincidence.
+\item{} The second output signals of the FAN IN-OUT module for each PMT are introduced into a discriminator module where we obtain an output logic signal with height of $-1.2~\volt$ and width of $240~\nano\second$ when a threshold, the one programmed by the user, is exceeded. The discriminators used in our experiments are  "Octuple Constant-Fraction Discriminator CF8000" module from ORTEC company \cite{DataSheetDiscriminator} and "4 channels discriminator model 84" from CAEN company. Some cases of these four output signals are shown in figure \ref{fig:DifferentCoincidences} for four PMTs in coincidence.
 
 \item{} Now is the time to make time coincidences. As we will see in the section \ref{subsec:SetUpActiveShield} and chapter \ref{chap:Prototypes}, we have two photosensors in each detector, so we will do time coincidences in pairs of photosensors, PMTs in this case.
 
 Therefore, each pair of output logic signals of the discriminator module (attached to two PMTs that are in the same detector) will reach a different channel of the coincidence module and generate an output signal, with a height of $-1.4~\volt$ and width of $20~\ns$, when a time coincidence has occurred on them.
 
-This first time coincidence stage is used to remove the detection of  external light or dark current of PMTs from  in the saved measurements. This is because this module only generate logic output signals when both PMTs have detected photons at the same time, indicating that these photons are coming from the coupled scintillator.
+This first time coincidence stage is used to remove the detection of  external light or dark current of PMTs from the saved measurements. This is because this module only generate logic output signals when both PMTs have detected photons at the same time, indicating that these photons are coming from the coupled scintillator.
 
 The time coincidence modules used are "Coincidence Unit Model 465" from LeCroy \cite{DataSheetCoincidenceLeCroy} and "Coincidence Type N6234" from CERN-NP \cite{DataSheetCoincidenceCERN}.
 
 \item{} The next step, which is included only when working with four different PMTs, is used to do time coincidence between two different detectors. It could be interesting, for exapmle, to detect hard cosmic radiation as we will be in the \ref{subsec:SetUpActiveShield} section.
 
-If we want to do time coincidences between both detectors, we have to use the logical output signals of the previous step (output of the coincidence module) as input of another coincidence stage similar to the previous one. In this case, which is only used when we have four PMTs, we will have a logical output signal with the same parameters, height of $-1.4~\volt$ and width of $20~\nano\second$ when both detectors have detected events at the same time. The modules used is the same named in the previous point.
+If we want to do time coincidences between both detectors, we have to use the logical output signals of the previous step (output of the coincidence module) as input of another coincidence stage similar to the previous one. In this case, which is only used when we have four PMTs, we will have a logical output signal with the same parameters, height of $-1.4~\volt$ and width of $20~\nano\second$ when both detectors have detected events at the same time. The modules used is the same as before.
 
-In the figure \ref{fig:DifferentCoincidences} we have shown all the different situations that we can have with the previous two steps. There we have four logical signals from four PMTs. The two first signals (channel one and two) come from two PMTs connected to one detector and the other two signals (channels three and four) come from PMTs connected to another detector.
+In the figure \ref{fig:DifferentCoincidences} we have shown some of the different situations that we can have with the previous two steps. There we have four logical signals from four PMTs. The two first signals (channel one and two, yellow and green respectively) come from two PMTs connected to one detector and the other two signals (channels three and four, color orange and violet respectively) come from PMTs connected to another detector.
 
 \begin{enumerate}
-\item{} In figure \ref{subfig:signalInOnePMT} we can see that only one PMT (channel two) has detected an event. As the second PMT connected to the same detector (channel one) did not detect this event, it indicates that the detected photons did not come from the scintillator. In this case, the time windows (output from coincidence module, stage 1) will not be opened and this event will not be saved.
+\item{} In figure \ref{subfig:signalInOnePMT} we can see that only one PMT (channel two) has detected an event. As the second PMT connected to the same detector (channel one) did not detect this event. It indicates that the detected photons did not come from the scintillator. In this case, the time windows (output from coincidence module, stage 1) will not be opened and this event will not be saved.
 
 \item{} In figures \ref{subfig:signalInTwoPMTOneDetector} and \ref{subfig:signalInTwoPMTOtherDetector} we can see that two PMT signals connected to the same detector have detected an event but the others have not. It means that it is an event that has only been detected by one detector. If we are using the second stage of time coincidence, the time window will not open to save this event.
 
@@ -118,7 +111,7 @@ In the figure \ref{fig:DifferentCoincidences} we have shown all the different si
 
 \end{enumerate}
 
-\item{} Finally, the logical output signal of the coincidence module used, which indicates that all the PMTs used in our study are in temporal coincidence, is introduced in the "Gate and Delay Generator, model 416A" of the company ORTEC \cite{DataSheetGateAndDelay}. With this NIM module we obtain a positive logical signal, shown in the figure \ref{fig:InputSignalsMCA}, orange color, with a height of $8~\volt$ and width of $2~\mu\second$.
+\item{} Finally, the logical output signal of the coincidence module, which indicates that all the PMTs used in our study are in temporal coincidence, is introduced in the "Gate and Delay Generator", model 416A of the company ORTEC \cite{DataSheetGateAndDelay}. With this NIM module we obtain a positive logical signal, shown in the figure \ref{fig:InputSignalsMCA}, orange color, with a height of $8~\volt$ and width of $2~\mu\second$.
 
 \end{enumerate}
 
@@ -133,10 +126,10 @@ At the end, we have two different signals, shown in figure \ref{fig:InputSignals
 \end{figure}
 
 
-The information that will be saved and histogramed in the MCA is the weight of the signal, which is proportional to the energy of the detected event, explained in the appendix \ref{App:ElectronicModulesNIM}. An example of histogram as output of the MCA is shown in figure \ref{fig:EnergySpectrum4PMTs}.
+The information that will be saved and histogramed in the MCA is the weight of the signal, which is proportional to the energy of the detected event, explained in the appendix \ref{App:ElectronicModulesNIM}. %An example of histogram as output of the MCA is shown in figure \ref{fig:EnergySpectrum4PMTs}.
 
-\begin{figure}[htbp]
-\centering
-%\includegraphics[scale=0.6]{3DesignPrinciples/32Tritium_detector/PMTschematic.png}
-\caption{Energy spectrum obtained with the electronic configuration explained in this section for four PMTs.\label{fig:EnergySpectrum4PMTs}}
-\end{figure}
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[scale=0.6]{3DesignPrinciples/32Tritium_detector/EspectroEnergeticoMCA.png}
+%\caption{Energy spectrum obtained with the electronic configuration explained in this section for four PMTs.\label{fig:EnergySpectrum4PMTs}}
+%\end{figure}
