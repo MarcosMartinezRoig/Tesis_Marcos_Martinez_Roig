@@ -23,7 +23,7 @@ On the other hand, a larger diameter could be detrimental since it worsens the s
 
 In order to quantify the importance of the effect of the fiber diameter, which is needed to choose the best configuration, these measurements will be compared with similar measurements performed with Tritium-IFIC 2 prototype which, as we will see in next section, is based on a similar configuration with $1~\mm$ fibers (BCF-12 model).
 
-The amount of fibers used in Tritium-Aveiro 0 prototype is the one which allows the water to flow since and they are not fixed to the prototype since, due to the large quantity of fibers used, it is not feasible to use any structure to fix them. It should be noted that these fibers were cut with the fiber cutting device developed by TRITIUM but they were neither polished nor cleaned. The reason for this is that the automatic polishing machine was not yet developed and it was not feasible to polish 360 fibers by hand. In fact, the automatic polishing machine was motivated by the amount of fibers used in our last prototypes.
+The amount of fibers used in Tritium-Aveiro 0 prototype is the maximum which allows the water to flow and, due to the large quantity of fibers used, these fibers are not feasible to use any structure to fix them. It should be noted that these fibers were cut with the fiber cutting device developed by TRITIUM but they were neither polished nor cleaned. The reason for this is that the automatic polishing machine was not yet developed and it was not feasible to polish 360 fibers by hand. In fact, the automatic polishing machine was motivated by the amount of fibers used in our last prototypes.
 
 To ensure the radiosecurity of this prototype, the teflon vessel is totally closed and it has two PMMA windows, whose thick is $10~\mm$, located at both ends of the fiber bundle which will be used to read it. Two clamps are used to press the Teflon walls against the PMMA windows to ensure the watertightness of the prototype.
 
@@ -37,15 +37,15 @@ PMMA was chosen for its optical properties, especially its transmission coeffici
 
 As can be seen, its transmission coefficient is $95\%$ for the working wavelength ($435~\nm$), which means that the loss of the light in these optical windows is very small. Slightly better transmission coefficients can be achieved with other materials such as quartz or sapphire but they are much more expensive.
 
-Two PMTs (C of figure \ref{fig:TritiumAveiro0}) are used to read this prototype in time coincidence. They are fixed to both fiber bundle ends of the prototype using two pieces (E of figure \ref{fig:TritiumAveiro0}) which has been designed and built with a 3D printer. Both PMTs are optically coupled to the PMMA windows using optical grease \cite{OpticalGrease}.
+Two PMTs (C of figure \ref{fig:TritiumAveiro0}), powered at $-1500~\volt$, are used to read this prototype in time coincidence. They are fixed to both fiber bundle ends of the prototype using two pieces (E of figure \ref{fig:TritiumAveiro0}) which has been designed and built with a 3D printer. Both PMTs are optically coupled to the PMMA windows using optical grease \cite{OpticalGrease}.
 
 The PMTs used are the model R2154-02 2" from Hamamatsu company \cite{DataSheetPMTsAveiro}, whose characteristics, specially its gain and efficiency, are quite similar to the PMTs used in the other prototypes.
 
-All these different parts, together with the electronic system (F of figure \ref{fig:TritiumAveiro0}), is arranged in a structure which, as can be seen in figure \ref{fig:TritiumAveiro0}, is based on several nuts located on four long stainless-steel screws. This screws are fixed to an external PVC structure, A and B of figure \ref{fig:TritiumAveiro0}, which is used to protect the prototype from physical damage and provide a light-tight operation environment. This PVC structure is equiped with several high voltage power, low voltage power and signals feed-through connectors.
+All these different parts, together with the electronic system (F of figure \ref{fig:TritiumAveiro0}), is arranged in a structure, seen in figure \ref{fig:TritiumAveiro0}, which is based on several nuts located on four long stainless-steel screws. This screws are fixed to an external PVC structure, A and B of figure \ref{fig:TritiumAveiro0}, which is used to protect the prototype from physical damage and provide a light-tight operation environment. This PVC structure is equiped with several high voltage power, low voltage power and signals feed-through connectors.
 
-Only one prototype was built, which was designed to be installed in the Arrocampo dam so, on the one hand, a water inlet/outlet were installed in its Teflon vessel to allow the water flow through the detector and, on the other hand, several PCBs was specially designed, developed and tested to process and analyze the signals of this system.
+Only one prototype was built, which was designed to be installed in the Arrocampo dam. To do so, on the one hand, a water inlet/outlet were installed in its Teflon vessel to allow a constant water flux through the detector and, on the other hand, several PCBs was specially designed, developed and tested to process and analyze the signals of this system.
 
-On the one hand, a PCB, whose electronic scheme is shown in figure \ref{fig:HVElectronicAveiro}, was designed to power the PMTs with a negative high voltage. It consists of several high voltage power supply, model C11152-01 from Hamamatsu company \cite{PowerSupplyAveiroDataSheet}, one for each PMT used, which is controled by a DAC\footnote{DAC, Digital-to-analog converter}, model MAX5500 from Maxim Integrated company \cite{MAX5500DataSheet}. An Arduino Mega is used for the DAC communication and cross-checking the output values and it is connected to a Rasberry Pi to control the system.
+On the one hand, a PCB, whose electronic scheme is shown in figure \ref{fig:HVElectronicAveiro}, was designed to power the PMTs with a negative high voltage. It consists of several high voltage power supply, model C11152-01 from Hamamatsu company \cite{PowerSupplyAveiroDataSheet}, one for each PMT used, which is controled by a DAC\footnote{DAC, Digital-to-analog converter}, model MAX5500 from Maxim Integrated company \cite{MAX5500DataSheet}. An Arduino Mega is used for the DAC communication and cross-checking the output values and it is connected to a Raspberry Pi to control the system.
 
 A graphical interface, shown figure \ref{subfig:GUI}, has been developed to manage the different options of this system in a comfortable way.
 
@@ -70,7 +70,9 @@ On the other hand, a electronical chain consisting of several PCBs was used to p
 \caption{Simplified electronic scheme used to process and analyze the signal of Tritium-Aveiro 0 prototype. \label{fig:ElectronicSchemCounterBoard}}
 \end{figure}
 
-It consists of three different lines, two of them are used for the PMT signals of the prototype and the remaining line is used for doing anticoincidence with a active veto which consists of a...
+It consists of three different lines, two of them are used for the PMT signals of the prototype and the remaining line is used for doing anticoincidence with a active veto.
+
+To test this electronic chain a plastic scintillation with dimensions of $10 \cdot{} 10 \cdot{} 1~\cm^3$ was used to simulate a veto signal but four different vetos are being developed, each one is based on a rectangular plastic scintillations of Saint-Gobain company \cite{VetoAveiro}, whose dimensiones are $50~\cm \cdot{} 30 \cdot{} 2~\cm^3$  with a PMT coupled, model R2154-02 2" from Hamamatsu company \cite{DataSheetPMTsAveiro}. The output signal of these PMTs will be input in a OR stage, whose response will be introduced in the veto line shown previously in the figure \ref{fig:ElectronicSchemCounterBoard}. As a result, each plastic scintillator will be read in anticoincidence with tritium-Aveiro prototype.
 
 Both lines, used to process and analyze the PMT signals of the prototype, are equal and they are used to operate in time coincidence. First, each PMT signal is introduced in a prepamplifier model CR111 from CREMAT Inc. company \cite{CREMATPreAmplifierDataSheet}, which is used to shape and pre-amplify the signal. To reduce electronic noise and signal loss, both preamplifiers are connected as close as possible to the PMTs and they are located inside of aluminum boxes which act like a Faraday cage.
 
@@ -86,7 +88,13 @@ In the remaining line, used for the veto signal, an inverter is used in the firs
 
 Lastly, these three signals are introduced into a 3-input AND gate, model SN74LVC1G11 from Texas Instruments company \cite{ANDGate}, to perform a logic level comparison. With this last stage we achieve a temporal coincidence of both PMT signals of the prototype and anti-coincidence of them with the veto signal. The output signal of this last stage is simply connected to a pulse counter. 
 
-A GPIO pins of a Rasberry Pi is used to communication with the system, control it and configure the different threshold levels. 
+A GPIO pins of a Raspberry Pi is used to communication with the system, control it and configure the different threshold levels and a graphical user interface, whose appearance is shown in figure \ref{fig:GUIcounts}, has been developed to manage in a comfortable way the counter system.
+
+ \begin{figure}[h]
+\centering
+\includegraphics[scale=0.45]{5Prototypes/53FinalPrototypes/531TritiumAveiro/CounterGUI.png}
+\caption{Graphical user interface used to manage the counter system. \label{fig:GUIcounts}}
+\end{figure}
 
 In addition to count, which is the option normally used in our detector, this electronic system include a voltage follower circuit connected to the preamplifier output signal which can be used to obtain a energy spectrum of each PMT of the prototype.
 
@@ -98,11 +106,11 @@ In the figure \ref{fig:ScreenshotElectronic} two screenshots are shown to demost
  \centering
   \subfloat[Event accepted by the electronic system]{
    \label{subfig:TrueTritiumEvent}
-    \includegraphics[angle=0, width=0.5\textwidth]{5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_accepted_Aveiro_prototype.png}}
+    \includegraphics[angle=0, width=0.42\textwidth]{5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_accepted_Aveiro_prototype.png}}
     %\newline
   \subfloat[Event rejected by the electronic system]{
    \label{subfig:FalseTritiumEvent}
-    \includegraphics[angle=0, width=0.5\textwidth]{5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_rejected_Aveiro_prototype.png}}
+    \includegraphics[angle=0, width=0.42\textwidth]{5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_rejected_Aveiro_prototype.png}}
  \caption{Two different situations of the electronic chain response. A.- Event accepted since veto has not detected it. B.- Event rejected since veto has detected it}
  \label{fig:ScreenshotElectronic}
 \end{figure}
