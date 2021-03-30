@@ -1,0 +1,368 @@
+\documentclass[12pt,a4paper]{book}
+
+\input{./Sections/0Previous_pages/01PaquetesTrabajo}
+
+\begin{document}
+\captionsetup[figure]{labelfont={bf},labelformat={default},labelsep= endash,name={Figura}}
+\input{./Sections/0Previous_pages/02Cover_page}
+
+$\ $
+\thispagestyle{empty}  %para que no se numere esta pagina
+\chapter*{} 
+
+\pagenumbering{Roman} %for using romain numbers (page numering)
+
+\begin{flushright}
+\textit{Dedicated to \\my family}
+\end{flushright} 
+
+\vspace{10cm}
+
+\begin{flushleft}
+Sometimes it's the people no one imagines anything \\
+of whom do the things that no one can imagine.
+\end{flushleft} 
+\begin{flushright}
+\textbf{"Alan Turing"}
+\end{flushright} 
+
+
+\newpage
+
+\chapter*{Acknowledgements} \label{chap:Acknowledgements}  %pongo el asterisco para que no se numere ni aparezca en el índice
+%%\cleardoublepage
+\addcontentsline{toc}{chapter}{Acknowledgements} % para que aparezca en el indice de contenidos
+%%\vspace{-1.2cm}
+\input{./Sections/0Previous_pages/03Acknowledgements}
+
+\newpage
+
+\chapter*{Abstract} \label{chap:Abstract}
+%%\cleardoublepage
+\addcontentsline{toc}{chapter}{Abstract} % para que aparezca en el indice de contenidos
+\input{./Sections/0Previous_pages/04Abstract}
+
+%\begin{abstract}
+%Texto           del           abstract
+%\end{abstract}
+
+\newpage
+
+\chapter*{Nomenclature and Acronyms} \label{chap:NomenclatureAcronyms}  %pongo el asterisco para que no se numere ni aparezca en el índice
+%%\cleardoublepage
+\addcontentsline{toc}{chapter}{Nomenclature and acronyms} % para que aparezca en el indice de contenidos
+\input{./Sections/0Previous_pages/05NomenclatureAcronyms}
+
+%%añadir bibliografía al indice
+\let\OLDthebibliography=\thebibliography
+\def\thebibliography#1{\OLDthebibliography{#1}%
+\addcontentsline{toc}{chapter}{\bibname}}
+
+%%indice
+\tableofcontents
+
+%%lista de figuras
+\listoffigures
+
+%\cleardoublepage
+\addcontentsline{toc}{chapter}{List of Figures} % para que aparezca en el indice de contenidos
+
+%%lista de tablas
+\listoftables
+
+%\cleardoublepage
+\addcontentsline{toc}{chapter}{List of Tables} % para que aparezca en el indice de contenidos
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%
+
+
+
+\chapter{Introduction}  \label{chap:GeneralIntroduction} %(%(I have to use latin numbers inside of this chapter))
+\pagenumbering{arabic} %for using romain numbers (page numering)
+%%\setcounter{page}{-1} %%first number of the counter
+	\section{Tritium and Nuclear Energy}\label{sec:Introduction}
+	\input{./Sections/1Introduction/11Introduccion} 
+	\newpage
+	
+	\section{Tritium Properties and Risks}\label{sec:TritiumProperties}
+	\input{./Sections/1Introduction/12Tritium_properties}
+	\newpage
+	
+	\section{Current Legislation}\label{sec:Legislation}
+	\input{./Sections/1Introduction/13Legislation} 
+	\newpage
+	
+	\section{This thesis}\label{sec:ThisThesis}
+	%\input{./Sections/1Introduction/14Work_scheme}
+	\newpage
+	
+\chapter{Tritium Detection Systems}\label{chap:TritiumDetection}
+	
+	\section{State-of-the-Art}\label{sec:StateOfTheArt}
+	\input{./Sections/2TritiumDetection/21State_of_the_art}
+	\newpage
+	
+	\section{TRITIUM Project}\label{sec:TritiumProject}
+	\input{./Sections/2TritiumDetection/22Tritium_project}
+	\newpage
+	
+		
+	
+\chapter[TRITIUM Design Principles]{Design Principles of the Tritium Monitor}\label{chap:DesignPrinciples}
+	\section{Detector System Overview}\label{sec:MonitorOverview}
+	\input{./Sections/3Design_Principles/31MonitorOverview} 
+	\newpage
+	
+	\section{TRITIUM Detector}\label{sec:TritiumDectectorIntro}
+	\input{./Sections/3Design_Principles/32DetectorMonitor/320TritiumDetectorIntroduction} 
+	\newpage
+	
+		\subsection[Interaction of Particles with Matter]{Interaction of Fast Electrons and Photons with Matter}\label{subsec:Interaction}
+		\input{./Sections/3Design_Principles/32DetectorMonitor/321Interaction} 
+		%\newpage
+					
+		\subsection{Plastic Scintillators} \label{subsec:PlasticScintillators}
+		\input{./Sections/3Design_Principles/32DetectorMonitor/322Plastic_Scintillators/3221Plastic_Scintillators}
+		%\newpage
+		
+			%\subsubsection{Plastic scintillation fibers}\label{subsubsec:PlasticScintillatorFibers}
+			\input{./Sections/3Design_Principles/32DetectorMonitor/322Plastic_Scintillators/3222Fibers}%
+			%\newpage
+			
+		\subsection{Light Detection in Photosensors}\label{subsec:Photosensors}
+		\input{./Sections/3Design_Principles/32DetectorMonitor/323Photosensors/3231IntroPhotosensors}
+		%\newpage
+	
+			\subsubsection{Photoelectron Multiplier Tubs (PMTs)}\label{subsubsec:PMTs}
+			\input{./Sections/3Design_Principles/32DetectorMonitor/323Photosensors/3232PhotoMultiplierTubs}
+			%\newpageand
+		
+			\subsubsection{Silicon Photoelectron Multiplier Array (SiPMs array)}\label{subsubsec:SiPM}
+			\input{./Sections/3Design_Principles/32DetectorMonitor/323Photosensors/3233SiliconPhotoMultiplierArrays}
+			%\newpage
+			
+			\subsubsection[Comparison Photosensors]{Comparison of photosensors considered}\label{subsubsec:ComparisonPhotosensors}
+			\input{./Sections/3Design_Principles/32DetectorMonitor/323Photosensors/3234Comparison_Photosensors}
+			\newpage
+					
+		\subsection{Electronic Readout}\label{subsec:Electronic}\label{subsec:IntroductionHemos hablado ElectronicalSystem}
+			\input{./Sections/3Design_Principles/32DetectorMonitor/324ElectronicalSystem/3241ElectronicalSystemIntro}
+			%\newpage
+	
+			\subsubsection[Electronic Readout for PMTs]{Electronical system for PMTs}\label{subsubsec:PMTsElectronicalSystem}
+			\input{./Sections/3Design_Principles/32DetectorMonitor/324ElectronicalSystem/3242PMTsElectronicalSystem}
+			%\newpage
+			
+			\subsubsection[Electronic Readout for SiPMs]{Electronical system for SiPMs}\label{subsubsec:SiPMsElectronicalSystem}
+			\input{./Sections/3Design_Principles/32DetectorMonitor/324ElectronicalSystem/3243SiPMsElectronicalSystem}
+			\newpage		
+		
+	\section{Ultrapure Water System}\label{sec:UltraPureWaterSystem}
+	%\input{./Sections/3Design_Principles/33UltraPureWaterSystem} 
+	%\newpage
+		
+		\subsection[Introduction to the Water System]{Introduction to the Ultrapure Water System}\label{subsec:IntroductionWaterSystem}
+		\input{./Sections/3Design_Principles/33UltraPureWaterSystem/331IntroductionUltraPureWaterSystem} 
+		%\newpage
+					
+		\subsection[Water System Set Up]{Set Up of Ultrapure Water System}\label{subsec:SetUpWaterSystem}
+		\input{./Sections/3Design_Principles/33UltraPureWaterSystem/332SetUpUltraPureWaterSystem}
+		\newpage	
+	
+	\section[Background Rejection System]{Background Rejection System of TRITIUM Monitor}\label{sec:IntroductionBackground}
+	\input{./Sections/3Design_Principles/34BackgroundShields/341IntroBackgrund} 
+	%\newpage
+	
+		\subsection{Passive Shield (Lead)}\label{subsec:SetUpPassiveShield}
+		\input{./Sections/3Design_Principles/34BackgroundShields/342SetUpPassiveShield}
+		%\newpage
+		
+		\subsection{Active Shield (Cosmic Veto)}\label{subsec:SetUpActiveShield}
+		\input{./Sections/3Design_Principles/34BackgroundShields/343SetUpActiveShield}
+		\newpage
+					
+\chapter[Research \& Development]{Research \& Development on Detector Design and Components}\label{chap:ResearchandDevelopment}
+	\section{Introduction}\label{sec:IntroCharacterisation}
+	\input{./Sections/4ResearchAndDevelopment/41IntroductionCharacterizationChapter}
+	\newpage
+	
+	\section[Characetrization of the Scintillating Fibers]{Characterization and R\&D on Scintillating Fibers}\label{sec:CharacterizationScintillatingFibers}
+	%\input{./Sections/3ResearchAndDevelopment/32CharacterizationFibers}
+	%\newpage
+	
+		\subsubsection{Introduction}\label{subsubsec:IntroFibersResults}
+		\input{./Sections/4ResearchAndDevelopment/42CharacterizationFibers/421IntroFibers}
+		%\newpageand
+		
+		\subsubsection[Conditioning Process]{Scintillating Fiber Conditioning Process.}\label{subsubsec:ConditioningProcess}
+		\input{./Sections/4ResearchAndDevelopment/42CharacterizationFibers/422ConditioningProcess}
+		%\newpage
+				
+		\subsubsection[Automatic Polishing Machine]{Automatic Polishing Machine for Scintillating Fibers}\label{subsubsec:PolishingMachine}
+		\input{./Sections/4ResearchAndDevelopment/42CharacterizationFibers/423PolishingMachine}
+		%\newpageand
+		
+		\subsubsection{Characterization of Scintillating Fibers}\label{subsubsec:CharacterizationFibers}
+		\input{./Sections/4ResearchAndDevelopment/42CharacterizationFibers/424CharacterizationFibers}
+		%\newpage
+		
+		\subsubsection{Cleaning Process for Scintillating Fibers}\label{subsubsec:CleaningProcess}
+		\input{./Sections/4ResearchAndDevelopment/42CharacterizationFibers/425CleaningProcess}
+		\newpage
+		
+	\section[Characterization of the SiPM]{Characterization and R\&D on SiPM}\label{sec:CharacterizationSiPM}
+	\input{./Sections/4ResearchAndDevelopment/43CharacterizationSiPMs}
+	\newpage
+	
+	\section{Characterization of the Ultrapure Water System}\label{sec:CharacterizationUltraPureWaterSystem}
+	\input{./Sections/4ResearchAndDevelopment/44WaterSystemMeasurements}
+		%\newpage
+					 
+	\section[Characterization of the Cosmic Veto]{Characterization of the TRITIUM Cosmic Veto}\label{sec:TritiumActiveVeto}
+	\input{./Sections/4ResearchAndDevelopment/45CharacterizationBackgroundShields/453CharacterizationActiveShield}
+	\newpage
+		
+	%\section[Characterization shields]{Characterization and R\&D on background shields}\label{sec:RyDBackground}
+	%\input{./Sections/3ResearchAndDevelopment/35CharacterizationBackgroundShields/451CharacterizationIntroShield}
+	%\newpage
+	
+	%\subsection{Passive shield (lead)}\label{subsec:CharacterizationPassiveShield}
+	%\input{./Sections/3ResearchAndDevelopment/35CharacterizationBackgroundShields/452CharacterizationPassiveShield} 
+	%\newpage
+					 
+	%\subsection{Active shield (cosmic veto)}\label{subsec:CharacterizationActiveShield}
+	%\input{./Sections/3ResearchAndDevelopment/35CharacterizationBackgroundShields/453CharacterizationActiveShield}
+	%\newpage
+
+\chapter{TRITIUM Monitor Prototypes}\label{chap:Prototypes}	
+	\section{Introduction}\label{sec:IntroPrototypes}
+	\input{./Sections/5Prototypes/51IntroPrototypes}
+	\newpage
+	
+	\section[Preliminary Prototypes]{Preliminary IFIC prototypes, TRITIUM-IFIC 0 and TRITIUM-IFIC 1}\label{sec:Preliminary_prototypes}
+	%%\subsection{Introduction Preliminary Prototypes}\label{subsec:IntroPreliminaryPrototypes}
+	\input{./Sections/5Prototypes/52FirstPrototypes/521IntroPreProto}
+	%\newpage		
+		
+		\subsection{TRITIUM-IFIC 0}\label{subsec:TritiumIFIC0}
+		\input{./Sections/5Prototypes/52FirstPrototypes/522TritiumIFIC0}
+		%\newpage
+		
+		\subsection{TRITIUM-IFIC 1}\label{subsec:TritiumIFIC1}
+		\input{./Sections/5Prototypes/52FirstPrototypes/523TritiumIFIC1}
+		\newpage
+				
+	\section{Latest TRITIUM Prototypes}\label{sec:LatestTritiumPrototypes}
+	\input{./Sections/5Prototypes/53LastestPrototypes/531IntroLatestPrototypes}
+	%\newpage
+	
+		\subsection{TRITIUM-Aveiro 0}\label{subsec:TritiumAveiro}
+		\input{./Sections/5Prototypes/53LastestPrototypes/532TritiumAveiro}
+		%\newpage
+		
+		\subsection[TRITIUM-IFIC 2]{Advanced IFIC prototype, Tritium-IFIC 2}\label{subsec:TritiumIFIC2}
+		\input{./Sections/5Prototypes/53LastestPrototypes/533TritiumIFIC2}
+		\newpage
+		
+	\section[Modular TRITIUM Detector]{Modular TRITIUM Detector for In-Situ Tritium Monitoring}\label{sec:TritiumMonitor}
+	\input{./Sections/5Prototypes/54TritiumIFICMonitor}
+	\newpage
+
+\chapter{Simulations}  \label{chap:Simulations}
+	\section{Introduction}\label{sec:IntroSimulations}
+	\input{./Sections/6Simulations/61IntroSimulations}
+	\newpage
+	
+	\section{Geant4 Environment}\label{sec:Geant4Environment}
+	\input{./Sections/6Simulations/62Geant4}
+	\newpage
+	
+	\section{Description of the Simulations Performed}\label{sec:SimulationsPerformed}
+	\input{./Sections/6Simulations/63SimulationPerformed/631IntroSimulationPerformed}
+	%\newpage
+	
+		\subsection[Tritium Source Shape]{Tritium Source Shape Optimization}\label{subsec:SourceShapeSimulation}
+		\input{./Sections/6Simulations/63SimulationPerformed/632TritiumSourceShapeSimulated}
+		%\newpage
+		
+		\subsection[Fiber Length]{Fiber Length Optimization}\label{subsec:FiberLengthSimulation}
+		\input{./Sections/6Simulations/63SimulationPerformed/633FiberLengthSimulated}
+		%\newpage
+				
+		\subsection[Fiber Diameter]{Fiber Diameter Effect}\label{subsec:FiberDiameterSimulation}
+		\input{./Sections/6Simulations/63SimulationPerformed/634FiberDiameterSimulated}
+		%\newpage
+		
+		\subsection[Tritium-IFIC 2]{Simulation of the Tritium-IFIC 2 Prototype}\label{subsec:TritiumIFIC2Simulation}
+		\input{./Sections/6Simulations/63SimulationPerformed/635TritiumIFIC2Simulated}
+		%\newpage
+		
+		\subsection[Lead Shielding and Cosmic Veto]{Simulation of the Lead Shielding and Cosmic Veto}\label{subsec:LeadCosmicSimulation}
+		\input{./Sections/6Simulations/63SimulationPerformed/636LeadCosmicSimulated}
+		%\newpage
+				
+\chapter[Results and Discussion]{TRITIUM Monitor Results and Discussion}\label{chap:ResultsPrototypes}
+	\section{Introduction}\label{sec:IntroResultsPrototypes}
+	\input{./Sections/7ResultsPrototypes/71IntroResultsPrototypes}
+	\newpage
+	
+	\section{Results from Laboratory measurements}\label{sec:ResultsLaboratoryPrototypes}
+	\input{./Sections/7ResultsPrototypes/72ExperimentalResultsPrototypes/721IntroExperimentalResultsPrototypes}
+	\newpage
+		
+		\subsection[Experimental Results of TRITIUM-IFIC 0]{Experimental Results of TRITIUM-IFIC 0 Prototype}\label{subsec:ResultsTritiumIFIC0}
+		\input{./Sections/7ResultsPrototypes/72ExperimentalResultsPrototypes/722ExperimentalResultsTritiumIFIC0}
+		%\newpage
+		
+		\subsection[Experimental Results of TRITIUM-IFIC 1]{Experimental Results of TRITIUM-IFIC 1 Prototype}\label{subsec:ResultsTritiumIFIC1}
+		\input{./Sections/7ResultsPrototypes/72ExperimentalResultsPrototypes/723ExperimentalResultsTritiumIFIC1}
+		%\newpage
+		
+		\subsection[Experimental Results of TRITIUM-Aveiro 0]{Experimental Results of TRITIUM-Aveiro 0 prototype}\label{subsec:ResultsTritiumAveiro}
+		\input{./Sections/7ResultsPrototypes/72ExperimentalResultsPrototypes/724ExperimentalResultsTritiumAveiro}
+		%\newpage
+		
+		\subsection[Experimental Results of TRITIUM-IFIC 1]{Experimental Results of TRITIUM-IFIC 2 prototype}\label{subsec:ResultsTritiumIFIC2}
+		\input{./Sections/7ResultsPrototypes/72ExperimentalResultsPrototypes/725ExperimentalResultsTritiumIFIC2}
+		\newpage
+		
+	\section[Experimental Results in Arrocampo dam]{Results from Measurements at Arrocampo dam}\label{sec:ResultsArrocampo}
+	\input{./Sections/7ResultsPrototypes/72ExperimentalResultsPrototypes/726ExperimentalArrocampoMesaurements}
+	\newpage
+	
+	\section{Results of the simulations}\label{sec:ResultsSimulations}
+	\input{./Sections/7ResultsPrototypes/73SimulationResultsPrototypes/731IntroSimulatedResultsPrototypes}
+	\newpage		
+
+\chapter{Conclusions and Prospects}  \label{chap:Conclusions}
+\input{./Sections/8ConclusionsAndProspects/81ConclusionsProspects}
+\newpage
+
+
+\appendix
+\appendixpage
+\noappendicestocpagenum
+\addappheadtotoc
+
+\chapter{Birks Coefficient Study}\label{App:BirksA}
+\input{./Sections/9Appendix/91BirksAppendix}
+
+\chapter{Signal Processing in NIM Modules}\label{App:ElectronicModulesNIM}
+\input{./Sections/9Appendix/92HowElectronicsNIMWorks}
+
+\chapter{Electronical Schemes of PCBs Used for SiPM Characterization}\label{App:ElectronicalSchemesSiPMPCBs}
+\input{./Sections/9Appendix/93ElectronicalSchemeSiPMPCBs}
+
+\chapter{Ultrapure Water System}\label{App:UltraPureWaterSystem}
+\input{./Sections/9Appendix/94UltraPureWaterSystem}
+
+\chapter{Preparation of Liquid Radioactive Source of Tritium}\label{App:TritiumSourcePreparation}
+\input{./Sections/9Appendix/95TritiumSource}
+
+\chapter{Electronic System of TRITIUM-Aveiro 0 prototype}\label{App:ElectronicSystemAveiro}
+\input{./Sections/9Appendix/96ElectronicSystemAveiro}
+
+%\chapter{Bibliografía} \label{chap:bibliographia}
+\input{./Sections/10Bibliografia}
+
+\end{document}

@@ -1,0 +1,43 @@
+The objective of this section is to reduce the radioactive background that affects the TRITIUM detector. It is important because we are following the ALARA principle for the tritium activity measurement, that is, to measure tritium activity "as low as reasonably achievable".
+
+We have to take into account that the low limit reached in the tritium activity measured with our detector will be limited due to the uncertainty in the activity of the radioactive background measured since we cannot measure tritium activities lower than this uncertainty. Therefore, if we want to measure tritium activities as low as possible, we must reduce this background uncertainty as much as possible.
+
+The total uncertainty of the measurement is a quadratic sum of all the different uncertainties present in this measurement, which is the statistical uncertainty, $\sigma_{st}$, (due to the statistical nature of the radioactivity process), the systematic uncertainty, $\sigma_{si}$, (due to the manufacture of the detectors), etc (equation \ref{eq:SquareSumUncerainty}).
+
+With the background rejection system of TRITIUM monitor we try to minimize the statistical component. Because of the Poissonian nature of the process, the statistical component of the uncertainty corresponds to the square root of the measured activity, $A_{m}$, equation \ref{eq:SquareSumUncerainty}, so, if we want to reduce this component, we must minimize the radiological background that affects our detector as much as posible.
+
+\begin{equation}
+\sigma_{T}^2 = \sigma_{st}^2 +\sigma_{si}^2 + ... ; \qquad \qquad \sigma_{st;bac} = \sqrt{A_{m;bac}}
+\label{eq:SquareSumUncerainty}
+\end{equation} 
+
+The background that affects the tritium detector is due to natural radioactivity, which is present in all parts of the earth and it has two main origins. On the one hand, it can come from radioactive elements of the natural radioactive series, shown in Table \ref{tab:NaturalRadioactiveSeries}, which are the primordial radioactive elements, those that are present since the formation of the earth. On the other hand, it can come from natural radiation received from extraterrestrial sources, called cosmic radiation, composed of high-energy particles, mainly protons and $\alpha$, which, when they interact with the particles in the Earth's atmosphere, generate a shower of muons, photons and neutrons mainly.
+
+\begin{table}[htbp]
+%%\centering
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Mass Num. & Series & Prim. el. & Half life (y) & Final isotope \\
+\hline \hline \hline
+4n & Thorium & $\ce{^{232}Th}$ & $1.41 \cdot{} 10^{10}$ & $\ce{^{208}Pb}$ \\ \hline
+4n+1 & Neptunium & $\ce{^{237}Np}$ & $2.14 \cdot{} 10^{6}$ & $\ce{^{209}Pb}$ \\ \hline
+4n+2 & Uranium-Radium & $\ce{^{238}U}$ & $4.51 \cdot{} 10^{9}$ & $\ce{^{206}Pb}$ \\ \hline
+4n+3 & Uranium-Actinium & $\ce{^{235}U}$ & $7.18 \cdot{} 10^{8}$ & $\ce{^{204}Pb}$ \\ \hline
+\end{tabular}
+\caption{Classification of natural radioactive series \cite{NaturalRadioactiveSeries1}\cite{NaturalRadioactiveSeries2}.}
+\label{tab:NaturalRadioactiveSeries}
+\end{center}
+\end{table}
+
+Natural radioactivity depends on the altitude and latitude at which we are on Earth because the volume of the Earth's atmosphere, with which cosmic rays interact, is different. For the same reason, it also depends on the height at which we are working, at sea level in our case, and, due to the relative position of the earth in the universe, it also depend on the solar activity cycle in which we are when we measure. The spatial distribution of cosmic rays, mainly muons, follows a $cos^2(\theta)$ distribution with the zenith angle. %In any case, we have to keep in mind that we will be located in the same place when we work, the Arrocampo dam, so we do not need to take it into account.
+
+We will divide this natural radioactivity into two parts and we will use a different technique to prevent these events from affecting the tritium measurement:
+
+\begin{itemize}
+
+\item{}  On the one hand, we have weak radiation, which is any radiation whose energy emission is below $200~\MeV/$nucleon. To avoid that these events affect the tritium measurement, we will use a lead shield, explained in section \ref{subsec:SetUpPassiveShield}, with which we stop this radiation before it reaches the tritium detector.
+
+\item{} On the other hand, we have the hard radiation, that is, any radiation whose energy emission is greater than $200~\MeV/$nucleon (mainly cosmic radiation). We have to keep in mind that it is much more difficult to stop hard radiation than weak radiation, so instead of stopping this radiation, what we will do is to build an cosmic veto, which are explained in section \ref{subsec:SetUpActiveShield}, with which we only detect a hard cosmic event and it will be used in anti-coincidence with the TRITIUM detector, that is, we will save the measured tritium event just when we don't measure any hard cosmic event in time coincidence.
+
+\end{itemize}

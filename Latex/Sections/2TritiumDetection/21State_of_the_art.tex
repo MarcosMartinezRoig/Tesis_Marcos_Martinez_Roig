@@ -1,0 +1,68 @@
+Measurement of tritium activity is one of the systematic environmental controls that have been carried out for dozens of years around nuclear power plants during their energy production and around nuclear research facilities.
+
+As a consequence, this measurement has been attempted with many different technologies so far in order to improve the state of the art of each time. The most researched techniques are summarized in Table \ref{tab:DifferentThecnics}.
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+ & LSC & IC & Calorimetry & BIXS\\
+\hline \hline \hline
+\parbox{5em}{\centering Measured\\ quantity} & \parbox{5em}{\centering Scintillation\\ photons} &  \parbox{5em}{\centering Ionization\\ current} & heat & X-rays\\ \hline
+LDL & $\sim\becquerel$ & $10-100~\kilo\becquerel$ & $\sim~\giga\becquerel$ & $\sim~\mega\becquerel$ \\ \hline
+Sample form & Liquid & Gas, vapor & All & All \\ \hline
+%Disadvantages & & Gas, vapor & All & All \\ \hline
+\end{tabular}
+\caption{State-of-the-art in the tritium detection for different technics~\cite{TesisTritio}}
+\label{tab:DifferentThecnics}
+\end{center}
+\end{table}
+
+Nowadays, the most used technic for mesuring tritium in water is the LSC. It consists of mixing a liquid sample (some ml for environmental measurements or less for higher activities) with liquid scintillator. In our laboratories, LARAM, at the University of Valencia, this mixture is made in a ratio of 50:50 \cite{LSCLARAM} but it will depend on each system and each sample \cite{LSCothers} \cite{HofstetterSeveral}. In this technic, the $\beta$ energy that is emitted from the sample excites the molecular energy levels of the liquid scintillator and it is quickly desexcited emitting several photons with a well-know energy (fluorescence), normally in the visible range. Finally these photons are detected with photosensors, processed and analysed.
+
+This technic has a very good detection capability and precision (LDL for tritium better than $1~\becquerel/\liter$ \cite{0.6Bq_L}) but it has some problems. On the one hand it need too time for taking a mesurment (more than $2$ days) and, on the other hand, although this sample could be non-radiactive, it contain toluene which is a toxical chemical waste so we need to follow a special protocol for removing this samplex. On top of that all these technics need special staff for sampling, chain-of-custody and lab analysis which consum economical and time resources. In order to avoid the last problem some unsuccessful efforts have been made in order to build a monitor of tritium with LSC \cite{OnlineLSC}. In any case, other problems still remain. 
+
+The ionization chamber (IC) is based on a gas chamber (sample) which contains electrodes connected to different voltage. This electrodes recover the ionization current that is produced due to the $\beta$ radiation. It is a simple and fast system, but the problem is that on the one hand it has too high LDL, more than $ 10~\kilo\becquerel$, and, on the other hand, it needs the state of the sample to be gas or steam \cite{IonizationChamber1} \cite{IonizationChamber2}.
+
+The calorimetry is based on the measurement of the heat generated due to the tritium radiation \cite{Calorimeter1} \cite{Calorimeter2}. The problem with this technic is that it has a too high LDL, of the order of $\giga\becquerel$, and it needs too long time, more than 2 days, for taking a measurement.
+
+The Beta Induced X-ray Spectrometry (BIXS) is based on the measurement of the bremsstrahlung with PMTs of \ce{NaI} \cite{XRays1} \cite{XRays2} or with Silicon Drift Detector (SDD) \cite{Bremstrahlung} produced due to the tritium radiation. The problem with this technic is that it has too high LDL, of the order of $\mega\becquerel$.
+
+There are many more different methods for tritium detection, although they are less used or less experimentally developed, each one with their own problems for our objective. For example,  APD \cite{APD}, which we cannot use in our case because they cannot function in contact with water, the mass spectrometry \cite{Spectrometry}, which needs to store the sample several months before taking the measurement or Cavity ring spectroscopy \cite{Ring}, which requires a special optical configuration that is not possible outside the laboratory.
+
+We have to keep in mind that all these techniques are offline methods that take too long to finish the process of taking measurements which include sample taking, sending the sample to the lab, analyzing of the sample so we cannot use them for tritium monitoring. LSC is the only technic which has a LDL enough low to verify the compliance with the established limit, $100~\becquerel/\liter$. Therefore we will explore this area but, in order to avoid the problems related with this technic (off-line results, no-reusable liquid scintillator and the chemical toxic wastes) we will delve in solid scintillators. There are several studies that have been done so far which intend to do the same as we want with this project, to create a quasi-real time monitor of low tritium activities in water based on solid scintillation:
+
+\begin{itemize}
+
+\item{} First study was done by M. Muramatsu, A. Koyano and N. Tokunaga in 1967 who used a scintillator plate read out by two PMTs in coincidence \cite{Muramatsu}.
+
+\item{} The second study was carried out by the A. A. Moghissi, H. L. Kelley, C. R. Phillips and J. E. Regnier in 1969 that used one hundred plastic fibers coated with anthracene powder and read out by two PMTs in coincidence \cite{Moghissi}.
+
+\item{} Third study was performed by R. V. Osborne in 1969 who used sixty scintillator plates stacked read out by two PMTs in coincidences \cite{Osborne}.
+
+\item{} Fourth study was done by the A. N. Singh, M. Ratnakaran and K. G. Vohra in 1985, who used a scintillator sponge read out by electronic coincidence \cite{Ratnakaran}\cite{Ratnakaran2000}.
+
+\item{} Fifth study was carried out by K. J. Hofstetter and H. T. Wilson in 1991, who did different experiments for testing different shapes of scintillator plastic like several sizes of beads, fibers, etc. The better result which Hofstetter got for solid plastic scintillator was a efficiency of the order of $10^{-3}$ \cite{Hofstetter1}\cite{Hofstetter2}.
+
+\end{itemize}
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+ & \parbox{6em}{\centering Efficiency, $\eta_{det}$\\ $(cps/(\kilo\becquerel/\liter))$}  & \parbox{5em}{\centering Surface\\ $F_{sci}$ ($\cm^2$)}  & \parbox{5em}{\centering Specific efficiency\\ $\varepsilon_{det}=\eta_{det}/F_{sci}$} & LDL ($\kilo\becquerel/\liter$)\\
+\hline \hline \hline
+Muramatsu & $3.85 \cdot 10^{-4}$ & $123$ & $3.13 \cdot 10^{-6}$ & $370$ \\ \hline
+Moghissi & $4.5 \cdot 10^{-3}$ & $>424.1$ & $<1.06 \cdot 10^{-5}$ & $37$ \\ \hline
+Osborne & $0.012$ & $3000$ & $4 \cdot 10^{-6}$ & $37$ \\ \hline
+Singh & $0.041$ & $3000$ & $1.37 \cdot 10^{-5}$ & $<37$ \\ \hline
+Hofstetter & $2.22 \cdot 10^{-3}$ & $\sim~100$ & $<2.22 \cdot 10^{-5}$ & $25$ \\ \hline
+\end{tabular}
+\caption{Results of different scintillator detector for tritium detection~\cite{TesisTritio}}
+\label{tab:PlasticScinTritium}
+\end{center}
+\end{table}
+
+%COMPROBAR QUE ESTAN BIEN TODOS LOS DATOS (sobretodo areas, lo otro esta comprobado. A lo mejor puedo calcular el area del ultimo caso)
+
+The results of these experiments are sumarized in Table \ref{tab:PlasticScinTritium}. We can see in the first column that the intrinsic detector efficiency, $\eta_{det}$, is very different in these experiences. As we know that, in this type of detectors, one of the most important factor, which affect to the efficiency, is the active surface of the plastic scintillator, $F_{sci}$, and we can see in the second column that it is very different en each detector, we use the specific detector efficiency (third column), in order to compare these experiments, that's, the intrinsic detector efficiency normalized to this active surface. Now we can check that, effectively, these specific efficiencies are quite similar. On top of that we can check that the better specific efficiency was obtained for Moghissi who used scintillating fibers. This is a good point which justify our choice about using of fibers like a scintillator. Finally we can see in the last column that the LDL in all these experience are more or less similar and, they are too high for our aim so developing a detector which overcome these LDL is an essential study right now in order to monitoring the tritium levels. 
