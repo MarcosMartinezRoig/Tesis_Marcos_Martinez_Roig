@@ -1,6 +1,6 @@
-Before talking about the electronic system that is used for reading SiPM, we have to keep in mind that we are using SiPM arrays in TRITIUM detector. The electronic system used to process and analyze these output signals is PETSYS \cite{PETSYS}, which is a commercial system prepared to work with SiPM matrices from Hamamatsu, which is the SiPM company chosen for us.
+The electronic system used to process and analyze these output signals of the SiPM arrays is PETSYS \cite{PETSYS}, which is a commercial system prepared to work with SiPM matrices from Hamamatsu.
 
-Petsys system, Figure \ref{fig:PETSYS}, is a complete acquisition and digitization system that is capable of working with up to 1024 SiPM arranged in matrices of up to 64 SiPM per matrix. This capacity is necessary because, as we will see in chapter \ref{chap:Prototypes}, TRITIUM monitor will use dozens of SiPM matrices with 16 channels (SiPMs) per matrix.
+Petsys system, Figure \ref{fig:PETSYS}, is a complete acquisition and digitization system that is capable of working with up to 1024 SiPM arranged in matrices of up to 64 SiPM per matrix. This number of channels is needed in the TRITIUM project because, as it will be shown in chapter \ref{chap:Prototypes}, the TRITIUM monitor use dozens of SiPM matrices with 16 channels (SiPMs) per matrix.
 
 \begin{figure}[htbp]
 \centering
@@ -8,7 +8,7 @@ Petsys system, Figure \ref{fig:PETSYS}, is a complete acquisition and digitizati
 \caption{Different parts of PETSYS system.\label{fig:PETSYS}~\cite{PETSYS}}
 \end{figure}
 
-Taking into account the current detection limits imposed, this capacity should be enough for TRITIUM detector but, as we will see in chapter \ref{chap:Prototypes}, TRITIUM is a modular detector. If we need to overcome its limits reached (improve its sensitivity or reduce their background even more) we will need to increase this capacity. We need an electronic system that is able to increase its capacity in a modular way and PETSYS meets this requirement. It has the Clock and Trigger module with which we have the possibility of connecting up to sixteen different PETSYS basic boards in parallel with which we could read up to 16384 SiPM\footnote{$1024\cdot{}16 = 16384$}.
+The capacity provided by PETSYS should be enough for the requirements of the TRITIUM project but, as we will see in chapter \ref{chap:Prototypes}, TRITIUM is a modular detector. If we need to overcome its limits reached (improve its sensitivity or reduce their background even more) we will need to increase this capacity. We need an electronic system that is able to increase its capacity in a modular way and PETSYS meets this requirement. It has the Clock and Trigger module with which we have the possibility of connecting up to sixteen different PETSYS basic boards in parallel with which we could read up to 16384 SiPM\footnote{$1024\cdot{}16 = 16384$}.
 
 PETSYS is based on C++ and Python scripts that are prepared for the main tasks required for our experiment, such as time coincidence options between SiPM (or even SiPM matrices) or energy discrimination. In addition, PETSYS is open source, so if it is necessary, we have the option to modify the scripts for developing interesting functions. The way the signals will be processed and analyzed for PETSYS will be exactly the same as those shown in Figure \ref{fig:ElectronicConfiguraitonsPMT}
 

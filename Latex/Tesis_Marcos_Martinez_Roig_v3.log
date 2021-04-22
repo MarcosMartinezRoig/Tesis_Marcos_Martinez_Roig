@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  21 APR 2021 11:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  22 APR 2021 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1317,7 +1317,7 @@ File: Figures/2Introduction/RadioactiveDosePopulation.png Graphic file (type pn
 g)
 <use Figures/2Introduction/RadioactiveDosePopulation.png>
 Package pdftex.def Info: Figures/2Introduction/RadioactiveDosePopulation.png  u
-sed on input line 6.
+sed on input line 8.
 (pdftex.def)             Requested size: 279.04182pt x 173.64832pt.
 
 
@@ -1330,30 +1330,30 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 
+l.34 
       [1]pdfTeX warning (ext4): destination with the same identifier (name{page
 .2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 
+l.36 
       [2 <./Figures/2Introduction/RadioactiveDosePopulation.png>] [3] [4]
 <Figures/2Introduction/REA.png, id=914, 768.8725pt x 577.15625pt>
 File: Figures/2Introduction/REA.png Graphic file (type png)
 <use Figures/2Introduction/REA.png>
-Package pdftex.def Info: Figures/2Introduction/REA.png  used on input line 64.
+Package pdftex.def Info: Figures/2Introduction/REA.png  used on input line 66.
 (pdftex.def)             Requested size: 192.0561pt x 144.1654pt.
 <Figures/2Introduction/REM.png, id=917, 767.86874pt x 581.17125pt>
 File: Figures/2Introduction/REM.png Graphic file (type png)
 <use Figures/2Introduction/REM.png>
-Package pdftex.def Info: Figures/2Introduction/REM.png  used on input line 67.
+Package pdftex.def Info: Figures/2Introduction/REM.png  used on input line 69.
 (pdftex.def)             Requested size: 192.0561pt x 145.35452pt.
 
-Underfull \hbox (badness 2080) in paragraph at lines 67--67
+Underfull \hbox (badness 2080) in paragraph at lines 69--69
 \T1/cmr/m/n/10 Green dots are uni-formly dis-tributed in
  []
 
 
-Overfull \hbox (7.83142pt too wide) in paragraph at lines 64--68
+Overfull \hbox (7.83142pt too wide) in paragraph at lines 66--70
  [][][][] 
  []
 
@@ -1361,13 +1361,7 @@ Overfull \hbox (7.83142pt too wide) in paragraph at lines 64--68
 Underfull \vbox (badness 4156) has occurred while \output is active []
 
  [6]
-[7]) (./Sections/1Introduction/12Tritium_properties.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
+[7]) (./Sections/1Introduction/12Tritium_properties.tex [8] [9]
 <Figures/2Introduction/CofrentesMaps.png, id=1007, 406.51875pt x 359.3425pt>
 File: Figures/2Introduction/CofrentesMaps.png Graphic file (type png)
 <use Figures/2Introduction/CofrentesMaps.png>
@@ -1392,30 +1386,26 @@ File: Figures/2Introduction/5km_after.png Graphic file (type png)
 Package pdftex.def Info: Figures/2Introduction/5km_after.png  used on input lin
 e 91.
 (pdftex.def)             Requested size: 268.87737pt x 129.62949pt.
-
-Underfull \vbox (badness 1824) has occurred while \output is active []
-
- [10]
-<Figures/2Introduction/Subterranea_before.png, id=1024, 889.07156pt x 426.84468
+ [10 <./Figures/2Introduction/CofrentesMaps.png>] [11 <./Figures/2Introduction/
+6km_before.png> <./Figures/2Introduction/1km_after.png> <./Figures/2Introductio
+n/5km_after.png>]
+<Figures/2Introduction/Subterranea_before.png, id=1034, 889.07156pt x 426.84468
 pt>
 File: Figures/2Introduction/Subterranea_before.png Graphic file (type png)
 <use Figures/2Introduction/Subterranea_before.png>
 Package pdftex.def Info: Figures/2Introduction/Subterranea_before.png  used on 
 input line 104.
 (pdftex.def)             Requested size: 268.87737pt x 129.08347pt.
-<Figures/2Introduction/Subterranea_1_km_later.png, id=1025, 881.54344pt x 428.3
+<Figures/2Introduction/Subterranea_1_km_later.png, id=1035, 881.54344pt x 428.3
 5031pt>
 File: Figures/2Introduction/Subterranea_1_km_later.png Graphic file (type png)
 <use Figures/2Introduction/Subterranea_1_km_later.png>
 Package pdftex.def Info: Figures/2Introduction/Subterranea_1_km_later.png  used
  on input line 108.
 (pdftex.def)             Requested size: 268.87737pt x 130.64992pt.
-
-[11 <./Figures/2Introduction/CofrentesMaps.png>] [12 <./Figures/2Introduction/6
-km_before.png> <./Figures/2Introduction/1km_after.png> <./Figures/2Introduction
-/5km_after.png>] [13 <./Figures/2Introduction/Subterranea_before.png> <./Figure
-s/2Introduction/Subterranea_1_km_later.png>]
-<Figures/2Introduction/esquema_niveles_energeticos.png, id=1054, 460.72125pt x 
+ [12 <./Figures/2Introduction/Subterranea_before.png> <./Figures/2Introduction/
+Subterranea_1_km_later.png>]
+<Figures/2Introduction/esquema_niveles_energeticos.png, id=1049, 460.72125pt x 
 237.88875pt>
 File: Figures/2Introduction/esquema_niveles_energeticos.png Graphic file (type 
 png)
@@ -1423,7 +1413,7 @@ png)
 Package pdftex.def Info: Figures/2Introduction/esquema_niveles_energeticos.png 
  used on input line 137.
 (pdftex.def)             Requested size: 230.46967pt x 118.99852pt.
-<Figures/2Introduction/representacion_desintegracion.png, id=1057, 258.9675pt x
+<Figures/2Introduction/representacion_desintegracion.png, id=1052, 258.9675pt x
  232.87pt>
 File: Figures/2Introduction/representacion_desintegracion.png Graphic file (typ
 e png)
@@ -1436,33 +1426,39 @@ Overfull \hbox (7.8314pt too wide) in paragraph at lines 137--141
  [][][][] 
  []
 
-<Figures/2Introduction/Espectro_tritio.png, id=1061, 581.17125pt x 442.65375pt>
+[13 <./Figures/2Introduction/esquema_niveles_energeticos.png> <./Figures/2Intro
+duction/representacion_desintegracion.png>]
+<Figures/2Introduction/Espectro_tritio.png, id=1068, 581.17125pt x 442.65375pt>
 
 File: Figures/2Introduction/Espectro_tritio.png Graphic file (type png)
 <use Figures/2Introduction/Espectro_tritio.png>
 Package pdftex.def Info: Figures/2Introduction/Espectro_tritio.png  used on inp
 ut line 148.
 (pdftex.def)             Requested size: 348.70544pt x 265.59428pt.
-[14 <./Figures/2Introduction/esquema_niveles_energeticos.png> <./Figures/2Intro
-duction/representacion_desintegracion.png>] [15 <./Figures/2Introduction/Espect
-ro_tritio.png>] [16]) (./Sections/1Introduction/13Legislation.tex [17]
+ [14 <./Figures/2Introduction/Espectro_tritio.png>] [15]) (./Sections/1Introduc
+tion/13Legislation.tex
+Underfull \vbox (badness 8151) has occurred while \output is active []
+
+ [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
-Overfull \hbox (5.13531pt too wide) in paragraph at lines 22--23
+ [17]
+Overfull \hbox (5.13531pt too wide) in paragraph at lines 24--25
 []\T1/cmr/m/n/12 Most of the coun-tries in the world im-ple-ment the RDL of $\O
 T1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1 [][]\OML/cmm/m/it/12 =$\T1/c
 mr/m/n/12 yr
  []
 
 
-Overfull \hbox (34.4654pt too wide) in paragraph at lines 28--29
+Overfull \hbox (34.4654pt too wide) in paragraph at lines 30--31
 \OT1/cmr/m/n/12 4 [][] (0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 04 [][])$\T1/cmr/m/n
 /12 , which cor-re-sponds to a le-gal limit of $\OT1/cmr/m/n/12 20 [][]\OML/cmm
 /m/it/12 =[] \OT1/cmr/m/n/12 (740 []\OML/cmm/m/it/12 =[]\OT1/cmr/m/n/12 )$
  []
 
-) [19] [20]
+[18]) [19] [20
+
+]
 Chapter 2.
 (./Sections/2TritiumDetection/21State_of_the_art.tex
 Overfull \hbox (2.93669pt too wide) in paragraph at lines 11--11
@@ -1472,9 +1468,7 @@ Overfull \hbox (2.93669pt too wide) in paragraph at lines 11--11
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21
-
-]
+ [21]
 Underfull \vbox (badness 1168) has occurred while \output is active []
 
  [22]
@@ -1745,9 +1739,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./Sections/3Design_Principles/32DetectorMonitor/324ElectronicalSystem/3241Elec
 tronicalSystemIntro.tex)
 (./Sections/3Design_Principles/32DetectorMonitor/324ElectronicalSystem/3242PMTs
-ElectronicalSystem.tex [65]
+ElectronicalSystem.tex
 <Figures/3DesignPrinciples/32Tritium_detector/ElectronicSchemBasePMTNoGain.png,
- id=1623, 497.86pt x 389.455pt>
+ id=1617, 497.86pt x 389.455pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/ElectronicSchemBasePMTNoGain
 .png Graphic file (type png)
 <use Figures/3DesignPrinciples/32Tritium_detector/ElectronicSchemBasePMTNoGain.
@@ -1755,50 +1749,59 @@ png>
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/Electroni
 cSchemBasePMTNoGain.png  used on input line 9.
 (pdftex.def)             Requested size: 248.92938pt x 194.72702pt.
- [66 <./Figures/3DesignPrinciples/32Tritium_detector/ElectronicSchemBasePMTNoGa
-in.png>]
+ [65] [66 <./Figures/3DesignPrinciples/32Tritium_detector/ElectronicSchemBasePM
+TNoGain.png>]
 
 LaTeX Warning: Command \textordmasculine invalid in math mode on input line 20.
 
 
-[67]
-<Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_detector.pn
-g, id=1643, 991.705pt x 369.38pt>
-File: Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_detect
-or.png Graphic file (type png)
-<use Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_detecto
-r.png>
+<Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_PMT.png, id
+=1638, 986.68625pt x 320.19624pt>
+File: Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_PMT.pn
+g Graphic file (type png)
+<use Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_PMT.png
+>
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/Electroni
-cal_Scheme_1_detector.png  used on input line 34.
+cal_Scheme_1_PMT.png  used on input line 34.
+(pdftex.def)             Requested size: 384.11221pt x 124.65128pt.
+<Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_PMTs.png, i
+d=1639, 991.705pt x 369.38pt>
+File: Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_PMTs.p
+ng Graphic file (type png)
+<use Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_PMTs.pn
+g>
+Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/Electroni
+cal_Scheme_2_PMTs.png  used on input line 38.
 (pdftex.def)             Requested size: 384.11221pt x 143.07126pt.
-<Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_detectors.p
-ng, id=1644, 1006.76125pt x 298.11375pt>
-File: Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_detect
-ors.png Graphic file (type png)
-<use Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_detecto
-rs.png>
+<Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_4_PMTs.png, i
+d=1640, 1006.76125pt x 298.11375pt>
+File: Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_4_PMTs.p
+ng Graphic file (type png)
+<use Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_4_PMTs.pn
+g>
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/Electroni
-cal_Scheme_2_detectors.png  used on input line 38.
+cal_Scheme_4_PMTs.png  used on input line 42.
 (pdftex.def)             Requested size: 384.11221pt x 113.73927pt.
 
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 34--39
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 34--43
  [][]  
  []
 
 
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 34--39
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 34--43
+ [][]  
+ []
+
+
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 34--43
  [][] 
  []
 
-[68 <./Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_detec
-tor.png> <./Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_
-detectors.png>] [69] [70]
-
-LaTeX Warning: Citation `DataSheetCoincidenceCERN' on page 71 undefined on inpu
-t line 77.
-
-[71]
-<Figures/3DesignPrinciples/32Tritium_detector/1_coincidences.png, id=1706, 1286
+[67] [68 <./Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_
+PMT.png> <./Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_
+PMTs.png> <./Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_4
+_PMTs.png>] [69] [70]
+<Figures/3DesignPrinciples/32Tritium_detector/1_coincidences.png, id=1701, 1286
 .8075pt x 727.71875pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/1_coincidences.png Graphic f
 ile (type png)
@@ -1806,7 +1809,7 @@ ile (type png)
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/1_coincid
 ences.png  used on input line 96.
 (pdftex.def)             Requested size: 192.0561pt x 108.609pt.
-<Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png, id=1707, 12
+<Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png, id=1702, 12
 85.80376pt x 727.71875pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png Graphic
  file (type png)
@@ -1814,7 +1817,7 @@ File: Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png Graphic
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/2_coincid
 ences_1.png  used on input line 99.
 (pdftex.def)             Requested size: 192.0561pt x 108.68672pt.
-<Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_2.png, id=1708, 12
+<Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_2.png, id=1703, 12
 86.8075pt x 728.7225pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_2.png Graphic
  file (type png)
@@ -1822,7 +1825,7 @@ File: Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_2.png Graphic
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/2_coincid
 ences_2.png  used on input line 103.
 (pdftex.def)             Requested size: 192.0561pt x 108.7588pt.
-<Figures/3DesignPrinciples/32Tritium_detector/4_coincidences.png, id=1709, 1285
+<Figures/3DesignPrinciples/32Tritium_detector/4_coincidences.png, id=1704, 1285
 .80376pt x 726.715pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/4_coincidences.png Graphic f
 ile (type png)
@@ -1841,12 +1844,13 @@ Overfull \hbox (7.83142pt too wide) in paragraph at lines 96--107
  []
 
 
-Overfull \hbox (0.78014pt too wide) in paragraph at lines 114--115
-[]\T1/cmr/m/n/12 Finally, the log-i-cal out-put sig-nal of the co-in-ci-dence m
-od-ule, which
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/3DesignPrinciples/32Tritium_detector/Input_MCA.png, id=1714, 1288.815p
+[71] [72 <./Figures/3DesignPrinciples/32Tritium_detector/1_coincidences.png> <.
+/Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png> <./Figures/
+3DesignPrinciples/32Tritium_detector/2_coincidences_2.png> <./Figures/3DesignPr
+inciples/32Tritium_detector/4_coincidences.png>]
+<Figures/3DesignPrinciples/32Tritium_detector/Input_MCA.png, id=1733, 1288.815p
 t x 726.715pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/Input_MCA.png Graphic file (
 type png)
@@ -1859,13 +1863,11 @@ Overfull \hbox (2.53528pt too wide) in paragraph at lines 124--125
  [][] 
  []
 
-) [72] [73 <./Figures/3DesignPrinciples/32Tritium_detector/1_coincidences.png> 
-<./Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png> <./Figure
-s/3DesignPrinciples/32Tritium_detector/2_coincidences_2.png> <./Figures/3Design
-Principles/32Tritium_detector/4_coincidences.png>]
+)
 (./Sections/3Design_Principles/32DetectorMonitor/324ElectronicalSystem/3243SiPM
-sElectronicalSystem.tex
-<Figures/3DesignPrinciples/32Tritium_detector/PETSYS_System.png, id=1739, 374.3
+sElectronicalSystem.tex [73 <./Figures/3DesignPrinciples/32Tritium_detector/Inp
+ut_MCA.png>]
+<Figures/3DesignPrinciples/32Tritium_detector/PETSYS_System.png, id=1743, 374.3
 9874pt x 309.155pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/PETSYS_System.png Graphic fi
 le (type png)
@@ -1875,14 +1877,8 @@ stem.png  used on input line 7.
 (pdftex.def)             Requested size: 224.64098pt x 185.49442pt.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
-
-Underfull \vbox (badness 2435) has occurred while \output is active []
-
- [74 <./Figures/3DesignPrinciples/32Tritium_detector/Input_MCA.png>]
-Underfull \vbox (badness 1931) has occurred while \output is active []
-
- [75 <./Figures/3DesignPrinciples/32Tritium_detector/PETSYS_System.png>] [76]
-<Figures/3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg, id=1780,
+ [74 <./Figures/3DesignPrinciples/32Tritium_detector/PETSYS_System.png>] [75]
+<Figures/3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg, id=1775,
  3131.7pt x 4175.6pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg Grap
 hic file (type jpg)
@@ -1890,7 +1886,7 @@ hic file (type jpg)
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/PCB1_SiPM
 _Black_Box.jpg  used on input line 42.
 (pdftex.def)             Requested size: 3131.6924pt x 4175.58987pt.
-<Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png, id=1781, 264.99pt
+<Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png, id=1776, 264.99pt
  x 264.99pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png Graphic file 
 (type png)
@@ -1898,7 +1894,7 @@ File: Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png Graphic file
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPM
 s.png  used on input line 45.
 (pdftex.def)             Requested size: 172.84932pt x 172.852pt.
-<Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png, id=1782, 705.6362
+<Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png, id=1777, 705.6362
 5pt x 497.86pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png Graphic file 
 (type png)
@@ -1906,7 +1902,7 @@ File: Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png Graphic file
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPM
 s.png  used on input line 49.
 (pdftex.def)             Requested size: 153.64253pt x 108.39761pt.
-<Figures/3DesignPrinciples/32Tritium_detector/LED_DUNE.pdf, id=1783, 569.12625p
+<Figures/3DesignPrinciples/32Tritium_detector/LED_DUNE.pdf, id=1778, 569.12625p
 t x 303.1325pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/LED_DUNE.pdf Graphic file (t
 ype pdf)
@@ -1921,15 +1917,18 @@ Overfull \hbox (7.8314pt too wide) in paragraph at lines 42--53
 
 )
 (./Sections/3Design_Principles/33UltraPureWaterSystem/331IntroductionUltraPureW
-aterSystem.tex [77] [78 <./Figures/3DesignPrinciples/32Tritium_detector/PCB1_Si
-PM_Black_Box.jpg> <./Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.pn
-g> <./Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png> <./Figures/3
-DesignPrinciples/32Tritium_detector/LED_DUNE.pdf, page is rotated 90 degrees>])
+aterSystem.tex
+Underfull \vbox (badness 2285) has occurred while \output is active []
 
+ [76]
+[77 <./Figures/3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg> <.
+/Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png> <./Figures/3Desig
+nPrinciples/32Tritium_detector/PCB3_SiPMs.png> <./Figures/3DesignPrinciples/32T
+ritium_detector/LED_DUNE.pdf, page is rotated 90 degrees>]) [78]
 (./Sections/3Design_Principles/33UltraPureWaterSystem/332SetUpUltraPureWaterSys
-tem.tex [79]
+tem.tex
 <Figures/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraPureWaterSystem.pn
-g, id=1853, 1516.66624pt x 873.2625pt>
+g, id=1851, 1516.66624pt x 873.2625pt>
 File: Figures/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraPureWaterSyst
 em.png Graphic file (type png)
 <use Figures/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraPureWaterSyste
@@ -1937,14 +1936,15 @@ m.png>
 Package pdftex.def Info: Figures/3DesignPrinciples/33UltraPureWaterSystem/Schem
 eUltraPureWaterSystem.png  used on input line 16.
 (pdftex.def)             Requested size: 379.16563pt x 218.31508pt.
- [80] [81 <./Figures/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraPureWa
+ [79] [80 <./Figures/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraPureWa
 terSystem.png>])
 Overfull \hbox (8.3348pt too wide) in paragraph at lines 171--171
 []\T1/cmr/bx/n/17.28 Background Re-jec-tion Sys-tem of TRI-TIUM
  []
 
 (./Sections/3Design_Principles/34BackgroundShields/341IntroBackgrund.tex
-Underfull \vbox (badness 1603) has occurred while \output is active []
+[81]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [82]
 Overfull \hbox (3.67273pt too wide) in paragraph at lines 19--28
@@ -1953,10 +1953,7 @@ Overfull \hbox (3.67273pt too wide) in paragraph at lines 19--28
 
 [83])
 (./Sections/3Design_Principles/34BackgroundShields/342SetUpPassiveShield.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [84]
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/LeadBricks.png, id=1890,
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/LeadBricks.png, id=1888,
  260.975pt x 187.70125pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/LeadBricks.png Grap
 hic file (type png)
@@ -1964,7 +1961,7 @@ hic file (type png)
 Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 LeadBricks.png  used on input line 9.
 (pdftex.def)             Requested size: 115.23483pt x 82.88094pt.
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers.png, id=1891, 
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers.png, id=1889, 
 234.8775pt x 225.09094pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers.png Graph
 ic file (type png)
@@ -1972,7 +1969,7 @@ ic file (type png)
 Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 TwoLayers.png  used on input line 12.
 (pdftex.def)             Requested size: 115.23483pt x 110.43289pt.
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers2.png, id=1892,
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers2.png, id=1890,
  279.0425pt x 293.095pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers2.png Grap
 hic file (type png)
@@ -1981,7 +1978,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 TwoLayers2.png  used on input line 16.
 (pdftex.def)             Requested size: 115.23483pt x 121.03734pt.
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructureScheme
-.png, id=1894, 486.31688pt x 322.20375pt>
+.png, id=1892, 486.31688pt x 322.20375pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructureS
 cheme.png Graphic file (type png)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructureSc
@@ -1990,7 +1987,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 AluminiumStructureScheme.png  used on input line 27.
 (pdftex.def)             Requested size: 172.84932pt x 114.51833pt.
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructure.jpg, 
-id=1895, 4143.48pt x 3107.61pt>
+id=1893, 4143.48pt x 3107.61pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructure.
 jpg Graphic file (type jpg)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructure.j
@@ -1999,17 +1996,14 @@ Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 AluminiumStructure.jpg  used on input line 30.
 (pdftex.def)             Requested size: 153.64253pt x 115.22633pt.
 
-Underfull \vbox (badness 1072) has occurred while \output is active []
-
- [85 <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/LeadBricks.png> <
-./Figures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers.png> <./Figur
-es/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers2.png>])
-(./Sections/3Design_Principles/34BackgroundShields/343SetUpActiveShield.tex
-[86 <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructure
-Scheme.png> <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumS
-tructure.jpg>]
+[84] [85 <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/LeadBricks.pn
+g> <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers.png> <./F
+igures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers2.png> <./Figures
+/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructureScheme.png> <.
+/Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructure.jpg>]
+) (./Sections/3Design_Principles/34BackgroundShields/343SetUpActiveShield.tex
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/Vetos_y_prototipo.png, i
-d=1915, 478.03593pt x 381.67593pt>
+d=1913, 478.03593pt x 381.67593pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/Vetos_y_prototipo.p
 ng Graphic file (type png)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/Vetos_y_prototipo.pn
@@ -2017,9 +2011,16 @@ g>
 Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 Vetos_y_prototipo.png  used on input line 9.
 (pdftex.def)             Requested size: 215.11418pt x 171.75258pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[86]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [87 <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/Vetos_y_prototipo
 .png>]
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/Real_Event.png, id=1926,
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/Real_Event.png, id=1930,
  265.74281pt x 348.55219pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/Real_Event.png Grap
 hic file (type png)
@@ -2027,7 +2028,7 @@ hic file (type png)
 Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 Real_Event.png  used on input line 27.
 (pdftex.def)             Requested size: 96.02805pt x 125.95203pt.
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/Fake_Event.png, id=1927,
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/Fake_Event.png, id=1931,
  264.99pt x 347.79938pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/Fake_Event.png Grap
 hic file (type png)
@@ -2036,16 +2037,13 @@ Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 Fake_Event.png  used on input line 30.
 (pdftex.def)             Requested size: 96.02805pt x 126.03557pt.
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/HardCosmicRate.png, id=1
-928, 459.21562pt x 401.24907pt>
+932, 459.21562pt x 401.24907pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/HardCosmicRate.png 
 Graphic file (type png)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/HardCosmicRate.png>
 Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 HardCosmicRate.png  used on input line 33.
 (pdftex.def)             Requested size: 161.32642pt x 140.95969pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
@@ -2056,7 +2054,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 63.
 
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/EmissionEnergySpectrumVe
-tos.png, id=1936, 395.4775pt x 360.34625pt>
+tos.png, id=1940, 395.4775pt x 360.34625pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/EmissionEnergySpect
 rumVetos.png Graphic file (type png)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/EmissionEnergySpectr
@@ -2064,7 +2062,7 @@ umVetos.png>
 Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 EmissionEnergySpectrumVetos.png  used on input line 65.
 (pdftex.def)             Requested size: 177.96323pt x 162.15431pt.
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/NoCoating.jpeg, id=1940,
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/NoCoating.jpeg, id=1944,
  482.55281pt x 1038.12843pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/NoCoating.jpeg Grap
 hic file (type jpg)
@@ -2073,7 +2071,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 NoCoating.jpeg  used on input line 75.
 (pdftex.def)             Requested size: 88.34416pt x 190.05484pt.
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/TeflonCoating.jpeg, id=1
-941, 432.11438pt x 810.02625pt>
+945, 432.11438pt x 810.02625pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/TeflonCoating.jpeg 
 Graphic file (type jpg)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/TeflonCoating.jpeg>
@@ -2081,7 +2079,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 TeflonCoating.jpeg  used on input line 78.
 (pdftex.def)             Requested size: 88.34416pt x 165.59914pt.
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumCoating.jpeg, i
-d=1942, 276.28218pt x 657.2053pt>
+d=1946, 276.28218pt x 657.2053pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumCoating.jp
 eg Graphic file (type jpg)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumCoating.jpe
@@ -2090,7 +2088,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 AluminiumCoating.jpeg  used on input line 81.
 (pdftex.def)             Requested size: 88.34416pt x 210.13951pt.
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/BlackTapeCoating.jpeg, i
-d=1943, 548.0475pt x 1050.17343pt>
+d=1947, 548.0475pt x 1050.17343pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/BlackTapeCoating.jp
 eg Graphic file (type jpg)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/BlackTapeCoating.jpe
@@ -2101,35 +2099,31 @@ BlackTapeCoating.jpeg  used on input line 84.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [88])
-[89 <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/Real_Event.png> <.
+[88 <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/Real_Event.png> <.
 /Figures/3DesignPrinciples/34BackgroundRejectionSystem/Fake_Event.png> <./Figur
-es/3DesignPrinciples/34BackgroundRejectionSystem/HardCosmicRate.png>] [90 <./Fi
+es/3DesignPrinciples/34BackgroundRejectionSystem/HardCosmicRate.png>] [89 <./Fi
 gures/3DesignPrinciples/34BackgroundRejectionSystem/EmissionEnergySpectrumVetos
-.png>] [91 <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/NoCoating.j
-peg> <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/TeflonCoating.jpe
-g> <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumCoating.jp
-eg> <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/BlackTapeCoating.j
-peg>] [92
-
-]
+.png>]) [90 <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/NoCoating.
+jpeg> <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/TeflonCoating.jp
+eg> <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumCoating.j
+peg> <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/BlackTapeCoating.
+jpeg>]
 Chapter 4.
 (./Sections/4ResearchAndDevelopment/41IntroductionCharacterizationChapter.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93]
+ [91
+
+]
 (./Sections/4ResearchAndDevelopment/42CharacterizationFibers/421IntroFibers.tex
 )
 (./Sections/4ResearchAndDevelopment/42CharacterizationFibers/422ConditioningPro
 cess.tex
 
-LaTeX Warning: Reference `' on page 94 undefined on input line 3.
+LaTeX Warning: Reference `' on page 92 undefined on input line 3.
 
-[94]
-<Figures/4ResearchAndDevelopments/41Fibers/DeformationFiberEnds.png, id=1995, 3
+[92]
+<Figures/4ResearchAndDevelopments/41Fibers/DeformationFiberEnds.png, id=1989, 3
 09.40594pt x 253.69781pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/DeformationFiberEnds.png Graphi
 c file (type png)
@@ -2137,7 +2131,7 @@ c file (type png)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/DeformationF
 iberEnds.png  used on input line 15.
 (pdftex.def)             Requested size: 192.0561pt x 157.4807pt.
-<Figures/4ResearchAndDevelopments/41Fibers/CracksEndFibers.png, id=1996, 330.48
+<Figures/4ResearchAndDevelopments/41Fibers/CracksEndFibers.png, id=1990, 330.48
 468pt x 304.13625pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/CracksEndFibers.png Graphic fil
 e (type png)
@@ -2145,7 +2139,7 @@ e (type png)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/CracksEndFib
 ers.png  used on input line 19.
 (pdftex.def)             Requested size: 172.84932pt x 159.07526pt.
-<Figures/4ResearchAndDevelopments/41Fibers/EuromexMicroscope.png, id=1998, 259.
+<Figures/4ResearchAndDevelopments/41Fibers/EuromexMicroscope.png, id=1992, 259.
 97125pt x 457.71pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/EuromexMicroscope.png Graphic f
 ile (type png)
@@ -2153,7 +2147,7 @@ ile (type png)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/EuromexMicro
 scope.png  used on input line 30.
 (pdftex.def)             Requested size: 96.02805pt x 169.0637pt.
-<Figures/4ResearchAndDevelopments/41Fibers/JiusionMicroscope.png, id=1999, 545.
+<Figures/4ResearchAndDevelopments/41Fibers/JiusionMicroscope.png, id=1993, 545.
 78906pt x 506.6428pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/JiusionMicroscope.png Graphic f
 ile (type png)
@@ -2164,8 +2158,8 @@ scope.png  used on input line 34.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95]
-<Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice1.png, id=2008, 608.272
+ [93]
+<Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice1.png, id=2001, 608.272
 5pt x 439.6425pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice1.png Graphic file
  (type png)
@@ -2173,7 +2167,7 @@ File: Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice1.png Graphic file
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/CuttingDevic
 e1.png  used on input line 45.
 (pdftex.def)             Requested size: 153.64253pt x 111.04407pt.
-<Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice2.png, id=2009, 762.599
+<Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice2.png, id=2002, 762.599
 06pt x 336.50719pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice2.png Graphic file
  (type png)
@@ -2182,7 +2176,7 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/CuttingDevic
 e2.png  used on input line 49.
 (pdftex.def)             Requested size: 211.26288pt x 93.2201pt.
 <Figures/4ResearchAndDevelopments/41Fibers/AdditionalPieceCuttingDevice.png, id
-=2010, 886.81313pt x 298.11375pt>
+=2003, 886.81313pt x 298.11375pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/AdditionalPieceCuttingDevice.pn
 g Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/AdditionalPieceCuttingDevice.png
@@ -2191,14 +2185,14 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/AdditionalPi
 eceCuttingDevice.png  used on input line 53.
 (pdftex.def)             Requested size: 230.46967pt x 77.47589pt.
 
-[96 <./Figures/4ResearchAndDevelopments/41Fibers/DeformationFiberEnds.png> <./F
-igures/4ResearchAndDevelopments/41Fibers/CracksEndFibers.png>] [97 <./Figures/4
+[94 <./Figures/4ResearchAndDevelopments/41Fibers/DeformationFiberEnds.png> <./F
+igures/4ResearchAndDevelopments/41Fibers/CracksEndFibers.png>] [95 <./Figures/4
 ResearchAndDevelopments/41Fibers/EuromexMicroscope.png> <./Figures/4ResearchAnd
 Developments/41Fibers/JiusionMicroscope.png> <./Figures/4ResearchAndDevelopment
 s/41Fibers/CuttingDevice1.png> <./Figures/4ResearchAndDevelopments/41Fibers/Cut
 tingDevice2.png> <./Figures/4ResearchAndDevelopments/41Fibers/AdditionalPieceCu
 ttingDevice.png>]
-<Figures/4ResearchAndDevelopments/41Fibers/CutEndFiberGood.png, id=2045, 389.20
+<Figures/4ResearchAndDevelopments/41Fibers/CutEndFiberGood.png, id=2039, 389.20
 406pt x 312.41719pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/CutEndFiberGood.png Graphic fil
 e (type png)
@@ -2206,7 +2200,7 @@ e (type png)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/CutEndFiberG
 ood.png  used on input line 80.
 (pdftex.def)             Requested size: 192.0561pt x 154.16788pt.
-<Figures/4ResearchAndDevelopments/41Fibers/CutAndPolishedFiberEnd.png, id=2046,
+<Figures/4ResearchAndDevelopments/41Fibers/CutAndPolishedFiberEnd.png, id=2040,
  323.2075pt x 290.08376pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/CutAndPolishedFiberEnd.png Grap
 hic file (type png)
@@ -2217,7 +2211,7 @@ edFiberEnd.png  used on input line 84.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [98]
+ [96]
 Overfull \hbox (23.18222pt too wide) in paragraph at lines 200--200
 []\T1/cmr/bx/n/14.4 Automatic Pol-ish-ing Ma-chine for Scin-til-lat-ing Fibers 
 
@@ -2225,19 +2219,19 @@ Overfull \hbox (23.18222pt too wide) in paragraph at lines 200--200
 
 
 (./Sections/4ResearchAndDevelopment/42CharacterizationFibers/423PolishingMachin
-e.tex [99 <./Figures/4ResearchAndDevelopments/41Fibers/CutEndFiberGood.png> <./
+e.tex [97 <./Figures/4ResearchAndDevelopments/41Fibers/CutEndFiberGood.png> <./
 Figures/4ResearchAndDevelopments/41Fibers/CutAndPolishedFiberEnd.png>]
 <Figures/4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.png, id=2
-064, 403.5075pt x 305.64188pt>
+058, 403.5075pt x 305.64188pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.png 
 Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/GeneralViewP
 olishingMchine.png  used on input line 22.
 (pdftex.def)             Requested size: 242.10637pt x 183.38652pt.
- [100 <./Figures/4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.p
-ng>]
-<Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png, id=2079, 342.529
+ [98 <./Figures/4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.pn
+g>]
+<Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png, id=2073, 342.529
 7pt x 189.70876pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png Graphic file
  (type png)
@@ -2245,7 +2239,7 @@ File: Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png Graphic file
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/PolishingTab
 le.png  used on input line 43.
 (pdftex.def)             Requested size: 342.52885pt x 189.70828pt.
-<Figures/4ResearchAndDevelopments/41Fibers/PieceOfFiber.png, id=2080, 292.09125
+<Figures/4ResearchAndDevelopments/41Fibers/PieceOfFiber.png, id=2074, 292.09125
 pt x 336.50719pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/PieceOfFiber.png Graphic file (
 type png)
@@ -2253,7 +2247,7 @@ type png)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/PieceOfFiber
 .png  used on input line 47.
 (pdftex.def)             Requested size: 292.09052pt x 336.50635pt.
-<Figures/4ResearchAndDevelopments/41Fibers/HorizontalAxis2.png, id=2081, 341.77
+<Figures/4ResearchAndDevelopments/41Fibers/HorizontalAxis2.png, id=2075, 341.77
 687pt x 189.70876pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/HorizontalAxis2.png Graphic fil
 e (type png)
@@ -2261,7 +2255,7 @@ e (type png)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/HorizontalAx
 is2.png  used on input line 51.
 (pdftex.def)             Requested size: 341.77603pt x 189.70828pt.
-<Figures/4ResearchAndDevelopments/41Fibers/Switch.png, id=2082, 308.15125pt x 2
+<Figures/4ResearchAndDevelopments/41Fibers/Switch.png, id=2076, 308.15125pt x 2
 66.9975pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Switch.png Graphic file (type p
 ng)
@@ -2270,12 +2264,12 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/Switch.png
 used on input line 54.
 (pdftex.def)             Requested size: 308.15048pt x 266.99683pt.
 
-[101] [102 <./Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png> <./
-Figures/4ResearchAndDevelopments/41Fibers/PieceOfFiber.png> <./Figures/4Researc
-hAndDevelopments/41Fibers/HorizontalAxis2.png> <./Figures/4ResearchAndDevelopme
-nts/41Fibers/Switch.png>]
+[99] [100 <./Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png> <./F
+igures/4ResearchAndDevelopments/41Fibers/PieceOfFiber.png> <./Figures/4Research
+AndDevelopments/41Fibers/HorizontalAxis2.png> <./Figures/4ResearchAndDevelopmen
+ts/41Fibers/Switch.png>]
 <Figures/4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.png, id=2
-113, 343.2825pt x 260.47313pt>
+106, 343.2825pt x 260.47313pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.png 
 Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.png>
@@ -2286,13 +2280,13 @@ lishingMachine.png  used on input line 75.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[103]
+[101]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 87.
 
 <Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.png, id=2
-125, 517.18219pt x 325.96782pt>
+119, 517.18219pt x 325.96782pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.png 
 Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.png>
@@ -2302,11 +2296,11 @@ MTsCoincidence.png  used on input line 89.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [104 <./Figures/4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.p
+ [102 <./Figures/4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.p
 ng> <./Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.png
 >]
 <Figures/4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOOM.pdf, id=
-2132, 569.12625pt x 300.12125pt>
+2126, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOOM.pdf
  Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOOM.pdf>
@@ -2315,7 +2309,7 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/Co_60_Polish
 ingMachine_ZOOM.pdf  used on input line 101.
 (pdftex.def)             Requested size: 291.92316pt x 153.94823pt.
 <Figures/4ResearchAndDevelopments/41Fibers/Sr_90_PolishingMchine_ZOOM.pdf, id=2
-133, 569.12625pt x 303.1325pt>
+127, 569.12625pt x 303.1325pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Sr_90_PolishingMchine_ZOOM.pdf 
 Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/Sr_90_PolishingMchine_ZOOM.pdf>
@@ -2325,11 +2319,11 @@ ingMchine_ZOOM.pdf  used on input line 105.
 
 Underfull \vbox (badness 1603) has occurred while \output is active []
 
- [105 <./Figures/4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOOM.
+ [103 <./Figures/4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOOM.
 pdf, page is rotated 90 degrees> <./Figures/4ResearchAndDevelopments/41Fibers/S
 r_90_PolishingMchine_ZOOM.pdf, page is rotated 90 degrees>])
 (./Sections/4ResearchAndDevelopment/42CharacterizationFibers/424Characterizatio
-nFibers.tex [106]
+nFibers.tex [104]
 Overfull \hbox (0.11917pt too wide) in paragraph at lines 16--17
 \T1/cmr/m/n/12 R8520-06SEL, whose quan-tum ef-fi-ciency at the work-ing wave-le
 ngth, $\OT1/cmr/m/n/12 29\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 76%$\T1/cmr/m/n/12 ,
@@ -2337,7 +2331,7 @@ ngth, $\OT1/cmr/m/n/12 29\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 76%$\T1/cmr/m/n/12 ,
  []
 
 <Figures/4ResearchAndDevelopments/41Fibers/SetUp_Fiber_Characterization.png, id
-=2236, 564.60938pt x 420.82219pt>
+=2230, 564.60938pt x 420.82219pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/SetUp_Fiber_Characterization.pn
 g Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/SetUp_Fiber_Characterization.png
@@ -2348,7 +2342,7 @@ Characterization.png  used on input line 20.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/4ResearchAndDevelopments/41Fibers/LED_TRITIUM.pdf, id=2240, 569.12625p
+<Figures/4ResearchAndDevelopments/41Fibers/LED_TRITIUM.pdf, id=2234, 569.12625p
 t x 303.1325pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/LED_TRITIUM.pdf Graphic file (t
 ype pdf)
@@ -2362,11 +2356,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [107]
-[108 <./Figures/4ResearchAndDevelopments/41Fibers/SetUp_Fiber_Characterization.
+ [105]
+[106 <./Figures/4ResearchAndDevelopments/41Fibers/SetUp_Fiber_Characterization.
 png>]
 <Figures/4ResearchAndDevelopments/41Fibers/Light_tightness_difference.pdf, id=2
-259, 569.12625pt x 303.1325pt>
+252, 569.12625pt x 303.1325pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Light_tightness_difference.pdf 
 Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/Light_tightness_difference.pdf>
@@ -2377,10 +2371,10 @@ ess_difference.pdf  used on input line 64.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[109 <./Figures/4ResearchAndDevelopments/41Fibers/LED_TRITIUM.pdf, page is rota
+[107 <./Figures/4ResearchAndDevelopments/41Fibers/LED_TRITIUM.pdf, page is rota
 ted 90 degrees>]
 <Figures/4ResearchAndDevelopments/41Fibers/PCBNoGainPlateau_Calibrated.pdf, id=
-2311, 569.12625pt x 300.12125pt>
+2305, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/PCBNoGainPlateau_Calibrated.pdf
  Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/PCBNoGainPlateau_Calibrated.pdf>
@@ -2392,14 +2386,14 @@ teau_Calibrated.pdf  used on input line 76.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[110 <./Figures/4ResearchAndDevelopments/41Fibers/Light_tightness_difference.pd
+[108 <./Figures/4ResearchAndDevelopments/41Fibers/Light_tightness_difference.pd
 f, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [111 <./Figures/4ResearchAndDevelopments/41Fibers/PCBNoGainPlateau_Calibrated.
+ [109 <./Figures/4ResearchAndDevelopments/41Fibers/PCBNoGainPlateau_Calibrated.
 pdf, page is rotated 90 degrees>]
 <Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_30_range.pdf, id=24
-08, 569.12625pt x 303.1325pt>
+02, 569.12625pt x 303.1325pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_30_range.pdf G
 raphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_30_range.pdf>
@@ -2407,7 +2401,7 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/Linearity_te
 st_0_30_range.pdf  used on input line 96.
 (pdftex.def)             Requested size: 268.87737pt x 143.21698pt.
 <Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_2500_range.pdf, id=
-2409, 569.12625pt x 303.1325pt>
+2403, 569.12625pt x 303.1325pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_2500_range.pdf
  Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_2500_range.pdf>
@@ -2415,15 +2409,15 @@ File: Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_2500_range.pdf
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/Linearity_te
 st_0_2500_range.pdf  used on input line 100.
 (pdftex.def)             Requested size: 268.87737pt x 143.21698pt.
- [112 <./Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_30_range.pd
+ [110 <./Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_30_range.pd
 f, page is rotated 90 degrees> <./Figures/4ResearchAndDevelopments/41Fibers/Lin
 earity_test_0_2500_range.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [113]
-[114]
+ [111]
+[112]
 <Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_NoClad.pdf, id=
-2521, 569.12625pt x 303.1325pt>
+2514, 569.12625pt x 303.1325pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_NoClad.pdf
  Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_NoClad.pdf>
@@ -2431,10 +2425,10 @@ File: Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_NoClad.pdf
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/10_Different
 _samples_NoClad.pdf  used on input line 186.
 (pdftex.def)             Requested size: 341.47838pt x 181.8809pt.
- [115 <./Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_NoClad.
+ [113 <./Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_NoClad.
 pdf, page is rotated 90 degrees>]
 <Figures/4ResearchAndDevelopments/41Fibers/10_Different_Samples_Average_3_Fiber
-_Types.pdf, id=2573, 569.12625pt x 303.1325pt>
+_Types.pdf, id=2567, 569.12625pt x 303.1325pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/10_Different_Samples_Average_3_
 Fiber_Types.pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/10_Different_Samples_Average_3_F
@@ -2446,13 +2440,13 @@ _Samples_Average_3_Fiber_Types.pdf  used on input line 245.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[116] [117 <./Figures/4ResearchAndDevelopments/41Fibers/10_Different_Samples_Av
-erage_3_Fiber_Types.pdf, page is rotated 90 degrees>] [118]
+[114] [115 <./Figures/4ResearchAndDevelopments/41Fibers/10_Different_Samples_Av
+erage_3_Fiber_Types.pdf, page is rotated 90 degrees>] [116]
 Overfull \hbox (5.60168pt too wide) in paragraph at lines 289--298
  [] 
  []
 
-[119]
+[117]
 Overfull \hbox (1.91164pt too wide) in paragraph at lines 325--326
 []\T1/cmr/m/n/12 The col-lec-tion ef-fi-ciency per me-ter given by the man-u-fa
 c-turer Saint-
@@ -2460,8 +2454,8 @@ c-turer Saint-
 
 )
 (./Sections/4ResearchAndDevelopment/42CharacterizationFibers/425CleaningProcess
-.tex [120]
-<Figures/4ResearchAndDevelopments/41Fibers/WettingProperty.png, id=2652, 625.33
+.tex [118]
+<Figures/4ResearchAndDevelopments/41Fibers/WettingProperty.png, id=2644, 625.33
 624pt x 204.765pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/WettingProperty.png Graphic fil
 e (type png)
@@ -2469,8 +2463,8 @@ e (type png)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/WettingPrope
 rty.png  used on input line 13.
 (pdftex.def)             Requested size: 375.20464pt x 122.85992pt.
- [121 <./Figures/4ResearchAndDevelopments/41Fibers/WettingProperty.png>]
-<Figures/4ResearchAndDevelopments/41Fibers/Cs-137_CleaningProcess.pdf, id=2664,
+ [119 <./Figures/4ResearchAndDevelopments/41Fibers/WettingProperty.png>]
+<Figures/4ResearchAndDevelopments/41Fibers/Cs-137_CleaningProcess.pdf, id=2657,
  569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Cs-137_CleaningProcess.pdf Grap
 hic file (type pdf)
@@ -2478,7 +2472,7 @@ hic file (type pdf)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/Cs-137_Clean
 ingProcess.pdf  used on input line 32.
 (pdftex.def)             Requested size: 291.92316pt x 153.94823pt.
-<Figures/4ResearchAndDevelopments/41Fibers/Sr-90_CleaningProcess.pdf, id=2665, 
+<Figures/4ResearchAndDevelopments/41Fibers/Sr-90_CleaningProcess.pdf, id=2658, 
 569.12625pt x 430.60875pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Sr-90_CleaningProcess.pdf Graph
 ic file (type pdf)
@@ -2489,16 +2483,16 @@ ngProcess.pdf  used on input line 36.
 ) (./Sections/4ResearchAndDevelopment/43CharacterizationSiPMs.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [122]
-[123 <./Figures/4ResearchAndDevelopments/41Fibers/Cs-137_CleaningProcess.pdf, p
+ [120]
+[121 <./Figures/4ResearchAndDevelopments/41Fibers/Cs-137_CleaningProcess.pdf, p
 age is rotated 90 degrees> <./Figures/4ResearchAndDevelopments/41Fibers/Sr-90_C
 leaningProcess.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Reference `' on page 124 undefined on input line 9.
+LaTeX Warning: Reference `' on page 122 undefined on input line 9.
 
-[124]
+[122]
 
-LaTeX Warning: Reference `' on page 125 undefined on input line 23.
+LaTeX Warning: Reference `' on page 123 undefined on input line 23.
 
 
 Overfull \hbox (0.47589pt too wide) in paragraph at lines 38--40
@@ -2509,41 +2503,41 @@ s pueden
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [125]
+ [123]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126]
+ [124]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [127])
-(./Sections/4ResearchAndDevelopment/44WaterSystemMeasurements.tex [128]
+ [125])
+(./Sections/4ResearchAndDevelopment/44WaterSystemMeasurements.tex [126]
+Overfull \hbox (8.39597pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/12 4.3.  CHARACTERIZATION OF THE ULTRAPURE WATER SYSTEM \T1/cmr/m/
+n/12 127
+ []
+
+[127] [128]
+
+LaTeX Warning: Reference `' on page 129 undefined on input line 80.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \hbox (8.39597pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/12 4.3.  CHARACTERIZATION OF THE ULTRAPURE WATER SYSTEM \T1/cmr/m/
 n/12 129
  []
 
-[129] [130]
-
-LaTeX Warning: Reference `' on page 131 undefined on input line 80.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (8.39597pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/12 4.3.  CHARACTERIZATION OF THE ULTRAPURE WATER SYSTEM \T1/cmr/m/
-n/12 131
- []
-
-[131])
+[129])
 (./Sections/4ResearchAndDevelopment/45CharacterizationBackgroundShields/453Char
-acterizationActiveShield.tex [132]
+acterizationActiveShield.tex [130]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 9.
 
 <Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_HV_VETOS.pdf
-, id=2824, 569.12625pt x 300.12125pt>
+, id=2816, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_HV_VETO
 S.pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_HV_VETOS
@@ -2552,7 +2546,7 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_
 for_several_HV_VETOS.pdf  used on input line 13.
 (pdftex.def)             Requested size: 307.29094pt x 162.0539pt.
 <Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_thresholds_V
-ETOS.pdf, id=2825, 569.12625pt x 300.12125pt>
+ETOS.pdf, id=2817, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_thresho
 lds_VETOS.pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_threshol
@@ -2563,12 +2557,12 @@ for_several_thresholds_VETOS.pdf  used on input line 17.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [133]
-[134 <./Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_HV_VE
+ [131]
+[132 <./Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_HV_VE
 TOS.pdf, page is rotated 90 degrees> <./Figures/4ResearchAndDevelopments/43Cosm
 icVetos/Counts_for_several_thresholds_VETOS.pdf, page is rotated 90 degrees>]
 <Figures/4ResearchAndDevelopments/43CosmicVetos/Cosmic_Energy_Spectrum_36_cm_La
-ndau_Function.pdf, id=2927, 569.12625pt x 300.12125pt>
+ndau_Function.pdf, id=2921, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/43CosmicVetos/Cosmic_Energy_Spectrum_36_
 cm_Landau_Function.pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/43CosmicVetos/Cosmic_Energy_Spectrum_36_c
@@ -2577,10 +2571,10 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/43CosmicVetos/Cosmic_
 Energy_Spectrum_36_cm_Landau_Function.pdf  used on input line 30.
 (pdftex.def)             Requested size: 341.47838pt x 180.07413pt.
 
-[135 <./Figures/4ResearchAndDevelopments/43CosmicVetos/Cosmic_Energy_Spectrum_3
+[133 <./Figures/4ResearchAndDevelopments/43CosmicVetos/Cosmic_Energy_Spectrum_3
 6_cm_Landau_Function.pdf, page is rotated 90 degrees>]
 <Figures/4ResearchAndDevelopments/43CosmicVetos/Energy_Plots_SeveralDistance_Ve
-to.pdf, id=2978, 569.12625pt x 300.12125pt>
+to.pdf, id=2972, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/43CosmicVetos/Energy_Plots_SeveralDistan
 ce_Veto.pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/43CosmicVetos/Energy_Plots_SeveralDistanc
@@ -2589,7 +2583,7 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/43CosmicVetos/Energy_
 Plots_SeveralDistance_Veto.pdf  used on input line 42.
 (pdftex.def)             Requested size: 341.47838pt x 180.07413pt.
 <Figures/4ResearchAndDevelopments/43CosmicVetos/LinearFit_SeveralDistance_Veto.
-pdf, id=2980, 569.12625pt x 300.12125pt>
+pdf, id=2974, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/43CosmicVetos/LinearFit_SeveralDistance_
 Veto.pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/43CosmicVetos/LinearFit_SeveralDistance_V
@@ -2601,26 +2595,26 @@ it_SeveralDistance_Veto.pdf  used on input line 52.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[136 <./Figures/4ResearchAndDevelopments/43CosmicVetos/Energy_Plots_SeveralDist
-ance_Veto.pdf, page is rotated 90 degrees>]) [137 <./Figures/4ResearchAndDevelo
+[134 <./Figures/4ResearchAndDevelopments/43CosmicVetos/Energy_Plots_SeveralDist
+ance_Veto.pdf, page is rotated 90 degrees>]) [135 <./Figures/4ResearchAndDevelo
 pments/43CosmicVetos/LinearFit_SeveralDistance_Veto.pdf, page is rotated 90 deg
-rees>] [138
+rees>] [136
 
 ]
 Chapter 5.
 (./Sections/5Prototypes/51IntroPrototypes.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [139]
+ [137]
 (./Sections/5Prototypes/52FirstPrototypes/521IntroPreProto.tex)
 (./Sections/5Prototypes/52FirstPrototypes/522TritiumIFIC0.tex
 
-LaTeX Warning: Reference `subsubsec:ConditioningProcess' on page 140 undefined 
+LaTeX Warning: Reference `subsubsec:ConditioningProcess' on page 138 undefined 
 on input line 5.
 
-[140]
+[138]
 <Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Metalic_piece_of_fi
-ber_bundle.png, id=3091, 685.56125pt x 437.635pt>
+ber_bundle.png, id=3085, 685.56125pt x 437.635pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Metalic_piece_
 of_fiber_bundle.png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Metalic_piece_o
@@ -2629,7 +2623,7 @@ Package pdftex.def Info: Figures/5Prototypes/52PreliminarPrototypes/521TritiumI
 FIC0/Metalic_piece_of_fiber_bundle.png  used on input line 11.
 (pdftex.def)             Requested size: 685.55957pt x 437.63393pt.
 <Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/FiberBundleBent.png
-, id=3092, 643.40375pt x 508.90125pt>
+, id=3086, 643.40375pt x 508.90125pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/FiberBundleBen
 t.png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/FiberBundleBent
@@ -2638,7 +2632,7 @@ Package pdftex.def Info: Figures/5Prototypes/52PreliminarPrototypes/521TritiumI
 FIC0/FiberBundleBent.png  used on input line 15.
 (pdftex.def)             Requested size: 643.40218pt x 508.90001pt.
 <Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/FiberBundleStraight
-.png, id=3093, 799.98875pt x 139.52126pt>
+.png, id=3087, 799.98875pt x 139.52126pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/FiberBundleStr
 aight.png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/FiberBundleStra
@@ -2647,7 +2641,7 @@ Package pdftex.def Info: Figures/5Prototypes/52PreliminarPrototypes/521TritiumI
 FIC0/FiberBundleStraight.png  used on input line 19.
 (pdftex.def)             Requested size: 799.9868pt x 139.5209pt.
 <Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Tritium_IFIC_0.jpg,
- id=3096, 2569.6pt x 1927.2pt>
+ id=3090, 2569.6pt x 1927.2pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Tritium_IFIC_0
 .jpg Graphic file (type jpg)
 <use Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Tritium_IFIC_0.
@@ -2659,28 +2653,28 @@ FIC0/Tritium_IFIC_0.jpg  used on input line 28.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[141 <./Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Metalic_piec
+[139 <./Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Metalic_piec
 e_of_fiber_bundle.png> <./Figures/5Prototypes/52PreliminarPrototypes/521Tritium
 IFIC0/FiberBundleBent.png> <./Figures/5Prototypes/52PreliminarPrototypes/521Tri
 tiumIFIC0/FiberBundleStraight.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [142 <./Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Tritium_IFI
+ [140 <./Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Tritium_IFI
 C_0.jpg>]
 
-LaTeX Warning: Reference `subsubsec:CleaningProcess' on page 143 undefined on i
+LaTeX Warning: Reference `subsubsec:CleaningProcess' on page 141 undefined on i
 nput line 48.
 
 
-LaTeX Warning: Reference `subsubsec:CharacterizationFibers' on page 143 undefin
+LaTeX Warning: Reference `subsubsec:CharacterizationFibers' on page 141 undefin
 ed on input line 54.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [143]
+ [141]
 <Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/PMMA_vessel_ZOOM.pn
-g, id=3125, 433.62pt x 355.3275pt>
+g, id=3118, 433.62pt x 355.3275pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/PMMA_vessel_ZO
 OM.png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/PMMA_vessel_ZOO
@@ -2689,7 +2683,7 @@ Package pdftex.def Info: Figures/5Prototypes/52PreliminarPrototypes/521TritiumI
 FIC0/PMMA_vessel_ZOOM.png  used on input line 60.
 (pdftex.def)             Requested size: 433.61894pt x 355.32661pt.
 <Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Lost_Photons.jpg, i
-d=3126, 2569.6pt x 1927.2pt>
+d=3119, 2569.6pt x 1927.2pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Lost_Photons.j
 pg Graphic file (type jpg)
 <use Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Lost_Photons.jp
@@ -2700,18 +2694,18 @@ FIC0/Lost_Photons.jpg  used on input line 64.
 )
 (./Sections/5Prototypes/52FirstPrototypes/523TritiumIFIC1.tex
 
-LaTeX Warning: Reference `subsubsec:CleaningProcess' on page 144 undefined on i
+LaTeX Warning: Reference `subsubsec:CleaningProcess' on page 142 undefined on i
 nput line 7.
 
-[144 <./Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/PMMA_vessel_
+[142 <./Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/PMMA_vessel_
 ZOOM.png> <./Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Lost_Ph
 otons.jpg>]
 
-LaTeX Warning: Reference `subsubsec:CharacterizationFibers' on page 145 undefin
+LaTeX Warning: Reference `subsubsec:CharacterizationFibers' on page 143 undefin
 ed on input line 9.
 
 <Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/FiberMatrixTeflonSt
-ructure.png, id=3138, 810.02625pt x 420.57124pt>
+ructure.png, id=3131, 810.02625pt x 420.57124pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/FiberMatrixTef
 lonStructure.png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/FiberMatrixTefl
@@ -2721,10 +2715,10 @@ FIC1/FiberMatrixTeflonStructure.png  used on input line 21.
 (pdftex.def)             Requested size: 324.00475pt x 168.22551pt.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
-[145 <./Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/FiberMatrixT
+[143 <./Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/FiberMatrixT
 eflonStructure.png>]
 <Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TeflonVesselTritium
-IFIC1a.png, id=3146, 296.10625pt x 511.9125pt>
+IFIC1a.png, id=3140, 296.10625pt x 511.9125pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TeflonVesselTr
 itiumIFIC1a.png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TeflonVesselTri
@@ -2733,7 +2727,7 @@ Package pdftex.def Info: Figures/5Prototypes/52PreliminarPrototypes/522TritiumI
 FIC1/TeflonVesselTritiumIFIC1a.png  used on input line 31.
 (pdftex.def)             Requested size: 296.10551pt x 511.91125pt.
 <Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TeflonVesselTritium
-IFIC1b.png, id=3147, 452.69125pt x 471.7625pt>
+IFIC1b.png, id=3141, 452.69125pt x 471.7625pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TeflonVesselTr
 itiumIFIC1b.png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TeflonVesselTri
@@ -2743,11 +2737,11 @@ FIC1/TeflonVesselTritiumIFIC1b.png  used on input line 35.
 (pdftex.def)             Requested size: 452.69014pt x 471.76134pt.
 
 
-LaTeX Warning: Reference `subsubsec:CleaningProcess' on page 146 undefined on i
+LaTeX Warning: Reference `subsubsec:CleaningProcess' on page 144 undefined on i
 nput line 40.
 
 <Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1a.png, 
-id=3149, 365.365pt x 584.1825pt>
+id=3143, 365.365pt x 584.1825pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1a.
 png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1a.p
@@ -2756,7 +2750,7 @@ Package pdftex.def Info: Figures/5Prototypes/52PreliminarPrototypes/522TritiumI
 FIC1/TritiumIFIC1a.png  used on input line 48.
 (pdftex.def)             Requested size: 365.3641pt x 584.18106pt.
 <Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1b.png, 
-id=3150, 291.0875pt x 379.4175pt>
+id=3144, 291.0875pt x 379.4175pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1b.
 png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1b.p
@@ -2767,17 +2761,17 @@ FIC1/TritiumIFIC1b.png  used on input line 52.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[146 <./Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TeflonVessel
+[144 <./Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TeflonVessel
 TritiumIFIC1a.png> <./Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC
 1/TeflonVesselTritiumIFIC1b.png>])
 (./Sections/5Prototypes/53LastestPrototypes/531IntroLatestPrototypes.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [147 <./Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC
+ [145 <./Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC
 1a.png> <./Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIF
 IC1b.png>]) (./Sections/5Prototypes/53LastestPrototypes/532TritiumAveiro.tex
 <Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/GeneralViewOfAveiroProt
-otype.png, id=3172, 621.32124pt x 239.89626pt>
+otype.png, id=3166, 621.32124pt x 239.89626pt>
 File: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/GeneralViewOfAveir
 oPrototype.png Graphic file (type png)
 <use Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/GeneralViewOfAveiro
@@ -2790,7 +2784,7 @@ Package pdftex.def Info: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TeflonVessel_Fibers.png
-, id=3175, 493.845pt x 373.395pt>
+, id=3169, 493.845pt x 373.395pt>
 File: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TeflonVessel_Fiber
 s.png Graphic file (type png)
 <use Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TeflonVessel_Fibers
@@ -2798,11 +2792,11 @@ s.png Graphic file (type png)
 Package pdftex.def Info: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro
 /TeflonVessel_Fibers.png  used on input line 14.
 (pdftex.def)             Requested size: 197.53448pt x 149.35535pt.
-[148] [149 <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/GeneralVie
+[146] [147 <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/GeneralVie
 wOfAveiroPrototype.png> <./Figures/5Prototypes/53FinalPrototypes/531TritiumAvei
 ro/TeflonVessel_Fibers.png>]
 <Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TransmissionSpectrumPMM
-A_cut_at_low_energy.pdf, id=3191, 569.12625pt x 303.1325pt>
+A_cut_at_low_energy.pdf, id=3184, 569.12625pt x 303.1325pt>
 File: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TransmissionSpectr
 umPMMA_cut_at_low_energy.pdf Graphic file (type pdf)
 <use Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TransmissionSpectru
@@ -2817,11 +2811,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [150]
-[151 <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TransmissionSpec
+ [148]
+[149 <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TransmissionSpec
 trumPMMA_cut_at_low_energy.pdf, page is rotated 90 degrees>]
 <Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TritiumHV-Board.pdf, id
-=3256, 845.1575pt x 597.23125pt>
+=3250, 845.1575pt x 597.23125pt>
 File: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TritiumHV-Board.pd
 f Graphic file (type pdf)
 <use Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TritiumHV-Board.pdf
@@ -2829,7 +2823,7 @@ f Graphic file (type pdf)
 Package pdftex.def Info: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro
 /TritiumHV-Board.pdf  used on input line 56.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-<Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/GUIHVBoard.png, id=3257
+<Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/GUIHVBoard.png, id=3251
 , 578.16pt x 600.2425pt>
 File: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/GUIHVBoard.png Gra
 phic file (type png)
@@ -2846,7 +2840,7 @@ Overfull \hbox (7.82208pt too wide) in paragraph at lines 56--61
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/ElectronicSchemeCounter
-Board.png, id=3259, 780.9175pt x 351.3125pt>
+Board.png, id=3253, 780.9175pt x 351.3125pt>
 File: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/ElectronicSchemeCo
 unterBoard.png Graphic file (type png)
 <use Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/ElectronicSchemeCou
@@ -2857,17 +2851,17 @@ Package pdftex.def Info: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[152]
+[150]
 Underfull \vbox (badness 2359) has occurred while \output is active []
 
- [153 <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TritiumHV-Board
+ [151 <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TritiumHV-Board
 .pdf> <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/GUIHVBoard.png>
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [154 <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/ElectronicSchem
+ [152 <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/ElectronicSchem
 eCounterBoard.png>]
-<Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/CounterGUI.png, id=3302
+<Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/CounterGUI.png, id=3296
 , 888.31876pt x 553.06625pt>
 File: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/CounterGUI.png Gra
 phic file (type png)
@@ -2884,7 +2878,7 @@ Overfull \hbox (15.62753pt too wide) in paragraph at lines 95--96
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_accepted_Aveiro_p
-rototype.png, id=3304, 413.545pt x 246.9225pt>
+rototype.png, id=3298, 413.545pt x 246.9225pt>
 File: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_accepted_Ave
 iro_prototype.png Graphic file (type png)
 <use Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_accepted_Avei
@@ -2893,7 +2887,7 @@ Package pdftex.def Info: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro
 /Event_accepted_Aveiro_prototype.png  used on input line 109.
 (pdftex.def)             Requested size: 413.54398pt x 246.92188pt.
 <Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_rejected_Aveiro_p
-rototype.png, id=3305, 406.51875pt x 246.9225pt>
+rototype.png, id=3299, 406.51875pt x 246.9225pt>
 File: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_rejected_Ave
 iro_prototype.png Graphic file (type png)
 <use Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_rejected_Avei
@@ -2907,11 +2901,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [155]
-[156 <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/CounterGUI.png>]
+ [153]
+[154 <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/CounterGUI.png>]
 ) (./Sections/5Prototypes/53LastestPrototypes/533TritiumIFIC2.tex
 <Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_full_modu
-le.jpg, id=3323, 841.64438pt x 508.14844pt>
+le.jpg, id=3316, 841.64438pt x 508.14844pt>
 File: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_full
 _module.jpg Graphic file (type jpg)
 <use Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_full_
@@ -2924,7 +2918,7 @@ Tritium_IFIC_2_full_module.jpg  used on input line 5.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_vessel1.p
-ng, id=3325, 360.34625pt x 532.99126pt>
+ng, id=3318, 360.34625pt x 532.99126pt>
 File: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_vess
 el1.png Graphic file (type png)
 <use Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_vesse
@@ -2933,7 +2927,7 @@ Package pdftex.def Info: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/
 Tritium_IFIC_2_vessel1.png  used on input line 15.
 (pdftex.def)             Requested size: 360.34537pt x 532.98996pt.
 <Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_vessel2.p
-ng, id=3326, 309.155pt x 533.995pt>
+ng, id=3319, 309.155pt x 533.995pt>
 File: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_vess
 el2.png Graphic file (type png)
 <use Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_vesse
@@ -2951,22 +2945,22 @@ Overfull \hbox (4.065pt too wide) in paragraph at lines 24--25
  []
 
 
-LaTeX Warning: Reference `subsubsec:ConditioningProcess' on page 157 undefined 
+LaTeX Warning: Reference `subsubsec:ConditioningProcess' on page 155 undefined 
 on input line 26.
 
-[157 <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_accepted_A
+[155 <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_accepted_A
 veiro_prototype.png> <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/
 Event_rejected_Aveiro_prototype.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [158 <./Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_f
+ [156 <./Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_f
 ull_module.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [159 <./Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_v
+ [157 <./Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_v
 essel1.png> <./Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IF
 IC_2_vessel2.png>]
-<Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/GUI_PETSYS.png, id=3352,
+<Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/GUI_PETSYS.png, id=3346,
  765.86125pt x 520.94624pt>
 File: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/GUI_PETSYS.png Grap
 hic file (type png)
@@ -2974,7 +2968,7 @@ hic file (type png)
 Package pdftex.def Info: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/
 GUI_PETSYS.png  used on input line 42.
 (pdftex.def)             Requested size: 306.33907pt x 208.3748pt.
- [160 <./Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/GUI_PETSYS.png>]
+ [158 <./Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/GUI_PETSYS.png>]
 
 Overfull \hbox (7.0672pt too wide) in paragraph at lines 52--53
 []\T1/cmr/m/n/12 The ac-tiv-ity of the tri-tium source used for this pro-to-typ
@@ -2982,7 +2976,7 @@ e is $\OT1/cmr/m/n/12 10 [][]\OML/cmm/m/it/12 =[]$
  []
 
 ) (./Sections/5Prototypes/54TritiumIFICMonitor.tex
-<Figures/5Prototypes/55ModularTritiumDetector/FinalTritium.png, id=3366, 576.15
+<Figures/5Prototypes/55ModularTritiumDetector/FinalTritium.png, id=3360, 576.15
 25pt x 397.485pt>
 File: Figures/5Prototypes/55ModularTritiumDetector/FinalTritium.png Graphic fil
 e (type png)
@@ -2994,9 +2988,9 @@ ium.png  used on input line 5.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[161] [162 <./Figures/5Prototypes/55ModularTritiumDetector/FinalTritium.png>]
+[159] [160 <./Figures/5Prototypes/55ModularTritiumDetector/FinalTritium.png>]
 <Figures/5Prototypes/55ModularTritiumDetector/Tritium_Detector_Based_On_Tritium
-_IFIC_2.PNG, id=3390, 413.29407pt x 394.47375pt>
+_IFIC_2.PNG, id=3383, 413.29407pt x 394.47375pt>
 File: Figures/5Prototypes/55ModularTritiumDetector/Tritium_Detector_Based_On_Tr
 itium_IFIC_2.PNG Graphic file (type png)
 <use Figures/5Prototypes/55ModularTritiumDetector/Tritium_Detector_Based_On_Tri
@@ -3011,29 +3005,29 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [163]
-[164 <./Figures/5Prototypes/55ModularTritiumDetector/Tritium_Detector_Based_On_
+ [161]
+[162 <./Figures/5Prototypes/55ModularTritiumDetector/Tritium_Detector_Based_On_
 Tritium_IFIC_2.PNG>]
 Chapter 6.
 (./Sections/6Simulations/61IntroSimulations.tex)
 (./Sections/6Simulations/62Geant4.tex
 Underfull \vbox (badness 5622) has occurred while \output is active []
 
- [165
+ [163
 
 ]
-[166])
+[164])
 (./Sections/6Simulations/63SimulationPerformed/631IntroSimulationPerformed.tex)
 
 (./Sections/6Simulations/63SimulationPerformed/632TritiumSourceShapeSimulated.t
-ex [167])
+ex [165])
 (./Sections/6Simulations/63SimulationPerformed/633FiberLengthSimulated.tex
-[168])
+[166])
 (./Sections/6Simulations/63SimulationPerformed/634FiberDiameterSimulated.tex
-[169])
+[167])
 (./Sections/6Simulations/63SimulationPerformed/635TritiumIFIC2Simulated.tex
 <Figures/6Simulations/64Tritium_IFIC_2/FiberDistribution_Tritium_IFIC_2_simulat
-ion.png, id=3455, 590.205pt x 601.24625pt>
+ion.png, id=3448, 590.205pt x 601.24625pt>
 File: Figures/6Simulations/64Tritium_IFIC_2/FiberDistribution_Tritium_IFIC_2_si
 mulation.png Graphic file (type png)
 <use Figures/6Simulations/64Tritium_IFIC_2/FiberDistribution_Tritium_IFIC_2_sim
@@ -3042,9 +3036,9 @@ Package pdftex.def Info: Figures/6Simulations/64Tritium_IFIC_2/FiberDistributio
 n_Tritium_IFIC_2_simulation.png  used on input line 15.
 (pdftex.def)             Requested size: 236.0778pt x 240.49423pt.
 
-[170] [171 <./Figures/6Simulations/64Tritium_IFIC_2/FiberDistribution_Tritium_I
+[168] [169 <./Figures/6Simulations/64Tritium_IFIC_2/FiberDistribution_Tritium_I
 FIC_2_simulation.png>]
-<Figures/6Simulations/64Tritium_IFIC_2/SimulationTritiumIFIC2.png, id=3470, 751
+<Figures/6Simulations/64Tritium_IFIC_2/SimulationTritiumIFIC2.png, id=3464, 751
 .80875pt x 335.2525pt>
 File: Figures/6Simulations/64Tritium_IFIC_2/SimulationTritiumIFIC2.png Graphic 
 file (type png)
@@ -3060,16 +3054,16 @@ Overfull \hbox (2.7636pt too wide) in paragraph at lines 299--299
 (./Sections/6Simulations/63SimulationPerformed/636LeadCosmicSimulated.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [172 <./Figures/6Simulations/64Tritium_IFIC_2/SimulationTritiumIFIC2.png>]
+ [170 <./Figures/6Simulations/64Tritium_IFIC_2/SimulationTritiumIFIC2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [173])
-[174]
+ [171])
+[172]
 Chapter 7.
 (./Sections/7ResultsPrototypes/71IntroResultsPrototypes.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [175
+ [173
 
 ]
 (./Sections/7ResultsPrototypes/72ExperimentalResultsPrototypes/721IntroExperime
@@ -3079,65 +3073,65 @@ esultsTritiumIFIC0.tex)
 (./Sections/7ResultsPrototypes/72ExperimentalResultsPrototypes/723ExperimentalR
 esultsTritiumIFIC1.tex)
 (./Sections/7ResultsPrototypes/72ExperimentalResultsPrototypes/724ExperimentalR
-esultsTritiumAveiro.tex [176])
+esultsTritiumAveiro.tex [174])
 (./Sections/7ResultsPrototypes/72ExperimentalResultsPrototypes/725ExperimentalR
 esultsTritiumIFIC2.tex
 Underfull \vbox (badness 5403) has occurred while \output is active []
 
- [177])
+ [175])
 (./Sections/7ResultsPrototypes/72ExperimentalResultsPrototypes/726ExperimentalA
 rrocampoMesaurements.tex)
 (./Sections/7ResultsPrototypes/73SimulationResultsPrototypes/731IntroSimulatedR
 esultsPrototypes.tex
 Underfull \vbox (badness 2680) has occurred while \output is active []
 
- [178]
+ [176]
 Overfull \hbox (6.45862pt too wide) in paragraph at lines 17--18
 []\T1/cmr/m/n/12 - In-clu-ido el co-e-fi-ciente de Birks ya que este afecta bas
 -tante. Mostrar
  []
 
-) [179] [180
+) [177] [178
 
 ]
 Chapter 8.
-(./Sections/8ConclusionsAndProspects/81ConclusionsProspects.tex [181]) [182]
-[183
+(./Sections/8ConclusionsAndProspects/81ConclusionsProspects.tex [179]) [180]
+[181
 
-] [184]
+] [182]
 Appendix A.
-(./Sections/9Appendix/91BirksAppendix.tex) [185
+(./Sections/9Appendix/91BirksAppendix.tex) [183
 
-] [186
+] [184
 
 ]
 Appendix B.
-(./Sections/9Appendix/92HowElectronicsNIMWorks.tex) [187] [188
+(./Sections/9Appendix/92HowElectronicsNIMWorks.tex) [185] [186
 
 ]
 Appendix C.
-(./Sections/9Appendix/93ElectronicalSchemeSiPMPCBs.tex) [189]
+(./Sections/9Appendix/93ElectronicalSchemeSiPMPCBs.tex) [187]
 Overfull \hbox (149.26918pt too wide) has occurred while \output is active
-\T1/cmr/m/n/12 190 \T1/cmr/m/sl/12 APPENDIX C.  ELECTRONICAL SCHEMES OF PCBS US
+\T1/cmr/m/n/12 188 \T1/cmr/m/sl/12 APPENDIX C.  ELECTRONICAL SCHEMES OF PCBS US
 ED FOR SIPM CHARACTERIZATION
  []
 
-[190
+[188
 
 ]
 Appendix D.
 (./Sections/9Appendix/94UltraPureWaterSystem.tex
 <Figures/9Appendix/94UltraPureWaterSystem/SchemeUltraPureWaterSystem.png, id=35
-61, 1516.66624pt x 873.2625pt>
+55, 1516.66624pt x 873.2625pt>
 File: Figures/9Appendix/94UltraPureWaterSystem/SchemeUltraPureWaterSystem.png G
 raphic file (type png)
 <use Figures/9Appendix/94UltraPureWaterSystem/SchemeUltraPureWaterSystem.png>
 Package pdftex.def Info: Figures/9Appendix/94UltraPureWaterSystem/SchemeUltraPu
 reWaterSystem.png  used on input line 7.
 (pdftex.def)             Requested size: 303.32788pt x 174.6494pt.
- [191 <./Figures/9Appendix/94UltraPureWaterSystem/SchemeUltraPureWaterSystem.pn
+ [189 <./Figures/9Appendix/94UltraPureWaterSystem/SchemeUltraPureWaterSystem.pn
 g>]
-<Figures/9Appendix/94UltraPureWaterSystem/GrossFiltering.png, id=3572, 197.7387
+<Figures/9Appendix/94UltraPureWaterSystem/GrossFiltering.png, id=3564, 197.7387
 5pt x 261.97874pt>
 File: Figures/9Appendix/94UltraPureWaterSystem/GrossFiltering.png Graphic file 
 (type png)
@@ -3145,7 +3139,7 @@ File: Figures/9Appendix/94UltraPureWaterSystem/GrossFiltering.png Graphic file
 Package pdftex.def Info: Figures/9Appendix/94UltraPureWaterSystem/GrossFilterin
 g.png  used on input line 21.
 (pdftex.def)             Requested size: 115.23483pt x 152.67131pt.
-<Figures/9Appendix/94UltraPureWaterSystem/FineFiltering.png, id=3573, 355.3275p
+<Figures/9Appendix/94UltraPureWaterSystem/FineFiltering.png, id=3565, 355.3275p
 t x 476.78125pt>
 File: Figures/9Appendix/94UltraPureWaterSystem/FineFiltering.png Graphic file (
 type png)
@@ -3153,7 +3147,7 @@ type png)
 Package pdftex.def Info: Figures/9Appendix/94UltraPureWaterSystem/FineFiltering
 .png  used on input line 24.
 (pdftex.def)             Requested size: 115.23483pt x 154.62468pt.
-<Figures/9Appendix/94UltraPureWaterSystem/SuperFineFiltering.png, id=3574, 346.
+<Figures/9Appendix/94UltraPureWaterSystem/SuperFineFiltering.png, id=3566, 346.
 29375pt x 459.7175pt>
 File: Figures/9Appendix/94UltraPureWaterSystem/SuperFineFiltering.png Graphic f
 ile (type png)
@@ -3166,7 +3160,7 @@ Underfull \hbox (badness 5388) in paragraph at lines 28--28
 []\T1/cmr/bx/n/10 (c) |\T1/cmr/m/n/10 Su-per fine fil-ter-ing
  []
 
-<Figures/9Appendix/94UltraPureWaterSystem/Osmosi.png, id=3577, 339.2675pt x 453
+<Figures/9Appendix/94UltraPureWaterSystem/Osmosi.png, id=3569, 339.2675pt x 453
 .695pt>
 File: Figures/9Appendix/94UltraPureWaterSystem/Osmosi.png Graphic file (type pn
 g)
@@ -3174,7 +3168,7 @@ g)
 Package pdftex.def Info: Figures/9Appendix/94UltraPureWaterSystem/Osmosi.png  u
 sed on input line 41.
 (pdftex.def)             Requested size: 115.23483pt x 154.09503pt.
-<Figures/9Appendix/94UltraPureWaterSystem/Containers.png, id=3578, 620.3175pt x
+<Figures/9Appendix/94UltraPureWaterSystem/Containers.png, id=3570, 620.3175pt x
  435.6275pt>
 File: Figures/9Appendix/94UltraPureWaterSystem/Containers.png Graphic file (typ
 e png)
@@ -3182,7 +3176,7 @@ e png)
 Package pdftex.def Info: Figures/9Appendix/94UltraPureWaterSystem/Containers.pn
 g  used on input line 44.
 (pdftex.def)             Requested size: 192.0561pt x 134.8703pt.
-<Figures/9Appendix/94UltraPureWaterSystem/Siemens1.png, id=3580, 429.605pt x 23
+<Figures/9Appendix/94UltraPureWaterSystem/Siemens1.png, id=3572, 429.605pt x 23
 8.8925pt>
 File: Figures/9Appendix/94UltraPureWaterSystem/Siemens1.png Graphic file (type 
 png)
@@ -3190,7 +3184,7 @@ png)
 Package pdftex.def Info: Figures/9Appendix/94UltraPureWaterSystem/Siemens1.png 
  used on input line 54.
 (pdftex.def)             Requested size: 142.11963pt x 79.02795pt.
-<Figures/9Appendix/94UltraPureWaterSystem/Siemens2.png, id=3581, 517.935pt x 34
+<Figures/9Appendix/94UltraPureWaterSystem/Siemens2.png, id=3573, 517.935pt x 34
 6.29375pt>
 File: Figures/9Appendix/94UltraPureWaterSystem/Siemens2.png Graphic file (type 
 png)
@@ -3198,7 +3192,7 @@ png)
 Package pdftex.def Info: Figures/9Appendix/94UltraPureWaterSystem/Siemens2.png 
  used on input line 56.
 (pdftex.def)             Requested size: 115.23483pt x 77.04614pt.
-<Figures/9Appendix/94UltraPureWaterSystem/Siemens3.png, id=3582, 541.02126pt x 
+<Figures/9Appendix/94UltraPureWaterSystem/Siemens3.png, id=3574, 541.02126pt x 
 408.52625pt>
 File: Figures/9Appendix/94UltraPureWaterSystem/Siemens3.png Graphic file (type 
 png)
@@ -3206,7 +3200,7 @@ png)
 Package pdftex.def Info: Figures/9Appendix/94UltraPureWaterSystem/Siemens3.png 
  used on input line 58.
 (pdftex.def)             Requested size: 103.71193pt x 78.31271pt.
-<Figures/9Appendix/94UltraPureWaterSystem/CompleteSystem.png, id=3584, 568.1225
+<Figures/9Appendix/94UltraPureWaterSystem/CompleteSystem.png, id=3576, 568.1225
 pt x 249.93375pt>
 File: Figures/9Appendix/94UltraPureWaterSystem/CompleteSystem.png Graphic file 
 (type png)
@@ -3214,14 +3208,14 @@ File: Figures/9Appendix/94UltraPureWaterSystem/CompleteSystem.png Graphic file
 Package pdftex.def Info: Figures/9Appendix/94UltraPureWaterSystem/CompleteSyste
 m.png  used on input line 67.
 (pdftex.def)             Requested size: 340.87611pt x 149.9614pt.
-[192 <./Figures/9Appendix/94UltraPureWaterSystem/GrossFiltering.png> <./Figures
+[190 <./Figures/9Appendix/94UltraPureWaterSystem/GrossFiltering.png> <./Figures
 /9Appendix/94UltraPureWaterSystem/FineFiltering.png> <./Figures/9Appendix/94Ult
-raPureWaterSystem/SuperFineFiltering.png>] [193 <./Figures/9Appendix/94UltraPur
+raPureWaterSystem/SuperFineFiltering.png>] [191 <./Figures/9Appendix/94UltraPur
 eWaterSystem/Osmosi.png> <./Figures/9Appendix/94UltraPureWaterSystem/Containers
 .png> <./Figures/9Appendix/94UltraPureWaterSystem/Siemens1.png> <./Figures/9App
 endix/94UltraPureWaterSystem/Siemens2.png> <./Figures/9Appendix/94UltraPureWate
 rSystem/Siemens3.png>]
-<Figures/9Appendix/94UltraPureWaterSystem/ThreeTypesOfWater.png, id=3610, 583.1
+<Figures/9Appendix/94UltraPureWaterSystem/ThreeTypesOfWater.png, id=3604, 583.1
 7876pt x 450.68375pt>
 File: Figures/9Appendix/94UltraPureWaterSystem/ThreeTypesOfWater.png Graphic fi
 le (type png)
@@ -3229,31 +3223,31 @@ le (type png)
 Package pdftex.def Info: Figures/9Appendix/94UltraPureWaterSystem/ThreeTypesOfW
 ater.png  used on input line 75.
 (pdftex.def)             Requested size: 233.26736pt x 180.2703pt.
-) [194 <./Figures/9Appendix/94UltraPureWaterSystem/CompleteSystem.png> <./Figur
+) [192 <./Figures/9Appendix/94UltraPureWaterSystem/CompleteSystem.png> <./Figur
 es/9Appendix/94UltraPureWaterSystem/ThreeTypesOfWater.png>]
 Appendix E.
-(./Sections/9Appendix/95TritiumSource.tex) [195
+(./Sections/9Appendix/95TritiumSource.tex) [193
 
 ]
 Overfull \hbox (84.657pt too wide) has occurred while \output is active
-\T1/cmr/m/n/12 196 \T1/cmr/m/sl/12 APPENDIX E.  PREPARATION OF LIQUID RADIOACTI
+\T1/cmr/m/n/12 194 \T1/cmr/m/sl/12 APPENDIX E.  PREPARATION OF LIQUID RADIOACTI
 VE SOURCE OF TRITIUM
  []
 
-[196
+[194
 
 ]
 Appendix F.
 (./Sections/9Appendix/96ElectronicSystemAveiro.tex)
-(./Sections/10Bibliografia.tex [197]
+(./Sections/10Bibliografia.tex [195]
 Overfull \hbox (59.88515pt too wide) has occurred while \output is active
-\T1/cmr/m/n/12 198 \T1/cmr/m/sl/12 APPENDIX F.  ELECTRONIC SYSTEM OF TRITIUM-AV
+\T1/cmr/m/n/12 196 \T1/cmr/m/sl/12 APPENDIX F.  ELECTRONIC SYSTEM OF TRITIUM-AV
 EIRO 0 PROTOTYPE
  []
 
-[198
+[196
 
-] [199] [200] [201] [202] [203] [204] [205]
+] [197] [198] [199] [200] [201] [202] [203]
 Underfull \hbox (badness 3009) in paragraph at lines 269--271
 []\T1/cmr/m/sc/12 P. Jean-Baptiste\T1/cmr/m/n/12 , \T1/cmr/m/sc/12 E. Fourré\T1
 /cmr/m/n/12 , \T1/cmr/m/sc/12 A. Dapoigny\T1/cmr/m/n/12 , \T1/cmr/m/sc/12 D. Ba
@@ -3285,7 +3279,7 @@ Underfull \hbox (badness 4279) in paragraph at lines 269--271
 /n/12 DOI:
  []
 
-[206]
+[204]
 
 Package hyperref Warning: Suppressing link with empty target on input line 322.
 
@@ -3294,7 +3288,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 322.
 Package hyperref Warning: Suppressing link with empty target on input line 330.
 
 
-[207]
+[205]
 Underfull \hbox (badness 1478) in paragraph at lines 349--351
 []\T1/cmr/m/sc/12 HAMAMATSU PHO-TON-ICS K.K. Solid State Di-vi-sion\T1/cmr/m/n/
 12 ,
@@ -3318,71 +3312,76 @@ Underfull \hbox (badness 1478) in paragraph at lines 361--363
 12 ,
  []
 
-[208]
-Underfull \hbox (badness 7907) in paragraph at lines 436--438
+[206]
+
+Package hyperref Warning: Suppressing link with empty target on input line 410.
+
+
+
+Underfull \hbox (badness 7907) in paragraph at lines 440--442
 \T1/cmr/m/it/12 Exp. Phys. \T1/cmr/bx/it/12 2020 \T1/cmr/m/it/12 no. 8, 083C01 
 (2020)\T1/cmr/m/n/12 . []\T1/cmr/bx/n/12 Web-site[] []DOI:
  []
 
-[209]
-Underfull \hbox (badness 1168) in paragraph at lines 444--446
+[207]
+Underfull \hbox (badness 1168) in paragraph at lines 448--450
 \T1/cmr/m/it/12 with ac-tively shielded HPGe de-tec-tors at un-der-ground lo-ca
 -tions\T1/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 2644) in paragraph at lines 468--470
+Underfull \hbox (badness 2644) in paragraph at lines 472--474
 []\T1/cmr/m/sc/12 S.H. Law, J.D. Har-vey, R.J. Kruh-lak, M. Song, E.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--470
+Underfull \hbox (badness 10000) in paragraph at lines 472--474
 \T1/cmr/m/sc/12 Large\T1/cmr/m/n/12 , \T1/cmr/m/it/12 Cleav-ing of mi-crostruc-
 tured poly-mer op-ti-cal fi-bres\T1/cmr/m/n/12 .
  []
 
-[210]
+[208]
 
-Package hyperref Warning: Suppressing link with empty target on input line 501.
+Package hyperref Warning: Suppressing link with empty target on input line 505.
 
 
 
-Underfull \hbox (badness 4454) in paragraph at lines 524--526
+Underfull \hbox (badness 4454) in paragraph at lines 528--530
 []\T1/cmr/m/sc/12 Physikalisch-Technische Bun-de-sanstalt, PTB, Braun-
  []
 
-[211]
-Underfull \hbox (badness 10000) in paragraph at lines 564--566
+[209]
+Underfull \hbox (badness 10000) in paragraph at lines 568--570
 []\T1/cmr/m/sc/12 Texas In-stru-ments\T1/cmr/m/n/12 , \T1/cmr/m/it/12 SN74LVC1G
 11DBVR Sin-gle 3-Input
  []
 
 
-Underfull \hbox (badness 4886) in paragraph at lines 580--582
+Underfull \hbox (badness 4886) in paragraph at lines 584--586
 []\T1/cmr/m/sc/12 Chris Hag-mann\T1/cmr/m/n/12 , \T1/cmr/m/sc/12 David Lange \T
 1/cmr/m/n/12 and \T1/cmr/m/sc/12 Dou-glas Wright\T1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 580--582
+Underfull \hbox (badness 1533) in paragraph at lines 584--586
 \T1/cmr/m/it/12 Trans-port Codes\T1/cmr/m/n/12 , IEEE Nu-clear Scinece Sym-po-s
 ium con-fer-ence
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 580--582
+Underfull \hbox (badness 1178) in paragraph at lines 584--586
 \T1/cmr/m/n/12 record. Nu-clear Scinece Sym-po-sium 2:1143-1146, Jan-uary 2007.
 
  []
 
-[212]
+[210]
 
-Package hyperref Warning: Suppressing link with empty target on input line 592.
+Package hyperref Warning: Suppressing link with empty target on input line 596.
 
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
- [213]
+ [211]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
  (./Tesis_Marcos_Martinez_Roig_v3.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
@@ -3397,15 +3396,18 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
  ) 
 Here is how much of TeX's memory you used:
- 20981 strings out of 492982
- 408279 string characters out of 6134895
- 470325 words of memory out of 5000000
- 23182 multiletter control sequences out of 15000+600000
+ 20989 strings out of 492982
+ 408695 string characters out of 6134895
+ 470482 words of memory out of 5000000
+ 23188 multiletter control sequences out of 15000+600000
  559789 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,24n,58p,10424b,678s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.39} has been referenced but does not ex
+ 40i,24n,58p,10424b,673s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.40} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.39} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.38} has been referenced but does not exis
 t, replaced by a fixed one
@@ -3548,11 +3550,11 @@ pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texm
 f/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public
 /cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0800.p
 fb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (245 pages, 30151679 bytes)
+Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (243 pages, 30164775 bytes)
 .
 PDF statistics:
- 4159 PDF objects out of 4296 (max. 8388607)
- 3135 compressed objects within 32 object streams
- 743 named destinations out of 1000 (max. 500000)
- 1197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4153 PDF objects out of 4296 (max. 8388607)
+ 3129 compressed objects within 32 object streams
+ 744 named destinations out of 1000 (max. 500000)
+ 1202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
