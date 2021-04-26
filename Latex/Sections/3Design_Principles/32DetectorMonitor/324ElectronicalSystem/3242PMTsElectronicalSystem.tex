@@ -46,11 +46,11 @@ In all the studies done, the number of PMTs used are one, two or four, depend on
 
 The PMTs used in each situation are feeded with the voltage supply "TC 952 High Voltage Supply" from Tennelec \cite{DataSheetHVSupplyTennelec}. It has four channels for feeding up to four different PMTs. If two or more configurations are needed at the same time, a second voltage supply was used, whose reference is "HV Power Supply N 1130-4" from "Wenzel Elektronik" company \cite{DataSheetHVSupplyWenzel} with 4 additional channels. The high voltage used in each case will be named in the appropriate section.
 
-As can be seen the three Figures, there are two different paths that must be followed by the output signals of each PMT, the amplification part and the time coincidence part. Therefore, the first module needed is an analogic FAN IN-OUT module which is used to duplicate the input signal. The module used is the "Quad linear FAN IN-OUT MODEL 740" module from the company "Philips Scintific" \cite{DataSheetFANINOUT}. It has four different channels and 4 output signals can be obtained from each one, which are identical to the input signal. One of these output signals is used as the input for the amplification part and another is used as the input for the time coincidence part.
+As it can be seen in the three Figures, there are two different lines followed by the output signals of the PMTs, the amplification line and the time coincidence line. Therefore, the first module needed is an analogic FAN IN-OUT module which is used to duplicate the input signal. The module used is the "Quad linear FAN IN-OUT MODEL 740" module from the company "Philips Scintific" \cite{DataSheetFANINOUT}. It has four different channels and 4 output signals can be obtained from each one, which are identical to the input signal. One of these output signals is used as the input for the amplification part and another is used as the input for the time coincidence part.
 
 \begin{itemize}
 
-\item{} The amplification part, which is the same for all three configurations, is used to process and amplify the output signal. It contains the energy information and is based on two steps:
+\item{} The amplification line, which is the same for all three configurations, is used to process and amplify the output signal. It contains the energy information and is based on two steps:
 
 %We have to take into accout that we have only used the signal from one PMT for the amplification part. We could have added a stage where we add the four PMT output signals and it would probably improve our results, but since our ultimate goal is to work with SiPM, we have not delved into that.
 
@@ -64,7 +64,7 @@ As can be seen the three Figures, there are two different paths that must be fol
 
 \end{enumerate}
 
-\item{} The time coincidence part, which  contain the time information. It is used to obtain the coincidence gate that indicates when we have to save the amplified signal (when all the output signals of the used PMTs are in time coincidence). This part has little difference in all three configurations it consists of:
+\item{} The time coincidence line, which  contain the time information. It is used to obtain the coincidence gate that indicates when we have to save the amplified signal (when all the output signals of the used PMTs are in time coincidence). This line has little difference in all three configurations and it consists of:
 
 \begin{enumerate}
 
