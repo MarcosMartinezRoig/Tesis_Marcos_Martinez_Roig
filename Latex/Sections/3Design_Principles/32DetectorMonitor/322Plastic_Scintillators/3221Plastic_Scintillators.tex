@@ -1,14 +1,12 @@
-The use of scintillators in radiation detection is one of the most used technics in nuclear physics. The scintillator is a material that is able to convert the kinetic energy of the incoming particles in light\footnote{The light is made up of photons in the visible energy range.} which can be detected and quantified. It happens because the radiation excites and ionizes the scintillating atoms which, after that, are immediately de-exciting (with times of the order of picoseconds), emitting photons.
+Scintillators are widely employed for radiation detection in nuclear physics. Scintillator converts kinetic energy of the incoming particles in to light\footnote{The light is made up of photons in the visible energy range.} which can be detected and quantified. Light emission happens through photon de-excitation of excited atoms.
 
-This conversion should be linear in a wide energy range of incoming particles and it is necessary that this material has good optical properties, such as being transparent to the wavelenght of their own emission and having a refractive index as close as possible to the glass for optimizing optical coupling with photosensors.
+Light production is linear in a wide energy range of incoming particles. Scintillators should have good optical properties, such as being transparent to the wavelenght of their own emission and having a refractive index as close as possible to that of glass for optimizing optical coupling with photosensors. Photon emission in scintillators is a stadistical process, which means that two identical events will emmit a different number of photons that follows a poisson statistics.
 
-The photon emission in the scintillator is a stadistical process, which means that two exactly same events will emmit different number of photons. It follow a poisson statistics so when the number of emmited photons is named, the mean of the distribution is refered.
+Scintillators can be organic and inorganic. Inorganic scintillators normally have a higher atomic number and density so their light output are higher. Due to these reasons they are better for gamma-ray spectroscopy. Organic scintillators are generally faster and they are commonly used for beta spectroscopy and neutron detection. This section is focussed on organic scintillators since they are the ones used in the TRITIUM project. 
 
-There are two types of scintillators, organics and inorganics. Inorganic scintillators normally have a higher atomic number and density so their light output are higher. Due to these reasons they are better for gamma-ray spectroscopy (take into account Figure \ref{fig:ProcessesPhotons}). Organic scintillators are generally faster and they are commonly used for beta spectroscopy and neutron detection. This section is focussed on organic scintillators since they are the ones used in the TRITIUM project. 
+Organic scintillators are based on a scintillator material dissolved in a base solvent, normally aromatic hydrocarbons as $\ce{C_{18}H_{14}}$, $\ce{C_{24}H_{22}N_{2}O}$ or $\ce{C_{15}H_{11}NO}$ with an average atomic numbers of which are between 3,5 and 5.
 
-Organic scintillators are based on a scintillator material, which produces light, dissolved in a base solvent. This solvent is normally based on aromatic hydrocarbons, that is, they are mainly composed of carbon and hydrogen atoms as can be appreciated in the molecules of some of the most widely used scintillators, $\ce{C_{18}H_{14}}$, $\ce{C_{24}H_{22}N_{2}O}$ or $\ce{C_{15}H_{11}NO}$ the average atomic numbers of which are between 3,5 and 5.
-
-The scintillator molecules, in which the organic scintillators are based, have the so called $\pi$-electron structure. The energy levels of their electrons are commonly ilustrated with a Jablonsky diagram, shown in Figure \ref{fig:JablonskyDiagram}, which shown the fundamental single state, $S_{0i}$, where the valence electrons are, the excited single states, $S_{jk}$, and the excited triple states, $T_{lm}$. De energy difference between $S_1$ and $S_0$ states is around $3$ or $4~\eV$, energy range of the visible photons. As it is shown in the figure, each energy states are subdivided in smaller energetic sublevels with a distance between them of around $0.15~\eV$. This finer energy structure is due to the excitations of molecular vibrational modes and they are expresed with the second index of the energy states.
+The scintillator molecules, in which the organic scintillators are based, have a $\pi$-electron structure. The energy levels of their electrons are commonly ilustrated with a Jablonsky diagram, shown in Figure \ref{fig:JablonskyDiagram}, which shows the fundamental singlet state, $S_{0i}$, where the valence electrons are, the excited singlet states, $S_{jk}$, and the excited triplet states, $T_{lm}$. The energy difference between $S_1$ and $S_0$ states is around $3$ or $4~\eV$, in the visible range. As it is shown in the figure, each energy states are splitted in close sublevels separated around $0.15~\eV$. This fine energy structure is due to excitations of molecular vibrational modes tabbed by the second index of the energy states. As the energy levels and sublevels have an energy larger than the termal energy, $0.025~\eV$, non-excited electrons are in the ground state $S_{00}$ at STP\footnote{Standar temperature and pressure conditions}.
 
 \begin{figure}[htbp]
 \centering
@@ -16,17 +14,13 @@ The scintillator molecules, in which the organic scintillators are based, have t
 \caption{Jablonsky diagram.\label{fig:JablonskyDiagram}~\cite{Knoll}}
 \end{figure}
 
-Because of the reason that the distance between all energy levels and sublevels are larger than the termal energy, $0.025~\eV$, non-exciting electrons are in the lowest state $S_{00}$ at STP\footnote{Standar temperature and pressure conditions}.
-
-When a particle deposits their kinetic energy on a scintillator, their valence electrons are exited to higher single energetic states very fast (times of the order of picoseconds) which is expressed with upwards direction arrows in Figure \ref{fig:JablonskyDiagram} and they are quickly de-excited to the first single excited state, $S_{10}$, through non-radiactive processes known as internal conversion.
-
-Now, this electrons can de-excited to the fundamental single state, $S_{00}$, through three different physical mechanisms:
+When a particle deposits their kinetic energy in a scintillator, their valence electrons are exited to higher singlet energetic states very fast (times of the order of picoseconds) and are quickly de-excited to the first singlet excited state, $S_{10}$, through non-radiative processes known as internal conversion. These electrons can de-excited to the fundamental single state, $S_{00}$, through three different physical mechanisms:
 
 \begin{itemize}
 
-\item{} The prompt fluorescence(process A in Figure \ref{fig:JablonskyDiagram}), where the electron in the $S_{10}$ energy level  is de-excited to some sublevel of the fundamental state $S_{0i}$, emitting a photon with an energy equal to the energy difference of these levels (around $3$ or $4~\eV$ , visible light). This process happens immediately after the excitation of the scintillator molecules (around tens of nanoseconds after excitation). Each scintillator has a characteristic emission spectrum that defines its response due to the fluorescence mechanism. 
+\item{} Prompt fluorescence(process A in Figure \ref{fig:JablonskyDiagram}), where the electron in the $S_{10}$ energy level  is de-excited to some sublevel of the ground state $S_{0i}$, emitting a photon. This process happens immediately after the excitation of the scintillator molecules (around tens of nanoseconds after excitation). Each scintillator has a characteristic emission spectrum that defines its response due to the fluorescence mechanism. 
 
-Now it's understandable why organic scintillators are practically transparent to their own fluorescense emission. This is because of the reason that there exist a quenching effect in each de-excitation process whereby there are a lost of radiated energy. Due to that, all emmited  photons by the scintillator have less energy than the required energy for excitation. This effect is called Stokes shift and it is represented with a general spectrum in Figure \ref{fig:StokesShift}.
+Organic scintillators are practically transparent to their own fluorescense emission because there exist a quenching effect in each de-excitation process by which all emmited  photons by the scintillator have less energy than the excitation. This effect is called Stokes shift and it is represented in Figure \ref{fig:StokesShift}.
 
 \begin{figure}[htbp]
 \centering
@@ -34,16 +28,16 @@ Now it's understandable why organic scintillators are practically transparent to
 \caption{Stokes shift.\label{fig:StokesShift}~\cite{Knoll}}
 \end{figure}
 
-The intensity of the fluorescence emission in an organic scintillator over time is a combination of two exponential functions, one associated with the lifetime of the level, $\tau$ (on the order of nanoseconds), and the other associated with the energetic level population, $\tau_1$ (on the order of picoseconds).
+The intensity of the fluorescence emission in an organic scintillator over time is a combination of two exponential functions, one associated with the lifetime of the level, $\tau$ (on the order of nanoseconds), and the other associated with the energetic level population, $\tau_1$ (on the order of picoseconds) \cite{Knoll}.
 
 \begin{equation}
-I=I_0\left(e^{t/\tau} - e^{t/\tau_1}\right) \cite{Knoll}
+I=I_0\left(e^{t/\tau} - e^{t/\tau_1}\right) 
 \label{eq:IntensityTimeScintillator}
 \end{equation}
 
-\item{} The phosphorescence, where the electron that is in the first single excited state cross to a triple excited state (process B in Figure \ref{fig:JablonskyDiagram}) with a process called "intersystem crossing". This is a metastable state with a much longer lifestime so electrons in this state are de-excited to the $S_{0i}$ state, emitting a photon much later than phosphorescence. This process can happen up to $10^{-3}$ seconds after scintillator excitation.
+\item{} Phosphorescence, where the electron that is in the first single excited state cross to a triple excited state (process B in Figure \ref{fig:JablonskyDiagram}) with a process called "intersystem crossing". This is a metastable state with a longer lifetime than phosphorescence. This process happens around $10^{-3}$ seconds after scintillator excitation.
 
-\item{} Delayed fluorescence, which occurs when an electron is in a triple excited state but its transition to the ground state is forbidden. In this case, this electron can interact with another that is in a similar state and return to the first single state and quickly de-excited to the ground state. 
+\item{} Delayed fluorescence, which occurs when an electron is in a triple excited state but its transition to the ground state is forbidden. In this case, this electron interacts with another electron in a similar state, falling and return to the first singlet state and quickly de-exciting to the ground state. 
 
 \begin{equation}
 T_{1} ~+~ T_{1}~ \longrightarrow ~ S_{1} ~+~ S_{0} ~+~ phonons
@@ -53,4 +47,4 @@ T_{1} ~+~ T_{1}~ \longrightarrow ~ S_{1} ~+~ S_{0} ~+~ phonons
 This emission has the same emission spectrum as immediate fluorescence, but occurs later.
 \end{itemize}
 
-The scintillating detectors generally use the prompt fluorescence light as useful signal so a good scintillator should increase it and reduce other possible physical mechanisms. One of the most important parameters in nuclear physics is the scintillation yield\footnote{The scintillation yield is a way of expressing the efficiency of the scintillator in converting the energy deposited by the particle into photons.}, which is the the number of photons emitted by unit of absorbed energy. It depends on the type of particle and all mechanisms which don't produce prompt fluorescence, like phosphorescence or delay fluorescence or even internal conversion, contribute to reduce this parameter. This factor is normally given by the manufacturer for mips\footnote{The MIP, Minimum Ionized Particles, is a particle that has the speed that generate minimum ionization, that's, for example, electrons with $500~\keV$ or more}.
+As the prompt fluorescence light produces the scintillator signal, detector design should increase it and reduce other possible physical mechanisms. One of the most important parameters is the scintillation yield\footnote{The scintillation yield is a way of expressing the efficiency of the scintillator in converting the energy deposited by the particle into photons.}, defined as the the number of photons emitted by unit of absorbed energy. This yield depends on the type of particle and on other mechanisms that doesn't produce prompt fluorescence, like phosphorescence or delayed fluorescence or even internal conversion. The scintillator yield is normally quoted by the manufacturer for mips\footnote{The MIP, Minimum Ionized Particles, is a particle that has the speed that generate minimum ionization, that's, for example, electrons with $500~\keV$ or more}.

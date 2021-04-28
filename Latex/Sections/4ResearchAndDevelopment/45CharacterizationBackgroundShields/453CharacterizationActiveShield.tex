@@ -7,19 +7,54 @@ FIGURAAAA
 Two different tests were made for this task:
 \begin{enumerate}
 
-\item{} The first test was used to quantify the improvement of the veto signal due to coverage. It consists of, placing a $\ce{{137}^Cs}$ source at point 2, measuring with the veto uncovered. Then cover the veto and repeat this measure. The result is shown in Figure \ref{}.
+\item{} The first test was used to quantify the improvement of the veto signal due to its coverage. It consists of, placing a $\ce{^{137}Cs}$ source at point 2, measuring with the veto uncovered. Then cover the veto and repeat this measure. The result is shown in Figure \ref{fig:VetoCoverageImprovement}.
 
-FIGURAAA
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.7]{4ResearchAndDevelopments/43CosmicVetos/CoverageStudy_more_rebin.pdf}
+\caption{Measurement of a radioactive source $\ce{^{137}Cs}$ with the TRITIUM cosmic detector with and without its coverage.\label{fig:VetoCoverageImprovement}}
+\end{figure}
 
-It can be seen that the spectrum has shifted to the right, which means that more photons have been collected per event. In addition, a improvement of PERCENTAGE in the number of detected events was measured.
+It can be seen that the spectrum has shifted to the right, which means that more photons have been collected per event. No improvement was measured in the number of events detected, only an improvement in their collection efficiency.
 
 %a comparison is made between the measurement of cover and uncover veto, placing the gamma source in 3 different points, 1, 2 and 3. This study is used 
 
-\item{} The second test was used to verify the spatial uniformity of the signal in the covered veto. For this task, a mapping was carried out, which consists of placing a $\ce{{60}^Co}$ source at each point and taking a measurement. It was done for two different veto and the energy spectrum obtained was integrated. The results is shown in Tables \ref{} and \ref{} for each veto, the values of which is represented in a bidimensional plot in Figures \ref{} and \ref{}, respectively.
+\item{} The second test was used to verify the spatial uniformity of the signal in the covered veto. For this task, a mapping was carried out, which consists of placing a $\ce{^{60}Co}$ source at each point and measure the number of events detected in the same time windows (). It was done for two different veto and the energy spectrum obtained was integrated. The number of count rate obtained in each point is displayed in Table \ref{tab:MappingDataVetos} for both vetos, the values of which is represented in a bidimensional plot in Figures \ref{} and \ref{}, respectively.
 
-TABLAAAS
+\begin{table}[htbp]
+%%\centering
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Point & Veto 1 (counts/s) & Veto 2 (counts/s)\\
+\hline \hline \hline
+1 & $18028\pm 3$ & $18293 \pm 1.5$ \\ \hline
+2 & $19133 \pm 5$ & $20014 \pm 4$  \\ \hline
+3 & $17858 \pm 4$ & $18843 \pm 4$  \\ \hline
+4 & $18969 \pm 5$ & $18761 \pm 5$  \\ \hline
+5 & $19893 \pm 4$ & $19841 \pm 3$  \\ \hline
+6 & $18573 \pm 4$ & $18850 \pm 5$  \\ \hline
+7 & $18200 \pm 4$ & $17790 \pm 4$  \\ \hline
+8 & $19725 \pm 4$ & $19312 \pm 4$  \\ \hline
+9 & $18030 \pm 5$ & $17804 \pm 5$  \\ \hline
+\end{tabular}
+\caption{Count rate measured with two different cosmic detectors using a radioactive source $\ce{^{60}Co}$.}
+\label{tab:MappingDataVetos}
+\end{center}
+\end{table}
 
-FIGURAAAS
+\begin{figure}[]
+ \centering
+  \subfloat[Mapping of the first TRITIUM cosmic detector.]{
+   \label{subfig:MappingVeto1}
+    \includegraphics[width=0.9\textwidth]{4ResearchAndDevelopments/43CosmicVetos/MappingVeto1.png}}
+    \newline
+  \subfloat[Mapping of the second TRITIUM cosmic detector.]{
+   \label{subfig:MappingVeto2}
+    \includegraphics[width=0.9\textwidth]{4ResearchAndDevelopments/43CosmicVetos/MappingVeto2.png}}
+ \caption{Bidimensional graph of the count rate (Mapping) measured with two different TRITIUM cosmic detectors using a radioactive source of  $\ce{^{60}Co}$.}
+ \label{fig:MappingVetos}
+\end{figure}
 
 %EXPLICAR QUE LA PRIMERA Y ULTIMA FILA DEL PLOT BIDIMENSIONAL ES PARA PONER EL PMT.
 It can be observed that the veto signal has a uniform behavior on its surface, obtaining a fairly similar counting rate in all the points considered in this study.
