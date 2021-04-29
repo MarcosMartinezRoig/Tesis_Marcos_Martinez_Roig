@@ -1,58 +1,10 @@
-The Silicon Photomultiplier (SiPM) is a photosensor, based on semiconductor materials, which has been developed in recent decades and they are replacing conventional PMTs in some experiments or applications. They have been designed to archive outstading photon-counting capabilities better than conventional PMTs with high gain and high photodetection efficiency equal to or larger than conventional PMTs but with some important differences like insensitiveness to magnetic fields, low operating voltage, compactness among other differences.
+The Silicon Photomultiplier (SiPM) are a bind of photosensor, based on semiconductor materials, developed in recent years. They are replacing progresively conventional PMTs in many experiments and applications. They archieve outstading photon-counting capabilities with high gain and high photodetection efficiency comparing to PMT. They have conveninent characteristics as insensitiveness to magnetic fields, low operating voltage and compactness.
 
-\textbf{Semiconductor materials} 
+SiPM are based on p-n junctions, made with special techniques to archieve a good contact between both surfaces.
 
-Silicon is a semiconductor material and, like any semiconductor material, it has an electronic band structure that consists of two bands: Valence band and conduction band which are separated by a forbidden energy gap (with width of around $1~\eV$ for semiconductors \cite{Leo}) where there cannot be electrons (there are not available energy levels). These energy bands are based on many energy levels that are so close that we can consider a continuum. You can see a diagram of these bands in Figure \ref{fig:EnergyBandsSC}.
+The voltage at which the SiPM changes from proportional to geiger mode is called the breakdown voltage, $ V_ {BR} $. At a lower voltage it works in proportional mode but at a higher voltage, it switch to Geiger mode. The measurement of the breakdown voltage is one of the most important parametes to characterize the SiPM and Its determinations is described in section \ref{sec:CharacterizationSiPM}.
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[scale=0.6]{3DesignPrinciples/32Tritium_detector/Energy_bands_isolate_semiconductor_conductor.png}
-\caption{Energy band scheme for (a) insulator, (b) semiconductor and (c) conductor.\label{fig:EnergyBandsSC}~\cite{Leo}}
-\end{figure}
-
-Electrons in the conduction band, unlike those in the Valence band, can move freely in the material so they contribute to the electric current. 
-
-Silicon has four electrons in their valence band (tetravalent atom) so it form four covalent bounds creating a cristal lattice ($\ce{Si_2}$). Normally a small quantity of impurities ($10^{13}$ atoms/$cm^3$) compared to its density ($10^{22}$ atoms/$cm^3$) are added to modifying this lattice, that's dopping the material. 
-
-If the dopant has 5 valence electrons (pentavalent atom like phosphorus or arsenic) there will be a free electron which will be at an energy level created in the forbbiden band, very close to the conduction band. It is called "n-type" semiconductor and the electrons are the majority charge carriers.
-
-Otherwise, if the dopant has 3 valence atoms (trivalent atom like gallium or boron) it will have a hole\footnote{Electron absence in the crystal lattice} that will be at an energy level created in the forbidden band, very close to the valence band. In this case, the holes are the major charge carriers and this element is called "p-type" semiconductor.
-
-Both configurations (p-type or n-type semiconductor) are shown in Figure \ref{fig:NPType_SC}.
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[scale=0.6]{3DesignPrinciples/32Tritium_detector/N_P_type_semiconductors.png}
-\caption{Crystal lattice and energy band scheme formed by a silicon with (left) a pentavalent dopant that creates an n-type semiconductor (right) a trivalent dopant that creates a p-type semiconductor. \label{fig:NPType_SC}~\cite{Leo}}
-\end{figure}
-
-SiPM is based on a silicon diode formed by a junction of n-type and p-type semiconductors that is made with special techniques to archive a good contact between both surfaces.
-
-This union creates the so-called depletion zone, which is the interface between both materials. In this zone, there are a diffusion of electrons to the p-type semiconductor and holes to the n-type semiconductor due to the difference in the concentration of the majority charge. This re-arrange of the charge creates an electric field in the depletion zone contrary to the movement of these charges, whose potential difference, called contact potential, is $V_0 = 0.7~\volt$ for silicon \cite{Leo}. All this information is shown schematically in Figure \ref{fig:DiodeScheme}
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[scale=0.6]{3DesignPrinciples/32Tritium_detector/SchemeSiPMDiodo.png}
-\caption{(Above) Schematic of the charge distribution and electric field created in a pn-junction. (Bottom) Commonly used symbol for a diode.\label{fig:DiodeScheme}~\cite{TesisNEXTSiPMs}}
-\end{figure}
-
-There are no charge carriers in the depletion zone and, if any one are created, they will be swept out by the electronic field (special interesting property for radiation detectors since charge carriers are created in this zone when ionizing radiation crosses through it).
-
-If we want to use this p-n junction as a particle detector, this setup has some problems that we have to overcome. On the one hand we need to prevent the charge recombination in order to optimize its collection in the depletion zone. On the other hand we need to increase the width of the depletion zone (it is $0.5~\micro\meter$, too small to stop interesting particles) and, as we will see in section \ref{sec:CharacterizationSiPM}, this small width increases the capacitance value that will increase the electric noise in the output signal.
-
-We can overcome these problems if we apply an external bias voltage across the junction. If this bias voltage is with positive terminal in p-type semiconductor and negative terminal in n-type semiconductor, which is called forward bias voltage, it will create an additional electric field opposite the internal electric field, which will attract electrons in n-type towards p-type and holes in p-type towards n-type. In short, it will reduce the depletion zone, and if the applied voltage is greater than the contact potential, an electric current will be created even if no charge has deposited their energy in the depletion zone.
-
-However, if this bias voltage is applied with positive terminal in n-type semiconductor, negative terminal in p-type semiconductor, which is called reverse bias voltage, the contrary effect will happen and the intensity of the electric field in the depletion zone will be increased. This effect will be limited by the resistence of the semiconductor and if we use a too large bias voltage the pn-juntion will breakdown and it will begin conducting. 
-
-If reverse bias voltage is applied, we can solve all the problems mentioned above. In this case, the charge collection will be improved and the width of the depletion zone will be increased. If ionizing radiation crosses the depletion zone, which is wide enough to detect interesting particles, it will deposit their energy and, due to that, charge charriers will be created\footnote{The energy required to create an electron-hole pair in silicon is $3.62~\eV$ in STP\cite{Leo}} which will be swept due to the electric field and an optimized current signal will be created. 
-
-Depending on the intensity of the polarization voltage we can work in different modes and we will have different output signals. If the bias voltage is less than the threshold, the charge carriers will recombine and no output signal will be produced. If the bias voltage is larger than threshold an avalanche is created due to each original electron and it is independent of other possible avalenches. Due to this avalanche, it has a gain whose valuer is around $200$. This mode is called proportional mode since the collected charged is proportional to the energy deposited. Finally, If the bias voltage is even larger, each avalanche can trigger a second avalanche and, due to that, their internal gain is higher than the proportional mode\footnote{The gain of commercial SiPMs, for example Hamamatsu, is of the order of $10^6$, similar to the PMTs}, that's, it's output signal will be larger. This mode is called Geiger mode since the output signal only show when a detection has happened but it is not proporcional to the energy deposited. 
-
-The voltage at which the SiPM changes from proportional to geiger mode is called the breakdown voltage, $ V_ {BR} $. If it works at a lower voltage it is in proportional mode but if it works at a higher voltage, it works in geiger mode. The measurement of the breakdown voltage is one of the most important things to characterize the SiPM and I show how we have done it in section \ref{sec:CharacterizationSiPM}.
-
-\textbf{Silicon photomultiplier}
-
-The SiPM is based on a matrix of APDs which are photodiodes operating in geiger mode. A scheme of an APD used in a SiPM is shown in Figure \ref{fig:SchemeAPD}. It has p+ and a n+ layers\footnote{p+ and n+ layers are the same as p and n layers, explained before, but with higher concentrations of acceptor impurities or donor impurities respectively CHECK THAT!!} that are used because they improve the properties of SiPMs but the way these APDs work is the same as that described before. 
+The SiPM, formed by a matrix of APDs which are photodiodes operating in Geiger mode. A scheme of an APD is shown in Figure \ref{fig:SchemeAPD}. It has p+ and a n+ layers. 
 
 \begin{figure}[htbp]
 \centering
@@ -60,9 +12,9 @@ The SiPM is based on a matrix of APDs which are photodiodes operating in geiger 
 \caption{Scheme of a APD and electrical symbol used.\label{fig:SchemeAPD}~\cite{OSI}}
 \end{figure}
  
-These APDs, called pixels when they are part of a SiPM, are connected in parallel and we read the sum of all of them at each moment. The output signal of each pixel is approximately the same regardless of the energy deposited, with some difference due to the uncertainty in the SiPM manufacturing process and the statistical nature of the detection process. Due to that, we cannot know the energy deposited in each APD but, as we read all SiPM pixels at the same time, the charge of the output signal when we detect n photons simultaneously will be n times the charge we have when we detect only one photon, as can be seen in Figure \ref{fig:PulsesOfSiPM}. Due to this property, after a correct calibration of our SiPMs which will be shown in section \ref{sec:CharacterizationSiPM}, we can know how many photons we have detected, which have a linear relationship with the output signal. 
+These APDs, called pixels when they are part of a SiPM, are connected in parallel and the sum of all of them is read. The output signal of the pixels are quite similar regardless of the energy deposited, with some difference because of the uncertainty due to the SiPM manufacturing process and the statistical nature of the detection process. The energy deposited in each APD is not known but, as all SiPM pixels are read at the same time, the charge of the output signal when n photons are simultaneously detected is n times the charge of a sigle photon, as can be seen in Figure \ref{fig:PulsesOfSiPM}. Due to this property, after a correct calibration of SiPMs the number of detected photons we have detected is linearly related to the output signal. 
 
-Furthermore, as we saw in section \ref{subsec:PlasticScintillators}, since we work with scintillators, in our case, the number of photons is proportional to the deposited energy, so we can recover the characteristic linearity of its output signal and to know the energy deposited in our scintillator, and, therefore, the energy of the initial radioactive event.
+As the number of scintillating photons is proportional to the deposited energy, the linearity of its output signal and the deposited energy is obtained.
 
 \begin{figure}[htbp]
 \centering
