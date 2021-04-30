@@ -1,25 +1,23 @@
-The next prototype, Tritium-IFIC 1, was intended to overcome the problems and limitations found in the previous prototype, section \ref{subsec:TritiumIFIC0}. To do so, some improvements were applied on it:
+The next prototype, TRITIUM-IFIC 1, was intended to overcome the problems and limitations found in the previous one, TRITIUM-IFIC 0, section \ref{subsec:TritiumIFIC0}. To do so, some improvements were applied on it:
 
 \begin{enumerate}
 
-\item{} First, as we said before, the fiber bundle is arranged straight to optimize the photon collection efficiency of the fibers.
+\item{} The fiber bundle is arranged straight to optimize the photon collection efficiency of the fibers.
 
-\item{} Second, a special fiber cleaning protocol, previously explained in section \ref{subsubsec:CleaningProcess}, was applied on the fibers. It was used to improve the interfaces between fiber and tritiated water, creating a better wetting property of the fiber, which will result in more tritium events detected and a greater photon collection efficiency.
+\item{} A special fiber cleaning protocol, explained in section \ref{subsec:CleaningProcess}, was applied on the fibers. It was used to improve the interfaces between fiber and tritiated water, creating a better wetting property of the fiber, which will result in more tritium events detected and a larger photon collection efficiency.
 
-\item{} Lastly, as we have seen in our previous fiber characterization study, shown in section \ref{subsubsec:CharacterizationFibers}, the photon collection efficiency of the fibers used is poor, so a large number of photons will be lost in each tritium event.
+\item{}  Teflon vessel was using in the Tritium prototypes to reduce the effect of the small photon collection efficiency of the fibers, measured in section \ref{subsubsec:CharacterizationFibers}, which is an innerent characteristic of the fiber which cannot be changed.
 
-It is an innerent characteristic of the fiber which we cannot change but, to reduce its effect, we will use a Teflon vessel for Tritium prototypes.
-
-Teflon is an interesting material for its optical properties, specifically its reflection factor, which is very close to $100\%$ at the working wavelength. It means that practically all the photons that reach the walls of the vessel will be reflected back to the fiber.
+Teflon is an interesting material for its optical properties, specifically its reflection factor, which is very close to $100\%$ at the working wavelength.
 
 \end{enumerate}
 
-Taking into accout all this modification, the following prototype was designed, built and tested, whose name is Tritium-IFIC 1. It consists of 64 scintillating fibers, with a length of $20~\cm$, which are arranged in a straight position using a teflon structure, shown in Figure \ref{fig:TeflonStructureFibersTritiumIFIC1}, in which these fibers are fixed in an $8\cdot{}8$ square matrix.
+The TRITIUM-IFIC 1 prototype consists of 64 scintillating fibers, with a length of $20~\cm$, that are arranged in a straight position using a teflon structure, shown in Figure \ref{fig:TeflonStructureFibersTritiumIFIC1}. The fibers are fixed in an $8\cdot{}8$ square matrix.
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.4]{5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/FiberMatrixTeflonStructure.png}
-\caption{Teflon structure used to arrange the fibers of Tritium-IFIC 1 prototype in a matrix of $8\cdot{}8$.\label{fig:TeflonStructureFibersTritiumIFIC1}}
+\caption{Teflon structure used to arrange the fibers of TRITIUM-IFIC 1 prototype in a matrix of $8\cdot{}8$.\label{fig:TeflonStructureFibersTritiumIFIC1}}
 \end{figure}
 
 A new teflon vessel was designed and built, shown in Figure \ref{fig:TeflonVesselTritumIFIC1}. It has a cylindrical hole whose internal diameter and length are $48~\mm$ and $200~\mm$ respectively, where the fiber structure will be placed. 
@@ -33,13 +31,13 @@ A new teflon vessel was designed and built, shown in Figure \ref{fig:TeflonVesse
   \subfloat[]{
    \label{subfig:TeflonVesselTritumIFIC1b}
     \includegraphics[angle=0, width=0.45\textwidth]{5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TeflonVesselTritiumIFIC1b.png}}
- \caption{Teflon vessel of Tritium-IFIC 1 prototype}
+ \caption{Teflon vessel of TRITIUM-IFIC 1 prototype}
  \label{fig:TeflonVesselTritumIFIC1}
 \end{figure}
 
-In addition to cutting and polishing the scintillating fibers used, a cleaning process, described in section \ref{subsubsec:CleaningProcess}, was applied to them to achieve a better tritiated water-fiber interface.
+In addition to cutting and polishing the scintillating fibers, a cleaning process, described in section \ref{subsec:CleaningProcess}, was applied to them to achieve a better tritiated water-fiber interface.
 
-A general view of this prototype is shown in Figure \ref{fig:TritumIFIC1}, which, for radioactivity safety reasons, will be read using only one PMT.
+A piece of PVC was used to fix the photosensor on the prototype and prevent the photosensor from being affected by external light. A general view of this prototype is shown in Figure \ref{fig:TritumIFIC1}, which, for radioactivity safety reasons, will be read using only one PMT.
 
 \begin{figure}[h]
  \centering
@@ -50,14 +48,14 @@ A general view of this prototype is shown in Figure \ref{fig:TritumIFIC1}, which
   \subfloat[]{
    \label{subfig:TritumIFIC1b}
     \includegraphics[angle=0, width=0.4\textwidth]{5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1b.png}}
- \caption{A general view of Tritium-IFIC 1 prototype}
+ \caption{A general view of TRITIUM-IFIC 1 prototype}
  \label{fig:TritumIFIC1}
 \end{figure}
 
-The PMT used was the model R8520-460, from Hamamatsu Photonics company \cite{DataSheetPMTs} and it was coupled directly to the fiber bundle using optical grease \cite{OpticalGrease}. It was powered at $-800~\volt$, at which, its quantum efficiency is $28\%$.
+The PMT used was the model R8520-460, from Hamamatsu Photonics company \cite{DataSheetPMTs} and it was coupled directly to the fiber bundle using optical grease \cite{OpticalGrease}. The electronic circuit, shown in figure \ref{fig:VoltageDividerCircuit}, was used to distributed the high voltage between the dynodes. The employed high voltage was $-800~\volt$, at which, its quantum efficiency is $28.66\%$.
 
-The signal from this PMT was processed and analyzed using the same electronic configuration as that used for the Tritium-IFIC 0 prototype.
+The signal from this PMT was processed and analyzed using the same electronic configuration as that used for the TRITIUM-IFIC 0 prototype, shown in Figure \ref{subfig:ElectronicConfiguraiton1PMT}.
 
-Unlike the previous prototype, only one Tritium-IFIC 1 was built. First, it was filled with ultrapure water ($118~\milli\liter$, uncertainty of $0.05\%$) and several background measurements were taken over a week. Then, it was emptied and refilled using $118~\milli\liter$ (uncertainty of $0.05\%$) of the radioactive liquid source of tritium explained in appendix \ref{App:TritiumSourcePreparation}.
+Unlike the previous prototype, only one TRITIUM-IFIC 1 was built. First, it was filled with ultrapure water ($118~\milli\liter$, uncertainty of $0.05\%$) and several background measurements were taken over a week. Then, it was emptied and refilled using $118~\milli\liter$ (uncertainty of $0.05\%$) of the radioactive liquid source of tritium explained in appendix \ref{App:TritiumSourcePreparation}.
 
-The result of this measurement is shown in section \ref{subsec:ResultsTritiumIFIC1}, where it will be discussed and compared with the result obtained with the previous prototype, Tritium-IFIC 0.
+The results of these measurements are shown in section \ref{subsec:ResultsTritiumIFIC1}, where they are discussed and compared with the result obtained with the previous prototype, TRITIUM-IFIC 0.
