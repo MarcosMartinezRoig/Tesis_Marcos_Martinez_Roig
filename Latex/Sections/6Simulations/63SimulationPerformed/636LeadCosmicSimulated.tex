@@ -1,15 +1,13 @@
-Finally the lead shielding and active vetos were included in the simulation of the Tritium-IFIC 2 prototype, explained in section \ref{subsec:TritiumIFIC2Simulation}. The objective of these simulations was to quantify their effect in reducing cosmic events detected by the prototype and to demonstrate their necessity.
+Finally the lead shielding and active vetos, explained in section \ref{subsec:TritiumIFIC2Simulation}, were included in the simulation of the Tritium-IFIC 2 prototype. The objective of these simulations was to demonstrate its need, quantifying its effect in reducing the cosmic events detected by the prototype.
 
-For this task, similar to that done in section \ref{subsec:FiberDiameterSimulation}, the tritium source was not simulated. Insted of, a cosmic events source was used, which was simulated through the CRY library previously explained.
+For this task, similar to that done in section \ref{subsec:FiberDiameterSimulation}, the tritium source was not simulated. Insted, a cosmic events source was used, which was simulated through the CRY library previously explained.
 
-As can be seen in Figures \ref{subfig:RealHardCosmicEvent} and \ref{subfig:FakeHardCosmicEvent}, two plastic scintillators were simulated with the dimensions exposed in section \ref{subsec:SetUpActiveShield} and located above and below of the Tritium-IFIC 2 prototype simulated. 
+As can be seen in Figures \ref{subfig:RealHardCosmicEvent} and \ref{subfig:FakeHardCosmicEvent}, two plastic scintillators were simulated with the dimensions mentioned in section \ref{subsec:SetUpActiveShield} and located above and below of the Tritium-IFIC 2 prototype simulated. 
 
-The optical properties given to this plastic scintillators were the same as the one used for the fibers, which are the refractive index and the light attenuation spectrum, whose values are the same that those used for the fibers, and energy emission spectrum, whose values was obtained from their data sheet provided by the manufacturer \cite{ScintillatorVeto}.
+The optical properties given to this plastic scintillators were the same as the one used for the fibers, which are the refractive index, the light attenuation spectrum and energy emission spectrum, whose values was obtained from their data sheet provided by the manufacturer \cite{ScintillatorVeto}.
 
 As shown in this figure, two PMTs, model R8520-460 from Hamamatsu company, were simulated to read each plastic scintillator, similar to that presented in section \ref{subsec:SetUpActiveShield}.
 
-Finally, a lead shielding was simulated, whose properties were taken from the Geant4 NIST database. Due to the reason that only one Tritium detector module was simulated, it was not necessary to simlate its real dimensions since, in this case, we would need to simulate a larger cosmic veto source and most of this events will not reach neither our active veto nor our Tritium detector module, just contributing to being time consuming and reducing available computing resources.
+Finally, a lead shielding was simulated, whose properties were taken from the Geant4 NIST database. The dimensions of the simulated lead shielding were $60~\cm$ long, $60~\cm$ wide, $70~\cm$ high, which is the minimum needed to accomodate the active vetos and Tritium detector module inside.  The length of this is smaller than the built lead shielding, $148~\cm$, shown in section \ref{subsec:SetUpActiveShield}. The reason for this is that only one tritium detector module was simulated, so the dimension of the lead shielding can be reduced to optimize simulation time and computing resources.
 
-Instead of that, the dimensions of the lead shielding were smaller to optimizate the simulation since this change don't affect to the results. The dimensions used were $60~\cm$ long, $60~\cm$ wide, $70~\cm$ high, which is the minimum needed to accomodate the active vetos and Tritium detector module inside. When it is compared to the dimensions mentioned in section \ref{subsec:SetUpActiveShield}, it can be noted that the length of this lead shielding is smaller than the real dimension, $148~\cm$.
-
-The results of these simulation will be presented in section \ref{sec:ResultsSimulations}, where they will be discussed.
+The results of these simulation are shown in section \ref{sec:ResultsSimulations}, where they are discussed.
