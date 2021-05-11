@@ -1,15 +1,15 @@
-The objective of the background rejection system is to reduce the radioactive background that affects the TRITIUM detector. It is important because TRITIUM project follows the ALARA principle for the tritium activity measurement, that is, to measure tritium activity "as low as reasonably achievable". The low limit reached in the tritium activity measured is limited by the uncertainty in the activity of the radioactive background measured since tritium activities below this uncertainty cannot be distinguishes  from the background. Therefore, to measure tritium activities as low as possible, the background uncertainty must be reduced as much as possible.
+The objective of the background rejection system is to reduce the TRITIUM radioactive background. The TRITIUM project follows the ALARA principle for the tritium activity measurement, that is, to measure tritium activity "as low as reasonably achievable". The detection limit of tritium activity is set by the uncertainty in the activity of the radioactive background since tritium activities below this uncertainty cannot be distinguished from the background. Therefore, the background uncertainty must be reduced as much as possible.
 
-The total uncertainty of the measurement is a quadratic sum of all the different uncertainties present in this measurement, which is mainly the statistical uncertainty, $\sigma_{st}$, (due to the statistical nature of the radioactivity process), the systematic uncertainty, $\sigma_{si}$, (due to the manufacture of the detectors), equation \ref{eq:SquareSumUncerainty}.
+The total uncertainty is a quadratic sum of all the different uncertainties related to the measurement, i. e., the statistical uncertainty\footnote{Uncertainty due to the statistical nature of the radioactivity process}, $\sigma_{st}$, the systematic uncertainty\footnote{uncertainty due to the manufacture of the detectors}, $\sigma_{si}$.
 
-The background rejection system of TRITIUM monitor is used to minimize the statistical component. Because of the Poissonian nature of the process, the statistical uncertainty corresponds to the square root of the measured activity, $A_{m}$, equation \ref{eq:SquareSumUncerainty}, which can be reduced by minimizing detected background events.
+The background rejection system of TRITIUM monitor minimizes the statistical component. Because of the Poissonian nature of the process, the statistical uncertainty corresponds to the square root of the measured activity, $A_{m}$, which can be reduced by minimizing detected background events.
 
 \begin{equation}
-\sigma_{T}^2 = \sigma_{st}^2 +\sigma_{si}^2; \qquad \qquad \sigma_{st;bac} = \sqrt{A_{m;bac}}
+\sigma_{T}^2 = \sigma_{st}^2 +\sigma_{si}^2; \qquad \qquad \sigma_{st;bak} = \sqrt{A_{m;bak}}
 \label{eq:SquareSumUncerainty}
 \end{equation} 
 
-The background events that affects the tritium detector is due to natural radioactivity, which is present in all parts of the earth. They can be divided in two different parts, depending on their origin. On the one hand, it can come from radioactive elements that are present in the Earth since its formation, which can be divided in four different natural radioactive series, shown in Table \ref{tab:NaturalRadioactiveSeries}. On the other hand, it can come from natural radiation received from extraterrestrial sources, called cosmic radiation. It is composed of high-energy particles, mainly protons and $\alpha$, which, after interacting with the particles in the Earth's atmosphere, generate a shower of muons, photons and neutrons mainly.
+The background of TRITIUM is due to natural radioactivity and has two different sources. On the one hand, radioactive elements that are present in the crust of Earth, mainly $ce{^{40}K}$ and elements from the four different natural radioactive series, shown in Table \ref{tab:NaturalRadioactiveSeries}. On the other hand, the cosmic ray radiation. The primary cosmic radiation is composed of high-energy particles, mainly protons and $\alpha$, but, after interacting with the Earth's atmosphere, they generate a shower mainly composed by muons, electrons, photons and neutrons mainly.
 
 \begin{table}[htbp]
 %%\centering
@@ -28,14 +28,14 @@ Mass Num. & Series & Prim. el. & Half life (y) & Final isotope \\
 \end{center}
 \end{table}
 
-Natural radioactivity depends on several parameter like the altitude and latitude of the Earth (the volume of the Earth's atmosphere, with which cosmic rays interact, is different), the height (for the same reason), sea level in our case, and the solar activity cycle (due to the relative position of the earth in the universe). The spatial distribution of cosmic rays, mainly muons, follows a $cos^2(\theta)$ distribution with the zenith angle. %In any case, we have to keep in mind that we will be located in the same place when we work, the Arrocampo dam, so we do not need to take it into account.
+Cosmic radiation depends on several parameter like the altitude and latitude of the Earth, the altitude, sea level in our case, and the solar activity cycle. The spatial distribution of cosmic rays, mainly muons, follows a $cos^2(\theta)$ distribution with the zenith angle. %In any case, we have to keep in mind that we will be located in the same place when we work, the Arrocampo dam, so we do not need to take it into account.
 
-To remove the effect of this natural radioactivity it is divided into two parts and different techniques are used to prevent these events from affecting the tritium measurement:
+To remove the effect of background two different techniques are employed:
 
 \begin{itemize}
 
-\item{}  On the one hand, the weak radiation, which is any radiation whose energy emission is below $200~\MeV/$nucleon. The technique used to avoid that these radiation affect the tritium measurement is to stope them using a lead shield, explained in section \ref{subsec:SetUpPassiveShield},
+\item{}  On the one hand, the weak radiation, which is any radiation with energy below $200~\MeV/$nucleon is stopped by a lead castle, described in section \ref{subsec:SetUpPassiveShield},
 
-\item{} On the other hand, the hard radiation, that is any radiation whose energy emission is greater than $200~\MeV/$nucleon (mainly cosmic radiation). It is much more difficult to stop so, instead of stopping them, the technique used is to build a cosmic veto, explained in section \ref{subsec:SetUpActiveShield}, with which each hard cosmic event is detected and used in anti-coincidence with the TRITIUM detector. %that is, we will save the measured tritium event just when we don't measure any hard cosmic event in time coincidence.
+\item{} On the other hand, the hard radiation, that is any radiation of energy greater than $200~\MeV/$nucleon, is much more difficult to stop and the technique used is a cosmic veto, reported in section \ref{subsec:SetUpActiveShield} in anti-coincidence with the TRITIUM detector. %that is, we will save the measured tritium event just when we don't measure any hard cosmic event in time coincidence.
 
 \end{itemize}

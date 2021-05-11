@@ -1,8 +1,8 @@
-As we said before, it is most difficut to stop hard radiation (high energy particles), than weak radiation. It is because the mean free path of particles is proportional to their energy so to stop high energy particles large wall thickness would need. Therefore, instead of stopping it, the so-called cosmic vetos are used.
+As hard radiation cannot be stopped by a moderate lead thickness cosmic vetos are employed.
 
-The cosmic veto consists of several complementary detectors, two complementary detectors for each cosmic veto in the case of TRITIUM monitor, with which the hard cosmic events that affect the tritium measurement will be detected and subtracted from the tritium measurement.
+A cosmic veto consists of at least two complementary detectors in coincidence that reject simoultaneous events in both. 
 
-As it is shown in Figure \ref{fig:VetoAndPrototype}, the way followed to do that is to place two complementary detectors, called cosmic detectors, one above the TRITIUM cell and the other below it. The distance between both detectors, $34.2~\cm$ for our latest prototype developed, is set by the TRITIUM prototype that has to be placed between both.
+As shown in Figure \ref{fig:VetoAndPrototype}, the two complementary detectors were placed one above and the other below the TIRTIUM detector. The distance between both detectors, $34.2~\cm$ for our latest prototype developed, is set by the TRITIUM prototype to be placed between both.
 
 \begin{figure}[h]
 \centering
@@ -10,15 +10,11 @@ As it is shown in Figure \ref{fig:VetoAndPrototype}, the way followed to do that
 \caption{Cosmic veto and Tritium-IFIC 2 prototype in an aluminum mechanical structure developed by IFIC's mechanical engineering department.\label{fig:VetoAndPrototype}}
 \end{figure}
 
-The cosmic veto is placed within the lead shielding so that, the weak radiation doesn't affect them with a false hard cosmic events detected.
+%The cosmic veto is placed within the lead shielding so that, the weak radiation doesn't affect them with a false hard cosmic events detected.
 
-A hard cosmic events that affects the tritium measurement will pass through both cosmic detectors at the same time, shown in figure \ref{subfig:RealHardCosmicEvent}. Each cosmic detector will have two photosensors so there are four photosensors in each cosmic veto. Therefore,  to eliminate the hard cosmic events, both cosmic detectors are read out in coincidence with the electron configuration shown in Figure \ref{subfig:ElectronicConfiguraiton4PMT}. Then, the TRITIUM detector is read out in anti-coincidence with the cosmic veto to save the tritium measurement only when there is not any hard cosmic event. 
+A hard cosmic events simultaneous through both cosmic detectors is displayed in figure \ref{subfig:RealHardCosmicEvent}. Each cosmic detector has two photosensors. Hard cosmic events are rejected when both detectors are in coincidence with the electronic configuration given in Figure \ref{subfig:ElectronicConfiguraiton4PMT}. 
 
-%In this case, if we have detect a hard cosmic event (time coincidence event in both cosmic detectors), we can be quite sure that it will cross through the tritium detector and, therefore, it will affect to their measurement, as you can see in Figure \ref{subfig:RealHardCosmicEvent}.
-
-It is possible that this hard cosmic event detected in the cosmic veto comes from two different hard cosmic events (one detected in each cosmic detector as shown in Figure \ref{subfig:FakeHardCosmicEvent} but it is practically negligible.
-
-The expected hard cosmic rate at sea level for muons, which is the main contributor of cosmic radiation at this height, is $70~\meter^{-2}\second^{-1}\steradian^{-1}$ \cite{PDG, HardCosmicMuonRate}, that is, approximately, $10^{-2}~\cm^{-2}\second^{-1}\steradian^{-1}$, shown in the cosmic rate plot of Figure \ref{subfig:HardCoscmicRate}. Taking into account that time coincidences are doing with signals whose width is of the order of $10~\nano\second$, the probability of obtaining two different hard cosmic events in temporal coincidence is less than $10^{-9}$ which is insignificant so they are not worth considering.
+The TRITIUM detector is read out in anti-coincidence with the cosmic veto.  Random coincidence from cosmic two different hard cosmic events, one in each detector, shown in Figure \ref{subfig:FakeHardCosmicEvent} are negligible. The expected hard cosmic rate at sea level for muons, main contributor, is $70~\meter^{-2}\second^{-1}\steradian^{-1}$ \cite{PDG, HardCosmicMuonRate}, that is, approximately, $10^{-2}~\cm^{-2}\second^{-1}\steradian^{-1}$, shown in the cosmic rate plot of Figure \ref{subfig:HardCoscmicRate}. As time coincidences are triggered by logical gates of about $10~\nano\second$, the probability of recording two different hard cosmic events in temporal coincidence is less than $10^{-9}$ which is not worth considering.
 
 \begin{figure}[h]
  \centering
@@ -35,7 +31,7 @@ The expected hard cosmic rate at sea level for muons, which is the main contribu
  \label{fig:HardCosmicEventsSimulation}
 \end{figure}
 
-Finally, these individual cosmic detectors on which the cosmic veto is based, consist of a plastic scintillator block from Epic-Crystal \cite{ScintillatorVeto}, whose properties and energy emission spectrum are shown in Table \ref{tab:ParametersScintillatorVeto} and Figure \ref{fig:EmissionEnergySpectrumVeto} respectively.
+The vetos are made of a plastic scintillator block from Epic-Crystal \cite{ScintillatorVeto}. Its properties are given in Table \ref{tab:ParametersScintillatorVeto} and its energy emission spectrum is displayed in Figure \ref{fig:EmissionEnergySpectrumVeto}.
 
 \begin{table}[]
 %%\centering
@@ -55,18 +51,19 @@ Emission peak (nm) & 415 (Blue) \\ \hline
 Decay Time, (ns) & 2.4 \\ \hline
 Hygroscopic & No \\ \hline
 \end{tabular}
-\caption{Properties of plastic scintillator blocks from Epic-Crystals. \cite{ScintillatorVeto}}
+\caption{Properties of plastic scintillators from Epic-Crystals. \cite{ScintillatorVeto}}
 \label{tab:ParametersScintillatorVeto}
 \end{center}
 \end{table}
 
 \begin{figure}[]
 \centering
-\includegraphics[scale=0.45]{3DesignPrinciples/34BackgroundRejectionSystem/EmissionEnergySpectrumVetos.png}
+\includegraphics[scale=0.35]{3DesignPrinciples/34BackgroundRejectionSystem/EmissionEnergySpectrumVetos.png}
 \caption{Emission energy spectrum of the plastic scintillation used for the cosmic vetos.\label{fig:EmissionEnergySpectrumVeto}~\cite{ScintillatorVeto}}
 \end{figure}
 
-It has an emission peak very close to that of the scintillating fibers used, so the same photosensors are used to read out them. The dimensions of the scintillator block are $45~\cm$ long, $17~\cm$ deep and $1~\cm$ of thickness and they are covered by three layers, teflon, aluminum and black tape, shown in Figure \ref{fig:LayersVeto}. These layers has two objectives. On the one hand, they are used to prevent external photons from reaching the scintillator plastic, giving false hard cosmic events and, on the other hand, they are used to prevent the photons generated by the scintillator plastic from escaping before reaching the photosensor, losing real hard cosmic events.
+The energy spectrum has a peak very close to that of the scintillating fibers used, so the same photosensors are used to read out them. The dimensions of the scintillator block are $45 \cdot{} 17 \dot{} 1~\cm^3$ and they are three foil wrapped by a layer of teflon, aluminum and black tape, exhibited in Figure \ref{fig:LayersVeto}. These layers prevent external photons from reaching the scintillator plastic and avoid photons generated by the scintillator plastic from escaping before reaching the photosensor. Two $2.5\cdot{} 2.5 ~\cm^2$ windows are made on the wrapping to allow reading by the photosensors.
+
 
 \begin{figure}[h]
  \centering
@@ -86,6 +83,4 @@ It has an emission peak very close to that of the scintillating fibers used, so 
  \label{fig:LayersVeto}
 \end{figure}
 
-Two $2.5\cdot{} 2.5 ~\cm^2$ windows are made done in this coating and used to read the photons produced by the plastic scintillator with photosensors.
-
-The expected hard cosmic rate is calculated for our specifically cosmic vetos. The expected hard cosmic rate at sea level is $10^{-2}~\cm^{-2}\second^{-1}\steradian^{-1}$, previously mentioned. Taking into account that, on the one hand, the solid angle of our detectors is $\omega=0.5434$, which has been calculated by integrating above the area of the TRITIUM cosmic veto, and the area of its cosmic veto is $45~\cm \cdot{} 17~\cm=765~\cm^2$, the expected hard cosmic rate on our cosmic vetos should be $2,909~$event$/\second$. It is an important calculation used in experimental measurements to determine the efficiency of the cosmic veto.
+As previously mentioned, the expected hard cosmic rate at sea level is $7 \cdot{} 10^{-3}~\cm^{-2}\second^{-1}\steradian^{-1}$. As the solid angle of our detectors is $\omega=0.5434$, calculated by integrating the solid angle of one scintillator on the other, and the area of the veto is $765~\cm^2$, the expected hard cosmic rate on our cosmic vetos should be $2,909~$event$/\second$. Thus is important to determine the efficiency of the cosmic veto.
