@@ -14,21 +14,24 @@ As shown in Figure \ref{fig:VetoAndPrototype}, the two complementary detectors w
 
 A hard cosmic events simultaneous through both cosmic detectors is displayed in figure \ref{subfig:RealHardCosmicEvent}. Each cosmic detector has two photosensors. Hard cosmic events are rejected when both detectors are in coincidence with the electronic configuration given in Figure \ref{subfig:ElectronicConfiguraiton4PMT}. 
 
-The TRITIUM detector is read out in anti-coincidence with the cosmic veto.  Random coincidence from cosmic two different hard cosmic events, one in each detector, shown in Figure \ref{subfig:FakeHardCosmicEvent} are negligible. The expected hard cosmic rate at sea level for muons, main contributor, is $70~\meter^{-2}\second^{-1}\steradian^{-1}$ \cite{PDG, HardCosmicMuonRate}, that is, approximately, $10^{-2}~\cm^{-2}\second^{-1}\steradian^{-1}$, shown in the cosmic rate plot of Figure \ref{subfig:HardCoscmicRate}. As time coincidences are triggered by logical gates of about $10~\nano\second$, the probability of recording two different hard cosmic events in temporal coincidence is less than $10^{-9}$ which is not worth considering.
+The TRITIUM detector is read out in anti-coincidence with the cosmic veto.  Random coincidence from cosmic two different hard cosmic events, one in each detector, shown in Figure \ref{subfig:FakeHardCosmicEvent} are negligible. The expected hard cosmic rate at sea level for muons, main contributor, is $70~\meter^{-2}\second^{-1}\steradian^{-1}$ \cite{PDG, HardCosmicMuonRate}, that is, approximately, $10^{-2}~\cm^{-2}\second^{-1}\steradian^{-1}$, shown in the cosmic rate plot of Figure \ref{fig:HardCoscmicRate}. As time coincidences are triggered by logical gates of about $10~\nano\second$, the probability of recording two different hard cosmic events in temporal coincidence is less than $10^{-9}$ which is not worth considering.
 
 \begin{figure}[h]
  \centering
   \subfloat[Real hard cosmic event.]{
    \label{subfig:RealHardCosmicEvent}
-    \includegraphics[width=0.25\textwidth]{3DesignPrinciples/34BackgroundRejectionSystem/Real_Event.png}}    
+    \includegraphics[width=0.45\textwidth]{3DesignPrinciples/34BackgroundRejectionSystem/Real_Event.png}}    
   \subfloat[Fake hard cosmic event.]{
    \label{subfig:FakeHardCosmicEvent}
-    \includegraphics[width=0.25\textwidth]{3DesignPrinciples/34BackgroundRejectionSystem/Fake_Event.png}} 
-    \subfloat[Hard cosmic muon rate \cite{HardCosmicMuonRatePlot}.]{
-   \label{subfig:HardCoscmicRate}
-    \includegraphics[width=0.42\textwidth]{3DesignPrinciples/34BackgroundRejectionSystem/HardCosmicRate.png}}     
- \caption{Hard cosmic events detected with the cosmic veto of TRITIUM: a) Affecting to the tritium measurement, b) Does not affecting to the tritium measurement. c) Hard cosmic muon rate. }
+    \includegraphics[width=0.45\textwidth]{3DesignPrinciples/34BackgroundRejectionSystem/Fake_Event.png}} 
+   \caption{Hard cosmic events detected with the cosmic veto of TRITIUM: a) Affecting to the tritium measurement, b) Does not affecting to the tritium measurement.}
  \label{fig:HardCosmicEventsSimulation}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{3DesignPrinciples/34BackgroundRejectionSystem/HardCosmicRate.png}
+\caption{Hard cosmic muon rate \cite{HardCosmicMuonRatePlot}.\label{fig:HardCoscmicRate}}
 \end{figure}
 
 The vetos are made of a plastic scintillator block from Epic-Crystal \cite{ScintillatorVeto}. Its properties are given in Table \ref{tab:ParametersScintillatorVeto} and its energy emission spectrum is displayed in Figure \ref{fig:EmissionEnergySpectrumVeto}.
