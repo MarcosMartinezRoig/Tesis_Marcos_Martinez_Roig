@@ -1,0 +1,9 @@
+A third test was carried out to check the effect of the fiber diameter in the tritium measurement. For this test, the same simulation explained in section \ref{subsec:FiberLengthSimulation} was used, where a fiber length of $20~\cm$ was choseen. Two different diameters were taken into account in this study, $1~\mm$ and $2~\mm$, which are the commercial options given by Saint-Gobain company.
+
+It doesn't have sense to test it with the tritium source since its efficiency will scale with the active surface of the scintillating fiber. However, an interesting study can be performed to check how the fiber diameter affect to the cosmic detection in the fiber. It is an important result as the background-signal ratio is mainly affected by the cosmic events that hit the Tritium detector.
+
+To do so, the CRY library\footnote{CRY library, Cosmic-Ray Shower library} \cite{CRYwebsite}, \cite{CRYpaper} was used to generate cosmic events and the tritiated water source previously used was removed. The CRY library is a package based on objected-oriented technology and implemented in the C++ programming language. This library is used to generate cosmic-ray shower distributions for different particles (muons, neutrons, protons, electrons, photons and pions) with several options that can be varied like several altitude.
+
+The cosmic sources shape used in this simulation is a horizontal square of $1\cdot 1~\meter ^2$ located at a height of $35~\cm$ with the typical distribution of cosmic particles at see level.
+
+The result of this simulation are shown in section \ref{subsec:ResultsFiberDiameter}, where they are discussed.
