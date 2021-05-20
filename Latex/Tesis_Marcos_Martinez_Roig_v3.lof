@@ -149,8 +149,8 @@
 \contentsline {figure}{\numberline {5.14}{\ignorespaces A schematic design of the TRITIUM detector.\relax }}{142}{figure.caption.110}
 \contentsline {figure}{\numberline {5.15}{\ignorespaces A TRITIUM detector design based on the TRITIUM-IFIC 2 prototype.\relax }}{144}{figure.caption.111}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Distribution of the scintillating fibers in the simualtion of Tritium-IFIC 2 prototype.\relax }}{152}{figure.caption.112}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Simualtion of Tritium-IFIC 2 prototype. PMTs (black), the optical grease (blue), PMMA windows (white), tritiated water (green) and scintillating fibers (yellow) \relax }}{153}{figure.caption.113}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Distribution of the scintillating fibers in the simualtion of Tritium-IFIC 2 prototype.\relax }}{151}{figure.caption.112}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Simualtion of Tritium-IFIC 2 prototype. PMTs (black), the optical grease (blue), PMMA windows (white), tritiated water (green) and scintillating fibers (yellow) \relax }}{152}{figure.caption.113}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Energy spectra experimentally measured with TRITIUM-IFIC 0 prototype.\relax }}{157}{figure.caption.114}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Signal and background energy spectra.}}}{157}{subfigure.1.1}
@@ -158,13 +158,13 @@
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Energy spectra experimentally measured with TRITIUM-IFIC 1 prototype.\relax }}{159}{figure.caption.115}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Signal and background energy spectra.}}}{159}{subfigure.2.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tritium energy spectrum.}}}{159}{subfigure.2.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces The single-photon energy distribution of both PMTs used in the TRITIUM-Aveiro 0 prototype and their sum.\relax }}{162}{figure.caption.116}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Measurement of a $\ce {^{55}Fe}$ radioactive source with the TRITIUM-Aveiro 0 prototype.\relax }}{163}{figure.caption.117}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Measurement of the background with TRITIUM-Aveiro 0 prototype covered with different thicknesses of lead.\relax }}{164}{figure.caption.118}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Measurements of the background and tritium liquid source (with an activity of $29.8~\ensuremath {\@text {k}}\ensuremath {\@text {Bq}}/\ensuremath {\@text {L}}$) performed with the TRITIUM-Aveiro 0 prototype and integred during a minute.\relax }}{165}{figure.caption.119}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces The single-photon energy distribution of both PMTs used in the TRITIUM-Aveiro 0 prototype and their sum \cite {ExperimentalPaperCarlos}.\relax }}{162}{figure.caption.116}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Measurement of a $\ce {^{55}Fe}$ radioactive source with the TRITIUM-Aveiro 0 prototype \cite {ExperimentalPaperCarlos}.\relax }}{163}{figure.caption.117}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Measurement of the background with TRITIUM-Aveiro 0 prototype covered with different thicknesses of lead \cite {ExperimentalPaperCarlos}.\relax }}{164}{figure.caption.118}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Measurements of the background and tritium liquid source (with an activity of $29.8~\ensuremath {\@text {k}}\ensuremath {\@text {Bq}}/\ensuremath {\@text {L}}$) performed with the TRITIUM-Aveiro 0 prototype and integred during a minute \cite {ExperimentalPaperCarlos}.\relax }}{165}{figure.caption.119}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Counts per minut measured as a function of time.}}}{165}{subfigure.6.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Distribution of the acquired data.}}}{165}{subfigure.6.2}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Measurements of the background and tritium liquid source (with an activity of $29.8~\ensuremath {\@text {k}}\ensuremath {\@text {Bq}}/\ensuremath {\@text {L}}$) performed with the TRITIUM-Aveiro 0 prototype and integred during an hour.\relax }}{168}{figure.caption.120}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Measurements of the background and tritium liquid source (with an activity of $29.8~\ensuremath {\@text {k}}\ensuremath {\@text {Bq}}/\ensuremath {\@text {L}}$) performed with the TRITIUM-Aveiro 0 prototype and integred during an hour \cite {ExperimentalPaperCarlos}.\relax }}{168}{figure.caption.120}
 \contentsline {figure}{\numberline {7.8}{\ignorespaces Energy spectra experimentally measured with TRITIUM-IFIC 2 prototype.\relax }}{169}{figure.caption.121}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Signal and background energy spectra.}}}{169}{subfigure.8.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tritium energy spectrum.}}}{169}{subfigure.8.2}
@@ -172,47 +172,48 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Single photon distribution.}}}{171}{subfigure.9.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tritium energy spectrum.}}}{171}{subfigure.9.2}
 \contentsline {figure}{\numberline {7.10}{\ignorespaces Monitoring of the signal and background prototypes for several months.\relax }}{172}{figure.caption.123}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Background measured with the TRITIUM-Aveiro 0 prototype during its installation in Arrocampo dam.\relax }}{173}{figure.caption.124}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Background measured with the TRITIUM-Aveiro 0 prototype during its installation in Arrocampo dam \cite {ExperimentalPaperCarlos}.\relax }}{173}{figure.caption.124}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Energy distribution of a) simulated tritium decays b) Initial energy of tritium decays that reach the scintillating fibers (red histogram) compared the all simulated tritium events (blue histogram).\relax }}{177}{figure.caption.125}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Energy distribution of a) simulated tritium decays b) Initial energy of tritium decays that reach the scintillating fibers (red histogram) compared the all simulated tritium events (blue histogram) \cite {SimulationPaperCarlos}. \relax }}{177}{figure.caption.125}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Energy distribution of tritium decays simulated}}}{177}{subfigure.1.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{177}{subfigure.1.2}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces a)Transversal cut of simulated scintillating fiber (yellow) and tritium source (green) with various tritium decays (red dots) b) Distribution of the radial distance between the position where the tritium decay takes place and the surface of the scintillating fiber.\relax }}{178}{figure.caption.126}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces a)Transversal cut of simulated scintillating fiber (yellow) and tritium source (green) with various tritium decays (red dots) b) Distribution of the radial distance between the position where the tritium decay takes place and the surface of the scintillating fiber \cite {SimulationPaperCarlos}.\relax }}{178}{figure.caption.126}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{178}{subfigure.2.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{178}{subfigure.2.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Distribution of the initial energy of tritium events that has reach the scintillating fibers, blue histogram, and the energy deposited, red histogram.\relax }}{179}{figure.caption.127}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Energy distribution of photons produced by the scintillating fiber when the birks coefficient is not considered, red histogram, and when this is considered, blue histogram.\relax }}{180}{figure.caption.128}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Number of photons produced in front of the energy deposited in the scintillating fibers when a)the birks coeficient is not considered ($k_B=0$) b) the Birks coefficient is considered ($k_B=0.126~\ensuremath {\@text {\milli \ensuremath {\@text {m}}}}/\ensuremath {\@text {\mega \ensuremath {\@text {\electronvolt \xspace }}}}$).\relax }}{181}{figure.caption.129}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Distribution of the initial energy of tritium events that has reach the scintillating fibers, blue histogram, and the energy deposited, red histogram \cite {SimulationPaperCarlos}.\relax }}{179}{figure.caption.127}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Energy distribution of photons produced by the scintillating fiber when the birks coefficient is not considered, red histogram, and when this is considered, blue histogram \cite {SimulationPaperCarlos}.\relax }}{180}{figure.caption.128}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Number of photons produced in front of the energy deposited in the scintillating fibers when a)the birks coeficient is not considered ($k_B=0$) b) the Birks coefficient is considered ($k_B=0.126~\ensuremath {\@text {\milli \ensuremath {\@text {m}}}}/\ensuremath {\@text {\mega \ensuremath {\@text {\electronvolt \xspace }}}}$) \cite {SimulationPaperCarlos}.\relax }}{181}{figure.caption.129}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Quenching effect not included.}}}{181}{subfigure.5.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Quenching effect included.}}}{181}{subfigure.5.2}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Number of photons produced in the fiber per tritium event for all tritium events that reach the fiber (blue histogram) and only for tritium events the photons of which are detected by photosensors (red histogram)\relax }}{182}{figure.caption.130}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Counts integred over $60~\qopname \relax m{min}$, normalized to the same active area and taken over a week for a fiber length of $1~\meter $, dashed lines, and $20~\ensuremath {\@text {\centi \ensuremath {\@text {m}}}}$, solid lines and two different activities, $0.5~\ensuremath {\@text {k}}\ensuremath {\@text {Bq}}/\ensuremath {\@text {L}}$, blue lines, and $2.5~\ensuremath {\@text {k}}\ensuremath {\@text {Bq}}/\ensuremath {\@text {L}}$, red lines. \relax }}{183}{figure.caption.131}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Distribution of photons reaching PMMA windows. The red histogram includes those guided by fibers and the blue histogram includes those traveling in the water medium.\relax }}{184}{figure.caption.132}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Number of photons produced in the fiber per tritium event for all tritium events that reach the fiber (blue histogram) and only for tritium events the photons of which are detected by photosensors (red histogram) \cite {SimulationPaperCarlos}.\relax }}{182}{figure.caption.130}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Counts integred over $60~\qopname \relax m{min}$, normalized to the same active area and taken over a week for a fiber length of $1~\meter $, dashed lines, and $20~\ensuremath {\@text {\centi \ensuremath {\@text {m}}}}$, solid lines and two different activities, $0.5~\ensuremath {\@text {k}}\ensuremath {\@text {Bq}}/\ensuremath {\@text {L}}$, blue lines, and $2.5~\ensuremath {\@text {k}}\ensuremath {\@text {Bq}}/\ensuremath {\@text {L}}$, red lines \cite {SimulationPaperCarlos}. \relax }}{183}{figure.caption.131}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Comparison of the energy deposition of cosmic ray events in scintillating fibers of $1~\ensuremath {\@text {\milli \ensuremath {\@text {m}}}}$ and $2~\ensuremath {\@text {\milli \ensuremath {\@text {m}}}}$ in diameter.\relax }}{184}{figure.caption.132}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Distribution of photons reaching PMMA windows. The red histogram includes those guided by fibers and the blue histogram includes those traveling in the water medium \cite {SimulationPaperCarlos}.\relax }}{186}{figure.caption.133}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Scheme of the ultrapure water system.\relax }}{197}{figure.caption.135}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Different stages of filtration of the ultrapure water system.\relax }}{198}{figure.caption.136}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Scheme of the ultrapure water system.\relax }}{197}{figure.caption.136}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Different stages of filtration of the ultrapure water system.\relax }}{198}{figure.caption.137}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gross filtering stage.}}}{198}{subfigure.2.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Fine filtering stage.}}}{198}{subfigure.2.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Super fine filtering stage.}}}{198}{subfigure.2.3}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Doble phase reverse osmosis stage and containers used to store the outlet water of the ultrapure water system.\relax }}{199}{figure.caption.137}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Doble phase reverse osmosis stage and containers used to store the outlet water of the ultrapure water system.\relax }}{199}{figure.caption.138}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Doble phase reverse osmosis stage.}}}{199}{subfigure.3.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Storage containers of reject and ultrapure water.}}}{199}{subfigure.3.2}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Siemens PLC, software for remote control of ultrapure water system.\relax }}{199}{figure.caption.138}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Siemens PLC, software for remote control of ultrapure water system.\relax }}{199}{figure.caption.139}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{199}{subfigure.4.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{199}{subfigure.4.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{199}{subfigure.4.3}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces General photo of the complete ultrapure water system.\relax }}{200}{figure.caption.139}
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Raw water, reject water and ultrapure water obtained with this system.\relax }}{200}{figure.caption.140}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces General photo of the complete ultrapure water system.\relax }}{200}{figure.caption.140}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Raw water, reject water and ultrapure water obtained with this system.\relax }}{200}{figure.caption.141}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {E.1}{\ignorespaces Electronic scheme of the PCB designed to power the PMTs of Aveiro prototype and the graphical user interface developed to control it.\relax }}{204}{figure.caption.141}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Electronic scheme of the PCB designed to power the PMTs of Aveiro prototype and the graphical user interface developed to control it.\relax }}{204}{figure.caption.142}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Electronic scheme of the PCB}}}{204}{subfigure.1.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Graphical user interface}}}{204}{subfigure.1.2}
-\contentsline {figure}{\numberline {E.2}{\ignorespaces Simplified electronic scheme used to process and analyze the signal of TRITIUM-Aveiro 0 prototype. \relax }}{205}{figure.caption.142}
-\contentsline {figure}{\numberline {E.3}{\ignorespaces Graphical user interface used to manage the counter system. \relax }}{207}{figure.caption.143}
-\contentsline {figure}{\numberline {E.4}{\ignorespaces Two different situations of the electronic chain response. A.- Event accepted since veto has not detected it. B.- Event rejected since veto has detected it\relax }}{208}{figure.caption.144}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Simplified electronic scheme used to process and analyze the signal of TRITIUM-Aveiro 0 prototype. \relax }}{205}{figure.caption.143}
+\contentsline {figure}{\numberline {D.3}{\ignorespaces Graphical user interface used to manage the counter system. \relax }}{207}{figure.caption.144}
+\contentsline {figure}{\numberline {D.4}{\ignorespaces Two different situations of the electronic chain response. A.- Event accepted since veto has not detected it. B.- Event rejected since veto has detected it\relax }}{208}{figure.caption.145}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Event accepted by the electronic system}}}{208}{subfigure.4.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Event rejected by the electronic system}}}{208}{subfigure.4.2}
+\addvspace {10\p@ }

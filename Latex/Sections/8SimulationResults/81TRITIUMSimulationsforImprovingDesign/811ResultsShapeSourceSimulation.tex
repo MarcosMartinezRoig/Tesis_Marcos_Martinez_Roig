@@ -1,8 +1,8 @@
-This section show and discuss the results obtianed with the simulation described in section \ref{subsec:SourceShapeSimulation}, the objective of which is to find the radial thick of the simulated tritium source that optimize the simulations. 
+This section show and discuss the results obtianed with the simulation described in section \ref{subsec:SourceShapeSimulation}, the objective of which is to find the radial thick of the simulated tritium source that reduce the comsuming time and computing resources used in the simulations. 
 
 First, the initial energy of the simulated tritium events are verified. For this task, the energy distribution of the simulated tritium electrons is obtained, shown in figure \ref{subfig:EnergyDistributionTritiumSource}, and compared with that obtained in the reference \cite{TritiumEmissionSpectrum}. As can be checked, there is a good agreement between both.
 
-In addition, a spectrum of the initial energy of the detected tritium electrons (electrons that are able to reach the fiber and deposit energy in it) are shown in Figure \ref{subfig:EnergySpectrumEventsDetectedandNonDetected}, red histogram, which is compared to the energy distribution of all simulated tritium events, blue histogram. A shift to the right side in the detected tritium electrons are observed in the red histogram, creating a peak centred at $10~\keV$. This shift occurs mainly because the lower energy tritium electrons are absorbed at a very short distance in the water volume or they don't have enough energy to overcome the water-fiber interface, producing that tritium electrons do not reach the scintillating fibers.
+In addition, a spectrum of the initial energy of the detected tritium electrons (electrons capable of reaching the fiber and depositing energy) are shown in Figure \ref{subfig:EnergySpectrumEventsDetectedandNonDetected}, red histogram, which is compared to the energy distribution of all simulated tritium events, blue histogram. A shift to the right side in the detected tritium electrons is observed, creating a peak centred at $10~\keV$. This shift occurs mainly due to the lower energy tritium electrons don't have enough energy to reach the fiber and overcome the water-fiber interface, producing a non-detected tritium event.
 
 \begin{figure}[h]
  \centering
@@ -13,11 +13,11 @@ In addition, a spectrum of the initial energy of the detected tritium electrons 
   \subfloat[]{
    \label{subfig:EnergySpectrumEventsDetectedandNonDetected}
     \includegraphics[width=0.5\textwidth]{8SimulationsResults/81TRITIUMDesign/811TritiumSourceOptimization/Source_Spectrum_yes_and_non_detected_events.png}}
- \caption{ Energy distribution of a) simulated tritium decays b) Initial energy of tritium decays that reach the scintillating fibers (red histogram) compared the all simulated tritium events (blue histogram).}
- \label{fig:TritiumSourceOptimization}
+ \caption{ Energy distribution of a) simulated tritium decays b) Initial energy of tritium decays that reach the scintillating fibers (red histogram) compared the all simulated tritium events (blue histogram) \cite{SimulationPaperCarlos}.
+ \label{fig:TritiumSourceOptimization}}
 \end{figure}
 
-Figure \ref{subfig:TransversalCutTritiumSource} shows a transversal cut of the $2~\mm$ scintillating fiber, yellow, the simulated tritium source $0.5~\mm$ thick around the fiber, green, and the tritium decays the electrons of which has deposited their energy in the scintillating fiber, red dots. Furthermore, the distribution of the radial distance between the position where tritium decays take place and the surface of the scintillating fiber are shown in figure \ref{subfig:DistanceDistributionTritiumSourceFiber}.
+Regarding the radial thickness of the tritiated water source, Figure \ref{subfig:TransversalCutTritiumSource} shows a transversal cut of the $2~\mm$ scintillating fiber, yellow, the simulated tritium source $0.5~\mm$ thick around the fiber, green, and the tritium decays the electrons of which has deposited their energy in the scintillating fiber, red dots. Furthermore, the distribution of the radial distance between the position where tritium decays take place and the surface of the scintillating fiber are shown in figure \ref{subfig:DistanceDistributionTritiumSourceFiber}.
 
 \begin{figure}[h]
  \centering
@@ -28,9 +28,9 @@ Figure \ref{subfig:TransversalCutTritiumSource} shows a transversal cut of the $
   \subfloat[]{
    \label{subfig:DistanceDistributionTritiumSourceFiber}
     \includegraphics[width=0.5\textwidth]{8SimulationsResults/81TRITIUMDesign/811TritiumSourceOptimization/SourceDistance.png}}
- \caption{a)Transversal cut of simulated scintillating fiber (yellow) and tritium source (green) with various tritium decays (red dots) b) Distribution of the radial distance between the position where the tritium decay takes place and the surface of the scintillating fiber.}
+ \caption{a)Transversal cut of simulated scintillating fiber (yellow) and tritium source (green) with various tritium decays (red dots) b) Distribution of the radial distance between the position where the tritium decay takes place and the surface of the scintillating fiber \cite{SimulationPaperCarlos}.}
  \label{fig:TritiumSourceSimulated}
 \end{figure}	
 
-As can be seen in both figures, most of the tritium decays that are detected occur in close proximity to the scintillating fiber.  A zoom is applied in the inset box of the Figure \ref{subfig:DistanceDistributionTritiumSourceFiber}. It was obtained that the $99.4\%$ of the detected events are produced at least of $5~\mu\meter$ (the mean free path of tritium electrons). Therefore, the thick of the simulated tritium source chosen to optimize the simulation are $5~\mu\meter$, considerably reducing computing time. 
+As can be seen in both figures, most of the tritium decays that are detected occur in close proximity to the scintillating fiber.  A zoom is applied in the inset box of the Figure \ref{subfig:DistanceDistributionTritiumSourceFiber} for better viewing. It was obtained that the $99.4\%$ of the detected events are produced at least of $5~\mu\meter$ (the mean free path of tritium electrons). Therefore, the thick of the simulated tritium source chosen to optimize the simulation are $5~\mu\meter$, considerably reducing the computing time. 
 
