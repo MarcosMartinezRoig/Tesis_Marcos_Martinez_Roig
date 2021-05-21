@@ -1,14 +1,43 @@
-This section shows the results obtained with the simulation of several prototypes of TRITIUM-IFIC 2, which was used for two different objectives. On the one hand, these simulations were carried out to find the Low Detection Limit, LDL, of the prototype for tritiated water activity, which is an important parameter to know the limitation of the prototype. On the other hand, these simulations serve to study how tritium detection is affected due to the integration count time and the number of prototypes read in parallel.
+This section shows the results obtained with the simulation of the TRITIUM-IFIC 2 prototype, which was used for two different objectives. On the one hand, these simulations were carried out to find the Low Detection Limit, LDL, of this prototype for tritiated water activity, which is an important parameter to know the limitation of the prototype. On the other hand, these simulations serve to study the activity resolution of the prototype and  how it can be improved through various parameters such as the increasement of the integration counting count time and the number of prototypes read in parallel.
 
-First, tritium detection was studied using only one TRITIUM-IFIC 2 prototype, throguh the simulation of various activities of tritiated water. The integration count time used was $10~\min$ and continuous use of the detector during 3 months was simulated for each activity studied.
+The detection of a tritium event by the TRITIUM-IFIC 2 prototype is shown in Figure \ref{}, in which, the path followed by the photons created in scintillating fibers are represented by green lines which end in red dots when it is absorbed in the fiber or the water and blue dots when it is absorbed in the PMTs (detected). The fiber that has detected the tritium electron is clearly identfied and the photons out of this are those that has not been collected due to the critical angle. Blue dots are obtained in both PMTs for this event, indicating that this is detected on time coincidence.
+
+FIGUREEEE
+
+Various activities were simulated from $100~\becquerel/\liter$ to $50~\kilo\becquerel/\liter$ for three months of simulated data taking and an integration counting time of $10~\min$ was used.
+
+The measurements obtianed are presented in Figure \ref{} as a function of time, which are histogramed in Figure \ref{}. In this figure a zoom is applied from $100~\becquerel/\liter$ to $5~\kilo\becquerel/\liter$ for better visualization.
+
+FIGUREEE con gaussianas
+
+Difference of $250~\kilo\becquerel/liter$ is not distinguished due to the overlapping of sevarial distributions. To reduce the width of the distribution obtianed for each activity, the stadistics must be increased, which can be done in two different ways, increasing the integration counting time or increasing the number of prototype read in parallel.
+
+The distributions of the measurements obtained for each activity are shown again in Figure \ref{}, in which three increasing integration counting times has been used ($10~\min$, $30~\min$ and $60~\min$).
+
+FIGUREEEEE con gaussianas
+
+The effect of increasing the integration counting time is clearly visible in this figure, reducing the distribution width and improving the activity resolution of the TRITIUM monitor. Difference as low as $250~\becquerel/\liter$ are clearly distiguised using only one detector and an integration counting time of $60~\min$. Similarly, this distributions are shown in Figure \ref{} for $10~\min$ of integration counting time, in which three increasing number of prototypes were read in parallel (1, 5 and 10).
+
+FIGUREEEE con gaussianas
+
+Again the reduction of the distribution width is clearly visible in these figures, improving the activity resolution of the detector. In this case, differences of $250~\becquerel/\liter$ are clearly distinguised using a integration counting time of $10~\min$ and measuring with 5 TRITIUM-IFIC 2 prototypes read in parallel. Therefore, a balance between both characteristics of the TRITIUM monitor has to be obtained to achieve the requeriments of the experiment, depending on its economical budget. The activity difference, the distribution peaks of which are clearly distinguised for each different case of integration counting time and number of detectors used, is summarized in Table \ref{}.
+
+TABLEE
+
+
+
+
+ 
+
+Se ha realizado un ajuste lineal del centroide de las gaussianas de los ajustes (y su anchura como error) frente a la actividad usada. El rango utilizado en este caso ha sido mucho mayor debido a
+
+%Tritium detection was studied using only one TRITIUM-IFIC 2 prototype, throguh the simulation of various activities of tritiated water. The integration count time used was $10~\min$ and continuous use of the detector during 3 months was simulated for each activity studied.
 
 Several variables were used as tests in each measurement to verify the correct simulation of the different steps such as the simulated tritium source, the simulated energy deposition in scintillating fibers and their subsequent emission of photons, etc. Some of these variables are detailed in the appendix \ref{App:TestVariablesSimulations}.
 
 
 
-Se obtienen un máximo de 15 fotones por evento de tritio, similar a lo que se obtiene experimentalmente.
-
-Imagen del detector con una fibra tocada.
+Se obtienen un máximo de 15 fotones por evento de tritio, similar a lo que se obtiene experimentalmente. -> Indica que el valor usado para el coeficiente de Birks es el adecaudo.
 
 Varios tests para ver que la simulación es correcta: (Quizá en un appendice?)
 
@@ -29,3 +58,5 @@ Estudio del counting time: Simulaciones para 10 min, 30 min y 60 min.
 Ver como se mejora la resolución en \% para tiempos mayores. Extraer algún tipo de relación de estas?
 
 PEORES RESULTADOS SIMULADOS QUE CON AVEIRO PERO MEJORES EXPERIMENTALMENTE. La diferencia debe de estar en que uno usa fibras pulida y limpiadas y el otro no.
+
+PREPARAR EN BACK UP EN LA PRESENTACIÓN EL CASO PARA 3 DETECTORES, YA QUE SERÁ NUESTRO CASO.
