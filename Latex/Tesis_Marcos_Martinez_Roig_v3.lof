@@ -189,31 +189,47 @@
 \contentsline {figure}{\numberline {8.7}{\ignorespaces Counts integred over $60~\qopname \relax m{min}$, normalized to the same active area and taken over a week for a fiber length of $1~\meter $, dashed lines, and $20~\ensuremath {\@text {\centi \ensuremath {\@text {m}}}}$, solid lines and two different activities, $0.5~\ensuremath {\@text {k}}\ensuremath {\@text {Bq}}/\ensuremath {\@text {L}}$, blue lines, and $2.5~\ensuremath {\@text {k}}\ensuremath {\@text {Bq}}/\ensuremath {\@text {L}}$, red lines \cite {SimulationPaperCarlos}. \relax }}{183}{figure.caption.131}
 \contentsline {figure}{\numberline {8.8}{\ignorespaces Comparison of the energy deposition of cosmic ray events in scintillating fibers of $1~\ensuremath {\@text {\milli \ensuremath {\@text {m}}}}$ and $2~\ensuremath {\@text {\milli \ensuremath {\@text {m}}}}$ in diameter.\relax }}{184}{figure.caption.132}
 \contentsline {figure}{\numberline {8.9}{\ignorespaces Distribution of photons reaching PMMA windows. The red histogram includes those guided by fibers and the blue histogram includes those traveling in the water medium \cite {SimulationPaperCarlos}.\relax }}{186}{figure.caption.133}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Tritium electron detected in the simulated TRITIUM-IFIC 2 prototype. The path of the optical photons is represented by green lines and the position in which it is absorbed is represented by red and blue dots (absorbed in water or PMT, respectively).\relax }}{187}{figure.caption.134}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Photons detected by both PMTs per tritium event in the simulated TRITIUM-IFIC 2 prototype.\relax }}{188}{figure.caption.135}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Tritium counts detected with a simulated TRITIUM-IFIC 2 prototype using a integration counting time of $10~\qopname \relax m{min}$ a) as a function of the time b) distribution of them.\relax }}{189}{figure.caption.136}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Counts as a function of the time.}}}{189}{subfigure.12.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Distribution.}}}{189}{subfigure.12.2}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces The distribution of the tritium counts detected with a simulated TRITIUM-IFIC 2 prototype for three different integration counting time, a)$10~\qopname \relax m{min}$ b) $30~\qopname \relax m{min}$ and c) $60~\qopname \relax m{min}$.\relax }}{190}{figure.caption.137}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Integration counting time of $10~\qopname \relax m{min}$.}}}{190}{subfigure.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Integration counting time of $30~\qopname \relax m{min}$.}}}{190}{subfigure.13.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Integration counting time of $60~\qopname \relax m{min}$.}}}{190}{subfigure.13.3}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces The distribution of the tritium counts detected with several simulated TRITIUM-IFIC 2 prototypes a) 1, b) 5 and c) 10 for an integration counting time of $10~\qopname \relax m{min}$.\relax }}{191}{figure.caption.138}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {One TRITIUM-IFIC 2 prototype.}}}{191}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Five TRITIUM-IFIC 2 prototypes.}}}{191}{subfigure.14.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Ten TRITIUM-IFIC 2 prototypes.}}}{191}{subfigure.14.3}
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Resolution of the TRITIUM-IFIC 2 prototype as a function of the a) integration counting time b) number of prototypes.\relax }}{192}{figure.caption.139}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{192}{subfigure.15.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{192}{subfigure.15.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Scheme of the ultrapure water system.\relax }}{199}{figure.caption.136}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Different stages of filtration of the ultrapure water system.\relax }}{200}{figure.caption.137}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gross filtering stage.}}}{200}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Fine filtering stage.}}}{200}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Super fine filtering stage.}}}{200}{subfigure.2.3}
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Doble phase reverse osmosis stage and containers used to store the outlet water of the ultrapure water system.\relax }}{201}{figure.caption.138}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Doble phase reverse osmosis stage.}}}{201}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Storage containers of reject and ultrapure water.}}}{201}{subfigure.3.2}
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Siemens PLC, software for remote control of ultrapure water system.\relax }}{201}{figure.caption.139}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{201}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{201}{subfigure.4.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{201}{subfigure.4.3}
-\contentsline {figure}{\numberline {B.5}{\ignorespaces General photo of the complete ultrapure water system.\relax }}{202}{figure.caption.140}
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Raw water, reject water and ultrapure water obtained with this system.\relax }}{202}{figure.caption.141}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Scheme of the ultrapure water system.\relax }}{201}{figure.caption.143}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Different stages of filtration of the ultrapure water system.\relax }}{202}{figure.caption.144}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gross filtering stage.}}}{202}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Fine filtering stage.}}}{202}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Super fine filtering stage.}}}{202}{subfigure.2.3}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Doble phase reverse osmosis stage and containers used to store the outlet water of the ultrapure water system.\relax }}{203}{figure.caption.145}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Doble phase reverse osmosis stage.}}}{203}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Storage containers of reject and ultrapure water.}}}{203}{subfigure.3.2}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Siemens PLC, software for remote control of ultrapure water system.\relax }}{203}{figure.caption.146}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{203}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{203}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{203}{subfigure.4.3}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces General photo of the complete ultrapure water system.\relax }}{204}{figure.caption.147}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Raw water, reject water and ultrapure water obtained with this system.\relax }}{204}{figure.caption.148}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Electronic scheme of the PCB designed to power the PMTs of Aveiro prototype and the graphical user interface developed to control it.\relax }}{206}{figure.caption.142}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Electronic scheme of the PCB}}}{206}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Graphical user interface}}}{206}{subfigure.1.2}
-\contentsline {figure}{\numberline {D.2}{\ignorespaces Simplified electronic scheme used to process and analyze the signal of TRITIUM-Aveiro 0 prototype. \relax }}{207}{figure.caption.143}
-\contentsline {figure}{\numberline {D.3}{\ignorespaces Graphical user interface used to manage the counter system. \relax }}{209}{figure.caption.144}
-\contentsline {figure}{\numberline {D.4}{\ignorespaces Two different situations of the electronic chain response. A.- Event accepted since veto has not detected it. B.- Event rejected since veto has detected it\relax }}{210}{figure.caption.145}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Event accepted by the electronic system}}}{210}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Event rejected by the electronic system}}}{210}{subfigure.4.2}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Electronic scheme of the PCB designed to power the PMTs of Aveiro prototype and the graphical user interface developed to control it.\relax }}{208}{figure.caption.149}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Electronic scheme of the PCB}}}{208}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Graphical user interface}}}{208}{subfigure.1.2}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Simplified electronic scheme used to process and analyze the signal of TRITIUM-Aveiro 0 prototype. \relax }}{209}{figure.caption.150}
+\contentsline {figure}{\numberline {D.3}{\ignorespaces Graphical user interface used to manage the counter system. \relax }}{211}{figure.caption.151}
+\contentsline {figure}{\numberline {D.4}{\ignorespaces Two different situations of the electronic chain response. A.- Event accepted since veto has not detected it. B.- Event rejected since veto has detected it\relax }}{212}{figure.caption.152}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Event accepted by the electronic system}}}{212}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Event rejected by the electronic system}}}{212}{subfigure.4.2}
 \addvspace {10\p@ }
