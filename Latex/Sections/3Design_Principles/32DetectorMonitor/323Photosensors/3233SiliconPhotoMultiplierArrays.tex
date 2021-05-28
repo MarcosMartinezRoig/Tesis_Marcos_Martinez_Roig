@@ -26,19 +26,21 @@ On top of that, these pixels need to be so small\footnote{Pixel sizes for commer
 
 Each of these pixels has a quenching resistance\footnote{The tipical valuer of this quenching resistance for commercial SiPMs is around $500~\kilo\Omega$} in series that is used to stop the current produced when this pixel has detected a particle. It is used for limit the current drawn by the diode during breakdown and reduce the reverse voltage seen by the diode to one below the breakdown voltage. After that, the voltage seen by the diode is reset to the bias voltage and this pixel is ready to detect a new particle again. In Figure \ref{fig:ChenchingResistance} (left) a diagram of these chenching resistances and APDs in a SiPM and (right) how it works is shown respectively.
 
-\begin{figure}[htbp]
+\begin{figure}
 \centering
-{
-%\subfloat[PDE]
-\includegraphics[scale=0.35]{3DesignPrinciples/32Tritium_detector/Quenching_resistence_of_a_SiPM_scheme.png}
-%\caption{Simple electronic model of a SiPM.\label{fig:ElectricModelSiPM}~\cite{DataSheetSensL}}
-}
-{
-%\subfloat[Espectro de emisión]
-\includegraphics[scale=0.35]{3DesignPrinciples/32Tritium_detector/How_a_quenching_resistence_in_a_SiPM_works.png}
-%\caption{Output current of a SiPM as a function of the reverse voltage. It show that the quenching mechanism is essential for working with SiPMs\label{fig:HowSiPMworks}~\cite{DataSheetSensL}}
-}
-\caption{(Left) Electronic scheme of a SiPM and (right) output current of a SiPM as a function of the reverse voltage. It show that the quenching mechanism is essential for working with SiPMs\label{fig:ChenchingResistance}~\cite{DataSheetSensL}}
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/Quenching_resistence_of_a_SiPM_scheme.png}  
+    \caption{Photon Detection Efficiency, PDE.\label{subfig:ElectricModelSiPM}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/How_a_quenching_resistence_in_a_SiPM_works.png}  
+    \caption{Output current of a SiPM.\label{subfig:HowSiPMworks}}
+    \end{subfigure}
+ \caption{(Left) Electronic scheme of a SiPM and (right) output current of a SiPM as a function of the reverse voltage. It show that the quenching mechanism is essential for working with SiPMs~\cite{DataSheetSensL}.}
+ \label{fig:ChenchingResistance}
 \end{figure}
 
 In this simple electrical scheme we can see that all pixels have a common cathode and anode which means that, as we said before, they are at the same bias voltage and the output is the sum of all of them.

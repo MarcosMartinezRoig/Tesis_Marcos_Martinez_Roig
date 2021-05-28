@@ -21,19 +21,25 @@ To determine the energy of the events, the internal gain of the PMT has to be re
 
 The number of PMTs used are one, two or four, depending on the measurement. A simplified scheme of the electronic chain employed in each case is shown in Figures \ref{subfig:ElectronicConfiguraiton1PMT}, \ref{subfig:ElectronicConfiguraiton2PMT} and \ref{subfig:ElectronicConfiguraiton4PMT}, based on various NIM technology modules\footnote{The Nuclear Instrumentation Module (NIM) is a standard specification convention for electrical and mechanical parameters defined in electronic modules used in experimental nuclear and particle physics.}.
 
-\begin{figure}[htbp]
- \centering
- \subfloat[Electronic scheme employed when only one PMTs are used in time coincidence.]{
-   \label{subfig:ElectronicConfiguraiton1PMT}
-    \includegraphics[width=1.0\textwidth]{3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_PMT.png}}
-    \newline  
-  \subfloat[Electronic scheme employed when two PMTs are used in time coincidence.]{
-   \label{subfig:ElectronicConfiguraiton2PMT}
-    \includegraphics[width=1.0\textwidth]{3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_PMTs.png}}
-    \newline
-  \subfloat[Electronic scheme employed when four PMTs are used in time coincidence.]{
-   \label{subfig:ElectronicConfiguraiton4PMT}
-    \includegraphics[width=1.0\textwidth]{3DesignPrinciples/32Tritium_detector/Electronical_Scheme_4_PMTs.png}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{1.0\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_PMT.png}  
+    \caption{Electronic scheme employed when only one PMTs are used in time coincidence.\label{subfig:ElectronicConfiguraiton1PMT}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{1.0\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_PMTs.png}  
+    \caption{Electronic scheme employed when two PMTs are used in time coincidence.\label{subfig:ElectronicConfiguraiton2PMT}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{1.0\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/Electronical_Scheme_4_PMTs.png}  
+    \caption{Electronic scheme employed when four PMTs are used in time coincidence.\label{subfig:ElectronicConfiguraiton4PMT}}
+    \end{subfigure}
  \caption{Schemes of the different electronic for measuring with PMTs.}
  \label{fig:ElectronicConfiguraitonsPMT}
 \end{figure}
@@ -83,21 +89,31 @@ Some examples are shown in Figure \ref{fig:DifferentCoincidences} for time coinc
 
 \item{} In Figure \ref{subfig:signalInAllPMTsBothDetector} the four signals are detected, which means that the output signal is generated and the event is recorded.
 
-\begin{figure}[h]
- \centering
-  \subfloat[Event detected in only one PMT.]{
-   \label{subfig:signalInOnePMT}
-    \includegraphics[width=0.5\textwidth]{3DesignPrinciples/32Tritium_detector/1_coincidences.png}}
-  \subfloat[Event detected in two PMTs, one detector.]{
-   \label{subfig:signalInTwoPMTOneDetector}
-    \includegraphics[width=0.5\textwidth]{3DesignPrinciples/32Tritium_detector/2_coincidences_1.png}}
-   \newline
-  \subfloat[Event detected in two PMTs, other detector.]{
-   \label{subfig:signalInTwoPMTOtherDetector}
-    \includegraphics[width=0.5\textwidth]{3DesignPrinciples/32Tritium_detector/2_coincidences_2.png}}
-    \subfloat[Event detected in all PMTs, both detector.]{
-   \label{subfig:signalInAllPMTsBothDetector}
-    \includegraphics[width=0.5\textwidth]{3DesignPrinciples/32Tritium_detector/4_coincidences.png}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/1_coincidences.png}  
+    \caption{Event detected in only one PMT, one detector.\label{subfig:signalInOnePMT}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/2_coincidences_1.png}  
+    \caption{Event detected in two PMTs, one detector.\label{subfig:signalInTwoPMTOneDetector}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/2_coincidences_2.png}  
+    \caption{Event detected in two PMTs, other detector.\label{subfig:signalInTwoPMTOtherDetector}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/4_coincidences.png}  
+    \caption{Event detected in all PMTs, both detector.\label{subfig:signalInAllPMTsBothDetector}}
+    \end{subfigure}
  \caption{Different situation that can happen when time coincidences with PMTs are done.}
  \label{fig:DifferentCoincidences}
 \end{figure}

@@ -54,19 +54,24 @@ As our knowledge about radioactivity and our measurement techniques advanced, th
 For this task, the CSN has created a number of networks consisting of several detectors of radioactivity that are in charge of controlling the levels of radioactivity in the environment and checking the impact of radioactivity facilities to it. Two of the most important networks are the network of automatic stations and network of sampling stations:
 
 \begin{enumerate}
-\item{} On the one hand, the network of automatic stations \cite{REA}, REA for its acronym in Spanish, shown in Figure \ref{fig:REA}, which consists of several gamma detectors\footnote{Detectors that only measure gamma radioactivity} distributed in Spain that measure the radioactive dose in real time. The REA is used for the immediate detection of radiological problems and the application of quick response.
+\item{} On the one hand, the network of automatic stations \cite{REA}, REA for its acronym in Spanish, shown in Figure \ref{subfig:REA}, which consists of several gamma detectors\footnote{Detectors that only measure gamma radioactivity} distributed in Spain that measure the radioactive dose in real time. The REA is used for the immediate detection of radiological problems and the application of quick response.
 
-\item{} On the other hand, the network of sampling stations \cite{REM}, REM for its acronym in Spanish, shown in Figure \ref{fig:REM}, which consists of several interesting points in Spain where samples are taken and transported to a laboratory to be measured. About twenty Spanish laboratories are integrated into this network, the objective of which is to characterize the concentration and evolution of various radioisotopes present in the radioactive background of Spain and to quantify the impact of radioactive facilities on the environment.
+\item{} On the other hand, the network of sampling stations \cite{REM}, REM for its acronym in Spanish, shown in Figure \ref{subfig:REM}, which consists of several interesting points in Spain where samples are taken and transported to a laboratory to be measured. About twenty Spanish laboratories are integrated into this network, the objective of which is to characterize the concentration and evolution of various radioisotopes present in the radioactive background of Spain and to quantify the impact of radioactive facilities on the environment.
 \end{enumerate}
 
-\begin{figure}[hbtp]
- \centering
-  \subfloat[Measured points of the REA \cite{REA}. The white box is the daily average of the gamma dose and the green box is the monthly average of the gamma dose.]{
-   \label{fig:REA}
-    \includegraphics[width=0.45\textwidth]{2Introduction/REA.png}}
-  \subfloat[Measured points of the REM \cite{REM}. Blue dots are located around nuclear facilities. Green dots are uniformly distributed in Spain.]{
-   \label{fig:REM}
-    \includegraphics[width=0.45\textwidth]{2Introduction/REM.png}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{2Introduction/REA.png}  
+        \caption{Measured points of the REA \cite{REA}. The white box is the daily average of the gamma dose and the green box is the monthly average of the gamma dose.}\label{subfig:REA}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{2Introduction/REM.png}  
+    \caption{Measured points of the REM \cite{REM}. Blue dots are located around nuclear facilities. Green dots are uniformly distributed in Spain.\label{subfig:REM}}
+    \end{subfigure}
  \caption{Networks of automatic and sampling stations managed by the spanish CSN.}
  \label{fig:NetworksCSN}
 \end{figure}

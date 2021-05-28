@@ -31,21 +31,31 @@ The input signals are the supply voltage of the SiPMs and the supply voltage of 
 
 \end{enumerate}
 
-\begin{figure}[htbp]
- \centering
-  \subfloat[PCB 1 used to arrang 8 SiPMs and black box.]{
-   \label{subfig:PCB1}
-    \includegraphics[angle=90,width=0.5\textwidth]{3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg}}
-  \subfloat[PCB 2 used to sum and amplify the output signals of SiPMs]{
-   \label{subfig:PCB2}
-    \includegraphics[width=0.45\textwidth]{3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png}}
-   \newline
-  \subfloat[PCB 3 used to rearrange the different singals of the system.]{
-   \label{subfig:PCB3}
-    \includegraphics[width=0.4\textwidth]{3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png}}
-  \subfloat[Emission spectrum of the LED.]{
-   \label{subfig:LEDSpectrum}
-    \includegraphics[width=0.6\textwidth]{3DesignPrinciples/32Tritium_detector/LED_DUNE.pdf}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.5\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg}  
+    \caption{PCB 1 used to arrang 8 SiPMs and black box.\label{subfig:PCB1}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png}  
+    \caption{PCB 2 used to sum and amplify the output signals of SiPMs.\label{subfig:PCB2}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.4\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png}  
+    \caption{PCB 3 used to rearrange the different singals of the system.\label{subfig:PCB3}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.5\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/LED_DUNE.pdf}  
+    \caption{Emission spectrum of the LED.\label{subfig:LEDSpectrum}}
+    \end{subfigure}
  \caption{Three PCBs used for the SiPM characterization and LED emission spectrum.}
  \label{fig:PCBs_LEDSpectrum}
 \end{figure}
