@@ -11,12 +11,10 @@ To know the amount of photons that have reached the photocathode, the PMT should
 \end{figure}
 
 This PCB short-circuit the dynodes and reads the signal directly from the photocathode. This PCB was designed to be supplied with a positive voltage smaller than usual running voltage because It is only needed to create a voltage difference between the photocathode and the first dinode. As the signal is not multiplied, the output pulse of the photosensor is very small (currents of the order of tens of nanoamperes and a special readout system is needed. The chosen system is Keithley 6487 Picoammeter/Voltage Source \cite{DataSheetKeithley6487}, a commercial system from Keithley. This system has some useful options such as automatic baseline correction, the ability to read currents of the order of picoamperes and the possibility of carrying out mathematical operation on the signal, such as the average of N measurements with the associated statistical error, where N is programmable by the user ($N=100$ in all our studies). This is the configuration set to measure the output current of our photosensors. The number of photons that has reach the photocathode is calculated from:
-
 \begin{equation}
 Nº\gamma/\sec = \frac{\left( I_{PMT} - I_{DC} \right)}{q_e \cdot{} QE \cdot{} CE}
 \label{eq:NumPhotonsFromIntensityPMT}
 \end{equation}
-
 where $I_{PMT}$ is the output current of the PMT when it detects photons and $I_{DC}$ is the dark current. This equation takes into account the quantum efficiency of the PMT, which is close to $30\%$, and the capture efficiency in the dynodes, equal to 1. In addition, it is assumed that each detected photon only generates one electron, the charge of which is $q_e$.
 
 To determine the energy of the events, the internal gain of the PMT has to be restablished. 

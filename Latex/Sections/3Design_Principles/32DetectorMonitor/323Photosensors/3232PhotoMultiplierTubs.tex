@@ -7,7 +7,6 @@ Photoelectron multiplier tube, PMT, employed as photosensors in nuclear physics 
 \end{figure}
 
 The signal production has two phases:
-
 \begin{enumerate}
 \item{} In the photoathode photons are converted in photoelectrons through photoelectric effect. The photocathode consists of a thin layer, of the order of nanometers, deposited on the inner surface of the PMT window. The material of the photocathode is chosen to optimize the probability of producing photoelectric effect with the scintillating photons. The PMTs used in TRITIUM experiment are the model R8520-406 from Hammatsu \cite{DataSheetPMTs} and the material of their photocathode is Bialkali\footnote{The bialkali material is based on the elements $\ce{^{121}_{51}Sb}$, $\ce{^{85}_{37}Rb}$ and $\ce{^{132}_{55}Cs}$}.
 
@@ -32,12 +31,10 @@ The maximum values of the PMT quantum efficiency is usually between $20\%$ and $
 %The electronic circuit that can be supplied with negative voltage is faster due to the ausence of the capacitances C4 and C5, but the other circuit, supplied with positive voltage, can be interesting for other tasks like the measurement of PMT currents. We will use both, depends on the objective of the study.
 
 Focusing electrodes guide the photoelectrons to the first dinode. They have an collection efficiency (CE) defined as the ratio of the number of photoelectrons reaching the first dinode and the number of photoelectrons leaving the photocathode and its value is around $80\%$. The dynodes achieve the electron multiplication. A voltage difference between adjacent dynodes accelerates the electrons and produce their multiplication. The multiplication factor of each dynode, $\delta$, is commonly around 5 and is strongly dependent on the HV. If all dynodes have the same gain, the overall gain of a PMT with N dynodes is \cite{Knoll}:
-
 \begin{equation}
 G = CE\cdot{} \delta^N
 \label{eq:PMTGain}
 \end{equation}
-
 that give an overall gain of a PMT of the order of $10^6$, strongly dependent on the applied HV.
 
 The multiplication stage adds an uncertainty in the measurement. Working without gain allows to count the number of photons that reach the PMT. This can be done by short-circuiting all the dynodes and the anode and collecting the signal directly of the photocatode. This special setup was used for fiber characterization, described in section \ref{subsec:CharacterizationFibers}.
