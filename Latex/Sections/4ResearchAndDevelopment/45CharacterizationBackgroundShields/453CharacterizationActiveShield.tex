@@ -47,19 +47,22 @@ Point & Veto 1 (counts/s) & Veto 2 (counts/s)\\
 \end{center}
 \end{table}
 
-\begin{figure}[]
- \centering
-  \subfloat[Mapping of the first TRITIUM cosmic detector.]{
-   \label{subfig:MappingVeto1}
-    \includegraphics[width=0.9\textwidth]{4ResearchAndDevelopments/43CosmicVetos/MappingVeto1.png}}
-    \newline
-  \subfloat[Mapping of the second TRITIUM cosmic detector.]{
-   \label{subfig:MappingVeto2}
-    \includegraphics[width=0.9\textwidth]{4ResearchAndDevelopments/43CosmicVetos/MappingVeto2.png}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.9\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{4ResearchAndDevelopments/43CosmicVetos/MappingVeto1.png}  
+    \caption{Mapping of the first TRITIUM cosmic detector.\label{subfig:MappingVeto1}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.9\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{4ResearchAndDevelopments/43CosmicVetos/MappingVeto2.png}  
+    \caption{Mapping of the second TRITIUM cosmic detector.\label{subfig:MappingVeto2}}
+    \end{subfigure}
  \caption{Bidimensional graph of the count rate (Mapping) measured with two different TRITIUM cosmic detectors using a radioactive source of  $\ce{^{60}Co}$.}
  \label{fig:MappingVetos}
 \end{figure}
-
 %EXPLICAR QUE LA PRIMERA Y ULTIMA FILA DEL PLOT BIDIMENSIONAL ES PARA PONER EL PMT.
 It can be observed that the veto signal has a uniform behavior on its surface, obtaining a fairly similar counting rate in all the points considered in this study.
 
@@ -73,15 +76,19 @@ To find both parameters, two different studies were carried out, in which the nu
 
 To find the optimized conditions the amplification line of the configuration of the electronic chain \ref{subfig:ElectronicConfiguraiton4PMT} was eliminated and the output signal of the coincidence module, second stage, was connected to a CAEN Quad Scaler And Preset Counter-Timer module, N. 1145, \cite{ScalerDataSheet}, used to count the number of events in a time window of $300~\second$.
 
-\begin{figure}[]
- \centering
-  \subfloat[Counts per second for several high voltage at three different thresholds.]{
-   \label{subfig:HVPLateauVetos}
-    \includegraphics[width=0.8\textwidth]{4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_HV_VETOS.pdf}}
-    \newline
-  \subfloat[Counts per second for several thresholds at three different high voltage.]{
-   \label{subfig:ThresholdsPlateau}
-    \includegraphics[width=0.8\textwidth]{4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_thresholds_VETOS.pdf}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.8\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_HV_VETOS.pdf}  
+    \caption{Counts per second for several high voltage at three different thresholds.\label{subfig:HVPLateauVetos}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.8\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_thresholds_VETOS.pdf}  
+    \caption{Counts per second for several thresholds at three different high voltage.\label{subfig:ThresholdsPlateau}}
+    \end{subfigure}
  \caption{Counts per second at several high voltage and fixed thresholds and several thresholds and fixed high voltage.}
  \label{fig:HVandThresholdsPLateaus}
 \end{figure}
@@ -119,20 +126,22 @@ The detected cosmic events was calculated by the area integral and they are repr
 %\end{figure}
 
 
-\begin{figure}[htbp]
- \centering
-  \subfloat[Energy spectrum of the cosmic veto for several distance.]{
-   \label{subfig:EnergySpectrumsSeveralDistanceVeto}
-    \includegraphics[width=0.85\textwidth]{4ResearchAndDevelopments/43CosmicVetos/Energy_Plots_SeveralDistance_Veto.pdf}}
-    \newline
-  \subfloat[Linear fit of counts per second measured with the cosmic veto for several distance.]{
-   \label{subfig:LinearFitSeveralDistanceVeto}
-    \includegraphics[width=0.85\textwidth]{4ResearchAndDevelopments/43CosmicVetos/LinearFit_SeveralDistance_Veto.pdf}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.85\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{4ResearchAndDevelopments/43CosmicVetos/Energy_Plots_SeveralDistance_Veto.pdf}  
+    \caption{Energy spectrum of the cosmic veto for several distance.\label{subfig:EnergySpectrumsSeveralDistanceVeto}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.85\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{4ResearchAndDevelopments/43CosmicVetos/LinearFit_SeveralDistance_Veto.pdf}  
+    \caption{Linear fit of counts per second measured with the cosmic veto for several distance.\label{subfig:LinearFitSeveralDistanceVeto}}
+    \end{subfigure}
  \caption{Measurement of the cosmic veto for several distances between its cosmic detectors.}
  \label{fig:DistanceVeto}
 \end{figure}
-
-
 %También se realizaron varias medias para ver como afecta una fuente gama. Discutir con Pepe como plantear esta medida o si merece la pena ponerla o no.
 
 %Como es de esperar esta deja muy poca señal en el centelleador ya que este tiene muy poca eficiencia para gammas.

@@ -18,21 +18,25 @@ The distribution of the number of photons detected by the PMTs per tritium event
 \caption{Photons detected by both PMTs per tritium event in the simulated TRITIUM-IFIC 2 prototype.\label{fig:SimulatedPhotonsDetected}}
 \end{figure}
 
-A maximum of $17$ photons is obtained for the TRITIUM-IFIC 2 prototype simulations, which are in agreement with the maximum of $15$ photons experimentaly measured by this prototype, displayed in Figure \ref{}. This confirms that the value used in the simulations for the Birks coefficient, $k_B=0.136~\mm/\MeV$, is adequate. The experimentally obtained distribution are a bit small between $3$ and $8$ photons, probably due to imperfections of the prototype which are impossible to simulate.
+A maximum of $17$ photons is obtained for the TRITIUM-IFIC 2 prototype simulations, which are in agreement with the maximum of $15$ photons experimentaly measured by this prototype, displayed in Figure \ref{subfig:TritiumSignalTRITIUMIFIC2}. This confirms that the value used in the simulations for the Birks coefficient, $k_B=0.136~\mm/\MeV$, is adequate. The experimentally obtained distribution are a bit small between $3$ and $8$ photons, probably due to imperfections of the prototype which are impossible to simulate.
 
 Various activities were simulated from $100~\becquerel/\liter$ to $50~\kilo\becquerel/\liter$ for three months of simulated data taking and an integration counting time of $10~\min$ was used.
 
 The measurements obtianed are presented in Figure \ref{subfig:RawData1Det10Min250BqL} as a function of time, which are histogramed in Figure \ref{subfig:Dist1Det10Min250BqL}. In this figure a zoom is applied from $100~\becquerel/\liter$ to $5~\kilo\becquerel/\liter$ (interesting range) for better visualization.
 
-\begin{figure}[h]
- \centering
-  \subfloat[Counts as a function of the time.]{
-   \label{subfig:RawData1Det10Min250BqL}
-    \includegraphics[width=0.5\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/RawData_1Det_10min_250BqL.pdf}}
-   %\newline
-  \subfloat[Distribution.]{
-   \label{subfig:Dist1Det10Min250BqL}
-    \includegraphics[width=0.5\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_10min_250BqL_and_Gaus.pdf}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/RawData_1Det_10min_250BqL.pdf}  
+    \caption{Counts as a function of the time.\label{subfig:RawData1Det10Min250BqL}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_10min_250BqL_and_Gaus.pdf}  
+    \caption{Distribution.\label{subfig:Dist1Det10Min250BqL}}
+    \end{subfigure}
  \caption{Tritium counts detected with a simulated TRITIUM-IFIC 2 prototype using a integration counting time of $10~\min$ a) as a function of the time b) distribution of them.}
  \label{fig:1Det10Min250BqL}
 \end{figure}
@@ -41,38 +45,50 @@ Difference of $250~\becquerel/\liter$ is not distinguished due to the overlappin
 
 To check the effect due to an increasement of the integration counting time similar distributions are obtained for three increasing integration counting times ($10~\min$, $30~\min$ and $60~\min$), which are shown in Figure \ref{fig:1Det250BqLseveralTimes}. 
 
-\begin{figure}[h]
- \centering
-  \subfloat[Integration counting time of $10~\min$.]{
-   \label{subfig:1Det10min250BqLST}
-    \includegraphics[width=0.5\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_10min_250BqL.pdf}}
-   %\newline
-  \subfloat[Integration counting time of $30~\min$.]{
-   \label{subfig:1Det30min250BqLST}
-    \includegraphics[width=0.5\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_30min_250BqL.pdf}}
-   \newline
-  \subfloat[Integration counting time of $60~\min$.]{
-   \label{subfig:1Det60min250BqLST}
-    \includegraphics[width=0.5\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_60min_250BqL.pdf}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_10min_250BqL.pdf}  
+    \caption{Integration counting time of $10~\min$.\label{subfig:1Det10min250BqLST}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_30min_250BqL.pdf}  
+    \caption{Integration counting time of $30~\min$.\label{subfig:1Det30min250BqLST}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_60min_250BqL.pdf}  
+    \caption{Integration counting time of $60~\min$.\label{subfig:1Det60min250BqLST}}
+    \end{subfigure}
  \caption{The distribution of the tritium counts detected with a simulated TRITIUM-IFIC 2 prototype for three different integration counting time, a)$10~\min$ b) $30~\min$ and c) $60~\min$.}
  \label{fig:1Det250BqLseveralTimes}
 \end{figure}
 
 The effect of increasing the integration counting time is clearly visible in this figure, reducing the relative distribution width and improving the activity resolution of the TRITIUM monitor. Difference as low as $250~\becquerel/\liter$ are clearly distiguised using only one detector and an integration counting time of $60~\min$, which we can still consider a quasi-real time measurement. Similarly, this distributions are shown in Figure \ref{fig:SeveralDet250BqL10min} for $10~\min$ of integration counting time, in which three increasing number of prototypes were read in parallel (1, 5 and 10).
 
-\begin{figure}[h]
- \centering
-  \subfloat[One TRITIUM-IFIC 2 prototype.]{
-   \label{subfig:1Det10min250BqLSD}
-    \includegraphics[width=0.5\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_10min_250BqL.pdf}}
-   %\newline
-  \subfloat[Five TRITIUM-IFIC 2 prototypes.]{
-   \label{subfig:5Det10min250BqLSD}
-    \includegraphics[width=0.5\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_5Det_10min_250BqL.pdf}}
-   \newline
-  \subfloat[Ten TRITIUM-IFIC 2 prototypes.]{
-   \label{subfig:10Det10min250BqLSD}
-    \includegraphics[width=0.5\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_10Det_10min_250BqL.pdf}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_10min_250BqL.pdf}  
+    \caption{One TRITIUM-IFIC 2 prototype.\label{subfig:1Det10min250BqLSD}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_5Det_10min_250BqL.pdf}  
+    \caption{Five TRITIUM-IFIC 2 prototypes.\label{subfig:5Det10min250BqLSD}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_10Det_10min_250BqL.pdf}  
+    \caption{Ten TRITIUM-IFIC 2 prototypes.\label{subfig:10Det10min250BqLSD}}
+    \end{subfigure}
  \caption{The distribution of the tritium counts detected with several simulated TRITIUM-IFIC 2 prototypes a) 1, b) 5 and c) 10 for an integration counting time of $10~\min$.}
  \label{fig:SeveralDet250BqL10min}
 \end{figure}
@@ -86,15 +102,19 @@ The effect on the resolution, defined as the equation \ref{eq:Resolution}, is al
 \label{eq:Resolution}
 \end{equation}
 
-\begin{figure}[h]
- \centering
-  \subfloat[]{
-   \label{subfig:ResolutionvsIntegrationCoutingTime}
-    \includegraphics[width=0.5\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Results_Several_Times.pdf}}
-   %\newline
-  \subfloat[]{
-   \label{subfig:ResolutionvsNumberDetectors}
-    \includegraphics[width=0.5\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Results_Several_Detectors.pdf}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Results_Several_Times.pdf}  
+    \caption{\label{subfig:ResolutionvsIntegrationCoutingTime}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Results_Several_Detectors.pdf}  
+    \caption{\label{subfig:ResolutionvsNumberDetectors}}
+    \end{subfigure}
  \caption{Resolution of the TRITIUM-IFIC 2 prototype as a function of the a) integration counting time b) number of prototypes.}
  \label{fig:Resolution}
 \end{figure}

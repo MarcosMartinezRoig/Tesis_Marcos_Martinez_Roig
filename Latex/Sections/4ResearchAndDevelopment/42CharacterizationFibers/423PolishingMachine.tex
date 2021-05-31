@@ -36,22 +36,31 @@ The mobile part consists of a flat PMMA plate, whose dimensions are $18 \cdot{} 
 
 This system contains multiple switches, each mounted on a piece designed with a 3D printer, shown in Figures \ref{subfig:PolishingTable}, \ref{subfig:HorizontalAxis} and \ref{subfig:3DSwitchPiece}, which are used to find the coordinates origin when the system is reinitiated and to stop it if they reach the end of the path. 
 
-\begin{figure}[htbp]
- \centering
-  \subfloat[Polishing table.]{
-   \label{subfig:PolishingTable}
-    \includegraphics[angle=0, width=0.55\textwidth]{4ResearchAndDevelopments/41Fibers/PolishingTable.png}}
-    %\newline
-  \subfloat[Fiber with metal piece.]{
-   \label{subfig:FiberMetailcPiece}
-    \includegraphics[angle=0, width=0.3\textwidth]{4ResearchAndDevelopments/41Fibers/PieceOfFiber.png}}
-    \newline
-   \subfloat[Horizontal screws and PMMA plate.]{
-    \label{subfig:HorizontalAxis}
-     \includegraphics[angle=0, width=0.55\textwidth]{4ResearchAndDevelopments/41Fibers/HorizontalAxis2.png}}
-     \subfloat[Piece to hold switches.]{
-    \label{subfig:3DSwitchPiece}
-     \includegraphics[angle=0, width=0.4\textwidth]{4ResearchAndDevelopments/41Fibers/Switch.png}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.55\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{4ResearchAndDevelopments/41Fibers/PolishingTable.png}  
+    \caption{Polishing table.\label{subfig:PolishingTable}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{4ResearchAndDevelopments/41Fibers/PieceOfFiber.png}  
+    \caption{Fiber with metal piece.\label{subfig:FiberMetailcPiece}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.55\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{4ResearchAndDevelopments/41Fibers/HorizontalAxis2.png}  
+    \caption{Horizontal screws and PMMA plate.\label{subfig:HorizontalAxis}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.4\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{4ResearchAndDevelopments/41Fibers/Switch.png}  
+    \caption{Piece to hold switches.\label{subfig:3DSwitchPiece}}
+    \end{subfigure}
  \caption{Polishing table of the polishing machine}
  \label{fig:PolishingTable}
 \end{figure}
@@ -94,19 +103,23 @@ Two different measurements were taken using two different radioactive sources, a
 
 The energy spectrums recorded are shown in Figure \ref{fig:ResultsOfPolishingMachine} for each radioactive source, which were placed in the middle of the fiber bunch, that's, $7.5~\cm$ from each PMT.
 
-\begin{figure}[h]
- \centering
-  \subfloat[Energy spectrum recorded for the Co-60 source.]{
-   \label{subfig:EnergySpectrumCo60PolishingTest}
-    \includegraphics[width=0.76\textwidth]{4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOOM.pdf}}
-    \newline
-  \subfloat[Energy spectrum recorded for the Sr-90 source.]{
-   \label{subfig:EnergySpectrumSr90PolishingTest}
-    \includegraphics[width=0.76\textwidth]{4ResearchAndDevelopments/41Fibers/Sr_90_PolishingMchine_ZOOM.pdf}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.76\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOOM.pdf}  
+    \caption{Energy spectrum recorded for the Co-60 source.\label{subfig:EnergySpectrumCo60PolishingTest}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.76\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{4ResearchAndDevelopments/41Fibers/Sr_90_PolishingMchine_ZOOM.pdf}  
+    \caption{Energy spectrum recorded for the Sr-90 source.\label{subfig:EnergySpectrumSr90PolishingTest}}
+    \end{subfigure}
  \caption{Energy spectrums used to test the effect of the Polishing machine}
  \label{fig:ResultsOfPolishingMachine}
 \end{figure}
 
-As can be seen in these figures, both energy spectrums have shifted to the right of the spectrum, which means that the detected events have more energy (more photons per event has reached the PMTs). This increase was quantified in more than 40\% (42\% for gamma source and 49\% for beta source).
+As can be seen in these figures, both energy spectrums have shifted to the right of the spectrum, which means that the detected events have more energy (more photons per event has reached the PMTs). This increase was quantified in more than 40\% ($(42 \pm 4.6)\%$ for gamma source and $(49 \pm 8.4)\%$ for beta source).
 
 In summary, with the polishing machine, the photon collection efficiency of the fibers after their cut has been improved  (mainly for the improvement of the interface between fibers and PMTs). It is very important to achieve a high detector efficiency as the expected number of photons in a tritium event is very low.

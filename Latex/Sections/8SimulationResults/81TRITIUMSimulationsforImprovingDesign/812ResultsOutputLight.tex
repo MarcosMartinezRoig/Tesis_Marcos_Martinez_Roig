@@ -20,15 +20,19 @@ Figure \ref{fig:BirksEffectinEnergyDistribution} shows two distributions of numb
 
 As expected, a distribution with a peak of around 40 photons per tritium event and a maximum of around 150 photons is obtained when the quenching effect was not considered. A significantly reduction of the output light is observed when the Birks coefficient is taken into account, producing a distribution with a peak centred around $10~\keV$ and a maximum of $110$ photons. The quenching effect is also observable in Figure \ref{fig:2DimPlotBirks}, where the number of produced photons as a function of the energy deposited in the fiber is displayed in a bidimensional plot.
 
-\begin{figure}[h]
- \centering
-  \subfloat[Quenching effect not included.]{
-   \label{subfig:2DimPlotNoBirks}
-    \includegraphics[width=0.4\textwidth]{8SimulationsResults/81TRITIUMDesign/812Outputlight/BidimensionalPlotBirksOFF.png}}
-   %\newline
-  \subfloat[Quenching effect included.]{
-   \label{subfig:2DimPlotBirks}
-    \includegraphics[width=0.4\textwidth]{8SimulationsResults/81TRITIUMDesign/812Outputlight/BidimensionalPlotBirksON.png}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.4\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{8SimulationsResults/81TRITIUMDesign/812Outputlight/BidimensionalPlotBirksOFF.png}  
+    \caption{Quenching effect not included.\label{subfig:2DimPlotNoBirks}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.4\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{8SimulationsResults/81TRITIUMDesign/812Outputlight/BidimensionalPlotBirksON.png}  
+    \caption{Quenching effect included.\label{subfig:2DimPlotBirks}}
+    \end{subfigure}
  \caption{Number of photons produced in front of the energy deposited in the scintillating fibers when a)the birks coeficient is not considered ($k_B=0$) b) the Birks coefficient is considered ($k_B=0.126~\mm/\MeV$) \cite{SimulationPaperCarlos}.}
  \label{fig:2DimPlotBirks}
 \end{figure}

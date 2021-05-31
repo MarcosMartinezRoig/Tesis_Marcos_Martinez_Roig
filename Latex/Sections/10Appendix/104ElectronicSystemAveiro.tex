@@ -4,15 +4,19 @@ The electronic system used in TRITIUM-Aveiro 0 prototype consists of several PCB
 
 A graphical interface, shown Figure \ref{subfig:GUI}, has been developed to manage the different options of this system in a comfortable way.
 
-\begin{figure}[h]
- \centering
-  \subfloat[Electronic scheme of the PCB]{
-   \label{subfig:ElectronicSchemeHVBoard}
-    \includegraphics[angle=0, width=0.5\textwidth]{5Prototypes/53FinalPrototypes/531TritiumAveiro/TritiumHV-Board.pdf}}
-    %\newline
-  \subfloat[Graphical user interface]{
-   \label{subfig:GUI}
-    \includegraphics[angle=0, width=0.5\textwidth]{5Prototypes/53FinalPrototypes/531TritiumAveiro/GUIHVBoard.png}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{5Prototypes/53FinalPrototypes/531TritiumAveiro/TritiumHV-Board.pdf}  
+    \caption{Electronic scheme of the PCB.\label{subfig:ElectronicSchemeHVBoard}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{5Prototypes/53FinalPrototypes/531TritiumAveiro/TritiumHV-Board.pdf}  
+    \caption{Graphical user interface.\label{subfig:GUI}}
+    \end{subfigure}
  \caption{Electronic scheme of the PCB designed to power the PMTs of Aveiro prototype and the graphical user interface developed to control it.}
  \label{fig:HVElectronicAveiro}
 \end{figure}
@@ -57,18 +61,23 @@ It is important to note that, although this system has a graphical user interfac
 
 In Figure \ref{fig:ScreenshotElectronic} two screenshots are shown to demostrate two different situations of this system. There, we have four different signals. The yellow and cyan signal are input signals of the AND-Gate, which come from the PMT signals of the prototype. The pink signal is the third remaining input signal of the AND-Gate, which come from the PMT signal of the veto. The last signal, green, is the output signal of the AND-Gate.
 
-\begin{figure}[h]
- \centering
-  \subfloat[Event accepted by the electronic system]{
-   \label{subfig:TrueTritiumEvent}
-    \includegraphics[angle=0, width=0.42\textwidth]{5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_accepted_Aveiro_prototype.png}}
-    %\newline
-  \subfloat[Event rejected by the electronic system]{
-   \label{subfig:FalseTritiumEvent}
-    \includegraphics[angle=0, width=0.42\textwidth]{5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_rejected_Aveiro_prototype.png}}
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.42\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_accepted_Aveiro_prototype.png}  
+    \caption{Event accepted by the electronic system.\label{subfig:TrueTritiumEvent}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.42\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{5Prototypes/53FinalPrototypes/531TritiumAveiro/Event_rejected_Aveiro_prototype.png}  
+    \caption{Event rejected by the electronic system.\label{subfig:FalseTritiumEvent}}
+    \end{subfigure}
  \caption{Two different situations of the electronic chain response. A.- Event accepted since veto has not detected it. B.- Event rejected since veto has detected it}
  \label{fig:ScreenshotElectronic}
 \end{figure}
+
 
 As can be seen, in Figure \ref{subfig:TrueTritiumEvent} both PMTs of the prototype have detect a time coincident event, which has not been detected for the veto, so this event is counted. In Figure \ref{subfig:FalseTritiumEvent}, a time coincidence event has been observed in the three PMTs, which means that it is a cosmic event, so this event is not counted.
 \end{enumerate}
