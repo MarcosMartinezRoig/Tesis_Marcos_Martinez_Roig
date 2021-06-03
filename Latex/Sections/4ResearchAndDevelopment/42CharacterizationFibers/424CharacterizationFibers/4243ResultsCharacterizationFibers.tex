@@ -61,19 +61,19 @@ To determinate the whole uncertainty, ten different samples of each fiber type w
 
 \begin{figure}
 \centering
-    \begin{subfigure}[b]{0.6\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{4ResearchAndDevelopments/41Fibers/10_Different_samples_NoClad.pdf}  
-    \caption{Number of photons/ns reaching the PMT for uncladded fibers.\label{subfig:10samplesNC}}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.6\textwidth}
+    %\begin{subfigure}[b]{0.6\textwidth}
+    %\centering
+    %\includegraphics[width=\textwidth]{4ResearchAndDevelopments/41Fibers/10_Different_samples_NoClad.pdf}  
+    %\caption{Number of photons/ns reaching the PMT for uncladded fibers.\label{subfig:10samplesNC}}
+    %\end{subfigure}
+    %\hfill
+    \begin{subfigure}[b]{0.9\textwidth}
     \centering
     \includegraphics[width=\textwidth]{4ResearchAndDevelopments/41Fibers/10_Different_samples_SingleClad.pdf}  
     \caption{Number of photons/ns reaching the PMT for Single Clad fibers.\label{subfig:10samplesSC}}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[b]{0.6\textwidth}
+    \begin{subfigure}[b]{0.9\textwidth}
     \centering
     \includegraphics[width=\textwidth]{4ResearchAndDevelopments/41Fibers/10_Different_samples_MultiClad.pdf}  
     \caption{Number of photons/ns reaching the PMT for MultiClad fibers.\label{subfig:10samplesMC}}
@@ -82,56 +82,40 @@ To determinate the whole uncertainty, ten different samples of each fiber type w
  \label{fig:10samplesThreeTypes}
 \end{figure}
 
-The average number of collected photones versus LED intensity for each type of fiber is given in Tables \ref{tab:10DifferentSamplesNoClad}, \ref{tab:10DifferentSamplesSingleClad} and \ref{tab:10DifferentSamplesMultiClad} and represented in Figure \ref{fig:AveregeThreeFiberTypes}, where they can be compared. 
+The average number of collected photones versus LED intensity and the relative standard deviation for each type of fiber is given in Tables \ref{tab:10DifferentSamples} and \ref{tab:RelativeStandardDeviation3FiberTypes} respectively and represented in Figure \ref{fig:AveregeThreeFiberTypes}, where they can be compared. 
 
-\begin{table}[htbp]
+\begin{table}[h]
 %%\centering
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|}
 \hline
-Led Int. (mA) & Average ($\gamma$/ns) & Std. Des. ($\gamma$/ns) & Rel. Std. Des. (\%)\\
+Led Int. (mA) & Uncladded & Single Clad & MultiClad\\
 \hline \hline \hline
-$0.05$ & $243.46$ & $9.82$ & $4.03$ \\ \hline
-$0.1$ & $540.62$ & $33.51$ & $6.20$ \\ \hline
-$0.15$ & $902.74$ & $36.83$ & $4.08$ \\ \hline
-$0.2$ & $1252.62$ & $50.48$ & $4.03$ \\ \hline
+$0.05$ & $243 \pm 10$ & $384 \pm 33$ & $377 \pm 15$ \\ \hline
+$0.1$ & $541 \pm 34$ & $923 \pm 74$ & $871 \pm 35$ \\ \hline
+$0.15$ & $903 \pm 37$ & $1485 \pm 120$ & $1397 \pm 55$ \\ \hline
+$0.2$ & $1253 \pm 50$ & $2054 \pm 166$ & $1933 \pm 76$ \\ \hline
 \end{tabular}
-\caption{Number of the collected photons versus LED intensity for 10 different samples of uncladded fibers.}
-\label{tab:10DifferentSamplesNoClad}
+\caption{Number of the collected photons versus LED intensity for the different type of fibers.}
+\label{tab:10DifferentSamples}
 \end{center}
 \end{table}
 
-\begin{table}[htbp]
+\begin{table}[h]
 %%\centering
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|}
 \hline
-Led Int. (mA) & Average ($\gamma$/ns) & Std. Des. ($\gamma$/ns) & Rel. Std. Des. (\%)\\
+Led Int. (mA) & Uncladded & Single Clad & MultiClad \\
 \hline \hline \hline
-$0.05$ & $383.81$ & $33.23$ & $8.66$ \\ \hline
-$0.1$ & $922.68$ & $73.97$ & $8.02$ \\ \hline
-$0.15$ & $1485.10$ & $119.90$ & $8.07$ \\ \hline
-$0.2$ & $2053.78$ & $166.39$ & $8.10$ \\ \hline
+$0.05$ & $4.03$ & $8.66$ & $3.97$ \\ \hline
+$0.1$ & $6.20$ & $8.02$ & $3.97$ \\ \hline
+$0.15$ & $4.08$ & $8.07$ & $3.95$ \\ \hline
+$0.2$ & $4.03$ & $8.10$ & $3.93$ \\ \hline
+Mean & $4.05$ & $8.21$ & $3.96$ \\ \hline
 \end{tabular}
-\caption{Number of the collected photons versus LED intensity for 10 different samples of single clad fibers.}
-\label{tab:10DifferentSamplesSingleClad}
-\end{center}
-\end{table}
-
-\begin{table}[htbp]
-%%\centering
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-Led Int. (mA) & Average ($\gamma$/ns) & Std. Des. ($\gamma$/ns) & Rel. Std. Des. (\%)\\
-\hline \hline \hline
-$0.05$ & $376.68$ & $14.96$ & $3.97$ \\ \hline
-$0.1$ & $870.87$ & $34.58$ & $3.97$ \\ \hline
-$0.15$ & $1396.60$ & $55.24$ & $3.95$ \\ \hline
-$0.2$ & $1932.57$ & $76.02$ & $3.93$ \\ \hline
-\end{tabular}
-\caption{Number of the collected photons versus LED intensity for 10 different samples of multi clad fibers.}
-\label{tab:10DifferentSamplesMultiClad}
+\caption{Relative standard deviation versus LED intensity for the different fiber types.}
+\label{tab:RelativeStandardDeviation3FiberTypes}
 \end{center}
 \end{table}
 
@@ -141,7 +125,7 @@ $0.2$ & $1932.57$ & $76.02$ & $3.93$ \\ \hline
 \caption{Average of 10 samples for each fiber type (uncladded, single clad and multiclad fibers).\label{fig:AveregeThreeFiberTypes}}
 \end{figure}
 
-As it can be noticed in Figures \ref{fig:10samplesNC} and \ref{fig:10samplesThreeTypes} the fiber response is quite linear and that single clad and multiclad fibers have stronger signals that uncladded fibers, which means that the clad has a significant effect on the fiber collection efficiency. Also, it was found that single-clad fibers have higher collection efficiency than multiclad fibers. It can also remarked in Table \ref{} that the relative standard deviation, $\sigma^{rel}_{pos}$, does not vary with the LED intensity.
+As it can be noticed in Figures \ref{fig:10samplesNC} and \ref{fig:10samplesThreeTypes} the fiber response is quite linear and that single clad and multiclad fibers have stronger signals that uncladded fibers, which means that the clad has a significant effect on the fiber collection efficiency. Also, it was found that single-clad fibers have higher collection efficiency than multiclad fibers. It can also remarked in Table \ref{tab:RelativeStandardDeviation3FiberTypes} that the relative standard deviation, $\sigma^{rel}_{pos}$, does not vary with the LED intensity.
 
 %The relative standard deviation are also presented in these tables, where we it can be seen that the dispersion of each fiber type for different LED intensities is practically negligible, which again verifies the correct behavior of the system. 
 
@@ -155,7 +139,7 @@ An average of the uncertainty due to the fiber position and the conditioning pro
 \begin{tabular}{|c|c|c|c|}
 \hline
 Fiber type & $\sigma_t$ (\%) & $\sigma_{pos}$ (\%) & $\sigma_{con}$ (\%)\\\hline \hline \hline
-Uncladded & $4.01$ & $3.37$ & $2.17$ \\ \hline
+Uncladded & $4.05$ & $3.37$ & $2.25$ \\ \hline
 Single Clad & $8.21$ & $2.17$ & $7.92$ \\ \hline
 Multiclad & $3.96$ & $1.04$ & $3.82$ \\ \hline
 \end{tabular}
@@ -179,10 +163,10 @@ To measure the collection efficiency, $CE_{100}$, ten different samples $10~\cm$
 \hline
 Led Int. (mA) & Uncladded ($\gamma$/ns) & Single clad ($\gamma$/ns) & MultiClad ($\gamma$/ns) \\
 \hline \hline \hline
-$0.05$ & $318.35 \pm 61.34$ & $549.62 \pm 70.79$ & $480.35 \pm 83.72$ \\ \hline
-$0.1$ & $735.65 \pm 143.02$ & $1269.91 \pm 164.32$ & $1110.66 \pm 193.44$ \\ \hline
-$0.15$ & $1183.91 \pm 232.07$ & $1983.93 \pm 230.97$ & $1777.40\pm 307.19$ \\ \hline
-$0.2$ & $1645.18 \pm 323.76$ & $2506.97 \pm 208.01$ & $2338.43 \pm 350.24$ \\ \hline
+$0.05$ & $318 \pm 61$ & $550 \pm 71$ & $480 \pm 84$ \\ \hline
+$0.1$ & $736 \pm 143$ & $1270 \pm 164$ & $1111 \pm 193$ \\ \hline
+$0.15$ & $1184 \pm 232$ & $1984 \pm 231$ & $1777\pm 307$ \\ \hline
+$0.2$ & $1645 \pm 324$ & $2507 \pm 208$ & $2338 \pm 350$ \\ \hline
 \end{tabular}
 \caption{Number of the collected photons versus LED intesntity for 10 different fibers of $10~\cm$ length.}
 \label{tab:10DifferentSamplesAlltypes}
@@ -202,9 +186,9 @@ The collection efficiency in $10~\cm$ fiber length, $CE_{10}$, was calculated by
 \begin{tabular}{|c|c|c|}
 \hline
 Fiber type & $CE_{10}$ (\%) & $CE_{100}$ (\%) \\\hline \hline \hline
-UnCladded & $75.97 \pm 7.61$ & $7.597 \pm 0.761$ \\ \hline
-Single Clad & $77.96 \pm 5.66$ & $7.796 \pm 0.566$ \\ \hline
-Multiclad & $82.60 \pm 7.24$ & $8.260 \pm 0.724$ \\ \hline
+UnCladded & $76 \pm 8$ & $7.6 \pm 0.8$ \\ \hline
+Single Clad & $78 \pm 6$ & $7.8 \pm 0.6$ \\ \hline
+Multiclad & $83 \pm 7$ & $8.3 \pm 0.7$ \\ \hline
 \end{tabular}
 \caption{Collection efficiencies $CE_{10}$ and $CE_{100}$.}
 \label{tab:CollectionEfficiencyOfFibers}
