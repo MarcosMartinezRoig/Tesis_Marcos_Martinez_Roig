@@ -1,52 +1,199 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Tesis_Marcos_Martinez_Roig_v3.aux
-I couldn't open style file unsrthep.bst
----line 19 of file Tesis_Marcos_Martinez_Roig_v3.aux
- : \bibstyle{unsrthep
- :                   }
-I'm skipping whatever remains of this command
-I found no \bibdata command---while reading file Tesis_Marcos_Martinez_Roig_v3.aux
-I found no style file---while reading file Tesis_Marcos_Martinez_Roig_v3.aux
-You've used 135 entries,
-            0 wiz_defined-function locations,
-            354 strings with 4316 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
+The style file: tesis.bst
+Database file #1: sample.bib
+Warning--I didn't find a database entry for "IAEA"
+Warning--I didn't find a database entry for "REM"
+Warning--I didn't find a database entry for "TritiumEspectrum"
+Warning--I didn't find a database entry for "Knoll"
+Warning--I didn't find a database entry for "Leo"
+Warning--I didn't find a database entry for "DataSheetBCF12Fiber"
+Warning--I didn't find a database entry for "DataSheetPMTs"
+Warning--I didn't find a database entry for "OSI"
+Warning--I didn't find a database entry for "DataSheetSensL"
+Warning--I didn't find a database entry for "PETSYS"
+Warning--I didn't find a database entry for "HardCosmicMuonRatePlot"
+Warning--I didn't find a database entry for "ScintillatorVeto"
+Warning--I didn't find a database entry for "WettingProperty"
+Warning--I didn't find a database entry for "ExperimentalPaperCarlos"
+Warning--I didn't find a database entry for "SimulationPaperCarlos"
+Warning--I didn't find a database entry for "UNSCEAR"
+Warning--I didn't find a database entry for "CSN"
+Warning--I didn't find a database entry for "CommonEmissionTritium"
+Warning--I didn't find a database entry for "MeanFreePathDocument"
+Warning--I didn't find a database entry for "DataSheetHammamatsu_1_SiPM_75"
+Warning--I didn't find a database entry for "NaturalRadioactiveSeries1"
+Warning--I didn't find a database entry for "NaturalRadioactiveSeries2"
+Warning--I didn't find a database entry for "ICRU"
+Warning--I didn't find a database entry for "ICRP"
+Warning--I didn't find a database entry for "ISR"
+Warning--I didn't find a database entry for "UN"
+Warning--I didn't find a database entry for "REA"
+Warning--I didn't find a database entry for "100BqL"
+Warning--I didn't find a database entry for "FiberDetector1a"
+Warning--I didn't find a database entry for "FiberDetector1b"
+Warning--I didn't find a database entry for "CrossSeccionNeutrons"
+Warning--I didn't find a database entry for "PercentageEnergySpain"
+Warning--I didn't find a database entry for "60ReactorsChina"
+Warning--I didn't find a database entry for "35MillionsUSA"
+Warning--I didn't find a database entry for "ThreeMileIsland"
+Warning--I didn't find a database entry for "EIAOutlook"
+Warning--I didn't find a database entry for "FERMILAB"
+Warning--I didn't find a database entry for "BrookHavenNationalLaboratory"
+Warning--I didn't find a database entry for "TrackingTritium"
+Warning--I didn't find a database entry for "TritiumDiscovery"
+Warning--I didn't find a database entry for "TritiumIsolate"
+Warning--I didn't find a database entry for "TritiumHandling"
+Warning--I didn't find a database entry for "OxigenTritium"
+Warning--I didn't find a database entry for "FranceTritiumEnvironment"
+Warning--I didn't find a database entry for "CrossSeccionNeutrino"
+Warning--I didn't find a database entry for "TritiumDecayEnergyLevels"
+Warning--I didn't find a database entry for "TritiumDecayImage"
+Warning--I didn't find a database entry for "EstimationTritiumDosi"
+Warning--I didn't find a database entry for "EstimationTritiumDosiRats"
+Warning--I didn't find a database entry for "EstimationTritiumDosiKangarooRats"
+Warning--I didn't find a database entry for "StraumeTritiumHazard"
+Warning--I didn't find a database entry for "RytoemaaTritiumHazard"
+Warning--I didn't find a database entry for "ICRP_GL"
+Warning--I didn't find a database entry for "WHO_GL"
+Warning--I didn't find a database entry for "ICRP_factor"
+Warning--I didn't find a database entry for "Switzerland_GL"
+Warning--I didn't find a database entry for "Ontario_GL"
+Warning--I didn't find a database entry for "Quebec_GL"
+Warning--I didn't find a database entry for "Russia_GL"
+Warning--I didn't find a database entry for "Australia_GL"
+Warning--I didn't find a database entry for "Finland_GL"
+Warning--I didn't find a database entry for "California_GL"
+Warning--I didn't find a database entry for "USEPA_GL"
+Warning--I didn't find a database entry for "France_GL"
+Warning--I didn't find a database entry for "Germany_GL"
+Warning--I didn't find a database entry for "Spain_GL"
+Warning--I didn't find a database entry for "EURATOM_GL"
+Warning--I didn't find a database entry for "LSCothers"
+Warning--I didn't find a database entry for "HofstetterSeveral"
+Warning--I didn't find a database entry for "0.6Bq_L"
+Warning--I didn't find a database entry for "OnlineLSC"
+Warning--I didn't find a database entry for "IonizationChamber1"
+Warning--I didn't find a database entry for "IonizationChamber2"
+Warning--I didn't find a database entry for "Calorimeter1"
+Warning--I didn't find a database entry for "Calorimeter2"
+Warning--I didn't find a database entry for "XRays1"
+Warning--I didn't find a database entry for "XRays2"
+Warning--I didn't find a database entry for "Bremstrahlung"
+Warning--I didn't find a database entry for "APD"
+Warning--I didn't find a database entry for "Spectrometry"
+Warning--I didn't find a database entry for "Ring"
+Warning--I didn't find a database entry for "Muramatsu"
+Warning--I didn't find a database entry for "Moghissi"
+Warning--I didn't find a database entry for "Osborne"
+Warning--I didn't find a database entry for "Ratnakaran"
+Warning--I didn't find a database entry for "Ratnakaran2000"
+Warning--I didn't find a database entry for "Hofstetter1"
+Warning--I didn't find a database entry for "Hofstetter2"
+Warning--I didn't find a database entry for "TRITIUM"
+Warning--I didn't find a database entry for "Geant4WebPage"
+Warning--I didn't find a database entry for "TFGAlberto"
+Warning--I didn't find a database entry for "Snell"
+Warning--I didn't find a database entry for "CalibrationPMTsNEXT"
+Warning--I didn't find a database entry for "DataSheetHammamatsu_1_SiPM_50"
+Warning--I didn't find a database entry for "DataSheetHammamatsu_array_SiPM_6050"
+Warning--I didn't find a database entry for "DataSheetHammamatsu_array_SiPM_3050"
+Warning--I didn't find a database entry for "DataSheetKeithley6487"
+Warning--I didn't find a database entry for "DataSheetHVSupplyTennelec"
+Warning--I didn't find a database entry for "DataSheetHVSupplyWenzel"
+Warning--I didn't find a database entry for "DataSheetFANINOUT"
+Warning--I didn't find a database entry for "DataSheetPreAmp"
+Warning--I didn't find a database entry for "DataSheet575Amp"
+Warning--I didn't find a database entry for "DataSheet671Amp"
+Warning--I didn't find a database entry for "DataSheetDiscriminator"
+Warning--I didn't find a database entry for "DataSheetDiscriminatorCAEN"
+Warning--I didn't find a database entry for "DataSheetCoincidenceLeCroy"
+Warning--I didn't find a database entry for "DataSheetCoincidenceCERN"
+Warning--I didn't find a database entry for "DataSheetGateAndDelay"
+Warning--I didn't find a database entry for "DataSheetMCA"
+Warning--I didn't find a database entry for "ThorlabsCompany"
+Warning--I didn't find a database entry for "OpticalFibers"
+Warning--I didn't find a database entry for "LEDThorlabs"
+Warning--I didn't find a database entry for "PDG"
+Warning--I didn't find a database entry for "HardCosmicMuonRate"
+Warning--I didn't find a database entry for "DiamondThorlabs"
+Warning--I didn't find a database entry for "GuillotineIFO"
+Warning--I didn't find a database entry for "AngleBlade"
+Warning--I didn't find a database entry for "TemperatureBlade"
+Warning--I didn't find a database entry for "StepperMotors"
+Warning--I didn't find a database entry for "ArduinoUNO"
+Warning--I didn't find a database entry for "CNCShield"
+Warning--I didn't find a database entry for "A4988Driver"
+Warning--I didn't find a database entry for "DRV8825Driver"
+Warning--I didn't find a database entry for "TMC2208Driver"
+Warning--I didn't find a database entry for "LEDRLT"
+Warning--I didn't find a database entry for "OpticalGrease"
+Warning--I didn't find a database entry for "BlackBlancket"
+Warning--I didn't find a database entry for "TurbiditySystem"
+Warning--I didn't find a database entry for "ScalerDataSheet"
+Warning--I didn't find a database entry for "DataSheetBCF10Fiber"
+Warning--I didn't find a database entry for "DataSheetPMTsAveiro"
+Warning--I didn't find a database entry for "Geant4P"
+Warning--I didn't find a database entry for "WaterPropertiesSimulation"
+Warning--I didn't find a database entry for "TritiumEmissionSpectrum"
+Warning--I didn't find a database entry for "NEMODataSimulation"
+Warning--I didn't find a database entry for "BirksPaper"
+Warning--I didn't find a database entry for "BirksCoefficient"
+Warning--I didn't find a database entry for "CRYwebsite"
+Warning--I didn't find a database entry for "CRYpaper"
+Warning--I didn't find a database entry for "CAENV1724"
+Warning--I didn't find a database entry for "CurieLimit"
+Warning--I didn't find a database entry for "TritiumSourceTechnicalFile"
+Warning--I didn't find a database entry for "PowerSupplyAveiroDataSheet"
+Warning--I didn't find a database entry for "MAX5500DataSheet"
+Warning--I didn't find a database entry for "VetoAveiro"
+Warning--I didn't find a database entry for "CREMATPreAmplifierDataSheet"
+Warning--I didn't find a database entry for "OPA656"
+Warning--I didn't find a database entry for "LT111"
+Warning--I didn't find a database entry for "Stretcher"
+Warning--I didn't find a database entry for "ANDGate"
+You can't pop an empty literal stack for entry latexcompanion
+while executing---line 1479 of file tesis.bst
+You've used 2 entries,
+            2997 wiz_defined-function locations,
+            933 strings with 9421 characters,
+and the built_in function-call counts, 845 in all, are:
+= -- 54
+> -- 24
+< -- 2
++ -- 9
+- -- 8
+* -- 71
+:= -- 117
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 10
+chr.to.int$ -- 2
+cite$ -- 2
+duplicate$ -- 68
+empty$ -- 79
+format.name$ -- 13
+if$ -- 163
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+missing$ -- 17
+newline$ -- 9
+num.names$ -- 4
+pop$ -- 29
+preamble$ -- 1
+purify$ -- 14
 quote$ -- 0
-skip$ -- 0
+skip$ -- 23
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
-text.prefix$ -- 0
+substring$ -- 40
+swap$ -- 39
+text.length$ -- 2
+text.prefix$ -- 2
 top$ -- 0
-type$ -- 0
+type$ -- 12
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+while$ -- 6
+width$ -- 3
+write$ -- 17
+(There was 1 error message)
