@@ -3,9 +3,35 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Tesis_Marcos_Martinez_Roig_v3.aux
 The style file: tesis.bst
 Database file #1: sample.bib
-Warning--I didn't find a database entry for "IAEA"
-Warning--I didn't find a database entry for "REM"
-Warning--I didn't find a database entry for "TritiumEspectrum"
+You're missing a field part---line 88 of file sample.bib
+ :  number  = 
+ :            ,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 103 of file sample.bib
+ :  number = 
+ :           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 252 of file sample.bib
+ : @article{TritiumDiscovery
+ :                          ,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 319 of file sample.bib
+ :  number  = 
+ :            ,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 333 of file sample.bib
+ :  number  = 
+ :            ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 394 of file sample.bib
+ :       
+ :       publisher = "International Atomic Energy Agency (IAEA)",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 414 of file sample.bib
+ :     @book{ICRP_GL
+ :                  ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Knoll"
 Warning--I didn't find a database entry for "Leo"
 Warning--I didn't find a database entry for "DataSheetBCF12Fiber"
@@ -18,46 +44,12 @@ Warning--I didn't find a database entry for "ScintillatorVeto"
 Warning--I didn't find a database entry for "WettingProperty"
 Warning--I didn't find a database entry for "ExperimentalPaperCarlos"
 Warning--I didn't find a database entry for "SimulationPaperCarlos"
-Warning--I didn't find a database entry for "UNSCEAR"
-Warning--I didn't find a database entry for "CSN"
-Warning--I didn't find a database entry for "CommonEmissionTritium"
-Warning--I didn't find a database entry for "MeanFreePathDocument"
 Warning--I didn't find a database entry for "DataSheetHammamatsu_1_SiPM_75"
 Warning--I didn't find a database entry for "NaturalRadioactiveSeries1"
 Warning--I didn't find a database entry for "NaturalRadioactiveSeries2"
-Warning--I didn't find a database entry for "ICRU"
-Warning--I didn't find a database entry for "ICRP"
-Warning--I didn't find a database entry for "ISR"
-Warning--I didn't find a database entry for "UN"
-Warning--I didn't find a database entry for "REA"
-Warning--I didn't find a database entry for "100BqL"
-Warning--I didn't find a database entry for "FiberDetector1a"
-Warning--I didn't find a database entry for "FiberDetector1b"
 Warning--I didn't find a database entry for "CrossSeccionNeutrons"
-Warning--I didn't find a database entry for "PercentageEnergySpain"
-Warning--I didn't find a database entry for "60ReactorsChina"
-Warning--I didn't find a database entry for "35MillionsUSA"
-Warning--I didn't find a database entry for "ThreeMileIsland"
-Warning--I didn't find a database entry for "EIAOutlook"
-Warning--I didn't find a database entry for "FERMILAB"
-Warning--I didn't find a database entry for "BrookHavenNationalLaboratory"
-Warning--I didn't find a database entry for "TrackingTritium"
-Warning--I didn't find a database entry for "TritiumDiscovery"
-Warning--I didn't find a database entry for "TritiumIsolate"
-Warning--I didn't find a database entry for "TritiumHandling"
 Warning--I didn't find a database entry for "OxigenTritium"
-Warning--I didn't find a database entry for "FranceTritiumEnvironment"
 Warning--I didn't find a database entry for "CrossSeccionNeutrino"
-Warning--I didn't find a database entry for "TritiumDecayEnergyLevels"
-Warning--I didn't find a database entry for "TritiumDecayImage"
-Warning--I didn't find a database entry for "EstimationTritiumDosi"
-Warning--I didn't find a database entry for "EstimationTritiumDosiRats"
-Warning--I didn't find a database entry for "EstimationTritiumDosiKangarooRats"
-Warning--I didn't find a database entry for "StraumeTritiumHazard"
-Warning--I didn't find a database entry for "RytoemaaTritiumHazard"
-Warning--I didn't find a database entry for "ICRP_GL"
-Warning--I didn't find a database entry for "WHO_GL"
-Warning--I didn't find a database entry for "ICRP_factor"
 Warning--I didn't find a database entry for "Switzerland_GL"
 Warning--I didn't find a database entry for "Ontario_GL"
 Warning--I didn't find a database entry for "Quebec_GL"
@@ -153,47 +145,69 @@ Warning--I didn't find a database entry for "OPA656"
 Warning--I didn't find a database entry for "LT111"
 Warning--I didn't find a database entry for "Stretcher"
 Warning--I didn't find a database entry for "ANDGate"
-You can't pop an empty literal stack for entry latexcompanion
+Too many commas in name 1 of "Rytoemaa, T. , Saltevo, J. and Toivonen, H." for entry RytoemaaTritiumHazard
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "Rytoemaa, T. , Saltevo, J. and Toivonen, H." for entry RytoemaaTritiumHazard
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "Rytoemaa, T. , Saltevo, J. and Toivonen, H." for entry RytoemaaTritiumHazard
+while executing---line 1426 of file tesis.bst
+Warning--empty journal in FiberDetector1b
+Warning--empty year in FiberDetector1b
+Warning--empty journal in FiberDetector1a
+Warning--empty year in FiberDetector1a
+Warning--empty journal in MeanFreePathDocument
+Warning--empty year in MeanFreePathDocument
+Warning--can't use both author and editor fields in ICRP_GL
+Warning--can't use both volume and number fields in ICRP_GL
+You can't pop an empty literal stack for entry ICRP_GL
 while executing---line 1479 of file tesis.bst
-You've used 2 entries,
+Warning--can't use both author and editor fields in ICRP_factor
+Warning--can't use both volume and number fields in ICRP_factor
+You can't pop an empty literal stack for entry ICRP_factor
+while executing---line 1479 of file tesis.bst
+Warning--empty year in EstimationTritiumDosi
+Too many commas in name 1 of "Rytoemaa, T. , Saltevo, J. and Toivonen, H." for entry RytoemaaTritiumHazard
+while executing---line 1479 of file tesis.bst
+Warning--empty year in RytoemaaTritiumHazard
+You've used 37 entries,
             2997 wiz_defined-function locations,
-            933 strings with 9421 characters,
-and the built_in function-call counts, 845 in all, are:
-= -- 54
-> -- 24
-< -- 2
-+ -- 9
-- -- 8
-* -- 71
-:= -- 117
-add.period$ -- 2
-call.type$ -- 2
-change.case$ -- 10
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 68
-empty$ -- 79
-format.name$ -- 13
-if$ -- 163
-int.to.chr$ -- 1
+            1061 strings with 13905 characters,
+and the built_in function-call counts, 12756 in all, are:
+= -- 913
+> -- 335
+< -- 40
++ -- 110
+- -- 104
+* -- 966
+:= -- 1677
+add.period$ -- 37
+call.type$ -- 37
+change.case$ -- 188
+chr.to.int$ -- 33
+cite$ -- 49
+duplicate$ -- 1130
+empty$ -- 1146
+format.name$ -- 181
+if$ -- 2510
+int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 9
-num.names$ -- 4
-pop$ -- 29
+missing$ -- 233
+newline$ -- 114
+num.names$ -- 75
+pop$ -- 480
 preamble$ -- 1
-purify$ -- 14
+purify$ -- 237
 quote$ -- 0
-skip$ -- 23
+skip$ -- 371
 stack$ -- 0
-substring$ -- 40
-swap$ -- 39
-text.length$ -- 2
-text.prefix$ -- 2
+substring$ -- 426
+swap$ -- 562
+text.length$ -- 40
+text.prefix$ -- 28
 top$ -- 0
-type$ -- 12
-warning$ -- 0
-while$ -- 6
-width$ -- 3
-write$ -- 17
-(There was 1 error message)
+type$ -- 286
+warning$ -- 12
+while$ -- 82
+width$ -- 39
+write$ -- 309
+(There were 13 error messages)
