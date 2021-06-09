@@ -11,10 +11,6 @@ You're missing a field part---line 103 of file sample.bib
  :  number = 
  :           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 252 of file sample.bib
- : @article{TritiumDiscovery
- :                          ,
-I'm skipping whatever remains of this entry
 You're missing a field part---line 319 of file sample.bib
  :  number  = 
  :            ,
@@ -32,124 +28,176 @@ Repeated entry---line 414 of file sample.bib
  :     @book{ICRP_GL
  :                  ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Knoll"
-Warning--I didn't find a database entry for "Leo"
-Warning--I didn't find a database entry for "DataSheetBCF12Fiber"
-Warning--I didn't find a database entry for "DataSheetPMTs"
-Warning--I didn't find a database entry for "OSI"
-Warning--I didn't find a database entry for "DataSheetSensL"
-Warning--I didn't find a database entry for "PETSYS"
-Warning--I didn't find a database entry for "HardCosmicMuonRatePlot"
-Warning--I didn't find a database entry for "ScintillatorVeto"
-Warning--I didn't find a database entry for "WettingProperty"
-Warning--I didn't find a database entry for "ExperimentalPaperCarlos"
-Warning--I didn't find a database entry for "SimulationPaperCarlos"
-Warning--I didn't find a database entry for "DataSheetHammamatsu_1_SiPM_75"
-Warning--I didn't find a database entry for "NaturalRadioactiveSeries1"
-Warning--I didn't find a database entry for "NaturalRadioactiveSeries2"
+You're missing a field part---line 871 of file sample.bib
+ : number = 
+ :          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 943 of file sample.bib
+ : @misc{DataSheetBCF12Fiber
+ :                          ,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 987 of file sample.bib
+ :       year         = 
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring DataSheetKeithley6487's extra "note" field
+--line 1044 of file sample.bib
+Warning--I'm ignoring DataSheetHVSupplyTennelec's extra "note" field
+--line 1054 of file sample.bib
+Warning--I'm ignoring DataSheetHVSupplyWenzel's extra "note" field
+--line 1062 of file sample.bib
+Warning--I'm ignoring DataSheetFANINOUT's extra "note" field
+--line 1072 of file sample.bib
+Warning--I'm ignoring DataSheetPreAmp's extra "note" field
+--line 1082 of file sample.bib
+Warning--I'm ignoring DataSheet575Amp's extra "note" field
+--line 1092 of file sample.bib
+Warning--I'm ignoring DataSheet671Amp's extra "note" field
+--line 1102 of file sample.bib
+Warning--I'm ignoring DataSheetDiscriminator's extra "note" field
+--line 1112 of file sample.bib
+Warning--I'm ignoring DataSheetDiscriminatorCAEN's extra "note" field
+--line 1122 of file sample.bib
+Warning--I'm ignoring DataSheetCoincidenceLeCroy's extra "note" field
+--line 1132 of file sample.bib
+Warning--I'm ignoring DataSheetCoincidenceCERN's extra "note" field
+--line 1142 of file sample.bib
+Warning--I'm ignoring DataSheetGateAndDelay's extra "note" field
+--line 1152 of file sample.bib
+Warning--I'm ignoring DataSheetMCA's extra "note" field
+--line 1162 of file sample.bib
+You're missing a field part---line 1170 of file sample.bib
+ :       year         = 
+ :                      ,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 1178 of file sample.bib
+ :       year         = 
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring OpticalFibers's extra "note" field
+--line 1188 of file sample.bib
+Warning--I'm ignoring LEDThorlabs's extra "note" field
+--line 1198 of file sample.bib
+Warning--I'm ignoring PDG's extra "note" field
+--line 1232 of file sample.bib
+Warning--I'm ignoring ScintillatorVeto's extra "note" field
+--line 1271 of file sample.bib
+Warning--I'm ignoring DiamondThorlabs's extra "note" field
+--line 1281 of file sample.bib
+You're missing a field part---line 1289 of file sample.bib
+ :       year         = 
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring StepperMotors's extra "note" field
+--line 1325 of file sample.bib
+You're missing a field part---line 1333 of file sample.bib
+ :       year         = 
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring CNCShield's extra "note" field
+--line 1343 of file sample.bib
+Warning--I'm ignoring A4988Driver's extra "note" field
+--line 1353 of file sample.bib
+Warning--I'm ignoring DRV8825Driver's extra "note" field
+--line 1363 of file sample.bib
+Warning--I'm ignoring TMC2208Driver's extra "note" field
+--line 1373 of file sample.bib
+Warning--I'm ignoring LEDRLT's extra "note" field
+--line 1383 of file sample.bib
+You're missing a field part---line 1393 of file sample.bib
+ :       year         = 
+ :                      ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1399 of file sample.bib
+ :    title  = "BK5 - Black Nylon, Polyurethane-Coated Fabric, 5'x9' (1.5m x 2.7m) x 0.005" 
+ :                                                                                          (0.12 mm) Thick",
+I'm skipping whatever remains of this entry
+You're missing a field part---line 1411 of file sample.bib
+ :       year         = 
+ :                      ,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 1419 of file sample.bib
+ :       year         = 
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring ScalerDataSheet's extra "note" field
+--line 1433 of file sample.bib
+Warning--I'm ignoring TritiumSourceTechnicalFile's extra "note" field
+--line 1443 of file sample.bib
+Warning--I'm ignoring DataSheetBCF10Fiber's extra "note" field
+--line 1453 of file sample.bib
+Warning--I'm ignoring DataSheetPMTsAveiro's extra "note" field
+--line 1463 of file sample.bib
+Warning--I'm ignoring PowerSupplyAveiroDataSheet's extra "note" field
+--line 1473 of file sample.bib
+Warning--I'm ignoring MAX5500DataSheet's extra "note" field
+--line 1483 of file sample.bib
+Warning--I'm ignoring VetoAveiro's extra "note" field
+--line 1493 of file sample.bib
+Warning--I'm ignoring CREMATPreAmplifierDataSheet's extra "note" field
+--line 1503 of file sample.bib
+Warning--I'm ignoring OPA656's extra "note" field
+--line 1513 of file sample.bib
+Warning--I'm ignoring LT111's extra "note" field
+--line 1523 of file sample.bib
+Warning--I'm ignoring Stretcher's extra "note" field
+--line 1533 of file sample.bib
+Warning--I'm ignoring ANDGate's extra "note" field
+--line 1543 of file sample.bib
+You're missing a field part---line 1570 of file sample.bib
+ :       year         = 
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring CAENV1724's extra "note" field
+--line 1661 of file sample.bib
 Warning--I didn't find a database entry for "CrossSeccionNeutrons"
-Warning--I didn't find a database entry for "OxigenTritium"
 Warning--I didn't find a database entry for "CrossSeccionNeutrino"
-Warning--I didn't find a database entry for "Switzerland_GL"
-Warning--I didn't find a database entry for "Ontario_GL"
-Warning--I didn't find a database entry for "Quebec_GL"
-Warning--I didn't find a database entry for "Russia_GL"
-Warning--I didn't find a database entry for "Australia_GL"
-Warning--I didn't find a database entry for "Finland_GL"
-Warning--I didn't find a database entry for "California_GL"
-Warning--I didn't find a database entry for "USEPA_GL"
-Warning--I didn't find a database entry for "France_GL"
-Warning--I didn't find a database entry for "Germany_GL"
-Warning--I didn't find a database entry for "Spain_GL"
-Warning--I didn't find a database entry for "EURATOM_GL"
-Warning--I didn't find a database entry for "LSCothers"
-Warning--I didn't find a database entry for "HofstetterSeveral"
-Warning--I didn't find a database entry for "0.6Bq_L"
-Warning--I didn't find a database entry for "OnlineLSC"
-Warning--I didn't find a database entry for "IonizationChamber1"
-Warning--I didn't find a database entry for "IonizationChamber2"
-Warning--I didn't find a database entry for "Calorimeter1"
-Warning--I didn't find a database entry for "Calorimeter2"
-Warning--I didn't find a database entry for "XRays1"
-Warning--I didn't find a database entry for "XRays2"
-Warning--I didn't find a database entry for "Bremstrahlung"
-Warning--I didn't find a database entry for "APD"
-Warning--I didn't find a database entry for "Spectrometry"
-Warning--I didn't find a database entry for "Ring"
-Warning--I didn't find a database entry for "Muramatsu"
-Warning--I didn't find a database entry for "Moghissi"
-Warning--I didn't find a database entry for "Osborne"
-Warning--I didn't find a database entry for "Ratnakaran"
-Warning--I didn't find a database entry for "Ratnakaran2000"
-Warning--I didn't find a database entry for "Hofstetter1"
-Warning--I didn't find a database entry for "Hofstetter2"
-Warning--I didn't find a database entry for "TRITIUM"
-Warning--I didn't find a database entry for "Geant4WebPage"
-Warning--I didn't find a database entry for "TFGAlberto"
 Warning--I didn't find a database entry for "Snell"
-Warning--I didn't find a database entry for "CalibrationPMTsNEXT"
-Warning--I didn't find a database entry for "DataSheetHammamatsu_1_SiPM_50"
-Warning--I didn't find a database entry for "DataSheetHammamatsu_array_SiPM_6050"
-Warning--I didn't find a database entry for "DataSheetHammamatsu_array_SiPM_3050"
-Warning--I didn't find a database entry for "DataSheetKeithley6487"
-Warning--I didn't find a database entry for "DataSheetHVSupplyTennelec"
-Warning--I didn't find a database entry for "DataSheetHVSupplyWenzel"
-Warning--I didn't find a database entry for "DataSheetFANINOUT"
-Warning--I didn't find a database entry for "DataSheetPreAmp"
-Warning--I didn't find a database entry for "DataSheet575Amp"
-Warning--I didn't find a database entry for "DataSheet671Amp"
-Warning--I didn't find a database entry for "DataSheetDiscriminator"
-Warning--I didn't find a database entry for "DataSheetDiscriminatorCAEN"
-Warning--I didn't find a database entry for "DataSheetCoincidenceLeCroy"
-Warning--I didn't find a database entry for "DataSheetCoincidenceCERN"
-Warning--I didn't find a database entry for "DataSheetGateAndDelay"
-Warning--I didn't find a database entry for "DataSheetMCA"
-Warning--I didn't find a database entry for "ThorlabsCompany"
-Warning--I didn't find a database entry for "OpticalFibers"
-Warning--I didn't find a database entry for "LEDThorlabs"
-Warning--I didn't find a database entry for "PDG"
-Warning--I didn't find a database entry for "HardCosmicMuonRate"
-Warning--I didn't find a database entry for "DiamondThorlabs"
-Warning--I didn't find a database entry for "GuillotineIFO"
-Warning--I didn't find a database entry for "AngleBlade"
-Warning--I didn't find a database entry for "TemperatureBlade"
-Warning--I didn't find a database entry for "StepperMotors"
-Warning--I didn't find a database entry for "ArduinoUNO"
-Warning--I didn't find a database entry for "CNCShield"
-Warning--I didn't find a database entry for "A4988Driver"
-Warning--I didn't find a database entry for "DRV8825Driver"
-Warning--I didn't find a database entry for "TMC2208Driver"
-Warning--I didn't find a database entry for "LEDRLT"
-Warning--I didn't find a database entry for "OpticalGrease"
-Warning--I didn't find a database entry for "BlackBlancket"
-Warning--I didn't find a database entry for "TurbiditySystem"
-Warning--I didn't find a database entry for "ScalerDataSheet"
-Warning--I didn't find a database entry for "DataSheetBCF10Fiber"
-Warning--I didn't find a database entry for "DataSheetPMTsAveiro"
-Warning--I didn't find a database entry for "Geant4P"
-Warning--I didn't find a database entry for "WaterPropertiesSimulation"
-Warning--I didn't find a database entry for "TritiumEmissionSpectrum"
-Warning--I didn't find a database entry for "NEMODataSimulation"
-Warning--I didn't find a database entry for "BirksPaper"
-Warning--I didn't find a database entry for "BirksCoefficient"
-Warning--I didn't find a database entry for "CRYwebsite"
-Warning--I didn't find a database entry for "CRYpaper"
-Warning--I didn't find a database entry for "CAENV1724"
-Warning--I didn't find a database entry for "CurieLimit"
-Warning--I didn't find a database entry for "TritiumSourceTechnicalFile"
-Warning--I didn't find a database entry for "PowerSupplyAveiroDataSheet"
-Warning--I didn't find a database entry for "MAX5500DataSheet"
-Warning--I didn't find a database entry for "VetoAveiro"
-Warning--I didn't find a database entry for "CREMATPreAmplifierDataSheet"
-Warning--I didn't find a database entry for "OPA656"
-Warning--I didn't find a database entry for "LT111"
-Warning--I didn't find a database entry for "Stretcher"
-Warning--I didn't find a database entry for "ANDGate"
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1426 of file tesis.bst
 Too many commas in name 1 of "Rytoemaa, T. , Saltevo, J. and Toivonen, H." for entry RytoemaaTritiumHazard
 while executing---line 1426 of file tesis.bst
 Too many commas in name 1 of "Rytoemaa, T. , Saltevo, J. and Toivonen, H." for entry RytoemaaTritiumHazard
 while executing---line 1426 of file tesis.bst
 Too many commas in name 1 of "Rytoemaa, T. , Saltevo, J. and Toivonen, H." for entry RytoemaaTritiumHazard
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "Z. Chen, S. Peng, D. Meng, Y. He and H. Wang" for entry IonizationChamber2
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "Z. Chen, S. Peng, D. Meng, Y. He and H. Wang" for entry IonizationChamber2
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C. G. Alecu, U. Besserer, B. Bornschein, B. Kloppe, Z. Köllö and J. Wendel" for entry Calorimeter1
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C. G. Alecu, U. Besserer, B. Bornschein, B. Kloppe, Z. Köllö and J. Wendel" for entry Calorimeter1
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C. G. Alecu, U. Besserer, B. Bornschein, B. Kloppe, Z. Köllö and J. Wendel" for entry Calorimeter1
+while executing---line 1426 of file tesis.bst
+Too many commas in name 1 of "C. G. Alecu, U. Besserer, B. Bornschein, B. Kloppe, Z. Köllö and J. Wendel" for entry Calorimeter1
 while executing---line 1426 of file tesis.bst
 Warning--empty journal in FiberDetector1b
 Warning--empty year in FiberDetector1b
@@ -157,6 +205,30 @@ Warning--empty journal in FiberDetector1a
 Warning--empty year in FiberDetector1a
 Warning--empty journal in MeanFreePathDocument
 Warning--empty year in MeanFreePathDocument
+You can't pop an empty literal stack for entry WaterPropertiesSimulation
+while executing---line 1479 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1479 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1479 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1479 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1479 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1479 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1479 of file tesis.bst
+Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
+while executing---line 1479 of file tesis.bst
+Too many commas in name 1 of "C. G. Alecu, U. Besserer, B. Bornschein, B. Kloppe, Z. Köllö and J. Wendel" for entry Calorimeter1
+while executing---line 1479 of file tesis.bst
+Too many commas in name 1 of "C. G. Alecu, U. Besserer, B. Bornschein, B. Kloppe, Z. Köllö and J. Wendel" for entry Calorimeter1
+while executing---line 1479 of file tesis.bst
+Warning--can't use both author and editor fields in NaturalRadioactiveSeries2
+Warning--empty publisher in NaturalRadioactiveSeries2
+Warning--empty journal in Hofstetter2
+Warning--empty year in Hofstetter2
 Warning--can't use both author and editor fields in ICRP_GL
 Warning--can't use both volume and number fields in ICRP_GL
 You can't pop an empty literal stack for entry ICRP_GL
@@ -165,49 +237,60 @@ Warning--can't use both author and editor fields in ICRP_factor
 Warning--can't use both volume and number fields in ICRP_factor
 You can't pop an empty literal stack for entry ICRP_factor
 while executing---line 1479 of file tesis.bst
+You can't pop an empty literal stack for entry Knoll
+while executing---line 1479 of file tesis.bst
+You can't pop an empty literal stack for entry Leo
+while executing---line 1479 of file tesis.bst
 Warning--empty year in EstimationTritiumDosi
+You can't pop an empty literal stack for entry Ratnakaran2000
+while executing---line 1479 of file tesis.bst
 Too many commas in name 1 of "Rytoemaa, T. , Saltevo, J. and Toivonen, H." for entry RytoemaaTritiumHazard
 while executing---line 1479 of file tesis.bst
 Warning--empty year in RytoemaaTritiumHazard
-You've used 37 entries,
+Warning--can't use both author and editor fields in NaturalRadioactiveSeries1
+Warning--empty publisher in NaturalRadioactiveSeries1
+Warning--empty note in BlackBlancket
+Too many commas in name 1 of "Z. Chen, S. Peng, D. Meng, Y. He and H. Wang" for entry IonizationChamber2
+while executing---line 1479 of file tesis.bst
+You've used 147 entries,
             2997 wiz_defined-function locations,
-            1061 strings with 13905 characters,
-and the built_in function-call counts, 12756 in all, are:
-= -- 913
-> -- 335
-< -- 40
-+ -- 110
-- -- 104
-* -- 966
-:= -- 1677
-add.period$ -- 37
-call.type$ -- 37
-change.case$ -- 188
-chr.to.int$ -- 33
-cite$ -- 49
-duplicate$ -- 1130
-empty$ -- 1146
-format.name$ -- 181
-if$ -- 2510
-int.to.chr$ -- 5
+            1463 strings with 34352 characters,
+and the built_in function-call counts, 61560 in all, are:
+= -- 4255
+> -- 2679
+< -- 153
++ -- 977
+- -- 953
+* -- 4931
+:= -- 8419
+add.period$ -- 147
+call.type$ -- 147
+change.case$ -- 1012
+chr.to.int$ -- 132
+cite$ -- 166
+duplicate$ -- 4977
+empty$ -- 4659
+format.name$ -- 1264
+if$ -- 11735
+int.to.chr$ -- 16
 int.to.str$ -- 0
-missing$ -- 233
-newline$ -- 114
-num.names$ -- 75
-pop$ -- 480
+missing$ -- 1152
+newline$ -- 444
+num.names$ -- 297
+pop$ -- 2155
 preamble$ -- 1
-purify$ -- 237
+purify$ -- 1211
 quote$ -- 0
-skip$ -- 371
+skip$ -- 1760
 stack$ -- 0
-substring$ -- 426
-swap$ -- 562
-text.length$ -- 40
-text.prefix$ -- 28
+substring$ -- 2026
+swap$ -- 2794
+text.length$ -- 153
+text.prefix$ -- 114
 top$ -- 0
-type$ -- 286
-warning$ -- 12
-while$ -- 82
-width$ -- 39
-write$ -- 309
-(There were 13 error messages)
+type$ -- 1148
+warning$ -- 19
+while$ -- 340
+width$ -- 151
+write$ -- 1173
+(There were 58 error messages)
