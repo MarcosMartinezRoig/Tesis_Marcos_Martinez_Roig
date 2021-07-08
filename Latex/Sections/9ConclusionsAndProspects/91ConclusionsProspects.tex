@@ -1,52 +1,38 @@
-Se han caracterizado las distintas partes del detector de tritio
+This chapter contains a brief summary of the most important achievements reached in this work and highlights the main conclusions obtained.
 
-Se han desarrollado y caracterizado vetos activos, vetos pasivos, sistema de agua ultrapura.
+A TRITIUM monitor has been developed to measure low activities of tritiated water. The different parts of the monitor are detailed in this thesis, which consists of an ultrapure water system, which prepares the water sample before the measurement, a tritium detector, where the tritium measurement is carried out, and a passive and active shielding, which is used to reduce de radioactive background measured by the tritium detector.
 
-Se ha desarrollado un método de compensación d ela temperatura
+First, several experimental works were carried out on the components of the tritium detector, which are scintillating fibers and SiPM.
 
-Se han desarrollado varios prototipes poniendo especial atención a la radioseguridad (debido a la peligrosidad de trabajar con fuentes líquidas) y a la eficiencia de detección del tritio. with increasing sensitivity.
-
-El monitor es escalable, es decir, si no se llega a la actividad deseada solo hay que incluir más módulos. Poner importancia sobre esto!!!!
-
-Punto 4.3 del paper de simulacion de carlos.
-
-Conclusiones de los papers de carlos.
-Conclusiones de nuestros papers.
-Conclusiones presentaciones.
-
-Que cosas se han conseguido en este experiemnto? -> DEcir que tanto l oque se ha conseguido con el detector como con las investigaciones de componentes del detector (capitulo 3)
-
-Responder a las grandes preguntas: 
 \begin{itemize}
-\item{} Podemos medir tritio? 
-\item{} Lo podemos hacer en tiempo quasi real? 
-\item{}Lo podemos hacer a la actividad que queríamos? 
-\item{} Que sensibilidad se ha llegado a conseguir?
-\item{} Estabilidad temporal?
-\item{} Precio?
-\item{} Comparación con respecto al resto de experimentos? -> Poner la tabla 1.8 pero incluyendonos
-\item{} Effecto del shield
-\item{} Effecto de los vetos
-\item{} Effecto de ambas cosas
-\item{} Medidas a varias actividades
+
+\item{} On the one hand, a characterization of the photon collection efficiency of the BCF-12 no clad scintillating fibers was performed, which was compared with single clad and multiclad fibers to check the importance of the clad. 
+
+In addition, a conditioning process of scintillating fiber was developed, tested and implemented, consisting of cutting, polishing and cleaning them, the objective of which is to increase the tritium detection efficiency. Due to the large number of scintillating fibers used, it was necessary to develop an automatic polishing machine, based on arduino technology, which is capable of polishing up to one hundred scintillating fibers at the same time. The improvement in photon collection efficiency due to the polishing and cleaning process was quantified in more than $40\%$ and $21\%$, respectively. 
+
+\item{} On the other hand, a characterization of the SiPM used (Hamamatsu model S13360-6075) was carried out at the level of a single SiPM. In this characterization several interesting parameters such as quenching resistance, terminal capacitance, internal gain of SiPM, breakdown voltage, temperature coefficient, etc. were experimentally measured. An additional calibration was carried out at the level of a SiPM matrix in which the probability of crosstalk between different SiPMs was measured, obtaining an insignificant probability of happening. The linearity of the SiPM signal as a function of the the number of scintillating fibers was also validated.
+
+Due to the strong dependence of the internal gain of SiPM on temperature, a temperature compensation mechanism was developed and experimentally tested. The objective of this mechanism is to compensate for temperature variations with variations in the operating voltage of the SiPM, maintaining the internal gain of the SiPM duriung its operation.
+
 \end{itemize}
 
+Second, a characterization of the ultrapure water system was carried out, which is used to ensure that this system fulfills the requirements imposed on it. The requirements are to prepare very low conductivity water samples (on the order of about $10~\mu\sievert/\cm^2$), remove organic matter and all particles up to $1~\mm$ diameters without affecting the tritium levels.
 
-Hemos llegado a detectar 30kBq/L con Tritium-Aveiro y se espera llegar a medir hasta menos de 5kBq/L (superando los actuales limites).
+Third, a characterization of the active veto was carried out in which several interesting parameters were experimentally measured.
 
-Hemos llegado a detectar 10 kBq/L con Tritium-IFIC 2 (superando los actuales limits) y se espera llegar a medir incluso menos.
+\begin{itemize}
 
-Ambos valores, lejos de ser el objetivo del proyecto, sirven para una monitorización en tiempo quasí real. Además, con el monitori final que consiste en varios modiules de estos en apralelo, se pretende llegar al objetivo deseado.
+\item{} First, the quality of the coverage of the plastic scintillator, consisting of a layer of teflon, aluminium and black tape, was tested and quantified, obtaining an improvement in the uniformity and quality of the photon collection efficiency.
 
+\item{} Second, the high voltage and threshold that optimize the detection of hard cosmic rays ($>200~\MeV$) was experimentally found.
 
-Tenemos datos de tritio en el agua bruta (agua del río) de esa zona desde 1998, pero tengo que solicitar permiso para poder dártelos. En cualquier caso, hay otra manera de conseguirlos, que es a partir  de los informes del CSN al Congreso de los diputados (web CSN).
-Desde 2015 la concentración de tritio en el agua del río Tajo ha disminuido considerablemente porque la CNA instaló unos enfriadores por convección que emiten parte del H3 a la atmósfera. --> Tesis de Antonio Rodríguez y de Elena García.
+\item{} Finally a hard cosmic events was experimentaly measured with the active veto developed, obtaining an energy spectrum with a shape similar to a Landau functions, as it is expected, and an efficiency of hard cosmic rays detection of $85\%$. In addition, the relationship between the number of the hard cosmic rays measured and the distance between both plastic scintillators of the active veto was obtained, allowing this distance to be changed without the need to perform a new calibration of the active veto.
 
-El prototipo más avanzado hasta la fecha ha sido el de Aveiro. Prometedores resultados se estan obteniendo con el último prototipo, IFIC 2.
+\end{itemize}
 
-Como se ha dicho, se leerán varios prototipos en coincidencia, lo cual aumenta el area activa del detector. Esto nos permite obtener un mayor número de cuentas para una misma actividad de la fuente ya que estas depende linealmente del area activa, mejorando la efficiencia del detector y permitiendonos llegar a LDLs más bajos. Sin embargo, no se espera que la eficiencia especifica del detector se mejor ya que esta no depende del area activa.
+Fourth, four different prototypes of the tritium detector have been developed. The first two prototypes, TRITIUM-IFIC 0 and TRITIUM-IFIC 1, was used to detect potencial problems that affect to the tritium measurement as well as to test several improvement in the detector design. The last two prototypes, TRITIUM-Aveiro and TRITIUM-IFIC 2, are two different designs to be used in the final tritium cell of the TRITIUM monitor. Each design has its own advantages and disadvantages and the one with the best results will be used as a final design of the tritium cell.
 
-Además el uso de los vetos activos nos permitirá reducir el nivel de background de la muestra. Dado que se espera que la incertidumbre relativa del background se mantenga, obtendremos incertidumbres más pequeñas, dando lugar a menores MDAs.
+With the different prototypes, an increasing sensitivity has been achieved, showing the importance of the applied improvements. The best tritium detection efficiency was obtained with the lastest prototype developed, TRITIUM-IFIC 2, with which the State-Of-The-Art of tritium detection has been overcomed. The most important results of each prototype developed in TRITIUM project are presented in Table \ref{tab:ComparisonResultsTri}, which also shows the most important results of other experiments in tritium detection.
 
 \begin{table}[htbp]
 \begin{center}
@@ -64,7 +50,63 @@ T-IFIC 1 & $38.42 \pm 1.61$ & $402.12$ & $95.55 \pm 4.01$ & $100$* \\ \hline
 T-Aveiro 0 & $64.87 \pm 19.41$ & $4071.50$ & $15.93 \pm 4.77$ & $29.8$ \\ \hline
 T-IFIC 2 & $711.03 \pm 27.77$ & $5026.55$ & $141.45 \pm 5.52$ & $10$* \\ \hline
 \end{tabular}
-\caption{Results of different scintillator detector for tritiated water detection. This table shows the efficiency of the detector ($\varepsilon_{det}$), its active surface ($F_{sci}$), its specific efficiency ($\eta_{det}=\varepsilon_{det}/F_{sci}$), defined as its efficiency normalized to its active surface, and its low detection-level (LDL) for each study listed above. The "*" symbol indicates that this is the specified activity that the detector can distinguish from the background, but it is not its LDL.}
-\label{tab:ComparisonResults}
+\caption{Results of scintillator detector developed for several experiments (including the TRITIUM project) for tritiated water detection. This table shows the efficiency of the detector ($\varepsilon_{det}$), its active surface ($F_{sci}$), its specific efficiency ($\eta_{det}=\varepsilon_{det}/F_{sci}$), defined as its efficiency normalized to its active surface, and its low detection-level (LDL) for each study listed above. The "*" symbol indicates that this is the specified activity that the detector can distinguish from the background, but it is not its LDL.}
+\label{tab:ComparisonResultsTri}
 \end{center}
 \end{table}
+
+As can be seen in the table, the specific efficiency of the latest prototype, TRITIUM-IFIC 2, is almost an order of magnitud better than the best result obtained in other experiments (Hofstetter). Special attetion need to be payed for the specific efficiency obtained for the TRITIUM-Aveiro prototype, which is smaller than the expected. A possible reason is because the used fibers was not polished nor cleaned, reducing the tritium events detected. It could be interesting to develop a new TRITIUM-Aveiro prototype using fibers prepared with the conditioning process detailed in sections \ref{subsec:ConditioningProcess} and \ref{subsec:CleaningProcess} to decide which is the tritium cell design with the best results. 
+
+A low detection level, LDL, of $29.8~\kilo\becquerel/\liter$ has been measured for the TRITIUM-Aveiro prototype using $10$ minutes of integration time, slightly improving the State-Of-The-Art. It is expected to be improved up to $5~\kilo\becquerel/\liter$ by increasing the integration time up to $1$ hour, which is still considered quasi-real time.
+
+A better result was obtained for the TRITIUM-IFIC 2 prototype, being able to clearly measure an activity of $10~\kilo\becquerel/\liter$, improving the best results obtained in other experiments. However this is not the LDL of the prototype. To measure this, it is necessary to take many more measurements, similar to how it was done for the TRITIUM-Aveiro prototype.
+
+Nevertheless the low detection level achieved with this prototypes is further from being the goal of the TRITIUM project, $100~\becquerel/\liter$. This is not a problem since one of the most important properties of the TRITIUM monitor is that this is scalable. It means that more tritium cells can be used, readed in parallel, to improve the results obtained. The activity goal is expected to be achieved using three different cells of each different prototype, TRITIUM-Aveiro and TRITIUM-IFIC 2.
+
+In summary, two different prototypes has been developed in the TRITIUM project with which it is possible to measure the activity of the tritiated water in quasi-real time, improving the specific activity and the low detection level currently achieved with other experiments. In addition, the stability of the tritium detection efficiency of both prototypes has been demostrated during several months. In addition, the stability of the tritium detection efficiency of both prototypes has been verified during several months.
+
+Currently, a lead shielding, an ultrapure water system and a TRITIUM-Aveiro prototypes are installed in Arrocampo dam, near to Almaraz Nuclear Power Plant. Two additional TRITIUM-Aveiro prototypes and an active veto are planed to be installed as soon as possible. In addition, three prototypes of TRITIUM-IFIC 2 and an active veto are ready to be installed too, the instalation of which has been delayed due to the coronavirus pandemic.
+
+The lead shielding and cosmic veto are used to reduce the natural background of the tritium detector, the effect of which has been verified in the laboratory and with several simulations.
+
+Finally several Monte Carlo simulation has been developed using Geant4. These simulations was used for two different tasks:
+
+\begin{itemize}
+
+\item{} On the one hand, they was used to verify which is the design that optimize the tritium detection before to be applied such us to choose the fiber length of fiber diameter. 
+
+\item{} On the other hand, they was used to verify the results obtained with each different TRITIUM prototype, such us the spectrum of the number of photones obtained per tritium. They was also used to find the sensibility of each different prototype and how the integration time and the number of cells used can be affected to the tritium detection.
+
+\end{itemize}
+
+DISCUTIR DEL PRECIO DEL DETECTOR
+
+
+%Fifth
+
+%Sixth
+
+%Seventh
+
+
+
+Punto 4.3 del paper de simulacion de carlos.
+
+Conclusiones de los papers de carlos.
+Conclusiones de nuestros papers.
+Conclusiones presentaciones.
+
+Responder a las grandes preguntas: 
+\begin{itemize}
+\item{} Podemos medir tritio?  ////////////////////////////////////
+\item{} Lo podemos hacer en tiempo quasi real? ////////////////////
+\item{} Lo podemos hacer a la actividad que queríamos? ////////////
+\item{} Que sensibilidad se ha llegado a conseguir? ///////////////
+\item{} Estabilidad temporal? /////////////////////////////////////
+\item{} Precio?
+\item{} Comparación con respecto al resto de experimentos? -> Poner la tabla 1.8 pero incluyendonos /////////////////////////////////////////////
+\item{} Effecto del shield/////////////////////////////////////////
+\item{} Effecto de los vetos////////////////////////////////////////
+\item{} Effecto de ambas cosas /////////////////////////////////////////////
+\item{} Medidas a varias actividades ///////////////////////////////
+\end{itemize}
