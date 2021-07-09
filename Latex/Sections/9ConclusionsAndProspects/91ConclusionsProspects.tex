@@ -1,8 +1,14 @@
 This chapter contains a brief summary of the most important achievements reached in this work and highlights the main conclusions obtained.
 
-A TRITIUM monitor has been developed to measure low activities of tritiated water. The different parts of the monitor are detailed in this thesis, which consists of an ultrapure water system, which prepares the water sample before the measurement, a tritium detector, where the tritium measurement is carried out, and a passive and active shielding, which is used to reduce de radioactive background measured by the tritium detector.
+The design of a tritium detector capable of measuring low tritium activities in quasi-real time is mandatory since this is one of the first sign of a malfunctioning of a nuclear facility, such us nuclear power plants, future nuclear fusion reactors and laboratories of high energy physics.
 
-First, several experimental works were carried out on the components of the tritium detector, which are scintillating fibers and SiPM.
+The goal of the TRITIUM project is to design, build, install and commission a tritium monitor that will measure tritium activities as low as $100~\becquerel/\liter$ (legal limit imposed for European Council Directive 2013/51/EURATOM for drinking water consumption) in quasi-real time (1 hour or less).
+
+The TRITIUM monitor developed in the TRITIUM project has different parts, which are detailed in this thesis. The different parts are an ultrapure water system, which prepares the water sample before the measurement, a tritium detector, consisting of scintillating fibers readout by photosensors (PMTs or SiPM arrays), and a passive and active shielding, which is used to reduce de radioactive background measured by the tritium detector.
+
+Several studies were carried out to characterize the different parts of the TRITIUM monitor independently:
+
+First, the components of the tritium monitor, which are scintillating fibers and SiPM, were studied.
 
 \begin{itemize}
 
@@ -10,13 +16,13 @@ First, several experimental works were carried out on the components of the trit
 
 In addition, a conditioning process of scintillating fiber was developed, tested and implemented, consisting of cutting, polishing and cleaning them, the objective of which is to increase the tritium detection efficiency. Due to the large number of scintillating fibers used, it was necessary to develop an automatic polishing machine, based on arduino technology, which is capable of polishing up to one hundred scintillating fibers at the same time. The improvement in photon collection efficiency due to the polishing and cleaning process was quantified in more than $40\%$ and $21\%$, respectively. 
 
-\item{} On the other hand, a characterization of the SiPM used (Hamamatsu model S13360-6075) was carried out at the level of a single SiPM. In this characterization several interesting parameters such as quenching resistance, terminal capacitance, internal gain of SiPM, breakdown voltage, temperature coefficient, etc. were experimentally measured. An additional calibration was carried out at the level of a SiPM matrix in which the probability of crosstalk between different SiPMs was measured, obtaining an insignificant probability of happening. The linearity of the SiPM signal as a function of the the number of scintillating fibers was also validated.
+\item{} On the other hand, a characterization of the SiPM used (Hamamatsu model S13360-6075) was carried out at the level of a single SiPM. In this characterization several interesting parameters such as quenching resistance, terminal capacitance, internal gain of SiPM, breakdown voltage, temperature coefficient, etc. were experimentally measured. An additional calibration was carried out at the level of a SiPM matrix in which the probability of crosstalk between different SiPMs was measured, obtaining an insignificant probability of happening. The linearity of the SiPM signal as a function of the the number of scintillating fibers was also verified.
 
-Due to the strong dependence of the internal gain of SiPM on temperature, a temperature compensation mechanism was developed and experimentally tested. The objective of this mechanism is to compensate for temperature variations with variations in the operating voltage of the SiPM, maintaining the internal gain of the SiPM duriung its operation.
+Due to the strong dependence of the SiPM internal gain on temperature, a temperature compensation mechanism was developed and experimentally tested. The objective of this mechanism is to compensate for temperature variations with variations in the operating voltage of the SiPM, maintaining the internal gain of the SiPM duriung its operation.
 
 \end{itemize}
 
-Second, a characterization of the ultrapure water system was carried out, which is used to ensure that this system fulfills the requirements imposed on it. The requirements are to prepare very low conductivity water samples (on the order of about $10~\mu\sievert/\cm^2$), remove organic matter and all particles up to $1~\mm$ diameters without affecting the tritium levels.
+Second, a characterization of the ultrapure water system was carried out, in which it was checked that the imposed requirements were fullfit. The requirements are to prepare water samples with very low conductivity (of the order of about $10~\mu\sievert/\cm^2$) in which the organic matter and all particles up to $1~\mm$ diameters is removed without affecting the tritium levels.
 
 Third, a characterization of the active veto was carried out in which several interesting parameters were experimentally measured.
 
@@ -26,13 +32,15 @@ Third, a characterization of the active veto was carried out in which several in
 
 \item{} Second, the high voltage and threshold that optimize the detection of hard cosmic rays ($>200~\MeV$) was experimentally found.
 
-\item{} Finally a hard cosmic events was experimentaly measured with the active veto developed, obtaining an energy spectrum with a shape similar to a Landau functions, as it is expected, and an efficiency of hard cosmic rays detection of $85\%$. In addition, the relationship between the number of the hard cosmic rays measured and the distance between both plastic scintillators of the active veto was obtained, allowing this distance to be changed without the need to perform a new calibration of the active veto.
+\item{} Third, a hard cosmic events was experimentaly measured with the active veto developed, obtaining an energy spectrum with a shape similar to a Landau functions, as it is expected, and an efficiency of hard cosmic rays detection of $85\%$. In addition, the relationship between the number of the hard cosmic rays measured and the distance between both plastic scintillators of the active veto was obtained, allowing this distance to be changed without the need to perform a new calibration of the active veto.
 
 \end{itemize}
 
-Fourth, four different prototypes of the tritium detector have been developed. The first two prototypes, TRITIUM-IFIC 0 and TRITIUM-IFIC 1, was used to detect potencial problems that affect to the tritium measurement as well as to test several improvement in the detector design. The last two prototypes, TRITIUM-Aveiro and TRITIUM-IFIC 2, are two different designs to be used in the final tritium cell of the TRITIUM monitor. Each design has its own advantages and disadvantages and the one with the best results will be used as a final design of the tritium cell.
+This background rejection system, consisting of a lead shielding and an active veto, is essencial to achieve the activity goal of $100~\becquerel/\liter$.
 
-With the different prototypes, an increasing sensitivity has been achieved, showing the importance of the applied improvements. The best tritium detection efficiency was obtained with the lastest prototype developed, TRITIUM-IFIC 2, with which the State-Of-The-Art of tritium detection has been overcomed. The most important results of each prototype developed in TRITIUM project are presented in Table \ref{tab:ComparisonResultsTri}, which also shows the most important results of other experiments in tritium detection.
+Fourth, four different prototypes of the tritium detector have been developed. The first two prototypes, TRITIUM-IFIC 0 and TRITIUM-IFIC 1, was used to detect potencial problems that affect to the tritium measurement as well as to test several improvement in the detector design. The last two prototypes, TRITIUM-Aveiro and TRITIUM-IFIC 2, are two different designs to be used in the final tritium cell of the TRITIUM monitor. Each design has its own advantages and disadvantages and the one with the best results will be used as a final design of the TRITIUM cell.
+
+With the different prototypes, an increasing sensitivity has been achieved, showing the effect of the applied improvements. The best tritium detection efficiency was obtained with the lastest prototype developed, TRITIUM-IFIC 2, with which the State-Of-The-Art of tritium detection has been overcomed. The most important results of each prototype developed in TRITIUM project are presented in Table \ref{tab:ComparisonResultsTri}, in which the results obtained with other experiments are also included.
 
 \begin{table}[htbp]
 \begin{center}
@@ -55,58 +63,28 @@ T-IFIC 2 & $711.03 \pm 27.77$ & $5026.55$ & $141.45 \pm 5.52$ & $10$* \\ \hline
 \end{center}
 \end{table}
 
-As can be seen in the table, the specific efficiency of the latest prototype, TRITIUM-IFIC 2, is almost an order of magnitud better than the best result obtained in other experiments (Hofstetter). Special attetion need to be payed for the specific efficiency obtained for the TRITIUM-Aveiro prototype, which is smaller than the expected. A possible reason is because the used fibers was not polished nor cleaned, reducing the tritium events detected. It could be interesting to develop a new TRITIUM-Aveiro prototype using fibers prepared with the conditioning process detailed in sections \ref{subsec:ConditioningProcess} and \ref{subsec:CleaningProcess} to decide which is the tritium cell design with the best results. 
+As can be seen in the table, the specific efficiency of the latest prototype, TRITIUM-IFIC 2, is almost an order of magnitud better than the best result obtained in other experiments (Hofstetter). Special attetion need to be payed for the specific efficiency obtained for the TRITIUM-Aveiro prototype, which is smaller than the expected. A possible reason is because the used fibers was not polished nor cleaned, reducing the tritium events detected. It could be interesting to develop a new TRITIUM-Aveiro prototype, the fibers of which are prepared with the conditioning process detailed in sections \ref{subsec:ConditioningProcess} and \ref{subsec:CleaningProcess} to decide which tritium cell design optimizes the tritium detection. 
 
-A low detection level, LDL, of $29.8~\kilo\becquerel/\liter$ has been measured for the TRITIUM-Aveiro prototype using $10$ minutes of integration time, slightly improving the State-Of-The-Art. It is expected to be improved up to $5~\kilo\becquerel/\liter$ by increasing the integration time up to $1$ hour, which is still considered quasi-real time.
+A low detection level, LDL, of $29.8~\kilo\becquerel/\liter$ has been measured for the TRITIUM-Aveiro prototype using $1$ minutes of integration time, slightly improving the State-Of-The-Art. It is expected to be improved up to $5~\kilo\becquerel/\liter$ by increasing the integration time up to $1$ hour, which is still considered quasi-real time.
 
 A better result was obtained for the TRITIUM-IFIC 2 prototype, being able to clearly measure an activity of $10~\kilo\becquerel/\liter$, improving the best results obtained in other experiments. However this is not the LDL of the prototype. To measure this, it is necessary to take many more measurements, similar to how it was done for the TRITIUM-Aveiro prototype.
 
-Nevertheless the low detection level achieved with this prototypes is further from being the goal of the TRITIUM project, $100~\becquerel/\liter$. This is not a problem since one of the most important properties of the TRITIUM monitor is that this is scalable. It means that more tritium cells can be used, readed in parallel, to improve the results obtained. The activity goal is expected to be achieved using three different cells of each different prototype, TRITIUM-Aveiro and TRITIUM-IFIC 2.
+Nevertheless the low detection level achieved with this prototypes is further from being the goal of the TRITIUM project, $100~\becquerel/\liter$. This is not a problem since the TRITIUM monitor will consists of several TRITIUM cells readout in parallel, becoming the TRITIUM detector in a scalable detector. It means that more tritium cells can be used, readed in parallel, to improve the results obtained. The activity goal is expected to be achieved using three different cells of TRITIUM-IFIC 2 read in anti-coincidence with an active veto.
 
-In summary, two different prototypes has been developed in the TRITIUM project with which it is possible to measure the activity of the tritiated water in quasi-real time, improving the specific activity and the low detection level currently achieved with other experiments. In addition, the stability of the tritium detection efficiency of both prototypes has been demostrated during several months. In addition, the stability of the tritium detection efficiency of both prototypes has been verified during several months.
+In summary, two different prototypes has been developed in the TRITIUM project with which it is possible to measure low activities of tritiated water in quasi-real time, improving the specific activity and the low detection level currently achieved with other experiments. In addition, the stability of the tritium detection efficiency of both prototypes has been verified during several months.
 
-Currently, a lead shielding, an ultrapure water system and a TRITIUM-Aveiro prototypes are installed in Arrocampo dam, near to Almaraz Nuclear Power Plant. Two additional TRITIUM-Aveiro prototypes and an active veto are planed to be installed as soon as possible. In addition, three prototypes of TRITIUM-IFIC 2 and an active veto are ready to be installed too, the instalation of which has been delayed due to the coronavirus pandemic.
+Currently, the lead shielding, the ultrapure water system and a TRITIUM-Aveiro prototype are installed in Arrocampo dam, near to Almaraz Nuclear Power Plant. Two additional TRITIUM-Aveiro prototypes and an active veto are planed to be installed as soon as possible. In addition, three prototypes of TRITIUM-IFIC 2 and an active veto are ready to be installed too, the instalation of which has been delayed due to the coronavirus pandemic.
 
-The lead shielding and cosmic veto are used to reduce the natural background of the tritium detector, the effect of which has been verified in the laboratory and with several simulations.
-
-Finally several Monte Carlo simulation has been developed using Geant4. These simulations was used for two different tasks:
+Finally several Monte Carlo simulation has been developed using Geant4. These simulations was used for three different tasks:
 
 \begin{itemize}
 
-\item{} On the one hand, they was used to verify which is the design that optimize the tritium detection before to be applied such us to choose the fiber length of fiber diameter. 
+\item{} First, several simulations were carried out to study the different steps of the simulation, such us the energy deposition of tritium electrons on scintillating fibers (spectrum peaked of around $5~\keV$), the number of photons produced by the fibers (spectrum peaked of around $10$ photons) or which of this are detected by the photosensors in time coincidence (spectrum peaked of around $25$ photons). They were also used to quantify the importance of the reduction of the scintillating fiber signals because tritium electrons are not MIP particles (Birks effect).
 
-\item{} On the other hand, they was used to verify the results obtained with each different TRITIUM prototype, such us the spectrum of the number of photones obtained per tritium. They was also used to find the sensibility of each different prototype and how the integration time and the number of cells used can be affected to the tritium detection.
+\item{} Second, these simulations were used to test different tritium detector designs, such as different fiber lengths or fiber diameters, and choosing the one with the best results, that is, the one that optimizes the tritium detection efficiency.
+
+\item{} Third, these simulations were used to verify the results obtained with the last two TRITIUM prototype, such us the spectrum of the number of photones obtained per tritium event. They were also used to find the sensibility of each different prototype and how the integration time and the number of cells used can improve to the tritium detection of the TRITIUM monitor.
 
 \end{itemize}
 
-DISCUTIR DEL PRECIO DEL DETECTOR
-
-
-%Fifth
-
-%Sixth
-
-%Seventh
-
-
-
-Punto 4.3 del paper de simulacion de carlos.
-
-Conclusiones de los papers de carlos.
-Conclusiones de nuestros papers.
-Conclusiones presentaciones.
-
-Responder a las grandes preguntas: 
-\begin{itemize}
-\item{} Podemos medir tritio?  ////////////////////////////////////
-\item{} Lo podemos hacer en tiempo quasi real? ////////////////////
-\item{} Lo podemos hacer a la actividad que queríamos? ////////////
-\item{} Que sensibilidad se ha llegado a conseguir? ///////////////
-\item{} Estabilidad temporal? /////////////////////////////////////
-\item{} Precio?
-\item{} Comparación con respecto al resto de experimentos? -> Poner la tabla 1.8 pero incluyendonos /////////////////////////////////////////////
-\item{} Effecto del shield/////////////////////////////////////////
-\item{} Effecto de los vetos////////////////////////////////////////
-\item{} Effecto de ambas cosas /////////////////////////////////////////////
-\item{} Medidas a varias actividades ///////////////////////////////
-\end{itemize}
+%DISCUTIR DEL PRECIO DEL DETECTOR
