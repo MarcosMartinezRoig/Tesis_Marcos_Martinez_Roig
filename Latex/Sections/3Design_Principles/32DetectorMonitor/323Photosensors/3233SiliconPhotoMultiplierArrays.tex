@@ -1,6 +1,6 @@
-The Silicon Photomultiplier (SiPM) are a kind of photosensor, based on semiconductor materials, developed in recent years. They are replacing progresively conventional PMTs in many experiments and applications. They archieve outstading photon-counting capabilities with high photodetection efficiency comparing to PMT and a similar gain. They have conveninent characteristics as insensitiveness to magnetic fields, low operating voltage and compactness. The main problem with the SiPMs are their high dark count rate (between $100~\kilo\hertz$ and $1~\mega\hertz$)
+The Silicon Photomultiplier (SiPM) are a kind of photosensor, based on semiconductor materials, developed in recent years. They are replacing progresively conventional PMTs in many experiments and applications. They archieve outstading photon-counting capabilities with high photodetection efficiency comparing to PMT and similar gain. They have conveninent characteristics as insensitiveness to magnetic fields, low operating voltage and compactness. The main problem with the SiPMs are their high dark count rate (between $100~\kilo\hertz$ and $1~\mega\hertz$).
 
-The SiPM is formed by a matrix of APDs conected in parallel which are photodiodes operating in Geiger mode. A scheme of an APD is shown in Figure \ref{fig:SchemeAPD}. SiPM are based on p-n junctions\footnote{A p-n junction is a junction of a p+ and n+ layer, which are a tetravalent material doped with a trivalent or pentavalent material respectively, creating interesting sublevels in the forbidden energy gap.} made with special techniques to archieve a good contact between both surfaces.
+The SiPM is formed by a matrix of APDs conected in parallel which are photodiodes operating in Geiger mode. APD, the scheme of which is shown in Figure \ref{fig:SchemeAPD}, are based on p-n junctions\footnote{A p-n junction is a junction of a p+ and n+ layer, which are a tetravalent material doped with a trivalent or pentavalent material respectively, creating interesting sublevels in the forbidden energy gap.} made with special techniques to archieve a good contact between both surfaces.
 
 \begin{figure}[htbp]
 \centering
@@ -9,9 +9,9 @@ The SiPM is formed by a matrix of APDs conected in parallel which are photodiode
 \end{figure}
  
 
-The voltage at which the SiPM starts operating in geiger mode is called the breakdown voltage, $V_ {BR}$. At lower voltages SiPM works in proportional mode in which the signal of the pixel is proportional to the energy deposited the SIPM gain is lower in this state. The measurement of the breakdown voltage is one of the most important parametes to characterize the SiPM and its experimental measurements is described in section \ref{sec:CharacterizationSiPM}.
+The voltage at which the SiPM starts operating in geiger mode is called the breakdown voltage, $V_ {BR}$. At lower voltages SiPM works in proportional mode in which the signal of the pixel is proportional to the energy deposited but its gain is lower than in Geiger mode. The experimental measurement of the breakdown voltage, described in section \ref{sec:CharacterizationSiPM}, is an important measurement to characterize a SiPM.
 
-These APDs, called pixels when they are part of a SiPM, are connected in parallel and the sum of all of them is read. The output signal of the pixels are quite similar regardless of the energy deposited, with some difference because of the uncertainty due to the SiPM manufacturing process and the statistical nature of the detection process. In this way, the energy deposited in each APD is not known but the charge of the output signal when n photons are simultaneously detected is n times the charge of a single photon, as can be seen in Figure \ref{fig:PulsesOfSiPM}. Due to this property, the number of detected photons is linearly proportional to the area of the output signal and, after a correct calibration of SiPMs, shown in section \ref{sec:CharacterizationSiPM}, these can be known. In this way, the linearity of the output signal the SiPM and the deposited energy by the tritium event is recovered.
+These APDs, called pixels when they are part of a SiPM, are connected in parallel and the sum of all of them is read. The output signal of an individual pixel is quite similar regardless of the energy deposited, with some difference because of the uncertainty due to the SiPM manufacturing process and the statistical nature of the detection process. Therefore, the energy deposited in each APD is not known but the charge of the output signal when n pixels are simultaneously fired is n times the charge of a single pixel, as can be checked in Figure \ref{fig:PulsesOfSiPM}. Due to this property, considering that each pixel only detect one photon, the number of detected photons is linearly proportional to the area of the output signal. Hence, after a correct calibration of SiPMs, shown in section \ref{sec:CharacterizationSiPM}, the linearity of the output signal the SiPM and the deposited energy by the tritium event is recovered.
 
 \begin{figure}[htbp]
 \centering
@@ -19,11 +19,11 @@ These APDs, called pixels when they are part of a SiPM, are connected in paralle
 \caption{Using persistence on the oscilloscope to show several pulses with different heights. Each height associated with a different number of  SiPM pixels lit at the same time.\label{fig:PulsesOfSiPM}}
 \end{figure}
 
-If the photon density to be detected is low enough, only one photon in each pixel are detected. Therefore, these pixels need to be very small\footnote{Pixel sizes for commercial SiPMs are $50$ or $75\mu\meter$ \cite{DataSheetHammamatsu_1_SiPM_50}, \cite{DataSheetHammamatsu_1_SiPM_75}}. When the photon density are high (several thousand of photons per event) two or more photons will be detected by the same pixel, generating an output signal equal to one detected photon. This effect produces a loss of linearity of the output signal. This effect is known as saturation and this is not important for the TRITIUM detector since its scintillating signals are futher away from producing it. %The experimental measurements of this effect, which have been done for our SiPMs, is shown in section \ref{sec:CharacterizationSiPM}. 
+The size of a SiPM pixel is very small\footnote{Pixel sizes for commercial SiPMs are $50$ or $75\mu\meter$ \cite{DataSheetHammamatsu_1_SiPM_50}, \cite{DataSheetHammamatsu_1_SiPM_75}}. Therefore, for low enough photon densities to be detected, only one photon is detected in each pixel. If the photon density is high (several thousand of photons per event) two or more photons will be detected by the same pixel, generating an output signal equal to one detected photon. This effect, known as saturation, produces a loss of linearity of the output signal. This is not important for the TRITIUM detector since its scintillating signals are futher away from producing it. %The experimental measurements of this effect, which have been done for our SiPMs, is shown in section \ref{sec:CharacterizationSiPM}. 
 
-The SiPM can be modeled as the electric circuit shown in figure \ref{subfig:ElectricModelSiPM} in which, due to the charge distribution in the depletion zone, a capacitance are induced by the SiPM. This looks like as a reverse diode in parallel with a capacitor with a capacitance of $C_d$. When the pixel detects a photon, the capacitor are discharged, creating an output current.
+The SiPM can be modeled as the electric circuit, shown in figure \ref{subfig:ElectricModelSiPM}, in which, due to the charge distribution in the depletion zone, a capacitance are induced by the SiPM. This looks like as a reverse diode in parallel with a capacitor with a capacitance of $C_d$. When the pixel detects a photon, the capacitor are discharged, creating an output current (electronic pulse).
 
-Each of these pixels has a quenching resistance\footnote{The tipical valuer of this quenching resistance for commercial SiPMs is around $500~\kilo\Omega$}, $R_q$, in series that is used to stop the current produced when this pixel is fired. When the discharge is produced, a current flow throguth the resistance, reducing the reverse voltage seen by the diode to one below the breakdown voltage. Then, the current that flow throught the diode is stopped and the voltage seen by the diode is reset to the bias voltage. This pixel is ready to detect a new photon again. This behaviour is schematicaly shown in Figure \ref{subfig:HowSiPMworks}.
+In addition, each pixel of a SiPM has a quenching resistance\footnote{The tipical valuer of this quenching resistance for commercial SiPMs is around $500~\kilo\Omega$}, $R_q$, in series that is used to stop the current produced when this pixel is fired. When the discharge is produced, a current flow throguth the resistance, reducing the reverse voltage seen by the diode to one below the breakdown voltage. Then, the current that flow throught the diode is stopped and the voltage seen by the diode is reset to the bias voltage. This pixel is ready to detect a new photon again. This behaviour is schematicaly shown in Figure \ref{subfig:HowSiPMworks}.
 
 \begin{figure}
 \centering
@@ -42,23 +42,37 @@ Each of these pixels has a quenching resistance\footnote{The tipical valuer of t
  \label{fig:ChenchingResistance}
 \end{figure}
 
-The recovery of the bias voltage seen by the SiPM after a photon detection is the characteristic in a RC circuit. 
+The recovery of the bias voltage seen by the SiPM after a photon detection is that characteristic in a RC circuit, described by the equation: 
 
 \begin{equation}
-V_bias(t)=V(t_0)\left(1-e^{-t/\tau} \right)
+V_{bias}(t)=V(t_0)\left(1-e^{-t/\tau} \right)
 \label{RCCircuitBiasVoltage}
 \end{equation}
 where $\tau$ is the recovery time constant of the system, the value of which is $\tau=C_d \times R_q$ for RC circuits.
 
-The capacitance $C_d$ and the quenching resistance $R_q$ are experimentally measured and the recovery time constant extrapolated from both. All of them are exhibited in section \ref{sec:CharacterizationSiPM}
+In section \ref{sec:CharacterizationSiPM} the capacitance $C_d$ and the quenching resistance $R_q$ are experimentally measured and the recovery time constant extrapolated from both.
 
-SiPM gain is defined as the charge produced when a single pixel is fired. This can be measured experimentally from its Single Photon Spectrum, SPS, which is the spectrum obtained when the SiPM output signal is integred (charge) and histogrammed. The experimental measurement of the SPS and the extrapolation of the Gain is presented in section \ref{sec:CharacterizationSiPM}.
+SiPM gain is defined as the charge produced when a single pixel is fired. This can be measured experimentally from its Single Photon Spectrum, SPS, which is the spectrum obtained when the SiPM output signal is integred (charge) and histogrammed. The experimental measurement of the SPS and the calculation of the gain is presented in section \ref{sec:CharacterizationSiPM}.
 
-It has to be taken into account that the SiPM gain is highly dependent on temperature, which cannot be controlled with sufficient sensitivity (less than $1~\degree$) in the final placement of the TRITIUM monitor. Therefore, a gain stabilization method was developed to compensate for this effect. This method is detailed and tested in section \ref{sec:CharacterizationSiPM}
+It has to be taken into account that the SiPM gain is highly dependent on temperature, which cannot be controlled with sufficient sensitivity (less than $1~\degree$) in the final emplacement of the TRITIUM monitor. Therefore, a gain stabilization method was developed to compensate for the temperature effect. This method is detailed and tested in section \ref{sec:CharacterizationSiPM}.
 
-Explicar PDE
+Other important parameter for a SiPM used in the TRITIUM project is de photon detection efficiency, PDE. This is defined as the probability of recording the electrical pulse produced by a photon striking the SiPM. The PDE of a SiPM consists of a product of three different paramenters, the fill factor ($FF$), which is the ratio between the active area of the SiPM and the total area, the quantum efficiency for photoelectron conversion ($QE$), which is the probability that a incident photon generate an electron-hole pair, and the probability that the generated electron or hole produces an avalanche, $P_{av}$.
 
-Explicar brevemente el tema de Afterpulses, Crosstolk y dark count rate y decir que ni esto ni el PDE se ha medido en este trabajo pero su medición es un tema pendiente.
+\begin{equation}
+PDE=FF \times QE \times P_{av}
+\label{PDE_SiPM}
+\end{equation}
+
+Hemos escogido pixels de 75 micras porque aumentan el PDE del SiPM. Estos tienen un meonr rango dinámico.
+
+hemos escogido matrices de 4x4 porque tienen mayor factor de relleno.
+
+
+Like PMTs, sometimes the SiPM produces pulses that are unrelated with any incident photon. At temperatures aroung $25~\degree$ these pulses are mainly produced by the thermal generation, when a free electron or hole produce an avalanche. This signal is identical to the signal produced due to a detection of a single photon so they cannot be differentiated. Therefore, it is very important to determinate their importance on the tritium signal.
+
+The PED, and dark count rate are not experimentaly measured yet since a different setup, shown in reference \ref{}, is needed. These parameters will be measured for the SiPM model used in the final version of TRITIUM monitor.
+
+Explicar brevemente el tema de Afterpulses y Crosstolk 
 
 The initial cadidate for TRITIUM project and the one which was characterized is the model S13360-1375 from Hamamatsu Photonics \cite{DataSheetHammamatsu_1_SiPM_1375} because this has interesting characteristics and properties, shown in Table \ref{tab:PropertiesOfSiPM1375}, such as high gain, low operating voltage, low afterpulses, crosstalk and dark counts than other SiPM models from Hamamatsu. This was later replaced by other model, S13360-6075 from Hamamatsu Photonics \cite{DataSheetHammamatsu_1_SiPM_75}. Its main difference is its higher active area ($6\times6~\mm^2$) which is achieved at the price of a higher dark count rate (typically 2 Mcps). In addition, commercial matrices are available covering a total size of $24\times24~\mm^2$.
 
@@ -96,7 +110,8 @@ Temperature coefficient $\Delta TV_{op}$ (m$\volt/\degree C$) & $54$ \\ \hline
 
 These values, provided by Hamamatsu photonics, are only approximate for a given element. Therefore, these parameters must be measured experimentally for each SiPM used because they can vary significatively even for SiPMs of the same model. The most important characteristics for the TRITIUM project are experimentaly measured and given in section \ref{sec:CharacterizationSiPM}. 
 
-Although TRITIUM detector uses whole SiPM matrices, the caracterizations has been carried out at the level of a single SiPM to learn about the values of the SiPM parameters and to test the gain control method.
+Although TRITIUM detector uses whole SiPM matrices, the caracterizations has been carried out at the level of a single SiPM to learn about the values of the SiPM parameters and to test the gain control method. A new experimental setup, detailed in appendix \ref{}, is already  prepared to perform a complete characterization of the SiPM model used in the final version of the TRITIUM monitor.
+
  
 %The matrices selected are of the model "S13361-6050" from Hamamatsu, which consists of a $4\times 4$ SiPM matrix where the active area of each SiPM is $6\times 6~\mm$ \cite{DataSheetHammamatsu_array_SiPM_6050} or the model "S13361-3050" from Hamamatsu, which consists of a $8\times 8$ SiPM where the active area is $3\times 3~\mm$ \cite{DataSheetHammamatsu_array_SiPM_3050}. They are commercial matrices from Hamamatsu and the total active area that is covered is the same for both models, $24\times 24~\mm$ and it is approximatelly the same as the active area covered with the PMTs employed, described in the previous section. These matrices have a common bias voltage and ground for all SiPMs but a different output signal for each SiPM. 
 
