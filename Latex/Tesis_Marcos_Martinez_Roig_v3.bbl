@@ -270,30 +270,25 @@ Directive, E.~C. \emph{Council Directive 2013/59/Euratom of 5 December 2013
   \url{https://eur-lex.europa.eu/eli/dir/2013/59/oj} (2021) accessed:
   2021-06-07.
 
-\bibitem[Div16a]{DataSheetHammamatsu_1_SiPM_1375}
+\bibitem[Div16a]{DataSheetHammamatsu_1_SiPM_25}
+Division, H. P. K. S.~S. \emph{MPPC Multi-Pixel Photon Counter S13360-1325.}
+  (2016)
+  \url{https://www.hamamatsu.com/eu/en/product/type/S13360-1325PE/index.html}.
+
+\bibitem[Div16b]{DataSheetHammamatsu_1_SiPM_1375}
 Division, H. P. K. S.~S. \emph{MPPC )Multi-Pixel Photon Counter) S13360-1375.}
   (2016)
   \url{https://www.hamamatsu.com/jp/en/product/type/S13360-1375CS/index.html}.
 
-\bibitem[Div16b]{DataSheetHammamatsu_1_SiPM_50}
+\bibitem[Div16c]{DataSheetHammamatsu_1_SiPM_50}
 Division, H. P. K. S.~S. \emph{MPPC Multi-Pixel Photon Counter S13360-6050.}
   (2016)
   \url{https://www.hamamatsu.com/eu/en/product/type/S13360-6050CS/index.html}.
 
-\bibitem[Div16c]{DataSheetHammamatsu_1_SiPM_75}
+\bibitem[Div16d]{DataSheetHammamatsu_1_SiPM_75}
 Division, H. P. K. S.~S. \emph{MPPC Multi-Pixel Photon Counter S13360-6075.}
   (2016)
   \url{https://www.hamamatsu.com/eu/en/product/type/S13360-6075CS/index.html}.
-
-\bibitem[Div20a]{DataSheetHammamatsu_array_SiPM_3050}
-Division, H. P. K. S.~S. \emph{MPPC Multi-Pixel Photon Counter S13361-3050.}
-  (2020)
-  \url{https://www.hamamatsu.com/jp/en/product/type/S13361-3050AE-08/index.html}.
-
-\bibitem[Div20b]{DataSheetHammamatsu_array_SiPM_6050}
-Division, H. P. K. S.~S. \emph{MPPC Multi-Pixel Photon Counter S13361-6050.}
-  (2020)
-  \url{https://www.hamamatsu.com/us/en/product/type/S13361-6050AE-04/index.html}.
 
 \bibitem[ea20]{PDG}
 et~al., P.~Z. \emph{Particle Data Grup), PDG, Prog. Theor. Exp. Phys..} (2020)
@@ -691,6 +686,11 @@ Singh, A., Ratnakaran, M. and Vohra, K. \emph{An on-line tritium-in-water
 sense light, S. \emph{Introduction to the SPM TECHNICAL NOTE.} (2017)
   \url{https://sensl.com/}.
 
+\bibitem[Spi97]{CrosstalkProbability}
+Spinelli, A. and Lacaita, A. \emph{Physics and numerical simulation of single
+  photon avalanche diodes} IEEE Transactions on Electron Devices \textbf{44}
+  (1997)(11) 1931--1943.
+
 \bibitem[SR15]{AngleBlade}
 Sáez-Rodríguez, D., Nielsen, K., Bang, O. and Webb, D.~J. \emph{Simple Room
   Temperature Method for Polymer Optical Fibre Cleaving} Journal of Lightwave
@@ -752,6 +752,13 @@ United States Environmental Protection~Agency, U.~E. \emph{Drinking Water
 World Health~Organization, W. \emph{Guidelines for Drinking-Water Quality.}
   \url{http://www.who.int/water_sanitation_health/dwq/ GDWQ2004web.pdf} (2004)
   accessed: 2021-06-07.
+
+\bibitem[Yah13]{PDEStudy}
+Yahlali, N., Fernandes, L. and Lorca, D. \emph{Characterization of UV-enhanced
+  SiPMs for imaging in a high pressure xenon electroluminescent TPC} \emph{in}
+  \emph{2013 3rd International Conference on Advancements in Nuclear
+  Instrumentation, Measurement Methods and their Applications (ANIMMA)} (2013)
+  1--12.
 
 \bibitem[ZC13]{IonizationChamber2}
 Z.~Chen, D. M. Y.~H., S.~Peng and Wang, H. \emph{Theoretical study of energy
