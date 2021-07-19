@@ -120,40 +120,40 @@ You're missing a field part---line 1474 of file sample.bib
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring ClimaticChamberIFIMED's extra "note" field
 --line 1484 of file sample.bib
-You're missing a field part---line 1492 of file sample.bib
+You're missing a field part---line 1500 of file sample.bib
  :       year         = 
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring ScalerDataSheet's extra "note" field
---line 1506 of file sample.bib
+--line 1514 of file sample.bib
 Warning--I'm ignoring TritiumSourceTechnicalFile's extra "note" field
---line 1516 of file sample.bib
+--line 1524 of file sample.bib
 Warning--I'm ignoring DataSheetBCF10Fiber's extra "note" field
---line 1526 of file sample.bib
+--line 1534 of file sample.bib
 Warning--I'm ignoring DataSheetPMTsAveiro's extra "note" field
---line 1536 of file sample.bib
+--line 1544 of file sample.bib
 Warning--I'm ignoring PowerSupplyAveiroDataSheet's extra "note" field
---line 1546 of file sample.bib
+--line 1554 of file sample.bib
 Warning--I'm ignoring MAX5500DataSheet's extra "note" field
---line 1556 of file sample.bib
+--line 1564 of file sample.bib
 Warning--I'm ignoring VetoAveiro's extra "note" field
---line 1566 of file sample.bib
+--line 1574 of file sample.bib
 Warning--I'm ignoring CREMATPreAmplifierDataSheet's extra "note" field
---line 1576 of file sample.bib
+--line 1584 of file sample.bib
 Warning--I'm ignoring OPA656's extra "note" field
---line 1586 of file sample.bib
+--line 1594 of file sample.bib
 Warning--I'm ignoring LT111's extra "note" field
---line 1596 of file sample.bib
+--line 1604 of file sample.bib
 Warning--I'm ignoring Stretcher's extra "note" field
---line 1606 of file sample.bib
+--line 1614 of file sample.bib
 Warning--I'm ignoring ANDGate's extra "note" field
---line 1616 of file sample.bib
-You're missing a field part---line 1643 of file sample.bib
+--line 1624 of file sample.bib
+You're missing a field part---line 1651 of file sample.bib
  :       year         = 
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring CAENV1724's extra "note" field
---line 1734 of file sample.bib
+--line 1742 of file sample.bib
 Warning--I didn't find a database entry for "CrossSeccionNeutrons"
 Warning--I didn't find a database entry for "CrossSeccionNeutrino"
 Warning--I didn't find a database entry for "Snell"
@@ -256,45 +256,45 @@ Warning--empty publisher in NaturalRadioactiveSeries1
 Warning--empty note in BlackBlancket
 Too many commas in name 1 of "Z. Chen, S. Peng, D. Meng, Y. He and H. Wang" for entry IonizationChamber2
 while executing---line 1479 of file tesis.bst
-You've used 152 entries,
+You've used 153 entries,
             2997 wiz_defined-function locations,
-            1493 strings with 35397 characters,
-and the built_in function-call counts, 63453 in all, are:
-= -- 4398
-> -- 2729
-< -- 158
-+ -- 994
-- -- 969
-* -- 5074
-:= -- 8672
-add.period$ -- 152
-call.type$ -- 152
-change.case$ -- 1038
+            1498 strings with 35516 characters,
+and the built_in function-call counts, 63768 in all, are:
+= -- 4422
+> -- 2736
+< -- 159
++ -- 997
+- -- 971
+* -- 5095
+:= -- 8713
+add.period$ -- 153
+call.type$ -- 153
+change.case$ -- 1043
 chr.to.int$ -- 136
-cite$ -- 171
-duplicate$ -- 5140
-empty$ -- 4825
-format.name$ -- 1291
-if$ -- 12115
-int.to.chr$ -- 17
+cite$ -- 172
+duplicate$ -- 5168
+empty$ -- 4855
+format.name$ -- 1295
+if$ -- 12179
+int.to.chr$ -- 18
 int.to.str$ -- 0
-missing$ -- 1184
-newline$ -- 459
-num.names$ -- 307
-pop$ -- 2213
+missing$ -- 1189
+newline$ -- 462
+num.names$ -- 309
+pop$ -- 2225
 preamble$ -- 1
-purify$ -- 1244
+purify$ -- 1250
 quote$ -- 0
-skip$ -- 1820
+skip$ -- 1829
 stack$ -- 0
-substring$ -- 2109
-swap$ -- 2878
-text.length$ -- 158
-text.prefix$ -- 118
+substring$ -- 2118
+swap$ -- 2891
+text.length$ -- 159
+text.prefix$ -- 119
 top$ -- 0
-type$ -- 1188
+type$ -- 1196
 warning$ -- 19
-while$ -- 353
-width$ -- 157
-write$ -- 1214
+while$ -- 355
+width$ -- 158
+write$ -- 1223
 (There were 58 error messages)

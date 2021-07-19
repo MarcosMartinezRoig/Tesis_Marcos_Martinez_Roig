@@ -2,8 +2,8 @@
 \contentsline {chapter}{Acknowledgements}{III}{chapter*.3}
 \contentsline {chapter}{Abstract}{VII}{chapter*.4}
 \contentsline {chapter}{Nomenclature and Acronyms}{IX}{chapter*.5}
-\contentsline {chapter}{List of Figures}{XXX}{chapter*.7}
-\contentsline {chapter}{List of Tables}{XXXIII}{chapter*.8}
+\contentsline {chapter}{List of Figures}{XXXI}{chapter*.7}
+\contentsline {chapter}{List of Tables}{XXXV}{chapter*.8}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Tritium and Nuclear Energy}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Tritium Properties and Radiological Hazards}{9}{section.1.2}
@@ -20,64 +20,65 @@
 \contentsline {subsection}{\numberline {3.2.3}Light Detection in Photosensors}{45}{subsection.3.2.3}
 \contentsline {subsubsection}{Photoelectron Multiplier Tubs (PMTs)}{47}{section*.32}
 \contentsline {subsubsection}{Silicon Photoelectron Multiplier Array (SiPMs array)}{51}{section*.36}
-\contentsline {subsubsection}{Comparison Photosensors}{59}{section*.41}
-\contentsline {subsection}{\numberline {3.2.4}Electronic Readout}{60}{subsection.3.2.4}
-\contentsline {subsubsection}{Electronic Readout for PMTs}{60}{section*.42}
-\contentsline {subsubsection}{Electronic Readout for SiPMs}{67}{section*.47}
-\contentsline {section}{\numberline {3.3}Ultrapure Water System}{72}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Introduction to the Water System}{72}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Water System Set Up}{72}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Background Rejection System}{75}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Passive Shield (Lead)}{77}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Active Shield (Cosmic Veto)}{78}{subsection.3.4.2}
-\contentsline {chapter}{\numberline {4}TRITIUM Detector R\&D}{83}{chapter.4}
-\contentsline {section}{\numberline {4.1}Characetrization of the Scintillating Fibers}{84}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Conditioning Process}{84}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Automatic Polishing Machine}{88}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Characterization of Scintillating Fibers}{93}{subsection.4.1.3}
-\contentsline {subsubsection}{Preparation of the Characterization System.}{96}{section*.70}
-\contentsline {subsubsection}{Results of the Characterization of Scintillating Fibers}{99}{section*.74}
-\contentsline {subsection}{\numberline {4.1.4}Cleaning Process for Scintillating Fibers}{107}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Characterization of the SiPM}{109}{section.4.2}
-\contentsline {section}{\numberline {4.3}Characterization of the Ultrapure Water System}{113}{section.4.3}
-\contentsline {section}{\numberline {4.4}Characterization of the Cosmic Veto}{116}{section.4.4}
-\contentsline {chapter}{\numberline {5}TRITIUM Monitor Prototypes}{125}{chapter.5}
-\contentsline {section}{\numberline {5.1}Preliminary Prototypes}{126}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}TRITIUM-IFIC 0}{126}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}TRITIUM-IFIC 1}{129}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Latest TRITIUM Prototypes}{134}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}TRITIUM-Aveiro 0}{134}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}TRITIUM-IFIC 2}{138}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Modular TRITIUM Detector}{143}{section.5.3}
-\contentsline {chapter}{\numberline {6}Simulations}{147}{chapter.6}
-\contentsline {section}{\numberline {6.1}Geant4 Environment}{147}{section.6.1}
-\contentsline {section}{\numberline {6.2}Description of the Simulations Performed}{149}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Tritiated Water Source}{149}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Energy Deposition and Light Output of Scintillating Fibers}{150}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Fiber Length}{151}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Fiber Diameter}{152}{subsection.6.2.4}
-\contentsline {subsection}{\numberline {6.2.5}Tritium-IFIC 2}{153}{subsection.6.2.5}
-\contentsline {subsection}{\numberline {6.2.6}Lead Shielding and Cosmic Veto}{155}{subsection.6.2.6}
-\contentsline {chapter}{\numberline {7}TRITIUM Monitor Results and Discussion}{157}{chapter.7}
-\contentsline {section}{\numberline {7.1}Results from Laboratory Measurements}{157}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Experimental Results of TRITIUM-IFIC 0}{158}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Experimental Results of TRITIUM-IFIC 1}{160}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Experimental Results of TRITIUM-Aveiro 0}{163}{subsection.7.1.3}
-\contentsline {subsection}{\numberline {7.1.4}Experimental Results of TRITIUM-IFIC 2}{170}{subsection.7.1.4}
-\contentsline {section}{\numberline {7.2}Experimental Results in Arrocampo Dam}{175}{section.7.2}
-\contentsline {chapter}{\numberline {8}Results of the TRITIUM Simulations}{177}{chapter.8}
-\contentsline {section}{\numberline {8.1}Optimization of the TRITIUM Monitor Design}{178}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Optimization of the Tritiated Water Source}{178}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Simulation of the Output Light of Scintillating Fibers}{180}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}Optimization of the Scintillating Fiber Length}{183}{subsection.8.1.3}
-\contentsline {subsection}{\numberline {8.1.4}Optimization Scintillating Fiber Diameter}{185}{subsection.8.1.4}
-\contentsline {subsection}{\numberline {8.1.5}Effect of the PMMA windows}{187}{subsection.8.1.5}
-\contentsline {section}{\numberline {8.2}Simulation Results of TRITIUM Monitor}{187}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Simulation Results of TRITIUM-IFIC 2}{189}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Simulation Results of Background Rejection System}{195}{subsection.8.2.2}
-\contentsline {chapter}{\numberline {9}Conclusions and Prospects}{197}{chapter.9}
-\contentsline {chapter}{Appendices}{}{section*.140}
-\contentsline {chapter}{\numberline {A}Electronical Schemes of PCBs Used for SiPM Characterization}{207}{appendix.A}
-\contentsline {chapter}{\numberline {B}Ultrapure Water System}{209}{appendix.B}
-\contentsline {chapter}{\numberline {C}Preparation of Liquid Radioactive Source of Tritium}{213}{appendix.C}
-\contentsline {chapter}{\numberline {D}Electronic System of TRITIUM-Aveiro 0 prototype}{215}{appendix.D}
+\contentsline {subsubsection}{Comparison Photosensors}{60}{section*.42}
+\contentsline {subsection}{\numberline {3.2.4}Electronic Readout}{61}{subsection.3.2.4}
+\contentsline {subsubsection}{Electronic Readout for PMTs}{61}{section*.43}
+\contentsline {subsubsection}{Electronic Readout for SiPMs}{68}{section*.48}
+\contentsline {section}{\numberline {3.3}Ultrapure Water System}{73}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Introduction to the Water System}{73}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Water System Set Up}{75}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Background Rejection System}{77}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Passive Shield (Lead)}{79}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Active Shield (Cosmic Veto)}{81}{subsection.3.4.2}
+\contentsline {chapter}{\numberline {4}TRITIUM Detector R\&D}{87}{chapter.4}
+\contentsline {section}{\numberline {4.1}Characetrization of the Scintillating Fibers}{88}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Conditioning Process}{88}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Automatic Polishing Machine}{92}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Characterization of Scintillating Fibers}{97}{subsection.4.1.3}
+\contentsline {subsubsection}{Preparation of the Characterization System.}{100}{section*.71}
+\contentsline {subsubsection}{Results of the Characterization of Scintillating Fibers}{103}{section*.75}
+\contentsline {subsection}{\numberline {4.1.4}Cleaning Process for Scintillating Fibers}{111}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Characterization of the SiPM}{113}{section.4.2}
+\contentsline {section}{\numberline {4.3}Characterization of the Ultrapure Water System}{119}{section.4.3}
+\contentsline {section}{\numberline {4.4}Characterization of the Cosmic Veto}{122}{section.4.4}
+\contentsline {chapter}{\numberline {5}TRITIUM Monitor Prototypes}{131}{chapter.5}
+\contentsline {section}{\numberline {5.1}Preliminary Prototypes}{132}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}TRITIUM-IFIC 0}{132}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}TRITIUM-IFIC 1}{135}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Latest TRITIUM Prototypes}{140}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}TRITIUM-Aveiro 0}{140}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}TRITIUM-IFIC 2}{144}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Modular TRITIUM Detector}{149}{section.5.3}
+\contentsline {chapter}{\numberline {6}Simulations}{153}{chapter.6}
+\contentsline {section}{\numberline {6.1}Geant4 Environment}{153}{section.6.1}
+\contentsline {section}{\numberline {6.2}Description of the Simulations Performed}{155}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Tritiated Water Source}{155}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Energy Deposition and Light Output of Scintillating Fibers}{156}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Fiber Length}{157}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Fiber Diameter}{158}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Tritium-IFIC 2}{159}{subsection.6.2.5}
+\contentsline {subsection}{\numberline {6.2.6}Lead Shielding and Cosmic Veto}{161}{subsection.6.2.6}
+\contentsline {chapter}{\numberline {7}TRITIUM Monitor Results and Discussion}{163}{chapter.7}
+\contentsline {section}{\numberline {7.1}Results from Laboratory Measurements}{163}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Experimental Results of TRITIUM-IFIC 0}{164}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Experimental Results of TRITIUM-IFIC 1}{166}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Experimental Results of TRITIUM-Aveiro 0}{169}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Experimental Results of TRITIUM-IFIC 2}{176}{subsection.7.1.4}
+\contentsline {section}{\numberline {7.2}Experimental Results in Arrocampo Dam}{181}{section.7.2}
+\contentsline {chapter}{\numberline {8}Results of the TRITIUM Simulations}{183}{chapter.8}
+\contentsline {section}{\numberline {8.1}Optimization of the TRITIUM Monitor Design}{184}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Optimization of the Tritiated Water Source}{184}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Simulation of the Output Light of Scintillating Fibers}{186}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Optimization of the Scintillating Fiber Length}{189}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.4}Optimization Scintillating Fiber Diameter}{191}{subsection.8.1.4}
+\contentsline {subsection}{\numberline {8.1.5}Effect of the PMMA windows}{193}{subsection.8.1.5}
+\contentsline {section}{\numberline {8.2}Simulation Results of TRITIUM Monitor}{193}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Simulation Results of TRITIUM-IFIC 2}{195}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Simulation Results of Background Rejection System}{201}{subsection.8.2.2}
+\contentsline {chapter}{\numberline {9}Conclusions and Prospects}{203}{chapter.9}
+\contentsline {chapter}{Appendices}{}{section*.141}
+\contentsline {chapter}{\numberline {A}Electronical Schemes of PCBs Used for SiPM Characterization}{213}{appendix.A}
+\contentsline {chapter}{\numberline {B}Electronic Readout for SiPM 13360-6075 Model}{215}{appendix.B}
+\contentsline {chapter}{\numberline {C}Ultrapure Water System}{221}{appendix.C}
+\contentsline {chapter}{\numberline {D}Preparation of Liquid Radioactive Source of Tritium}{225}{appendix.D}
+\contentsline {chapter}{\numberline {E}Electronic System of TRITIUM-Aveiro 0 prototype}{227}{appendix.E}
