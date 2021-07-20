@@ -9,10 +9,10 @@ The SiPM is formed by a matrix of APDs conected in parallel which are photodiode
 \end{figure}
  
 
-The voltage at which the SiPM starts operating in geiger mode is called the breakdown voltage, $V_ {BR}$. At lower voltages SiPM works in proportional mode in which the signal of the pixel is proportional to the energy deposited but its gain is lower than in Geiger mode. The experimental measurement of the breakdown voltage, described in section \ref{sec:CharacterizationSiPM}, is an important measurement to characterize a SiPM since many properties of the SiPM depends on the overvoltage, $V_{ov}$. The overvoltage is the voltage applied to the SiPM above their own breakdown voltage and this is expressed as:
+The voltage at which the SiPM starts operating in geiger mode is called the breakdown voltage, $V_ {BD}$. At lower voltages SiPM works in proportional mode in which the signal of the pixel is proportional to the energy deposited but its gain is lower than in Geiger mode. The experimental measurement of the breakdown voltage, described in section \ref{sec:CharacterizationSiPM}, is an important measurement to characterize a SiPM since many properties of the SiPM depends on the overvoltage, $V_{ov}$. The overvoltage is the voltage applied to the SiPM above their own breakdown voltage and this is expressed as:
 
 \begin{equation}
-V_{bias}=V_{BR}+V_{OV}
+V_{bias}=V_{BD}+V_{OV}
 \label{overvoltage}
 \end{equation}
 
@@ -59,7 +59,7 @@ In section \ref{sec:CharacterizationSiPM} the capacitance $C_d$ and the quenchin
 
 SiPM gain is defined as the charge produced when a single pixel is fired. This can be measured experimentally from its Single Photon Spectrum, SPS, which is the spectrum obtained when the SiPM output signal is integred (charge) and histogrammed. The SiPM gain is typically of the order of $10^6$. The experimental measurement of the SPS and the calculation of the gain is presented in section \ref{sec:CharacterizationSiPM}.
 
-It has to be taken into account that the SiPM gain is highly dependent on temperature, which cannot be controlled with sufficient sensitivity (less than $1\degree$C) in the final emplacement of the TRITIUM monitor. Therefore, a gain stabilization method was developed to compensate for the temperature effect. This method is detailed and tested in section \ref{sec:CharacterizationSiPM}.
+It has to be taken into account that the SiPM gain is highly dependent on temperature, which cannot be controlled with sufficient sensitivity (less than $1\celsius$) in the final emplacement of the TRITIUM monitor. Therefore, a gain stabilization method was developed to compensate for the temperature effect. This method is detailed and tested in section \ref{sec:CharacterizationSiPM}.
 
 Other important parameter for a SiPM used in the TRITIUM project is de photon detection efficiency, PDE. This is defined as the probability of recording the electrical pulse produced by a photon that hit the SiPM. The PDE of a SiPM consists of a product of three different paramenters, the fill factor ($FF$), which is the ratio between the active area of the SiPM and the total area, the quantum efficiency for photoelectron conversion ($QE$), which is the probability that a incident photon generate an electron-hole pair, and the probability that the generated electron or hole produces an avalanche, $P_{av}$.
 
@@ -68,9 +68,9 @@ PDE=FF \times QE \times P_{av}
 \label{PDE_SiPM}
 \end{equation}
 
-Like PMTs, sometimes the SiPM produces pulses that are unrelated with any incident photon, called dark current rate. The dark current rate depends on the temperature and, at temperatures around $25~\degree$, these pulses are mainly produced by the thermal generation, which is produced when a free electron or hole start an avalanche. This signal is identical to the signal produced due to a detection of a single photon so they cannot be differentiated. Therefore, it is very important to determinate their importance on the tritium signal.
+Like PMTs, sometimes the SiPM produces pulses that are unrelated with any incident photon, called dark current rate. The dark current rate depends on the temperature and, at temperatures around $25\celsius$, these pulses are mainly produced by the thermal generation, which is produced when a free electron or hole start an avalanche. This signal is identical to the signal produced due to a detection of a single photon so they cannot be differentiated. Therefore, it is very important to determinate their importance on the tritium signal.
 
-Electrons contained in an avalanche of a SiPM pixel emit secondary optical photons\footnote{Around 20 secondary optical photons are emitted for SiPMs with gains of the order of $10^6$ \cite{CrosstalkProbability}}. These optical photons can reach other pixels, producing new avalanches. This effect, called optical crosstalk, produces signals that are larger than those corresponding to the detected event, producing erroneous information about the number of photons read. The probability of producing an optical crosstalk event depends on the number of electrons produced in the avalanche (gain) and, therefore, depends on the temperature and the overvoltage. This is typically less than $10\%$ at the recommended overvoltage and temperatures around $25\degree$C.
+Electrons contained in an avalanche of a SiPM pixel emit secondary optical photons\footnote{Around 20 secondary optical photons are emitted for SiPMs with gains of the order of $10^6$ \cite{CrosstalkProbability}}. These optical photons can reach other pixels, producing new avalanches. This effect, called optical crosstalk, produces signals that are larger than those corresponding to the detected event, producing erroneous information about the number of photons read. The probability of producing an optical crosstalk event depends on the number of electrons produced in the avalanche (gain) and, therefore, depends on the temperature and the overvoltage. This is typically less than $10\%$ at the recommended overvoltage and temperatures around $25\celsius$.
 
 The PED, dark count rate and Crosstalk are not experimentaly measured yet since a different setup, shown in reference \cite{PDEStudy}, is needed. These parameters will be measured for the SiPM model used in the final version of TRITIUM monitor.
 
@@ -81,27 +81,27 @@ The initial cadidate for TRITIUM project and the one which was characterized is 
 \begin{table}[htbp]
 %%\centering.
 \begin{center}
-\begin{tabular}{|c|c|}
+\begin{tabular}{|c|c|c|}
 \hline
-Parameter & Numerical value \\
+Parameter & S13360-1375 & S13360-6075 \\
 \hline \hline \hline
-Serie & $S13360$ \\ \hline
-Model & $1375$ \\ \hline
-Pixel Pitch ($\mu\meter$) & $75$ \\ \hline
-Effective photosensitive area ($\mm^2$) & $1.3 \times 1.3$ \\ \hline
-Number of pixels & $285$ \\ \hline
-Fill factor & $82\%$ \\ \hline
-Refractive index of windows material & $1.55$ \\ \hline
-Operating temperature range ($\degree C$)& $[-20,60]$ \\ \hline
-Spectral response range, $\lambda$ ($\nano\meter$) & $[320, 900]$ \\ \hline
-Peak sensitivity wavelength, $\lambda_p$ ($\nano\meter$) & $450$ \\ \hline
-PhotoDetection Efficiency, PDE, $\lambda=\lambda_p$ ($\%$) & $50$ \\ \hline
-Dark counts, Typical/Maximum (kcps) & $90/270$ \\ \hline
-Terminal capacitance, $C_t$ ($\pico\farad$) & $60$ \\ \hline
-Gain, M, & $4 \cdot{} 10^6$ \\ \hline
-Breakdown Voltage, $V_{BR}$ ($\volt$) & $53$ \\ \hline
-Cross talk probability($\%$) & $7$ \\ \hline
-Temperature coefficient $\Delta TV_{op}$ (m$\volt/\degree C$) & $54$ \\ \hline
+Serie & $S13360$ & $S13360$ \\ \hline
+Model & $1375$ & $16075$ \\ \hline
+Pixel Pitch ($\mu\meter$) & $75$ & $75$ \\ \hline
+Effective photosensitive area ($\mm^2$) & $1.3 \times 1.3$ & $6.0 \times 6.0$ \\ \hline
+Number of pixels & $285$ & $6400$ \\ \hline
+Fill factor & $82\%$ & $82\%$ \\ \hline
+Refractive index of windows material & $1.55$ & $1.55$ \\ \hline
+Operating temperature range ($\celsius$) & $[-20,60]$ & $[-20,60]$ \\ \hline
+Spectral response range, $\lambda$ ($\nano\meter$) & $[320, 900]$ & $[320, 900]$ \\ \hline
+Peak sensitivity wavelength, $\lambda_p$ ($\nano\meter$) & $450$ & $450$ \\ \hline
+PhotoDetection Efficiency, PDE, $\lambda=\lambda_p$ ($\%$) & $50$ & $50$ \\ \hline
+Dark counts, Typical/Maximum (kcps) & $90/270$ & $2000/6000$ \\ \hline
+Terminal capacitance, $C_t$ ($\pico\farad$) & $60$ & $1280$ \\ \hline
+Gain, M, & $4 \cdot{} 10^6$ & $4 \cdot{} 10^6$ \\ \hline
+Breakdown Voltage, $V_{BD}$ ($\volt$) & $50,97$ & $53$ \\ \hline
+Cross talk probability($\%$) & $7$ & $7$ \\ \hline
+Temperature coefficient $\Delta TV_{op}$ (m$\volt/\celsius$) & $54$ & $54$ \\ \hline
 \end{tabular}
 \caption{Characteristics of SiPM S13360-1375 from Hamamatsu Photonics \cite{DataSheetHammamatsu_1_SiPM_1375}.}
 \label{tab:PropertiesOfSiPM1375}
@@ -118,6 +118,6 @@ This model was also chosen because, as can be seen in Figure \ref{fig:PDESiPM}, 
 \caption{Photon detection efficiency (PDE) spectrum of SiPM S13360-**75 models.\label{fig:PDESiPM}}
 \end{figure}
 
-This model was later replaced by the model S13360-6075 from Hamamatsu Photonics \cite{DataSheetHammamatsu_1_SiPM_75}. The only difference between both is its higher active area ($6\times6~\mm^2$) with which larger active area of scintillating fibers can be read. This is achieved at the price of a higher dark count rate (typically 2 Mcps) and larger crosstalk probability ($7\%$). In addition, commercial matrices are available, covering a total size of $24\times24~\mm^2$.
+This model was later replaced by the model S13360-6075 from Hamamatsu Photonics \cite{DataSheetHammamatsu_1_SiPM_75}. The only difference between both is its higher active area ($6\times6~\mm^2$) with which larger active area of scintillating fibers can be read. This improvement is achieved at the price of a higher dark count rate (typically 2 Mcps). In addition, commercial matrices are available, covering a total size of $24\times24~\mm^2$.
 
 Although TRITIUM detector uses whole SiPM matrices, the caracterization has been carried out first at the level of a single SiPM to learn about the values of the SiPM parameters and to test the gain control method. A new experimental setup, detailed in appendix \ref{}, is already  prepared to perform a complete characterization of the SiPM model S13360-6075.
