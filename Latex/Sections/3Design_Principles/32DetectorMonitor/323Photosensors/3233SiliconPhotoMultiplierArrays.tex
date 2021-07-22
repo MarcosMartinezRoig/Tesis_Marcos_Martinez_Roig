@@ -21,7 +21,7 @@ These APDs, called pixels when they are part of a SiPM, are connected in paralle
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.6]{3DesignPrinciples/32Tritium_detector/Several_SiPM_pulses.png}
-\caption{Using persistence on the oscilloscope to show several pulses with different heights. Each height associated with a different number of  SiPM pixels lit at the same time.\label{fig:PulsesOfSiPM}}
+\caption{SiPM output pulses displayed on oscilloscope, model MSO44X from Tektronix \cite{Oscilloscope}. To easily observe several heights of these pulses, associated with a different number of  SiPM pixels fired at the same time, the persistence function of the oscilloscope is used.\label{fig:PulsesOfSiPM}}
 \end{figure}
 
 The size of a SiPM pixel has to be very small\footnote{Pixel sizes for commercial SiPMs are $25$, $50$ or $75\mu\meter$ \cite{DataSheetHammamatsu_1_SiPM_25}, \cite{DataSheetHammamatsu_1_SiPM_50}, \cite{DataSheetHammamatsu_1_SiPM_75}} to make sure that, for low enough photon densities to be detected, only one photon is detected in each pixel. If the photon density is high (typically several thousand of photons per event) more than one photon will be detected by the same pixel, generating an output signal equal to one detected photon. This effect, known as saturation, produces a loss of linearity of the output signal. However, this effect is not important for the TRITIUM detector since its scintillating signals are futher away from producing it. %The experimental measurements of this effect, which have been done for our SiPMs, is shown in section \ref{sec:CharacterizationSiPM}. 
@@ -120,4 +120,4 @@ This model was also chosen because, as can be seen in Figure \ref{fig:PDESiPM}, 
 
 This model was later replaced by the model S13360-6075 from Hamamatsu Photonics \cite{DataSheetHammamatsu_1_SiPM_75}. The only difference between both is its higher active area ($6\times6~\mm^2$) with which larger active area of scintillating fibers can be read. This improvement is achieved at the price of a higher dark count rate (typically 2 Mcps). In addition, commercial matrices are available, covering a total size of $24\times24~\mm^2$.
 
-Although TRITIUM detector uses whole SiPM matrices, the caracterization has been carried out first at the level of a single SiPM to learn about the values of the SiPM parameters and to test the gain control method. A new experimental setup, detailed in appendix \ref{}, is already  prepared to perform a complete characterization of the SiPM model S13360-6075.
+Although TRITIUM detector uses whole SiPM matrices, the caracterization has been carried out first at the level of a single SiPM to learn about the values of the SiPM parameters and to test the gain control method. A new experimental setup, detailed in appendix \ref{App:ElectronicReadoutSiPM}, is already  prepared to perform a complete characterization of the SiPM model S13360-6075.

@@ -41,11 +41,13 @@
 \citation{DataSheetPMTs}
 \citation{DataSheetPMTs}
 \citation{OSI}
+\citation{Oscilloscope}
 \citation{DataSheetSensL}
 \citation{PETSYS}
 \citation{HardCosmicMuonRatePlot}
 \citation{ScintillatorVeto}
 \citation{WettingProperty}
+\citation{OscilloscopeIFIMED}
 \citation{ExperimentalPaperCarlos}
 \citation{ExperimentalPaperCarlos}
 \citation{ExperimentalPaperCarlos}
@@ -355,11 +357,13 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces Scheme of a APD and electrical symbol used.~\cite  {OSI}\relax }}{52}{figure.caption.37}}
 \newlabel{fig:SchemeAPD}{{3.10}{52}{Scheme of a APD and electrical symbol used.~\cite {OSI}\relax }{figure.caption.37}{}}
 \newlabel{overvoltage}{{3.10}{52}{Silicon Photoelectron Multiplier Array (SiPMs array)}{equation.3.2.10}{}}
+\citation{Oscilloscope}
+\citation{Oscilloscope}
 \citation{DataSheetHammamatsu_1_SiPM_25}
 \citation{DataSheetHammamatsu_1_SiPM_50}
 \citation{DataSheetHammamatsu_1_SiPM_75}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces Using persistence on the oscilloscope to show several pulses with different heights. Each height associated with a different number of SiPM pixels lit at the same time.\relax }}{53}{figure.caption.38}}
-\newlabel{fig:PulsesOfSiPM}{{3.11}{53}{Using persistence on the oscilloscope to show several pulses with different heights. Each height associated with a different number of SiPM pixels lit at the same time.\relax }{figure.caption.38}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces SiPM output pulses displayed on oscilloscope, model MSO44X from Tektronix \cite  {Oscilloscope}. To easily observe several heights of these pulses, associated with a different number of SiPM pixels fired at the same time, the persistence function of the oscilloscope is used.\relax }}{53}{figure.caption.38}}
+\newlabel{fig:PulsesOfSiPM}{{3.11}{53}{SiPM output pulses displayed on oscilloscope, model MSO44X from Tektronix \cite {Oscilloscope}. To easily observe several heights of these pulses, associated with a different number of SiPM pixels fired at the same time, the persistence function of the oscilloscope is used.\relax }{figure.caption.38}{}}
 \citation{DataSheetSensL}
 \citation{DataSheetSensL}
 \newlabel{subfig:ElectricModelSiPM}{{3.12a}{54}{Photon Detection Efficiency, PDE.\relax }{figure.caption.39}{}}
@@ -647,432 +651,450 @@
 \citation{DataSheetKeithley6487}
 \newlabel{QuenchingResistance}{{4.6}{115}{Characterization of the SiPM}{equation.4.2.6}{}}
 \citation{LEDRLT}
+\citation{OscilloscopeIFIMED}
+\citation{OscilloscopeIFIMED}
 \newlabel{BreakDownVoltageFunction}{{4.7}{116}{Characterization of the SiPM}{equation.4.2.7}{}}
 \citation{ROOTWebPage}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.19}{\ignorespaces Above: Trigger signal (green) and SiPM output pulses (yellow) diplayed on the oscilloscope, model WwaveRunner 625Zi from TELEDYNE LECROY \cite  {OscilloscopeIFIMED}, in which the persistence function is used. Bottom: SPS spectrum obtained by integring and histograming the SiPM output pulses. This measurement was done at $25\ensuremath  {\@text  {\degreecelsius }}$, $V_{bias}=53.98$ and humidity of $60\%$. \relax }}{117}{figure.caption.87}}
+\newlabel{fig:OutputPulses_SPSspectrum}{{4.19}{117}{Above: Trigger signal (green) and SiPM output pulses (yellow) diplayed on the oscilloscope, model WwaveRunner 625Zi from TELEDYNE LECROY \cite {OscilloscopeIFIMED}, in which the persistence function is used. Bottom: SPS spectrum obtained by integring and histograming the SiPM output pulses. This measurement was done at $25\celsius $, $V_{bias}=53.98$ and humidity of $60\%$. \relax }{figure.caption.87}{}}
 \newlabel{SiPMGain}{{4.8}{117}{Characterization of the SiPM}{equation.4.2.8}{}}
-\newlabel{SiPMGainVSTempV}{{4.2}{119}{Characterization of the SiPM}{equation.4.2.8}{}}
-\newlabel{SiPMGain_Capacitance}{{4.9}{119}{Characterization of the SiPM}{equation.4.2.9}{}}
-\newlabel{Gain_compensationVariations}{{4.2}{119}{Characterization of the SiPM}{equation.4.2.9}{}}
-\newlabel{Gain_compensation0}{{4.2}{120}{Characterization of the SiPM}{equation.4.2.9}{}}
-\newlabel{Gain_compensationIntegring}{{4.2}{120}{Characterization of the SiPM}{equation.4.2.9}{}}
-\newlabel{Gain_compensationReference}{{4.2}{120}{Characterization of the SiPM}{equation.4.2.9}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Characterization of the Ultrapure Water System}{121}{section.4.3}}
-\newlabel{sec:CharacterizationUltraPureWaterSystem}{{4.3}{121}{Characterization of the Ultrapure Water System}{section.4.3}{}}
+\newlabel{subfig:GaussianFitSiPMs}{{4.20a}{118}{\relax }{figure.caption.88}{}}
+\newlabel{sub@subfig:GaussianFitSiPMs}{{a}{118}{\relax }{figure.caption.88}{}}
+\newlabel{subfig:LinearFitSiPMGain}{{4.20b}{118}{\relax }{figure.caption.88}{}}
+\newlabel{sub@subfig:LinearFitSiPMGain}{{b}{118}{\relax }{figure.caption.88}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.20}{\ignorespaces ROOT analysis performed to obtian the SiPM gain. a) Fit of the SPS spectrum to various Gaussian functions. b) Charge of succesive number of pixels as a function of the number of pixels fired. This experience was carried out at $T=25\ensuremath  {\@text  {\degreecelsius }}$, $V_{bias}=53.98~\ensuremath  {\@text  {V}}$ and humidity of $H=45\%$\relax }}{118}{figure.caption.88}}
+\newlabel{fig:ROOTAnalysisSiPMGain}{{4.20}{118}{ROOT analysis performed to obtian the SiPM gain. a) Fit of the SPS spectrum to various Gaussian functions. b) Charge of succesive number of pixels as a function of the number of pixels fired. This experience was carried out at $T=25\celsius $, $V_{bias}=53.98~\volt $ and humidity of $H=45\%$\relax }{figure.caption.88}{}}
+\newlabel{subfig:SiPMGainvsTemperature}{{4.21a}{119}{\relax }{figure.caption.89}{}}
+\newlabel{sub@subfig:SiPMGainvsTemperature}{{a}{119}{\relax }{figure.caption.89}{}}
+\newlabel{subfig:SiPMGainvsBiasVoltage}{{4.21b}{119}{\relax }{figure.caption.89}{}}
+\newlabel{sub@subfig:SiPMGainvsBiasVoltage}{{b}{119}{\relax }{figure.caption.89}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.21}{\ignorespaces Dependence of the SiPM gain with the a) Temperature b) Bias votlage.\relax }}{119}{figure.caption.89}}
+\newlabel{fig:SiPMGainDependance}{{4.21}{119}{Dependence of the SiPM gain with the a) Temperature b) Bias votlage.\relax }{figure.caption.89}{}}
+\newlabel{SiPMGainVSTempV}{{4.2}{120}{Characterization of the SiPM}{figure.caption.89}{}}
+\newlabel{SiPMGain_Capacitance}{{4.9}{120}{Characterization of the SiPM}{equation.4.2.9}{}}
+\newlabel{Gain_compensationVariations}{{4.2}{120}{Characterization of the SiPM}{equation.4.2.9}{}}
+\newlabel{Gain_compensation0}{{4.2}{121}{Characterization of the SiPM}{equation.4.2.9}{}}
+\newlabel{Gain_compensationIntegring}{{4.2}{121}{Characterization of the SiPM}{equation.4.2.9}{}}
+\newlabel{Gain_compensationReference}{{4.2}{121}{Characterization of the SiPM}{equation.4.2.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.22}{\ignorespaces SiPM gain as a function of the temperature. The Stabilization method is applied in this experience. \relax }}{122}{figure.caption.90}}
+\newlabel{fig:SiPMGainStabilization}{{4.22}{122}{SiPM gain as a function of the temperature. The Stabilization method is applied in this experience. \relax }{figure.caption.90}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Characterization of the Ultrapure Water System}{122}{section.4.3}}
+\newlabel{sec:CharacterizationUltraPureWaterSystem}{{4.3}{122}{Characterization of the Ultrapure Water System}{section.4.3}{}}
 \citation{TurbiditySystem}
-\@writefile{lot}{\contentsline {table}{\numberline {4.7}{\ignorespaces Chemical components and turbidity measured in the raw water sample.\relax }}{122}{table.caption.87}}
-\newlabel{tab:ChemicalComponentsRawWater}{{4.7}{122}{Chemical components and turbidity measured in the raw water sample.\relax }{table.caption.87}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.8}{\ignorespaces Measurements of the conductivity for several samples of water.\relax }}{123}{table.caption.88}}
-\newlabel{tab:ConductivityValues}{{4.8}{123}{Measurements of the conductivity for several samples of water.\relax }{table.caption.88}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.9}{\ignorespaces Measurements of the tritium activity for several samples of both, raw and pure water.\relax }}{124}{table.caption.89}}
-\newlabel{tab:ActivityTritiumValues}{{4.9}{124}{Measurements of the tritium activity for several samples of both, raw and pure water.\relax }{table.caption.89}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Characterization of the Cosmic Veto}{124}{section.4.4}}
-\newlabel{sec:TritiumActiveVeto}{{4.4}{124}{Characterization of the Cosmic Veto}{section.4.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.19}{\ignorespaces Reference points used for veto mapping.\relax }}{125}{figure.caption.90}}
-\newlabel{fig:MappingPoints}{{4.19}{125}{Reference points used for veto mapping.\relax }{figure.caption.90}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.7}{\ignorespaces Chemical components and turbidity measured in the raw water sample.\relax }}{124}{table.caption.91}}
+\newlabel{tab:ChemicalComponentsRawWater}{{4.7}{124}{Chemical components and turbidity measured in the raw water sample.\relax }{table.caption.91}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.8}{\ignorespaces Measurements of the conductivity for several samples of water.\relax }}{124}{table.caption.92}}
+\newlabel{tab:ConductivityValues}{{4.8}{124}{Measurements of the conductivity for several samples of water.\relax }{table.caption.92}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.9}{\ignorespaces Measurements of the tritium activity for several samples of both, raw and pure water.\relax }}{125}{table.caption.93}}
+\newlabel{tab:ActivityTritiumValues}{{4.9}{125}{Measurements of the tritium activity for several samples of both, raw and pure water.\relax }{table.caption.93}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Characterization of the Cosmic Veto}{126}{section.4.4}}
+\newlabel{sec:TritiumActiveVeto}{{4.4}{126}{Characterization of the Cosmic Veto}{section.4.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.23}{\ignorespaces Reference points used for veto mapping.\relax }}{126}{figure.caption.94}}
+\newlabel{fig:MappingPoints}{{4.23}{126}{Reference points used for veto mapping.\relax }{figure.caption.94}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.24}{\ignorespaces Measurement of a radioactive source $\ce {^{137}Cs}$ with the TRITIUM cosmic detector with and without its coverage.\relax }}{127}{figure.caption.95}}
+\newlabel{fig:VetoCoverageImprovement}{{4.24}{127}{Measurement of a radioactive source $\ce {^{137}Cs}$ with the TRITIUM cosmic detector with and without its coverage.\relax }{figure.caption.95}{}}
+\newlabel{subfig:MappingVeto1}{{4.25a}{128}{Mapping of the first TRITIUM cosmic detector.\relax }{figure.caption.96}{}}
+\newlabel{sub@subfig:MappingVeto1}{{a}{128}{Mapping of the first TRITIUM cosmic detector.\relax }{figure.caption.96}{}}
+\newlabel{subfig:MappingVeto2}{{4.25b}{128}{Mapping of the second TRITIUM cosmic detector.\relax }{figure.caption.96}{}}
+\newlabel{sub@subfig:MappingVeto2}{{b}{128}{Mapping of the second TRITIUM cosmic detector.\relax }{figure.caption.96}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.25}{\ignorespaces Bidimensional graph of the count rate (Mapping) measured with two different TRITIUM cosmic detectors using a radioactive source of $\ce {^{60}Co}$.\relax }}{128}{figure.caption.96}}
+\newlabel{fig:MappingVetos}{{4.25}{128}{Bidimensional graph of the count rate (Mapping) measured with two different TRITIUM cosmic detectors using a radioactive source of $\ce {^{60}Co}$.\relax }{figure.caption.96}{}}
 \citation{ScalerDataSheet}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.20}{\ignorespaces Measurement of a radioactive source $\ce {^{137}Cs}$ with the TRITIUM cosmic detector with and without its coverage.\relax }}{126}{figure.caption.91}}
-\newlabel{fig:VetoCoverageImprovement}{{4.20}{126}{Measurement of a radioactive source $\ce {^{137}Cs}$ with the TRITIUM cosmic detector with and without its coverage.\relax }{figure.caption.91}{}}
-\newlabel{subfig:MappingVeto1}{{4.21a}{127}{Mapping of the first TRITIUM cosmic detector.\relax }{figure.caption.92}{}}
-\newlabel{sub@subfig:MappingVeto1}{{a}{127}{Mapping of the first TRITIUM cosmic detector.\relax }{figure.caption.92}{}}
-\newlabel{subfig:MappingVeto2}{{4.21b}{127}{Mapping of the second TRITIUM cosmic detector.\relax }{figure.caption.92}{}}
-\newlabel{sub@subfig:MappingVeto2}{{b}{127}{Mapping of the second TRITIUM cosmic detector.\relax }{figure.caption.92}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.21}{\ignorespaces Bidimensional graph of the count rate (Mapping) measured with two different TRITIUM cosmic detectors using a radioactive source of $\ce {^{60}Co}$.\relax }}{127}{figure.caption.92}}
-\newlabel{fig:MappingVetos}{{4.21}{127}{Bidimensional graph of the count rate (Mapping) measured with two different TRITIUM cosmic detectors using a radioactive source of $\ce {^{60}Co}$.\relax }{figure.caption.92}{}}
-\newlabel{subfig:HVPLateauVetos}{{4.22a}{129}{Counting rate as a function of high voltage for three different thresholds in semilogaritmic scale.\relax }{figure.caption.93}{}}
-\newlabel{sub@subfig:HVPLateauVetos}{{a}{129}{Counting rate as a function of high voltage for three different thresholds in semilogaritmic scale.\relax }{figure.caption.93}{}}
-\newlabel{subfig:ThresholdsPlateau}{{4.22b}{129}{Counting rate as a function of threshold for three different high voltage in semilogaritmic scale.\relax }{figure.caption.93}{}}
-\newlabel{sub@subfig:ThresholdsPlateau}{{b}{129}{Counting rate as a function of threshold for three different high voltage in semilogaritmic scale.\relax }{figure.caption.93}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.22}{\ignorespaces Counting rate as a function of high voltage for fixed thresholds and as a function of thresholds for fixed high voltage.\relax }}{129}{figure.caption.93}}
-\newlabel{fig:HVandThresholdsPLateaus}{{4.22}{129}{Counting rate as a function of high voltage for fixed thresholds and as a function of thresholds for fixed high voltage.\relax }{figure.caption.93}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.23}{\ignorespaces Energy spectrum measured with the cosmic veto.\relax }}{130}{figure.caption.94}}
-\newlabel{fig:EnergySpectrumCosmicVeto}{{4.23}{130}{Energy spectrum measured with the cosmic veto.\relax }{figure.caption.94}{}}
-\newlabel{subfig:EnergySpectrumsSeveralDistanceVeto}{{4.24a}{131}{Energy spectrum of the cosmic veto for several distance.\relax }{figure.caption.95}{}}
-\newlabel{sub@subfig:EnergySpectrumsSeveralDistanceVeto}{{a}{131}{Energy spectrum of the cosmic veto for several distance.\relax }{figure.caption.95}{}}
-\newlabel{subfig:LinearFitSeveralDistanceVeto}{{4.24b}{131}{Fit of counts per second measured with the cosmic veto for several distance to a second degree polynomial.\relax }{figure.caption.95}{}}
-\newlabel{sub@subfig:LinearFitSeveralDistanceVeto}{{b}{131}{Fit of counts per second measured with the cosmic veto for several distance to a second degree polynomial.\relax }{figure.caption.95}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.24}{\ignorespaces Measurement of the cosmic veto for several distances between its cosmic detectors.\relax }}{131}{figure.caption.95}}
-\newlabel{fig:DistanceVeto}{{4.24}{131}{Measurement of the cosmic veto for several distances between its cosmic detectors.\relax }{figure.caption.95}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}TRITIUM Monitor Prototypes}{133}{chapter.5}}
+\newlabel{subfig:HVPLateauVetos}{{4.26a}{130}{Counting rate as a function of high voltage for three different thresholds in semilogaritmic scale.\relax }{figure.caption.97}{}}
+\newlabel{sub@subfig:HVPLateauVetos}{{a}{130}{Counting rate as a function of high voltage for three different thresholds in semilogaritmic scale.\relax }{figure.caption.97}{}}
+\newlabel{subfig:ThresholdsPlateau}{{4.26b}{130}{Counting rate as a function of threshold for three different high voltage in semilogaritmic scale.\relax }{figure.caption.97}{}}
+\newlabel{sub@subfig:ThresholdsPlateau}{{b}{130}{Counting rate as a function of threshold for three different high voltage in semilogaritmic scale.\relax }{figure.caption.97}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.26}{\ignorespaces Counting rate as a function of high voltage for fixed thresholds and as a function of thresholds for fixed high voltage.\relax }}{130}{figure.caption.97}}
+\newlabel{fig:HVandThresholdsPLateaus}{{4.26}{130}{Counting rate as a function of high voltage for fixed thresholds and as a function of thresholds for fixed high voltage.\relax }{figure.caption.97}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.27}{\ignorespaces Energy spectrum measured with the cosmic veto.\relax }}{131}{figure.caption.98}}
+\newlabel{fig:EnergySpectrumCosmicVeto}{{4.27}{131}{Energy spectrum measured with the cosmic veto.\relax }{figure.caption.98}{}}
+\newlabel{subfig:EnergySpectrumsSeveralDistanceVeto}{{4.28a}{133}{Energy spectrum of the cosmic veto for several distance.\relax }{figure.caption.99}{}}
+\newlabel{sub@subfig:EnergySpectrumsSeveralDistanceVeto}{{a}{133}{Energy spectrum of the cosmic veto for several distance.\relax }{figure.caption.99}{}}
+\newlabel{subfig:LinearFitSeveralDistanceVeto}{{4.28b}{133}{Fit of counts per second measured with the cosmic veto for several distance to a second degree polynomial.\relax }{figure.caption.99}{}}
+\newlabel{sub@subfig:LinearFitSeveralDistanceVeto}{{b}{133}{Fit of counts per second measured with the cosmic veto for several distance to a second degree polynomial.\relax }{figure.caption.99}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.28}{\ignorespaces Measurement of the cosmic veto for several distances between its cosmic detectors.\relax }}{133}{figure.caption.99}}
+\newlabel{fig:DistanceVeto}{{4.28}{133}{Measurement of the cosmic veto for several distances between its cosmic detectors.\relax }{figure.caption.99}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}TRITIUM Monitor Prototypes}{135}{chapter.5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{chap:Prototypes}{{5}{133}{TRITIUM Monitor Prototypes}{chapter.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Preliminary Prototypes}{134}{section.5.1}}
-\newlabel{sec:Preliminary_prototypes}{{5.1}{134}{Preliminary Prototypes}{section.5.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}TRITIUM-IFIC 0}{134}{subsection.5.1.1}}
-\newlabel{subsec:TritiumIFIC0}{{5.1.1}{134}{TRITIUM-IFIC 0}{subsection.5.1.1}{}}
+\newlabel{chap:Prototypes}{{5}{135}{TRITIUM Monitor Prototypes}{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Preliminary Prototypes}{136}{section.5.1}}
+\newlabel{sec:Preliminary_prototypes}{{5.1}{136}{Preliminary Prototypes}{section.5.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}TRITIUM-IFIC 0}{136}{subsection.5.1.1}}
+\newlabel{subsec:TritiumIFIC0}{{5.1.1}{136}{TRITIUM-IFIC 0}{subsection.5.1.1}{}}
 \citation{OpticalGrease}
 \citation{DataSheetPMTs}
-\newlabel{subfig:MetalicPieceFiberBunchTritiumIFIC0}{{5.1a}{135}{Metalic piece of the fiber bundle. \relax }{figure.caption.96}{}}
-\newlabel{sub@subfig:MetalicPieceFiberBunchTritiumIFIC0}{{a}{135}{Metalic piece of the fiber bundle. \relax }{figure.caption.96}{}}
-\newlabel{subfig:FiberBunchTritiumIFIC0Bent}{{5.1b}{135}{Fiber bundle in a position similar to the prototype.\relax }{figure.caption.96}{}}
-\newlabel{sub@subfig:FiberBunchTritiumIFIC0Bent}{{b}{135}{Fiber bundle in a position similar to the prototype.\relax }{figure.caption.96}{}}
-\newlabel{subfig:FiberBunchTritiumIFIC0}{{5.1c}{135}{Bundle of fibers in a straight position.\relax }{figure.caption.96}{}}
-\newlabel{sub@subfig:FiberBunchTritiumIFIC0}{{c}{135}{Bundle of fibers in a straight position.\relax }{figure.caption.96}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Bundle of $35$ fibers, the length of which is $20~\ensuremath  {\@text  {\centi \ensuremath  {\@text  {m}}}}$, used in TRITIUM-IFIC 0 prototype\relax }}{135}{figure.caption.96}}
-\newlabel{fig:FiberBundleOfTritiumIFIC0}{{5.1}{135}{Bundle of $35$ fibers, the length of which is $20~\cm $, used in TRITIUM-IFIC 0 prototype\relax }{figure.caption.96}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces TRITIUM-IFIC 0 Prototype.\relax }}{136}{figure.caption.97}}
-\newlabel{fig:TritiumIFIC0}{{5.2}{136}{TRITIUM-IFIC 0 Prototype.\relax }{figure.caption.97}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}TRITIUM-IFIC 1}{137}{subsection.5.1.2}}
-\newlabel{subsec:TritiumIFIC1}{{5.1.2}{137}{TRITIUM-IFIC 1}{subsection.5.1.2}{}}
-\newlabel{subfig:PMMAVesselToTestLostPhotons}{{5.3a}{138}{PMMA vessel.\relax }{figure.caption.98}{}}
-\newlabel{sub@subfig:PMMAVesselToTestLostPhotons}{{a}{138}{PMMA vessel.\relax }{figure.caption.98}{}}
-\newlabel{subfig:TestLostPhotons}{{5.3b}{138}{Test performed to check the lost photons.\relax }{figure.caption.98}{}}
-\newlabel{sub@subfig:TestLostPhotons}{{b}{138}{Test performed to check the lost photons.\relax }{figure.caption.98}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces PMMA vessel used to check photon loss due to fiber bundle curve.\relax }}{138}{figure.caption.98}}
-\newlabel{fig:TestLostPhotons}{{5.3}{138}{PMMA vessel used to check photon loss due to fiber bundle curve.\relax }{figure.caption.98}{}}
+\newlabel{subfig:MetalicPieceFiberBunchTritiumIFIC0}{{5.1a}{137}{Metalic piece of the fiber bundle. \relax }{figure.caption.100}{}}
+\newlabel{sub@subfig:MetalicPieceFiberBunchTritiumIFIC0}{{a}{137}{Metalic piece of the fiber bundle. \relax }{figure.caption.100}{}}
+\newlabel{subfig:FiberBunchTritiumIFIC0Bent}{{5.1b}{137}{Fiber bundle in a position similar to the prototype.\relax }{figure.caption.100}{}}
+\newlabel{sub@subfig:FiberBunchTritiumIFIC0Bent}{{b}{137}{Fiber bundle in a position similar to the prototype.\relax }{figure.caption.100}{}}
+\newlabel{subfig:FiberBunchTritiumIFIC0}{{5.1c}{137}{Bundle of fibers in a straight position.\relax }{figure.caption.100}{}}
+\newlabel{sub@subfig:FiberBunchTritiumIFIC0}{{c}{137}{Bundle of fibers in a straight position.\relax }{figure.caption.100}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Bundle of $35$ fibers, the length of which is $20~\ensuremath  {\@text  {\centi \ensuremath  {\@text  {m}}}}$, used in TRITIUM-IFIC 0 prototype\relax }}{137}{figure.caption.100}}
+\newlabel{fig:FiberBundleOfTritiumIFIC0}{{5.1}{137}{Bundle of $35$ fibers, the length of which is $20~\cm $, used in TRITIUM-IFIC 0 prototype\relax }{figure.caption.100}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces TRITIUM-IFIC 0 Prototype.\relax }}{138}{figure.caption.101}}
+\newlabel{fig:TritiumIFIC0}{{5.2}{138}{TRITIUM-IFIC 0 Prototype.\relax }{figure.caption.101}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}TRITIUM-IFIC 1}{139}{subsection.5.1.2}}
+\newlabel{subsec:TritiumIFIC1}{{5.1.2}{139}{TRITIUM-IFIC 1}{subsection.5.1.2}{}}
+\newlabel{subfig:PMMAVesselToTestLostPhotons}{{5.3a}{140}{PMMA vessel.\relax }{figure.caption.102}{}}
+\newlabel{sub@subfig:PMMAVesselToTestLostPhotons}{{a}{140}{PMMA vessel.\relax }{figure.caption.102}{}}
+\newlabel{subfig:TestLostPhotons}{{5.3b}{140}{Test performed to check the lost photons.\relax }{figure.caption.102}{}}
+\newlabel{sub@subfig:TestLostPhotons}{{b}{140}{Test performed to check the lost photons.\relax }{figure.caption.102}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces PMMA vessel used to check photon loss due to fiber bundle curve.\relax }}{140}{figure.caption.102}}
+\newlabel{fig:TestLostPhotons}{{5.3}{140}{PMMA vessel used to check photon loss due to fiber bundle curve.\relax }{figure.caption.102}{}}
 \citation{DataSheetPMTs}
 \citation{OpticalGrease}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Teflon structure used to arrange the fibers of TRITIUM-IFIC 1 prototype in a matrix of $8\tmspace  +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace  +\thinmuskip {.1667em}{}8$.\relax }}{139}{figure.caption.99}}
-\newlabel{fig:TeflonStructureFibersTritiumIFIC1}{{5.4}{139}{Teflon structure used to arrange the fibers of TRITIUM-IFIC 1 prototype in a matrix of $8\cdot {}8$.\relax }{figure.caption.99}{}}
-\newlabel{subfig:TeflonVesselTritumIFIC1a}{{5.5a}{140}{\relax }{figure.caption.100}{}}
-\newlabel{sub@subfig:TeflonVesselTritumIFIC1a}{{a}{140}{\relax }{figure.caption.100}{}}
-\newlabel{subfig:TeflonVesselTritumIFIC1b}{{5.5b}{140}{\relax }{figure.caption.100}{}}
-\newlabel{sub@subfig:TeflonVesselTritumIFIC1b}{{b}{140}{\relax }{figure.caption.100}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Teflon vessel of TRITIUM-IFIC 1 prototype\relax }}{140}{figure.caption.100}}
-\newlabel{fig:TeflonVesselTritumIFIC1}{{5.5}{140}{Teflon vessel of TRITIUM-IFIC 1 prototype\relax }{figure.caption.100}{}}
-\newlabel{subfig:TritumIFIC1a}{{5.6a}{141}{\relax }{figure.caption.101}{}}
-\newlabel{sub@subfig:TritumIFIC1a}{{a}{141}{\relax }{figure.caption.101}{}}
-\newlabel{subfig:TritumIFIC1b}{{5.6b}{141}{\relax }{figure.caption.101}{}}
-\newlabel{sub@subfig:TritumIFIC1b}{{b}{141}{\relax }{figure.caption.101}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces A general view of TRITIUM-IFIC 1 prototype\relax }}{141}{figure.caption.101}}
-\newlabel{fig:TritumIFIC1}{{5.6}{141}{A general view of TRITIUM-IFIC 1 prototype\relax }{figure.caption.101}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Latest TRITIUM Prototypes}{142}{section.5.2}}
-\newlabel{sec:LatestTritiumPrototypes}{{5.2}{142}{Latest TRITIUM Prototypes}{section.5.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}TRITIUM-Aveiro 0}{142}{subsection.5.2.1}}
-\newlabel{subsec:TritiumAveiro}{{5.2.1}{142}{TRITIUM-Aveiro 0}{subsection.5.2.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Teflon structure used to arrange the fibers of TRITIUM-IFIC 1 prototype in a matrix of $8\tmspace  +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace  +\thinmuskip {.1667em}{}8$.\relax }}{141}{figure.caption.103}}
+\newlabel{fig:TeflonStructureFibersTritiumIFIC1}{{5.4}{141}{Teflon structure used to arrange the fibers of TRITIUM-IFIC 1 prototype in a matrix of $8\cdot {}8$.\relax }{figure.caption.103}{}}
+\newlabel{subfig:TeflonVesselTritumIFIC1a}{{5.5a}{142}{\relax }{figure.caption.104}{}}
+\newlabel{sub@subfig:TeflonVesselTritumIFIC1a}{{a}{142}{\relax }{figure.caption.104}{}}
+\newlabel{subfig:TeflonVesselTritumIFIC1b}{{5.5b}{142}{\relax }{figure.caption.104}{}}
+\newlabel{sub@subfig:TeflonVesselTritumIFIC1b}{{b}{142}{\relax }{figure.caption.104}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Teflon vessel of TRITIUM-IFIC 1 prototype\relax }}{142}{figure.caption.104}}
+\newlabel{fig:TeflonVesselTritumIFIC1}{{5.5}{142}{Teflon vessel of TRITIUM-IFIC 1 prototype\relax }{figure.caption.104}{}}
+\newlabel{subfig:TritumIFIC1a}{{5.6a}{143}{\relax }{figure.caption.105}{}}
+\newlabel{sub@subfig:TritumIFIC1a}{{a}{143}{\relax }{figure.caption.105}{}}
+\newlabel{subfig:TritumIFIC1b}{{5.6b}{143}{\relax }{figure.caption.105}{}}
+\newlabel{sub@subfig:TritumIFIC1b}{{b}{143}{\relax }{figure.caption.105}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces A general view of TRITIUM-IFIC 1 prototype\relax }}{143}{figure.caption.105}}
+\newlabel{fig:TritumIFIC1}{{5.6}{143}{A general view of TRITIUM-IFIC 1 prototype\relax }{figure.caption.105}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Latest TRITIUM Prototypes}{144}{section.5.2}}
+\newlabel{sec:LatestTritiumPrototypes}{{5.2}{144}{Latest TRITIUM Prototypes}{section.5.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}TRITIUM-Aveiro 0}{144}{subsection.5.2.1}}
+\newlabel{subsec:TritiumAveiro}{{5.2.1}{144}{TRITIUM-Aveiro 0}{subsection.5.2.1}{}}
 \citation{DataSheetBCF10Fiber}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces TRITIUM-Aveiro prototype.\relax }}{143}{figure.caption.102}}
-\newlabel{fig:TritiumAveiro0}{{5.7}{143}{TRITIUM-Aveiro prototype.\relax }{figure.caption.102}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Teflon structure and fiber bundle used in TRITIUM-Aveiro 0 prototype.\relax }}{143}{figure.caption.103}}
-\newlabel{fig:TeflonStructureFibersTritiumAveiro0}{{5.8}{143}{Teflon structure and fiber bundle used in TRITIUM-Aveiro 0 prototype.\relax }{figure.caption.103}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces TRITIUM-Aveiro prototype.\relax }}{145}{figure.caption.106}}
+\newlabel{fig:TritiumAveiro0}{{5.7}{145}{TRITIUM-Aveiro prototype.\relax }{figure.caption.106}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Teflon structure and fiber bundle used in TRITIUM-Aveiro 0 prototype.\relax }}{145}{figure.caption.107}}
+\newlabel{fig:TeflonStructureFibersTritiumAveiro0}{{5.8}{145}{Teflon structure and fiber bundle used in TRITIUM-Aveiro 0 prototype.\relax }{figure.caption.107}{}}
 \citation{OpticalGrease}
 \citation{DataSheetPMTsAveiro}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Transmission spectrum of light (in the visible range) in a piece of PMMA of X thickness measured in the ICMOL laboratory. \relax }}{145}{figure.caption.104}}
-\newlabel{fig:PMMATransmissionSpectrum}{{5.9}{145}{Transmission spectrum of light (in the visible range) in a piece of PMMA of X thickness measured in the ICMOL laboratory. \relax }{figure.caption.104}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}TRITIUM-IFIC 2}{146}{subsection.5.2.2}}
-\newlabel{subsec:TritiumIFIC2}{{5.2.2}{146}{TRITIUM-IFIC 2}{subsection.5.2.2}{}}
-\newlabel{subfig:GUIHV}{{5.10a}{147}{Graphical user interface to manage the power supply voltage of PMTs.\relax }{figure.caption.105}{}}
-\newlabel{sub@subfig:GUIHV}{{a}{147}{Graphical user interface to manage the power supply voltage of PMTs.\relax }{figure.caption.105}{}}
-\newlabel{subfig:GUIcounts}{{5.10b}{147}{Graphical user interface used to manage the counter system.\relax }{figure.caption.105}{}}
-\newlabel{sub@subfig:GUIcounts}{{b}{147}{Graphical user interface used to manage the counter system.\relax }{figure.caption.105}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Graphical User Interface developed to control the TRITIUM-Aveiro prototype.\relax }}{147}{figure.caption.105}}
-\newlabel{fig:GUITRITIUMAveiro}{{5.10}{147}{Graphical User Interface developed to control the TRITIUM-Aveiro prototype.\relax }{figure.caption.105}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces TRITIUM-IFIC 2 prototype.\relax }}{148}{figure.caption.106}}
-\newlabel{fig:TritiumIFIC2}{{5.11}{148}{TRITIUM-IFIC 2 prototype.\relax }{figure.caption.106}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Transmission spectrum of light (in the visible range) in a piece of PMMA of X thickness measured in the ICMOL laboratory. \relax }}{147}{figure.caption.108}}
+\newlabel{fig:PMMATransmissionSpectrum}{{5.9}{147}{Transmission spectrum of light (in the visible range) in a piece of PMMA of X thickness measured in the ICMOL laboratory. \relax }{figure.caption.108}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}TRITIUM-IFIC 2}{148}{subsection.5.2.2}}
+\newlabel{subsec:TritiumIFIC2}{{5.2.2}{148}{TRITIUM-IFIC 2}{subsection.5.2.2}{}}
+\newlabel{subfig:GUIHV}{{5.10a}{149}{Graphical user interface to manage the power supply voltage of PMTs.\relax }{figure.caption.109}{}}
+\newlabel{sub@subfig:GUIHV}{{a}{149}{Graphical user interface to manage the power supply voltage of PMTs.\relax }{figure.caption.109}{}}
+\newlabel{subfig:GUIcounts}{{5.10b}{149}{Graphical user interface used to manage the counter system.\relax }{figure.caption.109}{}}
+\newlabel{sub@subfig:GUIcounts}{{b}{149}{Graphical user interface used to manage the counter system.\relax }{figure.caption.109}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Graphical User Interface developed to control the TRITIUM-Aveiro prototype.\relax }}{149}{figure.caption.109}}
+\newlabel{fig:GUITRITIUMAveiro}{{5.10}{149}{Graphical User Interface developed to control the TRITIUM-Aveiro prototype.\relax }{figure.caption.109}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces TRITIUM-IFIC 2 prototype.\relax }}{150}{figure.caption.110}}
+\newlabel{fig:TritiumIFIC2}{{5.11}{150}{TRITIUM-IFIC 2 prototype.\relax }{figure.caption.110}{}}
 \citation{DataSheetPMTs}
-\newlabel{subfig:Tritium_IFIC_2_vessel}{{5.12a}{149}{TRITIUM-IFIC 2 vessel.\relax }{figure.caption.107}{}}
-\newlabel{sub@subfig:Tritium_IFIC_2_vessel}{{a}{149}{TRITIUM-IFIC 2 vessel.\relax }{figure.caption.107}{}}
-\newlabel{subfig:TritiumIFIC2_vessel_with_PVC_caps}{{5.12b}{149}{TRITIUM-IFIC 2 vessel with PVC caps.\relax }{figure.caption.107}{}}
-\newlabel{sub@subfig:TritiumIFIC2_vessel_with_PVC_caps}{{b}{149}{TRITIUM-IFIC 2 vessel with PVC caps.\relax }{figure.caption.107}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces TRITIUM-IFIC 2 teflon vessel.\relax }}{149}{figure.caption.107}}
-\newlabel{fig:Tritium-IFIC2_vessels}{{5.12}{149}{TRITIUM-IFIC 2 teflon vessel.\relax }{figure.caption.107}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.13}{\ignorespaces Graphical User Interface (GUI) of PETSYS.\relax }}{150}{figure.caption.108}}
-\newlabel{fig:GUI_PETSYS}{{5.13}{150}{Graphical User Interface (GUI) of PETSYS.\relax }{figure.caption.108}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Modular TRITIUM Detector}{151}{section.5.3}}
-\newlabel{sec:TritiumMonitor}{{5.3}{151}{Modular TRITIUM Detector}{section.5.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.14}{\ignorespaces A schematic design of the TRITIUM detector.\relax }}{152}{figure.caption.109}}
-\newlabel{fig:TritiumDetectorSchematicDesign}{{5.14}{152}{A schematic design of the TRITIUM detector.\relax }{figure.caption.109}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.15}{\ignorespaces A TRITIUM detector design based on the TRITIUM-IFIC 2 prototype.\relax }}{154}{figure.caption.110}}
-\newlabel{fig:TritiumMonitorIFIC2Design}{{5.15}{154}{A TRITIUM detector design based on the TRITIUM-IFIC 2 prototype.\relax }{figure.caption.110}{}}
+\newlabel{subfig:Tritium_IFIC_2_vessel}{{5.12a}{151}{TRITIUM-IFIC 2 vessel.\relax }{figure.caption.111}{}}
+\newlabel{sub@subfig:Tritium_IFIC_2_vessel}{{a}{151}{TRITIUM-IFIC 2 vessel.\relax }{figure.caption.111}{}}
+\newlabel{subfig:TritiumIFIC2_vessel_with_PVC_caps}{{5.12b}{151}{TRITIUM-IFIC 2 vessel with PVC caps.\relax }{figure.caption.111}{}}
+\newlabel{sub@subfig:TritiumIFIC2_vessel_with_PVC_caps}{{b}{151}{TRITIUM-IFIC 2 vessel with PVC caps.\relax }{figure.caption.111}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces TRITIUM-IFIC 2 teflon vessel.\relax }}{151}{figure.caption.111}}
+\newlabel{fig:Tritium-IFIC2_vessels}{{5.12}{151}{TRITIUM-IFIC 2 teflon vessel.\relax }{figure.caption.111}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.13}{\ignorespaces Graphical User Interface (GUI) of PETSYS.\relax }}{152}{figure.caption.112}}
+\newlabel{fig:GUI_PETSYS}{{5.13}{152}{Graphical User Interface (GUI) of PETSYS.\relax }{figure.caption.112}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Modular TRITIUM Detector}{153}{section.5.3}}
+\newlabel{sec:TritiumMonitor}{{5.3}{153}{Modular TRITIUM Detector}{section.5.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.14}{\ignorespaces A schematic design of the TRITIUM detector.\relax }}{154}{figure.caption.113}}
+\newlabel{fig:TritiumDetectorSchematicDesign}{{5.14}{154}{A schematic design of the TRITIUM detector.\relax }{figure.caption.113}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.15}{\ignorespaces A TRITIUM detector design based on the TRITIUM-IFIC 2 prototype.\relax }}{156}{figure.caption.114}}
+\newlabel{fig:TritiumMonitorIFIC2Design}{{5.15}{156}{A TRITIUM detector design based on the TRITIUM-IFIC 2 prototype.\relax }{figure.caption.114}{}}
 \citation{Geant4WebPage}
 \citation{Geant4P}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Simulations}{155}{chapter.6}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Simulations}{157}{chapter.6}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{chap:Simulations}{{6}{155}{Simulations}{chapter.6}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Geant4 Environment}{155}{section.6.1}}
-\newlabel{sec:Geant4Environment}{{6.1}{155}{Geant4 Environment}{section.6.1}{}}
+\newlabel{chap:Simulations}{{6}{157}{Simulations}{chapter.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Geant4 Environment}{157}{section.6.1}}
+\newlabel{sec:Geant4Environment}{{6.1}{157}{Geant4 Environment}{section.6.1}{}}
 \citation{WaterPropertiesSimulation}
 \citation{TritiumEmissionSpectrum}
 \citation{DataSheetBCF12Fiber}
 \citation{DataSheetPMTs}
 \citation{OpticalGrease}
 \citation{NEMODataSimulation}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Description of the Simulations Performed}{157}{section.6.2}}
-\newlabel{sec:SimulationsPerformed}{{6.2}{157}{Description of the Simulations Performed}{section.6.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Tritiated Water Source}{157}{subsection.6.2.1}}
-\newlabel{subsec:SourceShapeSimulation}{{6.2.1}{157}{Tritiated Water Source}{subsection.6.2.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Energy Deposition and Light Output of Scintillating Fibers}{158}{subsection.6.2.2}}
-\newlabel{subsec:LightOutputFibers}{{6.2.2}{158}{Energy Deposition and Light Output of Scintillating Fibers}{subsection.6.2.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Description of the Simulations Performed}{159}{section.6.2}}
+\newlabel{sec:SimulationsPerformed}{{6.2}{159}{Description of the Simulations Performed}{section.6.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Tritiated Water Source}{159}{subsection.6.2.1}}
+\newlabel{subsec:SourceShapeSimulation}{{6.2.1}{159}{Tritiated Water Source}{subsection.6.2.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Energy Deposition and Light Output of Scintillating Fibers}{160}{subsection.6.2.2}}
+\newlabel{subsec:LightOutputFibers}{{6.2.2}{160}{Energy Deposition and Light Output of Scintillating Fibers}{subsection.6.2.2}{}}
 \citation{BirksPaper}
 \citation{BirksCoefficient}
 \citation{DataSheetPMTsAveiro}
-\newlabel{eq:birkscoefficient}{{6.1}{159}{Energy Deposition and Light Output of Scintillating Fibers}{equation.6.2.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.3}Fiber Length}{159}{subsection.6.2.3}}
-\newlabel{subsec:FiberLengthSimulation}{{6.2.3}{159}{Fiber Length}{subsection.6.2.3}{}}
+\newlabel{eq:birkscoefficient}{{6.1}{161}{Energy Deposition and Light Output of Scintillating Fibers}{equation.6.2.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.3}Fiber Length}{161}{subsection.6.2.3}}
+\newlabel{subsec:FiberLengthSimulation}{{6.2.3}{161}{Fiber Length}{subsection.6.2.3}{}}
 \citation{CRYwebsite}
 \citation{CRYpaper}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.4}Fiber Diameter}{160}{subsection.6.2.4}}
-\newlabel{subsec:FiberDiameterSimulation}{{6.2.4}{160}{Fiber Diameter}{subsection.6.2.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.4}Fiber Diameter}{162}{subsection.6.2.4}}
+\newlabel{subsec:FiberDiameterSimulation}{{6.2.4}{162}{Fiber Diameter}{subsection.6.2.4}{}}
 \citation{DataSheetPMTs}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.5}Tritium-IFIC 2}{161}{subsection.6.2.5}}
-\newlabel{subsec:TritiumIFIC2Simulation}{{6.2.5}{161}{Tritium-IFIC 2}{subsection.6.2.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Distribution of the scintillating fibers in the simualtion of Tritium-IFIC 2 prototype.\relax }}{162}{figure.caption.111}}
-\newlabel{fig:FibersTritiumIFIC2Simulation}{{6.1}{162}{Distribution of the scintillating fibers in the simualtion of Tritium-IFIC 2 prototype.\relax }{figure.caption.111}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Simualtion of Tritium-IFIC 2 prototype. PMTs (black), the optical grease (blue), PMMA windows (white), tritiated water (green) and scintillating fibers (yellow) \relax }}{163}{figure.caption.112}}
-\newlabel{fig:TritiumIFIC2Simulation}{{6.2}{163}{Simualtion of Tritium-IFIC 2 prototype. PMTs (black), the optical grease (blue), PMMA windows (white), tritiated water (green) and scintillating fibers (yellow) \relax }{figure.caption.112}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.6}Lead Shielding and Cosmic Veto}{163}{subsection.6.2.6}}
-\newlabel{subsec:LeadCosmicSimulation}{{6.2.6}{163}{Lead Shielding and Cosmic Veto}{subsection.6.2.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.5}Tritium-IFIC 2}{163}{subsection.6.2.5}}
+\newlabel{subsec:TritiumIFIC2Simulation}{{6.2.5}{163}{Tritium-IFIC 2}{subsection.6.2.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Distribution of the scintillating fibers in the simualtion of Tritium-IFIC 2 prototype.\relax }}{164}{figure.caption.115}}
+\newlabel{fig:FibersTritiumIFIC2Simulation}{{6.1}{164}{Distribution of the scintillating fibers in the simualtion of Tritium-IFIC 2 prototype.\relax }{figure.caption.115}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Simualtion of Tritium-IFIC 2 prototype. PMTs (black), the optical grease (blue), PMMA windows (white), tritiated water (green) and scintillating fibers (yellow) \relax }}{165}{figure.caption.116}}
+\newlabel{fig:TritiumIFIC2Simulation}{{6.2}{165}{Simualtion of Tritium-IFIC 2 prototype. PMTs (black), the optical grease (blue), PMMA windows (white), tritiated water (green) and scintillating fibers (yellow) \relax }{figure.caption.116}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.6}Lead Shielding and Cosmic Veto}{165}{subsection.6.2.6}}
+\newlabel{subsec:LeadCosmicSimulation}{{6.2.6}{165}{Lead Shielding and Cosmic Veto}{subsection.6.2.6}{}}
 \citation{ScintillatorVeto}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}TRITIUM Monitor Results and Discussion}{165}{chapter.7}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}TRITIUM Monitor Results and Discussion}{167}{chapter.7}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{chap:ResultsPrototypes}{{7}{165}{TRITIUM Monitor Results and Discussion}{chapter.7}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.1}Results from Laboratory Measurements}{165}{section.7.1}}
-\newlabel{sec:ResultsLaboratoryPrototypes}{{7.1}{165}{Results from Laboratory Measurements}{section.7.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Experimental Results of TRITIUM-IFIC 0}{166}{subsection.7.1.1}}
-\newlabel{subsec:ResultsTritiumIFIC0}{{7.1.1}{166}{Experimental Results of TRITIUM-IFIC 0}{subsection.7.1.1}{}}
-\newlabel{subfig:SignalBackgroundEnergySpectraTritiumIFIC0}{{7.1a}{167}{Signal and background energy spectra.\relax }{figure.caption.113}{}}
-\newlabel{sub@subfig:SignalBackgroundEnergySpectraTritiumIFIC0}{{a}{167}{Signal and background energy spectra.\relax }{figure.caption.113}{}}
-\newlabel{subfig:TritiumEnergySpectraTritiumIFIC0}{{7.1b}{167}{Tritium energy spectrum.\relax }{figure.caption.113}{}}
-\newlabel{sub@subfig:TritiumEnergySpectraTritiumIFIC0}{{b}{167}{Tritium energy spectrum.\relax }{figure.caption.113}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces Energy spectra experimentally measured with TRITIUM-IFIC 0 prototype.\relax }}{167}{figure.caption.113}}
-\newlabel{fig:EnergySpectraTRITIUMIFIC0}{{7.1}{167}{Energy spectra experimentally measured with TRITIUM-IFIC 0 prototype.\relax }{figure.caption.113}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.2}Experimental Results of TRITIUM-IFIC 1}{168}{subsection.7.1.2}}
-\newlabel{subsec:ResultsTritiumIFIC1}{{7.1.2}{168}{Experimental Results of TRITIUM-IFIC 1}{subsection.7.1.2}{}}
-\newlabel{subfig:SignalBackgroundEnergySpectraTritiumIFIC1}{{7.2a}{169}{Signal and background energy spectra.\relax }{figure.caption.114}{}}
-\newlabel{sub@subfig:SignalBackgroundEnergySpectraTritiumIFIC1}{{a}{169}{Signal and background energy spectra.\relax }{figure.caption.114}{}}
-\newlabel{subfig:TritiumEnergySpectraTritiumIFIC1}{{7.2b}{169}{Tritium energy spectrum.\relax }{figure.caption.114}{}}
-\newlabel{sub@subfig:TritiumEnergySpectraTritiumIFIC1}{{b}{169}{Tritium energy spectrum.\relax }{figure.caption.114}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Energy spectra experimentally measured with TRITIUM-IFIC 1 prototype.\relax }}{169}{figure.caption.114}}
-\newlabel{fig:EnergySpectraTRITIUMIFIC1}{{7.2}{169}{Energy spectra experimentally measured with TRITIUM-IFIC 1 prototype.\relax }{figure.caption.114}{}}
+\newlabel{chap:ResultsPrototypes}{{7}{167}{TRITIUM Monitor Results and Discussion}{chapter.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Results from Laboratory Measurements}{167}{section.7.1}}
+\newlabel{sec:ResultsLaboratoryPrototypes}{{7.1}{167}{Results from Laboratory Measurements}{section.7.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Experimental Results of TRITIUM-IFIC 0}{168}{subsection.7.1.1}}
+\newlabel{subsec:ResultsTritiumIFIC0}{{7.1.1}{168}{Experimental Results of TRITIUM-IFIC 0}{subsection.7.1.1}{}}
+\newlabel{subfig:SignalBackgroundEnergySpectraTritiumIFIC0}{{7.1a}{169}{Signal and background energy spectra.\relax }{figure.caption.117}{}}
+\newlabel{sub@subfig:SignalBackgroundEnergySpectraTritiumIFIC0}{{a}{169}{Signal and background energy spectra.\relax }{figure.caption.117}{}}
+\newlabel{subfig:TritiumEnergySpectraTritiumIFIC0}{{7.1b}{169}{Tritium energy spectrum.\relax }{figure.caption.117}{}}
+\newlabel{sub@subfig:TritiumEnergySpectraTritiumIFIC0}{{b}{169}{Tritium energy spectrum.\relax }{figure.caption.117}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces Energy spectra experimentally measured with TRITIUM-IFIC 0 prototype.\relax }}{169}{figure.caption.117}}
+\newlabel{fig:EnergySpectraTRITIUMIFIC0}{{7.1}{169}{Energy spectra experimentally measured with TRITIUM-IFIC 0 prototype.\relax }{figure.caption.117}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.2}Experimental Results of TRITIUM-IFIC 1}{170}{subsection.7.1.2}}
+\newlabel{subsec:ResultsTritiumIFIC1}{{7.1.2}{170}{Experimental Results of TRITIUM-IFIC 1}{subsection.7.1.2}{}}
+\newlabel{subfig:SignalBackgroundEnergySpectraTritiumIFIC1}{{7.2a}{171}{Signal and background energy spectra.\relax }{figure.caption.118}{}}
+\newlabel{sub@subfig:SignalBackgroundEnergySpectraTritiumIFIC1}{{a}{171}{Signal and background energy spectra.\relax }{figure.caption.118}{}}
+\newlabel{subfig:TritiumEnergySpectraTritiumIFIC1}{{7.2b}{171}{Tritium energy spectrum.\relax }{figure.caption.118}{}}
+\newlabel{sub@subfig:TritiumEnergySpectraTritiumIFIC1}{{b}{171}{Tritium energy spectrum.\relax }{figure.caption.118}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Energy spectra experimentally measured with TRITIUM-IFIC 1 prototype.\relax }}{171}{figure.caption.118}}
+\newlabel{fig:EnergySpectraTRITIUMIFIC1}{{7.2}{171}{Energy spectra experimentally measured with TRITIUM-IFIC 1 prototype.\relax }{figure.caption.118}{}}
 \citation{CAENV1724}
 \citation{ExperimentalPaperCarlos}
 \citation{ExperimentalPaperCarlos}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.3}Experimental Results of TRITIUM-Aveiro 0}{171}{subsection.7.1.3}}
-\newlabel{subsec:ResultsTritiumAveiro}{{7.1.3}{171}{Experimental Results of TRITIUM-Aveiro 0}{subsection.7.1.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.3}Experimental Results of TRITIUM-Aveiro 0}{173}{subsection.7.1.3}}
+\newlabel{subsec:ResultsTritiumAveiro}{{7.1.3}{173}{Experimental Results of TRITIUM-Aveiro 0}{subsection.7.1.3}{}}
 \citation{ExperimentalPaperCarlos}
 \citation{ExperimentalPaperCarlos}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces The single-photon energy distribution of both PMTs used in the TRITIUM-Aveiro 0 prototype and their sum \cite  {ExperimentalPaperCarlos}.\relax }}{172}{figure.caption.115}}
-\newlabel{fig:SinglePhotonEnergyDistribution}{{7.3}{172}{The single-photon energy distribution of both PMTs used in the TRITIUM-Aveiro 0 prototype and their sum \cite {ExperimentalPaperCarlos}.\relax }{figure.caption.115}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces Measurement of a $\ce {^{55}Fe}$ radioactive source with the TRITIUM-Aveiro 0 prototype \cite  {ExperimentalPaperCarlos}.\relax }}{173}{figure.caption.116}}
-\newlabel{fig:55FeMeasurement}{{7.4}{173}{Measurement of a $\ce {^{55}Fe}$ radioactive source with the TRITIUM-Aveiro 0 prototype \cite {ExperimentalPaperCarlos}.\relax }{figure.caption.116}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces The single-photon energy distribution of both PMTs used in the TRITIUM-Aveiro 0 prototype and their sum \cite  {ExperimentalPaperCarlos}.\relax }}{174}{figure.caption.119}}
+\newlabel{fig:SinglePhotonEnergyDistribution}{{7.3}{174}{The single-photon energy distribution of both PMTs used in the TRITIUM-Aveiro 0 prototype and their sum \cite {ExperimentalPaperCarlos}.\relax }{figure.caption.119}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces Measurement of a $\ce {^{55}Fe}$ radioactive source with the TRITIUM-Aveiro 0 prototype \cite  {ExperimentalPaperCarlos}.\relax }}{175}{figure.caption.120}}
+\newlabel{fig:55FeMeasurement}{{7.4}{175}{Measurement of a $\ce {^{55}Fe}$ radioactive source with the TRITIUM-Aveiro 0 prototype \cite {ExperimentalPaperCarlos}.\relax }{figure.caption.120}{}}
 \citation{ExperimentalPaperCarlos}
 \citation{ExperimentalPaperCarlos}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces Measurement of the background with TRITIUM-Aveiro 0 prototype covered with different thicknesses of lead \cite  {ExperimentalPaperCarlos}.\relax }}{174}{figure.caption.117}}
-\newlabel{fig:LeadShieldTest}{{7.5}{174}{Measurement of the background with TRITIUM-Aveiro 0 prototype covered with different thicknesses of lead \cite {ExperimentalPaperCarlos}.\relax }{figure.caption.117}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces Measurement of the background with TRITIUM-Aveiro 0 prototype covered with different thicknesses of lead \cite  {ExperimentalPaperCarlos}.\relax }}{176}{figure.caption.121}}
+\newlabel{fig:LeadShieldTest}{{7.5}{176}{Measurement of the background with TRITIUM-Aveiro 0 prototype covered with different thicknesses of lead \cite {ExperimentalPaperCarlos}.\relax }{figure.caption.121}{}}
 \citation{ExperimentalPaperCarlos}
 \citation{ExperimentalPaperCarlos}
 \citation{CurieLimit}
-\newlabel{subfig:MeasurementInRealTime}{{7.6a}{175}{Counts per minut measured as a function of time.\relax }{figure.caption.118}{}}
-\newlabel{sub@subfig:MeasurementInRealTime}{{a}{175}{Counts per minut measured as a function of time.\relax }{figure.caption.118}{}}
-\newlabel{subfig:DistributionofMeasurement}{{7.6b}{175}{Distribution of the acquired data.\relax }{figure.caption.118}{}}
-\newlabel{sub@subfig:DistributionofMeasurement}{{b}{175}{Distribution of the acquired data.\relax }{figure.caption.118}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces Measurements of the background and tritium liquid source (with an activity of $29.8~\ensuremath  {\@text  {k}}\ensuremath  {\@text  {Bq}}/\ensuremath  {\@text  {L}}$) performed with the TRITIUM-Aveiro 0 prototype and integred during a minute \cite  {ExperimentalPaperCarlos}.\relax }}{175}{figure.caption.118}}
-\newlabel{fig:BackgroundTritium1min}{{7.6}{175}{Measurements of the background and tritium liquid source (with an activity of $29.8~\kilo \becquerel /\liter $) performed with the TRITIUM-Aveiro 0 prototype and integred during a minute \cite {ExperimentalPaperCarlos}.\relax }{figure.caption.118}{}}
-\newlabel{eq:EquationCriticalLimit}{{7.1}{176}{Experimental Results of TRITIUM-Aveiro 0}{equation.7.1.1}{}}
-\newlabel{eq:EquationNetCounts}{{7.2}{176}{Experimental Results of TRITIUM-Aveiro 0}{equation.7.1.2}{}}
+\newlabel{subfig:MeasurementInRealTime}{{7.6a}{177}{Counts per minut measured as a function of time.\relax }{figure.caption.122}{}}
+\newlabel{sub@subfig:MeasurementInRealTime}{{a}{177}{Counts per minut measured as a function of time.\relax }{figure.caption.122}{}}
+\newlabel{subfig:DistributionofMeasurement}{{7.6b}{177}{Distribution of the acquired data.\relax }{figure.caption.122}{}}
+\newlabel{sub@subfig:DistributionofMeasurement}{{b}{177}{Distribution of the acquired data.\relax }{figure.caption.122}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces Measurements of the background and tritium liquid source (with an activity of $29.8~\ensuremath  {\@text  {k}}\ensuremath  {\@text  {Bq}}/\ensuremath  {\@text  {L}}$) performed with the TRITIUM-Aveiro 0 prototype and integred during a minute \cite  {ExperimentalPaperCarlos}.\relax }}{177}{figure.caption.122}}
+\newlabel{fig:BackgroundTritium1min}{{7.6}{177}{Measurements of the background and tritium liquid source (with an activity of $29.8~\kilo \becquerel /\liter $) performed with the TRITIUM-Aveiro 0 prototype and integred during a minute \cite {ExperimentalPaperCarlos}.\relax }{figure.caption.122}{}}
+\newlabel{eq:EquationCriticalLimit}{{7.1}{178}{Experimental Results of TRITIUM-Aveiro 0}{equation.7.1.1}{}}
+\newlabel{eq:EquationNetCounts}{{7.2}{178}{Experimental Results of TRITIUM-Aveiro 0}{equation.7.1.2}{}}
 \citation{ExperimentalPaperCarlos}
 \citation{ExperimentalPaperCarlos}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces Measurements of the background and tritium liquid source (with an activity of $29.8~\ensuremath  {\@text  {k}}\ensuremath  {\@text  {Bq}}/\ensuremath  {\@text  {L}}$) performed with the TRITIUM-Aveiro 0 prototype and integred during an hour \cite  {ExperimentalPaperCarlos}.\relax }}{178}{figure.caption.119}}
-\newlabel{fig:Tritium60min}{{7.7}{178}{Measurements of the background and tritium liquid source (with an activity of $29.8~\kilo \becquerel /\liter $) performed with the TRITIUM-Aveiro 0 prototype and integred during an hour \cite {ExperimentalPaperCarlos}.\relax }{figure.caption.119}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.4}Experimental Results of TRITIUM-IFIC 2}{178}{subsection.7.1.4}}
-\newlabel{subsec:ResultsTritiumIFIC2}{{7.1.4}{178}{Experimental Results of TRITIUM-IFIC 2}{subsection.7.1.4}{}}
-\newlabel{subfig:SignalBackgroundEnergySpectraTritiumIFIC2}{{7.8a}{179}{Signal and background energy spectra.\relax }{figure.caption.120}{}}
-\newlabel{sub@subfig:SignalBackgroundEnergySpectraTritiumIFIC2}{{a}{179}{Signal and background energy spectra.\relax }{figure.caption.120}{}}
-\newlabel{subfig:TritiumEnergySpectraTritiumIFIC2}{{7.8b}{179}{Tritium energy spectrum.\relax }{figure.caption.120}{}}
-\newlabel{sub@subfig:TritiumEnergySpectraTritiumIFIC2}{{b}{179}{Tritium energy spectrum.\relax }{figure.caption.120}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.8}{\ignorespaces Energy spectra experimentally measured with TRITIUM-IFIC 2 prototype.\relax }}{179}{figure.caption.120}}
-\newlabel{fig:EnergySpectraTRITIUMIFIC2}{{7.8}{179}{Energy spectra experimentally measured with TRITIUM-IFIC 2 prototype.\relax }{figure.caption.120}{}}
-\newlabel{subfig:SinglePhotonDistributionIFIC2}{{7.9a}{181}{Single photon distribution.\relax }{figure.caption.121}{}}
-\newlabel{sub@subfig:SinglePhotonDistributionIFIC2}{{a}{181}{Single photon distribution.\relax }{figure.caption.121}{}}
-\newlabel{subfig:TritiumSignalTRITIUMIFIC2}{{7.9b}{181}{Tritium energy spectrum.\relax }{figure.caption.121}{}}
-\newlabel{sub@subfig:TritiumSignalTRITIUMIFIC2}{{b}{181}{Tritium energy spectrum.\relax }{figure.caption.121}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.9}{\ignorespaces Tritium measurement with TRITIUM-IFIC 2 prototype and expressed in photons detected per event.\relax }}{181}{figure.caption.121}}
-\newlabel{fig:PhotonsPerTritiumEventIFIC2}{{7.9}{181}{Tritium measurement with TRITIUM-IFIC 2 prototype and expressed in photons detected per event.\relax }{figure.caption.121}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.10}{\ignorespaces Monitoring of the signal and background prototypes for several months.\relax }}{182}{figure.caption.122}}
-\newlabel{fig:MonitorizationTRITIUMIFIC2}{{7.10}{182}{Monitoring of the signal and background prototypes for several months.\relax }{figure.caption.122}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces Measurements of the background and tritium liquid source (with an activity of $29.8~\ensuremath  {\@text  {k}}\ensuremath  {\@text  {Bq}}/\ensuremath  {\@text  {L}}$) performed with the TRITIUM-Aveiro 0 prototype and integred during an hour \cite  {ExperimentalPaperCarlos}.\relax }}{180}{figure.caption.123}}
+\newlabel{fig:Tritium60min}{{7.7}{180}{Measurements of the background and tritium liquid source (with an activity of $29.8~\kilo \becquerel /\liter $) performed with the TRITIUM-Aveiro 0 prototype and integred during an hour \cite {ExperimentalPaperCarlos}.\relax }{figure.caption.123}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.4}Experimental Results of TRITIUM-IFIC 2}{180}{subsection.7.1.4}}
+\newlabel{subsec:ResultsTritiumIFIC2}{{7.1.4}{180}{Experimental Results of TRITIUM-IFIC 2}{subsection.7.1.4}{}}
+\newlabel{subfig:SignalBackgroundEnergySpectraTritiumIFIC2}{{7.8a}{181}{Signal and background energy spectra.\relax }{figure.caption.124}{}}
+\newlabel{sub@subfig:SignalBackgroundEnergySpectraTritiumIFIC2}{{a}{181}{Signal and background energy spectra.\relax }{figure.caption.124}{}}
+\newlabel{subfig:TritiumEnergySpectraTritiumIFIC2}{{7.8b}{181}{Tritium energy spectrum.\relax }{figure.caption.124}{}}
+\newlabel{sub@subfig:TritiumEnergySpectraTritiumIFIC2}{{b}{181}{Tritium energy spectrum.\relax }{figure.caption.124}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.8}{\ignorespaces Energy spectra experimentally measured with TRITIUM-IFIC 2 prototype.\relax }}{181}{figure.caption.124}}
+\newlabel{fig:EnergySpectraTRITIUMIFIC2}{{7.8}{181}{Energy spectra experimentally measured with TRITIUM-IFIC 2 prototype.\relax }{figure.caption.124}{}}
+\newlabel{subfig:SinglePhotonDistributionIFIC2}{{7.9a}{183}{Single photon distribution.\relax }{figure.caption.125}{}}
+\newlabel{sub@subfig:SinglePhotonDistributionIFIC2}{{a}{183}{Single photon distribution.\relax }{figure.caption.125}{}}
+\newlabel{subfig:TritiumSignalTRITIUMIFIC2}{{7.9b}{183}{Tritium energy spectrum.\relax }{figure.caption.125}{}}
+\newlabel{sub@subfig:TritiumSignalTRITIUMIFIC2}{{b}{183}{Tritium energy spectrum.\relax }{figure.caption.125}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.9}{\ignorespaces Tritium measurement with TRITIUM-IFIC 2 prototype and expressed in photons detected per event.\relax }}{183}{figure.caption.125}}
+\newlabel{fig:PhotonsPerTritiumEventIFIC2}{{7.9}{183}{Tritium measurement with TRITIUM-IFIC 2 prototype and expressed in photons detected per event.\relax }{figure.caption.125}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.10}{\ignorespaces Monitoring of the signal and background prototypes for several months.\relax }}{184}{figure.caption.126}}
+\newlabel{fig:MonitorizationTRITIUMIFIC2}{{7.10}{184}{Monitoring of the signal and background prototypes for several months.\relax }{figure.caption.126}{}}
 \citation{ExperimentalPaperCarlos}
 \citation{ExperimentalPaperCarlos}
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}Experimental Results in Arrocampo Dam}{183}{section.7.2}}
-\newlabel{sec:ResultsArrocampo}{{7.2}{183}{Experimental Results in Arrocampo Dam}{section.7.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.11}{\ignorespaces Background measured with the TRITIUM-Aveiro 0 prototype during its installation in Arrocampo dam \cite  {ExperimentalPaperCarlos}.\relax }}{183}{figure.caption.123}}
-\newlabel{fig:BackgroundArrocampoAveiro}{{7.11}{183}{Background measured with the TRITIUM-Aveiro 0 prototype during its installation in Arrocampo dam \cite {ExperimentalPaperCarlos}.\relax }{figure.caption.123}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Results of the TRITIUM Simulations}{185}{chapter.8}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Experimental Results in Arrocampo Dam}{185}{section.7.2}}
+\newlabel{sec:ResultsArrocampo}{{7.2}{185}{Experimental Results in Arrocampo Dam}{section.7.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.11}{\ignorespaces Background measured with the TRITIUM-Aveiro 0 prototype during its installation in Arrocampo dam \cite  {ExperimentalPaperCarlos}.\relax }}{185}{figure.caption.127}}
+\newlabel{fig:BackgroundArrocampoAveiro}{{7.11}{185}{Background measured with the TRITIUM-Aveiro 0 prototype during its installation in Arrocampo dam \cite {ExperimentalPaperCarlos}.\relax }{figure.caption.127}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Results of the TRITIUM Simulations}{187}{chapter.8}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{chap:ResultsSimulations}{{8}{185}{Results of the TRITIUM Simulations}{chapter.8}{}}
+\newlabel{chap:ResultsSimulations}{{8}{187}{Results of the TRITIUM Simulations}{chapter.8}{}}
 \citation{TritiumEmissionSpectrum}
 \citation{SimulationPaperCarlos}
 \citation{SimulationPaperCarlos}
-\@writefile{toc}{\contentsline {section}{\numberline {8.1}Optimization of the TRITIUM Monitor Design}{186}{section.8.1}}
-\newlabel{sec:ResultsTRITIUMSimulationsDesign}{{8.1}{186}{Optimization of the TRITIUM Monitor Design}{section.8.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}Optimization of the Tritiated Water Source}{186}{subsection.8.1.1}}
-\newlabel{subsec:ResultsShapeSource}{{8.1.1}{186}{Optimization of the Tritiated Water Source}{subsection.8.1.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}Optimization of the TRITIUM Monitor Design}{188}{section.8.1}}
+\newlabel{sec:ResultsTRITIUMSimulationsDesign}{{8.1}{188}{Optimization of the TRITIUM Monitor Design}{section.8.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}Optimization of the Tritiated Water Source}{188}{subsection.8.1.1}}
+\newlabel{subsec:ResultsShapeSource}{{8.1.1}{188}{Optimization of the Tritiated Water Source}{subsection.8.1.1}{}}
 \citation{SimulationPaperCarlos}
 \citation{SimulationPaperCarlos}
-\newlabel{subfig:EnergyDistributionTritiumSource}{{8.1a}{187}{\relax }{figure.caption.124}{}}
-\newlabel{sub@subfig:EnergyDistributionTritiumSource}{{a}{187}{\relax }{figure.caption.124}{}}
-\newlabel{subfig:EnergySpectrumEventsDetectedandNonDetected}{{8.1b}{187}{\relax }{figure.caption.124}{}}
-\newlabel{sub@subfig:EnergySpectrumEventsDetectedandNonDetected}{{b}{187}{\relax }{figure.caption.124}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces Energy distribution of a) simulated tritium decays b) Initial energy of tritium decays that reach the scintillating fibers (red histogram) compared the all simulated tritium events (blue histogram) \cite  {SimulationPaperCarlos}. \relax }}{187}{figure.caption.124}}
-\newlabel{fig:TritiumSourceOptimization}{{8.1}{187}{Energy distribution of a) simulated tritium decays b) Initial energy of tritium decays that reach the scintillating fibers (red histogram) compared the all simulated tritium events (blue histogram) \cite {SimulationPaperCarlos}. \relax }{figure.caption.124}{}}
+\newlabel{subfig:EnergyDistributionTritiumSource}{{8.1a}{189}{\relax }{figure.caption.128}{}}
+\newlabel{sub@subfig:EnergyDistributionTritiumSource}{{a}{189}{\relax }{figure.caption.128}{}}
+\newlabel{subfig:EnergySpectrumEventsDetectedandNonDetected}{{8.1b}{189}{\relax }{figure.caption.128}{}}
+\newlabel{sub@subfig:EnergySpectrumEventsDetectedandNonDetected}{{b}{189}{\relax }{figure.caption.128}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces Energy distribution of a) simulated tritium decays b) Initial energy of tritium decays that reach the scintillating fibers (red histogram) compared the all simulated tritium events (blue histogram) \cite  {SimulationPaperCarlos}. \relax }}{189}{figure.caption.128}}
+\newlabel{fig:TritiumSourceOptimization}{{8.1}{189}{Energy distribution of a) simulated tritium decays b) Initial energy of tritium decays that reach the scintillating fibers (red histogram) compared the all simulated tritium events (blue histogram) \cite {SimulationPaperCarlos}. \relax }{figure.caption.128}{}}
 \citation{SimulationPaperCarlos}
 \citation{SimulationPaperCarlos}
-\newlabel{subfig:TransversalCutTritiumSource}{{8.2a}{188}{\relax }{figure.caption.125}{}}
-\newlabel{sub@subfig:TransversalCutTritiumSource}{{a}{188}{\relax }{figure.caption.125}{}}
-\newlabel{subfig:DistanceDistributionTritiumSourceFiber}{{8.2b}{188}{\relax }{figure.caption.125}{}}
-\newlabel{sub@subfig:DistanceDistributionTritiumSourceFiber}{{b}{188}{\relax }{figure.caption.125}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces a)Transversal cut of simulated scintillating fiber (yellow) and tritium source (green) with various tritium decays (red dots) b) Distribution of the radial distance between the position where the tritium decay takes place and the surface of the scintillating fiber \cite  {SimulationPaperCarlos}.\relax }}{188}{figure.caption.125}}
-\newlabel{fig:TritiumSourceSimulated}{{8.2}{188}{a)Transversal cut of simulated scintillating fiber (yellow) and tritium source (green) with various tritium decays (red dots) b) Distribution of the radial distance between the position where the tritium decay takes place and the surface of the scintillating fiber \cite {SimulationPaperCarlos}.\relax }{figure.caption.125}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.2}Simulation of the Output Light of Scintillating Fibers}{188}{subsection.8.1.2}}
-\newlabel{subsec:ResultsOutputLight}{{8.1.2}{188}{Simulation of the Output Light of Scintillating Fibers}{subsection.8.1.2}{}}
+\newlabel{subfig:TransversalCutTritiumSource}{{8.2a}{190}{\relax }{figure.caption.129}{}}
+\newlabel{sub@subfig:TransversalCutTritiumSource}{{a}{190}{\relax }{figure.caption.129}{}}
+\newlabel{subfig:DistanceDistributionTritiumSourceFiber}{{8.2b}{190}{\relax }{figure.caption.129}{}}
+\newlabel{sub@subfig:DistanceDistributionTritiumSourceFiber}{{b}{190}{\relax }{figure.caption.129}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces a)Transversal cut of simulated scintillating fiber (yellow) and tritium source (green) with various tritium decays (red dots) b) Distribution of the radial distance between the position where the tritium decay takes place and the surface of the scintillating fiber \cite  {SimulationPaperCarlos}.\relax }}{190}{figure.caption.129}}
+\newlabel{fig:TritiumSourceSimulated}{{8.2}{190}{a)Transversal cut of simulated scintillating fiber (yellow) and tritium source (green) with various tritium decays (red dots) b) Distribution of the radial distance between the position where the tritium decay takes place and the surface of the scintillating fiber \cite {SimulationPaperCarlos}.\relax }{figure.caption.129}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.2}Simulation of the Output Light of Scintillating Fibers}{190}{subsection.8.1.2}}
+\newlabel{subsec:ResultsOutputLight}{{8.1.2}{190}{Simulation of the Output Light of Scintillating Fibers}{subsection.8.1.2}{}}
 \citation{SimulationPaperCarlos}
 \citation{SimulationPaperCarlos}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces Distribution of the initial energy of tritium events that has reach the scintillating fibers, blue histogram, and the energy deposited, red histogram \cite  {SimulationPaperCarlos}.\relax }}{189}{figure.caption.126}}
-\newlabel{fig:InitialFinalTritiumEnergy}{{8.3}{189}{Distribution of the initial energy of tritium events that has reach the scintillating fibers, blue histogram, and the energy deposited, red histogram \cite {SimulationPaperCarlos}.\relax }{figure.caption.126}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces Distribution of the initial energy of tritium events that has reach the scintillating fibers, blue histogram, and the energy deposited, red histogram \cite  {SimulationPaperCarlos}.\relax }}{191}{figure.caption.130}}
+\newlabel{fig:InitialFinalTritiumEnergy}{{8.3}{191}{Distribution of the initial energy of tritium events that has reach the scintillating fibers, blue histogram, and the energy deposited, red histogram \cite {SimulationPaperCarlos}.\relax }{figure.caption.130}{}}
 \citation{SimulationPaperCarlos}
 \citation{SimulationPaperCarlos}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces Energy distribution of photons produced by the scintillating fiber when the birks coefficient is not considered, red histogram, and when this is considered, blue histogram \cite  {SimulationPaperCarlos}.\relax }}{190}{figure.caption.127}}
-\newlabel{fig:BirksEffectinEnergyDistribution}{{8.4}{190}{Energy distribution of photons produced by the scintillating fiber when the birks coefficient is not considered, red histogram, and when this is considered, blue histogram \cite {SimulationPaperCarlos}.\relax }{figure.caption.127}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces Energy distribution of photons produced by the scintillating fiber when the birks coefficient is not considered, red histogram, and when this is considered, blue histogram \cite  {SimulationPaperCarlos}.\relax }}{192}{figure.caption.131}}
+\newlabel{fig:BirksEffectinEnergyDistribution}{{8.4}{192}{Energy distribution of photons produced by the scintillating fiber when the birks coefficient is not considered, red histogram, and when this is considered, blue histogram \cite {SimulationPaperCarlos}.\relax }{figure.caption.131}{}}
 \citation{SimulationPaperCarlos}
 \citation{SimulationPaperCarlos}
-\newlabel{subfig:2DimPlotNoBirks}{{8.5a}{191}{Quenching effect not included.\relax }{figure.caption.128}{}}
-\newlabel{sub@subfig:2DimPlotNoBirks}{{a}{191}{Quenching effect not included.\relax }{figure.caption.128}{}}
-\newlabel{subfig:2DimPlotBirks}{{8.5b}{191}{Quenching effect included.\relax }{figure.caption.128}{}}
-\newlabel{sub@subfig:2DimPlotBirks}{{b}{191}{Quenching effect included.\relax }{figure.caption.128}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces Number of photons produced in front of the energy deposited in the scintillating fibers when a)the birks coeficient is not considered ($k_B=0$) b) the Birks coefficient is considered ($k_B=0.126~\ensuremath  {\@text  {\milli \ensuremath  {\@text  {m}}}}/\ensuremath  {\@text  {\mega \ensuremath  {\@text  {\electronvolt \xspace  }}}}$) \cite  {SimulationPaperCarlos}.\relax }}{191}{figure.caption.128}}
-\newlabel{fig:2DimPlotBirks}{{8.5}{191}{Number of photons produced in front of the energy deposited in the scintillating fibers when a)the birks coeficient is not considered ($k_B=0$) b) the Birks coefficient is considered ($k_B=0.126~\mm /\MeV $) \cite {SimulationPaperCarlos}.\relax }{figure.caption.128}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.3}Optimization of the Scintillating Fiber Length}{191}{subsection.8.1.3}}
-\newlabel{subsec:ResultsFiberLength}{{8.1.3}{191}{Optimization of the Scintillating Fiber Length}{subsection.8.1.3}{}}
+\newlabel{subfig:2DimPlotNoBirks}{{8.5a}{193}{Quenching effect not included.\relax }{figure.caption.132}{}}
+\newlabel{sub@subfig:2DimPlotNoBirks}{{a}{193}{Quenching effect not included.\relax }{figure.caption.132}{}}
+\newlabel{subfig:2DimPlotBirks}{{8.5b}{193}{Quenching effect included.\relax }{figure.caption.132}{}}
+\newlabel{sub@subfig:2DimPlotBirks}{{b}{193}{Quenching effect included.\relax }{figure.caption.132}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces Number of photons produced in front of the energy deposited in the scintillating fibers when a)the birks coeficient is not considered ($k_B=0$) b) the Birks coefficient is considered ($k_B=0.126~\ensuremath  {\@text  {\milli \ensuremath  {\@text  {m}}}}/\ensuremath  {\@text  {\mega \ensuremath  {\@text  {\electronvolt \xspace  }}}}$) \cite  {SimulationPaperCarlos}.\relax }}{193}{figure.caption.132}}
+\newlabel{fig:2DimPlotBirks}{{8.5}{193}{Number of photons produced in front of the energy deposited in the scintillating fibers when a)the birks coeficient is not considered ($k_B=0$) b) the Birks coefficient is considered ($k_B=0.126~\mm /\MeV $) \cite {SimulationPaperCarlos}.\relax }{figure.caption.132}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.3}Optimization of the Scintillating Fiber Length}{193}{subsection.8.1.3}}
+\newlabel{subsec:ResultsFiberLength}{{8.1.3}{193}{Optimization of the Scintillating Fiber Length}{subsection.8.1.3}{}}
 \citation{SimulationPaperCarlos}
 \citation{SimulationPaperCarlos}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.6}{\ignorespaces Number of photons produced in the fiber per tritium event for all tritium events that reach the fiber (blue histogram) and only for tritium events the photons of which are detected by photosensors (red histogram) \cite  {SimulationPaperCarlos}.\relax }}{192}{figure.caption.129}}
-\newlabel{fig:PhotonsFibersYesNoPhotosensors}{{8.6}{192}{Number of photons produced in the fiber per tritium event for all tritium events that reach the fiber (blue histogram) and only for tritium events the photons of which are detected by photosensors (red histogram) \cite {SimulationPaperCarlos}.\relax }{figure.caption.129}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.7}{\ignorespaces Counts integred over $60~\qopname  \relax m{min}$, normalized to the same active area and taken over a week for a fiber length of $1~\meter  $, dashed lines, and $20~\ensuremath  {\@text  {\centi \ensuremath  {\@text  {m}}}}$, solid lines and two different activities, $0.5~\ensuremath  {\@text  {k}}\ensuremath  {\@text  {Bq}}/\ensuremath  {\@text  {L}}$, blue lines, and $2.5~\ensuremath  {\@text  {k}}\ensuremath  {\@text  {Bq}}/\ensuremath  {\@text  {L}}$, red lines \cite  {SimulationPaperCarlos}. \relax }}{193}{figure.caption.130}}
-\newlabel{fig:CountsOver60minDifferentLength}{{8.7}{193}{Counts integred over $60~\min $, normalized to the same active area and taken over a week for a fiber length of $1~\meter $, dashed lines, and $20~\cm $, solid lines and two different activities, $0.5~\kilo \becquerel /\liter $, blue lines, and $2.5~\kilo \becquerel /\liter $, red lines \cite {SimulationPaperCarlos}. \relax }{figure.caption.130}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.4}Optimization Scintillating Fiber Diameter}{193}{subsection.8.1.4}}
-\newlabel{subsec:ResultsFiberDiameter}{{8.1.4}{193}{Optimization Scintillating Fiber Diameter}{subsection.8.1.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.8}{\ignorespaces Comparison of the energy deposition of cosmic ray events in scintillating fibers of $1~\ensuremath  {\@text  {\milli \ensuremath  {\@text  {m}}}}$ and $2~\ensuremath  {\@text  {\milli \ensuremath  {\@text  {m}}}}$ in diameter.\relax }}{194}{figure.caption.131}}
-\newlabel{fig:DiameterComparison}{{8.8}{194}{Comparison of the energy deposition of cosmic ray events in scintillating fibers of $1~\mm $ and $2~\mm $ in diameter.\relax }{figure.caption.131}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.6}{\ignorespaces Number of photons produced in the fiber per tritium event for all tritium events that reach the fiber (blue histogram) and only for tritium events the photons of which are detected by photosensors (red histogram) \cite  {SimulationPaperCarlos}.\relax }}{194}{figure.caption.133}}
+\newlabel{fig:PhotonsFibersYesNoPhotosensors}{{8.6}{194}{Number of photons produced in the fiber per tritium event for all tritium events that reach the fiber (blue histogram) and only for tritium events the photons of which are detected by photosensors (red histogram) \cite {SimulationPaperCarlos}.\relax }{figure.caption.133}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.7}{\ignorespaces Counts integred over $60~\qopname  \relax m{min}$, normalized to the same active area and taken over a week for a fiber length of $1~\meter  $, dashed lines, and $20~\ensuremath  {\@text  {\centi \ensuremath  {\@text  {m}}}}$, solid lines and two different activities, $0.5~\ensuremath  {\@text  {k}}\ensuremath  {\@text  {Bq}}/\ensuremath  {\@text  {L}}$, blue lines, and $2.5~\ensuremath  {\@text  {k}}\ensuremath  {\@text  {Bq}}/\ensuremath  {\@text  {L}}$, red lines \cite  {SimulationPaperCarlos}. \relax }}{195}{figure.caption.134}}
+\newlabel{fig:CountsOver60minDifferentLength}{{8.7}{195}{Counts integred over $60~\min $, normalized to the same active area and taken over a week for a fiber length of $1~\meter $, dashed lines, and $20~\cm $, solid lines and two different activities, $0.5~\kilo \becquerel /\liter $, blue lines, and $2.5~\kilo \becquerel /\liter $, red lines \cite {SimulationPaperCarlos}. \relax }{figure.caption.134}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.4}Optimization Scintillating Fiber Diameter}{195}{subsection.8.1.4}}
+\newlabel{subsec:ResultsFiberDiameter}{{8.1.4}{195}{Optimization Scintillating Fiber Diameter}{subsection.8.1.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.8}{\ignorespaces Comparison of the energy deposition of cosmic ray events in scintillating fibers of $1~\ensuremath  {\@text  {\milli \ensuremath  {\@text  {m}}}}$ and $2~\ensuremath  {\@text  {\milli \ensuremath  {\@text  {m}}}}$ in diameter.\relax }}{196}{figure.caption.135}}
+\newlabel{fig:DiameterComparison}{{8.8}{196}{Comparison of the energy deposition of cosmic ray events in scintillating fibers of $1~\mm $ and $2~\mm $ in diameter.\relax }{figure.caption.135}{}}
 \citation{SimulationPaperCarlos}
 \citation{SimulationPaperCarlos}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.5}Effect of the PMMA windows}{195}{subsection.8.1.5}}
-\newlabel{subsec:ResultsPMMAWindows}{{8.1.5}{195}{Effect of the PMMA windows}{subsection.8.1.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.2}Simulation Results of TRITIUM Monitor}{195}{section.8.2}}
-\newlabel{sec:ResultsSimulatedTRITIUMmonitor}{{8.2}{195}{Simulation Results of TRITIUM Monitor}{section.8.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.9}{\ignorespaces Distribution of photons reaching PMMA windows. The red histogram includes those guided by fibers and the blue histogram includes those traveling in the water medium \cite  {SimulationPaperCarlos}.\relax }}{196}{figure.caption.132}}
-\newlabel{fig:PMMAEffect}{{8.9}{196}{Distribution of photons reaching PMMA windows. The red histogram includes those guided by fibers and the blue histogram includes those traveling in the water medium \cite {SimulationPaperCarlos}.\relax }{figure.caption.132}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}Simulation Results of TRITIUM-IFIC 2}{197}{subsection.8.2.1}}
-\newlabel{subsec:ResultsSimulatedTRITIUMIFIC2}{{8.2.1}{197}{Simulation Results of TRITIUM-IFIC 2}{subsection.8.2.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.10}{\ignorespaces Tritium electron detected in the simulated TRITIUM-IFIC 2 prototype. The path of the optical photons is represented by green lines and the position in which it is absorbed is represented by red and blue dots (absorbed in water or PMT, respectively).\relax }}{197}{figure.caption.133}}
-\newlabel{fig:TritiumEventDetectedInSimulatedPrototype}{{8.10}{197}{Tritium electron detected in the simulated TRITIUM-IFIC 2 prototype. The path of the optical photons is represented by green lines and the position in which it is absorbed is represented by red and blue dots (absorbed in water or PMT, respectively).\relax }{figure.caption.133}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.11}{\ignorespaces Photons detected by both PMTs per tritium event in the simulated TRITIUM-IFIC 2 prototype.\relax }}{198}{figure.caption.134}}
-\newlabel{fig:SimulatedPhotonsDetected}{{8.11}{198}{Photons detected by both PMTs per tritium event in the simulated TRITIUM-IFIC 2 prototype.\relax }{figure.caption.134}{}}
-\newlabel{subfig:RawData1Det10Min250BqL}{{8.12a}{199}{Counts as a function of the time.\relax }{figure.caption.135}{}}
-\newlabel{sub@subfig:RawData1Det10Min250BqL}{{a}{199}{Counts as a function of the time.\relax }{figure.caption.135}{}}
-\newlabel{subfig:Dist1Det10Min250BqL}{{8.12b}{199}{Distribution.\relax }{figure.caption.135}{}}
-\newlabel{sub@subfig:Dist1Det10Min250BqL}{{b}{199}{Distribution.\relax }{figure.caption.135}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.12}{\ignorespaces Tritium counts detected with a simulated TRITIUM-IFIC 2 prototype using a integration counting time of $10~\qopname  \relax m{min}$ a) as a function of the time b) distribution of them.\relax }}{199}{figure.caption.135}}
-\newlabel{fig:1Det10Min250BqL}{{8.12}{199}{Tritium counts detected with a simulated TRITIUM-IFIC 2 prototype using a integration counting time of $10~\min $ a) as a function of the time b) distribution of them.\relax }{figure.caption.135}{}}
-\newlabel{subfig:1Det10min250BqLST}{{8.13a}{200}{Integration counting time of $10~\min $.\relax }{figure.caption.136}{}}
-\newlabel{sub@subfig:1Det10min250BqLST}{{a}{200}{Integration counting time of $10~\min $.\relax }{figure.caption.136}{}}
-\newlabel{subfig:1Det30min250BqLST}{{8.13b}{200}{Integration counting time of $30~\min $.\relax }{figure.caption.136}{}}
-\newlabel{sub@subfig:1Det30min250BqLST}{{b}{200}{Integration counting time of $30~\min $.\relax }{figure.caption.136}{}}
-\newlabel{subfig:1Det60min250BqLST}{{8.13c}{200}{Integration counting time of $60~\min $.\relax }{figure.caption.136}{}}
-\newlabel{sub@subfig:1Det60min250BqLST}{{c}{200}{Integration counting time of $60~\min $.\relax }{figure.caption.136}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.13}{\ignorespaces The distribution of the tritium counts detected with a simulated TRITIUM-IFIC 2 prototype for three different integration counting time, a)$10~\qopname  \relax m{min}$ b) $30~\qopname  \relax m{min}$ and c) $60~\qopname  \relax m{min}$.\relax }}{200}{figure.caption.136}}
-\newlabel{fig:1Det250BqLseveralTimes}{{8.13}{200}{The distribution of the tritium counts detected with a simulated TRITIUM-IFIC 2 prototype for three different integration counting time, a)$10~\min $ b) $30~\min $ and c) $60~\min $.\relax }{figure.caption.136}{}}
-\newlabel{eq:Resolution}{{8.1}{201}{Simulation Results of TRITIUM-IFIC 2}{equation.8.2.1}{}}
-\newlabel{subfig:1Det10min250BqLSD}{{8.14a}{202}{One TRITIUM-IFIC 2 prototype.\relax }{figure.caption.137}{}}
-\newlabel{sub@subfig:1Det10min250BqLSD}{{a}{202}{One TRITIUM-IFIC 2 prototype.\relax }{figure.caption.137}{}}
-\newlabel{subfig:5Det10min250BqLSD}{{8.14b}{202}{Five TRITIUM-IFIC 2 prototypes.\relax }{figure.caption.137}{}}
-\newlabel{sub@subfig:5Det10min250BqLSD}{{b}{202}{Five TRITIUM-IFIC 2 prototypes.\relax }{figure.caption.137}{}}
-\newlabel{subfig:10Det10min250BqLSD}{{8.14c}{202}{Ten TRITIUM-IFIC 2 prototypes.\relax }{figure.caption.137}{}}
-\newlabel{sub@subfig:10Det10min250BqLSD}{{c}{202}{Ten TRITIUM-IFIC 2 prototypes.\relax }{figure.caption.137}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.14}{\ignorespaces The distribution of the tritium counts detected with several simulated TRITIUM-IFIC 2 prototypes a) 1, b) 5 and c) 10 for an integration counting time of $10~\qopname  \relax m{min}$.\relax }}{202}{figure.caption.137}}
-\newlabel{fig:SeveralDet250BqL10min}{{8.14}{202}{The distribution of the tritium counts detected with several simulated TRITIUM-IFIC 2 prototypes a) 1, b) 5 and c) 10 for an integration counting time of $10~\min $.\relax }{figure.caption.137}{}}
-\newlabel{subfig:ResolutionvsIntegrationCoutingTime}{{8.15a}{203}{\relax }{figure.caption.138}{}}
-\newlabel{sub@subfig:ResolutionvsIntegrationCoutingTime}{{a}{203}{\relax }{figure.caption.138}{}}
-\newlabel{subfig:ResolutionvsNumberDetectors}{{8.15b}{203}{\relax }{figure.caption.138}{}}
-\newlabel{sub@subfig:ResolutionvsNumberDetectors}{{b}{203}{\relax }{figure.caption.138}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.15}{\ignorespaces Resolution of the TRITIUM-IFIC 2 prototype as a function of the a) integration counting time b) number of prototypes.\relax }}{203}{figure.caption.138}}
-\newlabel{fig:Resolution}{{8.15}{203}{Resolution of the TRITIUM-IFIC 2 prototype as a function of the a) integration counting time b) number of prototypes.\relax }{figure.caption.138}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {8.1}{\ignorespaces Difference in activity that can be clearly distinguished for various cases of the TRITIUM-IFIC 2 prototype based on different integration counting times and different number of prototypes.\relax }}{203}{table.caption.139}}
-\newlabel{tab:DifferentCasesOfTI2}{{8.1}{203}{Difference in activity that can be clearly distinguished for various cases of the TRITIUM-IFIC 2 prototype based on different integration counting times and different number of prototypes.\relax }{table.caption.139}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.2}Simulation Results of Background Rejection System}{203}{subsection.8.2.2}}
-\newlabel{subsec:ResultsSimulatedBackgroundRejectionSystem}{{8.2.2}{203}{Simulation Results of Background Rejection System}{subsection.8.2.2}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusions and Prospects}{205}{chapter.9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.5}Effect of the PMMA windows}{197}{subsection.8.1.5}}
+\newlabel{subsec:ResultsPMMAWindows}{{8.1.5}{197}{Effect of the PMMA windows}{subsection.8.1.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}Simulation Results of TRITIUM Monitor}{197}{section.8.2}}
+\newlabel{sec:ResultsSimulatedTRITIUMmonitor}{{8.2}{197}{Simulation Results of TRITIUM Monitor}{section.8.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.9}{\ignorespaces Distribution of photons reaching PMMA windows. The red histogram includes those guided by fibers and the blue histogram includes those traveling in the water medium \cite  {SimulationPaperCarlos}.\relax }}{198}{figure.caption.136}}
+\newlabel{fig:PMMAEffect}{{8.9}{198}{Distribution of photons reaching PMMA windows. The red histogram includes those guided by fibers and the blue histogram includes those traveling in the water medium \cite {SimulationPaperCarlos}.\relax }{figure.caption.136}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}Simulation Results of TRITIUM-IFIC 2}{199}{subsection.8.2.1}}
+\newlabel{subsec:ResultsSimulatedTRITIUMIFIC2}{{8.2.1}{199}{Simulation Results of TRITIUM-IFIC 2}{subsection.8.2.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.10}{\ignorespaces Tritium electron detected in the simulated TRITIUM-IFIC 2 prototype. The path of the optical photons is represented by green lines and the position in which it is absorbed is represented by red and blue dots (absorbed in water or PMT, respectively).\relax }}{199}{figure.caption.137}}
+\newlabel{fig:TritiumEventDetectedInSimulatedPrototype}{{8.10}{199}{Tritium electron detected in the simulated TRITIUM-IFIC 2 prototype. The path of the optical photons is represented by green lines and the position in which it is absorbed is represented by red and blue dots (absorbed in water or PMT, respectively).\relax }{figure.caption.137}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.11}{\ignorespaces Photons detected by both PMTs per tritium event in the simulated TRITIUM-IFIC 2 prototype.\relax }}{200}{figure.caption.138}}
+\newlabel{fig:SimulatedPhotonsDetected}{{8.11}{200}{Photons detected by both PMTs per tritium event in the simulated TRITIUM-IFIC 2 prototype.\relax }{figure.caption.138}{}}
+\newlabel{subfig:RawData1Det10Min250BqL}{{8.12a}{201}{Counts as a function of the time.\relax }{figure.caption.139}{}}
+\newlabel{sub@subfig:RawData1Det10Min250BqL}{{a}{201}{Counts as a function of the time.\relax }{figure.caption.139}{}}
+\newlabel{subfig:Dist1Det10Min250BqL}{{8.12b}{201}{Distribution.\relax }{figure.caption.139}{}}
+\newlabel{sub@subfig:Dist1Det10Min250BqL}{{b}{201}{Distribution.\relax }{figure.caption.139}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.12}{\ignorespaces Tritium counts detected with a simulated TRITIUM-IFIC 2 prototype using a integration counting time of $10~\qopname  \relax m{min}$ a) as a function of the time b) distribution of them.\relax }}{201}{figure.caption.139}}
+\newlabel{fig:1Det10Min250BqL}{{8.12}{201}{Tritium counts detected with a simulated TRITIUM-IFIC 2 prototype using a integration counting time of $10~\min $ a) as a function of the time b) distribution of them.\relax }{figure.caption.139}{}}
+\newlabel{subfig:1Det10min250BqLST}{{8.13a}{202}{Integration counting time of $10~\min $.\relax }{figure.caption.140}{}}
+\newlabel{sub@subfig:1Det10min250BqLST}{{a}{202}{Integration counting time of $10~\min $.\relax }{figure.caption.140}{}}
+\newlabel{subfig:1Det30min250BqLST}{{8.13b}{202}{Integration counting time of $30~\min $.\relax }{figure.caption.140}{}}
+\newlabel{sub@subfig:1Det30min250BqLST}{{b}{202}{Integration counting time of $30~\min $.\relax }{figure.caption.140}{}}
+\newlabel{subfig:1Det60min250BqLST}{{8.13c}{202}{Integration counting time of $60~\min $.\relax }{figure.caption.140}{}}
+\newlabel{sub@subfig:1Det60min250BqLST}{{c}{202}{Integration counting time of $60~\min $.\relax }{figure.caption.140}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.13}{\ignorespaces The distribution of the tritium counts detected with a simulated TRITIUM-IFIC 2 prototype for three different integration counting time, a)$10~\qopname  \relax m{min}$ b) $30~\qopname  \relax m{min}$ and c) $60~\qopname  \relax m{min}$.\relax }}{202}{figure.caption.140}}
+\newlabel{fig:1Det250BqLseveralTimes}{{8.13}{202}{The distribution of the tritium counts detected with a simulated TRITIUM-IFIC 2 prototype for three different integration counting time, a)$10~\min $ b) $30~\min $ and c) $60~\min $.\relax }{figure.caption.140}{}}
+\newlabel{eq:Resolution}{{8.1}{203}{Simulation Results of TRITIUM-IFIC 2}{equation.8.2.1}{}}
+\newlabel{subfig:1Det10min250BqLSD}{{8.14a}{204}{One TRITIUM-IFIC 2 prototype.\relax }{figure.caption.141}{}}
+\newlabel{sub@subfig:1Det10min250BqLSD}{{a}{204}{One TRITIUM-IFIC 2 prototype.\relax }{figure.caption.141}{}}
+\newlabel{subfig:5Det10min250BqLSD}{{8.14b}{204}{Five TRITIUM-IFIC 2 prototypes.\relax }{figure.caption.141}{}}
+\newlabel{sub@subfig:5Det10min250BqLSD}{{b}{204}{Five TRITIUM-IFIC 2 prototypes.\relax }{figure.caption.141}{}}
+\newlabel{subfig:10Det10min250BqLSD}{{8.14c}{204}{Ten TRITIUM-IFIC 2 prototypes.\relax }{figure.caption.141}{}}
+\newlabel{sub@subfig:10Det10min250BqLSD}{{c}{204}{Ten TRITIUM-IFIC 2 prototypes.\relax }{figure.caption.141}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.14}{\ignorespaces The distribution of the tritium counts detected with several simulated TRITIUM-IFIC 2 prototypes a) 1, b) 5 and c) 10 for an integration counting time of $10~\qopname  \relax m{min}$.\relax }}{204}{figure.caption.141}}
+\newlabel{fig:SeveralDet250BqL10min}{{8.14}{204}{The distribution of the tritium counts detected with several simulated TRITIUM-IFIC 2 prototypes a) 1, b) 5 and c) 10 for an integration counting time of $10~\min $.\relax }{figure.caption.141}{}}
+\newlabel{subfig:ResolutionvsIntegrationCoutingTime}{{8.15a}{205}{\relax }{figure.caption.142}{}}
+\newlabel{sub@subfig:ResolutionvsIntegrationCoutingTime}{{a}{205}{\relax }{figure.caption.142}{}}
+\newlabel{subfig:ResolutionvsNumberDetectors}{{8.15b}{205}{\relax }{figure.caption.142}{}}
+\newlabel{sub@subfig:ResolutionvsNumberDetectors}{{b}{205}{\relax }{figure.caption.142}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.15}{\ignorespaces Resolution of the TRITIUM-IFIC 2 prototype as a function of the a) integration counting time b) number of prototypes.\relax }}{205}{figure.caption.142}}
+\newlabel{fig:Resolution}{{8.15}{205}{Resolution of the TRITIUM-IFIC 2 prototype as a function of the a) integration counting time b) number of prototypes.\relax }{figure.caption.142}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.1}{\ignorespaces Difference in activity that can be clearly distinguished for various cases of the TRITIUM-IFIC 2 prototype based on different integration counting times and different number of prototypes.\relax }}{205}{table.caption.143}}
+\newlabel{tab:DifferentCasesOfTI2}{{8.1}{205}{Difference in activity that can be clearly distinguished for various cases of the TRITIUM-IFIC 2 prototype based on different integration counting times and different number of prototypes.\relax }{table.caption.143}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.2}Simulation Results of Background Rejection System}{205}{subsection.8.2.2}}
+\newlabel{subsec:ResultsSimulatedBackgroundRejectionSystem}{{8.2.2}{205}{Simulation Results of Background Rejection System}{subsection.8.2.2}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusions and Prospects}{207}{chapter.9}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{chap:Conclusions}{{9}{205}{Conclusions and Prospects}{chapter.9}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {9.1}{\ignorespaces Results of scintillator detector developed for several experiments (including the TRITIUM project) for tritiated water detection. This table shows the efficiency of the detector ($\varepsilon _{det}$), its active surface ($F_{sci}$), its specific efficiency ($\eta _{det}=\varepsilon _{det}/F_{sci}$), defined as its efficiency normalized to its active surface, and its low detection-level (LDL) for each study listed above. The "*" symbol indicates that this is the specified activity that the detector can distinguish from the background, but it is not its LDL.\relax }}{209}{table.caption.140}}
-\newlabel{tab:ComparisonResultsTri}{{9.1}{209}{Results of scintillator detector developed for several experiments (including the TRITIUM project) for tritiated water detection. This table shows the efficiency of the detector ($\varepsilon _{det}$), its active surface ($F_{sci}$), its specific efficiency ($\eta _{det}=\varepsilon _{det}/F_{sci}$), defined as its efficiency normalized to its active surface, and its low detection-level (LDL) for each study listed above. The "*" symbol indicates that this is the specified activity that the detector can distinguish from the background, but it is not its LDL.\relax }{table.caption.140}{}}
-\@writefile{toc}{\contentsline {chapter}{Appendices}{}{section*.141}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Electronical Schemes of PCBs Used for SiPM Characterization}{215}{appendix.A}}
+\newlabel{chap:Conclusions}{{9}{207}{Conclusions and Prospects}{chapter.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {9.1}{\ignorespaces Results of scintillator detector developed for several experiments (including the TRITIUM project) for tritiated water detection. This table shows the efficiency of the detector ($\varepsilon _{det}$), its active surface ($F_{sci}$), its specific efficiency ($\eta _{det}=\varepsilon _{det}/F_{sci}$), defined as its efficiency normalized to its active surface, and its low detection-level (LDL) for each study listed above. The "*" symbol indicates that this is the specified activity that the detector can distinguish from the background, but it is not its LDL.\relax }}{211}{table.caption.144}}
+\newlabel{tab:ComparisonResultsTri}{{9.1}{211}{Results of scintillator detector developed for several experiments (including the TRITIUM project) for tritiated water detection. This table shows the efficiency of the detector ($\varepsilon _{det}$), its active surface ($F_{sci}$), its specific efficiency ($\eta _{det}=\varepsilon _{det}/F_{sci}$), defined as its efficiency normalized to its active surface, and its low detection-level (LDL) for each study listed above. The "*" symbol indicates that this is the specified activity that the detector can distinguish from the background, but it is not its LDL.\relax }{table.caption.144}{}}
+\@writefile{toc}{\contentsline {chapter}{Appendices}{}{section*.145}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Electronical Schemes of PCBs Used for SiPM Characterization}{217}{appendix.A}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{App:ElectronicalSchemesSiPMPCBs}{{A}{215}{Electronical Schemes of PCBs Used for SiPM Characterization}{appendix.A}{}}
+\newlabel{App:ElectronicalSchemesSiPMPCBs}{{A}{217}{Electronical Schemes of PCBs Used for SiPM Characterization}{appendix.A}{}}
 \citation{PETSYS}
 \citation{PETSYS}
 \citation{PETSYS}
-\@writefile{toc}{\contentsline {chapter}{\numberline {B}Electronic Readout for SiPM 13360-6075 Model}{217}{appendix.B}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {B}Electronic Readout for SiPM 13360-6075 Model}{219}{appendix.B}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{App:ElectronicReadoutSiPM}{{B}{217}{Electronic Readout for SiPM 13360-6075 Model}{appendix.B}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {B.1}{\ignorespaces Different parts of PETSYS system.~\cite  {PETSYS}\relax }}{218}{figure.caption.142}}
-\newlabel{fig:PETSYS}{{B.1}{218}{Different parts of PETSYS system.~\cite {PETSYS}\relax }{figure.caption.142}{}}
+\newlabel{App:ElectronicReadoutSiPM}{{B}{219}{Electronic Readout for SiPM 13360-6075 Model}{appendix.B}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {B.1}{\ignorespaces Different parts of PETSYS system.~\cite  {PETSYS}\relax }}{220}{figure.caption.146}}
+\newlabel{fig:PETSYS}{{B.1}{220}{Different parts of PETSYS system.~\cite {PETSYS}\relax }{figure.caption.146}{}}
 \citation{ThorlabsCompany}
 \citation{OpticalFibers}
 \citation{LEDThorlabs}
 \citation{Oscilloscope}
-\newlabel{subfig:PCB1}{{B.2a}{221}{PCB 1 used to arrang 8 SiPMs and black box.\relax }{figure.caption.143}{}}
-\newlabel{sub@subfig:PCB1}{{a}{221}{PCB 1 used to arrang 8 SiPMs and black box.\relax }{figure.caption.143}{}}
-\newlabel{subfig:PCB2}{{B.2b}{221}{PCB 2 used to sum and amplify the output signals of SiPMs.\relax }{figure.caption.143}{}}
-\newlabel{sub@subfig:PCB2}{{b}{221}{PCB 2 used to sum and amplify the output signals of SiPMs.\relax }{figure.caption.143}{}}
-\newlabel{subfig:PCB3}{{B.2c}{221}{PCB 3 used to rearrange the different singals of the system.\relax }{figure.caption.143}{}}
-\newlabel{sub@subfig:PCB3}{{c}{221}{PCB 3 used to rearrange the different singals of the system.\relax }{figure.caption.143}{}}
-\newlabel{subfig:LEDSpectrum}{{B.2d}{221}{Emission spectrum of the LED.\relax }{figure.caption.143}{}}
-\newlabel{sub@subfig:LEDSpectrum}{{d}{221}{Emission spectrum of the LED.\relax }{figure.caption.143}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {B.2}{\ignorespaces Three PCBs used for the SiPM characterization and LED emission spectrum.\relax }}{221}{figure.caption.143}}
-\newlabel{fig:PCBs_LEDSpectrum}{{B.2}{221}{Three PCBs used for the SiPM characterization and LED emission spectrum.\relax }{figure.caption.143}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {C}Ultrapure Water System}{223}{appendix.C}}
+\newlabel{subfig:PCB1}{{B.2a}{223}{PCB 1 used to arrang 8 SiPMs and black box.\relax }{figure.caption.147}{}}
+\newlabel{sub@subfig:PCB1}{{a}{223}{PCB 1 used to arrang 8 SiPMs and black box.\relax }{figure.caption.147}{}}
+\newlabel{subfig:PCB2}{{B.2b}{223}{PCB 2 used to sum and amplify the output signals of SiPMs.\relax }{figure.caption.147}{}}
+\newlabel{sub@subfig:PCB2}{{b}{223}{PCB 2 used to sum and amplify the output signals of SiPMs.\relax }{figure.caption.147}{}}
+\newlabel{subfig:PCB3}{{B.2c}{223}{PCB 3 used to rearrange the different singals of the system.\relax }{figure.caption.147}{}}
+\newlabel{sub@subfig:PCB3}{{c}{223}{PCB 3 used to rearrange the different singals of the system.\relax }{figure.caption.147}{}}
+\newlabel{subfig:LEDSpectrum}{{B.2d}{223}{Emission spectrum of the LED.\relax }{figure.caption.147}{}}
+\newlabel{sub@subfig:LEDSpectrum}{{d}{223}{Emission spectrum of the LED.\relax }{figure.caption.147}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {B.2}{\ignorespaces Three PCBs used for the SiPM characterization and LED emission spectrum.\relax }}{223}{figure.caption.147}}
+\newlabel{fig:PCBs_LEDSpectrum}{{B.2}{223}{Three PCBs used for the SiPM characterization and LED emission spectrum.\relax }{figure.caption.147}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {C}Ultrapure Water System}{225}{appendix.C}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{App:UltraPureWaterSystem}{{C}{223}{Ultrapure Water System}{appendix.C}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {C.1}{\ignorespaces Scheme of the ultrapure water system.\relax }}{223}{figure.caption.144}}
-\newlabel{fig:SchemeUPWS}{{C.1}{223}{Scheme of the ultrapure water system.\relax }{figure.caption.144}{}}
-\newlabel{subfig:GrossFiltering}{{C.2a}{224}{Gross filtering stage.\relax }{figure.caption.145}{}}
-\newlabel{sub@subfig:GrossFiltering}{{a}{224}{Gross filtering stage.\relax }{figure.caption.145}{}}
-\newlabel{subfig:FineFiltering}{{C.2b}{224}{Fine filtering stage.\relax }{figure.caption.145}{}}
-\newlabel{sub@subfig:FineFiltering}{{b}{224}{Fine filtering stage.\relax }{figure.caption.145}{}}
-\newlabel{subfig:SuperFineFiltering}{{C.2c}{224}{Super fine filtering stage.\relax }{figure.caption.145}{}}
-\newlabel{sub@subfig:SuperFineFiltering}{{c}{224}{Super fine filtering stage.\relax }{figure.caption.145}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {C.2}{\ignorespaces Different stages of filtration of the ultrapure water system.\relax }}{224}{figure.caption.145}}
-\newlabel{fig:UltraPureWaterStages}{{C.2}{224}{Different stages of filtration of the ultrapure water system.\relax }{figure.caption.145}{}}
-\newlabel{subfig:Osmosi}{{C.3a}{225}{Doble phase reverse osmosis stage.\relax }{figure.caption.146}{}}
-\newlabel{sub@subfig:Osmosi}{{a}{225}{Doble phase reverse osmosis stage.\relax }{figure.caption.146}{}}
-\newlabel{subfig:Containers}{{C.3b}{225}{Storage containers of reject and ultrapure water.\relax }{figure.caption.146}{}}
-\newlabel{sub@subfig:Containers}{{b}{225}{Storage containers of reject and ultrapure water.\relax }{figure.caption.146}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {C.3}{\ignorespaces Doble phase reverse osmosis stage and containers used to store the outlet water of the ultrapure water system.\relax }}{225}{figure.caption.146}}
-\newlabel{subfig:OsmosisContainers}{{C.3}{225}{Doble phase reverse osmosis stage and containers used to store the outlet water of the ultrapure water system.\relax }{figure.caption.146}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {C.4}{\ignorespaces Siemens PLC, software for remote control of ultrapure water system.\relax }}{225}{figure.caption.147}}
-\newlabel{fig:Siemens}{{C.4}{225}{Siemens PLC, software for remote control of ultrapure water system.\relax }{figure.caption.147}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {C.5}{\ignorespaces General photo of the complete ultrapure water system.\relax }}{226}{figure.caption.148}}
-\newlabel{fig:CompleteSystem}{{C.5}{226}{General photo of the complete ultrapure water system.\relax }{figure.caption.148}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {C.6}{\ignorespaces Raw water, reject water and ultrapure water obtained with this system.\relax }}{226}{figure.caption.149}}
-\newlabel{fig:ThreeTypesOfWater}{{C.6}{226}{Raw water, reject water and ultrapure water obtained with this system.\relax }{figure.caption.149}{}}
+\newlabel{App:UltraPureWaterSystem}{{C}{225}{Ultrapure Water System}{appendix.C}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {C.1}{\ignorespaces Scheme of the ultrapure water system.\relax }}{225}{figure.caption.148}}
+\newlabel{fig:SchemeUPWS}{{C.1}{225}{Scheme of the ultrapure water system.\relax }{figure.caption.148}{}}
+\newlabel{subfig:GrossFiltering}{{C.2a}{226}{Gross filtering stage.\relax }{figure.caption.149}{}}
+\newlabel{sub@subfig:GrossFiltering}{{a}{226}{Gross filtering stage.\relax }{figure.caption.149}{}}
+\newlabel{subfig:FineFiltering}{{C.2b}{226}{Fine filtering stage.\relax }{figure.caption.149}{}}
+\newlabel{sub@subfig:FineFiltering}{{b}{226}{Fine filtering stage.\relax }{figure.caption.149}{}}
+\newlabel{subfig:SuperFineFiltering}{{C.2c}{226}{Super fine filtering stage.\relax }{figure.caption.149}{}}
+\newlabel{sub@subfig:SuperFineFiltering}{{c}{226}{Super fine filtering stage.\relax }{figure.caption.149}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {C.2}{\ignorespaces Different stages of filtration of the ultrapure water system.\relax }}{226}{figure.caption.149}}
+\newlabel{fig:UltraPureWaterStages}{{C.2}{226}{Different stages of filtration of the ultrapure water system.\relax }{figure.caption.149}{}}
+\newlabel{subfig:Osmosi}{{C.3a}{227}{Doble phase reverse osmosis stage.\relax }{figure.caption.150}{}}
+\newlabel{sub@subfig:Osmosi}{{a}{227}{Doble phase reverse osmosis stage.\relax }{figure.caption.150}{}}
+\newlabel{subfig:Containers}{{C.3b}{227}{Storage containers of reject and ultrapure water.\relax }{figure.caption.150}{}}
+\newlabel{sub@subfig:Containers}{{b}{227}{Storage containers of reject and ultrapure water.\relax }{figure.caption.150}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {C.3}{\ignorespaces Doble phase reverse osmosis stage and containers used to store the outlet water of the ultrapure water system.\relax }}{227}{figure.caption.150}}
+\newlabel{subfig:OsmosisContainers}{{C.3}{227}{Doble phase reverse osmosis stage and containers used to store the outlet water of the ultrapure water system.\relax }{figure.caption.150}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {C.4}{\ignorespaces Siemens PLC, software for remote control of ultrapure water system.\relax }}{227}{figure.caption.151}}
+\newlabel{fig:Siemens}{{C.4}{227}{Siemens PLC, software for remote control of ultrapure water system.\relax }{figure.caption.151}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {C.5}{\ignorespaces General photo of the complete ultrapure water system.\relax }}{228}{figure.caption.152}}
+\newlabel{fig:CompleteSystem}{{C.5}{228}{General photo of the complete ultrapure water system.\relax }{figure.caption.152}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {C.6}{\ignorespaces Raw water, reject water and ultrapure water obtained with this system.\relax }}{228}{figure.caption.153}}
+\newlabel{fig:ThreeTypesOfWater}{{C.6}{228}{Raw water, reject water and ultrapure water obtained with this system.\relax }{figure.caption.153}{}}
 \citation{TritiumSourceTechnicalFile}
-\@writefile{toc}{\contentsline {chapter}{\numberline {D}Preparation of Liquid Radioactive Source of Tritium}{227}{appendix.D}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {D}Preparation of Liquid Radioactive Source of Tritium}{229}{appendix.D}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{App:TritiumSourcePreparation}{{D}{227}{Preparation of Liquid Radioactive Source of Tritium}{appendix.D}{}}
+\newlabel{App:TritiumSourcePreparation}{{D}{229}{Preparation of Liquid Radioactive Source of Tritium}{appendix.D}{}}
 \citation{PowerSupplyAveiroDataSheet}
 \citation{MAX5500DataSheet}
-\@writefile{toc}{\contentsline {chapter}{\numberline {E}Electronic System of TRITIUM-Aveiro 0 prototype}{229}{appendix.E}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {E}Electronic System of TRITIUM-Aveiro 0 prototype}{231}{appendix.E}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{App:ElectronicSystemAveiro}{{E}{229}{Electronic System of TRITIUM-Aveiro 0 prototype}{appendix.E}{}}
+\newlabel{App:ElectronicSystemAveiro}{{E}{231}{Electronic System of TRITIUM-Aveiro 0 prototype}{appendix.E}{}}
 \citation{VetoAveiro}
 \citation{DataSheetPMTsAveiro}
-\newlabel{subfig:ElectronicSchemeHVBoard}{{E.1a}{230}{Electronic scheme of the PCB.\relax }{figure.caption.150}{}}
-\newlabel{sub@subfig:ElectronicSchemeHVBoard}{{a}{230}{Electronic scheme of the PCB.\relax }{figure.caption.150}{}}
-\newlabel{subfig:GUI}{{E.1b}{230}{Graphical user interface.\relax }{figure.caption.150}{}}
-\newlabel{sub@subfig:GUI}{{b}{230}{Graphical user interface.\relax }{figure.caption.150}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {E.1}{\ignorespaces Electronic scheme of the PCB designed to power the PMTs of Aveiro prototype and the graphical user interface developed to control it.\relax }}{230}{figure.caption.150}}
-\newlabel{fig:HVElectronicAveiro}{{E.1}{230}{Electronic scheme of the PCB designed to power the PMTs of Aveiro prototype and the graphical user interface developed to control it.\relax }{figure.caption.150}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {E.2}{\ignorespaces Simplified electronic scheme used to process and analyze the signal of TRITIUM-Aveiro 0 prototype. \relax }}{230}{figure.caption.151}}
-\newlabel{fig:ElectronicSchemCounterBoard}{{E.2}{230}{Simplified electronic scheme used to process and analyze the signal of TRITIUM-Aveiro 0 prototype. \relax }{figure.caption.151}{}}
+\newlabel{subfig:ElectronicSchemeHVBoard}{{E.1a}{232}{Electronic scheme of the PCB.\relax }{figure.caption.154}{}}
+\newlabel{sub@subfig:ElectronicSchemeHVBoard}{{a}{232}{Electronic scheme of the PCB.\relax }{figure.caption.154}{}}
+\newlabel{subfig:GUI}{{E.1b}{232}{Graphical user interface.\relax }{figure.caption.154}{}}
+\newlabel{sub@subfig:GUI}{{b}{232}{Graphical user interface.\relax }{figure.caption.154}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {E.1}{\ignorespaces Electronic scheme of the PCB designed to power the PMTs of Aveiro prototype and the graphical user interface developed to control it.\relax }}{232}{figure.caption.154}}
+\newlabel{fig:HVElectronicAveiro}{{E.1}{232}{Electronic scheme of the PCB designed to power the PMTs of Aveiro prototype and the graphical user interface developed to control it.\relax }{figure.caption.154}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {E.2}{\ignorespaces Simplified electronic scheme used to process and analyze the signal of TRITIUM-Aveiro 0 prototype. \relax }}{232}{figure.caption.155}}
+\newlabel{fig:ElectronicSchemCounterBoard}{{E.2}{232}{Simplified electronic scheme used to process and analyze the signal of TRITIUM-Aveiro 0 prototype. \relax }{figure.caption.155}{}}
 \citation{CREMATPreAmplifierDataSheet}
 \citation{OPA656}
 \citation{LT111}
@@ -1080,14 +1102,14 @@
 \citation{ANDGate}
 \bibstyle{tesis}
 \bibdata{sample}
-\@writefile{lof}{\contentsline {figure}{\numberline {E.3}{\ignorespaces Graphical user interface used to manage the counter system. \relax }}{233}{figure.caption.152}}
-\newlabel{fig:GUIcounts}{{E.3}{233}{Graphical user interface used to manage the counter system. \relax }{figure.caption.152}{}}
-\newlabel{subfig:TrueTritiumEvent}{{E.4a}{234}{Event accepted by the electronic system.\relax }{figure.caption.153}{}}
-\newlabel{sub@subfig:TrueTritiumEvent}{{a}{234}{Event accepted by the electronic system.\relax }{figure.caption.153}{}}
-\newlabel{subfig:FalseTritiumEvent}{{E.4b}{234}{Event rejected by the electronic system.\relax }{figure.caption.153}{}}
-\newlabel{sub@subfig:FalseTritiumEvent}{{b}{234}{Event rejected by the electronic system.\relax }{figure.caption.153}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {E.4}{\ignorespaces Two different situations of the electronic chain response. A.- Event accepted since veto has not detected it. B.- Event rejected since veto has detected it\relax }}{234}{figure.caption.153}}
-\newlabel{fig:ScreenshotElectronic}{{E.4}{234}{Two different situations of the electronic chain response. A.- Event accepted since veto has not detected it. B.- Event rejected since veto has detected it\relax }{figure.caption.153}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {E.3}{\ignorespaces Graphical user interface used to manage the counter system. \relax }}{235}{figure.caption.156}}
+\newlabel{fig:GUIcounts}{{E.3}{235}{Graphical user interface used to manage the counter system. \relax }{figure.caption.156}{}}
+\newlabel{subfig:TrueTritiumEvent}{{E.4a}{236}{Event accepted by the electronic system.\relax }{figure.caption.157}{}}
+\newlabel{sub@subfig:TrueTritiumEvent}{{a}{236}{Event accepted by the electronic system.\relax }{figure.caption.157}{}}
+\newlabel{subfig:FalseTritiumEvent}{{E.4b}{236}{Event rejected by the electronic system.\relax }{figure.caption.157}{}}
+\newlabel{sub@subfig:FalseTritiumEvent}{{b}{236}{Event rejected by the electronic system.\relax }{figure.caption.157}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {E.4}{\ignorespaces Two different situations of the electronic chain response. A.- Event accepted since veto has not detected it. B.- Event rejected since veto has detected it\relax }}{236}{figure.caption.157}}
+\newlabel{fig:ScreenshotElectronic}{{E.4}{236}{Two different situations of the electronic chain response. A.- Event accepted since veto has not detected it. B.- Event rejected since veto has detected it\relax }{figure.caption.157}{}}
 \bibcite{Australia_GL}{AG21}
 \bibcite{Geant4P}{Ago03}
 \bibcite{LSCothers}{AH99}
@@ -1180,6 +1202,7 @@
 \bibcite{Knoll}{Kno99}
 \bibcite{TemperatureBlade}{Law06}
 \bibcite{DataSheetCoincidenceLeCroy}{LeC}
+\bibcite{OscilloscopeIFIMED}{LEC17}
 \bibcite{Leo}{Leo94}
 \bibcite{BirksCoefficient}{Lev11}
 \bibcite{TritiumEspectrum}{Lin20}
