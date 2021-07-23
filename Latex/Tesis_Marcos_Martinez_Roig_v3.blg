@@ -70,92 +70,96 @@ You're missing a field part---line 1223 of file sample.bib
  :       year         = 
  :                      ,
 I'm skipping whatever remains of this entry
-You're missing a field part---line 1231 of file sample.bib
+Warning--I'm ignoring VoltageSourceISOTECH's extra "note" field
+--line 1233 of file sample.bib
+Warning--I'm ignoring VoltageSourceKethley's extra "note" field
+--line 1243 of file sample.bib
+You're missing a field part---line 1251 of file sample.bib
  :       year         = 
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring OpticalFibers's extra "note" field
---line 1241 of file sample.bib
-Warning--I'm ignoring LEDThorlabs's extra "note" field
---line 1251 of file sample.bib
-Warning--I'm ignoring Oscilloscope's extra "note" field
 --line 1261 of file sample.bib
+Warning--I'm ignoring LEDThorlabs's extra "note" field
+--line 1271 of file sample.bib
+Warning--I'm ignoring Oscilloscope's extra "note" field
+--line 1281 of file sample.bib
 Warning--I'm ignoring PDG's extra "note" field
---line 1295 of file sample.bib
+--line 1315 of file sample.bib
 Warning--I'm ignoring ScintillatorVeto's extra "note" field
---line 1334 of file sample.bib
+--line 1354 of file sample.bib
 Warning--I'm ignoring DiamondThorlabs's extra "note" field
---line 1344 of file sample.bib
-You're missing a field part---line 1352 of file sample.bib
+--line 1364 of file sample.bib
+You're missing a field part---line 1372 of file sample.bib
  :       year         = 
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring StepperMotors's extra "note" field
---line 1388 of file sample.bib
-You're missing a field part---line 1396 of file sample.bib
+--line 1408 of file sample.bib
+You're missing a field part---line 1416 of file sample.bib
  :       year         = 
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring CNCShield's extra "note" field
---line 1406 of file sample.bib
-Warning--I'm ignoring A4988Driver's extra "note" field
---line 1416 of file sample.bib
-Warning--I'm ignoring DRV8825Driver's extra "note" field
 --line 1426 of file sample.bib
-Warning--I'm ignoring TMC2208Driver's extra "note" field
+Warning--I'm ignoring A4988Driver's extra "note" field
 --line 1436 of file sample.bib
-Warning--I'm ignoring LEDRLT's extra "note" field
+Warning--I'm ignoring DRV8825Driver's extra "note" field
 --line 1446 of file sample.bib
-You're missing a field part---line 1456 of file sample.bib
+Warning--I'm ignoring TMC2208Driver's extra "note" field
+--line 1456 of file sample.bib
+Warning--I'm ignoring LEDRLT's extra "note" field
+--line 1466 of file sample.bib
+You're missing a field part---line 1476 of file sample.bib
  :       year         = 
  :                      ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1462 of file sample.bib
+I was expecting a `,' or a `}'---line 1482 of file sample.bib
  :    title  = "BK5 - Black Nylon, Polyurethane-Coated Fabric, 5'x9' (1.5m x 2.7m) x 0.005" 
  :                                                                                          (0.12 mm) Thick",
 I'm skipping whatever remains of this entry
-You're missing a field part---line 1474 of file sample.bib
+You're missing a field part---line 1494 of file sample.bib
  :       year         = 
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring ClimaticChamberIFIMED's extra "note" field
---line 1484 of file sample.bib
+--line 1504 of file sample.bib
 Warning--I'm ignoring OscilloscopeIFIMED's extra "note" field
---line 1494 of file sample.bib
-You're missing a field part---line 1510 of file sample.bib
+--line 1514 of file sample.bib
+You're missing a field part---line 1530 of file sample.bib
  :       year         = 
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring ScalerDataSheet's extra "note" field
---line 1524 of file sample.bib
-Warning--I'm ignoring TritiumSourceTechnicalFile's extra "note" field
---line 1534 of file sample.bib
-Warning--I'm ignoring DataSheetBCF10Fiber's extra "note" field
 --line 1544 of file sample.bib
-Warning--I'm ignoring DataSheetPMTsAveiro's extra "note" field
+Warning--I'm ignoring TritiumSourceTechnicalFile's extra "note" field
 --line 1554 of file sample.bib
-Warning--I'm ignoring PowerSupplyAveiroDataSheet's extra "note" field
+Warning--I'm ignoring DataSheetBCF10Fiber's extra "note" field
 --line 1564 of file sample.bib
-Warning--I'm ignoring MAX5500DataSheet's extra "note" field
+Warning--I'm ignoring DataSheetPMTsAveiro's extra "note" field
 --line 1574 of file sample.bib
-Warning--I'm ignoring VetoAveiro's extra "note" field
+Warning--I'm ignoring PowerSupplyAveiroDataSheet's extra "note" field
 --line 1584 of file sample.bib
-Warning--I'm ignoring CREMATPreAmplifierDataSheet's extra "note" field
+Warning--I'm ignoring MAX5500DataSheet's extra "note" field
 --line 1594 of file sample.bib
-Warning--I'm ignoring OPA656's extra "note" field
+Warning--I'm ignoring VetoAveiro's extra "note" field
 --line 1604 of file sample.bib
-Warning--I'm ignoring LT111's extra "note" field
+Warning--I'm ignoring CREMATPreAmplifierDataSheet's extra "note" field
 --line 1614 of file sample.bib
-Warning--I'm ignoring Stretcher's extra "note" field
+Warning--I'm ignoring OPA656's extra "note" field
 --line 1624 of file sample.bib
-Warning--I'm ignoring ANDGate's extra "note" field
+Warning--I'm ignoring LT111's extra "note" field
 --line 1634 of file sample.bib
-You're missing a field part---line 1661 of file sample.bib
+Warning--I'm ignoring Stretcher's extra "note" field
+--line 1644 of file sample.bib
+Warning--I'm ignoring ANDGate's extra "note" field
+--line 1654 of file sample.bib
+You're missing a field part---line 1681 of file sample.bib
  :       year         = 
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring CAENV1724's extra "note" field
---line 1752 of file sample.bib
+--line 1772 of file sample.bib
 Warning--I didn't find a database entry for "CrossSeccionNeutrons"
 Warning--I didn't find a database entry for "CrossSeccionNeutrino"
 Warning--I didn't find a database entry for "Snell"
@@ -258,45 +262,45 @@ Warning--empty publisher in NaturalRadioactiveSeries1
 Warning--empty note in BlackBlancket
 Too many commas in name 1 of "Z. Chen, S. Peng, D. Meng, Y. He and H. Wang" for entry IonizationChamber2
 while executing---line 1479 of file tesis.bst
-You've used 154 entries,
+You've used 156 entries,
             2997 wiz_defined-function locations,
-            1504 strings with 35871 characters,
-and the built_in function-call counts, 64047 in all, are:
-= -- 4445
-> -- 2743
-< -- 160
-+ -- 999
-- -- 973
-* -- 5115
-:= -- 8756
-add.period$ -- 154
-call.type$ -- 154
-change.case$ -- 1048
-chr.to.int$ -- 137
-cite$ -- 173
-duplicate$ -- 5193
-empty$ -- 4876
-format.name$ -- 1299
-if$ -- 12231
+            1515 strings with 36291 characters,
+and the built_in function-call counts, 64581 in all, are:
+= -- 4485
+> -- 2757
+< -- 162
++ -- 1003
+- -- 977
+* -- 5151
+:= -- 8836
+add.period$ -- 156
+call.type$ -- 156
+change.case$ -- 1058
+chr.to.int$ -- 139
+cite$ -- 175
+duplicate$ -- 5243
+empty$ -- 4918
+format.name$ -- 1306
+if$ -- 12329
 int.to.chr$ -- 18
 int.to.str$ -- 0
-missing$ -- 1193
-newline$ -- 465
-num.names$ -- 311
-pop$ -- 2230
+missing$ -- 1201
+newline$ -- 471
+num.names$ -- 315
+pop$ -- 2247
 preamble$ -- 1
-purify$ -- 1256
+purify$ -- 1268
 quote$ -- 0
-skip$ -- 1838
+skip$ -- 1853
 stack$ -- 0
-substring$ -- 2127
-swap$ -- 2902
-text.length$ -- 160
-text.prefix$ -- 120
+substring$ -- 2145
+swap$ -- 2922
+text.length$ -- 162
+text.prefix$ -- 121
 top$ -- 0
-type$ -- 1204
+type$ -- 1220
 warning$ -- 19
-while$ -- 357
-width$ -- 159
-write$ -- 1231
+while$ -- 361
+width$ -- 161
+write$ -- 1245
 (There were 58 error messages)

@@ -4,16 +4,31 @@ A complete characterization is already underway for the S13360-6075 model, the l
 
 The SiPM characterization is carried out inside of a climatic chamber, model CCM 81 from DYCOMETAL \cite{ClimaticChamberIFIMED}. This climatic chamber allow to control the temperature and humidity with a precisión of $0.1\celsius$ and $0.1\%$ respectively. In addition, this is metallic, acting as a Faraday cage, and a special black blanket \cite{BlackBlancket} was used to prevent external photons from reaching the SiPM.
 
-First of all the breakdown voltage and the quenching resistance of the SiPM were experimentally obtained. Both parameters can be calculated from the measurement of the current-voltage curves of the SiPM, bias voltage applied in reverse and forward direction respectively. This measurement should be done without the amplification of the electronic board to achieve a better precision and without illuminating the SiPM. Therefore, the output current of the SiPM was directly measured using the Keithley 6487 Picoammeter/Voltage Source \cite{DataSheetKeithley6487} and the LabView program was used to automate the taking of measurements. The results of both measurements are plotted as a function of the bias voltage applied in Figure \ref{}.
+First of all the the quenching resistance and the breakdown voltage of the SiPM were experimentally obtained. Both parameters can be calculated from the measurement of the current-voltage curves of the SiPM, bias voltage applied in forward and reverse direction respectively. This measurement should be done without the amplification of the electronic board to achieve a better precision and without illuminating the SiPM. Therefore, the output current of the SiPM was directly measured using the Keithley 6487 Picoammeter/Voltage Source \cite{DataSheetKeithley6487} and the LabView program was used to automate the taking of measurements. The results of both measurements are plotted as a function of the bias voltage applied in Figure \ref{fig:IVcurveSiPM}.
 
-CURVAS IV, DIRECTA E INVERSA. Anotar que es a 25\% y 45\% de humedad
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.9\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{4ResearchAndDevelopments/42SiPM/IVCurveSiPMForward.pdf}  
+    \caption{\label{subfig:IVcurveForward}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.9\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{4ResearchAndDevelopments/42SiPM/IVCurveSiPMReverse.pdf}  
+    \caption{\label{subfig:IVcurveReverse}}
+    \end{subfigure}
+ \caption{I-V curves measured for the SiPM S13360-1375 model with the Bias voltage applied in a) forward direction b) reverse direction. This experience was carried out at $T=25\celsius$ and humidity of $H=45\%$}
+ \label{fig:IVcurveSiPM}
+\end{figure}
 
-As can be seen when the bias voltage is applied in forward direction, Figure \ref{}, the output current of the SiPM doesn't flow until the potencial difference existing between the n and p layers are reached, which is approximately $V_0=0.7~\volt$ for silicon photosensors, quite similar to the value experimentally obtained, $V_0= ~\volt$. When the current start to flow, the intensity is linear with the applied voltage following the equation:
+As can be seen when the bias voltage is applied in forward direction, Figure \ref{subfig:IVcurveForward}, the output current of the SiPM doesn't flow until the potencial difference existing between the n and p layers are reached, which is approximately $V_0=0.7~\volt$ for silicon photosensors, quite similar to the value experimentally obtained, $V_0= 0.5~\volt$. When the current start to flow, the intensity is linear with the applied voltage following the equation:
 \begin{equation}
 I=\frac{1}{R_{eq}}V;  \qquad \frac{1}{R_{eq}} = \sum_{i=1}^{N}\frac{1}{R_{qi}}= \frac{N}{R_{q}}
 \label{QuenchingResistance}
 \end{equation}
-Where $R_{eq}$ is the equivalent resistance of all quenching resistance of the SiPM, $R_{q}$, which are in parallel. Therefore, a value of $R_{q}= ~\ohm$ is obtained from the slope of the linear fit, which is in agreement with the value provided by Hamamatsu, Table \ref{tab:PropertiesOfSiPM1375}.
+Where $R_{eq}$ is the equivalent resistance of all quenching resistance of the SiPM, $R_{q}$, which are in parallel. Therefore, a value of $R_{q}= 511.39 \pm 0.74~\kilo\ohm$ is experimentaly obtained, which is in agreement with the typical values used.
 
 Regardness to the experience where a reverse bias voltage was applied, the output current of SiPM start to flow when the breakdown voltage is reached, which can be calculated from the maximum of the function 
 \begin{equation}
@@ -21,7 +36,7 @@ f=\frac{1}{I}\frac{dI}{dV}
 \label{BreakDownVoltageFunction}
 \end{equation}
 
-The value obtained is $V_{BD}=~\volt$, quite in agreement with the value providad by Hamamatsu, Table \ref{tab:PropertiesOfSiPM1375}.
+The value obtained is $V_{BD}=51.02~\volt$, quite in agreement with the value providad by Hamamatsu, Table \ref{tab:PropertiesOfSiPM1375}.
 
 Now, to experimentally measure the SiPM gain, $G_{SiPM}$, the electronic board shown in section \ref{subsubsec:SiPMsElectronicalSystem} was used, with which an amplification factor of $F_{amp}=170$ is applied. An incoherent light source, LED435-03 from Toithner LaserTechnik Gmbh \cite{LEDRLT}, the characteristics of which is described in section \ref{subsec:CharacterizationFibers}, is used to illuminate the SiPM with a low enough density of $\lambda= 435~\nm$ photons.
 

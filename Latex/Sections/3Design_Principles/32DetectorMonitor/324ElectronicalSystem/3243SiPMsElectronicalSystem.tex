@@ -1,47 +1,4 @@
-The electronic board was feed at $\pm6~\volt$ using voltage source ISOTECH, model IPS-4303 \cite{} and the SiPM was feed using the electrometer KETHLEY, model 6517B. Voltaje aplicado al SiPM con el electrómetro, que posee una resolución inferior al mV (no se aprecia en la ganancia).
-
-En segundo lugar necesitamos instrumentos nos permitiesen alimentar tanto el SiPM como
-la tarjeta de conversión intensidad-voltaje. Se utilizo un electrómetro (marca KEITH-
-LEY, modelo 6517B) para alimentar el SiPM y un generador de tensión (marca ISO-
-TECH, modelo IPS-4303) para alimentar la tarjeta de conversión.
-Se utilizo el electrómetro para el SiPM, ya que este dispone de una fuente de tensión de hasta
-1000V. Por el contrario, el ISO-TECH sólo dispone de una tensión máxima de 30 V. Poseen
-una resolución inferior al milivoltio e inferior a 0,1 V respectivamente, suficiente para que
-las ganancias que dependen del voltaje (ganancia del SiPM y de la tarjeta respectivamente)
-no varíe cuando fijamos el voltaje.
-
-En cuarto lugar, para alimentar este diodo LED, se necesitó un generador de pulsos
-(marca Agilent, modelo 33250A). Este generador de señales nos permite especificar la
-forma del pulso que pretendemos proporcionar y sus características. Este tenía que ser
-capaz de formar un pulso suficientemente estrecho para que el SiPM detectase unos pocos
-fotones.
-En concreto alimentamos el diodo LED con un pulso cuadrado. Los parámetros que nos
-permite especificar el generador de señales para un pulso de esta forma son frecuencia (o
-período), high level (o amplitud), low level, offset, anchura del pulso y tiempo de atenuación.
-Para nuestro estudio, los valores de estos parámetros que nos daban un mejor resultado
-desde el punto de vista experimental fueron una frecuencia de 20 Hz, high level de 2,275 V,
-low level de 1 V, offset de 1,638 V dc , anchura del pulso de 12 ns y tiempo de atenuación
-de 5 ns. Este generador de señal nos proporciona una segunda señal, denominada señal de
-sincronización, la cual podemos utilizar como trigger para determinar el instante de tiempo
-en el que se activa la señal luminosa.
-
-Hay que tener en cuenta que el SiPM nos proporciona un pulso de intensidad a la salida y
-necesitamos convertir este en un pulso de voltaje para, de esta forma, poder introducirla
-al osciloscopio para realizar el posterior análisis. Para ello emplearemos en sexto lugar una
-tarjeta conversora de intensidad en voltaje que puede verse reflejada en la figura 10
-derecha, en la cual se encuentra el SiPM utilizado conectado a la misma.
-Esta es una tarjeta desarrollada en el marco del proyecto NEXT.Esta consiste de dos
-entradas donde podemos conectar dos SiPM distintos. La tarjeta contiene el circuito de la
-figura 11 para cada SiPM:
-IMAGEN TFM
-La tarjeta tiene una ganancia de G = 170. Este será el valor que utilizaremos en el análisis
-posterior para calcular la ganancia de los SiPM.
-
-
-
-The SiPMs are used in the TRITIUM experiment in two different ways, at the level of a single SiPM and at the level of several SiPMs arranged in a matrix. Both studies were carried out to characterize the SiPM arrays used in the TRITIUM monitor.
-
-The electronic system chosen to process and analyze the output signals of the SiPM arrays is PETsys \cite{PETSYS}, which is a commercial system prepared to work with SiPM matrices from Hamamatsu.
+The SiPMs are used in the TRITIUM experiment arranged in matrix of $4\times 4$. The electronic system chosen to process and analyze the output signals of the SiPM arrays is PETsys \cite{PETSYS}, which is a commercial system prepared to work with SiPM matrices from Hamamatsu.
 
 PETsys is a complete acquisition and digitization system that is capable of working with up to 1024 SiPM. This system consists of a basic board, which processes the signal, to which 16 different SiPM matrices can be connected with up to 64 SiPM per matrix. This number of channels is needed in the TRITIUM project because, as it is shown in section \ref{sec:TritiumMonitor}, the TRITIUM monitor consists of a large number of SiPM matrices with 16 channels (SiPMs) per matrix. The PETsys system used in TRITIUM is displayed in Figure \ref{fig:PETSYS}.
 
@@ -57,48 +14,30 @@ PETSYS is based on C++ and Python scripts that are prepared for the main tasks r
 
 As described in section \ref{sec:CharacterizationSiPM}, the SiPM matrix temperature is an important parameter. The PETsys system has the ability to monitor the temperature of the SiPM matrices and ASICS employed to control them. Temperature monitoring is important to ensure the correct functioning of both, photosensors and system. PETsys has the possibility of developing new scripts to implement the stability gain method reported in section \ref{sec:CharacterizationSiPM}.
 
-Although the TRITIUM monitor use SiPM matrices it is important to start the characterizaton at the level of a single channel (only one SiPM) to reduce the uncertainties in the first results. In order to do so, an electronic system was designed, developed and built to read up to eight different SiPMs and to monitor their temperature.
+Some characterization measurements was performed using the PETSYS system to ensure that the system works properly but most of the SiPM characterization work was carried out at the level of a single channel (individual SiPM).
 
-This system is based on three different PCBs\footnote{PCB, Printed Circuit Board}, shown in Figure \ref{fig:PCBs_LEDSpectrum} (electronical schemes shown in the appendix \ref{App:ElectronicalSchemesSiPMPCBs}):
+It is important to start the characterizaton at the level of a single channel to reduce the uncertainties in the first results. In order to do so, an electronic system was designed, developed and built to read up to eight different SiPMs and to monitor their temperature.
 
-\begin{enumerate}
-\item{} The first PCB, shown in Figure \ref{subfig:PCB1}, is used to organize the SiPMs and sensor temperature. This PCB place up to 8 different SiPMs and a temperature sensor and arrange their output signals on two HDMI connections. This PCB is placed inside a special black box, from Thorlabs company \cite{ThorlabsCompany}, that has a high degree of light tightness. This black box has a small hole of $1~\mm$ diameter, prepared to introduce an optical fiber\footnote{The optical fiber used is BCF-98 from Saint-Gobain company \cite{OpticalFibers}} to iluminate SiPMs with an incoherent light source. The light source utilized is a LED, model 430L from Thorlabs company \cite{LEDThorlabs}, which gives an spectrum shown in Figure \ref{subfig:LEDSpectrum}. The spectrum was experimentaly measured with a spectrometer and fitted to a Gaussian function. It can be seen that the emission peak of this LED is palced at $436.3$ with a FWHM\footnote{The FWHM parameter, Full Width at Half Maximum, of a Gaussian fit can be calculated from its sigma using the equation: FWHM$=2.35 \cdot{} \sigma$} of $19.1~\nano\meter$. With the help of this LED the light emission of the fibers used in TRITIUM experiment is simulated to calibrate the SiPMs at the working wavelength. 
-
-\item{} The second PCB, shown in Figure \ref{subfig:PCB2}, sums the different signals of the SiPMs and amplify them by a factor $G=4187.5$ or $G=10761.88$, depending on the input resistance of the oscilloscope, $50~\varOmega$ or $1~\mega\varOmega$, respectively. This PCB uses a differential amplification that reduce the electronic noise of the system and is connected to the first PCB through two HDMI feedthroughs.
-
-\item{} The third PCB, shown in Figure \ref{subfig:PCB3}, rearranges all the different input and output signals in an HDMI connection to avoid crosstalk between different signals. This PCB is connected to the second PCB trought a HDMI feedthrough.
-
-The input signals are the supply voltage of the SiPMs and the supply voltage of the PCBs ($\pm 6~\volt$) and the output signals are the temperature sensor signal and the summed signal of all SiPMs. 
-
-\end{enumerate}
+This system consists of a PCB\footnote{PCB, Printed Circuit Board} which is used to provide the SiPM bias voltage and to read the SiPM output signal. An example of the electronic scheme (provided by Hamamatsu) in which this is based is shown in Figure \ref{fig:PCBSiPM}.
 
 \begin{figure}
 \centering
     \begin{subfigure}[b]{0.5\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg}  
-    \caption{PCB 1 used to arrang 8 SiPMs and black box.\label{subfig:PCB1}}
+    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/SiPMPCB.png}  
+    \caption{\label{subfig:ElectronicBoardSiPM}}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png}  
-    \caption{PCB 2 used to sum and amplify the output signals of SiPMs.\label{subfig:PCB2}}
+    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/ElectronicSchemePCBSiPM.png}  
+    \caption{\label{subfig:ElectronicSchemePCBSiPM}}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[b]{0.4\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png}  
-    \caption{PCB 3 used to rearrange the different singals of the system.\label{subfig:PCB3}}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.5\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/LED_DUNE.pdf}  
-    \caption{Emission spectrum of the LED.\label{subfig:LEDSpectrum}}
-    \end{subfigure}
- \caption{Three PCBs used for the SiPM characterization and LED emission spectrum.}
- \label{fig:PCBs_LEDSpectrum}
+ \caption{a) Electronic board used to provide the SiPM bias voltage and to read the SiPM output signal. b) Electronical scheme in which this PCB is based}
+ \label{fig:PCBSiPM}
 \end{figure}
 
-The output signal of the third PCB is connected to an oscilloscope, model MSO44X from Tektronix \cite{Oscilloscope} that records the data which are subsequently analized by ROOT\footnote{ROOT is a framework for data processing, based on C ++ and object-oriented technology, developed at CERN and widely used in nuclear and particle physics.}.
+The PCB was feed at $\pm6~\volt$ using the voltage source ISOTECH, model IPS-4303 \cite{VoltageSourceISOTECH} and the SiPM was feed using the electrometer KETHLEY, model 6517B \cite{VoltageSourceKethley}, with which a resolution of $1~\milli\volt$ is achieved, low enough to ensure that this does not affect to the SiPM gain.
+
+The output signal of this PCB is connected to an oscilloscope, model WwaveRunner 625Zi from TELEDYNE LECROY \cite{OscilloscopeIFIMED} that records the data which are subsequently analized by ROOT\footnote{ROOT is a framework for data processing, based on C ++ and object-oriented technology, developed at CERN and widely used in nuclear and particle physics.}.
