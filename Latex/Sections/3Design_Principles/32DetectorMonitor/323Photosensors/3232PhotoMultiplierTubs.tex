@@ -32,7 +32,7 @@ The maximum values of the PMT quantum efficiency is usually between $20\%$ and $
 
 Focusing electrodes guide the photoelectrons to the first dinode. They have a collection efficiency (CE) defined as the ratio of the number of photoelectrons reaching the first dinode and the number of photoelectrons leaving the photocathode and its value is around $80\%$. The dynodes achieve the electron multiplication. A voltage difference between adjacent dynodes accelerates the electrons and produce their multiplication. The multiplication factor of each dynode, $\delta$, is commonly around 5 and is strongly dependent on the HV. If all dynodes have the same gain, the overall gain of a PMT with N dynodes is \cite{Knoll}:
 \begin{equation}
-G = CE\cdot{} \delta^N
+G_{PMT} = CE\cdot{} \delta^N
 \label{eq:PMTGain}
 \end{equation}
 that give an overall gain of a PMT of the order of $10^6$, strongly dependent on the applied HV.
@@ -41,7 +41,7 @@ The multiplication stage adds an uncertainty in the measurement. Working without
 
 \end{enumerate}
 
-The output pulse of a PMT has a width of the order of tens of nanoseconds. The multiplication process can be described as a Poisson statistical process. For each electron in the first dynode, G new electrons are created with a variance of $\sqrt{G}$.
+The output pulse of a PMT has a width of the order of tens of nanoseconds. The multiplication process can be described as a Poisson statistical process. For each electron in the first dynode, $G_{PMT}$ new electrons are created with a variance of $\sqrt{G_{PMT}}$.
 
 The output signal of a PMT is linear with the number of photons that reach its sensitive part up to a saturation limit, at which the linearity is lost. This limit depends on the PMT model.
 
