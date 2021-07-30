@@ -5,7 +5,7 @@ To know the amount of photons that have reached the photocathode, the PMT should
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.5]{3DesignPrinciples/32Tritium_detector/ElectronicSchemBasePMTNoGain.png}
-\caption{Electronic scheme of the electronic voltage divider circuit used for working with PMTs without its internal gain.).\label{fig:ElectronicSchemeBasePMTNoGain}}
+\caption{Electronic scheme of the electronic voltage divider circuit used for working with PMTs without its internal gain).\label{fig:ElectronicSchemeBasePMTNoGain}}
 \end{figure}
 
 This PCB short-circuit the dynodes and reads the signal directly from the photocathode. This PCB was designed to be supplied with a positive voltage smaller than usual running voltage because it is only needed to create a voltage difference between the photocathode and the first dinode. As the signal is not multiplied, the output pulse of the photosensor is very small (currents of the order of tens of nanoamperes and a special readout system is needed. The chosen system is Keithley 6487 Picoammeter/Voltage Source \cite{DataSheetKeithley6487}, a commercial system from Keithley. This system has some useful options such as automatic baseline correction, the ability to read currents of the order of picoamperes and the possibility of carrying out mathematical operation on the signal, such as the average of N measurements with the associated statistical error, where N is programmable by the user ($N=100$ in all our studies). Finally, the number of photons that has reach the photocathode is calculated from:
