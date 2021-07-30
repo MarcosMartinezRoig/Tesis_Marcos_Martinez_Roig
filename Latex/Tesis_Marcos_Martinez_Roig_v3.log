@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  30 JUL 2021 11:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  30 JUL 2021 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1205,44 +1205,44 @@ Overfull \hbox (76.19986pt too wide) in alignment at lines 1--26
  []
 
 
-Overfull \hbox (76.19986pt too wide) in alignment at lines 26--56
+Overfull \hbox (76.19986pt too wide) in alignment at lines 26--52
  [] [] [] 
  []
 
 
-Overfull \hbox (76.19986pt too wide) in alignment at lines 56--76
+Overfull \hbox (76.19986pt too wide) in alignment at lines 52--72
  [] [] [] 
  []
 
 [9
 
 ]
-Overfull \hbox (76.19986pt too wide) in alignment at lines 76--98
+Overfull \hbox (76.19986pt too wide) in alignment at lines 72--96
  [] [] [] 
  []
 
 [10]
-Overfull \hbox (76.19986pt too wide) in alignment at lines 98--121
+Overfull \hbox (76.19986pt too wide) in alignment at lines 96--117
  [] [] [] 
  []
 
 
-Overfull \hbox (76.19986pt too wide) in alignment at lines 121--141
+Overfull \hbox (76.19986pt too wide) in alignment at lines 117--137
  [] [] [] 
  []
 
 [11]
-Overfull \hbox (76.19986pt too wide) in alignment at lines 141--162
+Overfull \hbox (76.19986pt too wide) in alignment at lines 137--158
  [] [] [] 
  []
 
 [12]
-Overfull \hbox (76.19986pt too wide) in alignment at lines 162--183
+Overfull \hbox (76.19986pt too wide) in alignment at lines 158--179
  [] [] [] 
  []
 
 
-Overfull \hbox (76.19986pt too wide) in alignment at lines 183--194
+Overfull \hbox (76.19986pt too wide) in alignment at lines 179--189
  [] [] [] 
  []
 
@@ -4872,29 +4872,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 417.
  (./Tesis_Marcos_Martinez_Roig_v3.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 417.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 417.
+Package rerunfilecheck Info: File `Tesis_Marcos_Martinez_Roig_v3.out' has not c
+hanged.
+(rerunfilecheck)             Checksum: 217B3D3C92DA4F519AB9B99CF24C3D07;5643.
 
-
-Package rerunfilecheck Warning: File `Tesis_Marcos_Martinez_Roig_v3.out' has ch
-anged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Tesis_Marcos_Martinez_Roig_v3.out':
-
-(rerunfilecheck)             Before: DD6CFBCB168FEF3440EC6AF660C14455;5639
-(rerunfilecheck)             After:  217B3D3C92DA4F519AB9B99CF24C3D07;5643.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 417.
  ) 
 Here is how much of TeX's memory you used:
  21472 strings out of 492982
  438995 string characters out of 6134895
- 497727 words of memory out of 5000000
+ 497752 words of memory out of 5000000
  23477 multiletter control sequences out of 15000+600000
  557952 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5057,7 +5047,7 @@ s/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sftt1200.pfb>
-Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (292 pages, 35398037 bytes)
+Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (292 pages, 35397932 bytes)
 .
 PDF statistics:
  6047 PDF objects out of 6186 (max. 8388607)
