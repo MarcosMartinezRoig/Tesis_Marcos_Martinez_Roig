@@ -1,4 +1,7 @@
 \babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {spanish}{}
+\babel@toc {english}{}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Annual average distribution of the radioactive dose received by the population~\cite {IAEA}.\relax }}{2}{figure.caption.9}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Networks of automatic and sampling stations managed by the spanish CSN.\relax }}{5}{figure.caption.11}
@@ -11,18 +14,18 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Arrocampo dam, Almaraz NPP and Tagus river.\relax }}{26}{figure.caption.23}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Scheme of the scintillator detector.\relax }}{32}{figure.caption.24}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Domain regions of the three most probable types of interactions of gamma rays with matter. The lines show the values of Z and $h\nu $ where the two neighboring effects are equally likely~\cite {Knoll, Leo}.\relax }}{34}{figure.caption.25}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Domain regions of the three most probable types of interactions of gamma rays with matter. The lines show the values of Z and $h\nu $ where the two neighboring effects are equally likely~\cite {Knoll}.\relax }}{34}{figure.caption.25}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Jablonsky diagram~\cite {Knoll}.\relax }}{37}{figure.caption.26}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Stokes shift~\cite {Knoll}.\relax }}{38}{figure.caption.27}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Emission spectrum of BCF-12 fibers of Saint-Gobain~\cite {DataSheetBCF12Fiber}.\relax }}{40}{figure.caption.28}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces How photons are collected in a fiber with single clad~\cite {DataSheetBCF12Fiber}.\relax }}{42}{figure.caption.29}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Scheme of a PMT~\cite {Knoll}.\relax }}{45}{figure.caption.33}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Photon collection in a single clad fiber~\cite {DataSheetBCF12Fiber}.\relax }}{41}{figure.caption.29}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Scheme of a PMT~\cite {Knoll}.\relax }}{44}{figure.caption.33}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Quantum efficiency spectrum for the PMT used (R8520-406)~\cite {DataSheetPMTs}.\relax }}{46}{figure.caption.34}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Hamamatsu commercial voltage divider electronic circuit. Upper circuit with negative supply and lower circuit with positive supply~\cite {DataSheetPMTs}.\relax }}{47}{figure.caption.35}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Scheme of a APD and electrical symbol used~\cite {OSI}.\relax }}{50}{figure.caption.37}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces SiPM output pulses displayed on oscilloscope, model MSO44X from Tektronix \cite {Oscilloscope}. To easily observe several heights of these pulses, associated with a different number of SiPM pixels fired at the same time, the persistence function of the oscilloscope is used.\relax }}{51}{figure.caption.38}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces (Left) Electronic scheme of a SiPM and (right) output current of a SiPM as a function of the reverse voltage. It show that the quenching mechanism is essential for working with SiPMs~\cite {DataSheetSensL}.\relax }}{52}{figure.caption.39}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Photon detection efficiency (PDE) spectrum of SiPM S13360-**75 models~\cite {DataSheetHammamatsu_1_SiPM_1375}.\relax }}{56}{figure.caption.41}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Scheme of a APD and electrical symbol used~\cite {OSI}.\relax }}{49}{figure.caption.37}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces SiPM output pulses displayed on oscilloscope, model MSO44X from Tektronix \cite {Oscilloscope}. To easily observe several heights of these pulses, associated with a different number of SiPM pixels fired at the same time, the persistence function of the oscilloscope is used.\relax }}{50}{figure.caption.38}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces (Left) Electronic scheme of a SiPM and (right) output current of a SiPM as a function of the reverse voltage. It is seem that the quenching mechanism is essential for working with SiPMs~\cite {DataSheetSensL}.\relax }}{52}{figure.caption.39}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Photon detection efficiency (PDE) spectrum for SiPM S13360-**75 models~\cite {DataSheetHammamatsu_1_SiPM_1375}.\relax }}{55}{figure.caption.41}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Electronic scheme of the electronic voltage divider circuit used for working with PMTs without its internal gain).\relax }}{59}{figure.caption.44}
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Schemes of the different electronic for measuring with PMTs.\relax }}{61}{figure.caption.45}
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Different situation that can happen when time coincidences with PMTs are done.\relax }}{64}{figure.caption.46}
