@@ -5,20 +5,20 @@ Tritium is naturally produced in the environment through the interaction of cosm
 Tritium can be produced artificially in the environment from different anthropogenic sources \cite{CommonEmissionTritium, TritiumHandling}. There is a large amount of tritium which was produced in military nuclear test explosions between 1945 and 1975, with an estimated total production of $8 \cdot 10^9~\curie$ ($2.96 \cdot 10^{11}~\giga\becquerel$), a part of which remains to the date. In these nuclear explosions, tritium was produced mainly from the nuclear reactions $\ce{^{14}N}(\ce{n},\ce{^{3}H})\ce{^{12}C}$ and $\ce{^{2}H}(\ce{n},\gamma)\ce{^{3}H}$. Tritium is produced by commercial producers of radioluminiscent and neutron generator devices ($1 \cdot 10^6~\curie/$yr), nuclear power and defense industries (around $2 \cdot 10^6~\curie/$yr) and several research facilities and nuclear reactors for energy production ($2 \cdot 10^6 \curie/\giga\watt$yr). The production cross sections of the relevant process are shown in Table \ref{tab:NuclearReactionsTritiumProduction}.
 
 \begin{table}[htbp]
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-Source & Origin & Nuclear reaction & Cross section ($\barn$)\\
-\hline \hline \hline
-$\ce{^{2}_{1}H}$ & Water coolant & $\ce{^{2}_{1}H}(\ce{n},\gamma)\ce{^{3}_{1}H}$ & $5.2 \cdot{} 10^{-4}$ \\ \hline
-$\ce{^{3}_{2}He}$ & Helium coolant & $\ce{^{3}_{2}He}(\ce{n},\ce{p})\ce{^{3}_{1}H}$ & $5330$ \\ \hline
-$\ce{^{6}_{3}Li}$ & Moderator & $\ce{^{6}_{3}Li}(\ce{n},\alpha)\ce{^{3}_{1}H}$ & $940$ \\ \hline
-$\ce{^{10}_{5}B}$ & \parbox{8em}{\centering Moderator,\\ control rods} & $\ce{^{10}_{5}B}(\ce{n},2\alpha)\ce{^{3}_{1}H}$ & $3835$ \\ 
-\hline
+\centering{}%
+\begin{tabular}{lccc}
+\toprule 
+Source & Origin & Nuclear reaction & Cross section ($\barn$)\tabularnewline
+\midrule
+\midrule 
+$\ce{^{2}_{1}H}$ & Water coolant & $\ce{^{2}_{1}H}(\ce{n},\gamma)\ce{^{3}_{1}H}$ & $5.2 \cdot{} 10^{-4}$ \tabularnewline
+$\ce{^{3}_{2}He}$ & Helium coolant & $\ce{^{3}_{2}He}(\ce{n},\ce{p})\ce{^{3}_{1}H}$ & $5330$ \tabularnewline
+$\ce{^{6}_{3}Li}$ & Moderator & $\ce{^{6}_{3}Li}(\ce{n},\alpha)\ce{^{3}_{1}H}$ & $940$ \tabularnewline
+$\ce{^{10}_{5}B}$ & \parbox{8em}{\centering Moderator,\\ control rods} & $\ce{^{10}_{5}B}(\ce{n},2\alpha)\ce{^{3}_{1}H}$ & $3835$ \tabularnewline 
+\bottomrule
 \end{tabular}
 \caption{Most common nuclear reactions of artificial tritium production~\cite{CommonEmissionTritium}.}
 \label{tab:NuclearReactionsTritiumProduction}
-\end{center}
 \end{table}
 
 Tritium levels in the water of the environment, excluding anthropogenic radioactive sources, are between $1$ and $4~\becquerel/\liter$, larger than the expected due to the cosmogenic background levels ($0.6-1.2~\becquerel/\liter$) \cite{FranceTritiumEnvironment}. This can be attributed to nuclear weapons tests. Tritium levels in rivers around a NPP are between $1$ and $10~\becquerel/\liter$ and even between $20$ and $50~\becquerel/\liter$ at the water discharge site of NPPs \cite{FranceTritiumEnvironment}, where the produced tritium is partially or totally released into the environment, mainly in the $\ce{HTO}$ water form.
@@ -112,18 +112,19 @@ The energy released in the tritium decay is $Q_\beta=18.6~\keV$, shared between 
 The released energy in tritium decay, is very low. In fact, it is the radioactive isotope with the lowest energy released in $\beta$ decay \cite{TritiumHandling}. Consequently, the $\beta$ particle is emitted has a very short mean free path, given in Table \ref{tab:MeanFreePathTritium}.
 
 \begin{table}[htbp]
-\begin{center}
-\begin{tabular}{|c|c|c|}
-\hline
-Material & P. Depth ($5.7~\keV$) & P. Depth ($18.6~\keV$)\\
-\hline \hline \hline
-$\ce{\ce{^{3}_{1}H_2}}$ & 0.26 cm & 3.2 cm \\ \hline
-Air & 0.036 cm & 0.45 cm \\ \hline
-\parbox{10em}{\centering Water, soft tissue\\  (solid matter with a \\  density of $1~\gram\cdot\cm^{-3}$)} & 0.42 $\mu\meter$ & 5.2 $\mu\meter$ \\ \hline
+\centering{}%
+\begin{tabular}{lcc}
+\toprule 
+Material & P. Depth ($5.7~\keV$) & P. Depth ($18.6~\keV$) \tabularnewline
+\midrule
+\midrule 
+$\ce{\ce{^{3}_{1}H_2}}$ & 0.26 cm & 3.2 cm \tabularnewline
+Air & 0.036 cm & 0.45 cm \tabularnewline
+\parbox{10em}{ Water, soft tissue\\  (solid matter with a \\  density of $1~\gram\cdot\cm^{-3}$)} & 0.42 $\mu\meter$ & 5.2 $\mu\meter$ \tabularnewline
+\bottomrule
 \end{tabular}
 \caption{Penetration depth for decay electron of mean ($5,7~\keV$) and maximum ($18,6~\keV$) energies in different media (tritium gas and air at standard conditions of temperature ($273~\kelvin$) and preassure ($1$ atm), STP, and water)~\cite{MeanFreePathDocument}.}
 \label{tab:MeanFreePathTritium}
-\end{center}
 \end{table}
 
 This short mean free path is a major issue in tritium detection, as it makes more difficult the electron detection, which requires a highly sensitive detector. It also means that tritium electrons have a low penetration in our body and they are easily stopped by clothes or laboratory gloves, resulting in a low radiological hazard of external tritium. Nevertheless, the danger of tritium increases when this is ingested or inhaled since it binds and perform the same chemical reactions as hydrogen, sometimes with higher rate if the tritium concentration is high enough to catalyze the reaction. 
