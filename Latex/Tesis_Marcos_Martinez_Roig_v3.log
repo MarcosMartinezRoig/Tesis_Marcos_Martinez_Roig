@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  5 AUG 2021 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  5 AUG 2021 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2255,7 +2255,7 @@ File: Figures/4ResearchAndDevelopments/41Fibers/DeformationFiberEnds.png Graphi
 c file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/DeformationFiberEnds.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/DeformationF
-iberEnds.png  used on input line 15.
+iberEnds.png  used on input line 9.
 (pdftex.def)             Requested size: 192.0561pt x 157.4807pt.
 <Figures/4ResearchAndDevelopments/41Fibers/CracksEndFibers.png, id=2108, 330.48
 468pt x 304.13625pt>
@@ -2263,7 +2263,7 @@ File: Figures/4ResearchAndDevelopments/41Fibers/CracksEndFibers.png Graphic fil
 e (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/CracksEndFibers.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/CracksEndFib
-ers.png  used on input line 21.
+ers.png  used on input line 15.
 (pdftex.def)             Requested size: 172.84932pt x 159.07526pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2276,7 +2276,7 @@ File: Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice1.png Graphic file
  (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice1.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/CuttingDevic
-e1.png  used on input line 36.
+e1.png  used on input line 30.
 (pdftex.def)             Requested size: 153.64253pt x 111.04407pt.
 <Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice2.png, id=2120, 762.599
 06pt x 336.50719pt>
@@ -2284,7 +2284,7 @@ File: Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice2.png Graphic file
  (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice2.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/CuttingDevic
-e2.png  used on input line 42.
+e2.png  used on input line 36.
 (pdftex.def)             Requested size: 211.26288pt x 93.2201pt.
 <Figures/4ResearchAndDevelopments/41Fibers/AdditionalPieceCuttingDevice.png, id
 =2121, 886.81313pt x 298.11375pt>
@@ -2293,7 +2293,7 @@ g Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/AdditionalPieceCuttingDevice.png
 >
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/AdditionalPi
-eceCuttingDevice.png  used on input line 48.
+eceCuttingDevice.png  used on input line 42.
 (pdftex.def)             Requested size: 230.46967pt x 77.47589pt.
  [84 <./Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice1.png> <./Figure
 s/4ResearchAndDevelopments/41Fibers/CuttingDevice2.png> <./Figures/4ResearchAnd
@@ -2304,7 +2304,7 @@ File: Figures/4ResearchAndDevelopments/41Fibers/CutEndFiberGood.png Graphic fil
 e (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/CutEndFiberGood.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/CutEndFiberG
-ood.png  used on input line 70.
+ood.png  used on input line 57.
 (pdftex.def)             Requested size: 192.0561pt x 154.16788pt.
 <Figures/4ResearchAndDevelopments/41Fibers/CutAndPolishedFiberEnd.png, id=2140,
  323.2075pt x 290.08376pt>
@@ -2312,7 +2312,7 @@ File: Figures/4ResearchAndDevelopments/41Fibers/CutAndPolishedFiberEnd.png Grap
 hic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/CutAndPolishedFiberEnd.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/CutAndPolish
-edFiberEnd.png  used on input line 76.
+edFiberEnd.png  used on input line 63.
 (pdftex.def)             Requested size: 172.84932pt x 155.13351pt.
 )
 Overfull \hbox (23.18222pt too wide) in paragraph at lines 207--207
@@ -2329,54 +2329,54 @@ File: Figures/4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.png
 Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/GeneralViewP
-olishingMchine.png  used on input line 18.
+olishingMchine.png  used on input line 5.
 (pdftex.def)             Requested size: 302.62988pt x 229.23083pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [86 <./Figures/4ResearchAndDevelopments/41Fibers/CutEndFiberGood.png> <./Figure
-s/4ResearchAndDevelopments/41Fibers/CutAndPolishedFiberEnd.png>] [87 <./Figures
-/4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.png>]
-<Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png, id=2169, 342.529
+s/4ResearchAndDevelopments/41Fibers/CutAndPolishedFiberEnd.png>]
+<Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png, id=2164, 342.529
 7pt x 189.70876pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png Graphic file
  (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/PolishingTab
-le.png  used on input line 39.
+le.png  used on input line 25.
 (pdftex.def)             Requested size: 211.26288pt x 117.01031pt.
-<Figures/4ResearchAndDevelopments/41Fibers/PieceOfFiber.png, id=2170, 292.09125
+<Figures/4ResearchAndDevelopments/41Fibers/PieceOfFiber.png, id=2165, 292.09125
 pt x 336.50719pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/PieceOfFiber.png Graphic file (
 type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/PieceOfFiber.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/PieceOfFiber
-.png  used on input line 45.
+.png  used on input line 31.
 (pdftex.def)             Requested size: 115.23483pt x 132.75713pt.
 
-Underfull \hbox (badness 1400) in paragraph at lines 46--46
+Underfull \hbox (badness 1400) in paragraph at lines 32--32
 []\T1/cmr/bx/n/10.95 (b) |\T1/cmr/m/n/10.95 Fiber with metal
  []
 
-<Figures/4ResearchAndDevelopments/41Fibers/HorizontalAxis2.png, id=2171, 341.77
+<Figures/4ResearchAndDevelopments/41Fibers/HorizontalAxis2.png, id=2166, 341.77
 687pt x 189.70876pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/HorizontalAxis2.png Graphic fil
 e (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/HorizontalAxis2.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/HorizontalAx
-is2.png  used on input line 51.
+is2.png  used on input line 37.
 (pdftex.def)             Requested size: 211.26288pt x 117.26794pt.
-<Figures/4ResearchAndDevelopments/41Fibers/Switch.png, id=2172, 308.15125pt x 2
+<Figures/4ResearchAndDevelopments/41Fibers/Switch.png, id=2167, 308.15125pt x 2
 66.9975pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Switch.png Graphic file (type p
 ng)
 <use Figures/4ResearchAndDevelopments/41Fibers/Switch.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/Switch.png  
-used on input line 57.
+used on input line 43.
 (pdftex.def)             Requested size: 153.64253pt x 133.12767pt.
-
-Overfull \hbox (25.88628pt too wide) in paragraph at lines 66--67
+[87 <./Figures/4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.png
+>]
+Overfull \hbox (25.88628pt too wide) in paragraph at lines 52--53
 []\T1/cmr/m/n/12 The elec-tron-ics con-sists of two step-per mo-tors, model NEM
 A ST4209S1404-
  []
@@ -2391,14 +2391,14 @@ File: Figures/4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.png
 Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/ElectronicPo
-lishingMachine.png  used on input line 72.
+lishingMachine.png  used on input line 58.
 (pdftex.def)             Requested size: 257.46123pt x 195.35435pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (12.39745pt too wide) in paragraph at lines 78--79
+Overfull \hbox (12.39745pt too wide) in paragraph at lines 64--65
 \T1/cmr/m/n/12 pack-age). There are sev-eral use-ful pre-programmed func-tions 
 such as "HOME"
  []
@@ -2406,7 +2406,7 @@ such as "HOME"
 [89]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 82.
+               Default added (so using `tbp') on input line 68.
 
 <Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.png, id=2
 207, 517.18219pt x 325.96782pt>
@@ -2414,10 +2414,10 @@ File: Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.png
 Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2P
-MTsCoincidence.png  used on input line 84.
+MTsCoincidence.png  used on input line 70.
 (pdftex.def)             Requested size: 310.3117pt x 195.58218pt.
 
-Overfull \hbox (12.35353pt too wide) in paragraph at lines 88--89
+Overfull \hbox (12.35353pt too wide) in paragraph at lines 74--75
 []\T1/cmr/m/n/12 Two dif-fer-ent mea-sure-ments were taken us-ing two ra-dioac-
 tive sources,
  []
@@ -2429,7 +2429,7 @@ File: Figures/4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOOM.pdf
 <use Figures/4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOOM.pdf>
 
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/Co_60_Polish
-ingMachine_ZOOM.pdf  used on input line 96.
+ingMachine_ZOOM.pdf  used on input line 82.
 (pdftex.def)             Requested size: 384.11221pt x 202.56393pt.
 <Figures/4ResearchAndDevelopments/41Fibers/Sr_90_PolishingMchine_ZOOM.pdf, id=2
 210, 569.12625pt x 300.12125pt>
@@ -2437,7 +2437,7 @@ File: Figures/4ResearchAndDevelopments/41Fibers/Sr_90_PolishingMchine_ZOOM.pdf
 Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/Sr_90_PolishingMchine_ZOOM.pdf>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/Sr_90_Polish
-ingMchine_ZOOM.pdf  used on input line 102.
+ingMchine_ZOOM.pdf  used on input line 88.
 (pdftex.def)             Requested size: 384.11221pt x 202.56393pt.
 )
 Underfull \vbox (badness 7168) has occurred while \output is active []
@@ -2445,13 +2445,11 @@ Underfull \vbox (badness 7168) has occurred while \output is active []
  [90 <./Figures/4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.pn
 g>]
 (./Sections/4ResearchAndDevelopment/42CharacterizationFibers/424Characterizatio
-nFibers/4241CharacterizationFibers.tex
-Underfull \vbox (badness 1383) has occurred while \output is active []
-
- [91 <./Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.pn
-g>] [92 <./Figures/4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOO
-M.pdf, page is rotated 90 degrees> <./Figures/4ResearchAndDevelopments/41Fibers
-/Sr_90_PolishingMchine_ZOOM.pdf, page is rotated 90 degrees>]
+nFibers/4241CharacterizationFibers.tex [91 <./Figures/4ResearchAndDevelopments/
+41Fibers/FiberBunch2PMTsCoincidence.png>] [92 <./Figures/4ResearchAndDevelopmen
+ts/41Fibers/Co_60_PolishingMachine_ZOOM.pdf, page is rotated 90 degrees> <./Fig
+ures/4ResearchAndDevelopments/41Fibers/Sr_90_PolishingMchine_ZOOM.pdf, page is 
+rotated 90 degrees>]
 <Figures/4ResearchAndDevelopments/41Fibers/SetUp_Fiber_Characterization.png, id
 =2315, 564.60938pt x 420.82219pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/SetUp_Fiber_Characterization.pn
@@ -2607,7 +2605,7 @@ _Samples_Average_3_Fiber_Types.pdf  used on input line 124.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 2486) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [101 <./Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_NoClad.
 pdf, page is rotated 90 degrees>] [102 <./Figures/4ResearchAndDevelopments/41Fi
@@ -2618,8 +2616,11 @@ Overfull \hbox (11.10564pt too wide) in paragraph at lines 162--173
  [][] 
  []
 
-[104 <./Figures/4ResearchAndDevelopments/41Fibers/10_Different_Samples_Average_
-3_Fiber_Types.pdf, page is rotated 90 degrees>])
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [104 <./Figures/4ResearchAndDevelopments/41Fibers/10_Different_Samples_Average
+_3_Fiber_Types.pdf, page is rotated 90 degrees>])
 (./Sections/4ResearchAndDevelopment/42CharacterizationFibers/425CleaningProcess
 .tex [105]
 <Figures/4ResearchAndDevelopments/41Fibers/WettingProperty.png, id=2804, 760.84
@@ -4998,15 +4999,12 @@ hanged.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 420.
  ) 
 Here is how much of TeX's memory you used:
  21934 strings out of 492982
  445104 string characters out of 6134895
- 505577 words of memory out of 5000000
+ 506583 words of memory out of 5000000
  23917 multiletter control sequences out of 15000+600000
  557952 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5175,7 +5173,7 @@ s/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sftt1200.pfb>
-Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (292 pages, 35393164 bytes)
+Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (292 pages, 35393382 bytes)
 .
 PDF statistics:
  6076 PDF objects out of 6186 (max. 8388607)

@@ -1,32 +1,18 @@
-As mentioned above, tens of thousands of fibers need to be prepared and conditioned for the TRITIUM monitor\footnote{Tritium prototype will be a module of TRITIUM monitor, based on dozens of modules.}, section \ref{sec:TritiumMonitor}. Although this amount of fibers was not a problem for cutting, which is very fast, the polishing process is quite time consuming. It takes more than ten minutes to polish each fiber, that would result in an unaffordable amount of time to prepare the needed quantity of fibers. Therefore, an automatic polishing machine for scintillating fibers was designed, built and tested. This polishing machine is able to polish up to one hundred scintillating fibers at the same time and automatically. Furthermore, it is easily scalable to larger capacity.
-
-%\begin{figure}[htbp]
- %\centering
-  %\subfloat[General view of Polishing machine.]{
-   %\label{subfig:GeneralViewPolishingMachine}
-    %\includegraphics[angle=0, width=0.45\textwidth]{4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.png}}
-    %\newline
-  %\subfloat[Electronic system.]{
-   %\label{subfig:ElectronicSystemPolishingMachine}
-    %\includegraphics[angle=0, width=0.45\textwidth]{4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.png}}
- %\caption{Polishing machine developed in TRITIUM experiment and the electronic system used.}
- %\label{fig:GeneralViewPolishingMachine}
-%\end{figure}
+As mentioned above, tens of thousands of fibers had to be prepared and conditioned for the TRITIUM monitor\footnote{Tritium prototype will be a module of TRITIUM monitor, based on dozens of modules.}, section \ref{sec:TritiumMonitor}. Although this number of fibers was not a problem for cutting, which is very fast process, the polishing process is quite time consuming. It takes more than ten minutes to polish each fiber, that would result in an unaffordable amount of time to prepare the needed quantity of fibers. Therefore, an automatic polishing machine for scintillating fibers was designed, built and tested. This polishing machine is able to polish up to one hundred scintillating fibers at the same time and automatically. Furthermore, it is easily scalable to larger number of fibers.
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.75]{4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.png}
 \caption{Polishing machine developed in TRITIUM experiment.\label{fig:GeneralViewPolishingMachine}}
 \end{figure}
-
 This automatic polishing machine, displayed in Figure \ref{fig:GeneralViewPolishingMachine}, consists of two parts: 1) A polishing table, where the fibers are polished 2) The electronics, based on Arduino technology, that operates the movement of the polishing table:
 
 \begin{enumerate}
 \item{} The polishing table, shown in Figure \ref{subfig:PolishingTable}, is divided in two parts: the static part, where the fibers are fixed, and the movable part, where the polishing papers are fixed. It was decided to set the polishing papers on the movable part because they are lighter and less fragile than fibers.
 
-The static part consists of a piece, shown in Figure \ref{subfig:PolishingTable}, built with a 3D printer and fixed to the system by four vertical screws. There are two nuts on each screw used to set the relative height and the inclination of fibers to the polishing papers. This piece contains one hundred holes in which the fibers are placed. 
+The static part consists of a piece, shown in Figure \ref{subfig:PolishingTable}, built with a 3D printer and locked to the system by four vertical screws. There are two nuts on each screw used to set the relative height and the inclination of fibers to the polishing papers. This piece contains one hundred holes in which the fibers are placed. 
 
-The own weight of fibers press the polishing paper. As they are too light ($0.16~\gram$), a plastic belt and a piece of metal with a weight of around $1.5~\gram$, shown in Figure \ref{subfig:FiberMetailcPiece}, is employed to increase their weight (in the same way as the connectors used in the Thorlabs polishing process).
+As the fibers are too light ($0.16~\gram$) to make the necessary pressure on the polishing paper, a plastic belt and a piece of metal with a weight of around $1.5~\gram$, shown in Figure \ref{subfig:FiberMetailcPiece}, were employed to increase their contact pressure (similar to the connectors used in the Thorlabs polishing process). 
 
 The movable part consists of a flat PMMA plate of $18 \times 18~\cm^2$ to which the polishing paper is attached. This part is locked to two horizontal screws, perpendicular to each other that are used to set its position in the XY plane (horizontal plane), as shown in Figure \ref{subfig:HorizontalAxis}.
 
