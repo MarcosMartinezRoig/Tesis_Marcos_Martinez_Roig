@@ -1,22 +1,16 @@
-The conditioning process, consisting of cutting and polishing the fibers, is an individual task that generates a small dispersion in the response of each individual fiber, $\sigma_{con}$. This is an uncertainty that will be present in the tritium measurement of the monitor.
-
-%The uncertainty of the conditioning process, $\sigma_{con}$, was experimentally measured. This uncertanty appeares because, as we saw before, each fiber have to be conditioned, consisting in cutting and polishing it, before using. This is an individual task that can present a small dispersion, affecting the response of each individual fiber. It is an important measurement because this uncertainty will be present in the TRITIUM detector.
-
-To measure this dispersion, it has to be taken into account that the position of the connectors that lock the fiber in the experimental setup produce an additional uncertainty, $\sigma_{pos}$, in the measurement. Since both uncertainties are independent, the total uncertainty is given by:
+The conditioning process, consisting of cutting and polishing the fibers, is an individual task that generates a small dispersion in the response of each individual fiber, $\sigma_{con}$. This uncertainty is present in the tritium measurement by the monitor. To measure this uncertainty, it has to be taken into account that the position of the connectors that lock the fiber in the experimental setup produce an additional uncertainty, $\sigma_{pos}$, in the measurement. Since both uncertainties are independent, the total uncertainty is given by:
 
 \begin{equation}
 \sigma_{t} = \sqrt{\sigma^2_{pos} + \sigma^2_{con} }
 \label{eq:TotalUncertaintyFiberCharacterization}
 \end{equation}
-
-The uncertanty due to the fiber position has to be quantified to extract the conditioning uncertainty from the total uncertainty. Two different experiments were designed, the first with only the uncertainty in the fiber position ($\sigma_{t} = \sigma_{pos}$), and the second with both uncertainties. The conditioning uncertainty is given by:
+The uncertainty due to the fiber position has to be quantified to extract the conditioning uncertainty from the total uncertainty. Two different experiments were designed, the first giving only the uncertainty in the fiber position ($\sigma_{t} = \sigma_{pos}$), and the second to obtain the total uncertainty. The conditioning uncertainty is given by,
 
 \begin{equation}
 \sigma_{con} = \sqrt{\sigma^2_{tot} - \sigma^2_{pos} }
 \label{eq:ConditioningUncertaintyFiberCharacterization}
 \end{equation}
-
-The test designed to measure $\sigma_{pos}$ consisted of preparing one fiber of each type (uncladded, single clad and multiclad) by the conditioning process reported above. Each fiber was locked in the set up, and a measurement by feeding the LED with an intensity of $0.1~\milli\ampere$  was done. These measurements were repeated ten times with the same fiber. The mean and the standard deviation of the measurements of each fiber type are shown in Table \ref{tab:PositionStandardDeviation} where the relative standard deviation, $\sigma^{rel}_{pos}$, defined as equation \ref{eq:RelativeStandardDesviation}, was also included.
+The test designed to measure $\sigma_{pos}$ consisted of preparing one fiber of each type (uncladded, single clad and multiclad) by the conditioning process reported above. Each fiber was locked in the setup, and measurements by feeding the LED with an intensity of $0.1~\milli\ampere$  are made. These measurements were repeated ten times with a given fiber. The mean, $\bar{x}$, and the standard deviation of the measurements for each fiber type are shown in Table \ref{tab:PositionStandardDeviation} where the relative standard deviation, $\sigma^{rel}_{pos}$, defined by equation \ref{eq:RelativeStandardDesviation}, is also included.
 
 \begin{equation}
 \sigma^{rel}_{pos} = \frac{\sigma_{pos}}{\bar{x}}
@@ -38,8 +32,7 @@ Multiclad & $949.930 \pm 0.026$ & $9.91$ & $1.04$ \tabularnewline
 \caption{Mean and standard deviation (due to fiber position in the setup) of photons per nanosecond that reach the PMT for $0.1~\milli\ampere$ LED intensity.}
 \label{tab:PositionStandardDeviation}
 \end{table}
-
-As it can be seen, the clad reduces the position uncertainty, which means that it improves the uniformity of the fiber response. It was also found that the clad markedly improves the light collection efficiency of the fibers. The reason could be because photons are mainly collected in the core of the fiber and the interface of core is better defined in the case of a single clad or multiclad fibers than for uncladded fibers. In the latter case, the interface is provided by the environment (air or water in the case of TRITIUM), and external conditions, as dirt, may produce noticeable interface fluctuations.
+As it can be noticed, the clad reduces the position uncertainty, which means that it improves the uniformity of the fiber response. It was also found that the clad markedly improves the light collection efficiency of the fibers. The reason could be because photons are mainly collected in the core of the fiber and the interface of core is better defined in the case of a single clad or multiclad fibers than for uncladded fibers. In the latter case, the interface is provided by the environment (air or water in the case of TRITIUM), and external conditions, as dirt, may produce noticeable interface fluctuations.
 
 It is also see in the table that a second clad slightly reduce the collection efficienciy. The reason could be that a second clad layer reduces the fiber core proportionally.
 
