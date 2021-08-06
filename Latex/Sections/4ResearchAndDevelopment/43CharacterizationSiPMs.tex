@@ -1,10 +1,6 @@
-This section details the characterization of the SiPM S13360-1375 model, which was the first choose for the TRITIUM monitor photosensors. It has to be taken into account that this characterization is incomplete since some important SiPM parameters for the TRITIUM monitor, which are its PDE, its dark count rate and its crosstalk probability, was not experimentally measured. 
+This section details the characterization of the SiPM S13360-1375 model, which was the first choosen as TRITIUM monitor photosensor. This characterization is incomplete since some important SiPM parameters for the TRITIUM monitor, which are PDE, dark count rate and crosstalk probability, were not measured. A complete characterization is already underway for the S13360-6075 model, the latest proposal for the TRITIUM detector, where the relevant parameters, given in section \ref{subsubsec:SiPM}, will be experimentaly determined using the experimental setup, described in appendix \ref{App:ElectronicReadoutSiPM}. The SiPM characterization is carried out inside of a climatic chamber, model CCM 81 from DYCOMETAL \cite{ClimaticChamberIFIMED}. This climatic chamber allows to control the temperature and humidity with a precisión of $0.1\celsius$ and $0.1\%$ respectively. In addition, this chamber is a Faraday cage. A special black blanket \cite{BlackBlancket} was used to prevent external photons from reaching the SiPM.
 
-A complete characterization is already underway for the S13360-6075 model, the latest proposal for the TRITIUM detector, where all interesting parameters, which are explained in section \ref{subsubsec:SiPM}, will be experimentaly determined using a different experimental setup, shown in appendix \ref{App:ElectronicReadoutSiPM}.
-
-The SiPM characterization is carried out inside of a climatic chamber, model CCM 81 from DYCOMETAL \cite{ClimaticChamberIFIMED}. This climatic chamber allow to control the temperature and humidity with a precisión of $0.1\celsius$ and $0.1\%$ respectively. In addition, this is metallic, acting as a Faraday cage, and a special black blanket \cite{BlackBlancket} was used to prevent external photons from reaching the SiPM.
-
-First of all the the quenching resistance and the breakdown voltage of the SiPM were experimentally obtained. Both parameters can be calculated from the measurement of the current-voltage curves of the SiPM, bias voltage applied in forward and reverse direction respectively. This measurement should be done without the amplification of the electronic board to achieve a better precision and without illuminating the SiPM. Therefore, the output current of the SiPM was directly measured using the Keithley 6487 Picoammeter/Voltage Source \cite{DataSheetKeithley6487} and the LabView program was used to automate the taking of measurements. The results of both measurements are plotted as a function of the bias voltage applied in Figure \ref{fig:IVcurveSiPM}.
+First, the quenching resistance and the breakdown voltage of the SiPM were obtained from the measurement of the current-voltage curves of the SiPM with the bias voltage applied in forward and reverse direction, respectively. This measurement was done without the amplification of the electronic board to achieve a better precision in the dark. The output current of the SiPM was directly measured using the Keithley 6487 Picoammeter/Voltage Source \cite{DataSheetKeithley6487}. The LabView sofware was used to take the data. The measured parameters are plotted as a function of the bias voltage in Figure \ref{fig:IVcurveSiPM}.
 
 \begin{figure}
 \centering
@@ -19,47 +15,41 @@ First of all the the quenching resistance and the breakdown voltage of the SiPM 
     \includegraphics[width=\textwidth]{4ResearchAndDevelopments/42SiPM/IVCurveSiPMReverse.pdf}  
     \caption{\label{subfig:IVcurveReverse}}
     \end{subfigure}
- \caption{I-V curves measured for the SiPM S13360-1375 model with the Bias voltage applied in a) forward direction b) reverse direction. This experience was carried out at $T=25\celsius$ and humidity of $H=45\%$.}
+ \caption{I-V curves measured for the SiPM S13360-1375 model with the bias voltage applied in a) forward direction b) reverse direction. Measurements taken at $T=25\celsius$ and humidity $H=45\%$.}
  \label{fig:IVcurveSiPM}
 \end{figure}
 
-As can be seen when the bias voltage is applied in forward direction, Figure \ref{subfig:IVcurveForward}, the output current of the SiPM doesn't flow until the potencial difference existing between the n and p layers are reached, which is approximately $V_0=0.7~\volt$ for silicon photosensors, quite similar to the value experimentally obtained, $V_0= 0.5~\volt$. When the current start to flow, the intensity is linear with the applied voltage following the equation:
+As can be seen, when the bias voltage is applied in forward direction, Figure \ref{subfig:IVcurveForward}, the output current of the SiPM does not flow until the potential difference between the n and p layers is reached, which is approximately $V_0=0.7~\volt$ for silicon photosensors, close to the value experimentally obtained, $V_0= 0.5~\volt$. When the current start to flow, the intensity is linear with the applied voltage. The equivalent resistance, $R_{eq}$, was determined from, 
 \begin{equation}
 I=\frac{1}{R_{eq}}V;  \qquad \frac{1}{R_{eq}} = \sum_{i=1}^{N}\frac{1}{R_{qi}}= \frac{N}{R_{q}}
 \label{QuenchingResistance}
 \end{equation}
-Where $R_{eq}$ is the equivalent resistance of all quenching resistance of the SiPM, $R_{q}$, which are in parallel. Therefore, a value of $R_{q}= 511.39 \pm 0.74~\kilo\ohm$ is experimentaly obtained, which is in agreement with the typical values used by Hamamatsu.
+and $R_{iq}$ are the quenching resistance of each pixel of the SiPM in parallel which have the same value, $R_{q}$. A value of $R_{q}= 511.39 \pm 0.74~\kilo\ohm$ was obtained, which is in agreement with the typical values given by Hamamatsu.
 
-Regardness to the experience where a reverse bias voltage was applied, the output current of SiPM start to flow when the breakdown voltage is reached, which can be calculated from the maximum of the function 
+The breakdown voltage, $V_{BD}$, was obtained from the reverse bias voltage plot. This is the points at which the output current of SiPM start to flow, which can be calculated from the maximum of the function 
 \begin{equation}
 f=\frac{1}{I}\frac{dI}{dV}
 \label{BreakDownVoltageFunction}
 \end{equation}
 
-The value obtained is $V_{BD}=51.02~\volt$, quite in agreement with the value providad by Hamamatsu, Table \ref{tab:PropertiesOfSiPM1375}.
+The value obtained, $V_{BD}=51.02~\volt$, is in agreement with the value provided by Hamamatsu, Table \ref{tab:PropertiesOfSiPM1375}.
 
-Now, to experimentally measure the SiPM gain, $G_{SiPM}$, the electronic board shown in section \ref{subsubsec:SiPMsElectronicalSystem} was used, with which an amplification factor of $F_{amp}=170$ is applied. An incoherent light source, LED435-03 from Toithner LaserTechnik Gmbh \cite{LEDRLT}, the characteristics of which is described in section \ref{subsec:CharacterizationFibers}, is used to illuminate the SiPM with a low enough density of $\lambda= 435~\nm$ photons.
-
-When the incoherent light source is used, the SiPM output signal shows various well-defined heights, shown in Figure \ref{fig:OutputPulses_SPSspectrum} above, according to several fired pixels simultaneously. Then, the single photon spectrum, SPS, shown in Figure \ref{fig:OutputPulses_SPSspectrum} below, was obtained. This is done by integring and hitogramming the SiPM output pulses using time windows wide enough to ensure that the charge of the pulse is fully contained. The time windows used in this experience was $t_w= 500~\nano\second$. A trigger signal is used, green signal in Figure \ref{fig:OutputPulses_SPSspectrum}, which indicates when de light source is iluminating the SiPM.
+To measure the SiPM gain, $G_{SiPM}$, the electronic board described in section \ref{subsubsec:SiPMsElectronicalSystem} with an amplification factor of $F_{amp}=170$ was used. An incoherent light source, LED435-03 from Toithner LaserTechnik Gmbh \cite{LEDRLT}, described in section \ref{subsec:CharacterizationFibers}, was used to illuminate the SiPM with a low enough flux of $\lambda= 435~\nm$ photons. The SiPM output signal shows various well-defined pulse heights, shown in Figure \ref{fig:OutputPulses_SPSspectrum}, corresponding to the number of pixels simultaneously fired. The single photon spectrum, SPS is plotted in Figure \ref{fig:OutputPulses_SPSspectrum}. This spectrum was obtained by integrating and hitogramming the SiPM output pulses with time windows wide enough to contain the full charge of the pulse. The time windows used in these measurements was $t_w= 500~\nano\second$. The light source gave a trigger signal for the measurement, green line in Fig \ref{fig:OutputPulses_SPSspectrum}.
 
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.3]{4ResearchAndDevelopments/42SiPM/SiPMPulses_SPS_Spectrum.png}
-\caption{Above: Trigger signal (green) and SiPM output pulses (yellow) diplayed on the oscilloscope, model WwaveRunner 625Zi from TELEDYNE LECROY \cite{OscilloscopeIFIMED}, in which the persistence function is used. Bottom: SPS spectrum obtained by integring and histograming the SiPM output pulses. This measurement was done at $25\celsius$, $V_{bias}=53.98$ and humidity of $60\%$. \label{fig:OutputPulses_SPSspectrum}}
+\caption{Above: Trigger signal (green) and SiPM output pulses (yellow). Bottom: SPS spectrum obtained by integrating and histograming the SiPM output pulses. This measurement was done at $25\celsius$, $V_{bias}=53.98$ and humidity of $H=60\%$. \label{fig:OutputPulses_SPSspectrum}}
 \end{figure}
 
-As can be seen, several well-separated peaks are obtained in the SPS spectrum. Each peak exhibits the charge produced by a different number of fired pixels (detected photons). It has to be taken into account that the left-most peak in the spectrum is the so-called pedestal, which is the charge when no pixels are fired. This peak is caused by the electronic noise of the system and this should not be included in the analysis explained below. The second peak corresponds to one fired pixel and so on.
-
-The SiPM Gain, $G_{SiPM}$, can be extrapolated from the SPS spectrum using the equation:
+The well-separated peaks in the SPS spectrum correspond to the charge produced by a different number of fired pixels. The first peak in the spectrum is the pedestal, which is the charge measured when no pixel is fired. This peak is caused by the electronic noise of the system. The second peak corresponds to one fired pixel and so on. The SiPM gain, $G_{SiPM}$, can be obtained from the SPS spectrum from the equation,
 \begin{equation}
-G=\frac{\overline{\Delta Q (V \cdot{} s)}}{F_{amp}(V/A) \times q_{e^-}(C)}
+G=\frac{\overline{\Delta Q}(V \cdot{} s)}{F_{amp}(V/A) \times e^-(C)}
 \label{SiPMGain}
 \end{equation}
-where $q_{e^-}$ is the electron charge and $\overline{\Delta Q (Vs)}$ is the average of the distastance between the peaks of the SPS spectrum, which is the charge due to one fired pixel. 
+where $e^-$ is the electron charge and $\overline{\Delta Q}$ is the average peak distance in the SPS spectrum, corresponding to the charge released by a fired pixel. 
 
-To measure the value of $\overline{\Delta Q}$ a script was written using the ROOT program \cite{ROOTWebPage} developed by CERN and the TSpectrum library was included for data analysis. 
-
-First, this script find and extract the bakcground, which, in some cases like high temperatures or high bias voltages, can lead to erroneous analysis of the data. Then, this macro find all peaks in the SPS spectrum and fits each one to a Gaussian funtion, shown in Figure \ref{subfig:GaussianFitSiPMs}. The value and error of the charge produced by multiple fired pixels are obtained from the centroid and the sigma of the different fitted Gaussian functions. Finally, the obtained charges are adjusted to a succesive number of fired pixels, Figure \ref{subfig:LinearFitSiPMGain}, where errors are include but they are too small to be visible.
+To obtain the value of $\overline{\Delta Q}$ a macro was written in ROOT \cite{ROOTWebPage}. This macro finds and extract the bakcground, which is crucial in some cases like high temperatures or high bias voltages. After that, this macro find all peaks in the SPS spectrum and fits each one to a Gaussian funtion, shown in Figure \ref{subfig:GaussianFitSiPMs}. The value and error of the charge produced by multiple fired pixels are obtained from the centroid and the sigma of the different fitted Gaussian functions. The obtained charges are fitted to the number of fired pixels, Figure \ref{subfig:LinearFitSiPMGain}.
 
 \begin{figure}
 \centering
@@ -74,11 +64,13 @@ First, this script find and extract the bakcground, which, in some cases like hi
     \includegraphics[width=\textwidth]{4ResearchAndDevelopments/42SiPM/LinearFit_Gain_NPixels.pdf}  
     \caption{\label{subfig:LinearFitSiPMGain}}
     \end{subfigure}
- \caption{ROOT analysis performed to obtian the SiPM gain. a) Fit of the SPS spectrum to various Gaussian functions. b) Charge of succesive number of pixels as a function of the number of pixels fired. This experience was carried out at $T=25\celsius$, $V_{bias}=53.98~\volt$ and humidity of $H=45\%$.}
+ \caption{ROOT analysis performed to obtian the SiPM gain. a) Fit of the SPS spectrum to various Gaussian functions. b) Charge of succesive number of pixels as a function of the number of pixels fired. Error bars are within point size. This experience was carried out at $T=25\celsius$, $V_{bias}=53.98~\volt$ and humidity of $H=45\%$.}
  \label{fig:ROOTAnalysisSiPMGain}
 \end{figure}
 
-As can bee seen in Figure \ref{subfig:GaussianFitSiPMs}, a very good fit is achieved by the ROOT script with a $\chi^2$ test of $\frac{\chi^2}{ndf}=\frac{1276}{223}$. Up to 10 simultaneously fired pixels has been obtained with a relative uncertainty of the charge measurement of less than $2\%$. An excellent fit is also obtained in Figure \ref{subfig:LinearFitSiPMGain} ($\frac{\chi^2}{ndf}=\frac{0.05452}{7}$), the slope of which correspond to the $\overline{\Delta Q}$.
+%As can bee seen in Figure \ref{subfig:GaussianFitSiPMs}, a very good fit is achieved by the ROOT script with a $\chi^2$ test of $\frac{\chi^2}{ndf}=\frac{1276}{223}$. 
+
+Up to 10 simultaneously fired pixels were obtained with a relative uncertainty of the charge measurement of less than $2\%$. The slope of the straight line in Figure \ref{subfig:LinearFitSiPMGain} corresponds to $\overline{\Delta Q}$.
 
 Therefore, for the case measured at the temperature of $25\celsius$, humidity of $H=45\%$ and overvoltage $V_{OV}=3~\volt$, the value obtained for the SiPM gain is $G_{SiPM}=4,11\cdot{} 10^{6}$, very close to the value provided by Hamamatsu, Table \ref{tab:PropertiesOfSiPM1375}.
 
