@@ -1,29 +1,29 @@
 This last section reports on the characterization of the active shield (cosmic veto), which was carried out using PMTs as photosensors. Measurements of the cosmic veto using SiPM arrays has already started and their replacement will be as soon as possible. 
 
-The veto coverage, shown in Figure \ref{fig:LayersVeto}, was verified. This study was done at the level of one detector so the configuration of the electronics is the one shown in Figure \ref{subfig:ElectronicConfiguraiton2PMT}. The surface of the veto was divided in 9 parts, shown in Figure \ref{fig:MappingPoints}, in which a gamma source was placed.
+The quality of the veto wrapping, shown in Figure \ref{fig:LayersVeto}, was checked. This study was done at the level of one detector so the configuration of the electronics is the one given in Figure \ref{subfig:ElectronicConfiguraiton2PMT}. The surface of the veto was divided in 9 parts, shown in Figure \ref{fig:MappingPoints}, in which a gamma source was placed.
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.75, angle=90]{4ResearchAndDevelopments/43CosmicVetos/VetoPoints.png}
 \caption{Reference points used for veto mapping.\label{fig:MappingPoints}}
 \end{figure}
-
 Two different tests were made for this task:
 \begin{enumerate}
 
-\item{} The first test was used to quantify the improvement of the veto signal due to its coverage. A $\ce{^{137}Cs}$ source was placed at point 2 and a energy spectrum was measured with the veto uncovered. Next, the measurment was repeated with the veto covered. The result is shown in Figure \ref{fig:VetoCoverageImprovement}.
+\item{} The improvement of the veto signal due to wrapping. A $\ce{^{137}Cs}$ source was placed at point 2 and a energy spectrum was measured with the veto before wrapping. Next, the measurment was repeated after wrapping. The spectra obtained are shown in Figure \ref{fig:VetoCoverageImprovement}.
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.7]{4ResearchAndDevelopments/43CosmicVetos/CoverageStudy_more_rebin.pdf}
-\caption{Measurement of a radioactive source $\ce{^{137}Cs}$ with the TRITIUM cosmic detector with and without its coverage.\label{fig:VetoCoverageImprovement}}
+\caption{Measurement of a radioactive source $\ce{^{137}Cs}$ with the TRITIUM cosmic detector with and without wrapping.\label{fig:VetoCoverageImprovement}}
 \end{figure}
 
-The spectrum is shifted to the right, which means that more photons have been collected per event. No improvement was obtained in the number of events detected, only in the collection efficiency.
+The spectrum of the wrapping veto is shifted to the right, which means that more photons are collected per event. No improvement was obtained in the number of events detected, only in the collection efficiency.
 
 %a comparison is made between the measurement of cover and uncover veto, placing the gamma source in 3 different points, 1, 2 and 3. This study is used 
 
-\item{} The second test was done to verify the spatial uniformity of the signal in the covered veto. For this task, a mapping was carried out, which consisted of placing a $\ce{^{60}Co}$ source at each point and measuring the number of events detected in the same time window. This test was done for two different veto modules and the energy spectrum obtained was integrated. The count rates obtained are plotted in Figures \ref{subfig:MappingVeto1} and \ref{subfig:MappingVeto2}, respectively.
+\item{} The spatial uniformity of the signal in the wrapped veto was evaluated. For this task, a mapping was carried out, which consisted of placing a $\ce{^{60}Co}$ source at each point and measuring the number of events detected in the same time window. This test was done for two different veto modules and the energy spectrum obtained was integrated. The count rates obtained are plotted in Figure \ref{fig:MappingVetos}. It can be observed that the veto signal has a uniform response on its whole surface, giving a fairly similar counting rate in all the points measured.
+
 
 %\begin{table}[htbp]
 %%\centering
@@ -63,14 +63,12 @@ The spectrum is shifted to the right, which means that more photons have been co
  \caption{Bidimensional graph of the count rate (Mapping) measured with two different TRITIUM cosmic detectors using a radioactive source of  $\ce{^{60}Co}$.}
  \label{fig:MappingVetos}
 \end{figure}
-%EXPLICAR QUE LA PRIMERA Y ULTIMA FILA DEL PLOT BIDIMENSIONAL ES PARA PONER EL PMT.
-It can be observed that the veto signal has a uniform response on its surface, giving a fairly similar counting rate in all the points considered.
 
 \end{enumerate}
 
-The following studies of this section were done at the level of a cosmic veto (both detectors in coincidence), so the configuration of the used electronics was that of Figure \ref{subfig:ElectronicConfiguraiton4PMT}. The following step is to find the conditions in which the detection of cosmic events is optimized. This optimization consists of, on the one hand, finding the minimum high voltage of PMTs for which their efficiency is stable, and, on the other hand, finding the maximum threshold of the discriminator\footnote{The threshold is the voltage value that the PMT output signals must exceed to contribute to the cosmic detection} before starting to loss cosmic events. For a higher high voltage and a smaller threshold, a plateau of the counting rate should be found.
+Next, both vetos in time coincidence was studied, so the configuration of the used electronics was that of Figure \ref{subfig:ElectronicConfiguraiton4PMT}. The goal was to find the conditions in which the detection of cosmic events is optimized. This optimization consists of, on the one hand, finding the minimum high voltage of PMTs for which their efficiency is stable, and, on the other hand, finding the maximum threshold of the discriminator\footnote{The threshold is the voltage value that the PMT output signals must exceed to contribute to the cosmic detection} before starting to loss cosmic events. For higher voltages and a smaller thresholds, a plateau of the counting rate should be obtained.
 
-The counting rate was measured for several high voltages at fixed thresholds and for several thresholds at fixed high voltages. Both measurements are shown in Figure \ref{fig:HVandThresholdsPLateaus}. To find the optimal conditions the amplification line of the configuration of the electronics \ref{subfig:ElectronicConfiguraiton4PMT} was eliminated and the output signal of the coincidence module was connected to a CAEN Quad Scaler And Preset Counter-Timer module, N. 1145, \cite{ScalerDataSheet}. The counting rate was measured in a time window of $300~\second$.
+The counting rate was measured for several high voltages at fixed threshold and for several thresholds at fixed high voltage, plotted in Figure \ref{fig:HVandThresholdsPLateaus}. To find the optimal conditions, the amplification line of the electronics was eliminated and the output signal of the coincidence module was connected to a CAEN Quad Scaler And Preset Counter-Timer module, N. 1145, \cite{ScalerDataSheet}. The counting rate was measured in a time window of $300~\second$. In Figure \ref{subfig:HVPLateauVetos}, the counting rate at several high voltages for three different thresholds, $60~\milli\volt$, $100~\milli\volt$ and $200~\milli\volt$ is plotted. As it can be observed, there is a minimum high voltage for each threshold, $700~\volt$, $730~\volt$ and $780~\volt$ respectively, at which the plateau start. This minimum voltage is higher when the value of the threshold increases, as it should. Analogously, the counting rate for several thresholds and fixed high voltage was measured for three different high voltages, $750~\volt$, $800~\volt$ and $850~\volt$, plotted in Figure \ref{subfig:ThresholdsPlateau}. There is a maximum threshold for every high voltage used,  $140~\milli\volt$, $270~\milli\volt$ and $450~\milli\volt$ respectively, at which the plateau ends. This maximum threshold increases with high voltage, as it should. The voltage chosen was $800~\volt$ since it is on the plateau for the three thresholds and the threshold chosen was $200~\milli\volt$ which is on the plateau for the selected high voltage. 
 
 \begin{figure}
 \centering
@@ -89,19 +87,16 @@ The counting rate was measured for several high voltages at fixed thresholds and
  \label{fig:HVandThresholdsPLateaus}
 \end{figure}
 
-In Figure \ref{subfig:HVPLateauVetos}, the measurements at several high voltage is exhibited, which was done for three different thresholds, $60~\milli\volt$, $100~\milli\volt$ and $200~\milli\volt$. As it can be observed, there is a minimum high voltage for each threshold, $700~\volt$, $730~\volt$ and $780~\volt$ respectively, at which the plateau start. This minimum voltage is higher when the value of the threshold is increased, as it should happen. Analogously, the counting rate for several thresholds and fixed high voltage was measured for three different high voltages, $750~\volt$, $800~\volt$ and $850~\volt$, which is plotted in Figure \ref{subfig:ThresholdsPlateau}. There is a maximum threshold for every high voltage used,  $140~\milli\volt$, $270~\milli\volt$ and $450~\milli\volt$ respectively, at which the plateau ends. This maximum threshold increases with high voltage, as it should happen. The voltage chosen was $800~\volt$ since it is on the plateau for the three thresholds and the threshold chosen was $200~\milli\volt$ which is on the plateau for the selected high voltage. 
-
-Next, the energy spectrum of cosmic events was measured, which is shown in Figure \ref{fig:EnergySpectrumCosmicVeto}. For this task, the configuration of the electronics is given in Figure \ref{subfig:ElectronicConfiguraiton4PMT} for $800~\volt$ and $200~\milli\volt$ of HV and threshold, respectively. 
+With this setting, the energy spectrum of cosmic events was measured, shown in Figure \ref{fig:EnergySpectrumCosmicVeto}. 
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.6]{4ResearchAndDevelopments/43CosmicVetos/Cosmic_Energy_Spectrum_36_cm_Landau_Function.pdf}
 \caption{Energy spectrum measured with the cosmic veto.\label{fig:EnergySpectrumCosmicVeto}}
 \end{figure}
+As expected, this energy spectrum fits well to a Landau function. The cosmic ray rate determined from the area of this spectrum is $2,5~$event$/\second$. The expected cosmic rate, calculated in section \ref{subsec:SetUpActiveShield}, is $2,9~$event$/\second$, so the efficiency of the active veto developed in TRITIUM experiment for cosmic event detection is $85\%$, which is a usual value for the efficiency of plastic detectors to mips.
 
-As it is expected, this energy spectrum fits well to a landau function. The cosmic ray rate can be determined from the area of this spectrum, which is $2,5~$event$/\second$. The expected cosmic rate, calculated in section \ref{subsec:SetUpActiveShield}, is $2,9~$event$/\second$, so the efficiency of the active veto developed in TRITIUM experiment for cosmic events deteccion is $85\%$, which is a usual value for the efficiency of plastic detectors.
-
-Finally the relationship between the detected cosmic ray rate and the distance between the two plastics of the cosmic veto was obtained. The energy spectrum was measured for five different distances, namely $10~\cm$, $20~\cm$, $36~\cm$, $40~\cm$ and $50~\cm$. The spectra are plotted in Figure \ref{subfig:EnergySpectrumsSeveralDistanceVeto}. The energy spectrum of Figure \ref{fig:EnergySpectrumCosmicVeto} was also included. As it is expected, the counting rate decreases with the distance but the spectrum shape remains the same. The integrated spectra as a function of distance, plotted in Figure \ref{subfig:LinearFitSeveralDistanceVeto}, was fitted to a second degree polynomial which allows to estimate the cosmic rate if the veto distance is changed.
+Finally the detected cosmic ray rate versus the distance between the two cosmic veto was obtained. The energy spectrum was measured for five different distances, namely $10~\cm$, $20~\cm$, $36~\cm$, $40~\cm$ and $50~\cm$. The spectra are plotted in Figure \ref{subfig:EnergySpectrumsSeveralDistanceVeto}. The energy spectrum in Figure \ref{fig:EnergySpectrumCosmicVeto} was also included. As it is expected, the counting rate decreases with the distance but the spectrum shape remains the same. The integrated spectra as a function of distance, plotted in Figure \ref{subfig:LinearFitSeveralDistanceVeto}, was fitted to a second degree polynomial which allows to estimate the cosmic rate for a given veto distance.
 
 %As can be seen, the shape of the spectrum is the same because the energy of the detected events is the same (cosmic events) but the quantity of their events is less for greater distance. The reason for that is that when the distance is increased, the solid angle formed by the active veto is smaller.
 
@@ -125,9 +120,9 @@ Finally the relationship between the detected cosmic ray rate and the distance b
     \begin{subfigure}[b]{0.85\textwidth}
     \centering
     \includegraphics[width=\textwidth]{4ResearchAndDevelopments/43CosmicVetos/Pol2Fit_SeveralDistance_Veto.pdf}  
-    \caption{Fit of counts per second measured with the cosmic veto for several distance to a second degree polynomial.\label{subfig:LinearFitSeveralDistanceVeto}}
+    \caption{Fit of the cosmic veto rate versus distance to a second degree polynomial.\label{subfig:LinearFitSeveralDistanceVeto}}
     \end{subfigure}
- \caption{Measurement of the cosmic veto for several distances between its cosmic detectors.}
+ \caption{Measurement of the cosmic veto for several distances between the two scintillators.}
  \label{fig:DistanceVeto}
 \end{figure}
 %También se realizaron varias medias para ver como afecta una fuente gama. Discutir con Pepe como plantear esta medida o si merece la pena ponerla o no.
