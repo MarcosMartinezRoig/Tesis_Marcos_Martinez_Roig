@@ -1,4 +1,4 @@
-The electronic system used in TRITIUM-Aveiro 0 prototype consists of several PCB and can be divided into two parts:
+The electronic system used in TRITIUM-Aveiro prototype consists of several PCB and can be divided into two parts:
 \begin{enumerate}
 \item{} A PCB, whose electronic scheme is shown in Figure \ref{fig:HVElectronicAveiro}, was designed to power the PMTs with a negative high voltage. It consists of several high voltage power supply, model C11152-01 from Hamamatsu company \cite{PowerSupplyAveiroDataSheet}, one for each PMT used, which is controled by a DAC\footnote{DAC, Digital-to-analog converter}, model MAX5500 from Maxim Integrated company \cite{MAX5500DataSheet}. An Arduino Mega is used for the DAC communication and cross-checking the output values and it is connected to a Raspberry Pi to control the system.
 
@@ -26,12 +26,12 @@ A graphical interface, shown Figure \ref{subfig:GUI}, has been developed to mana
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.45]{9Appendix/94AveiroElectronics/ElectronicSchemeCounterBoard.png}
-\caption{Simplified electronic scheme used to process and analyze the signal of TRITIUM-Aveiro 0 prototype. \label{fig:ElectronicSchemCounterBoard}}
+\caption{Simplified electronic scheme used to process and analyze the signal of TRITIUM-Aveiro prototype. \label{fig:ElectronicSchemCounterBoard}}
 \end{figure}
 
 It consists of three different lines, two of them are used for the PMT signals of the prototype and the remaining line is used for doing anticoincidence with an active veto.
 
-To test this electronic chain a plastic scintillation with dimensions of $10 \cdot{} 10 \cdot{} 1~\cm^3$ was used to simulate a veto signal but four different vetos are being developed, based on a rectangular plastic scintillations of Saint-Gobain company \cite{VetoAveiro}, whose dimensiones are $50~\cm \cdot{} 30 \cdot{} 2~\cm^3$  with a PMT coupled, model R2154-02 2" from Hamamatsu company \cite{DataSheetPMTsAveiro}. The output signal of these PMTs will be input in a OR stage, whose response will be introduced in the veto line shown previously in Figure \ref{fig:ElectronicSchemCounterBoard}. As a result, each plastic scintillator will be read in anticoincidence with tritium-Aveiro prototype.
+To test this electronic chain a plastic scintillation with dimensions of $10 \cdot{} 10 \cdot{} 1~\cm^3$ was used to simulate a veto signal but four different vetos are being developed, based on a rectangular plastic scintillations of Saint-Gobain company \cite{VetoAveiro}, whose dimensiones are $50~\cm \cdot{} 30 \cdot{} 2~\cm^3$  with a PMT coupled, model R2154-02 2" from Hamamatsu company \cite{DataSheetPMTsAveiro}. The output signal of these PMTs will be input in a OR stage, whose response will be introduced in the veto line shown previously in Figure \ref{fig:ElectronicSchemCounterBoard}. As a result, each plastic scintillator will be read in anticoincidence with TRITIUM-Aveiro prototype.
 
 Both lines, used to process and analyze the PMT signals of the prototype, are equal and they are used to operate in time coincidence. First, each PMT signal is introduced in a prepamplifier model CR111 from CREMAT Inc. company \cite{CREMATPreAmplifierDataSheet}, which is used to shape and pre-amplify the signal. To reduce electronic noise and signal loss, both preamplifiers are connected as close as possible to the PMTs and they are located inside of aluminum boxes which act like a Faraday cage.
 

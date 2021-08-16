@@ -1,4 +1,4 @@
-Lastly, this section presents the final TRITIUM monitor, a schematic design of which is shown in Figure \ref{fig:TritiumDetectorSchematicDesign}.
+This section presents the final TRITIUM monitor. A schematic design is shown in Figure \ref{fig:TritiumDetectorSchematicDesign}.
 
 \begin{figure}[h]
 \centering
@@ -6,34 +6,30 @@ Lastly, this section presents the final TRITIUM monitor, a schematic design of w
 \caption{A schematic design of the TRITIUM detector.\label{fig:TritiumDetectorSchematicDesign}}
 \end{figure}
 
-It consists of several TRITIUM modules, shown in Figure \ref{fig:TritiumDetectorSchematicDesign}, which are read in parallel. Each module will be the prototypes that achieves better results, TRITIUM-Aveiro 0 (section \ref{subsec:TritiumAveiro}) or TRITIUM-IFIC 2 (section \ref{subsec:TritiumIFIC2}).
-
-These modules are isolated from environmental radioactivity using three different techniques.
+It consists of a number of TRITIUM modules read in parallel. Each module is the prototypes that achieves better results, TRITIUM-Aveiro or TRITIUM-IFIC 2. These modules are shielded from environmental radioactivity by three different techniques:
 
 \begin{enumerate}
 
-\item{} First, an external lead shielding, explained in section \ref{subsec:SetUpPassiveShield}, a part of which is shown in Figure \ref{fig:TritiumDetectorSchematicDesign}. This is used to stop the environmental radioactivity which increase the radioactive background measurement of the TRITIUM monitor (radioactive events with energies below $200~\MeV$).
+\item{} An external lead shielding, which is used to stop the environmental radioactivity and soft cosmic rays (particles with energies below $200~\MeV$).
 
-\item{} Second, several active vetos, expained in section \ref{subsec:SetUpActiveShield} and characterized in section \ref{sec:TritiumActiveVeto}, which is also exhibed in Figure \ref{fig:TritiumDetectorSchematicDesign}, placed below and above the TRITIUM modules. These active vetos are read in anticoincidence to eliminate the effect of the high energy events of the background, mainly cosmic events with energies above $200~\MeV$, on the TRITIUM measurement.
+\item{} Several active vetos, which is placed below and above the TRITIUM modules. These active vetos are read in anticoincidence to supress high energy event background, mainly cosmic ray particles with energies above $200~\MeV$.
 
-\item{} Finally, the radioactive elements present in the water samples, introduced into TRITIUM modules to be measured, are eliminated using an ultrapure water system, shown in section \ref{sec:UltraPureWaterSystem} and appendix \ref{App:UltraPureWaterSystem} and characterized in section \ref{sec:CharacterizationUltraPureWaterSystem}.
+\item{} The radioactive elements present in the water samples, measured by the TRITIUM monitor, are eliminated by the ultrapure water system.
 
 \end{enumerate}
 
-The ultrapure water system, the lead shielding and a TRITIUM-Aveiro 0 prototype are installed and currently in operation at the Arrocampo dam. This entire system was used to successfully monitor the tritium levels in Arrocampo dam during three months. Furthermore, two additional TRITIUM-Aveiro 0 prototypes and four active vetos are currently under manufacturing to be installed, which are measured in parallel with the current prototype installed.
+The ultrapure water system, the lead shielding and a TRITIUM-Aveiro prototype are installed and currently in operation at the Arrocampo dam. This entire system is employed to successfully monitor the tritium levels in Arrocampo dam during several months. Furthermore, two additional TRITIUM-Aveiro prototypes and four active vetos are currently under construction and will be measured in parallel with this prototype.
 
-The RaspberryPi, in which the counter electronic system of TRITIUM-Aveiro prototype is based, has some counting limitations if multiple modules are used. To overcome this problem, it must be replaced with an FPGA-based counter board to ensure reliable counting.
+The electronics of the TRITIUM-Aveiro prototype, based on a RaspberryPi, cannot be used for multiple modules due to counting limitations and this must be replaced by an FPGA-based counter board.
 
-At the same time, three TRITIUM-IFIC 2 prototypes and an active veto have already been built, the installation of which at the Arrocampo dam was delayed due to the coronavirus pandemic restrictions imposed in Spain. They will be installed as soon as possible.
+Simultaneously, three TRITIUM-IFIC 2 prototypes and an active veto are already built and they will be installed as soon as possible.
 
-One of the most important points of the TRITIUM detector is its modular design, with which an scalability can be achieved to reach the required sensitivity, $100~\becquerel/\liter$.  It means that if this sensitivity target is not reached with the three modules to be installed, this will be improved simply by installing a few additional modules.
+One of the most important aspects of the TRITIUM monitor is its modular design, which allows scalability to reach the required sensitivity, $100~\becquerel/\liter$. It means that if this target sensitivity is not reached with the three modules to be installed, may be obtained by installing additional modules.
 
-The only scalability restriction is the available space, which is fixed by the lead shield already built and installed (it is also fixed by the available space in the house where the lead shield is installed). Taking into account the currently available space, five different structures designed for TRITIUM-IFIC 2, one of which is shown in Figure \ref{fig:TritiumMonitorIFIC2Design}, can be used, where ten different modules (grey) and an active veto (black) can be accommodated in any of them. 
+The only scalability restriction is the available space, which is set by the lead shield already built and the cabin in which the setup is installed. The currently available space fit five different structures as the one shown in Figure \ref{fig:TritiumMonitorIFIC2Design}, each one containing 10 modules and one active veto. If all the 50 TRITIUM modules are installed the sensitivity of the TRITIUM monitor could be improved a factor of around 7 ($\sqrt{50}$) with the respecto to the sensitivity of a single module.
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.6]{5Prototypes/55ModularTritiumDetector/Tritium_Detector_Based_On_Tritium_IFIC_2.PNG}
-\caption{A TRITIUM detector design based on the TRITIUM-IFIC 2 prototype.\label{fig:TritiumMonitorIFIC2Design}}
+\caption{A TRITIUM monitor design based on the TRITIUM-IFIC 2 prototype.\label{fig:TritiumMonitorIFIC2Design}}
 \end{figure}
-
-It means that up to 50 TRITIUM-IFIC 2 modules can be used in parallel, reducing the tritium sensitivity measured for TRITIUM-IFIC 2 prototype by a factor of fifty. In light of the results obtained with these prototypes, it is not expected to use more than one structure like the one shown in Figure \ref{fig:TritiumMonitorIFIC2Design} (ten modules) to reach the target sensitivity.
