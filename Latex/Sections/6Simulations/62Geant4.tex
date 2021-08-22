@@ -1,25 +1,21 @@
-Geant4 is a software toolkit for the simulation of the passage of particles through matter. It is a package developed at CERN that is based on object-oriented technology implemented in the C ++ programming language.
+Geant4 is a software toolkit for the simulation of the passage of particles through matter developed at CERN, based on object-oriented technology implemented in the C ++ programming language. Geant4 includes the definition of all the different aspects of the simulation process such as detector geometry, materials used, particles of interest, pyhisical processes that handle particle and matter interactions, response of sensitive detectors, generation, storage and analysis of event data and visualization.
 
-This includes the definition of all the different aspects of the simulation process such as detector geometry, materials used, particles of interest, pyhisics processes that handle particle and matter interactions, response of sensitive detectors, generation, storage and analysis of event data and visualization.
+Geant4 simulates particle-by-particle physics. This means that the tritium events are initialized one by one, generating energy, moment, position, etc. The propagation of each tritium decay electron and its interaction  with the scintillator is simulated, and optical photons are created. The propagation of these optical photons are also simulated one by one and the simulation ends when all tritium events have been simulated and all created optical photons have been absorbed by either the sensitive detector or other materials present in the simulation. 
 
-Geant4 simulates particle-by-particle physics. It means that the tritium events are initialized one by one, whose energy, moment, position, etc. are determined. Then, the propagation of each tritium event and its interaction  with the scintillator is simulated, in which optical photons are created. The propagation of these optical photons are also simulated one by one and the simulation ends when all tritium events have been simulated and all created optical photons have been absorbed by either the sensitive detector or other materials present in the simulation.
+The physics list used for these simulations is Livermore,\newline G4EmLivermorePhysics, which is specially designed to work with low energy particles. This list includes the most important electromagnetic process at low energies such as bremsstrahlung, Coulomb scattering, atomic de-excitation (fluorescence) and other related effects. 
 
-A physics list used for these simulations is Livermore,\newline G4EmLivermorePhysics, which is specially designed to work with low energy particles. This list includes the most important electromagnetic process at low energies such as Bremsstrahlung, Coulomb scattering, atomic de-excitation (fluorescence) and other related effects.
-
-The materials used in these simulations were water (to simulate the tritiated water source), PMMA (to simulate the optical windows of the prototype), polystyrene (to simulate the core of scintillating fibers), Teflon (to simulate the prototype vessel), silicone (to simulate the optical grease), silicate glass (to simulate the optical windows of the PMTs) and bialkali (to simulate the photocatode material of the PMT).
-
-The properties of water, Teflon, polystyrene were taken from the Geant4 NIST database and the other materials were built by specifying their atoms. Optical properties was added to these materials:
+The materials used in these simulations were water (to simulate the tritiated water source), PMMA (to simulate the optical windows of the prototype), polystyrene (to simulate the core of scintillating fibers), Teflon (to simulate the prototype vessel), silicone (to simulate the optical grease), silicate glass (to simulate the optical windows of the PMTs) and bialkali (to simulate the photocatode material of the PMT). The properties of water, Teflon and polystyrene were taken from the Geant4 NIST database and the other materials were built by specifying their atomic composition. The following optical properties were added to these materials:
 
 \begin{enumerate}
+%
+\item{} The refraction index and light attenuation coefficient were added to water, obtained from \cite{WaterPropertiesSimulation}. A spectrum of tritium decay electrons, uniformly distributed in the volume, was added to water to simulate tritiated water. The tritium decay spectrum data were take from \cite{TritiumEmissionSpectrum}.
 
-\item{} First, the spectrum of the refractic index and the light attenuation were added to the water which was obtained from the reference \cite{WaterPropertiesSimulation}. Furthermore, an electron emission, uniformly distributed in the volume, was added to the water, the energy of which IS calculated using the tritium energy spectrum. This emission of electrons simulates the disintegration of the dissolved tritium particles in the water sample. The used data was obtained from the reference \cite{TritiumEmissionSpectrum}.
+\item{} The spectra of refractic index, light attenuation and photon emission and the the scintillation yield and the decay time coefficient, obtained from the data sheet of scintillating fibers, \cite{DataSheetBCF12Fiber}, were added to the polystyrene.
 
-\item{} Second, the spectrums of the refractic index, the light attenuation and the photon emission were added to the polystyrene, which was obtained from the data sheet of scintillating fibers, \cite{DataSheetBCF12Fiber}.  Also the scintillation yield and the decay time was included. 
+\item{} The quantum efficiency spectrum was added to the photocatode material of the PMTs, taken from their data sheet, \cite{DataSheetPMTs}. A refraction index of 1.46 was used for optical grease, also obtained from its data sheet, \cite{OpticalGrease}.
 
-\item{} Third, the quantum efficiency spectrum was included to the photocatode material of the PMTs, the data of which was obtained from their data sheet, \cite{DataSheetPMTs} and a refraction index of 1.46 was used for the optical grease, also obtained from its data sheet, \cite{OpticalGrease}.
-
-\item{} Finally, the optical data for the remaning materials, PMMA windows, Teflon and silicate glass, were taken from the reference \cite{NEMODataSimulation}.
+\item{} Finally, the optical data for the remaning materials, PMMA windows, Teflon and silicate glass, were taken from \cite{NEMODataSimulation}.
 
 \end{enumerate} 
 
-It is important to note that the simulations shown in this thesis are focused on the Tritium-IFIC 2 prototype since these were the simulations I was primarily working on, but a similar simulation was performed for the Tritium-Aveiro prototype, some of their most important results are also presented. In addition, other smaller simulations are shown used to choose the best design of the TRITIUM detector.
+The simulations shown in this thesis are focused on the Tritium-IFIC 2 prototype since these were the simulations I was primarily working on, but similar simulations were performed for the Tritium-Aveiro prototype, which are also summarized.
