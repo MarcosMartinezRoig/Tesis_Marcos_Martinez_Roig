@@ -5,8 +5,8 @@
 \babel@toc {english}{}
 \contentsline {chapter}{Abstract}{VII}{chapter*.4}
 \contentsline {chapter}{Nomenclature and Acronyms}{IX}{chapter*.5}
-\contentsline {chapter}{List of Figures}{XXXIII}{chapter*.7}
-\contentsline {chapter}{List of Tables}{XXXVIII}{chapter*.8}
+\contentsline {chapter}{List of Figures}{XXXI}{chapter*.7}
+\contentsline {chapter}{List of Tables}{XXXVI}{chapter*.8}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Tritium and Nuclear Energy}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Tritium Properties and Radiological Hazards}{9}{section.1.2}
@@ -47,32 +47,26 @@
 \contentsline {chapter}{\numberline {5}TRITIUM Monitor Prototypes}{131}{chapter.5}
 \contentsline {section}{\numberline {5.1}First Prototypes}{132}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}TRITIUM-IFIC 0}{132}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}TRITIUM-IFIC 1}{135}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Latest TRITIUM Prototypes}{139}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}TRITIUM-Aveiro}{140}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}TRITIUM-IFIC 2}{144}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Modular TRITIUM Detector}{148}{section.5.3}
-\contentsline {chapter}{\numberline {6}Simulations}{151}{chapter.6}
-\contentsline {section}{\numberline {6.1}Geant4 Environment}{151}{section.6.1}
-\contentsline {section}{\numberline {6.2}Simulations to Optimize the TRITIUM Monitor Design}{153}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Tritiated Water Source}{154}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Energy Deposition and Light Output of Scintillating Fibers}{155}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Fiber Length}{159}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Fiber Diameter}{160}{subsection.6.2.4}
-\contentsline {subsection}{\numberline {6.2.5}Effect of the PMMA windows}{163}{subsection.6.2.5}
-\contentsline {section}{\numberline {6.3}Simulations of the TRITIUM Monitor}{164}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Tritium-IFIC 2}{165}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Lead Shielding and Cosmic Veto}{173}{subsection.6.3.2}
-\contentsline {chapter}{\numberline {7}TRITIUM Monitor Results and Discussion}{175}{chapter.7}
-\contentsline {section}{\numberline {7.1}Results from Laboratory Measurements}{175}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Experimental Results of TRITIUM-IFIC 0}{176}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Experimental Results of TRITIUM-IFIC 1}{178}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Experimental Results of TRITIUM-Aveiro}{180}{subsection.7.1.3}
-\contentsline {subsection}{\numberline {7.1.4}Experimental Results of TRITIUM-IFIC 2}{186}{subsection.7.1.4}
-\contentsline {section}{\numberline {7.2}Experimental Results in Arrocampo Dam}{190}{section.7.2}
-\contentsline {chapter}{\numberline {8}Conclusions and Prospects}{193}{chapter.8}
+\contentsline {subsection}{\numberline {5.1.2}TRITIUM-IFIC 1}{138}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Latest TRITIUM Prototypes}{143}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}TRITIUM-Aveiro}{143}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}TRITIUM-IFIC 2}{153}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Experimental Results in Arrocampo Dam}{161}{section.5.3}
+\contentsline {section}{\numberline {5.4}Modular TRITIUM Detector}{163}{section.5.4}
+\contentsline {chapter}{\numberline {6}Simulations}{167}{chapter.6}
+\contentsline {section}{\numberline {6.1}Geant4 Environment}{167}{section.6.1}
+\contentsline {section}{\numberline {6.2}Simulations to Optimize the TRITIUM Monitor Design}{169}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Tritiated Water Source}{170}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Energy Deposition and Light Output of Scintillating Fibers}{171}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Fiber Length}{175}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Fiber Diameter}{176}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Effect of the PMMA windows}{179}{subsection.6.2.5}
+\contentsline {section}{\numberline {6.3}Simulations of the TRITIUM Monitor}{180}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Tritium-IFIC 2}{181}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Lead Shielding and Cosmic Veto}{189}{subsection.6.3.2}
+\contentsline {chapter}{\numberline {7}Conclusions and Prospects}{191}{chapter.7}
 \contentsline {chapter}{Appendices}{}{section*.149}
-\contentsline {chapter}{\numberline {A}Electronic Readout for characterization the SiPM 13360-6075 Model}{203}{appendix.A}
-\contentsline {chapter}{\numberline {B}Ultrapure Water System}{207}{appendix.B}
-\contentsline {chapter}{\numberline {C}Preparation of Liquid Radioactive Source of Tritium}{211}{appendix.C}
-\contentsline {chapter}{\numberline {D}Electronic System of TRITIUM-Aveiro prototype}{213}{appendix.D}
+\contentsline {chapter}{\numberline {A}Electronic Readout for characterization the SiPM 13360-6075 Model}{201}{appendix.A}
+\contentsline {chapter}{\numberline {B}Ultrapure Water System}{205}{appendix.B}
+\contentsline {chapter}{\numberline {C}Preparation of Liquid Radioactive Source of Tritium}{209}{appendix.C}
+\contentsline {chapter}{\numberline {D}Electronic System of TRITIUM-Aveiro prototype}{211}{appendix.D}
