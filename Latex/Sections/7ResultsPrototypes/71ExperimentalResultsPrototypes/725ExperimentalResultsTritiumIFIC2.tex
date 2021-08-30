@@ -1,6 +1,4 @@
-This section shows the results of the lastest prototype developed in the TRITIUM experiment, TRITIUM-IFIC 2, during its installation in the Nuclear Radiation Laboratory at IFIC. The design of this prototype is shown in section \ref{subsec:TritiumIFIC2}.
-
-The energy spectra of the signal and background prototypes were measured, which are shown in Figure \ref{subfig:SignalBackgroundEnergySpectraTritiumIFIC2}. As it was mentioned in section \ref{subsec:TritiumIFIC2}, the signal prototype was filled with a tritiated water solution with an activity of $10~\kilo\becquerel/\liter$ and the background prototype was filled with ultrapure water.
+This section reports on the results of the TRITIUM-IFIC 2 prototype during its installation in the IFIC laboratory.  The signal and background energy spectra are shown in Figure \ref{subfig:SignalBackgroundEnergySpectraTritiumIFIC2}. As it was mentioned in section \ref{subsec:TritiumIFIC2}, the signal prototype was filled with a tritiated water solution with an activity of $10~\kilo\becquerel/\liter$ and the background prototype was filled with ultrapure water. The difference between both spectra corresponds to the energy spectrum of tritium, Figure \ref{subfig:TritiumEnergySpectraTritiumIFIC2}. The rates obtained from these three spectra are given in Table \ref{tab:CountsPerSecondTRITIUMIFIC2}. 
 
 \begin{figure}
 \centering
@@ -15,35 +13,30 @@ The energy spectra of the signal and background prototypes were measured, which 
     \includegraphics[width=\textwidth]{7ExperimentalResultsDetectors/71ExperimentalResultsLaboratory/714TRITIUMIFIC2/TritiumIFIC2ClearHigherZOOM_NP.pdf}  
     \caption{\label{subfig:TritiumEnergySpectraTritiumIFIC2}}
     \end{subfigure}
- \caption{Energy spectra experimentally measured with TRITIUM-IFIC 2 prototype. Above) Signal and background energy spectra. Below) Tritium energy spectrum.}
+ \caption{Energy spectra measured with TRITIUM-IFIC 2 prototype. a) Signal and background energy spectra. b) Tritium energy spectrum.}
  \label{fig:EnergySpectraTRITIUMIFIC2}
 \end{figure}
 
-A difference between both signals is clearly visible, which corresponds to the energy spectrum of tritium, Figure \ref{subfig:TritiumEnergySpectraTritiumIFIC2}. The number of counts per second obtained for these three spectra is shown in Table \ref{tab:CountsPerSecondTRITIUMIFIC2}, where the Tritium counts are obtained from the difference of the signal and backgorund counts.
-
-\begin{table}[h]
-%%\centering
-\begin{center}
-\begin{tabular}{|c|c|}
-\hline
-Spectrum & Counts/second\\
-\hline \hline \hline
-Signal prototype & $19.05 \pm 0.18$ \\ \hline
-Background prototype & $11.54 \pm 0.14$ \\ \hline
-Tritium counts & $7.11 \pm 0.23$ \\ \hline
+\begin{table}[htbp]
+\centering{}%
+\begin{tabular}{cc}
+\toprule 
+Spectrum & Counts/second \tabularnewline
+\midrule
+\midrule 
+Signal prototype & $19.05 \pm 0.18$ \tabularnewline
+Background prototype & $11.54 \pm 0.14$ \tabularnewline  
+Tritium counts & $7.11 \pm 0.23$ \tabularnewline
+\bottomrule
 \end{tabular}
-\caption{Counts per second obtained with TRITIUM-IFIC 1 prototype.}
+\caption{Counting rates measured by TRITIUM-IFIC 2 prototype.}
 \label{tab:CountsPerSecondTRITIUMIFIC2}
-\end{center}
 \end{table}
+The tritium detection efficiency obtained for this prototype is $(7.11 \pm 0.28)\cdot{} 10^{-1}~\liter\second^{-1}\kilo\becquerel^{-1}$. This efficiency is larger that of reported in the literature, Table \ref{tab:PlasticScinTritium}. This is an expected result since the active area of this prototype is the largest. To remove the active area effect, the specific efficiency was measured, obtaining a value of $(1.59 \pm 0.48)\cdot{} 10^{-5}~\liter\second^{-1}\kilo\becquerel^{-1}\cm^{-2}$ for this prototype. Again, it can be observed that this prototype has the largert specific efficiency reported for tritium detection.
 
-The tritium detection efficiency obtained for this prototype is $(7.11 \pm 0.28)\cdot{} 10^{-1}~ \frac{\text{c}/\second}{\kilo\becquerel/\liter}$, calculated from the quotient of both, the counts per second measured and the specific activity o the tritium liquid source used. This efficiency is larger than all scintillating detectors developed so far, including the prototypes developed in TRITIUM experiment, Table \ref{tab:PlasticScinTritium} and sections \ref{subsec:ResultsTritiumIFIC0}, \ref{subsec:ResultsTritiumIFIC1} and \ref{subsec:ResultsTritiumAveiro}. It is an expected result since the active area used in this prototype is larger than those used in others.
+%Therefore, as it has demostrated, the intrinsec and specific efficiency obtained so far for scintillating detectors used for tritium detection has been exceeded with the last TRITIUM prototype, TRITIUM-IFIC 2.
 
-To remove the effect of different active area, the specific efficiency is measured, obtaining a value of $(1.59 \pm 0.48)\cdot{} 10^{-5}~ \frac{\text{c}/\second}{\kilo\becquerel/\liter}\frac{1}{\cm^{2}}$ for this prototype. Again, it can be observed that this prototype has the largert specific efficiency obtained so far with a scintillating detector used for tritium detection.
-
-Therefore, as it has demostrated, the intrinsec and specific efficiency obtained so far for scintillating detectors used for tritium detection has been exceeded with the last TRITIUM prototype, TRITIUM-IFIC 2.
-
-As discussed in chapter \ref{chap:ResearchandDevelopment}, the energy spectrum is shown in ADC units, proportional to energy, since it is difficult, even impossible, to do an energy calibration for a plastic scintillator due to its large uncertainty in the number of photons produced per event. Nevertheless, a detector calibration can be performed to express the results in units of photons detected per event. It was carried out using the single-photon distribution of the used PMTs, which was obtained from their self-emissions. Similar to the TRITIUM-Aveiro prototype, the PMT used to read this prototype was decoupled to the prototype and covered with a special black blanket to ensure that external photons did not reach the PMT. The output signal of the PMT was analyzed using the electronical chain shown in Figure \ref{subfig:ElectronicConfiguraiton1PMT}. The distribution measured is shown in Figure \ref{subfig:SinglePhotonDistributionIFIC2}, in which a gaussian function was fitted.
+The energy spectrum is given in ADC channels, proportional to energy, since an energy calibration for a plastic scintillator is not accurate due to its large uncertainty in the number of photons produced. Nevertheless, a detector calibration in units of photons detected per event can be carried out extracted from the single-photon distribution of the PMTs. The PMTs used to read this prototype was decoupled to the prototype and covered with a special black blanket screen the PMT from external photons. The distribution measured fitted to a Gaussian function is shown in Figure \ref{subfig:SinglePhotonDistributionIFIC2}. As can be seen, the mean and uncertainty of the single photon signal are around $172$ and $66$ ADC channels, respectively. The tritium signal given in number of photons detected per event, shown in Figure \ref{subfig:TritiumSignalTRITIUMIFIC2}, obtained as the ratio of the energy spectrum to the single-photon distribution mean. A maximum of $15$ photons are experimentaly measured per tritium event, which is in agreement with the expected result taking in to account the efficiencies involved. 
 
 \begin{figure}
 \centering
@@ -58,7 +51,7 @@ As discussed in chapter \ref{chap:ResearchandDevelopment}, the energy spectrum i
     \includegraphics[width=\textwidth]{7ExperimentalResultsDetectors/71ExperimentalResultsLaboratory/714TRITIUMIFIC2/PhotonsPerTritiumEvent.pdf}  
     \caption{\label{subfig:TritiumSignalTRITIUMIFIC2}}
     \end{subfigure}
- \caption{Above) Single photon distribution of the TRITIUM-IFIC 2 prototype. Below) Tritium energy spectrum measured with TRITIUM-IFIC 2 prototype and expressed in photons detected per event.}
+ \caption{a) Single photon distribution measured with TRITIUM-IFIC 2 prototype. b) Tritium energy spectrum measured with TRITIUM-IFIC 2 prototype in photons detected per event.}
  \label{fig:PhotonsPerTritiumEventIFIC2}
 \end{figure}
 
@@ -68,31 +61,27 @@ As discussed in chapter \ref{chap:ResearchandDevelopment}, the energy spectrum i
 %\caption{Single photon energy distribution measured with the PMT used in TRITIUM-IFIC 2 prototype.\label{fig:SinglePhotonDistributionIFIC2}}
 %\end{figure}
 
-As can be seen, the mean and uncertainty of the signal produced for a single photon detected with the PMT used are $172.71$ and $66.19$ (in ADC units) respectively. Therefore, the tritium signal, Figure \ref{subfig:TritiumEnergySpectraTritiumIFIC2}, can be expressed in number of photons detected per event, Figure \ref{subfig:TritiumSignalTRITIUMIFIC2}, by simply dividing this spectrum by the mean measured for the single-photon distribution.
-
 %\begin{figure}[h]
 %\centering
 %\includegraphics[scale=0.6]{7ExperimentalResultsDetectors/71ExperimentalResultsLaboratory/714TRITIUMIFIC2/PhotonsPerTritiumEvent.pdf}
 %\caption{Tritium signal measured with the TRITIUM-IFIC 2 prototype and expressed in number of photones per tritium event detected.\label{fig:TritiumSignalTRITIUMIFIC2}}
 %\end{figure}
 
-As can be seen, a maximum of $15$ photons are generated per tritium event, which is in accordance with the expected result taking in to account the efficiencies involved. 
 
 %As can be seen, a maximum of $15$ photons are generated per tritium event, which corresponds to the best situation. To compare the value obtained with the expected one, the different energies and efficiencies involved are taken into account. Considering a maximum energy for the tritium electron detected, $18.6~\keV$, a scintillation yield of $8000~\text{ph}/\MeV$ for the fibers, a maximum collection efficiency for the fibers, $7\%/\meter$, the fiber length, $20~\cm$ (which increases the collection efficiency by a factor of 5), and the PMT efficiency, $29\%$, the maximum number of photons produced for a tritium event detected with TRITIUM-IFIC 2 prototype is $15$. As can be seen, this is perfectly in accordance with the measurement.
 
-Finally, a monitoring of both prototypes, signal and background, were carried out for several months, the measurements of which are shown in Figure \ref{fig:MonitorizationTRITIUMIFIC2}.
+A monitoring of both prototypes, signal and background, were carried out during several months. T rates measured are shown in Figure \ref{fig:MonitorizationTRITIUMIFIC2}.
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.6]{7ExperimentalResultsDetectors/71ExperimentalResultsLaboratory/714TRITIUMIFIC2/Signal_Background_stability_ZOOM.pdf}
-\caption{Monitoring of the signal and background prototypes for several months.\label{fig:MonitorizationTRITIUMIFIC2}}
+\caption{Signal and background rates for a long time measurement.\label{fig:MonitorizationTRITIUMIFIC2}}
 \end{figure}
+No quenching of the signal was observed, indicating a stability the detector efficiency during 3 months for the signal and 6 months for the background. %Furthermore, it can be verified that the tritium activity used, $10~\kilo\becquerel/\liter$, is not the LDL of the TRITIUM-IFIC 2 prototype since both measurements, signal and background, are clearly separated along the time.
 
-As can be seen, the signal of both was not reduced, ensuring the maintainance of the detector efficiency during 3 months for the signal and 6 months for the background. Furthermore, it can be verified that the tritium activity used, $10~\kilo\becquerel/\liter$, is not the LDL of the TRITIUM-IFIC 2 prototype since both measurements, signal and background, are clearly separated along the time.
+%ESTUDIAR EL LDL DEL DETECTOR CON LAS MEDIDAS TOMADAS!!!
 
-ESTUDIAR EL LDL DEL DETECTOR CON LAS MEDIDAS TOMADAS!!!
-
-INCLUIR QUE NO SE HA CONSEGUIDO MEDIR 1kBq/L!!!
+%INCLUIR QUE NO SE HA CONSEGUIDO MEDIR 1kBq/L!!!
 
 
 %Rellenar con uan actividad grande y volver a medir. 
