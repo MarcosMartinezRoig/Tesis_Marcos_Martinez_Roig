@@ -13,33 +13,33 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces (Above) Arrocampo dam and Almaraz Nuclear Power Plant. (Below) Tagus river along Spain and Portugal.\relax }}{29}{figure.caption.23}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Scheme of the scintillator detector.\relax }}{36}{figure.caption.24}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Domain regions of the three most probable types of interactions of gamma rays with matter. The lines show the values of Z and $h\nu $ where the two neighboring effects are equally likely~\cite {Knoll}.\relax }}{38}{figure.caption.25}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Scheme of the scintillator detector.\relax }}{35}{figure.caption.24}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Domain regions of the three most probable types of interactions of gamma rays with matter. The lines show the values of Z and $h\nu $ where two interaction processes are equally likely~\cite {Knoll}.\relax }}{37}{figure.caption.25}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Jablonsky diagram~\cite {Knoll}.\relax }}{41}{figure.caption.26}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Stokes shift~\cite {Knoll}.\relax }}{42}{figure.caption.27}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Emission spectrum of BCF-12 fibers of Saint-Gobain~\cite {DataSheetBCF12Fiber}.\relax }}{44}{figure.caption.28}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Emission spectrum of BCF-12 scintillating fibers of Saint-Gobain~\cite {DataSheetBCF12Fiber}.\relax }}{44}{figure.caption.28}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Photon collection in a single clad fiber~\cite {DataSheetBCF12Fiber}.\relax }}{45}{figure.caption.29}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Scheme of a PMT~\cite {Knoll}.\relax }}{49}{figure.caption.33}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Quantum efficiency spectrum for the PMT used (R8520-406)~\cite {DataSheetPMTs}.\relax }}{50}{figure.caption.34}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Quantum efficiency spectrum for the PMT used in TRITIUM R\&D studies (R8520-406)~\cite {DataSheetPMTs}.\relax }}{50}{figure.caption.34}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Hamamatsu commercial voltage divider electronic circuit. Upper circuit with negative supply and lower circuit with positive supply~\cite {DataSheetPMTs}.\relax }}{51}{figure.caption.35}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Scheme of a APD and electrical symbol used~\cite {OSI}.\relax }}{53}{figure.caption.37}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces SiPM output pulses displayed on oscilloscope, model MSO44X from Tektronix \cite {Oscilloscope}. To easily observe several heights of these pulses, associated with a different number of SiPM pixels fired at the same time, the persistence function of the oscilloscope is used.\relax }}{55}{figure.caption.38}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces (Left) Electronic scheme of a SiPM and (right) output current of a SiPM as a function of the reverse voltage. It is seem that the quenching mechanism is essential for working with SiPMs~\cite {DataSheetSensL}.\relax }}{56}{figure.caption.39}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Photon detection efficiency (PDE) spectrum for SiPM S13360-**75 models~\cite {DataSheetHammamatsu_1_SiPM_1375}.\relax }}{60}{figure.caption.41}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Electronic scheme of the voltage divider circuit used for working with PMTs without internal gain).\relax }}{63}{figure.caption.44}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Electronic scheme of the voltage divider circuit used for working with PMTs without internal gain).\relax }}{53}{figure.caption.36}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Scheme of a APD and electrical symbol used~\cite {OSI}.\relax }}{54}{figure.caption.38}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces SiPM output pulses displayed on oscilloscope, model MSO44X from Tektronix \cite {Oscilloscope}. Several height pulses are observed, associated to a different number of SiPM pixels fired at the same time. The persistence function of the oscilloscope is used.\relax }}{56}{figure.caption.39}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces (a) Electronic scheme of a SiPM and (b) output current of a SiPM as a function of the reverse voltage. As shown, the quenching is an essential working mechanism of SiPMs~\cite {DataSheetSensL}.\relax }}{57}{figure.caption.40}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Photon detection efficiency (PDE) spectrum for SiPM S13360-**75 models~\cite {DataSheetHammamatsu_1_SiPM_1375}.\relax }}{61}{figure.caption.42}
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Schemes of the different electronic for measuring with PMTs. a) Employed when only one PMT is used. b) Employed when two PMTs are used in time coincidence. c) Employed when four PMTs are used in time coincidence.\relax }}{65}{figure.caption.45}
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Different possibilities when time coincidences with PMTs are done. a) Event detected in only one PMT, one detector. b) Event detected in two PMTs, one detector. c) Event detected in two PMTs, other detector. d) Event detected in all PMTs, both detector.\relax }}{68}{figure.caption.46}
 \contentsline {figure}{\numberline {3.17}{\ignorespaces Signal amplified and logical gate (input signals of MCA).\relax }}{69}{figure.caption.47}
 \contentsline {figure}{\numberline {3.18}{\ignorespaces Different parts of PETSYS system~\cite {PETSYS}.\relax }}{70}{figure.caption.49}
 \contentsline {figure}{\numberline {3.19}{\ignorespaces a) Electronic board used to provide the SiPM bias voltage and to read the SiPM output signal. b) Electronical scheme in which this PCB is based.\relax }}{72}{figure.caption.50}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Scheme of water purification system.\relax }}{74}{figure.caption.51}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces a) Lead Bricks b) and c) Two layers for the lead bricks of the shielding.\relax }}{78}{figure.caption.53}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Aluminium structure of the passive shielding\relax }}{79}{figure.caption.54}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Cosmic veto and Tritium-IFIC 2 prototype in an aluminum mechanical structure developed by IFIC's mechanical engineering department.\relax }}{80}{figure.caption.55}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Hard cosmic events detected with the cosmic veto of TRITIUM: a) Real coincidence, b) Fake coincidence.\relax }}{81}{figure.caption.56}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Hard cosmic muon rate \cite {HardCosmicMuonRatePlot}.\relax }}{82}{figure.caption.57}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Emission energy spectrum of the plastic scintillation used for the cosmic vetos~\cite {ScintillatorVeto}.\relax }}{83}{figure.caption.59}
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Different layers used to wrap the cosmic veto detectors. a) Scintillator without coating. b) Teflon coating. c) Aluminium coating. c) d) Black tape coating.\relax }}{84}{figure.caption.60}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Scheme of water purification system of TRITIUM.\relax }}{74}{figure.caption.51}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces a) Lead Bricks b) and c) Two layers for the lead bricks of the shield.\relax }}{78}{figure.caption.53}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces a) Scheme of the aluminium structure of the shield; b) The lead shield partially mounted.\relax }}{79}{figure.caption.54}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Cosmic veto and Tritium-IFIC 2 prototype in an aluminum mechanical structure developed at IFIC.\relax }}{80}{figure.caption.55}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Hard cosmic events detected with the cosmic veto of TRITIUM: a) Real coincidence event, b) randomly coincidence envent that may mimic a hard cosmic event.\relax }}{81}{figure.caption.56}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Hard cosmic muon rate at different depths with respect to the sea level ($10^0$) \cite {HardCosmicMuonRatePlot}.\relax }}{82}{figure.caption.57}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Emission energy spectrum of the plastic scintillator from Epic-Crystals used for the cosmic vetos~\cite {ScintillatorVeto}.\relax }}{83}{figure.caption.59}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Different layers used to wrap the cosmic veto detectors. a) Scintillator without coating. b) PTFE coating. c) Aluminium coating. c) d) Black tape coating.\relax }}{84}{figure.caption.60}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Unsuccessful results of using commercial techniques to cleave fibers a) Fiber end deformation b) Fiber end cracks.\relax }}{87}{figure.caption.61}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Cleaving device developed in TRITIUM experiment. \relax }}{88}{figure.caption.62}
@@ -119,12 +119,12 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {A.1}{\ignorespaces Three PCBs used for the SiPM characterization a) The PCB 1 used to arrang 8 SiPMs and black box. b) The PCB 2 used to sum and amplify the output signals of SiPMs. c) The PCB 3 used to rearrange the different singals of the system. d) The LED emission spectrum.\relax }}{203}{figure.caption.150}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Scheme of the ultrapure water system.\relax }}{205}{figure.caption.151}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Different stages of filtration of the ultrapure water system. a) The gross filtering stage. b) The Fine filtering stage. c) The Super fine filtering stage.\relax }}{206}{figure.caption.152}
-\contentsline {figure}{\numberline {B.3}{\ignorespaces a) Doble phase reverse osmosis stage b) Containers used to store the outlet water of the ultrapure water system.\relax }}{207}{figure.caption.153}
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Siemens PLC, software for remote control of ultrapure water system.\relax }}{207}{figure.caption.154}
-\contentsline {figure}{\numberline {B.5}{\ignorespaces General photo of the complete ultrapure water system.\relax }}{208}{figure.caption.155}
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Raw water, reject water and ultrapure water obtained with this system.\relax }}{208}{figure.caption.156}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Scheme of the water purification system.\relax }}{205}{figure.caption.151}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Different stages of filtration of the water purification system. a) The gross filtering stage. b) The Fine filtering stage. c) The Super fine filtering stage.\relax }}{206}{figure.caption.152}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces a) Doble phase reverse osmosis stage b) Containers used to store the outlet water of the water purification system.\relax }}{207}{figure.caption.153}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Siemens PLC, software for remote control of water purification system.\relax }}{207}{figure.caption.154}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces General photo of the complete water purification system.\relax }}{208}{figure.caption.155}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Raw water, reject water and pure water obtained with this system.\relax }}{208}{figure.caption.156}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {D.1}{\ignorespaces a) The Electronic scheme of the PCB designed to power the PMTs of Aveiro prototype b) The graphical user interface developed to control it.\relax }}{212}{figure.caption.157}
