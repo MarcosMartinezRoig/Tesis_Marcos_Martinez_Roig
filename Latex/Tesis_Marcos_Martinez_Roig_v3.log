@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  12 NOV 2021 14:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  15 NOV 2021 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2506,6 +2506,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [90 <./Figures/4ResearchAndDevelopments/41Fibers/Hand_Polishing_Kit.png>] [91 
 <./Figures/4ResearchAndDevelopments/41Fibers/CutAndPolishedFiberEnd.png>]
+
+LaTeX Warning: Citation `StructureAxis' on page 92 undefined on input line 55.
+
 <Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png, id=2163, 342.529
 7pt x 189.70876pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png Graphic file
@@ -2538,11 +2541,11 @@ ng)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/Switch.png  
 used on input line 81.
 (pdftex.def)             Requested size: 153.64253pt x 133.12767pt.
- [92 <./Figures/4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.pn
-g>] [93 <./Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png> <./Fig
-ures/4ResearchAndDevelopments/41Fibers/PieceOfFiber.png> <./Figures/4ResearchAn
-dDevelopments/41Fibers/HorizontalAxis2.png> <./Figures/4ResearchAndDevelopments
-/41Fibers/Switch.png>]
+[92 <./Figures/4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.png
+>] [93 <./Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png> <./Figu
+res/4ResearchAndDevelopments/41Fibers/PieceOfFiber.png> <./Figures/4ResearchAnd
+Developments/41Fibers/HorizontalAxis2.png> <./Figures/4ResearchAndDevelopments/
+41Fibers/Switch.png>]
 Overfull \hbox (2.55498pt too wide) in paragraph at lines 92--93
 \T1/cmr/m/n/12 NEMA ST4209S1404-A [[]], with bipo-lar volt-age of $\OT1/cmr/m/n
 /12 2\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 77 [][][]$\T1/cmr/m/n/12 , $\OT1/cmr/m/n
@@ -2644,13 +2647,10 @@ ngProcess.pdf  used on input line 27.
 (pdftex.def)             Requested size: 384.11221pt x 202.56393pt.
 )
 (./Sections/4ResearchAndDevelopment/42CharacterizationFibers/423Characterizatio
-nFibers/4231CharacterizationFibers.tex
-Underfull \vbox (badness 1552) has occurred while \output is active []
-
- [100]
-[101 <./Figures/4ResearchAndDevelopments/41Fibers/Cs-137_CleaningProcess.pdf, p
-age is rotated 90 degrees> <./Figures/4ResearchAndDevelopments/41Fibers/Sr-90_C
-leaningProcess.pdf, page is rotated 90 degrees>]
+nFibers/4231CharacterizationFibers.tex [100] [101 <./Figures/4ResearchAndDevelo
+pments/41Fibers/Cs-137_CleaningProcess.pdf, page is rotated 90 degrees> <./Figu
+res/4ResearchAndDevelopments/41Fibers/Sr-90_CleaningProcess.pdf, page is rotate
+d 90 degrees>]
 <Figures/4ResearchAndDevelopments/41Fibers/SetUp_Fiber_Characterization.png, id
 =2433, 564.60938pt x 420.82219pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/SetUp_Fiber_Characterization.pn
@@ -2699,9 +2699,6 @@ Overfull \hbox (14.27345pt too wide) in paragraph at lines 42--43
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [104 <./Figures/4ResearchAndDevelopments/41Fibers/LED_TRITIUM_1_std.pdf, page 
@@ -2725,16 +2722,19 @@ st_0_2500_range.png  used on input line 58.
 (pdftex.def)             Requested size: 596.61844pt x 301.11966pt.
 )
 (./Sections/4ResearchAndDevelopment/42CharacterizationFibers/423Characterizatio
-nFibers/4233ResultsCharacterizationFibers.tex [105 <./Figures/4ResearchAndDevel
-opments/41Fibers/PCBNoGainPlateau_Calibrated.pdf, page is rotated 90 degrees>]
-[106 <./Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_30_range.png
-> <./Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_2500_range.png>
-]
+nFibers/4233ResultsCharacterizationFibers.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [105 <./Figures/4ResearchAndDevelopments/41Fibers/PCBNoGainPlateau_Calibrated.
+pdf, page is rotated 90 degrees>] [106 <./Figures/4ResearchAndDevelopments/41Fi
+bers/Linearity_test_0_30_range.png> <./Figures/4ResearchAndDevelopments/41Fiber
+s/Linearity_test_0_2500_range.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [107]
+[108]
 <Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_NoClad.pdf, id=
-2577, 569.12625pt x 300.12125pt>
+2581, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_NoClad.pdf
  Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_NoClad.pdf>
@@ -2747,11 +2747,8 @@ Overfull \hbox (14.27345pt too wide) in paragraph at lines 44--45
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 <Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_SingleClad.pdf,
- id=2578, 569.12625pt x 300.12125pt>
+ id=2582, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_SingleClad
 .pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_SingleClad.
@@ -2760,7 +2757,7 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/10_Different
 _samples_SingleClad.pdf  used on input line 58.
 (pdftex.def)             Requested size: 384.11221pt x 202.56393pt.
 <Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_MultiClad.pdf, 
-id=2579, 569.12625pt x 300.12125pt>
+id=2583, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_MultiClad.
 pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_MultiClad.p
@@ -2769,12 +2766,12 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/10_Different
 _samples_MultiClad.pdf  used on input line 64.
 (pdftex.def)             Requested size: 384.11221pt x 202.56393pt.
 
-Underfull \vbox (badness 4967) has occurred while \output is active []
-
- [108]
 Overfull \hbox (33.28766pt too wide) in paragraph at lines 74--85
  [][] 
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2795,18 +2792,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 df, page is rotated 90 degrees>] [110 <./Figures/4ResearchAndDevelopments/41Fib
 ers/10_Different_samples_SingleClad.pdf, page is rotated 90 degrees> <./Figures
 /4ResearchAndDevelopments/41Fibers/10_Different_samples_MultiClad.pdf, page is 
-rotated 90 degrees>] [111]
+rotated 90 degrees>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111]
+[112 <./Figures/4ResearchAndDevelopments/41Fibers/10_Different_Samples_Average_
+3_Fiber_Types.pdf, page is rotated 90 degrees>]
 Overfull \hbox (11.75824pt too wide) in paragraph at lines 144--155
  [][] 
  []
 
-
-Underfull \vbox (badness 1515) has occurred while \output is active []
-
- [112 <./Figures/4ResearchAndDevelopments/41Fibers/10_Different_Samples_Average
-_3_Fiber_Types.pdf, page is rotated 90 degrees>])
-(./Sections/4ResearchAndDevelopment/43CharacterizationSiPMs.tex
-Underfull \vbox (badness 5939) has occurred while \output is active []
+) (./Sections/4ResearchAndDevelopment/43CharacterizationSiPMs.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [113]
 <Figures/4ResearchAndDevelopments/42SiPM/IVCurveSiPMForward.pdf, id=2799, 569.1
@@ -2826,13 +2823,16 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/42SiPM/IVCurveSiPMRev
 erse.pdf  used on input line 15.
 (pdftex.def)             Requested size: 345.69864pt x 182.30891pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1810) has occurred while \output is active []
 
  [114]
 [115 <./Figures/4ResearchAndDevelopments/42SiPM/IVCurveSiPMForward.pdf, page is
  rotated 90 degrees> <./Figures/4ResearchAndDevelopments/42SiPM/IVCurveSiPMReve
 rse.pdf, page is rotated 90 degrees>]
-<Figures/4ResearchAndDevelopments/42SiPM/SiPMPulses_SPS_Spectrum.png, id=2904, 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116]
+<Figures/4ResearchAndDevelopments/42SiPM/SiPMPulses_SPS_Spectrum.png, id=2910, 
 1128.215pt x 508.90125pt>
 File: Figures/4ResearchAndDevelopments/42SiPM/SiPMPulses_SPS_Spectrum.png Graph
 ic file (type png)
@@ -2841,10 +2841,8 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/42SiPM/SiPMPulses_SPS
 _Spectrum.png  used on input line 41.
 (pdftex.def)             Requested size: 338.46712pt x 152.67155pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [116]
-<Figures/4ResearchAndDevelopments/42SiPM/GaussianFitSPSSpectrum.pdf, id=2914, 5
+[117 <./Figures/4ResearchAndDevelopments/42SiPM/SiPMPulses_SPS_Spectrum.png>]
+<Figures/4ResearchAndDevelopments/42SiPM/GaussianFitSPSSpectrum.pdf, id=2921, 5
 69.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/42SiPM/GaussianFitSPSSpectrum.pdf Graphi
 c file (type pdf)
@@ -2852,7 +2850,7 @@ c file (type pdf)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/42SiPM/GaussianFitSPS
 Spectrum.pdf  used on input line 58.
 (pdftex.def)             Requested size: 180.5332pt x 95.20271pt.
-<Figures/4ResearchAndDevelopments/42SiPM/LinearFit_Gain_NPixels.pdf, id=2915, 5
+<Figures/4ResearchAndDevelopments/42SiPM/LinearFit_Gain_NPixels.pdf, id=2922, 5
 69.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/42SiPM/LinearFit_Gain_NPixels.pdf Graphi
 c file (type pdf)
@@ -2863,8 +2861,10 @@ _NPixels.pdf  used on input line 64.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117 <./Figures/4ResearchAndDevelopments/42SiPM/SiPMPulses_SPS_Spectrum.png>]
-<Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Temperature.pdf, id=2926, 
+ [118 <./Figures/4ResearchAndDevelopments/42SiPM/GaussianFitSPSSpectrum.pdf, pa
+ge is rotated 90 degrees> <./Figures/4ResearchAndDevelopments/42SiPM/LinearFit_
+Gain_NPixels.pdf, page is rotated 90 degrees>]
+<Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Temperature.pdf, id=3017, 
 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Temperature.pdf Graph
 ic file (type pdf)
@@ -2872,7 +2872,7 @@ ic file (type pdf)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Te
 mperature.pdf  used on input line 83.
 (pdftex.def)             Requested size: 180.5332pt x 95.20271pt.
-<Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Bias_Voltage.pdf, id=2927,
+<Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Bias_Voltage.pdf, id=3018,
  569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Bias_Voltage.pdf Grap
 hic file (type pdf)
@@ -2883,12 +2883,9 @@ as_Voltage.pdf  used on input line 89.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [118 <./Figures/4ResearchAndDevelopments/42SiPM/GaussianFitSPSSpectrum.pdf, pa
-ge is rotated 90 degrees> <./Figures/4ResearchAndDevelopments/42SiPM/LinearFit_
-Gain_NPixels.pdf, page is rotated 90 degrees>] [119 <./Figures/4ResearchAndDeve
-lopments/42SiPM/SiPMGain_vs_Temperature.pdf, page is rotated 90 degrees> <./Fig
-ures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Bias_Voltage.pdf, page is rota
-ted 90 degrees>]
+ [119 <./Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Temperature.pdf, p
+age is rotated 90 degrees> <./Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_
+vs_Bias_Voltage.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [120]
@@ -5062,10 +5059,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 430.
  ) 
 Here is how much of TeX's memory you used:
- 21830 strings out of 492982
- 440926 string characters out of 6134895
+ 21831 strings out of 492982
+ 440941 string characters out of 6134895
  508303 words of memory out of 5000000
- 23880 multiletter control sequences out of 15000+600000
+ 23881 multiletter control sequences out of 15000+600000
  556642 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,24n,69p,10424b,811s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5219,7 +5216,7 @@ per/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sftt1200.pfb>
-Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (278 pages, 35199649 bytes)
+Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (278 pages, 35200453 bytes)
 .
 PDF statistics:
  5787 PDF objects out of 6186 (max. 8388607)
