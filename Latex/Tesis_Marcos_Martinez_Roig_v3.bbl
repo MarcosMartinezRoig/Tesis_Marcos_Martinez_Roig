@@ -331,6 +331,9 @@ fiber optical, I. \emph{POF Cutter block}
 Gmbh, R.~L. \emph{LED435-03, 20 mW, 20 mA} (2010)
   \url{http://www.roithner-laser.com/led_diverse.html}.
 
+\bibitem[GRB]{GRBLDocumentation}
+\emph{GRBL package of Arduino} \url{https://github.com/grbl/grbl/wiki}.
+
 \bibitem[Hag07]{CRYpaper}
 Hagmann, C., Lange, D. and Wright, D. \emph{Cosmic-ray shower generator (CRY)
   for Monte Carlo transport codes} \emph{in} \emph{2007 IEEE Nuclear Science
@@ -403,6 +406,10 @@ Institut de radioprotection et de~sûreté nucléaire, I.~R. and Institute),
   \url{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiskum8mYLwAhXLB2MBHWLgAkoQFjAAegQIBBAD&url=https%3A%2F%2Fwww.actu-environnement.com%2Fmedia%2Fpdf%2Fnews-32705-bilan.pdf&usg=AOvVaw0oCSJP78IgV1Tek0T4_6z1}
   (2017.) accessed: 2021-06-08.
 
+\bibitem[IGU]{StructureAxis}
+IGUS, P. f. l.~l. \emph{Carro transversal Drylin-SLW}
+  \url{https://www.igus.es/info/linear-guides-drylin-cross-slide}.
+
 \bibitem[Inc]{CREMATPreAmplifierDataSheet}
 Inc., C. \emph{CR 111-R2.1 Charge sensitive preamplifier}
   \url{https://www.cremat.com/home/charge-sensitive-preamplifiers/}.
@@ -415,10 +422,6 @@ Inc., T. \emph{Guide to connectorization and polishing optical fibers} (2006)
 Instruments, H. \emph{Multiparamétrico con opciones GPS, sonda
   autoregistradora, turbidez e ISE}
   \url{https://www.hannainst.es/parametros/4654-multiparametrico-portatil-con-portasondas-multisensor-ph-orp-ce-od-temperatura.html#/507-cable_m-4_m/512-portasondas-si/513-portasondas_registrador-no/514-gps-no/515-turbidez-no}.
-
-\bibitem[Ins14]{DRV8825Driver}
-Instruments, T. \emph{Driver DRV8825 Stepper Motor Controller IC} (2014)
-  \url{https://www.ti.com/product/DRV8825?utm_source=google&utm_medium=cpc&utm_campaign=asc-null-null-GPN_EN-cpc-pf-google-wwe&utm_content=DRV8825&ds_k=DRV8825+Datasheet&DCM=yes&gclid=EAIaIQobChMIworWtYba7gIVqoFQBh10_QfhEAAYASAAEgLPn_D_BwE&gclsrc=aw.ds}.
 
 \bibitem[Ins15]{OPA656}
 Instruments, T. \emph{OPA656 Wideband, Unity-Gain Stable, FET-Input Operational
