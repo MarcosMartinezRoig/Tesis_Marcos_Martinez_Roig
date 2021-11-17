@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  17 NOV 2021 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  17 NOV 2021 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2557,13 +2557,13 @@ e most widely
 
 [94]
 <Figures/4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.png, id=2
-206, 343.2825pt x 260.47313pt>
+206, 567.62062pt x 449.42906pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.png 
 Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/ElectronicPo
 lishingMachine.png  used on input line 102.
-(pdftex.def)             Requested size: 257.46123pt x 195.35435pt.
+(pdftex.def)             Requested size: 340.57498pt x 269.6595pt.
  [95 <./Figures/4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.pn
 g>]
 
@@ -2571,19 +2571,21 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 115.
 
 <Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.png, id=2
-220, 517.18219pt x 325.96782pt>
+218, 517.18219pt x 325.96782pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.png 
 Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.png>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2P
 MTsCoincidence.png  used on input line 117.
 (pdftex.def)             Requested size: 310.3117pt x 195.58218pt.
+[96 <./Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.png
+>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 123.
 
 <Figures/4ResearchAndDevelopments/41Fibers/PolishingTest_Background.pdf, id=222
-2, 569.12625pt x 300.12125pt>
+6, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/PolishingTest_Background.pdf Gr
 aphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/PolishingTest_Background.pdf>
@@ -2591,11 +2593,10 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/PolishingTes
 t_Background.pdf  used on input line 125.
 (pdftex.def)             Requested size: 369.92767pt x 195.07649pt.
 
-Underfull \vbox (badness 5274) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96 <./Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.pn
-g>] [97 <./Figures/4ResearchAndDevelopments/41Fibers/PolishingTest_Background.p
-df, page is rotated 90 degrees>]
+ [97 <./Figures/4ResearchAndDevelopments/41Fibers/PolishingTest_Background.pdf,
+ page is rotated 90 degrees>]
 <Figures/4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOOM.pdf, id=
 2276, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOOM.pdf
@@ -2615,8 +2616,11 @@ ingMchine_ZOOM.pdf  used on input line 148.
 (pdftex.def)             Requested size: 384.11221pt x 202.56393pt.
 )
 (./Sections/4ResearchAndDevelopment/42CharacterizationFibers/422Surface_conditi
-oning_process/4224CleaningProcess.tex
-<Figures/4ResearchAndDevelopments/41Fibers/WettingProperty.png, id=2280, 760.84
+oning_process/4224CleaningProcess.tex [98] [99 <./Figures/4ResearchAndDevelopme
+nts/41Fibers/Co_60_PolishingMachine_ZOOM.pdf, page is rotated 90 degrees> <./Fi
+gures/4ResearchAndDevelopments/41Fibers/Sr_90_PolishingMchine_ZOOM.pdf, page is
+ rotated 90 degrees>]
+<Figures/4ResearchAndDevelopments/41Fibers/WettingProperty.png, id=2376, 760.84
 25pt x 261.97874pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/WettingProperty.png Graphic fil
 e (type png)
@@ -2624,10 +2628,7 @@ e (type png)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/WettingPrope
 rty.png  used on input line 9.
 (pdftex.def)             Requested size: 380.42032pt x 130.98904pt.
- [98] [99 <./Figures/4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_Z
-OOM.pdf, page is rotated 90 degrees> <./Figures/4ResearchAndDevelopments/41Fibe
-rs/Sr_90_PolishingMchine_ZOOM.pdf, page is rotated 90 degrees>] [100 <./Figures
-/4ResearchAndDevelopments/41Fibers/WettingProperty.png>]
+ [100 <./Figures/4ResearchAndDevelopments/41Fibers/WettingProperty.png>]
 <Figures/4ResearchAndDevelopments/41Fibers/Background_CleaningProcess.pdf, id=2
 391, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Background_CleaningProcess.pdf 
@@ -2654,14 +2655,11 @@ ngProcess.pdf  used on input line 33.
 (pdftex.def)             Requested size: 384.11221pt x 202.56393pt.
 )
 (./Sections/4ResearchAndDevelopment/42CharacterizationFibers/423Characterizatio
-nFibers/4231CharacterizationFibers.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [101 <./Figures/4ResearchAndDevelopments/41Fibers/Background_CleaningProcess.p
-df, page is rotated 90 degrees>] [102 <./Figures/4ResearchAndDevelopments/41Fib
-ers/Cs-137_CleaningProcess.pdf, page is rotated 90 degrees> <./Figures/4Researc
-hAndDevelopments/41Fibers/Sr-90_CleaningProcess.pdf, page is rotated 90 degrees
->]
+nFibers/4231CharacterizationFibers.tex [101 <./Figures/4ResearchAndDevelopments
+/41Fibers/Background_CleaningProcess.pdf, page is rotated 90 degrees>] [102 <./
+Figures/4ResearchAndDevelopments/41Fibers/Cs-137_CleaningProcess.pdf, page is r
+otated 90 degrees> <./Figures/4ResearchAndDevelopments/41Fibers/Sr-90_CleaningP
+rocess.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [103]
@@ -5025,7 +5023,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 430.
 Here is how much of TeX's memory you used:
  21847 strings out of 492982
  441806 string characters out of 6134895
- 507085 words of memory out of 5000000
+ 507086 words of memory out of 5000000
  23890 multiletter control sequences out of 15000+600000
  556642 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5180,7 +5178,7 @@ per/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sftt1200.pfb>
-Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (280 pages, 35269116 bytes)
+Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (280 pages, 35597223 bytes)
 .
 PDF statistics:
  5892 PDF objects out of 6186 (max. 8388607)
