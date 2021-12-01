@@ -8,7 +8,14 @@ The difference between these three types of fibers is that uncladded fibers only
 
 %Therefore, we can see that all fibers have the same external size, which means that the diameter of the polystyrene core is smaller for single clad fibers ($0.97~\mm$) and even smaller for multiclad fibers ($0.96~\mm$). It is an important result since...
 
-This characterization was carried out for single scintillating fibers and consists of a comparative study of the uncertainty in the fiber response that will affect the tritium measurement of the TRITIUM detector. In addition an estimation of the photon collection efficiency of the fibers types mentioned above was done. The magnitude considered for the characterization was the rate of photons reaching the active area of the photosensor with increasing light input at the entrance of the fiber. To measure this magnitude, a calibrated PMT (Hamamatsu R8520-06SEL) with $29.76\%$ quantum efficiency (quantum efficiency average of the wavelength region of interest). The voltage divider circuit which whortcut the PMT dynodes (see section \ref{subsubsec:PMTs}) was used to polarize the PMT  and mesure its photocurrent using a Picoammeter (Keithley 6487 picoammeter/voltage source). The photon rate was obtained from the current measurement using the equation \ref{eq:NumPhotonsFromIntensityPMT} with $QE=0.2976$ and $CE=1$. A simplified scheme of the setup is shown in Figure \ref{fig:SetUpFiberCharacterization}.
+This characterization was carried out for single scintillating fibers and consists of a comparative study of the uncertainty in the fiber response that will affect the tritium measurement of the TRITIUM detector. In addition an estimation of the photon collection efficiency of the fibers types mentioned above was done. The magnitude considered for the characterization was the rate of photons reaching the active area of the photosensor with increasing light input at the entrance of the fiber. To measure this magnitude, a calibrated PMT (Hamamatsu R8520-06SEL) with $29.76\%$ quantum efficiency (quantum efficiency average of the wavelength region of interest). The voltage divider circuit which whortcut the PMT dynodes (see section \ref{subsubsec:PMTs}) was used to polarize the PMT  and mesure its photocurrent using a Picoammeter (Keithley 6487 picoammeter/voltage source). The photon rate reaching the photocathode is calculated from,
+\begin{equation}
+Nº\gamma/\sec = \frac{\left( I_{PMT} - I_{DC} \right)}{q_e \cdot{} QE \cdot{} CE}
+\label{eq:NumPhotonsFromIntensityPMT}
+\end{equation}
+where $I_{PMT}$ is the output current of the PMT when it detects photons and $I_{DC}$ is the dark current. This equation takes into account the quantum efficiency of the PMT, $QE$, which is $0.2976$ por the PMT used, and the capture efficiency in the dynodes $CE$, equal to 1 since the signal is read directly from the photocathode. In addition, it is assumed that each detected photon only generates one electron, the charge of which is $q_e$. 
+
+A simplified scheme of the setup is shown in Figure \ref{fig:SetUpFiberCharacterization}.
 
 \begin{figure}[h]
 \centering

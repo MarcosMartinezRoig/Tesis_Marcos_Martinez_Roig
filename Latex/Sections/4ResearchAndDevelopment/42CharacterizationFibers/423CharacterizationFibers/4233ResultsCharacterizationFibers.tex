@@ -13,7 +13,7 @@ The uncertainty due to the fiber position has to be quantified to extract $\sigm
 The test designed to measure $\sigma_{sys-pos}$ consisted in preparing one fiber of each type (uncladded, single clad and multiclad), all with $1~\mm$ diameter and $20~\cm$ length, using the conditioning process reported in section \ref{subsec:SurfaceConditioningProcess}. Each fiber was locked in the setup, and measurements of the PMT photocurrent with a fixed LED intensity, polarized at $1~\milli\ampere$ were made. These measurements were repeated ten times with a given fiber, removing and putting on the fiber each time. The mean, $\bar{x}$, and the standard deviation of the PMT photocurrent for each fiber type are shown in Table \ref{tab:PositionStandardDeviation} where the relative standard deviation, $\sigma^{rel}_{sys-pos}$, defined by equation \ref{eq:RelativeStandardDesviation}, is also included.
 
 \begin{equation}
-\sigma^{rel}_{sys} = \frac{\sigma_{sys-pos}}{\bar{x}}
+\sigma^{rel}_{sys-pos} = \frac{\sigma_{sys-pos}}{\bar{x}}
 \label{eq:RelativeStandardDesviation}
 \end{equation}
 
@@ -21,7 +21,7 @@ The test designed to measure $\sigma_{sys-pos}$ consisted in preparing one fiber
 \centering{}%
 \begin{tabular}{lccc}
 \toprule 
-Fiber type & Mean ($\text{ph}$/ns) & $\sigma_{sys}$ ($\text{ph}$/ns) & $\sigma^{rel}_{sys}$ (\%) \tabularnewline
+Fiber type & Mean ($\text{ph}$/ns) & $\sigma_{sys-pos}$ ($\text{ph}$/ns) & $\sigma^{rel}_{sys-pos}$ (\%) \tabularnewline
 \midrule
 \midrule 
 Uncladded & $524.09 \pm 0.01$ & $17.65$ & $3.37$ \tabularnewline
@@ -33,7 +33,9 @@ Multiclad & $949.93 \pm 0.03$ & $9.91$ & $1.04$ \tabularnewline
 \label{tab:PositionStandardDeviation}
 \end{table}
 %As it can be noticed, the clad reduces the position uncertainty, which means that it improves the uniformity of the fiber response. It was also found that 
-As it can be noticed, the clad significantly improves the light collection efficiency of the fibers, showing larger signals for single clad fibers and multiclad fibers than for uncladded fibers. The reason could be that the interface between the core of the fiber and its clad is better controlled for single-clad and multi-clad fibers than for uncladded fibers, where the interface is provided by the environment (air or water in the case of TRITIUM). External conditions, as dirt, may produce noticeable interface fluctuations. It is also seen in the table that a second clad slightly reduces the collection efficiency. The reason could be that a second clad layer reduces the radius of the fiber core proportionally, keeping the external diameter at $1~\mm$. Concerning the statistical error of the measurement, it is three orders of magnitude smaller than the systematic uncertainties previously mentioned ($\sigma_{sys-pos}$ and $\sigma_{sys-SF}$) so it was negligible.
+As it can be noticed, the clad significantly improves the light collection efficiency of the fibers, showing larger signals for single clad fibers and multiclad fibers than for uncladded fibers. The reason could be that the interface between the core of the fiber and its clad is better controlled for single-clad and multi-clad fibers than for uncladded fibers, where the interface is provided by the environment (air or water in the case of TRITIUM). External conditions, as dirt, may produce noticeable interface fluctuations. Concerning the statistical error of the measurement, it is three orders of magnitude smaller than the systematic uncertainties previously mentioned ($\sigma_{sys-pos}$ and $\sigma_{sys-SF}$) so it was negligible.
+
+%It is also seen in the table that a second clad slightly reduces the collection efficiency. The reason could be that a second clad layer reduces the radius of the fiber core proportionally, keeping the external diameter at $1~\mm$.
 
 %In addition to the $\sigma_{pos}$ measurement, we have measured the number of photons collected by each type of fiber in the same situation, which is higher for single clad and even higher for multiclad. It means that the clad has an appreciable effect on the fiber collection efficiency and it could be a possible point to futur studies.
 
@@ -101,7 +103,7 @@ $0.2$ & $4.36$ & $8.10$ & $3.93$ \tabularnewline
 Mean & $4.42$ & $8.21$ & $3.96$ \tabularnewline
 \bottomrule
 \end{tabular}
-\caption{Relative standard deviation, $\sigma^{rel}_t(\%)$, versus LED intensity for the different fiber types.}
+\caption{Relative standard deviation, $\sigma^{rel}_{sys}(\%)$, versus LED intensity for the different fiber types.}
 \label{tab:RelativeStandardDeviation3FiberTypes}
 \end{table}
 
@@ -111,7 +113,7 @@ Mean & $4.42$ & $8.21$ & $3.96$ \tabularnewline
 \caption{Average number of photons per ns versus LED current for 10 samples of each fiber type (uncladded, single clad and multi-clad fibers). Error bars are included but they are too small to be visible.\label{fig:AveregeThreeFiberTypes}}
 \end{figure}
 
-As it can be noticed in Figures \ref{fig:10samplesNC} and \ref{fig:10samplesThreeTypes}, the fiber response is quite linear and single clad and multiclad fibers have stronger signals than uncladded fibers, which indicates, as already observed in Table \ref{tab:PositionStandardDeviation}, that the clad has a significant effect on the fiber collection efficiency. It can also be observed in Table \ref{tab:RelativeStandardDeviation3FiberTypes} that the relative standard deviation, $\sigma^{rel}_{sys}$, does not vary with the LED intensity. The highest uncertainty was found for the single-clad fibers, despite of their higher light collection. This is most probably due to the cleaving process during which cracks in the clad my appears as it cas be observed in Figure \ref{fig:CleavingFiberEnd}. As can be observed in Table \ref{tab:RelativeStandardDeviation3FiberTypes}, this damage seems to be reduced when a second clad is used, which enhances the mechanical resistance of the fiber.
+As it can be noticed in Figures \ref{fig:10samplesNC} and \ref{fig:10samplesThreeTypes}, the fiber response is quite linear and single clad and multiclad fibers have stronger signals than uncladded fibers (a factor two in the case of single clad), which indicates, as already observed in Table \ref{tab:PositionStandardDeviation}, that the clad has a significant effect on the fiber collection efficiency. It can also be observed in Table \ref{tab:RelativeStandardDeviation3FiberTypes} that the relative standard deviation, $\sigma^{rel}_{sys}$, does not vary with the LED intensity. The highest uncertainty was found for the single-clad fibers, despite of their higher light collection. This is most probably due to the cleaving process during which cracks in the clad my appears as it cas be observed in Figure \ref{fig:CleavingFiberEnd}. As can be observed in Table \ref{tab:RelativeStandardDeviation3FiberTypes}, this damage seems to be reduced when a second clad is used, which enhances the mechanical resistance of the fiber.
 
 %The relative standard deviation are also presented in these tables, where we it can be seen that the dispersion of each fiber type for different LED intensities is practically negligible, which again verifies the correct behavior of the system. 
 
@@ -123,7 +125,7 @@ An average of the three relative standard deviation quoted in this section, $\si
 \centering{}%
 \begin{tabular}{lccc}
 \toprule 
-Fiber type & $\sigma_{sys}$ (\%) & $\sigma_{sys-pos}$ (\%) & $\sigma_{sys-SF}$ (\%) \tabularnewline
+Fiber type & $\sigma^{rel}_{sys}$ (\%) & $\sigma^{rel}_{sys-pos}$ (\%) & $\sigma^{rel}_{sys-SF}$ (\%) \tabularnewline
 \midrule
 \midrule 
 Uncladded & $4.42$ & $3.37$ & $2.86$ \tabularnewline
@@ -131,7 +133,7 @@ Single Clad & $8.21$ & $2.17$ & $7.92$ \tabularnewline
 Multiclad & $3.96$ & $1.04$ & $3.82$ \tabularnewline
 \bottomrule
 \end{tabular}
-\caption{Relative standard deviations ($\sigma_{sys}$, $\sigma_{sys-pos}$ and $\sigma_{sys-SF}$) measured in this test.}
+\caption{Relative standard deviations ($\sigma^{rel}_{sys}$, $\sigma^{rel}_{sys-pos}$ and $\sigma^{rel}_{sys-SF}$) measured in this test.}
 \label{tab:RelativeStandardDeviations}
 \end{table}
 
@@ -155,7 +157,7 @@ $0.2$ & $1645 \pm 324$ & $2507 \pm 208$ & $2338 \pm 350$ \tabularnewline
 \caption{Number of the collected photons versus LED intensity for 10 different fibers of $10~\cm$ length.}
 \label{tab:10DifferentSamplesAlltypes}
 \end{table}
-The collection efficiency of $10~\cm$ fiber length, $CE_{10}$, was calculated by comparing these photons collected to those measured for a fiber length of $20~\cm$. It is quite similar to the expected value considering an exponential attenuation of the signal in length as follow \cite{}.
+The collection efficiency of $10~\cm$ fiber length, $CE_{10}$, was calculated by comparing these photons collected to those measured for a fiber length of $20~\cm$. It is quite similar to the expected value considering an exponential attenuation of the signal in length as follow \cite{Leo}.
 %The collection efficiency  to $CE_{100}$ was calculated from $CE_{10}$ by assuming an exponential attenuation of the signal in length as follow \cite{}.
 
 \begin{equation}
