@@ -175,6 +175,10 @@ You're missing a field part---line 1722 of file sample.bib
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring CAENV1724's extra "note" field
 --line 1813 of file sample.bib
+Repeated entry---line 1830 of file sample.bib
+ :  %@article{CurieLimit
+ :                      ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "CrossSeccionNeutrons"
 Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
 while executing---line 1426 of file Ejemplo.bst
@@ -266,6 +270,9 @@ You can't pop an empty literal stack for entry ICRP_factor
 while executing---line 1479 of file Ejemplo.bst
 You can't pop an empty literal stack for entry Knoll
 while executing---line 1479 of file Ejemplo.bst
+Warning--can't use both author and editor fields in CurieLimit
+You can't pop an empty literal stack for entry CurieLimit
+while executing---line 1479 of file Ejemplo.bst
 You can't pop an empty literal stack for entry Leo
 while executing---line 1479 of file Ejemplo.bst
 Warning--empty year in EstimationTritiumDosi
@@ -279,45 +286,45 @@ Warning--empty publisher in NaturalRadioactiveSeries1
 Warning--empty note in BlackBlancket
 Too many commas in name 1 of "Z. Chen, S. Peng, D. Meng, Y. He and H. Wang" for entry IonizationChamber2
 while executing---line 1479 of file Ejemplo.bst
-You've used 159 entries,
+You've used 157 entries,
             2997 wiz_defined-function locations,
-            1527 strings with 36518 characters,
-and the built_in function-call counts, 65455 in all, are:
-= -- 4539
-> -- 2771
-< -- 163
-+ -- 1007
-- -- 981
-* -- 5214
-:= -- 8921
-add.period$ -- 159
-call.type$ -- 159
-change.case$ -- 1069
-chr.to.int$ -- 142
-cite$ -- 182
-duplicate$ -- 5321
-empty$ -- 5026
-format.name$ -- 1313
-if$ -- 12519
+            1514 strings with 36110 characters,
+and the built_in function-call counts, 64388 in all, are:
+= -- 4450
+> -- 2747
+< -- 160
++ -- 999
+- -- 973
+* -- 5138
+:= -- 8795
+add.period$ -- 157
+call.type$ -- 157
+change.case$ -- 1059
+chr.to.int$ -- 140
+cite$ -- 181
+duplicate$ -- 5231
+empty$ -- 4935
+format.name$ -- 1300
+if$ -- 12293
 int.to.chr$ -- 18
 int.to.str$ -- 0
-missing$ -- 1217
-newline$ -- 480
-num.names$ -- 317
-pop$ -- 2301
+missing$ -- 1199
+newline$ -- 474
+num.names$ -- 313
+pop$ -- 2266
 preamble$ -- 1
-purify$ -- 1285
+purify$ -- 1271
 quote$ -- 0
-skip$ -- 1891
+skip$ -- 1851
 stack$ -- 0
-substring$ -- 2166
-swap$ -- 2953
-text.length$ -- 163
-text.prefix$ -- 122
+substring$ -- 2091
+swap$ -- 2900
+text.length$ -- 160
+text.prefix$ -- 120
 top$ -- 0
-type$ -- 1240
-warning$ -- 21
-while$ -- 363
-width$ -- 164
-write$ -- 1267
-(There were 63 error messages)
+type$ -- 1220
+warning$ -- 22
+while$ -- 355
+width$ -- 162
+write$ -- 1250
+(There were 65 error messages)

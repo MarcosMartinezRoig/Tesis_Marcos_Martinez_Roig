@@ -255,11 +255,6 @@ CSN \emph{Red de Estaciones de Muestreo, REM}
   \url{https://www.csn.es/kprgisweb2/index.html?lang=es} (2021) accessed:
   2021-06-07.
 
-\bibitem[Cur68]{CurieLimit}
-Currie, L.~A. \emph{Limits for qualitative detection and quantitative
-  determination. Application to radiochemistry.} Anal. Chem. \textbf{40} (1968)
-  874--877.
-
 \bibitem[dE19]{PercentageEnergySpain}
 de~España, R.~E. \emph{El Sistema Electrico Español} (2019) accessed:
   2021-06-07.
@@ -333,11 +328,6 @@ Gmbh, R.~L. \emph{LED435-03, 20 mW, 20 mA} (2010)
 
 \bibitem[GRB]{GRBLDocumentation}
 \emph{GRBL package of Arduino} \url{https://github.com/grbl/grbl/wiki}.
-
-\bibitem[Hag07]{CRYpaper}
-Hagmann, C., Lange, D. and Wright, D. \emph{Cosmic-ray shower generator (CRY)
-  for Monte Carlo transport codes} \emph{in} \emph{2007 IEEE Nuclear Science
-  Symposium Conference Record}, vol.~2 (2007) 1143--1146.
 
 \bibitem[Hai14]{OxigenTritium}
 Haight, R., Wermer, J. and Fikani, M. \emph{Tritium Production by Fast Neutrons
@@ -486,6 +476,10 @@ K.K., H.~P. \emph{Photonmultiplier tube R8520-406/R8520-506.} (2019)
 Knoll, G.~F. \emph{Radiation Detection and Measurement},  (John Wiley and Sons,
   Inc.1999) 3 ed.
 
+\bibitem[Kno10]{CurieLimit}
+Knoll, G.~F. \emph{Radiation Detection and Measurement, 4th Edition},  (Don
+  Fowley2010).
+
 \bibitem[Law06]{TemperatureBlade}
 Law, S., Harvey, J., Kruhlak, R., Song, M., Wu, E., Barton, G., {van
   Eijkelenborg}, M. and Large, M. \emph{Cleaving of microstructured polymer
@@ -562,10 +556,6 @@ M.~Ratnakaran, R. K.~S., R. M.~Revetkar and Abani, M.~C. (Eds.) \emph{A
 Muramatsu, M., Koyano, A. and Tokunaga, N. \emph{A scintillation probe for
   continuous monitoring of tritiated water} Nuclear Instruments and Methods
   \textbf{54} (1967)(2) 325--326.
-
-\bibitem[(NA]{CRYwebsite}
-(NADS), P. N.~D. \emph{Physics simulation packages, CRY (cosmic-ray particle
-  showers)} \url{https://nuclear.llnl.gov/simulation/}.
 
 \bibitem[Nan]{StepperMotors}
 Nanotec \emph{ST4209S1404-A - STEPPER MOTOR NEMA 17}
