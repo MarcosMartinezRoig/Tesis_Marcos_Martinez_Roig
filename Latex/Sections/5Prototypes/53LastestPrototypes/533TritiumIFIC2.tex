@@ -125,11 +125,28 @@ A monitoring of both prototypes, signal and background, were carried out during 
 \caption{Signal and background rates for a long time measurement.\label{fig:MonitorizationTRITIUMIFIC2}}
 \end{figure}
 
+Finally, the Minimum Detectable Activity (MDA) was calculated. To do so, fourteen different measurements of the background were done using two different integration times, $10~\min$ and $60~\min$. The mean value and standard deviation of these measurements are shown in the Table \ref{tab:CurrieLawTRITIUMIFIC2}. The minimum net counts with a probability of a  false-negative less than a $5\%$ , $N_D$, and with a probability of a false-positive less than a $5\%$, $L_C$, were calculated by applaying the Currie's law \cite{CurieLimit} and they are included in the Table \ref{tab:CurrieLawTRITIUMIFIC2}.
+
+\begin{table}[htbp]
+\centering{}%
+\begin{tabular}{ccccc}
+\toprule 
+Int. time (min.) & Mean V. & Std. Dev. & $L_C$ & $N_D$ \tabularnewline
+\midrule
+\midrule 
+$10$ & $5635$ & $82$ & $191$ & $384$ \tabularnewline
+$60$ & $33969$ & $158$ & $368$ & $737$ \tabularnewline
+\bottomrule
+\end{tabular}
+\caption{Mean value and standard deviation of the counts of fourteen background measurements. Minimum net count obtained by applying the Currie's Law, $L_C$ and $N_D$.}
+\label{tab:CurrieLawTRITIUMIFIC2}
+\end{table}
+
+Therefore, $N_D'$, which is the counts referred to the detector signal (before background subtraction), are $6019$ and $34706$ counts for an integration time of $10~\min$ and $60~\min$ respectively. Then, the MDA of tritium can be obtained from the $N_D'$ values by associating the mean value of the background counts to a zero tritium activity and the mean value of the signal counts to a tritium activity of $10~\becquerel/\liter$. This results in a MDA of $677~\becquerel/\liter$ and $218~\becquerel/\liter$ for the integration time of $10$ and $60$ respectively. It has to take into account that, although this MDA is not enough to achieve the TRITIUM project goal, $100~\becquerel/\liter$, it is reached using only one TRITIUM-IFIC 2 module. The TRITIUM detector will contain several modules and it is expected that the MDA was readuced with a factor of $\sqrt{\text{Num. of prototypes}}$.
 
 %ESTUDIAR EL LDL DEL DETECTOR CON LAS MEDIDAS TOMADAS!!!
 
 %INCLUIR QUE NO SE HA CONSEGUIDO MEDIR 1kBq/L!!!
-
 
 %Rellenar con uan actividad grande y volver a medir. 
 
@@ -139,4 +156,3 @@ A monitoring of both prototypes, signal and background, were carried out during 
 
 %Medir en el prototipo con SIPM.
 
-%Menos fondo que con el prototipo de AVEIRO en laboratorio Aveiro pero más que en laboratorio extremadura!!!!!!!!!!!!!!!!!!!!

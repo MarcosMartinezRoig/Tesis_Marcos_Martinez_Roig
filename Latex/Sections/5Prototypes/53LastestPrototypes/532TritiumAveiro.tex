@@ -66,17 +66,14 @@ A measurement with a passive shield was performed in the DRIM laboratory to quan
 
 %It has to be taken into account that the case C is the real situation that is present in Arrocampo since, as it has been shown in section \ref{subsec:SetUpActiveShield}, the thickness of the lead shielding ise $5~\mm$.
 
-To work with a tritiated water, the prototype was installed in the LARUEX laboratory, at the University of Extremadura. The background of the prototype was measured during 4 days with the prototype filled with pure water and covered with lead bricks of $5~\cm$ thickness. The time of each measurement is $1$ minut. The data, fitted to a Gaussian function, are shown in Figure \ref{subfig:MeasurementInRealTime}. An average rate of $540$ counts/min with a standard deviation of $22.61$ counts/min was obtained. To calculate the Minimum Detectable Activity (MDA), the detection limit concepts developed by Lloyd A. Currie \cite{CurieLimit} were applied.  The minimum net counts with a probability of a false-negative less than a $5\%$, $N_D$, and minimum net current with the probability of a false-positive less than a $5\%$, $L_C$, is given by,
-
+To work with a tritiated water, the prototype was installed in the LARUEX laboratory, at the University of Extremadura. The background of the prototype was measured during 4 days with the prototype filled with pure water and covered with lead bricks of $5~\cm$ thickness. The time of each measurement is $1$ minut. The data, fitted to a Gaussian function, are shown in Figure \ref{subfig:MeasurementInRealTime}. An average rate of $540$ counts/min with a standard deviation of $22.61$ counts/min was obtained. To calculate the Minimum Detectable Activity (MDA), the detection limit concepts developed by Lloyd A. Currie \cite{CurieLimit} were applied.  The minimum net counts with a probability of a false-negative less than a $5\%$, $N_D$, is given by,
 \begin{equation}
-L_C = 2\kappa\sigma_{Nb} =53 ~\text{counts/min}
-\label{eq:EquationCriticalLimit}
-\end{equation}
-\begin{equation}
-N_D = \kappa^2 + 2L_C = 108~\text{counts/min}
+N_D = 4.65 \cdot{}\sigma_{Nb} + 2.71 = 108~\text{counts/min}
 \label{eq:EquationNetCounts}
 \end{equation}
-where $\sigma_{Nb}$ is the standard deviation of the average rate of the background measurements. $L_C$ and $N_D$ refer to the net rate after background subtraction. Therefore, $L_C'$ and $N_D'$, refered to the detector signal (before background subtraction), are $593$ and $648$ counts/min respectively.
+which corresponds to a critical level of $Lc = 2.33\cdot{}\sigma_{Nb}=53 ~\text{counts/min}$ (minimum net currents with a probability of a false-positive less than $5\%$).
+
+$L_C$ and $N_D$ refer to the net rate after background subtraction. Therefore, $L_C'$ and $N_D'$, referred to the detector signal (before background subtraction), are $593$ and $648$ counts/min respectively.
 
 \begin{figure}
 \centering
@@ -101,7 +98,7 @@ The tritium detection efficiency was calculated from the ratio of the net tritiu
 $$S=(1.59 \pm 0.48)\cdot{} 10^{-5}~\liter\second^{-1}\kilo\becquerel^{-1}\cm^{-2}$$ 
 Comparing to the specific efficiency obtained with scintillating detectors, Table \ref{tab:PlasticScinTritium}, the specific efficiency of the TRITIUM-Aveiro prototype is close the largest value, obtained by Hofstetter \cite{Hofstetter1, Hofstetter2}. However this prototype has a lower specific efficiency than TRITIUM-IFIC 1. A possible reason is that the fibers in this prototype are not polished neither cleaned. Therefore, the importance of the fiber polishing and cleaning process is again proved.
 
-The efficiency uncertainties obtained for this prototype are larger than those obtained in the previous TRITIUM prototypes due to a shorter measurement time, $1$ minute, while the time used for the previous prototypes is $10$ minutes. Because of that, longer measurements are studied to quantify the reduction of the MDA of this prototype. The data for an integrated time of $60$ minutes is shown in Figure \ref{fig:Tritium60min}. The mean value and the uncertainty of the measured background data are $3.186 \cdot{} 10^{4}$ and $228$ counts per hour respectively. Values of $L_C=530$ and $N_D=1043$ counts per hour are obtained, respectively, from equations \ref{eq:EquationCriticalLimit} and \ref{eq:EquationNetCounts}. Assuming linearity between the measured counts for the background and the tritiated water, the $N_D'$ obtained for this case, $3.872\cdot{}10^4$ counts per hour,  correspons of a MDA of $4.53~\kilo\becquerel/\liter$. A daily oscilation is clearly observed in the Figure \ref{fig:Tritium60min}, indicating that the measurements are affected by external light. This oscilation begins on the $19^{th}$ day, when the water closed circuit pump was installed, so it is likely that a light leak was introduced in the system.
+The efficiency uncertainties obtained for this prototype are larger than those obtained in the previous TRITIUM prototypes due to a shorter measurement time, $1$ minute, while the time used for the previous prototypes is $10$ minutes. Because of that, longer measurements are studied to quantify the reduction of the MDA of this prototype. The data for an integrated time of $60$ minutes is shown in Figure \ref{fig:Tritium60min}. The mean value and the uncertainty of the measured background data are $3.186 \cdot{} 10^{4}$ and $228$ counts per hour respectively. Values of $L_C=530$ and $N_D=1043$ counts per hour are obtained from the equation \ref{eq:EquationNetCounts}. Assuming linearity between the measured counts for the background and the tritiated water, the $N_D'$ obtained for this case, $3.872\cdot{}10^4$ counts per hour,  correspons of a MDA of $4.53~\kilo\becquerel/\liter$. A daily oscilation is clearly observed in the Figure \ref{fig:Tritium60min}, indicating that the measurements are affected by external light. This oscilation begins on the $19^{th}$ day, when the water closed circuit pump was installed, so it is likely that a light leak was introduced in the system.
 
 \begin{figure}[h]
 \centering
