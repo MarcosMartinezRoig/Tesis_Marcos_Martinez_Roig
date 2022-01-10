@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  10 JAN 2022 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  10 JAN 2022 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2860,9 +2860,7 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/42SiPM/LinearFit_Gain
 _NPixels.pdf  used on input line 66.
 (pdftex.def)             Requested size: 345.69864pt x 182.30891pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [119 <./Figures/4ResearchAndDevelopments/42SiPM/SiPMPulses_SPS_Spectrum.png>] 
+[119 <./Figures/4ResearchAndDevelopments/42SiPM/SiPMPulses_SPS_Spectrum.png>]
 [120 <./Figures/4ResearchAndDevelopments/42SiPM/GaussianFitSPSSpectrum.pdf, pag
 e is rotated 90 degrees> <./Figures/4ResearchAndDevelopments/42SiPM/LinearFit_G
 ain_NPixels.pdf, page is rotated 90 degrees>]
@@ -2923,9 +2921,6 @@ Overfull \hbox (10.11118pt too wide) in paragraph at lines 38--39
 [126])
 (./Sections/4ResearchAndDevelopment/45CharacterizationBackgroundShields/453Char
 acterizationActiveShield.tex
-Underfull \vbox (badness 5331) has occurred while \output is active []
-
-
 Overfull \hbox (22.41887pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/12 4.3.  CHARACTERIZATION OF THE WATER PURIFICATION SYSTEM \T1/cmr
 /m/n/12 127
@@ -4998,7 +4993,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 429.
 Here is how much of TeX's memory you used:
  21847 strings out of 492982
  441847 string characters out of 6134895
- 509656 words of memory out of 5000000
+ 509641 words of memory out of 5000000
  23888 multiletter control sequences out of 15000+600000
  556642 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5153,7 +5148,7 @@ per/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sftt1200.pfb>
-Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (284 pages, 35601057 bytes)
+Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (284 pages, 35601112 bytes)
 .
 PDF statistics:
  5916 PDF objects out of 6186 (max. 8388607)
