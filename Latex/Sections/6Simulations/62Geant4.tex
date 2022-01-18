@@ -4,7 +4,7 @@ Geant4 simulates particle-by-particle physics. This means that the tritium event
 
 The physics list used for these simulations is Livermore,\newline G4EmLivermorePhysics, which is specially designed to work with low energy particles. This list includes the most important electromagnetic process at low energies such as bremsstrahlung, Coulomb scattering, atomic de-excitation (fluorescence) and other related effects. 
 
-The materials included in these simulations were water (to simulate the tritiated water source), PMMA (to simulate the optical windows of the prototype), polystyrene (to simulate the core of scintillating fibers), Teflon (to simulate the prototype vessel), silicone (to simulate the optical grease), silicate glass (to simulate the optical windows of the PMTs) and bialkali (to simulate the photocatode material of the PMT). The properties of water, Teflon and polystyrene were taken from the Geant4 NIST database and the other materials were built by specifying their atomic composition. The following optical properties were added to these materials:
+The materials included in these simulations were water (to simulate the tritiated water source), PMMA (to simulate the optical windows of the prototype), polystyrene (to simulate the core of scintillating fibers), PTFE (to simulate the prototype vessel), silicone (to simulate the optical grease), silicate glass (to simulate the optical windows of the PMTs) and bialkali (to simulate the photocatode material of the PMT). The properties of water, PTFE and polystyrene were taken from the Geant4 NIST database and the other materials were built by specifying their atomic composition. The following optical properties were added to these materials:
 
 \begin{enumerate}
 %
@@ -14,7 +14,7 @@ The materials included in these simulations were water (to simulate the tritiate
 
 \item{} The quantum efficiency spectrum was added to the photocatode material of the PMTs, taken from their data sheet \cite{DataSheetPMTs}. A refraction index of 1.46 was used for optical grease, also obtained from its data sheet \cite{OpticalGrease}.
 
-\item{} Finally, the optical data for the remaning materials, PMMA windows, Teflon and silicate glass, were taken from ref. \cite{NEMODataSimulation}.
+\item{} Finally, the optical data for the remaning materials, PMMA windows, PTFE and silicate glass, were taken from ref. \cite{NEMODataSimulation}.
 
 \end{enumerate} 
 
