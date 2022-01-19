@@ -1,24 +1,23 @@
-The Tritium-IFIC-2 prototype simulation was carried out in TRITIUM experiment. It consists of $800$ fibers of $1~\mm$ diameter uniformly distributed in sixteen different circles of increasing radius, as illustrated in Figure \ref{fig:FibersTritiumIFIC2Simulation}. The optical properties were included.
+For the simulation of the Tritium-IFIC-2 prototype, $800$ fibers of $1~\mm$ diameter were arranged and uniformly distributed in sixteen different circles of increasing radius, as illustrated in Figure \ref{fig:FibersTritiumIFIC2Simulation}. The optical properties were included.
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.4]{6Simulations/64Tritium_IFIC_2/FiberDistribution_Tritium_IFIC_2_simulation.png}
-\caption{Distribution of the scintillating fibers in the simualtion of Tritium-IFIC-2 prototype.\label{fig:FibersTritiumIFIC2Simulation}}
+\caption{Distribution of the scintillating fibers in the simulations of the Tritium-IFIC-2 prototype.\label{fig:FibersTritiumIFIC2Simulation}}
 \end{figure}
-The tritiated water source consists of a tritiated water volume with a thickness of $5~\mu\meter$ around each scintillating fiber. Scintillating fibers are located in a PTFE vessel. Two PMMA windows of $5~\mm$ thickness located in both ends and a optical grease layer with a thickness of $0.5~\mm$ located in each PMMA windows were included. Two PMTs, model R8520-460 from Hamamatsu \cite{DataSheetPMTs}, were also simulated as photosensors. 
+The tritiated water source consists of a tritiated water volume with a thickness of $5~\mu\meter$ around each scintillating fiber. Scintillating fibers are located in a PTFE vessel. Two PMMA windows of $5~\mm$ thickness located in both ends of the cylindrical vessel and an optical grease layer with a thickness of $0.5~\mm$ located on each PMMA windows were included. Two PMTs, model R8520-460 from Hamamatsu \cite{DataSheetPMTs}, were also simulated as photosensors. 
 
 %The optical properties used for the tritiated water, PTFE vessel, PMMA windows and the optical grease, mentioned in section \ref{sec:Geant4Environment}, are included in this simulation. 
 
-The geometry simulated for TRITIUM-IFIC-2 is shown in Figure \ref{fig:TritiumIFIC2Simulation} in which is shown the PMTs (black), the optical grease (blue), PMMA windows (white), tritiated water (green) and scintillating fibers (yellow). In this image, the PTFE container is not drawn to allow its interior to be seen. Several volumes of tritiated water were also excluded to allow some scintillation fibers to be seen. The PMTs do not cover the entire active area formed by the scintillating fiber bundle. This is not a problem for the TRITIUM detector since its final version will use SiPM arrays.
-
+The geometry simulated for TRITIUM-IFIC-2 is shown in Figure \ref{fig:TritiumIFIC2Simulation} in which is shown the PMTs (black), the optical grease (blue), the PMMA windows (white), the tritiated water (green) and the scintillating fibers (yellow). In this image, the PTFE container is not drawn to allow its interior to be seen. Several volumes of tritiated water were also excluded to allow some scintillation fibers to be seen. The PMTs do not cover the entire active area formed by the scintillating fiber bundle. This fact produces that some phtons are not detected, slightly reducing the efficiency of the detector. In the future, possible solutions will be studied, such as the use of photosensors that covers that entire active.
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.4]{6Simulations/64Tritium_IFIC_2/SimulationTritiumIFIC2.png}
-\caption{Simualtion of Tritium-IFIC-2 prototype. PMTs (black), the optical grease (blue), PMMA windows (white), tritiated water (green) and scintillating fibers (yellow). \label{fig:TritiumIFIC2Simulation}}
+\caption{Simulation of Tritium-IFIC-2 prototype. PMTs (black), the optical grease (blue), PMMA windows (white), tritiated water (green) and scintillating fibers (yellow). \label{fig:TritiumIFIC2Simulation}}
 \end{figure}
 
-The aim of these simulations were to find the minimum detectable activity, MDA, for tritiated water, which is an important parameter of the prototype, and to study the activity resolution of the prototype and how both parameters, activity resolution and MDA, can be improved by increasing the integration time window and the number of prototypes read in parallel. The detection of a tritium event in the TRITIUM-IFIC-2 prototype is shown in Figure \ref{fig:TritiumEventDetectedInSimulatedPrototype}. The paths of the photons created in scintillating fibers are represented by green lines ending in red dots when they are absorbed in the fiber or the water and blue dots when they are absorbed in the PMTs (detected). The fiber in which the tritium electron is detected is clearly identified. Some photons go out of the fiber and are not collected. Blue dots in both PMTs indicate that photons are detected in time coincidence.
+The aim of these simulations were to find the minimum detectable activity, MDA, for tritiated water, which is an important parameter of the prototype, and to study the activity resolution of the prototype and how both parameters, activity resolution and MDA, can be improved by increasing the integration time window and the number of prototypes read out in parallel. The detection of a tritium event in the TRITIUM-IFIC-2 prototype is shown in Figure \ref{fig:TritiumEventDetectedInSimulatedPrototype}. The paths of the photons created in scintillating fibers are represented by green lines ending in red dots when they are absorbed in the fiber or the water and blue dots when they are absorbed in the PMTs (detected). The fiber in which the tritium electron is detected is clearly identified. Some photons go out of the fiber and are not collected. Blue dots in both PMTs indicate that photons are detected in time coincidence.
 
 \begin{figure}[hbtp]
 \centering
@@ -26,7 +25,7 @@ The aim of these simulations were to find the minimum detectable activity, MDA, 
 \caption{Tritium electron detected in the simulated TRITIUM-IFIC-2 prototype. The path of the optical photons is represented by green lines and the position in which they are absorbed is represented by red and blue dots (absorbed in water or PMT, respectively).\label{fig:TritiumEventDetectedInSimulatedPrototype}}
 \end{figure}
 
-Several variables were used to check the different steps of the simulation such as the production of tritium electrons, the energy deposition in scintillating fibers and their subsequent photon emission, spatial distribution of generated events, detected events, etc. The distribution of the number of photons detected by photosensors per tritium event for the TRITIUM-IFIC-2 prototype is shown in Figure \ref{fig:SimulatedPhotonsDetected}. A maximum of $17$ photons is obtained for the TRITIUM-IFIC-2 prototype simulations, which is in agreement with the maximum of $15$ photons measured, shown in Figure \ref{fig:PhotonsPerTritiumEventIFIC2}. This confirms that the value used in the simulations for the Birks coefficient, $k_B=0.136~\mm/\MeV$, is quite accurate. The experimental distributions are lower than the simulations mainly in the range from $3$ to $8$ photons per event, probably due to imperfections of the prototype not included in the simulations.
+Several variables were used to check the different steps of the simulation such as the production of tritium electrons, the energy deposition in scintillating fibers and their subsequent photon emission, the spatial distribution of generated events, the detected events, etc. The distribution of the number of photons detected by photosensors per tritium event for the TRITIUM-IFIC-2 prototype is shown in Figure \ref{fig:SimulatedPhotonsDetected}. A maximum of $17$ photons is obtained for the TRITIUM-IFIC-2 prototype simulations, which is in agreement with the distribution of photons per tritium event measured experimentally, shown in Figure \ref{fig:PhotonsPerTritiumEventIFIC2}. The experimental distributions are lower than the simulations mainly in the range from $3$ to $8$ photons per event, probably due to some subtle imperfections of the prototype, which are impossible to included in the simulations.
 
 \begin{figure}[hbtp]
 \centering
@@ -34,12 +33,12 @@ Several variables were used to check the different steps of the simulation such 
 \caption{Photons detected by both PMTs per tritium event in the simulated TRITIUM-IFIC-2 prototype.\label{fig:SimulatedPhotonsDetected}}
 \end{figure}
 
-Activities from $100~\becquerel/\liter$ to $5~\kilo\becquerel/\liter$ for three months of data taking and an integration counting time of $10~\min$ were simulated. The simulation results are presented in Figure \ref{fig:1Det10Min250BqL}. A difference of $250~\becquerel/\liter$ is not distinguished due to the overlapping of distributions. To reduce the width of the distribution obtained for each activity, the statistics must be increased, which can be done in two different ways, either by increasing the integration time or the number of prototypes read in parallel. To check the role of increasing the integration time, distributions for integration times of $10~\min$, $30~\min$ and $60~\min$ were generated. They are shown in Figure \ref{fig:1Det250BqLseveralTimes}. The effect of increasing the integration time is clearly visible in this figure, by reducing the relative distribution width and improving the activity resolution of the TRITIUM monitor. Differences as low as $250~\becquerel/\liter$ are clearly discriminated with only one TRITIUM-IFIC-2 module and an integration time of $60~\min$, which could still be considered as a quasi-real time measurement. Similarly, these distributions are shown in Figure \ref{fig:SeveralDet250BqL10min} for $10~\min$ of integration time, for 1, 5 and 10 prototypes in parallel. Again, the reduction of the distribution width is clearly visible in these figures, improving the activity resolution of the detector. In this case, differences of $250~\becquerel/\liter$ are clearly discerned by a integration time of $10~\min$ and 5 TRITIUM-IFIC-2 prototypes. The resolution, defined as
+Activities from $100~\becquerel/\liter$ to $5~\kilo\becquerel/\liter$ for three months of data taking and an integration counting time of $10~\min$ were simulated. The simulation results are presented in Figure \ref{fig:1Det10Min250BqL}. A difference of $250~\becquerel/\liter$ in the activity is not distinguished due to the overlapping of distributions. To reduce the width of the distribution obtained for each activity, the statistics must be increased, which can be done in two different ways, either by increasing the integration time or the number of prototypes read out in parallel. To check the role of increasing the integration time, distributions for integration times of $10~\min$, $30~\min$ and $60~\min$ were generated. They are shown in Figure \ref{fig:1Det250BqLseveralTimes}. The effect of increasing the integration time is clearly visible in this figure, by reducing the relative distribution width and improving the activity resolution of the TRITIUM monitor. Differences as low as $250~\becquerel/\liter$ are clearly discriminated with only one TRITIUM-IFIC-2 module and an integration time of $60~\min$, which could still be considered as a quasi-real time measurement. Similarly, these distributions are shown in Figure \ref{fig:SeveralDet250BqL10min} for $10~\min$ of integration time, for 1, 5 and 10 modules read out in parallel. Again, the reduction of the distribution width with increasing number of modules is clearly visible in these figures, improving the activity resolution of the detector. In this case, differences of $250~\becquerel/\liter$ are clearly discerned by an integration time of $10~\min$ and 5 TRITIUM-IFIC-2 modules. The resolution, defined as
 \begin{equation}
 \text{Resolution(\%)}=\frac{\text{FWHM}}{\text{centroid}}\cdot{}100
 \label{eq:Resolution}
 \end{equation}
-is plotted in Figure \ref{fig:Resolution}. It can be observed that the resolution improves with integration time and number of prototypes. Therefore, both parameters must be set according to the requirements and funding of the experiment. The studied cases are summarized in Table \ref{tab:DifferentCasesOfTI2}.
+is plotted in Figure \ref{fig:Resolution}. It can be observed that the resolution improves with the integration time and the number of modules. Therefore, both parameters must be set according to the requirements and funding of the experiment. The studied cases are summarized in Table \ref{tab:DifferentCasesOfTI2}.
 
 
 \begin{figure}
@@ -55,7 +54,7 @@ is plotted in Figure \ref{fig:Resolution}. It can be observed that the resolutio
     \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_10min_250BqL_and_Gaus.pdf}  
     \caption{\label{subfig:Dist1Det10Min250BqL}}
     \end{subfigure}
- \caption{a) Tritium counts detected with a simulated TRITIUM-IFIC-2 prototype using a integration time of $10~\min$ as a function of the time b) Distribution of detected counts for different activities and an integration time of $10~\min$.}
+ \caption{a) Tritium counts detected with a simulated TRITIUM-IFIC-2 prototype, using an integration time of $10~\min$, as a function of time b) Distribution of detected counts for different activities and an integration time of $10~\min$.}
  \label{fig:1Det10Min250BqL}
 \end{figure}
 
@@ -63,22 +62,22 @@ is plotted in Figure \ref{fig:Resolution}. It can be observed that the resolutio
 \centering
     \begin{subfigure}[b]{0.6\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_10min_250BqL.pdf}  
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_10min_250BqL.png}  
     \caption{\label{subfig:1Det10min250BqLST}}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.6\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_30min_250BqL.pdf}  
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_30min_250BqL.png}  
     \caption{\label{subfig:1Det30min250BqLST}}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.6\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_60min_250BqL.pdf}  
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_60min_250BqL.png}  
     \caption{\label{subfig:1Det60min250BqLST}}
     \end{subfigure}
- \caption{Distribution of the tritium counts simulated for TRITIUM-IFIC-2 prototype for three different integration time: a)$10~\min$, b) $30~\min$ and c) $60~\min$.}
+ \caption{Distribution of the tritium counts simulated for one TRITIUM-IFIC-2 prototype for different tritium activities and three different integration times: a)$10~\min$, b) $30~\min$ and c) $60~\min$.}
  \label{fig:1Det250BqLseveralTimes}
 \end{figure} 
 
@@ -86,22 +85,22 @@ is plotted in Figure \ref{fig:Resolution}. It can be observed that the resolutio
 \centering
     \begin{subfigure}[b]{0.6\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_10min_250BqL.pdf}  
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_1Det_10min_250BqL.png}  
     \caption{\label{subfig:1Det10min250BqLSD}}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.6\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_5Det_10min_250BqL.pdf}  
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_5Det_10min_250BqL.png}  
     \caption{\label{subfig:5Det10min250BqLSD}}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.6\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_10Det_10min_250BqL.pdf}  
+    \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Dist_10Det_10min_250BqL.png}  
     \caption{\label{subfig:10Det10min250BqLSD}}
     \end{subfigure}
- \caption{Distribution of the tritium counts simulated for different number of TRITIUM-IFIC-2 prototypes: a) 1, b) 5 and c) 10, for an integration time of $10~\min$.}
+ \caption{Distribution of the tritium counts simulated for different tritium activities and numbers of TRITIUM-IFIC-2 modules: a) 1, b) 5 and c) 10, for an integration time of $10~\min$.}
  \label{fig:SeveralDet250BqL10min}
 \end{figure}
 
@@ -118,7 +117,7 @@ is plotted in Figure \ref{fig:Resolution}. It can be observed that the resolutio
     \includegraphics[width=\textwidth]{8SimulationsResults/82TRITIUMMonitor/821TRITIUMIFIC2/Results_Several_Detectors.pdf}  
     \caption{\label{subfig:ResolutionvsNumberDetectors}}
     \end{subfigure}
- \caption{Resolution of the TRITIUM-IFIC-2 prototype as a function of the a) integration counting time b) number of prototypes.}
+ \caption{Resolution of the TRITIUM-IFIC-2 prototype as a function of the a) integration counting time using 1 TRITIUM-IFIC 2 module b) number of modules, using an integration counting time of $10~\min$.}
  \label{fig:Resolution}
 \end{figure}
 
@@ -126,7 +125,7 @@ is plotted in Figure \ref{fig:Resolution}. It can be observed that the resolutio
 \centering{}%
 \begin{tabular}{lccc}
 \toprule 
-\# of Detectors & $10~\min$ & $30~\min$ & $60~\min$ \tabularnewline
+\# of modules & $10~\min$ & $30~\min$ & $60~\min$ \tabularnewline
 \midrule
 \midrule 
 1 & $<1000~\becquerel/\liter$ & $500~\becquerel/\liter$ & $200~\becquerel/\liter$ \tabularnewline
@@ -134,11 +133,11 @@ is plotted in Figure \ref{fig:Resolution}. It can be observed that the resolutio
 10 & $150~\becquerel/\liter$ & $100~\becquerel/\liter$ & $\approx 50~\becquerel/\liter$ \tabularnewline
 \bottomrule
 \end{tabular}
-\caption{Difference in activity that can be resolved for the TRITIUM-IFIC-2 prototype, for different integration times and different number of prototypes.}
+\caption{Difference in activity that can be resolved for the TRITIUM-IFIC-2 prototype, for different integration times and different number of modules.}
 \label{tab:DifferentCasesOfTI2}
 \end{table}
 
-The decision made by the TRITIUM collaboration is to install 3 different TRITIUM-IFIC-2 prototypes, with which differences of $250~\becquerel/\liter$ are expected to be resolved with an integration time of $30~\min$. These prototypes are expected to be installed  in Arrocampo dam as soon as possible. Two other TRITIUM-Aveiro prototypes are being built and will be installed soon, to be readout in parallel with the one currently installed.
+The decision made by the TRITIUM collaboration is to install 3 different TRITIUM-IFIC-2 modules, with which differences of $250~\becquerel/\liter$ are expected to be resolved with an integration time of $30~\min$. These prototypes are expected to be installed  in Arrocampo dam as soon as possible. Two other TRITIUM-Aveiro prototypes are being built and will be installed soon, to be readout in parallel with the one currently installed.
 
 %Se ha realizado un ajuste lineal del centroide de las gaussianas de los ajustes (y su anchura como error) frente a la actividad usada. El rango utilizado en este caso ha sido mucho mayor debido a
 

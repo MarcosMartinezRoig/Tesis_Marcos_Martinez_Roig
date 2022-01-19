@@ -155,13 +155,9 @@ C.D.R.~Azevedo, E. C. J. C. J. D. J. D. C. M. M. M.-R. F. P. J.~V., A.~Baeza
   and Yahlali, N. \emph{First prototype module development for a tritium in
   water real-time monitor} accessed: 2021-06-09.
 
-\bibitem[CAEa]{DataSheetDiscriminatorCAEN}
+\bibitem[CAE]{DataSheetDiscriminatorCAEN}
 CAEN \emph{Model 84, 4 channels discriminator.}
   \url{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiLyonzjL_wAhULAWMBHYTOBVoQFjACegQIBRAD&url=https%3A%2F%2Fwwwusers.ts.infn.it%2F~rui%2Funiv%2FAcquisizione_Dati%2FManuals%2FCAEN%2520N84.pdf&usg=AOvVaw379eLskdwjPuXY6fUmnIPk}.
-
-\bibitem[CAEb]{CAENV1724}
-CAEN, T. f.~D. \emph{CAEN V1724, 8 Channels, 14 bit, 100MS/s Digitalizer}
-  \url{https://www.caen.it/products/v1724/}.
 
 \bibitem[Cal10]{FranceTritiumEnvironment}
 Calmon, P. and Garnier-Laplace, J. \emph{Tritium and the environment} (2010)
@@ -186,28 +182,8 @@ Consejo~de Seguridad~Nuclear, C. N. S.~C. \emph{National Regulation of
   \url{https://www.csn.es/en/normativa-del-csn/normativa-espanola} (2013.)
   accessed: 2021-06-08.
 
-\bibitem[Cera]{OpticalGrease}
-Ceramics, S.-G. and Plastics, I. \emph{BC-630, Silicone Optical Grease}
-  \url{https://www.crystals.saint-gobain.com/}.
-
-\bibitem[CERb]{DataSheetCoincidenceCERN}
+\bibitem[CER]{DataSheetCoincidenceCERN}
 CERN \emph{Coincidence Unit Type N6234, Manual reference.} \url{}.
-
-\bibitem[Cer01]{DataSheetBCF10Fiber}
-Ceramics, S.-G. and Plastics, I. \emph{Scintillating Optical Fibers, It's
-  What's Inside that Counts} (2001)
-  \url{https://www.crystals.saint-gobain.com/products/scintillating-fiber}.
-
-\bibitem[Cer05]{DataSheetBCF12Fiber}
-Ceramics, S.-G. and Plastics, I. \emph{Scintillating Optical Fibers, It's
-  What's Inside that Counts}
-  \url{https://www.crystals.saint-gobain.com/products/scintillating-fiber}
-  (2005) accessed: 2021-06-08.
-
-\bibitem[Cer21]{OpticalFibers}
-Ceramics, S.-G. and Plastics, I. \emph{Optical fiber BCF-98, Manual reference.}
-  (2021)
-  \url{https://www.crystals.saint-gobain.com/products/scintillating-fiber}.
 
 \bibitem[CGA17]{Calorimeter1}
 C.~G.~Alecu, B. B. B. K. Z.~K., U.~Besserer and Wendel, J. \emph{Reachable
@@ -328,6 +304,11 @@ Gmbh, R.~L. \emph{LED435-03, 20 mW, 20 mA} (2010)
 
 \bibitem[GRB]{GRBLDocumentation}
 \emph{GRBL package of Arduino} \url{https://github.com/grbl/grbl/wiki}.
+
+\bibitem[Hag07]{CRYpaper}
+Hagmann, C., Lange, D. and Wright, D. \emph{Cosmic-ray shower generator (CRY)
+  for Monte Carlo transport codes} \emph{in} \emph{2007 IEEE Nuclear Science
+  Symposium Conference Record}, vol.~2 (2007) 1143--1146.
 
 \bibitem[Hai14]{OxigenTritium}
 Haight, R., Wermer, J. and Fikani, M. \emph{Tritium Production by Fast Neutrons
@@ -557,6 +538,10 @@ Muramatsu, M., Koyano, A. and Tokunaga, N. \emph{A scintillation probe for
   continuous monitoring of tritiated water} Nuclear Instruments and Methods
   \textbf{54} (1967)(2) 325--326.
 
+\bibitem[(NA]{CRYwebsite}
+(NADS), P. N.~D. \emph{Physics simulation packages, CRY (cosmic-ray particle
+  showers)} \url{https://nuclear.llnl.gov/simulation/}.
+
 \bibitem[Nan]{StepperMotors}
 Nanotec \emph{ST4209S1404-A - STEPPER MOTOR NEMA 17}
   \url{https://en.nanotec.com/products/463-st4209s1404-a}.
@@ -628,7 +613,7 @@ Palomo, M., Peñalver, A., Aguilar, C. and Borrull, F. \emph{Tritium activity
   Radiation and Isotopes \textbf{65} (2007)(9) 1048--1056.
 
 \bibitem[PET]{PETSYS}
-PETSYS \emph{PETsys Electronics}
+PETsys \emph{PETsys Electronics}
   \url{https://www.petsyselectronics.com/web/private/login}.
 
 \bibitem[PF81]{EstimationTritiumDosiRats}
@@ -684,6 +669,25 @@ Scientific, P. \emph{Model 740 Quad Linear Fan-In/Out, Manual reference.}
 \bibitem[SG]{VetoAveiro}
 Saint-Gobain \emph{Scintillating plastic grown with polymeric method}
   \url{https://www.epic-crystal.com/others/plastic-scintillator.html}.
+
+\bibitem[SGC]{OpticalGrease}
+Saint-Gobain~Crystals, I. \emph{BC-630, Silicone Optical Grease}
+  \url{https://www.crystals.saint-gobain.com/}.
+
+\bibitem[SGC01]{DataSheetBCF10Fiber}
+Saint-Gobain~Crystals, I. \emph{Scintillating Optical Fibers, It's What's
+  Inside that Counts} (2001)
+  \url{https://www.crystals.saint-gobain.com/products/scintillating-fiber}.
+
+\bibitem[SGC05]{DataSheetBCF12Fiber}
+Saint-Gobain~Crystals, I. \emph{Scintillating Optical Fibers, It's What's
+  Inside that Counts}
+  \url{https://www.crystals.saint-gobain.com/products/scintillating-fiber}
+  (2005) accessed: 2021-06-08.
+
+\bibitem[SGC21]{OpticalFibers}
+Saint-Gobain~Crystals, I. \emph{Optical fiber BCF-98, Manual reference.} (2021)
+  \url{https://www.crystals.saint-gobain.com/products/scintillating-fiber}.
 
 \bibitem[Sha97]{APD}
 Shah, K., Gothoskar, P., Farrell, R. and Gordon, J. \emph{High efficiency
