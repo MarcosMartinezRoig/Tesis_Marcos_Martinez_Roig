@@ -115,19 +115,21 @@
 \contentsline {figure}{\numberline {6.15}{\ignorespaces Distribution of the tritium counts simulated for one TRITIUM-IFIC-2 prototype for different tritium activities and three different integration times: a)$10~\qopname \relax m{min}$, b) $30~\qopname \relax m{min}$ and c) $60~\qopname \relax m{min}$.\relax }}{191}{figure.caption.148}
 \contentsline {figure}{\numberline {6.16}{\ignorespaces Distribution of the tritium counts simulated for different tritium activities and numbers of TRITIUM-IFIC-2 modules: a) 1, b) 5 and c) 10, for an integration time of $10~\qopname \relax m{min}$.\relax }}{192}{figure.caption.149}
 \contentsline {figure}{\numberline {6.17}{\ignorespaces Resolution of the TRITIUM-IFIC-2 prototype as a function of the a) integration counting time using 1 TRITIUM-IFIC 2 module b) number of modules, using an integration counting time of $10~\qopname \relax m{min}$.\relax }}{193}{figure.caption.150}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Total cosmic events that are detected by the TRITIUM-IFIC-2 prototype (from a $10^5$ generated cosmic events), which are not candidate events to be suppresed by the background rejection system for three different shielding configuration. The first bin corresponds to a TRITIUM-IFIC-2 prototype without the background rejection system. In the second bin, the passive shield was added to the previous simulation. In the third bin, an active veto was also added to this simulation. .\relax }}{195}{figure.caption.152}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Three PCBs used for the SiPM characterization a) The PCB 1 used to arrang 8 SiPMs and black box. b) The PCB 2 used to sum and amplify the output signals of SiPMs. c) The PCB 3 used to rearrange the different singals of the system. d) The LED emission spectrum.\relax }}{209}{figure.caption.154}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Scheme of the water purification system.\relax }}{211}{figure.caption.155}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Different stages of filtration of the water purification system. a) The gross filtering stage. b) The Fine filtering stage. c) The Super fine filtering stage.\relax }}{212}{figure.caption.156}
-\contentsline {figure}{\numberline {B.3}{\ignorespaces a) Doble phase reverse osmosis stage b) Containers used to store the outlet water of the water purification system.\relax }}{213}{figure.caption.157}
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Siemens PLC, software for remote control of water purification system.\relax }}{213}{figure.caption.158}
-\contentsline {figure}{\numberline {B.5}{\ignorespaces General photo of the complete water purification system.\relax }}{214}{figure.caption.159}
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Raw water, reject water and pure water obtained with this system.\relax }}{214}{figure.caption.160}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Three PCBs used for the SiPM characterization a) The PCB 1 used to arrang 8 SiPMs and black box. b) The PCB 2 used to sum and amplify the output signals of SiPMs. c) The PCB 3 used to rearrange the different singals of the system. d) The LED emission spectrum.\relax }}{211}{figure.caption.155}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Scheme of the water purification system.\relax }}{213}{figure.caption.156}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Different stages of filtration of the water purification system. a) The gross filtering stage. b) The Fine filtering stage. c) The Super fine filtering stage.\relax }}{214}{figure.caption.157}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces a) Doble phase reverse osmosis stage b) Containers used to store the outlet water of the water purification system.\relax }}{215}{figure.caption.158}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Siemens PLC, software for remote control of water purification system.\relax }}{215}{figure.caption.159}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces General photo of the complete water purification system.\relax }}{216}{figure.caption.160}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Raw water, reject water and pure water obtained with this system.\relax }}{216}{figure.caption.161}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces a) The Electronic scheme of the PCB designed to power the PMTs of Aveiro prototype b) The graphical user interface developed to control it.\relax }}{218}{figure.caption.161}
-\contentsline {figure}{\numberline {D.2}{\ignorespaces Simplified electronic scheme used to process and analyze the signal of TRITIUM-Aveiro prototype. \relax }}{219}{figure.caption.162}
-\contentsline {figure}{\numberline {D.3}{\ignorespaces Graphical user interface used to manage the counter system. \relax }}{221}{figure.caption.163}
-\contentsline {figure}{\numberline {D.4}{\ignorespaces Two different situations of the electronic chain response. a) Event accepted since veto has not detected it. b) Event rejected since veto has detected it.\relax }}{222}{figure.caption.164}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces a) The Electronic scheme of the PCB designed to power the PMTs of Aveiro prototype b) The graphical user interface developed to control it.\relax }}{220}{figure.caption.162}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Simplified electronic scheme used to process and analyze the signal of TRITIUM-Aveiro prototype. \relax }}{221}{figure.caption.163}
+\contentsline {figure}{\numberline {D.3}{\ignorespaces Graphical user interface used to manage the counter system. \relax }}{223}{figure.caption.164}
+\contentsline {figure}{\numberline {D.4}{\ignorespaces Two different situations of the electronic chain response. a) Event accepted since veto has not detected it. b) Event rejected since veto has detected it.\relax }}{224}{figure.caption.165}
