@@ -1,6 +1,23 @@
 \usepackage [spanish, english]{babel}
 \usepackage [utf8]{inputenc}
 
+%\pagestyle{headings} %%Style of the page -> to set the headers and fooders
+%\thispagestyle{empty} %%This applies the pagestyle only to the current page.
+
+\usepackage{fancyhdr} %%To modify the pagestyle
+
+\pagestyle{fancy}
+\fancyhf{}
+%\fancyhead[LE,RO]{\thepage}
+\fancyhead[RO]{\leftmark}
+\fancyhead[LE]{\rightmark}
+\renewcommand{\headrulewidth}{1pt}
+%\renewcommand{\footrulewidth}{1pt}
+%\fancyfoot[RE,LO]{Guides and tutorials}
+\fancyfoot[CE,CO]{\thepage}
+
+
+
 \usepackage{booktabs} %%To use Tables in format style
 
 
