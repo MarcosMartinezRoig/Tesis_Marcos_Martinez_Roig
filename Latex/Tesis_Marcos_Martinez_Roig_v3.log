@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  26 JAN 2022 13:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  27 JAN 2022 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1971,9 +1971,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16]) (./Sections/1Introduction/13Legislation.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2086,13 +2083,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27]
-<Figures/2Introduction/ArrocampoDam.jpeg, id=1491, 309.155pt x 164.615pt>
+<Figures/2Introduction/ArrocampoDam.jpeg, id=1492, 309.155pt x 164.615pt>
 File: Figures/2Introduction/ArrocampoDam.jpeg Graphic file (type jpg)
 <use Figures/2Introduction/ArrocampoDam.jpeg>
 Package pdftex.def Info: Figures/2Introduction/ArrocampoDam.jpeg  used on input
  line 19.
 (pdftex.def)             Requested size: 172.84932pt x 92.04059pt.
-<Figures/2Introduction/RioTajo.jpeg, id=1492, 302.12875pt x 167.62625pt>
+<Figures/2Introduction/RioTajo.jpeg, id=1493, 302.12875pt x 167.62625pt>
 File: Figures/2Introduction/RioTajo.jpeg Graphic file (type jpg)
 <use Figures/2Introduction/RioTajo.jpeg>
 Package pdftex.def Info: Figures/2Introduction/RioTajo.jpeg  used on input line
@@ -2151,7 +2148,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [34]
-<Figures/3DesignPrinciples/32Tritium_detector/ScintillatorDetector.png, id=1556
+<Figures/3DesignPrinciples/32Tritium_detector/ScintillatorDetector.png, id=1557
 , 688.82344pt x 250.68657pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/ScintillatorDetector.png Gra
 phic file (type png)
@@ -2183,7 +2180,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [36]
 <Figures/3DesignPrinciples/32Tritium_detector/DominantProcessesPhotons.png, id=
-1574, 492.84125pt x 317.185pt>
+1575, 492.84125pt x 317.185pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/DominantProcessesPhotons.png
  Graphic file (type png)
 <use Figures/3DesignPrinciples/32Tritium_detector/DominantProcessesPhotons.png>
@@ -2219,7 +2216,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [39]
-<Figures/3DesignPrinciples/32Tritium_detector/JablonskyDiagram.png, id=1607, 42
+<Figures/3DesignPrinciples/32Tritium_detector/JablonskyDiagram.png, id=1608, 42
 4.58624pt x 429.85594pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/JablonskyDiagram.png Graphic
  file (type png)
@@ -2235,7 +2232,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [40]
-<Figures/3DesignPrinciples/32Tritium_detector/StokesShift.png, id=1618, 460.721
+<Figures/3DesignPrinciples/32Tritium_detector/StokesShift.png, id=1619, 460.721
 25pt x 298.11375pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/StokesShift.png Graphic file
  (type png)
@@ -2260,7 +2257,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [42 <./Figures/3DesignPrinciples/32Tritium_detector/StokesShift.png>]
 (./Sections/3Design_Principles/32DetectorMonitor/322Plastic_Scintillators/3222F
 ibers.tex
-<Figures/3DesignPrinciples/32Tritium_detector/EmisionBCF12.png, id=1643, 644.40
+<Figures/3DesignPrinciples/32Tritium_detector/EmisionBCF12.png, id=1644, 644.40
 75pt x 389.455pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/EmisionBCF12.png Graphic fil
 e (type png)
@@ -2283,7 +2280,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [44 <./Figures/3DesignPrinciples/32Tritium_detector/EmisionBCF12.png>]
-<Figures/3DesignPrinciples/32Tritium_detector/Fiber_data_sheet.png, id=1666, 57
+<Figures/3DesignPrinciples/32Tritium_detector/Fiber_data_sheet.png, id=1667, 57
 7.15625pt x 409.53pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/Fiber_data_sheet.png Graphic
  file (type png)
@@ -2324,7 +2321,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [48]
-<Figures/3DesignPrinciples/32Tritium_detector/PMTschematic.png, id=1695, 494.59
+<Figures/3DesignPrinciples/32Tritium_detector/PMTschematic.png, id=1696, 494.59
 781pt x 261.22594pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/PMTschematic.png Graphic fil
 e (type png)
@@ -2345,7 +2342,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [49 <./Figures/3DesignPrinciples/32Tritium_detector/PMTschematic.png>]
-<Figures/3DesignPrinciples/32Tritium_detector/QuantumEfficiencyPMT.png, id=1708
+<Figures/3DesignPrinciples/32Tritium_detector/QuantumEfficiencyPMT.png, id=1709
 , 370.38374pt x 434.62375pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/QuantumEfficiencyPMT.png Gra
 phic file (type png)
@@ -2361,7 +2358,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [50 <./Figures/3DesignPrinciples/32Tritium_detector/QuantumEfficiencyPMT.png>]
-<Figures/3DesignPrinciples/32Tritium_detector/VoltageDividerPMT.png, id=1721, 7
+<Figures/3DesignPrinciples/32Tritium_detector/VoltageDividerPMT.png, id=1722, 7
 81.92125pt x 634.37pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/VoltageDividerPMT.png Graphi
 c file (type png)
@@ -2382,7 +2379,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [51 <./Figures/3DesignPrinciples/32Tritium_detector/VoltageDividerPMT.png>]
 <Figures/3DesignPrinciples/32Tritium_detector/ElectronicSchemBasePMTNoGain.png,
- id=1731, 497.86pt x 389.455pt>
+ id=1732, 497.86pt x 389.455pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/ElectronicSchemBasePMTNoGain
 .png Graphic file (type png)
 <use Figures/3DesignPrinciples/32Tritium_detector/ElectronicSchemBasePMTNoGain.
@@ -2408,7 +2405,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [53 <./Figures/3DesignPrinciples/32Tritium_detector/ElectronicSchemBasePMTNoGai
 n.png>]
-<Figures/3DesignPrinciples/32Tritium_detector/APD_scheme.png, id=1746, 496.8562
+<Figures/3DesignPrinciples/32Tritium_detector/APD_scheme.png, id=1747, 496.8562
 5pt x 264.99pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/APD_scheme.png Graphic file 
 (type png)
@@ -2424,7 +2421,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [54 <./Figures/3DesignPrinciples/32Tritium_detector/APD_scheme.png>]
-<Figures/3DesignPrinciples/32Tritium_detector/Several_SiPM_pulses.png, id=1758,
+<Figures/3DesignPrinciples/32Tritium_detector/Several_SiPM_pulses.png, id=1759,
  633.36626pt x 356.33125pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/Several_SiPM_pulses.png Grap
 hic file (type png)
@@ -2454,7 +2451,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [56 <./Figures/3DesignPrinciples/32Tritium_detector/Several_SiPM_pulses.png>]
 <Figures/3DesignPrinciples/32Tritium_detector/SimpliestElectronicSchemeSiPM.png
-, id=1785, 664.4825pt x 550.055pt>
+, id=1786, 664.4825pt x 550.055pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/SimpliestElectronicSchemeSiP
 M.png Graphic file (type png)
 <use Figures/3DesignPrinciples/32Tritium_detector/SimpliestElectronicSchemeSiPM
@@ -2463,7 +2460,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/Simpliest
 ElectronicSchemeSiPM.png  used on input line 41.
 (pdftex.def)             Requested size: 172.84932pt x 143.07806pt.
 <Figures/3DesignPrinciples/32Tritium_detector/How_a_quenching_resistence_in_a_S
-iPM_works.png, id=1786, 541.02126pt x 457.71pt>
+iPM_works.png, id=1787, 541.02126pt x 457.71pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/How_a_quenching_resistence_i
 n_a_SiPM_works.png Graphic file (type png)
 <use Figures/3DesignPrinciples/32Tritium_detector/How_a_quenching_resistence_in
@@ -2515,7 +2512,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [60]
-<Figures/3DesignPrinciples/32Tritium_detector/SiPMPDE.png, id=1826, 472.76625pt
+<Figures/3DesignPrinciples/32Tritium_detector/SiPMPDE.png, id=1827, 472.76625pt
  x 460.72125pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/SiPMPDE.png Graphic file (ty
 pe png)
@@ -2552,7 +2549,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [63]
 <Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_PMT.png, id
-=1853, 986.68625pt x 320.19624pt>
+=1854, 986.68625pt x 320.19624pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_PMT.pn
 g Graphic file (type png)
 <use Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_PMT.png
@@ -2561,7 +2558,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/Electroni
 cal_Scheme_1_PMT.png  used on input line 13.
 (pdftex.def)             Requested size: 384.11221pt x 124.65128pt.
 <Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_PMTs.png, i
-d=1854, 991.705pt x 369.38pt>
+d=1855, 991.705pt x 369.38pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_PMTs.p
 ng Graphic file (type png)
 <use Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_PMTs.pn
@@ -2570,7 +2567,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/Electroni
 cal_Scheme_2_PMTs.png  used on input line 19.
 (pdftex.def)             Requested size: 384.11221pt x 143.07126pt.
 <Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_4_PMTs.png, i
-d=1855, 1006.76125pt x 298.11375pt>
+d=1856, 1006.76125pt x 298.11375pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_4_PMTs.p
 ng Graphic file (type png)
 <use Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_4_PMTs.pn
@@ -2606,7 +2603,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [66]
-<Figures/3DesignPrinciples/32Tritium_detector/1_coincidences.png, id=1908, 1286
+<Figures/3DesignPrinciples/32Tritium_detector/1_coincidences.png, id=1909, 1286
 .8075pt x 727.71875pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/1_coincidences.png Graphic f
 ile (type png)
@@ -2614,7 +2611,7 @@ ile (type png)
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/1_coincid
 ences.png  used on input line 73.
 (pdftex.def)             Requested size: 172.84932pt x 97.7492pt.
-<Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png, id=1909, 12
+<Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png, id=1910, 12
 85.80376pt x 727.71875pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png Graphic
  file (type png)
@@ -2622,7 +2619,7 @@ File: Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png Graphic
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/2_coincid
 ences_1.png  used on input line 79.
 (pdftex.def)             Requested size: 172.84932pt x 97.81583pt.
-<Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_2.png, id=1910, 12
+<Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_2.png, id=1911, 12
 86.8075pt x 728.7225pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_2.png Graphic
  file (type png)
@@ -2630,7 +2627,7 @@ File: Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_2.png Graphic
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/2_coincid
 ences_2.png  used on input line 85.
 (pdftex.def)             Requested size: 172.84932pt x 97.88403pt.
-<Figures/3DesignPrinciples/32Tritium_detector/4_coincidences.png, id=1911, 1285
+<Figures/3DesignPrinciples/32Tritium_detector/4_coincidences.png, id=1912, 1285
 .80376pt x 726.715pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/4_coincidences.png Graphic f
 ile (type png)
@@ -2656,7 +2653,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 res/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png> <./Figures/3Desi
 gnPrinciples/32Tritium_detector/2_coincidences_2.png> <./Figures/3DesignPrincip
 les/32Tritium_detector/4_coincidences.png>]
-<Figures/3DesignPrinciples/32Tritium_detector/Input_MCA.png, id=1937, 1288.815p
+<Figures/3DesignPrinciples/32Tritium_detector/Input_MCA.png, id=1938, 1288.815p
 t x 726.715pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/Input_MCA.png Graphic file (
 type png)
@@ -2682,7 +2679,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [69 <./Figures/3DesignPrinciples/32Tritium_detector/Input_MCA.png>]
-<Figures/3DesignPrinciples/32Tritium_detector/PETSYS_System.png, id=1950, 374.3
+<Figures/3DesignPrinciples/32Tritium_detector/PETSYS_System.png, id=1951, 374.3
 9874pt x 309.155pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/PETSYS_System.png Graphic fi
 le (type png)
@@ -2700,7 +2697,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [70 <./Figures/3DesignPrinciples/32Tritium_detector/PETSYS_System.png>]
-<Figures/3DesignPrinciples/32Tritium_detector/SiPMPCB.png, id=1965, 806.01125pt
+<Figures/3DesignPrinciples/32Tritium_detector/SiPMPCB.png, id=1966, 806.01125pt
  x 591.20876pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/SiPMPCB.png Graphic file (ty
 pe png)
@@ -2709,7 +2706,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/SiPMPCB.p
 ng  used on input line 20.
 (pdftex.def)             Requested size: 192.0561pt x 140.87361pt.
 <Figures/3DesignPrinciples/32Tritium_detector/ElectronicSchemePCBSiPM.png, id=1
-966, 604.2575pt x 468.75125pt>
+967, 604.2575pt x 468.75125pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/ElectronicSchemePCBSiPM.png 
 Graphic file (type png)
 <use Figures/3DesignPrinciples/32Tritium_detector/ElectronicSchemePCBSiPM.png>
@@ -2750,7 +2747,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [73]
 <Figures/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraPureWaterSystem.pn
-g, id=1995, 1516.66624pt x 873.2625pt>
+g, id=1996, 1516.66624pt x 873.2625pt>
 File: Figures/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraPureWaterSyst
 em.png Graphic file (type png)
 <use Figures/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraPureWaterSyste
@@ -2797,7 +2794,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [77]
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/LeadBricks.png, id=2040,
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/LeadBricks.png, id=2041,
  260.975pt x 187.70125pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/LeadBricks.png Grap
 hic file (type png)
@@ -2805,7 +2802,7 @@ hic file (type png)
 Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 LeadBricks.png  used on input line 7.
 (pdftex.def)             Requested size: 115.23483pt x 82.88094pt.
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers.png, id=2041, 
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers.png, id=2042, 
 234.8775pt x 225.09094pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers.png Graph
 ic file (type png)
@@ -2813,7 +2810,7 @@ ic file (type png)
 Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 TwoLayers.png  used on input line 13.
 (pdftex.def)             Requested size: 115.23483pt x 110.43289pt.
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers2.png, id=2042,
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers2.png, id=2043,
  279.0425pt x 293.095pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers2.png Grap
 hic file (type png)
@@ -2822,7 +2819,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 TwoLayers2.png  used on input line 19.
 (pdftex.def)             Requested size: 115.23483pt x 121.03734pt.
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructureScheme
-.png, id=2044, 486.31688pt x 322.20375pt>
+.png, id=2045, 486.31688pt x 322.20375pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructureS
 cheme.png Graphic file (type png)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructureSc
@@ -2831,7 +2828,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 AluminiumStructureScheme.png  used on input line 32.
 (pdftex.def)             Requested size: 172.84932pt x 114.51833pt.
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructure.jpg, 
-id=2045, 4143.48pt x 3107.61pt>
+id=2046, 4143.48pt x 3107.61pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructure.
 jpg Graphic file (type jpg)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructure.j
@@ -2851,7 +2848,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 s/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers2.png>]
 (./Sections/3Design_Principles/34BackgroundShields/343SetUpActiveShield.tex
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/Vetos_y_prototipo.png, i
-d=2055, 478.03593pt x 381.67593pt>
+d=2056, 478.03593pt x 381.67593pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/Vetos_y_prototipo.p
 ng Graphic file (type png)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/Vetos_y_prototipo.pn
@@ -2872,7 +2869,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [79 <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructure
 Scheme.png> <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumS
 tructure.jpg>]
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/Real_Event.png, id=2069,
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/Real_Event.png, id=2070,
  265.74281pt x 348.55219pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/Real_Event.png Grap
 hic file (type png)
@@ -2880,7 +2877,7 @@ hic file (type png)
 Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 Real_Event.png  used on input line 15.
 (pdftex.def)             Requested size: 172.84932pt x 226.71577pt.
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/Fake_Event.png, id=2070,
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/Fake_Event.png, id=2071,
  284.56313pt x 377.15906pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/Fake_Event.png Grap
 hic file (type png)
@@ -2893,7 +2890,7 @@ Fake_Event.png  used on input line 21.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/HardCosmicRate.png, id=2
-071, 459.21562pt x 401.24907pt>
+072, 459.21562pt x 401.24907pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/HardCosmicRate.png 
 Graphic file (type png)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/HardCosmicRate.png>
@@ -2908,7 +2905,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 59.
 
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/EmissionEnergySpectrumVe
-tos.png, id=2079, 686.565pt x 622.325pt>
+tos.png, id=2080, 686.565pt x 622.325pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/EmissionEnergySpect
 rumVetos.png Graphic file (type png)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/EmissionEnergySpectr
@@ -2916,7 +2913,7 @@ umVetos.png>
 Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 EmissionEnergySpectrumVetos.png  used on input line 61.
 (pdftex.def)             Requested size: 240.30135pt x 217.817pt.
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/NoCoating.jpeg, id=2083,
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/NoCoating.jpeg, id=2084,
  482.55281pt x 1038.12843pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/NoCoating.jpeg Grap
 hic file (type jpg)
@@ -2925,7 +2922,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 NoCoating.jpeg  used on input line 72.
 (pdftex.def)             Requested size: 88.34416pt x 190.05484pt.
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/TeflonCoating.jpeg, id=2
-084, 432.11438pt x 810.02625pt>
+085, 432.11438pt x 810.02625pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/TeflonCoating.jpeg 
 Graphic file (type jpg)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/TeflonCoating.jpeg>
@@ -2933,7 +2930,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 TeflonCoating.jpeg  used on input line 78.
 (pdftex.def)             Requested size: 88.34416pt x 165.59914pt.
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumCoating.jpeg, i
-d=2085, 276.28218pt x 657.2053pt>
+d=2086, 276.28218pt x 657.2053pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumCoating.jp
 eg Graphic file (type jpg)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumCoating.jpe
@@ -2942,7 +2939,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 AluminiumCoating.jpeg  used on input line 84.
 (pdftex.def)             Requested size: 88.34416pt x 210.13951pt.
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/BlackTapeCoating.jpeg, i
-d=2086, 548.0475pt x 1050.17343pt>
+d=2087, 548.0475pt x 1050.17343pt>
 File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/BlackTapeCoating.jp
 eg Graphic file (type jpg)
 <use Figures/3DesignPrinciples/34BackgroundRejectionSystem/BlackTapeCoating.jpe
@@ -3021,7 +3018,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [86]
-<Figures/4ResearchAndDevelopments/41Fibers/DeformationFiberEnds.png, id=2128, 3
+<Figures/4ResearchAndDevelopments/41Fibers/DeformationFiberEnds.png, id=2129, 3
 09.40594pt x 253.69781pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/DeformationFiberEnds.png Graphi
 c file (type png)
@@ -3029,7 +3026,7 @@ c file (type png)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/DeformationF
 iberEnds.png  used on input line 9.
 (pdftex.def)             Requested size: 192.0561pt x 157.4807pt.
-<Figures/4ResearchAndDevelopments/41Fibers/CracksEndFibers.png, id=2129, 330.48
+<Figures/4ResearchAndDevelopments/41Fibers/CracksEndFibers.png, id=2130, 330.48
 468pt x 304.13625pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/CracksEndFibers.png Graphic fil
 e (type png)
@@ -3037,7 +3034,7 @@ e (type png)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/CracksEndFib
 ers.png  used on input line 15.
 (pdftex.def)             Requested size: 172.84932pt x 159.07526pt.
-<Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice.png, id=2131, 612.7893
+<Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice.png, id=2132, 612.7893
 7pt x 201.75375pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice.png Graphic file 
 (type png)
@@ -3045,7 +3042,7 @@ File: Figures/4ResearchAndDevelopments/41Fibers/CuttingDevice.png Graphic file
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/CuttingDevic
 e.png  used on input line 28.
 (pdftex.def)             Requested size: 192.0561pt x 63.23259pt.
-<Figures/4ResearchAndDevelopments/41Fibers/Cleaving_machine_ZOOM.png, id=2132, 
+<Figures/4ResearchAndDevelopments/41Fibers/Cleaving_machine_ZOOM.png, id=2133, 
 579.66562pt x 253.69781pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Cleaving_machine_ZOOM.png Graph
 ic file (type png)
@@ -3062,7 +3059,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [87 <./Figures/4ResearchAndDevelopments/41Fibers/DeformationFiberEnds.png> <./F
 igures/4ResearchAndDevelopments/41Fibers/CracksEndFibers.png>]
-<Figures/4ResearchAndDevelopments/41Fibers/CutEndFiberGood.png, id=2146, 389.20
+<Figures/4ResearchAndDevelopments/41Fibers/CutEndFiberGood.png, id=2147, 389.20
 406pt x 312.41719pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/CutEndFiberGood.png Graphic fil
 e (type png)
@@ -3095,7 +3092,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [89 <./Figures/4ResearchAndDevelopments/41Fibers/CutEndFiberGood.png>]
-<Figures/4ResearchAndDevelopments/41Fibers/Hand_Polishing_Kit.png, id=2168, 301
+<Figures/4ResearchAndDevelopments/41Fibers/Hand_Polishing_Kit.png, id=2169, 301
 .8778pt x 310.91156pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Hand_Polishing_Kit.png Graphic 
 file (type png)
@@ -3109,7 +3106,7 @@ e (type png)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/CutEndFiberG
 ood.png  used on input line 19.
 (pdftex.def)             Requested size: 192.0561pt x 154.16788pt.
-<Figures/4ResearchAndDevelopments/41Fibers/CutAndPolishedFiberEnd.png, id=2170,
+<Figures/4ResearchAndDevelopments/41Fibers/CutAndPolishedFiberEnd.png, id=2171,
  323.2075pt x 290.08376pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/CutAndPolishedFiberEnd.png Grap
 hic file (type png)
@@ -3126,7 +3123,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [90 <./Figures/4ResearchAndDevelopments/41Fibers/Hand_Polishing_Kit.png>]
 <Figures/4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.png, id=2
-176, 403.5075pt x 305.64188pt>
+177, 403.5075pt x 305.64188pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.png 
 Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.png>
@@ -3152,7 +3149,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [92 <./Figures/4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.png
 >]
-<Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png, id=2198, 342.529
+<Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png, id=2199, 342.529
 7pt x 189.70876pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png Graphic file
  (type png)
@@ -3160,7 +3157,7 @@ File: Figures/4ResearchAndDevelopments/41Fibers/PolishingTable.png Graphic file
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/PolishingTab
 le.png  used on input line 63.
 (pdftex.def)             Requested size: 211.26288pt x 117.01031pt.
-<Figures/4ResearchAndDevelopments/41Fibers/PieceOfFiber.png, id=2199, 292.09125
+<Figures/4ResearchAndDevelopments/41Fibers/PieceOfFiber.png, id=2200, 292.09125
 pt x 336.50719pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/PieceOfFiber.png Graphic file (
 type png)
@@ -3168,7 +3165,7 @@ type png)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/PieceOfFiber
 .png  used on input line 69.
 (pdftex.def)             Requested size: 115.23483pt x 132.75713pt.
-<Figures/4ResearchAndDevelopments/41Fibers/HorizontalAxis2.png, id=2200, 465.99
+<Figures/4ResearchAndDevelopments/41Fibers/HorizontalAxis2.png, id=2201, 465.99
 094pt x 261.97874pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/HorizontalAxis2.png Graphic fil
 e (type png)
@@ -3176,7 +3173,7 @@ e (type png)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/HorizontalAx
 is2.png  used on input line 75.
 (pdftex.def)             Requested size: 211.26288pt x 118.76878pt.
-<Figures/4ResearchAndDevelopments/41Fibers/Switch.png, id=2201, 308.15125pt x 2
+<Figures/4ResearchAndDevelopments/41Fibers/Switch.png, id=2202, 308.15125pt x 2
 66.9975pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Switch.png Graphic file (type p
 ng)
@@ -3215,7 +3212,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [94]
 <Figures/4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.png, id=2
-227, 567.62062pt x 449.42906pt>
+228, 567.62062pt x 449.42906pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.png 
 Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/ElectronicPolishingMachine.png>
@@ -3236,7 +3233,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 115.
 
 <Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.png, id=2
-241, 517.18219pt x 325.96782pt>
+242, 517.18219pt x 325.96782pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.png 
 Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/FiberBunch2PMTsCoincidence.png>
@@ -3260,7 +3257,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 123.
 
 <Figures/4ResearchAndDevelopments/41Fibers/PolishingTest_Background.pdf, id=224
-7, 569.12625pt x 300.12125pt>
+8, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/PolishingTest_Background.pdf Gr
 aphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/PolishingTest_Background.pdf>
@@ -3276,7 +3273,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [97 <./Figures/4ResearchAndDevelopments/41Fibers/PolishingTest_Background.pdf, 
 page is rotated 90 degrees>]
 <Figures/4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOOM.pdf, id=
-2297, 569.12625pt x 300.12125pt>
+2298, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOOM.pdf
  Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOOM.pdf>
@@ -3285,7 +3282,7 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/Co_60_Polish
 ingMachine_ZOOM.pdf  used on input line 142.
 (pdftex.def)             Requested size: 384.11221pt x 202.56393pt.
 <Figures/4ResearchAndDevelopments/41Fibers/Sr_90_PolishingMchine_ZOOM.pdf, id=2
-298, 569.12625pt x 300.12125pt>
+299, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Sr_90_PolishingMchine_ZOOM.pdf 
 Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/Sr_90_PolishingMchine_ZOOM.pdf>
@@ -3311,7 +3308,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [99 <./Figures/4ResearchAndDevelopments/41Fibers/Co_60_PolishingMachine_ZOOM.pd
 f, page is rotated 90 degrees> <./Figures/4ResearchAndDevelopments/41Fibers/Sr_
 90_PolishingMchine_ZOOM.pdf, page is rotated 90 degrees>]
-<Figures/4ResearchAndDevelopments/41Fibers/WettingProperty.png, id=2397, 760.84
+<Figures/4ResearchAndDevelopments/41Fibers/WettingProperty.png, id=2398, 760.84
 25pt x 261.97874pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/WettingProperty.png Graphic fil
 e (type png)
@@ -3328,14 +3325,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [100 <./Figures/4ResearchAndDevelopments/41Fibers/WettingProperty.png>]
 <Figures/4ResearchAndDevelopments/41Fibers/Background_CleaningProcess.pdf, id=2
-412, 569.12625pt x 300.12125pt>
+413, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Background_CleaningProcess.pdf 
 Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/Background_CleaningProcess.pdf>
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/Background_C
 leaningProcess.pdf  used on input line 19.
 (pdftex.def)             Requested size: 341.47838pt x 180.07413pt.
-<Figures/4ResearchAndDevelopments/41Fibers/Cs-137_CleaningProcess.pdf, id=2413,
+<Figures/4ResearchAndDevelopments/41Fibers/Cs-137_CleaningProcess.pdf, id=2414,
  569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Cs-137_CleaningProcess.pdf Grap
 hic file (type pdf)
@@ -3343,7 +3340,7 @@ hic file (type pdf)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/Cs-137_Clean
 ingProcess.pdf  used on input line 27.
 (pdftex.def)             Requested size: 384.11221pt x 202.56393pt.
-<Figures/4ResearchAndDevelopments/41Fibers/Sr-90_CleaningProcess.pdf, id=2414, 
+<Figures/4ResearchAndDevelopments/41Fibers/Sr-90_CleaningProcess.pdf, id=2415, 
 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Sr-90_CleaningProcess.pdf Graph
 ic file (type pdf)
@@ -3390,7 +3387,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [103]
 <Figures/4ResearchAndDevelopments/41Fibers/SetUp_Fiber_Characterization.png, id
-=2561, 564.60938pt x 420.82219pt>
+=2562, 564.60938pt x 420.82219pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/SetUp_Fiber_Characterization.pn
 g Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/SetUp_Fiber_Characterization.png
@@ -3407,7 +3404,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [104 <./Figures/4ResearchAndDevelopments/41Fibers/SetUp_Fiber_Characterization.
 png>]
-<Figures/4ResearchAndDevelopments/41Fibers/LED_TRITIUM_1_std.pdf, id=2572, 569.
+<Figures/4ResearchAndDevelopments/41Fibers/LED_TRITIUM_1_std.pdf, id=2573, 569.
 12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/LED_TRITIUM_1_std.pdf Graphic f
 ile (type pdf)
@@ -3427,7 +3424,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [105 <./Figures/4ResearchAndDevelopments/41Fibers/LED_TRITIUM_1_std.pdf, page i
 s rotated 90 degrees>]
 <Figures/4ResearchAndDevelopments/41Fibers/PCBNoGainPlateau_Calibrated.pdf, id=
-2627, 569.12625pt x 300.12125pt>
+2628, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/PCBNoGainPlateau_Calibrated.pdf
  Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/PCBNoGainPlateau_Calibrated.pdf>
@@ -3449,7 +3446,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [106 <./Figures/4ResearchAndDevelopments/41Fibers/PCBNoGainPlateau_Calibrated.p
 df, page is rotated 90 degrees>]
 <Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_30_range.png, id=26
-77, 1494.58376pt x 756.8275pt>
+78, 1494.58376pt x 756.8275pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_30_range.png G
 raphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_30_range.png>
@@ -3457,7 +3454,7 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/Linearity_te
 st_0_30_range.png  used on input line 52.
 (pdftex.def)             Requested size: 597.8229pt x 302.72563pt.
 <Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_2500_range.png, id=
-2678, 1491.5725pt x 752.8125pt>
+2679, 1491.5725pt x 752.8125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_2500_range.png
  Graphic file (type png)
 <use Figures/4ResearchAndDevelopments/41Fibers/Linearity_test_0_2500_range.png>
@@ -3495,7 +3492,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [109]
 <Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_NoClad.pdf, id=
-2704, 569.12625pt x 300.12125pt>
+2705, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_NoClad.pdf
  Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_NoClad.pdf>
@@ -3509,7 +3506,7 @@ Overfull \hbox (14.27345pt too wide) in paragraph at lines 46--47
  []
 
 <Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_SingleClad.pdf,
- id=2705, 569.12625pt x 300.12125pt>
+ id=2706, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_SingleClad
 .pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_SingleClad.
@@ -3518,7 +3515,7 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/41Fibers/10_Different
 _samples_SingleClad.pdf  used on input line 60.
 (pdftex.def)             Requested size: 384.11221pt x 202.56393pt.
 <Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_MultiClad.pdf, 
-id=2706, 569.12625pt x 300.12125pt>
+id=2707, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_MultiClad.
 pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/10_Different_samples_MultiClad.p
@@ -3538,7 +3535,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Figures/4ResearchAndDevelopments/41Fibers/10_Different_Samples_Average_3_Fiber
-_Types.pdf, id=2710, 569.12625pt x 300.12125pt>
+_Types.pdf, id=2711, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/41Fibers/10_Different_Samples_Average_3_
 Fiber_Types.pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/41Fibers/10_Different_Samples_Average_3_F
@@ -3602,7 +3599,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [115]
-<Figures/4ResearchAndDevelopments/42SiPM/IVCurveSiPMForward.pdf, id=2927, 569.1
+<Figures/4ResearchAndDevelopments/42SiPM/IVCurveSiPMForward.pdf, id=2929, 569.1
 2625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/42SiPM/IVCurveSiPMForward.pdf Graphic fi
 le (type pdf)
@@ -3610,7 +3607,7 @@ le (type pdf)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/42SiPM/IVCurveSiPMFor
 ward.pdf  used on input line 11.
 (pdftex.def)             Requested size: 345.69864pt x 182.30891pt.
-<Figures/4ResearchAndDevelopments/42SiPM/IVCurveSiPMReverse.pdf, id=2928, 569.1
+<Figures/4ResearchAndDevelopments/42SiPM/IVCurveSiPMReverse.pdf, id=2930, 569.1
 2625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/42SiPM/IVCurveSiPMReverse.pdf Graphic fi
 le (type pdf)
@@ -3638,7 +3635,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [117 <./Figures/4ResearchAndDevelopments/42SiPM/IVCurveSiPMForward.pdf, page is
  rotated 90 degrees> <./Figures/4ResearchAndDevelopments/42SiPM/IVCurveSiPMReve
 rse.pdf, page is rotated 90 degrees>]
-<Figures/4ResearchAndDevelopments/42SiPM/SiPMPulses_SPS_Spectrum.png, id=3035, 
+<Figures/4ResearchAndDevelopments/42SiPM/SiPMPulses_SPS_Spectrum.png, id=3036, 
 1128.215pt x 508.90125pt>
 File: Figures/4ResearchAndDevelopments/42SiPM/SiPMPulses_SPS_Spectrum.png Graph
 ic file (type png)
@@ -3657,7 +3654,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [118]
-<Figures/4ResearchAndDevelopments/42SiPM/GaussianFitSPSSpectrum.pdf, id=3045, 5
+<Figures/4ResearchAndDevelopments/42SiPM/GaussianFitSPSSpectrum.pdf, id=3046, 5
 69.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/42SiPM/GaussianFitSPSSpectrum.pdf Graphi
 c file (type pdf)
@@ -3665,7 +3662,7 @@ c file (type pdf)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/42SiPM/GaussianFitSPS
 Spectrum.pdf  used on input line 60.
 (pdftex.def)             Requested size: 345.69864pt x 182.30891pt.
-<Figures/4ResearchAndDevelopments/42SiPM/LinearFit_Gain_NPixels.pdf, id=3046, 5
+<Figures/4ResearchAndDevelopments/42SiPM/LinearFit_Gain_NPixels.pdf, id=3047, 5
 69.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/42SiPM/LinearFit_Gain_NPixels.pdf Graphi
 c file (type pdf)
@@ -3690,7 +3687,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [120 <./Figures/4ResearchAndDevelopments/42SiPM/GaussianFitSPSSpectrum.pdf, pag
 e is rotated 90 degrees> <./Figures/4ResearchAndDevelopments/42SiPM/LinearFit_G
 ain_NPixels.pdf, page is rotated 90 degrees>]
-<Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Temperature.pdf, id=3148, 
+<Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Temperature.pdf, id=3149, 
 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Temperature.pdf Graph
 ic file (type pdf)
@@ -3698,7 +3695,7 @@ ic file (type pdf)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Te
 mperature.pdf  used on input line 85.
 (pdftex.def)             Requested size: 345.69864pt x 182.30891pt.
-<Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Bias_Voltage.pdf, id=3149,
+<Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Bias_Voltage.pdf, id=3150,
  569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_vs_Bias_Voltage.pdf Grap
 hic file (type pdf)
@@ -3737,7 +3734,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [123]
 <Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_Stabilization_linear_fit.pdf,
- id=3256, 569.12625pt x 300.12125pt>
+ id=3257, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_Stabilization_linear_fit
 .pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/42SiPM/SiPMGain_Stabilization_linear_fit.
@@ -3793,7 +3790,7 @@ Overfull \hbox (5.98834pt too wide) in paragraph at lines 3--4
  was checked.
  []
 
-<Figures/4ResearchAndDevelopments/43CosmicVetos/VetoPoints.png, id=3336, 313.92
+<Figures/4ResearchAndDevelopments/43CosmicVetos/VetoPoints.png, id=3337, 313.92
 28pt x 448.67625pt>
 File: Figures/4ResearchAndDevelopments/43CosmicVetos/VetoPoints.png Graphic fil
 e (type png)
@@ -3805,7 +3802,7 @@ nts.png  used on input line 7.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Figures/4ResearchAndDevelopments/43CosmicVetos/CoverageStudy_more_rebin.pdf, i
-d=3338, 569.12625pt x 300.12125pt>
+d=3339, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/43CosmicVetos/CoverageStudy_more_rebin.p
 df Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/43CosmicVetos/CoverageStudy_more_rebin.pd
@@ -3828,7 +3825,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [128]
-<Figures/4ResearchAndDevelopments/43CosmicVetos/MappingVeto1.png, id=3345, 773.
+<Figures/4ResearchAndDevelopments/43CosmicVetos/MappingVeto1.png, id=3346, 773.
 89125pt x 476.53032pt>
 File: Figures/4ResearchAndDevelopments/43CosmicVetos/MappingVeto1.png Graphic f
 ile (type png)
@@ -3836,7 +3833,7 @@ ile (type png)
 Package pdftex.def Info: Figures/4ResearchAndDevelopments/43CosmicVetos/Mapping
 Veto1.png  used on input line 54.
 (pdftex.def)             Requested size: 345.69864pt x 212.86607pt.
-<Figures/4ResearchAndDevelopments/43CosmicVetos/MappingVeto2.png, id=3346, 747.
+<Figures/4ResearchAndDevelopments/43CosmicVetos/MappingVeto2.png, id=3347, 747.
 54282pt x 478.78876pt>
 File: Figures/4ResearchAndDevelopments/43CosmicVetos/MappingVeto2.png Graphic f
 ile (type png)
@@ -3875,7 +3872,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [131 <./Figures/4ResearchAndDevelopments/43CosmicVetos/MappingVeto1.png> <./Fig
 ures/4ResearchAndDevelopments/43CosmicVetos/MappingVeto2.png>]
 <Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_HV_VETOS.pdf
-, id=3415, 569.12625pt x 300.12125pt>
+, id=3416, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_HV_VETO
 S.pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_HV_VETOS
@@ -3884,7 +3881,7 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_
 for_several_HV_VETOS.pdf  used on input line 77.
 (pdftex.def)             Requested size: 307.29094pt x 162.0539pt.
 <Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_thresholds_V
-ETOS.pdf, id=3416, 569.12625pt x 300.12125pt>
+ETOS.pdf, id=3417, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_thresho
 lds_VETOS.pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_for_several_threshol
@@ -3893,7 +3890,7 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/43CosmicVetos/Counts_
 for_several_thresholds_VETOS.pdf  used on input line 83.
 (pdftex.def)             Requested size: 307.29094pt x 162.0539pt.
 <Figures/4ResearchAndDevelopments/43CosmicVetos/Cosmic_Energy_Spectrum_36_cm_La
-ndau_Function.pdf, id=3418, 569.12625pt x 300.12125pt>
+ndau_Function.pdf, id=3419, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/43CosmicVetos/Cosmic_Energy_Spectrum_36_
 cm_Landau_Function.pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/43CosmicVetos/Cosmic_Energy_Spectrum_36_c
@@ -3906,7 +3903,7 @@ Energy_Spectrum_36_cm_Landau_Function.pdf  used on input line 94.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Figures/4ResearchAndDevelopments/43CosmicVetos/Energy_Plots_SeveralDistance_Ve
-to.pdf, id=3423, 569.12625pt x 300.12125pt>
+to.pdf, id=3424, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/43CosmicVetos/Energy_Plots_SeveralDistan
 ce_Veto.pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/43CosmicVetos/Energy_Plots_SeveralDistanc
@@ -3915,7 +3912,7 @@ Package pdftex.def Info: Figures/4ResearchAndDevelopments/43CosmicVetos/Energy_
 Plots_SeveralDistance_Veto.pdf  used on input line 116.
 (pdftex.def)             Requested size: 326.49771pt x 172.17912pt.
 <Figures/4ResearchAndDevelopments/43CosmicVetos/Pol2Fit_SeveralDistance_Veto.pd
-f, id=3424, 569.12625pt x 300.12125pt>
+f, id=3425, 569.12625pt x 300.12125pt>
 File: Figures/4ResearchAndDevelopments/43CosmicVetos/Pol2Fit_SeveralDistance_Ve
 to.pdf Graphic file (type pdf)
 <use Figures/4ResearchAndDevelopments/43CosmicVetos/Pol2Fit_SeveralDistance_Vet
@@ -3978,7 +3975,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [138]
 <Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Metalic_piece_of_fi
-ber_bundle.png, id=3684, 685.56125pt x 437.635pt>
+ber_bundle.png, id=3685, 685.56125pt x 437.635pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Metalic_piece_
 of_fiber_bundle.png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Metalic_piece_o
@@ -3987,7 +3984,7 @@ Package pdftex.def Info: Figures/5Prototypes/52PreliminarPrototypes/521TritiumI
 FIC0/Metalic_piece_of_fiber_bundle.png  used on input line 11.
 (pdftex.def)             Requested size: 192.0561pt x 122.59706pt.
 <Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/FiberBundleBent.png
-, id=3685, 643.40375pt x 508.90125pt>
+, id=3686, 643.40375pt x 508.90125pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/FiberBundleBen
 t.png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/FiberBundleBent
@@ -3996,7 +3993,7 @@ Package pdftex.def Info: Figures/5Prototypes/52PreliminarPrototypes/521TritiumI
 FIC0/FiberBundleBent.png  used on input line 17.
 (pdftex.def)             Requested size: 153.64253pt x 121.52534pt.
 <Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/FiberBundleStraight
-.png, id=3686, 799.98875pt x 139.52126pt>
+.png, id=3687, 799.98875pt x 139.52126pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/FiberBundleStr
 aight.png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/FiberBundleStra
@@ -4005,7 +4002,7 @@ Package pdftex.def Info: Figures/5Prototypes/52PreliminarPrototypes/521TritiumI
 FIC0/FiberBundleStraight.png  used on input line 23.
 (pdftex.def)             Requested size: 268.87737pt x 46.8937pt.
 <Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Tritium_IFIC_0.jpg,
- id=3687, 2569.6pt x 1927.2pt>
+ id=3688, 2569.6pt x 1927.2pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Tritium_IFIC_0
 .jpg Graphic file (type jpg)
 <use Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Tritium_IFIC_0.
@@ -4039,7 +4036,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [140 <./Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Tritium_IFIC
 _0.jpg>]
 <Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/PMMA_vessel_ZOOM.pn
-g, id=3705, 433.62pt x 355.3275pt>
+g, id=3706, 433.62pt x 355.3275pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/PMMA_vessel_ZO
 OM.png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/PMMA_vessel_ZOO
@@ -4048,7 +4045,7 @@ Package pdftex.def Info: Figures/5Prototypes/52PreliminarPrototypes/521TritiumI
 FIC0/PMMA_vessel_ZOOM.png  used on input line 45.
 (pdftex.def)             Requested size: 172.84932pt x 141.6405pt.
 <Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Lost_Photons.jpg, i
-d=3706, 2569.6pt x 1927.2pt>
+d=3707, 2569.6pt x 1927.2pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Lost_Photons.j
 pg Graphic file (type jpg)
 <use Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Lost_Photons.jp
@@ -4070,7 +4067,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ZOOM.png> <./Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Lost_Ph
 otons.jpg>]
 <Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/TritiumIFIC0Signals
-.pdf, id=3716, 569.12625pt x 300.12125pt>
+.pdf, id=3717, 569.12625pt x 300.12125pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/TritiumIFIC0Si
 gnals.pdf Graphic file (type pdf)
 <use Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/TritiumIFIC0Sig
@@ -4079,7 +4076,7 @@ Package pdftex.def Info: Figures/5Prototypes/52PreliminarPrototypes/521TritiumI
 FIC0/TritiumIFIC0Signals.pdf  used on input line 65.
 (pdftex.def)             Requested size: 384.11221pt x 202.56393pt.
 <Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/TritiumIFIC0ClearRe
-bin.pdf, id=3717, 569.12625pt x 300.12125pt>
+bin.pdf, id=3718, 569.12625pt x 300.12125pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/TritiumIFIC0Cl
 earRebin.pdf Graphic file (type pdf)
 <use Figures/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/TritiumIFIC0Cle
@@ -4113,7 +4110,7 @@ Signals.pdf, page is rotated 90 degrees> <./Figures/5Prototypes/52PreliminarPro
 totypes/521TritiumIFIC0/TritiumIFIC0ClearRebin.pdf, page is rotated 90 degrees>
 ]
 <Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/FiberMatrixTeflonSt
-ructure.png, id=3820, 810.02625pt x 420.57124pt>
+ructure.png, id=3821, 810.02625pt x 420.57124pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/FiberMatrixTef
 lonStructure.png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/FiberMatrixTefl
@@ -4126,7 +4123,7 @@ FIC1/FiberMatrixTeflonStructure.png  used on input line 17.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TeflonVesselTritium
-IFIC1a.png, id=3822, 296.10625pt x 511.9125pt>
+IFIC1a.png, id=3823, 296.10625pt x 511.9125pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TeflonVesselTr
 itiumIFIC1a.png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TeflonVesselTri
@@ -4135,7 +4132,7 @@ Package pdftex.def Info: Figures/5Prototypes/52PreliminarPrototypes/522TritiumI
 FIC1/TeflonVesselTritiumIFIC1a.png  used on input line 26.
 (pdftex.def)             Requested size: 115.23483pt x 199.21545pt.
 <Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TeflonVesselTritium
-IFIC1b.png, id=3823, 452.69125pt x 471.7625pt>
+IFIC1b.png, id=3824, 452.69125pt x 471.7625pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TeflonVesselTr
 itiumIFIC1b.png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TeflonVesselTri
@@ -4144,7 +4141,7 @@ Package pdftex.def Info: Figures/5Prototypes/52PreliminarPrototypes/522TritiumI
 FIC1/TeflonVesselTritiumIFIC1b.png  used on input line 32.
 (pdftex.def)             Requested size: 172.84932pt x 180.12822pt.
 <Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1a.png, 
-id=3826, 365.365pt x 584.1825pt>
+id=3827, 365.365pt x 584.1825pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1a.
 png Graphic file (type png)
 <use Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1a.p
@@ -4163,7 +4160,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [144]
 <Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1Signals
-.pdf, id=3841, 569.12625pt x 300.12125pt>
+.pdf, id=3842, 569.12625pt x 300.12125pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1Si
 gnals.pdf Graphic file (type pdf)
 <use Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1Sig
@@ -4172,7 +4169,7 @@ Package pdftex.def Info: Figures/5Prototypes/52PreliminarPrototypes/522TritiumI
 FIC1/TritiumIFIC1Signals.pdf  used on input line 74.
 (pdftex.def)             Requested size: 384.11221pt x 202.56393pt.
 <Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1Clear.p
-df, id=3842, 569.12625pt x 300.12125pt>
+df, id=3843, 569.12625pt x 300.12125pt>
 File: Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1Cl
 ear.pdf Graphic file (type pdf)
 <use Figures/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1Cle
@@ -4243,7 +4240,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [150]
 <Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/GeneralViewOfAveiroProt
-otype.png, id=3968, 621.32124pt x 239.89626pt>
+otype.png, id=3969, 621.32124pt x 239.89626pt>
 File: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/GeneralViewOfAveir
 oPrototype.png Graphic file (type png)
 <use Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/GeneralViewOfAveiro
@@ -4252,7 +4249,7 @@ Package pdftex.def Info: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro
 /GeneralViewOfAveiroPrototype.png  used on input line 5.
 (pdftex.def)             Requested size: 248.5241pt x 95.95679pt.
 <Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TeflonVessel_Fibers.png
-, id=3969, 493.845pt x 373.395pt>
+, id=3970, 493.845pt x 373.395pt>
 File: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TeflonVessel_Fiber
 s.png Graphic file (type png)
 <use Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/TeflonVessel_Fibers
@@ -4281,7 +4278,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [152]
 <Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/LeadShieldTest.png, id=
-3994, 605.26125pt x 601.24625pt>
+3995, 605.26125pt x 601.24625pt>
 File: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/LeadShieldTest.png
  Graphic file (type png)
 <use Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/LeadShieldTest.png>
@@ -4305,7 +4302,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [153]
 <Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Tritium_1min.png, id=40
-04, 590.205pt x 604.2575pt>
+05, 590.205pt x 604.2575pt>
 File: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Tritium_1min.png G
 raphic file (type png)
 <use Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Tritium_1min.png>
@@ -4313,7 +4310,7 @@ Package pdftex.def Info: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro
 /Tritium_1min.png  used on input line 65.
 (pdftex.def)             Requested size: 172.84932pt x 176.96358pt.
 <Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Tritium_Gaus_1_min.png,
- id=4005, 586.19pt x 616.3025pt>
+ id=4006, 586.19pt x 616.3025pt>
 File: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Tritium_Gaus_1_min
 .png Graphic file (type png)
 <use Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Tritium_Gaus_1_min.
@@ -4346,7 +4343,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 > <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Tritium_Gaus_1_min.
 png>]
 <Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Tritium_60min.png, id=4
-028, 598.235pt x 608.2725pt>
+029, 598.235pt x 608.2725pt>
 File: Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Tritium_60min.png 
 Graphic file (type png)
 <use Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Tritium_60min.png>
@@ -4366,7 +4363,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [156]
 <Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_full_modu
-le.jpg, id=4040, 841.64438pt x 508.14844pt>
+le.jpg, id=4041, 841.64438pt x 508.14844pt>
 File: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_full
 _module.jpg Graphic file (type jpg)
 <use Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_full_
@@ -4379,7 +4376,7 @@ Tritium_IFIC_2_full_module.jpg  used on input line 5.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_vessel1.p
-ng, id=4041, 360.34625pt x 532.99126pt>
+ng, id=4042, 360.34625pt x 532.99126pt>
 File: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_vess
 el1.png Graphic file (type png)
 <use Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_vesse
@@ -4388,7 +4385,7 @@ Package pdftex.def Info: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/
 Tritium_IFIC_2_vessel1.png  used on input line 13.
 (pdftex.def)             Requested size: 134.4416pt x 198.8465pt.
 <Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_vessel2.p
-ng, id=4042, 309.155pt x 533.995pt>
+ng, id=4043, 309.155pt x 533.995pt>
 File: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_vess
 el2.png Graphic file (type png)
 <use Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2_vesse
@@ -4405,7 +4402,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [157 <./Figures/5Prototypes/53FinalPrototypes/531TritiumAveiro/Tritium_60min.pn
 g>]
 <Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TransmissionSpectrumPMMA
-_cut_at_low_energy.pdf, id=4049, 569.12625pt x 303.1325pt>
+_cut_at_low_energy.pdf, id=4050, 569.12625pt x 303.1325pt>
 File: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TransmissionSpectru
 mPMMA_cut_at_low_energy.pdf Graphic file (type pdf)
 <use Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TransmissionSpectrum
@@ -4417,7 +4414,7 @@ TransmissionSpectrumPMMA_cut_at_low_energy.pdf  used on input line 30.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/GUI_PETSYS.png, id=4053,
+<Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/GUI_PETSYS.png, id=4054,
  765.86125pt x 520.94624pt>
 File: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/GUI_PETSYS.png Grap
 hic file (type png)
@@ -4461,7 +4458,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [160 <./Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TransmissionSpect
 rumPMMA_cut_at_low_energy.pdf, page is rotated 90 degrees>]
 <Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TritiumIFIC2SignalsHighe
-rZOOM_NP.pdf, id=4115, 569.12625pt x 300.12125pt>
+rZOOM_NP.pdf, id=4116, 569.12625pt x 300.12125pt>
 File: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TritiumIFIC2Signals
 HigherZOOM_NP.pdf Graphic file (type pdf)
 <use Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TritiumIFIC2SignalsH
@@ -4470,7 +4467,7 @@ Package pdftex.def Info: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/
 TritiumIFIC2SignalsHigherZOOM_NP.pdf  used on input line 54.
 (pdftex.def)             Requested size: 280.40027pt x 147.87126pt.
 <Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TritiumIFIC2ClearHigherZ
-OOM_NP.pdf, id=4116, 569.12625pt x 300.12125pt>
+OOM_NP.pdf, id=4117, 569.12625pt x 300.12125pt>
 File: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TritiumIFIC2ClearHi
 gherZOOM_NP.pdf Graphic file (type pdf)
 <use Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TritiumIFIC2ClearHig
@@ -4503,7 +4500,7 @@ lsHigherZOOM_NP.pdf, page is rotated 90 degrees> <./Figures/5Prototypes/53Final
 Prototypes/532TritiumIFIC2/TritiumIFIC2ClearHigherZOOM_NP.pdf, page is rotated 
 90 degrees>]
 <Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/SinglePhotonDistribution
-2.pdf, id=4217, 569.12625pt x 300.12125pt>
+2.pdf, id=4218, 569.12625pt x 300.12125pt>
 File: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/SinglePhotonDistrib
 ution2.pdf Graphic file (type pdf)
 <use Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/SinglePhotonDistribu
@@ -4512,7 +4509,7 @@ Package pdftex.def Info: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/
 SinglePhotonDistribution2.pdf  used on input line 92.
 (pdftex.def)             Requested size: 280.40027pt x 147.87126pt.
 <Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/PhotonsPerTritiumEvent.p
-df, id=4218, 569.12625pt x 300.12125pt>
+df, id=4219, 569.12625pt x 300.12125pt>
 File: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/PhotonsPerTritiumEv
 ent.pdf Graphic file (type pdf)
 <use Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/PhotonsPerTritiumEve
@@ -4521,7 +4518,7 @@ Package pdftex.def Info: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/
 PhotonsPerTritiumEvent.pdf  used on input line 98.
 (pdftex.def)             Requested size: 280.40027pt x 147.87126pt.
 <Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Signal_Background_stabil
-ity_ZOOM.pdf, id=4220, 569.12625pt x 300.12125pt>
+ity_ZOOM.pdf, id=4221, 569.12625pt x 300.12125pt>
 File: Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Signal_Background_s
 tability_ZOOM.pdf Graphic file (type pdf)
 <use Figures/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Signal_Background_st
@@ -4563,7 +4560,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 _stability_ZOOM.pdf, page is rotated 90 degrees>])
 (./Sections/5Prototypes/53LastestPrototypes/534ArrocampoMesaurements.tex
 <Figures/5Prototypes/54ArrocampoMeasurements/721TRITIUMAVEIRO0/BackgroundMeasur
-ements.png, id=4368, 656.4525pt x 617.30624pt>
+ements.png, id=4369, 656.4525pt x 617.30624pt>
 File: Figures/5Prototypes/54ArrocampoMeasurements/721TRITIUMAVEIRO0/BackgroundM
 easurements.png Graphic file (type png)
 <use Figures/5Prototypes/54ArrocampoMeasurements/721TRITIUMAVEIRO0/BackgroundMe
@@ -4599,7 +4596,7 @@ Overfull \hbox (8.83464pt too wide) in paragraph at lines 5--6
  be-low $\OT1/cmr/m/n/12 200 [][]$\T1/cmr/m/n/12 ). 
  []
 
-<Figures/5Prototypes/55ModularTritiumDetector/FinalTritium.png, id=4383, 576.15
+<Figures/5Prototypes/55ModularTritiumDetector/FinalTritium.png, id=4384, 576.15
 25pt x 397.485pt>
 File: Figures/5Prototypes/55ModularTritiumDetector/FinalTritium.png Graphic fil
 e (type png)
@@ -4628,7 +4625,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [169 <./Figures/5Prototypes/55ModularTritiumDetector/FinalTritium.png>]
 <Figures/5Prototypes/55ModularTritiumDetector/Tritium_Detector_Based_On_Tritium
-_IFIC_2.PNG, id=4396, 413.29407pt x 394.47375pt>
+_IFIC_2.PNG, id=4397, 413.29407pt x 394.47375pt>
 File: Figures/5Prototypes/55ModularTritiumDetector/Tritium_Detector_Based_On_Tr
 itium_IFIC_2.PNG Graphic file (type png)
 <use Figures/5Prototypes/55ModularTritiumDetector/Tritium_Detector_Based_On_Tri
@@ -4676,7 +4673,7 @@ i-tium events,
  []
 
 <Figures/6Simulations/61TRITIUMDesign/611TritiumSourceOptimization/TritiumSourc
-eEnergyDistribution.png, id=4435, 321.45094pt x 301.125pt>
+eEnergyDistribution.png, id=4436, 321.45094pt x 301.125pt>
 File: Figures/6Simulations/61TRITIUMDesign/611TritiumSourceOptimization/Tritium
 SourceEnergyDistribution.png Graphic file (type png)
 <use Figures/6Simulations/61TRITIUMDesign/611TritiumSourceOptimization/TritiumS
@@ -4685,7 +4682,7 @@ Package pdftex.def Info: Figures/6Simulations/61TRITIUMDesign/611TritiumSourceO
 ptimization/TritiumSourceEnergyDistribution.png  used on input line 9.
 (pdftex.def)             Requested size: 172.84932pt x 161.92503pt.
 <Figures/6Simulations/61TRITIUMDesign/611TritiumSourceOptimization/Source_Spect
-rum_yes_and_non_detected_events.png, id=4436, 491.58656pt x 472.76625pt>
+rum_yes_and_non_detected_events.png, id=4437, 491.58656pt x 472.76625pt>
 File: Figures/6Simulations/61TRITIUMDesign/611TritiumSourceOptimization/Source_
 Spectrum_yes_and_non_detected_events.png Graphic file (type png)
 <use Figures/6Simulations/61TRITIUMDesign/611TritiumSourceOptimization/Source_S
@@ -4708,7 +4705,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 umSourceEnergyDistribution.png> <./Figures/6Simulations/61TRITIUMDesign/611Trit
 iumSourceOptimization/Source_Spectrum_yes_and_non_detected_events.png>]
 <Figures/6Simulations/61TRITIUMDesign/611TritiumSourceOptimization/Source_Ring.
-png, id=4449, 632.3625pt x 630.355pt>
+png, id=4450, 632.3625pt x 630.355pt>
 File: Figures/6Simulations/61TRITIUMDesign/611TritiumSourceOptimization/Source_
 Ring.png Graphic file (type png)
 <use Figures/6Simulations/61TRITIUMDesign/611TritiumSourceOptimization/Source_R
@@ -4717,7 +4714,7 @@ Package pdftex.def Info: Figures/6Simulations/61TRITIUMDesign/611TritiumSourceO
 ptimization/Source_Ring.png  used on input line 28.
 (pdftex.def)             Requested size: 172.84932pt x 172.29494pt.
 <Figures/6Simulations/61TRITIUMDesign/611TritiumSourceOptimization/SourceDistan
-ce.png, id=4450, 477.28313pt x 470.50781pt>
+ce.png, id=4451, 477.28313pt x 470.50781pt>
 File: Figures/6Simulations/61TRITIUMDesign/611TritiumSourceOptimization/SourceD
 istance.png Graphic file (type png)
 <use Figures/6Simulations/61TRITIUMDesign/611TritiumSourceOptimization/SourceDi
@@ -4747,7 +4744,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 e_Ring.png> <./Figures/6Simulations/61TRITIUMDesign/611TritiumSourceOptimizatio
 n/SourceDistance.png>]
 <Figures/6Simulations/61TRITIUMDesign/612Outputlight/InitialandFinalTritiumEner
-gy.png, id=4469, 892.33376pt x 873.2625pt>
+gy.png, id=4470, 892.33376pt x 873.2625pt>
 File: Figures/6Simulations/61TRITIUMDesign/612Outputlight/InitialandFinalTritiu
 mEnergy.png Graphic file (type png)
 <use Figures/6Simulations/61TRITIUMDesign/612Outputlight/InitialandFinalTritium
@@ -4756,7 +4753,7 @@ Package pdftex.def Info: Figures/6Simulations/61TRITIUMDesign/612Outputlight/In
 itialandFinalTritiumEnergy.png  used on input line 14.
 (pdftex.def)             Requested size: 267.7022pt x 261.98076pt.
 <Figures/6Simulations/61TRITIUMDesign/612Outputlight/BirksEnergyDistribution.pn
-g, id=4473, 918.43124pt x 887.315pt>
+g, id=4474, 918.43124pt x 887.315pt>
 File: Figures/6Simulations/61TRITIUMDesign/612Outputlight/BirksEnergyDistributi
 on.png Graphic file (type png)
 <use Figures/6Simulations/61TRITIUMDesign/612Outputlight/BirksEnergyDistributio
@@ -4777,7 +4774,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [177 <./Figures/6Simulations/61TRITIUMDesign/612Outputlight/InitialandFinalTrit
 iumEnergy.png>]
 <Figures/6Simulations/61TRITIUMDesign/612Outputlight/BidimensionalPlotBirksOFF.
-png, id=4482, 870.25125pt x 841.1425pt>
+png, id=4483, 870.25125pt x 841.1425pt>
 File: Figures/6Simulations/61TRITIUMDesign/612Outputlight/BidimensionalPlotBirk
 sOFF.png Graphic file (type png)
 <use Figures/6Simulations/61TRITIUMDesign/612Outputlight/BidimensionalPlotBirks
@@ -4786,7 +4783,7 @@ Package pdftex.def Info: Figures/6Simulations/61TRITIUMDesign/612Outputlight/Bi
 dimensionalPlotBirksOFF.png  used on input line 32.
 (pdftex.def)             Requested size: 153.64253pt x 148.49846pt.
 <Figures/6Simulations/61TRITIUMDesign/612Outputlight/BidimensionalPlotBirksON.p
-ng, id=4483, 869.2475pt x 828.09375pt>
+ng, id=4484, 869.2475pt x 828.09375pt>
 File: Figures/6Simulations/61TRITIUMDesign/612Outputlight/BidimensionalPlotBirk
 sON.png Graphic file (type png)
 <use Figures/6Simulations/61TRITIUMDesign/612Outputlight/BidimensionalPlotBirks
@@ -4817,7 +4814,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 rksOFF.png> <./Figures/6Simulations/61TRITIUMDesign/612Outputlight/Bidimensiona
 lPlotBirksON.png>]
 <Figures/6Simulations/61TRITIUMDesign/613Length/CollectionPhotonsInFibers.png, 
-id=4499, 934.49126pt x 898.35625pt>
+id=4500, 934.49126pt x 898.35625pt>
 File: Figures/6Simulations/61TRITIUMDesign/613Length/CollectionPhotonsInFibers.
 png Graphic file (type png)
 <use Figures/6Simulations/61TRITIUMDesign/613Length/CollectionPhotonsInFibers.p
@@ -4834,7 +4831,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [180 <./Figures/6Simulations/61TRITIUMDesign/613Length/CollectionPhotonsInFiber
 s.png>]
-<Figures/6Simulations/61TRITIUMDesign/613Length/2DifferentLength.png, id=4508, 
+<Figures/6Simulations/61TRITIUMDesign/613Length/2DifferentLength.png, id=4509, 
 931.48pt x 922.44624pt>
 File: Figures/6Simulations/61TRITIUMDesign/613Length/2DifferentLength.png Graph
 ic file (type png)
@@ -4855,7 +4852,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [181 <./Figures/6Simulations/61TRITIUMDesign/613Length/2DifferentLength.png>]
 <Figures/6Simulations/61TRITIUMDesign/614Diameter/ComparisonDiameter.png, id=45
-20, 768.8725pt x 549.05125pt>
+21, 768.8725pt x 549.05125pt>
 File: Figures/6Simulations/61TRITIUMDesign/614Diameter/ComparisonDiameter.png G
 raphic file (type png)
 <use Figures/6Simulations/61TRITIUMDesign/614Diameter/ComparisonDiameter.png>
@@ -4886,7 +4883,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [183 <./Figures/6Simulations/61TRITIUMDesign/614Diameter/ComparisonDiameter.png
 >]
 <Figures/6Simulations/61TRITIUMDesign/615PMMA/PhotonsDetectedWaterFiber.png, id
-=4535, 957.5775pt x 931.48pt>
+=4536, 957.5775pt x 931.48pt>
 File: Figures/6Simulations/61TRITIUMDesign/615PMMA/PhotonsDetectedWaterFiber.pn
 g Graphic file (type png)
 <use Figures/6Simulations/61TRITIUMDesign/615PMMA/PhotonsDetectedWaterFiber.png
@@ -4908,7 +4905,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [184 <./Figures/6Simulations/61TRITIUMDesign/615PMMA/PhotonsDetectedWaterFiber.
 png>]
 <Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/FiberDistribution_Tritiu
-m_IFIC_2_simulation.png, id=4544, 590.205pt x 601.24625pt>
+m_IFIC_2_simulation.png, id=4545, 590.205pt x 601.24625pt>
 File: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/FiberDistribution_T
 ritium_IFIC_2_simulation.png Graphic file (type png)
 <use Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/FiberDistribution_Tr
@@ -4926,7 +4923,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [185 <./Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/FiberDistribution
 _Tritium_IFIC_2_simulation.png>]
 <Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/SimulationTritiumIFIC2.p
-ng, id=4554, 751.80875pt x 335.2525pt>
+ng, id=4555, 751.80875pt x 335.2525pt>
 File: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/SimulationTritiumIF
 IC2.png Graphic file (type png)
 <use Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/SimulationTritiumIFI
@@ -4935,7 +4932,7 @@ Package pdftex.def Info: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/
 SimulationTritiumIFIC2.png  used on input line 16.
 (pdftex.def)             Requested size: 300.71817pt x 134.09862pt.
 <Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/EventDetectedInTRITIUMIF
-IC2.png, id=4556, 995.72pt x 366.36874pt>
+IC2.png, id=4557, 995.72pt x 366.36874pt>
 File: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/EventDetectedInTRIT
 IUMIFIC2.png Graphic file (type png)
 <use Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/EventDetectedInTRITI
@@ -4953,7 +4950,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [186 <./Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/SimulationTritium
 IFIC2.png>]
 <Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/PhotonsDetected_simulati
-on.pdf, id=4564, 569.12625pt x 300.12125pt>
+on.pdf, id=4565, 569.12625pt x 300.12125pt>
 File: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/PhotonsDetected_sim
 ulation.pdf Graphic file (type pdf)
 <use Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/PhotonsDetected_simu
@@ -4982,7 +4979,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [188 <./Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/PhotonsDetected_s
 imulation.pdf, page is rotated 90 degrees>]
 <Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/RawData_1Det_10min_250Bq
-L.pdf, id=4623, 569.12625pt x 300.12125pt>
+L.pdf, id=4624, 569.12625pt x 300.12125pt>
 File: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/RawData_1Det_10min_
 250BqL.pdf Graphic file (type pdf)
 <use Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/RawData_1Det_10min_2
@@ -4991,7 +4988,7 @@ Package pdftex.def Info: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/
 RawData_1Det_10min_250BqL.pdf  used on input line 48.
 (pdftex.def)             Requested size: 268.87737pt x 141.7943pt.
 <Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_1Det_10min_250BqL_a
-nd_Gaus.pdf, id=4624, 569.12625pt x 300.12125pt>
+nd_Gaus.pdf, id=4625, 569.12625pt x 300.12125pt>
 File: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_1Det_10min_250
 BqL_and_Gaus.pdf Graphic file (type pdf)
 <use Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_1Det_10min_250B
@@ -5000,7 +4997,7 @@ Package pdftex.def Info: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/
 Dist_1Det_10min_250BqL_and_Gaus.pdf  used on input line 54.
 (pdftex.def)             Requested size: 268.87737pt x 141.7943pt.
 <Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_1Det_10min_250BqL.p
-ng, id=4625, 907.39pt x 501.875pt>
+ng, id=4626, 907.39pt x 501.875pt>
 File: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_1Det_10min_250
 BqL.png Graphic file (type png)
 <use Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_1Det_10min_250B
@@ -5009,7 +5006,7 @@ Package pdftex.def Info: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/
 Dist_1Det_10min_250BqL.png  used on input line 65.
 (pdftex.def)             Requested size: 230.46967pt x 127.46716pt.
 <Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_1Det_30min_250BqL.p
-ng, id=4626, 901.3675pt x 496.85625pt>
+ng, id=4627, 901.3675pt x 496.85625pt>
 File: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_1Det_30min_250
 BqL.png Graphic file (type png)
 <use Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_1Det_30min_250B
@@ -5018,7 +5015,7 @@ Package pdftex.def Info: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/
 Dist_1Det_30min_250BqL.png  used on input line 71.
 (pdftex.def)             Requested size: 230.46967pt x 127.03403pt.
 <Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_1Det_60min_250BqL.p
-ng, id=4627, 903.375pt x 497.86pt>
+ng, id=4628, 903.375pt x 497.86pt>
 File: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_1Det_60min_250
 BqL.png Graphic file (type png)
 <use Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_1Det_60min_250B
@@ -5034,7 +5031,7 @@ Package pdftex.def Info: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/
 Dist_1Det_10min_250BqL.png  used on input line 88.
 (pdftex.def)             Requested size: 230.46967pt x 127.46716pt.
 <Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_5Det_10min_250BqL.p
-ng, id=4628, 905.3825pt x 485.815pt>
+ng, id=4629, 905.3825pt x 485.815pt>
 File: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_5Det_10min_250
 BqL.png Graphic file (type png)
 <use Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_5Det_10min_250B
@@ -5043,7 +5040,7 @@ Package pdftex.def Info: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/
 Dist_5Det_10min_250BqL.png  used on input line 94.
 (pdftex.def)             Requested size: 230.46967pt x 123.6625pt.
 <Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_10Det_10min_250BqL.
-png, id=4629, 900.36375pt x 495.8525pt>
+png, id=4630, 900.36375pt x 495.8525pt>
 File: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_10Det_10min_25
 0BqL.png Graphic file (type png)
 <use Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_10Det_10min_250
@@ -5052,7 +5049,7 @@ Package pdftex.def Info: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/
 Dist_10Det_10min_250BqL.png  used on input line 100.
 (pdftex.def)             Requested size: 230.46967pt x 126.92116pt.
 <Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Results_Several_Times.pd
-f, id=4630, 569.12625pt x 300.12125pt>
+f, id=4631, 569.12625pt x 300.12125pt>
 File: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Results_Several_Tim
 es.pdf Graphic file (type pdf)
 <use Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Results_Several_Time
@@ -5061,7 +5058,7 @@ Package pdftex.def Info: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/
 Results_Several_Times.pdf  used on input line 111.
 (pdftex.def)             Requested size: 288.08415pt x 151.9241pt.
 <Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Results_Several_Detector
-s.pdf, id=4631, 569.12625pt x 300.12125pt>
+s.pdf, id=4632, 569.12625pt x 300.12125pt>
 File: Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Results_Several_Det
 ectors.pdf Graphic file (type pdf)
 <use Figures/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Results_Several_Dete
@@ -5127,7 +5124,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [194]
 <Figures/6Simulations/62TRITIUMMonitor/622BackgroundRejectionSystem/Suppression
-_of_cosmic_events.png, id=4838, 682.04813pt x 371.13657pt>
+_of_cosmic_events.png, id=4839, 682.04813pt x 371.13657pt>
 File: Figures/6Simulations/62TRITIUMMonitor/622BackgroundRejectionSystem/Suppre
 ssion_of_cosmic_events.png Graphic file (type png)
 <use Figures/6Simulations/62TRITIUMMonitor/622BackgroundRejectionSystem/Suppres
@@ -5286,7 +5283,7 @@ Appendix A.
 (./Sections/10Appendix/101SiPMsElectronicalSystemFutureCalibration.tex [213
 
 ]
-<Figures/3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg, id=4950,
+<Figures/3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg, id=4951,
  3131.7pt x 4175.6pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg Grap
 hic file (type jpg)
@@ -5294,7 +5291,7 @@ hic file (type jpg)
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/PCB1_SiPM
 _Black_Box.jpg  used on input line 18.
 (pdftex.def)             Requested size: 192.0561pt x 256.06834pt.
-<Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png, id=4951, 264.99pt
+<Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png, id=4952, 264.99pt
  x 264.99pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png Graphic file 
 (type png)
@@ -5302,7 +5299,7 @@ File: Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png Graphic file
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPM
 s.png  used on input line 24.
 (pdftex.def)             Requested size: 172.84932pt x 172.852pt.
-<Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png, id=4952, 705.6362
+<Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png, id=4953, 705.6362
 5pt x 497.86pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png Graphic file 
 (type png)
@@ -5310,7 +5307,7 @@ File: Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png Graphic file
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPM
 s.png  used on input line 30.
 (pdftex.def)             Requested size: 153.64253pt x 108.39761pt.
-<Figures/3DesignPrinciples/32Tritium_detector/LED_DUNE.pdf, id=4953, 569.12625p
+<Figures/3DesignPrinciples/32Tritium_detector/LED_DUNE.pdf, id=4954, 569.12625p
 t x 303.1325pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/LED_DUNE.pdf Graphic file (t
 ype pdf)
@@ -5348,7 +5345,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Appendix B.
 (./Sections/10Appendix/102UltraPureWaterSystem.tex
 <Figures/9Appendix/93UltraPureWaterSystem/SchemeUltraPureWaterSystem.png, id=50
-20, 1516.66624pt x 873.2625pt>
+21, 1516.66624pt x 873.2625pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/SchemeUltraPureWaterSystem.png G
 raphic file (type png)
 <use Figures/9Appendix/93UltraPureWaterSystem/SchemeUltraPureWaterSystem.png>
@@ -5357,7 +5354,7 @@ reWaterSystem.png  used on input line 7.
 (pdftex.def)             Requested size: 303.32788pt x 174.6494pt.
  [217 <./Figures/9Appendix/93UltraPureWaterSystem/SchemeUltraPureWaterSystem.pn
 g>]
-<Figures/9Appendix/93UltraPureWaterSystem/GrossFiltering.png, id=5027, 197.7387
+<Figures/9Appendix/93UltraPureWaterSystem/GrossFiltering.png, id=5028, 197.7387
 5pt x 261.97874pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/GrossFiltering.png Graphic file 
 (type png)
@@ -5365,7 +5362,7 @@ File: Figures/9Appendix/93UltraPureWaterSystem/GrossFiltering.png Graphic file
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/GrossFilterin
 g.png  used on input line 17.
 (pdftex.def)             Requested size: 115.23483pt x 152.67131pt.
-<Figures/9Appendix/93UltraPureWaterSystem/FineFiltering.png, id=5028, 355.3275p
+<Figures/9Appendix/93UltraPureWaterSystem/FineFiltering.png, id=5029, 355.3275p
 t x 476.78125pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/FineFiltering.png Graphic file (
 type png)
@@ -5373,7 +5370,7 @@ type png)
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/FineFiltering
 .png  used on input line 23.
 (pdftex.def)             Requested size: 115.23483pt x 154.62468pt.
-<Figures/9Appendix/93UltraPureWaterSystem/SuperFineFiltering.png, id=5029, 346.
+<Figures/9Appendix/93UltraPureWaterSystem/SuperFineFiltering.png, id=5030, 346.
 29375pt x 459.7175pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/SuperFineFiltering.png Graphic f
 ile (type png)
@@ -5381,7 +5378,7 @@ ile (type png)
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/SuperFineFilt
 ering.png  used on input line 29.
 (pdftex.def)             Requested size: 115.23483pt x 152.9769pt.
-<Figures/9Appendix/93UltraPureWaterSystem/Osmosi.png, id=5032, 339.2675pt x 453
+<Figures/9Appendix/93UltraPureWaterSystem/Osmosi.png, id=5033, 339.2675pt x 453
 .695pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/Osmosi.png Graphic file (type pn
 g)
@@ -5389,7 +5386,7 @@ g)
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/Osmosi.png  u
 sed on input line 42.
 (pdftex.def)             Requested size: 115.23483pt x 154.09503pt.
-<Figures/9Appendix/93UltraPureWaterSystem/Containers.png, id=5033, 620.3175pt x
+<Figures/9Appendix/93UltraPureWaterSystem/Containers.png, id=5034, 620.3175pt x
  435.6275pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/Containers.png Graphic file (typ
 e png)
@@ -5397,7 +5394,7 @@ e png)
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/Containers.pn
 g  used on input line 48.
 (pdftex.def)             Requested size: 192.0561pt x 134.8703pt.
-<Figures/9Appendix/93UltraPureWaterSystem/Siemens1.png, id=5035, 429.605pt x 23
+<Figures/9Appendix/93UltraPureWaterSystem/Siemens1.png, id=5036, 429.605pt x 23
 8.8925pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/Siemens1.png Graphic file (type 
 png)
@@ -5405,7 +5402,7 @@ png)
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/Siemens1.png 
  used on input line 61.
 (pdftex.def)             Requested size: 142.11963pt x 79.02795pt.
-<Figures/9Appendix/93UltraPureWaterSystem/Siemens2.png, id=5036, 517.935pt x 34
+<Figures/9Appendix/93UltraPureWaterSystem/Siemens2.png, id=5037, 517.935pt x 34
 6.29375pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/Siemens2.png Graphic file (type 
 png)
@@ -5413,7 +5410,7 @@ png)
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/Siemens2.png 
  used on input line 67.
 (pdftex.def)             Requested size: 115.23483pt x 77.04614pt.
-<Figures/9Appendix/93UltraPureWaterSystem/Siemens3.png, id=5037, 541.02126pt x 
+<Figures/9Appendix/93UltraPureWaterSystem/Siemens3.png, id=5038, 541.02126pt x 
 408.52625pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/Siemens3.png Graphic file (type 
 png)
@@ -5421,7 +5418,7 @@ png)
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/Siemens3.png 
  used on input line 73.
 (pdftex.def)             Requested size: 103.71193pt x 78.31271pt.
-<Figures/9Appendix/93UltraPureWaterSystem/CompleteSystem.png, id=5039, 568.1225
+<Figures/9Appendix/93UltraPureWaterSystem/CompleteSystem.png, id=5040, 568.1225
 pt x 249.93375pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/CompleteSystem.png Graphic file 
 (type png)
@@ -5429,7 +5426,7 @@ File: Figures/9Appendix/93UltraPureWaterSystem/CompleteSystem.png Graphic file
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/CompleteSyste
 m.png  used on input line 84.
 (pdftex.def)             Requested size: 340.87611pt x 149.9614pt.
-<Figures/9Appendix/93UltraPureWaterSystem/ThreeTypesOfWater.png, id=5041, 583.1
+<Figures/9Appendix/93UltraPureWaterSystem/ThreeTypesOfWater.png, id=5042, 583.1
 7876pt x 450.68375pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/ThreeTypesOfWater.png Graphic fi
 le (type png)
@@ -5480,7 +5477,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Appendix D.
 (./Sections/10Appendix/104ElectronicSystemAveiro.tex
-<Figures/9Appendix/94AveiroElectronics/TritiumHV-Board.pdf, id=5082, 845.1575pt
+<Figures/9Appendix/94AveiroElectronics/TritiumHV-Board.pdf, id=5083, 845.1575pt
  x 597.23125pt>
 File: Figures/9Appendix/94AveiroElectronics/TritiumHV-Board.pdf Graphic file (t
 ype pdf)
@@ -5488,7 +5485,7 @@ ype pdf)
 Package pdftex.def Info: Figures/9Appendix/94AveiroElectronics/TritiumHV-Board.
 pdf  used on input line 11.
 (pdftex.def)             Requested size: 172.84932pt x 122.14157pt.
-<Figures/9Appendix/94AveiroElectronics/GUIHVBoard.png, id=5083, 578.16pt x 600.
+<Figures/9Appendix/94AveiroElectronics/GUIHVBoard.png, id=5084, 578.16pt x 600.
 2425pt>
 File: Figures/9Appendix/94AveiroElectronics/GUIHVBoard.png Graphic file (type p
 ng)
@@ -5498,7 +5495,7 @@ used on input line 17.
 (pdftex.def)             Requested size: 172.84932pt x 179.45132pt.
  [223]
 <Figures/9Appendix/94AveiroElectronics/ElectronicSchemeCounterBoard.png, id=509
-5, 780.9175pt x 351.3125pt>
+6, 780.9175pt x 351.3125pt>
 File: Figures/9Appendix/94AveiroElectronics/ElectronicSchemeCounterBoard.png Gr
 aphic file (type png)
 <use Figures/9Appendix/94AveiroElectronics/ElectronicSchemeCounterBoard.png>
@@ -5530,7 +5527,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [225 <./Figures/9Appendix/94AveiroElectronics/ElectronicSchemeCounterBoard.png>
 ]
-<Figures/9Appendix/94AveiroElectronics/CounterGUI.png, id=5128, 888.31876pt x 5
+<Figures/9Appendix/94AveiroElectronics/CounterGUI.png, id=5129, 888.31876pt x 5
 53.06625pt>
 File: Figures/9Appendix/94AveiroElectronics/CounterGUI.png Graphic file (type p
 ng)
@@ -5554,7 +5551,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [226]
 <Figures/9Appendix/94AveiroElectronics/Event_accepted_Aveiro_prototype.png, id=
-5136, 413.545pt x 246.9225pt>
+5137, 413.545pt x 246.9225pt>
 File: Figures/9Appendix/94AveiroElectronics/Event_accepted_Aveiro_prototype.png
  Graphic file (type png)
 <use Figures/9Appendix/94AveiroElectronics/Event_accepted_Aveiro_prototype.png>
@@ -5563,7 +5560,7 @@ Package pdftex.def Info: Figures/9Appendix/94AveiroElectronics/Event_accepted_A
 veiro_prototype.png  used on input line 68.
 (pdftex.def)             Requested size: 161.32642pt x 96.32574pt.
 <Figures/9Appendix/94AveiroElectronics/Event_rejected_Aveiro_prototype.png, id=
-5137, 406.51875pt x 246.9225pt>
+5138, 406.51875pt x 246.9225pt>
 File: Figures/9Appendix/94AveiroElectronics/Event_rejected_Aveiro_prototype.png
  Graphic file (type png)
 <use Figures/9Appendix/94AveiroElectronics/Event_rejected_Aveiro_prototype.png>
@@ -6163,7 +6160,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 474--476
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 496--499
+Underfull \hbox (badness 1515) in paragraph at lines 502--505
 []\T1/cmr/m/n/12 Masuda, T. and Yosh-ioka, T. \T1/cmr/m/it/12 Es-ti-ma-tion of 
 ra-di-a-tion
  []
@@ -6182,60 +6179,60 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [243]
-Underfull \hbox (badness 2065) in paragraph at lines 542--544
+Underfull \hbox (badness 2065) in paragraph at lines 548--550
 []\T1/cmr/m/n/12 (NADS), P. N. D. \T1/cmr/m/it/12 Physics sim-u-la-tion pack-ag
 es, CRY
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 550--554
+Underfull \hbox (badness 1558) in paragraph at lines 556--560
 \T1/cmtt/m/n/12 oecd-[]nea . org / jcms / pl _ 23551 / finland$[] \T1/cmr/m/n/1
 2 (1993.) ac-cessed:
  []
 
 
-Underfull \hbox (badness 4132) in paragraph at lines 556--560
+Underfull \hbox (badness 4132) in paragraph at lines 562--566
 []\T1/cmr/m/n/12 News, E. \T1/cmr/m/it/12 Es-ta-dos Unidos anun-cia una in-ver-
 sión de
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 556--560
+Underfull \hbox (badness 1796) in paragraph at lines 562--566
 \T1/cmr/m/it/12 35 mil-lones para las cen-trales nu-cle-ares []$\T1/cmtt/m/n/12
  https : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--560
+Underfull \hbox (badness 10000) in paragraph at lines 562--566
 \T1/cmtt/m/n/12 energynews . es / estados-[]unidos-[]centrales-[]nucleares/$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--571
+Underfull \hbox (badness 10000) in paragraph at lines 573--577
 []$\T1/cmtt/m/n/12 https : / / oehha . ca . gov / water / public-[]health-[]goa
 l /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--571
+Underfull \hbox (badness 10000) in paragraph at lines 573--577
 \T1/cmtt/m/n/12 public-[]health-[]goals-[]six-[]chemicals-[]drinking-[]water$[]
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--575
+Underfull \hbox (badness 10000) in paragraph at lines 579--581
 []\T1/cmr/m/n/12 Optoelectronics, O. \T1/cmr/m/it/12 Char-ac-ter-is-tics and Ap
 -pli-ca-tions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--575
+Underfull \hbox (badness 10000) in paragraph at lines 579--581
 []$\T1/cmtt/m/n/12 https : / / osioptoelectronics . com / standard-[]products /
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--575
+Underfull \hbox (badness 10000) in paragraph at lines 579--581
 \T1/cmtt/m/n/12 default . aspx ? gclid = EAIaIQobChMIkYrLif _
  []
 
@@ -6246,44 +6243,38 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [244]
-Underfull \hbox (badness 10000) in paragraph at lines 581--583
+Underfull \hbox (badness 10000) in paragraph at lines 587--589
 []\T1/cmr/m/n/12 ORTEC \T1/cmr/m/it/12 Model 575A Am-pli-fier, Man-ual ref-er-e
 nce.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--583
+Underfull \hbox (badness 10000) in paragraph at lines 587--589
 []$\T1/cmtt/m/n/12 https : / / www . ortec-[]online . com / products / electron
 ics /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--587
+Underfull \hbox (badness 10000) in paragraph at lines 591--593
 \T1/cmr/m/it/12 er-ence. []$\T1/cmtt/m/n/12 https : / / www . ortec-[]online . 
 com / products /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 589--591
+Underfull \hbox (badness 10000) in paragraph at lines 595--597
 []$\T1/cmtt/m/n/12 https : / / www . ortec-[]online . com / products / electron
 ics /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--596
+Underfull \hbox (badness 10000) in paragraph at lines 599--602
 \T1/cmtt/m/n/12 products / electronics / fast-[]timing-[]discriminators /
  []
 
 
-Underfull \hbox (badness 5563) in paragraph at lines 606--609
+Underfull \hbox (badness 5563) in paragraph at lines 612--615
 \T1/cmr/m/it/12 tives. []$\T1/cmtt/m/n/12 https : / / atrium . lib . uoguelph .
  ca / xmlui / handle /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 616--618
-[]\T1/cmr/m/n/12 PETsys \T1/cmr/m/it/12 PET-sys Elec-tron-ics []$\T1/cmtt/m/n/1
-2 https : / / www .
  []
 
 
@@ -6293,61 +6284,67 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [245]
-Underfull \hbox (badness 10000) in paragraph at lines 626--630
+Underfull \hbox (badness 10000) in paragraph at lines 622--624
+[]\T1/cmr/m/n/12 PETsys \T1/cmr/m/it/12 PET-sys Elec-tron-ics []$\T1/cmtt/m/n/1
+2 https : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--636
 []\T1/cmr/m/n/12 Press, E. \T1/cmr/m/it/12 China con-stru-irá al menos 60
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--630
+Underfull \hbox (badness 10000) in paragraph at lines 632--636
 \T1/cmr/m/it/12 cen-trales nu-cle-ares en la próx-ima dé-cada
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--630
+Underfull \hbox (badness 10000) in paragraph at lines 632--636
 []$\T1/cmtt/m/n/12 https : / / www . europapress . es / internacional /
  []
 
 
-Overfull \hbox (213.34848pt too wide) in paragraph at lines 626--630
+Overfull \hbox (213.34848pt too wide) in paragraph at lines 632--636
 \T1/cmtt/m/n/12 noticia-[]china-[]construira-[]menos-[]60-[]centrales-[]nuclear
 es-[]proxima-[]decada-[]20160916210159 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 636--639
+Underfull \hbox (badness 10000) in paragraph at lines 642--645
 []\T1/cmr/m/n/12 Program, I. S. \T1/cmr/m/it/12 Tri-tium, In-ter-reg Su-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 636--639
+Underfull \hbox (badness 10000) in paragraph at lines 642--645
 \T1/cmr/m/it/12 doe Pro-gram []$\T1/cmtt/m/n/12 https : / / www . interreg-[]su
 doe .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 636--639
+Underfull \hbox (badness 10000) in paragraph at lines 642--645
 \T1/cmtt/m/n/12 eu / gbr / projects / the-[]approved-[]projects /
  []
 
 
-Overfull \hbox (202.5015pt too wide) in paragraph at lines 636--639
+Overfull \hbox (202.5015pt too wide) in paragraph at lines 642--645
 \T1/cmtt/m/n/12 158-[]design-[]construction-[]and-[]commissioning-[]of-[]a-[]lo
 w-[]level-[]tritium-[]monitor-[]for-[]water$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--649
+Underfull \hbox (badness 10000) in paragraph at lines 651--655
 []\T1/cmr/m/n/12 Quebec, H. \T1/cmr/m/it/12 Re-sul-tats du pro-gramme de survei
 l-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--649
+Underfull \hbox (badness 10000) in paragraph at lines 651--655
 \T1/cmr/m/it/12 lance de l'environnement du site de Gentilly-2.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--649
+Underfull \hbox (badness 10000) in paragraph at lines 651--655
 []$\T1/cmtt/m/n/12 https : / / numerique . banq . qc . ca / patrimoine / detail
 s /
  []
@@ -6400,12 +6397,6 @@ Underfull \hbox (badness 1024) in paragraph at lines 704--708
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[248]
 Underfull \hbox (badness 6927) in paragraph at lines 735--737
 []\T1/cmr/m/n/12 Technology, L. \T1/cmr/m/it/12 LT111A Volt-age Com-para-tor []
 $\T1/cmtt/m/n/12 https :
@@ -6417,6 +6408,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 735--737
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[248]
 Underfull \hbox (badness 10000) in paragraph at lines 739--741
 []\T1/cmr/m/n/12 Tektronix \T1/cmr/m/it/12 Mixed Sig-nal Os-cil-lo-cope, Model
  []
@@ -6482,8 +6479,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 368.
  ) 
 Here is how much of TeX's memory you used:
  21960 strings out of 492982
- 438958 string characters out of 6134895
- 513764 words of memory out of 5000000
+ 438952 string characters out of 6134895
+ 513763 words of memory out of 5000000
  23987 multiletter control sequences out of 15000+600000
  555821 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -6637,11 +6634,11 @@ s/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sftt1200.pfb>
-Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (288 pages, 34962645 bytes)
+Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (288 pages, 34963241 bytes)
 .
 PDF statistics:
- 5745 PDF objects out of 6186 (max. 8388607)
- 4011 compressed objects within 41 object streams
+ 5750 PDF objects out of 6186 (max. 8388607)
+ 4016 compressed objects within 41 object streams
  841 named destinations out of 1000 (max. 500000)
  1388 words of extra memory for PDF output out of 10000 (max. 10000000)
 
