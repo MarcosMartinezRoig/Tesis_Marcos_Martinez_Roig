@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  11 FEB 2022 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  13 FEB 2022 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5220,14 +5220,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [202]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[203]
-Overfull \hbox (9.30818pt too wide) in paragraph at lines 53--54
+Overfull \hbox (9.30818pt too wide) in paragraph at lines 54--55
 []\T1/cmr/m/n/12 Four dif-fer-ent de-tec-tor pro-to-types, called TRITIUM-IFIC-
 0, TRITIUM-
  []
@@ -5238,25 +5231,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[204]
+[203]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[205]
-Overfull \hbox (9.67844pt too wide) in paragraph at lines 69--69
-[]$\OML/cmm/m/it/12 "[]\OT1/cmr/m/n/12 (10[][])$ 
- []
-
-
-Overfull \hbox (17.17068pt too wide) in paragraph at lines 69--69
-[]$\OML/cmm/m/it/12 ^^Q[]\OT1/cmr/m/n/12 (10[][])$ 
- []
-
-
-Overfull \hbox (26.15569pt too wide) in paragraph at lines 67--86
+[204]
+Overfull \hbox (16.69614pt too wide) in paragraph at lines 68--87
  [][] 
  []
 
@@ -5266,21 +5249,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[206]
+[205]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[207]
-Overfull \hbox (6.6964pt too wide) in paragraph at lines 94--95
+[206]
+Overfull \hbox (6.6964pt too wide) in paragraph at lines 95--96
 \T1/cmr/m/n/12 the tri-tium de-tec-tion ef-fi-ciency and ac-tiv-ity res-o-lu-ti
 on of the TRITIUM-
  []
 
 
-Overfull \hbox (1.44032pt too wide) in paragraph at lines 94--95
+Overfull \hbox (1.44032pt too wide) in paragraph at lines 95--96
 \T1/cmr/m/n/12 IFIC-2 pro-to-type on in-te-gra-tion time and num-ber of pro-to-
 types. These
  []
@@ -5292,11 +5275,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[208]
-Chapter 8.
-(./Sections/8ConclusionsAndProspects/81ConclusionsProspects.tex [209
+[207]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[208
 
 ]
+Chapter 8.
+(./Sections/8ConclusionsAndProspects/81ConclusionsProspects.tex [209]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -6675,7 +6665,7 @@ s/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sftt1200.pfb>
-Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (290 pages, 34983188 bytes)
+Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (290 pages, 34981461 bytes)
 .
 PDF statistics:
  5829 PDF objects out of 6186 (max. 8388607)
