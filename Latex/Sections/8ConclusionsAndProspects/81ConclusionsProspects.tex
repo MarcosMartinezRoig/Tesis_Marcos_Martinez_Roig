@@ -1,21 +1,43 @@
 In this chapter, the main results and conclusiones obtained in this PhD thesis are summarized and the prospects of the TRITIUM project are discussed:
 
 \begin{enumerate}
-\item{} A characterization of the scintillating fibers used in the TRITIUM modules, BCF-12 of Saint-Gobain, was carried out, in which the photon collection efficiency was measured, obtaining a factor of $76 \pm 8 \%$ for uncladded scintillating fibers of $1~\mm$ diameter. In addition a surface-conditioning method was developed and tested, which consists in cleaving, polishing and cleaning the fibers following specific rules. It was obtained an improve of the photon collection efficiency of the fiber of a factor $2$ due to polishing and $25\%$ due to cleaning.
+\item{} A scalable modular monitor for measuring low activities of tritium in water is proposed. The goal of this monitor is to reach a sensitivity of $100~\becquerel/\liter$ of tritium activity, which is the maximum level allowed for drinking water by EU directive.
 
-\item{} The first SiPM model proposed for the TRITIUM monitor, model S13360-6075 from Hammamatsu, was also characterized, measuring some of the most relevant parameters of these photosensors for the tritium measurement such as their breakdown voltage and their gain. Furthermore, a stabilization method was implemented to mantain the SiPM gain when the temperature changes, which was tested in the temperature range of interest, $[20-30]\celsius$. In this test, variations of the order of $0.1\%$  were measured for the gain of the SiPM, with which a stable behaviour of the photosensors can be achieved.
+The modularity allows to reach the required sensitivity by selecting a given integration time and including the corresponding number of modules.
 
-\item{} An active veto was built, which is based on plastic scintillators read out by photosensors. A characterization of it was carried out, in which the optimal parameters for the detection of hard cosmic events were found. A count rate of $2.5~\text{events}/\second$ was measured, which gives an efficiency for the hard cosmic detection of $85\%$ for the cosmic ray events.
+\item{} The IFIC modules of the TRITIUM monitor proposed consists of $1~\mm$ diameter scintillating fibers read out by photosensors.
 
-\item{} Four different prototypes were developed for the TRITIUM module in which different improvements were applied, obtaining an increasing efficiency of the tritium detection. The last two TRITIUM prototypes, TRITIUM-Aveiro and TRITIUM-IFIC-2 have a similar design but with subtle difference such as a different diameter of the scintillating fibers ($2~\mm$ and $1~\mm$ respectively). Each design has its own advantages and disadvantages and the characteristics of each one with the best results will be implemented in the final design of the TRITIUM module.
+\item{} Three different prototypes of the TRITIUM-IFIC module in which different improvements were succesively incorporated were developed.
 
-Better specific efficiencies ($\eta_{det} = 141.45\pm5.52~\frac{cps \cdot{} 10^{-6}}{\kilo\becquerel/ \liter \cdot{} \cm^2}$) and MDA ($0.68 /0.22~\kilo\becquerel / \liter$ for an integration time of $10~\min$ and $1~\hour$ respectively) was measured with the last prototype, TRITIUM-IFIC-2, compared to results obtained with prototypes developed in other experiments so far. It means that the state-of-the-art in tritium detection in quasi-real time has been substantially improved with it. 
+\item{} A surface conditioning method for the scintillating fibers, consisting in specific rules for cleaving, polishing and cleaning the fibers was developed.
 
-One of the most relevant properties of the TRITIUM monitor is that it is scalable, which means that better results can be achieved by using a larger number of modules. The goal of the TRITIUM project (to be able to measure $100~\becquerel/\liter$ in quasi-real time) is expected to be reached using $5$ TRITIUM-IFIC-2 prototypes read out in parallel and an integration time of $1~\hour$.
+\item{} The conditioning method was applied to the selected $1~\mm$ uncladded scintillating fibers from Saint-Gobain. An improvement of the photon collection efficiency of the fibers of a factor $2$ due to polishing and an addition $25\%$ due to cleaning was found.
 
-\item{} Several simulations were carried out to study how the uncertainty in the tritium measurement can be reduced when a different integration time or different number of modules are used. It was found that a difference of $250~\kilo\becquerel/\liter$ in the tritium activity can be distinguised by using an integration time of $30~\min$ and three TRITIUM-IFIC-2 modules read out in parallel. Other possibility would be to use five TRITIUM-IFIC-2 and an integration time of $10~\min$ with which a difference of $200~\kilo\becquerel/\liter$ in the tritium activity would be distinguised and the MDA of $100~\becquerel/\liter$ achieved, which is the choice taken by the TRITIUM collaboration.
+\item{} Although most of the laboratory tests were carried out with PMTs as photosensors to read out the scintillating fibers, SiPM arrays are proposed by TRITIUM Valencia team for the final monitor. 
 
-\item{} The background rejection system was also simulated, where it was found that a reduction of a factor $5.5$ of the cosmic ray events that affect TRITIUM-IFIC-2 prototype was obtained due to the passive shield (mainly soft cosmic ray events) and a reduction of $60\%$ of the cosmic ray events that cross the lead shield and affect the TRITIUM-IFIC-2 prototype (mainly hard cosmic ray events) was obtained due to the active veto. In summary, a reduction of $92.5\%$ of the cosmic events that affects the TRITIUM-IFIC-2 prototype was obtained through simulations.
+\item{} A single SiPM, model S13360-1375 from Hamamatsu, selected for the monitor, was characterized. The most relevant parameters for tritium detection of this photosensors, such as breakdown voltage and gain, were measured.
+
+\item{} As SiPM gain varies strongly with temperature, a stabilization method to maintain the gain constant with temperature was implemented. This method consisting in compensation of the gain variations with the bias voltage, was tested in the $[20-30]\celsius$ temperature range of interest. Variations of the gain of the order of $0.1\%$ were found which guarantees a stable operation of the photosensors.
+
+\item{} In order to obtain the required tritium activity sensitivity a background rejection system consisting of a lead shield castle and an active plastic scintillator veto was proposed and implemented. The lead castle was designed and built by the TRITIUM CENBG group.
+
+\item{} The passive background rejection system was simulated. A $5.5$ reduction factor of the cosmic ray events measured by the TRITIUM-IFIC-2 prototype was obtained.
+
+\item{} An active veto based on plastic scintillators read out by photosensors was designed and build.
+
+\item{} A characterization of the active veto was done and the optimal parameters for detection of hard cosmic rays were found. A count rate of $2.5~\text{events}/\second$ was measured, which gives an efficiency for cosmic ray detection of $85\%$ by comparing to the cosmic ray rate at sea level.
+
+\item{} The active veto was simulated obtaining a supression of the $60\%$ of the cosmic rays that cross the lead shield and are measured by the TRITIUM-IFIC-2 prototype.
+
+\item{} The total background suppression by the rejection system obtained from simulations for the TRITIUM-IFIC-2 prototype is $92.5\%$.
+
+\item{} A specific efficiency $\eta = (141 \pm 6) \times 10^{-6}~ \second^{-1}  \liter ~ \kilo\becquerel^{-1} \cm^{-2}$ for the TRITIUM-IFIC-2  prototype was measured which is about an order of magnitud higher than specific efficiencies reported in previous experiments. The State-of-the-art of tritium detection with plastic scintillators is substantially improved.
+
+\item{} The MDA obtained with the TRITIUM-IFIC-2 prototype is $680~\becquerel/\liter$  for $10~\min$ integration time and $220~\becquerel/\liter$  for $1~\hour$ integration time.
+
+\item{} Simulations of the detection resolution of TRITIUM-IFIC-2 monitor were done. A resolution of $250~\becquerel/\liter$ for an integration time of $30~\min$ and three TRITIUM-IFIC-2 modules read out in parallel and $100~\becquerel/\liter$ for an integration time of $1~\hour$ and five modules were found. The goal of $100~\becquerel/\liter$ is obtained with $5$ modules for $1~\hour$ integration time.
+
+\item{} The goal of the TRITIUM project of measuring $100~\becquerel/\liter$ in quasi-real time is expected to be reached with 5 TRITIUM-IFIC-2 prototypes read out in parallel and $1~\hour$ integration time.
 
 \end{enumerate}
 
@@ -23,4 +45,4 @@ Currently, the water purification system and the lead shield are installed in Ar
 
 Furthermore, it is necessary to quantify the improvement achieved in tritium detection when the SiPM arrays are used as photosensors. Therefore, a similar characterization to the one performed for the TRITIUM-IFIC-2 prototype must be obtained for an identical prototype in which the PMTs are remplaced by SiPM arrays.
 
-The TRITIUM monitor has been developed with the aim of being able to measure the legal limit established by the EURATOM Concil Directive ($100~\becquerel/\liter$) but it has to be taken into account that it can be used in other different areas such us to control the correct operation of a nuclear facility (high levels of tritium in the water released by the nuclear power plant is one of the first sign of an anomalous functioning of the plant) of even other fields, different to the environmental surveillance, such as research facilities.
+%The TRITIUM monitor has been developed with the aim of being able to measure the legal limit established by the EURATOM Concil Directive ($100~\becquerel/\liter$) but it has to be taken into account that it can be used in other different areas such us to control the correct operation of a nuclear facility (high levels of tritium in the water released by the nuclear power plant is one of the first sign of an anomalous functioning of the plant) of even other fields, different to the environmental surveillance, such as research facilities.
