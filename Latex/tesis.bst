@@ -4,7 +4,7 @@
 %%
 %% The original source files were:
 %%
-%% merlin.mbs  (with options: `alph,alf-1,nm-rev,jnrlst,dt-jnl,yr-par,xmth,yrp-x,tit-it,atit-u,jttl-rm,vol-bf,vnum-x ,volp-blk,jdt-vs,num-xser,numser,ser-vol,ser-ed,jnm-x,pub-date,edpar,bkedcap,edby-par,edcap,blk-com,com-blank,in-it,ppx,ed,abr,ednx,xedn,and-xcom,etal-xc,etal-it,nfss,')
+%% merlin.mbs  (with options: `alph,alf-1,nm-rev,jnrlst,nmlm,mct-3,dt-jnl,yr-par,xmth,yrp-x,tit-it,atit-u,jttl-rm,vol-bf,vnum-x ,volp-blk,jdt-vs,num-xser,numser,ser-vol,ser-ed,jnm-x,pub-date,edpar,bkedcap,edby-par,edcap,blk-com,com-blank,in-it,ppx,ed,abr,ednx,xedn,and-xcom,etal-xc,etal-it,nfss,')
 %% ----------------------------------------
 %% ***  ***
 %% 
@@ -383,6 +383,12 @@ FUNCTION {format.names}
       't :=
       nameptr #1 >
         {
+          #1 + =
+          > and
+            { "others" 't :=
+              #1 'namesleft := }
+            'skip$
+          if$
           namesleft #1 >
             { ", " * t * }
             {
@@ -1306,6 +1312,12 @@ FUNCTION {sort.format.names}
       format.name$ 't :=
       nameptr #1 >
         {
+          #1 + =
+          > and
+            { "others" 't :=
+              #1 'namesleft := }
+            'skip$
+          if$
           "   "  *
           namesleft #1 = t "others" = and
             { "zzzzz" 't := }
