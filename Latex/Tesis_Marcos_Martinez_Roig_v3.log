@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  28 FEB 2022 11:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  2 MAR 2022 10:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5299,6 +5299,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [204]
+Overfull \hbox (0.91519pt too wide) in paragraph at lines 70--70
+[][] [][][]$ 
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -6611,7 +6615,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 372.
 Here is how much of TeX's memory you used:
  21994 strings out of 492982
  439623 string characters out of 6134895
- 516014 words of memory out of 5000000
+ 515014 words of memory out of 5000000
  23992 multiletter control sequences out of 15000+600000
  555821 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -6759,7 +6763,7 @@ s/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sftt1200.pfb>
-Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (290 pages, 35131779 bytes)
+Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (290 pages, 35131362 bytes)
 .
 PDF statistics:
  5838 PDF objects out of 6186 (max. 8388607)
