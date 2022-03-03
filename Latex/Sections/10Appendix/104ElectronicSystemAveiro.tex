@@ -1,8 +1,8 @@
-The electronic system used in TRITIUM-Aveiro prototype consists of several PCB and can be divided into two parts:
+The electronic system of the TRITIUM-Aveiro prototype consists of several PCB and is divided in two parts:
 \begin{enumerate}
-\item{} A PCB, whose electronic scheme is shown in Figure \ref{fig:HVElectronicAveiro}, was designed to power the PMTs with a negative high voltage. It consists of several high voltage power supply, model C11152-01 from Hamamatsu company \cite{PowerSupplyAveiroDataSheet}, one for each PMT used, which is controled by a DAC\footnote{DAC, Digital-to-analog converter}, model MAX5500 from Maxim Integrated company \cite{MAX5500DataSheet}. An Arduino Mega is used for the DAC communication and cross-checking the output values and it is connected to a Raspberry Pi to control the system.
+\item{} A PCB, which electronic scheme is shown in Figure \ref{fig:HVElectronicAveiro}, designed to power the PMTs with a negative high voltage. That consists of several high voltage power supplies, model C11152-01 from Hamamatsu Photonics \cite{PowerSupplyAveiroDataSheet}. This PCB is controled by a DAC\footnote{DAC, Digital-to-analog converter}, model MAX5500 from Maxim Integrated \cite{MAX5500DataSheet}. An Arduino Mega controls the DAC communication and is connected to a Raspberry Pi that runs the whole system.
 
-A graphical interface, shown Figure \ref{subfig:GUI}, has been developed to manage the different options of this system in a comfortable way.
+A graphical interface, shown Figure \ref{subfig:GUI}, was developed to set up the different options in an easy way.
 
 \begin{figure}
 \centering
@@ -17,37 +17,35 @@ A graphical interface, shown Figure \ref{subfig:GUI}, has been developed to mana
     \includegraphics[width=\textwidth]{9Appendix/94AveiroElectronics/GUIHVBoard.png}  
     \caption{\label{subfig:GUI}}
     \end{subfigure}
- \caption{a) The Electronic scheme of the PCB designed to power the PMTs of Aveiro prototype b) The graphical user interface developed to control it.}
+ \caption{a) The electronic scheme of the PCB designed to power the PMTs of Aveiro prototype b) The graphical user interface developed to control the prototype.}
  \label{fig:HVElectronicAveiro}
 \end{figure}
 
-\item{} A electronical chain consisting of several PCBs was used to process and analyze the system signals, whose simplified electronic scheme is shown in Figure \ref{fig:ElectronicSchemCounterBoard}.
+\item{} A electronic chain consisting of several PCBs that process and analyze the system signals, which electronic scheme is shown in Figure \ref{fig:ElectronicSchemCounterBoard}. This system consists of three different lines, two of them for the PMT signals of the prototype and the other for anticoincidence with an active veto.
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.45]{9Appendix/94AveiroElectronics/ElectronicSchemeCounterBoard.png}
-\caption{Simplified electronic scheme used to process and analyze the signal of TRITIUM-Aveiro prototype. \label{fig:ElectronicSchemCounterBoard}}
+\caption{Electronic scheme that process and analyze the signal of the TRITIUM-Aveiro prototype. \label{fig:ElectronicSchemCounterBoard}}
 \end{figure}
 
-It consists of three different lines, two of them are used for the PMT signals of the prototype and the remaining line is used for doing anticoincidence with an active veto.
+To test this electronic chain, a plastic scintillator of $10 \times 10 \times 1~\cm^3$ dimensions was used to simulate a veto signal. Four different vetos are being built, based on a rectangular plastic scintillators from Saint-Gobain company \cite{VetoAveiro}, of $50~\cm \times 30 \times 2~\cm^3$ dimensiones. The vetos are read out by $2$" PMTs, model R2154-02 from Hamamatsu Photonics \cite{DataSheetPMTsAveiro}. The output signal of these PMTs go into an OR stage, which output is connected to the veto line shown in Figure \ref{fig:ElectronicSchemCounterBoard}. Thus, each veto is read in anticoincidence with the TRITIUM-Aveiro prototype.
 
-To test this electronic chain a plastic scintillation with dimensions of $10 \cdot{} 10 \cdot{} 1~\cm^3$ was used to simulate a veto signal but four different vetos are being developed, based on a rectangular plastic scintillations of Saint-Gobain company \cite{VetoAveiro}, whose dimensiones are $50~\cm \cdot{} 30 \cdot{} 2~\cm^3$  with a PMT coupled, model R2154-02 2" from Hamamatsu company \cite{DataSheetPMTsAveiro}. The output signal of these PMTs will be input in a OR stage, whose response will be introduced in the veto line shown previously in Figure \ref{fig:ElectronicSchemCounterBoard}. As a result, each plastic scintillator will be read in anticoincidence with TRITIUM-Aveiro prototype.
+The PMT signals of the prototype, are identical and operate in time coincidence. Each PMT signal is introduced in a prepamplifier model CR111 from CREMAT Inc. \cite{CREMATPreAmplifierDataSheet}, that shapes and pre-amplifies the signal. To reduce electronic noise and signal loss, both preamplifiers are connected as close as possible to the PMTs and they are inside aluminum boxes which act as a Faraday cage.
 
-Both lines, used to process and analyze the PMT signals of the prototype, are equal and they are used to operate in time coincidence. First, each PMT signal is introduced in a prepamplifier model CR111 from CREMAT Inc. company \cite{CREMATPreAmplifierDataSheet}, which is used to shape and pre-amplify the signal. To reduce electronic noise and signal loss, both preamplifiers are connected as close as possible to the PMTs and they are located inside of aluminum boxes which act like a Faraday cage.
+Each preamplifier is followed by a differentiator stage, which reduces the time width of the signal and an amplifier stages, that amplifies the signal. The amplifier is model OPA656 from Texas Instruments \cite{OPA656}. 
 
-Each preamplifier is followed by a differentiation stage, which is used to reduce the time width of the signal, and amplification stages, used to amplify the signal. The amplification used is the model OPA656 from Texas Instruments \cite{OPA656}. 
+A fast comparator, model LT111 from Linear Technology \cite{LT111}, is used to set a threshold to remove PMT signals with low amplitude (dark counts of the PMT). A MAX5500 DAC is used to configure the thresholds.
 
-Then, a fast comparator, model LT111 from Linear Technology company \cite{LT111}, is used to set a threshold which will be used to remove the PMT signals whose amplitude are below this value (dark counts of the PMT). A MAX5500 DAC is used to configure the thresholds.
+As the time width of the preamplfier output signal is too large, $200~\mu\second$, a second differenciator stage was included to avoid fake coincidences. A second comparator was added to restore a 5V square signal again.
 
-The time width of the preamplfier output signal is too large, $200~\mu\second$, with which too many false coincidence will be registed. To solve this problem a second differenciation stage is included and a second comparator are added to produce a 5V square signal again.
+Finally a tunable pulse stretcher based on an OR gate, model SN74AHC1 from Texas Instruments company \cite{Stretcher}, is used to set the time width of each signal to $100~\nano\second$, with which the time coincidence windows of the system is $200~\nano\second$, that gives a negligible fake coincidence rate.
 
-Finally a tunable pulse stretcher based on an OR gate, model SN74AHC1 from Texas Instruments company \cite{Stretcher}, is used to set the time width of each signal at $100~\nano\second$, with which the time coincidence windows of our adquisition system is $200~\nano\second$, narrow enough to have a negligible false coincidence rate.
+The third line consists of an inverter, which gives a $5~\volt$ signal, except when a cosmic particle is detected, in which case the signal is $0~\volt$. An stretcher is used to set the signal time width to $100~\nano\second$.
 
-In the remaining line, used for the veto signal, an inverter is used in the first stage. With it, the signal will always be in the high level, $5~\volt$, except when a cosmic particle is detected, in which case the signal will be in the low level, $0~\volt$. Then, another stretcher is used to create a signal with the same time width than the others, $100~\nano\second$.
+The three signals are introduced into a 3-input AND gate, model SN74LVC1G11 from Texas Instruments \cite{ANDGate}, that makes a logic level comparison. With this last stage a temporal coincidence of both PMT signals in anti-coincidence with the veto signal is obtained. The output signal of this stage is connected to a pulse counter. 
 
-Lastly, these three signals are introduced into a 3-input AND gate, model SN74LVC1G11 from Texas Instruments company \cite{ANDGate}, to perform a logic level comparison. With this last stage we achieve a temporal coincidence of both PMT signals of the prototype and anti-coincidence of them with the veto signal. The output signal of this last stage is simply connected to a pulse counter. 
-
-A GPIO pins of a Raspberry Pi is used to communication with the system, control it and configure the different threshold levels. A graphical user interface, which is shown in Figure \ref{fig:GUIcounts}, was developed to manage the counter system in a comfortable way.
+The GPIO pins of a Raspberry Pi are used to communicate with the system and configure the threshold levels. A graphical user interface, shown in Figure \ref{fig:GUIcounts}, was developed to set the counter system in an easy way.
 
  \begin{figure}[h]
 \centering
@@ -55,11 +53,13 @@ A GPIO pins of a Raspberry Pi is used to communication with the system, control 
 \caption{Graphical user interface used to manage the counter system. \label{fig:GUIcounts}}
 \end{figure}
 
-In addition to count, which is the option normally used in our detector, this electronic system include a voltage follower circuit connected to the preamplifier output signal which can be used to obtain a energy spectrum of each PMT of the prototype.
+Besides counting, this electronic system includes a voltage follower circuit connected to the preamplifier output signal that produces an energy spectrum for each PMT.
 
-It is important to note that, although this system has a graphical user interface that allows comfortable control of the system, the usual way in which it is controlled is remotely through the computer terminal.
+%It is important to note that, although this system has a graphical user interface that allows comfortable control of the system, the usual way in which it is controlled is remotely through the computer terminal.
 
-In Figure \ref{fig:ScreenshotElectronic} two screenshots are shown to demostrate two different situations of this system. There, we have four different signals. The yellow and cyan signal are input signals of the AND-Gate, which come from the PMT signals of the prototype. The pink signal is the third remaining input signal of the AND-Gate, which come from the PMT signal of the veto. The last signal, green, is the output signal of the AND-Gate.
+In Figure \ref{fig:ScreenshotElectronic} screenshots for accepted an rejected events are displayed.
+
+%In Figure \ref{fig:ScreenshotElectronic} two screenshots are shown to demostrate two different situations of this system. There, we have four different signals. The yellow and cyan signal are input signals of the AND-Gate, which come from the PMT signals of the prototype. The pink signal is the third remaining input signal of the AND-Gate, which come from the PMT signal of the veto. The last signal, green, is the output signal of the AND-Gate.
 
 \begin{figure}
 \centering
@@ -74,10 +74,10 @@ In Figure \ref{fig:ScreenshotElectronic} two screenshots are shown to demostrate
     \includegraphics[width=\textwidth]{9Appendix/94AveiroElectronics/Event_rejected_Aveiro_prototype.png}  
     \caption{\label{subfig:FalseTritiumEvent}}
     \end{subfigure}
- \caption{Two different situations of the electronic chain response. a) Event accepted since veto has not detected it. b) Event rejected since veto has detected it.}
+ \caption{a) Tritium event accepted as veto has not detected it. b) Background event rejected because veto has fired.}
  \label{fig:ScreenshotElectronic}
 \end{figure}
 
 
-As can be seen, in Figure \ref{subfig:TrueTritiumEvent} both PMTs of the prototype have detect a time coincident event, which has not been detected for the veto, so this event is counted. In Figure \ref{subfig:FalseTritiumEvent}, a time coincidence event has been observed in the three PMTs, which means that it is a cosmic event, so this event is not counted.
+%As can be seen, in Figure \ref{subfig:TrueTritiumEvent} both PMTs of the prototype have detect a time coincident event, which has not been detected for the veto, so this event is counted. In Figure \ref{subfig:FalseTritiumEvent}, a time coincidence event has been observed in the three PMTs, which means that it is a cosmic event, so this event is not counted.
 \end{enumerate}
