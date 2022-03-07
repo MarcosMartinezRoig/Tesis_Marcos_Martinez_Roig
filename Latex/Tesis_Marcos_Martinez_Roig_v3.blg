@@ -146,33 +146,31 @@ You're missing a field part---line 1563 of file tesis.bib
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring ScalerDataSheet's extra "note" field
 --line 1577 of file tesis.bib
-Warning--I'm ignoring TritiumSourceTechnicalFile's extra "note" field
---line 1587 of file tesis.bib
 Warning--I'm ignoring DataSheetBCF10Fiber's extra "note" field
---line 1597 of file tesis.bib
+--line 1602 of file tesis.bib
 Warning--I'm ignoring DataSheetPMTsAveiro's extra "note" field
---line 1607 of file tesis.bib
+--line 1612 of file tesis.bib
 Warning--I'm ignoring PowerSupplyAveiroDataSheet's extra "note" field
---line 1617 of file tesis.bib
+--line 1622 of file tesis.bib
 Warning--I'm ignoring MAX5500DataSheet's extra "note" field
---line 1627 of file tesis.bib
+--line 1632 of file tesis.bib
 Warning--I'm ignoring VetoAveiro's extra "note" field
---line 1637 of file tesis.bib
+--line 1642 of file tesis.bib
 Warning--I'm ignoring CREMATPreAmplifierDataSheet's extra "note" field
---line 1647 of file tesis.bib
+--line 1652 of file tesis.bib
 Warning--I'm ignoring OPA656's extra "note" field
---line 1657 of file tesis.bib
+--line 1662 of file tesis.bib
 Warning--I'm ignoring LT111's extra "note" field
---line 1667 of file tesis.bib
+--line 1672 of file tesis.bib
 Warning--I'm ignoring Stretcher's extra "note" field
---line 1677 of file tesis.bib
+--line 1682 of file tesis.bib
 Warning--I'm ignoring ANDGate's extra "note" field
---line 1687 of file tesis.bib
-You're missing a field part---line 1714 of file tesis.bib
+--line 1692 of file tesis.bib
+You're missing a field part---line 1719 of file tesis.bib
  :       year         = 
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1822 of file tesis.bib
+Repeated entry---line 1827 of file tesis.bib
  :  %@article{CurieLimit
  :                      ,
 I'm skipping whatever remains of this entry
@@ -3667,33 +3665,7 @@ You can't pop an empty literal stack for entry CRYpaper
 while executing---line 1438 of file tesis.bst
 You can't pop an empty literal stack for entry CRYpaper
 while executing---line 1438 of file tesis.bst
-"physikalisch technische bundesanstalt  b  ptb" is a string literal, not an integer, for entry TritiumSourceTechnicalFile
-while executing---line 1438 of file tesis.bst
-0 is an integer literal, "ptb    " is a string literal
----they aren't the same literal types for entry TritiumSourceTechnicalFile
-while executing---line 1438 of file tesis.bst
-You can't pop an empty literal stack for entry TritiumSourceTechnicalFile
-while executing---line 1438 of file tesis.bst
-You can't pop an empty literal stack for entry TritiumSourceTechnicalFile
-while executing---line 1438 of file tesis.bst
-You can't pop an empty literal stack for entry TritiumSourceTechnicalFile
-while executing---line 1438 of file tesis.bst
-You can't pop an empty literal stack for entry TritiumSourceTechnicalFile
-while executing---line 1438 of file tesis.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-"Physikalisch-Technische~Bundesanstalt, B., PTB" is a string literal, not an integer, for entry TritiumSourceTechnicalFile
-while executing---line 1491 of file tesis.bst
-0 is an integer literal, "" is a string literal
----they aren't the same literal types for entry TritiumSourceTechnicalFile
-while executing---line 1491 of file tesis.bst
-You can't pop an empty literal stack for entry TritiumSourceTechnicalFile
-while executing---line 1491 of file tesis.bst
-You can't pop an empty literal stack for entry TritiumSourceTechnicalFile
-while executing---line 1491 of file tesis.bst
-You can't pop an empty literal stack for entry TritiumSourceTechnicalFile
-while executing---line 1491 of file tesis.bst
-You can't pop an empty literal stack for entry TritiumSourceTechnicalFile
-while executing---line 1491 of file tesis.bst
 "Hofstetter, K.~J." is a string literal, not an integer, for entry Hofstetter2
 while executing---line 1491 of file tesis.bst
 0 is an integer literal, "" is a string literal
@@ -7201,43 +7173,43 @@ Warning--empty publisher in NaturalRadioactiveSeries1
 Warning--empty note in BlackBlancket
 You've used 158 entries,
             3035 wiz_defined-function locations,
-            1522 strings with 36309 characters,
-and the built_in function-call counts, 69587 in all, are:
-= -- 5151
-> -- 3422
+            1522 strings with 36199 characters,
+and the built_in function-call counts, 69523 in all, are:
+= -- 5142
+> -- 3415
 < -- 161
-+ -- 1663
-- -- 977
-* -- 5167
-:= -- 8861
++ -- 1659
+- -- 975
+* -- 5157
+:= -- 8851
 add.period$ -- 158
 call.type$ -- 158
-change.case$ -- 1060
+change.case$ -- 1058
 chr.to.int$ -- 145
 cite$ -- 183
-duplicate$ -- 5276
-empty$ -- 4993
-format.name$ -- 1299
-if$ -- 13749
+duplicate$ -- 5270
+empty$ -- 4997
+format.name$ -- 1297
+if$ -- 13739
 int.to.chr$ -- 14
 int.to.str$ -- 0
-missing$ -- 1211
+missing$ -- 1210
 newline$ -- 477
 num.names$ -- 314
-pop$ -- 2953
+pop$ -- 2957
 preamble$ -- 1
-purify$ -- 1278
+purify$ -- 1277
 quote$ -- 0
 skip$ -- 2555
 stack$ -- 0
-substring$ -- 2130
-swap$ -- 2921
+substring$ -- 2128
+swap$ -- 2915
 text.length$ -- 161
-text.prefix$ -- 119
+text.prefix$ -- 120
 top$ -- 0
 type$ -- 1230
 warning$ -- 23
 while$ -- 359
 width$ -- 161
-write$ -- 1257
-(There were 3474 error messages)
+write$ -- 1256
+(There were 3462 error messages)

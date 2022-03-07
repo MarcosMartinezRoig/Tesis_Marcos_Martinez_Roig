@@ -29,21 +29,21 @@ A graphical interface, shown Figure \ref{subfig:GUI}, was developed to set up th
 \caption{Electronic scheme that process and analyze the signal of the TRITIUM-Aveiro prototype. \label{fig:ElectronicSchemCounterBoard}}
 \end{figure}
 
-To test this electronic chain, a plastic scintillator of $10 \times 10 \times 1~\cm^3$ dimensions was used to simulate a veto signal. Four different vetos are being built, based on a rectangular plastic scintillators from Saint-Gobain company \cite{VetoAveiro}, of $50~\cm \times 30 \times 2~\cm^3$ dimensiones. The vetos are read out by $2$" PMTs, model R2154-02 from Hamamatsu Photonics \cite{DataSheetPMTsAveiro}. The output signal of these PMTs go into an OR stage, which output is connected to the veto line shown in Figure \ref{fig:ElectronicSchemCounterBoard}. Thus, each veto is read in anticoincidence with the TRITIUM-Aveiro prototype.
+To test this electronic chain, a plastic scintillator of $10 \times 10 \times 1~\cm^3$ dimensions was used to simulate a veto signal. Four different vetos are being built, based on a rectangular plastic scintillators from Saint-Gobain company \cite{VetoAveiro}, of $50\times 30 \times 2~\cm^3$ dimensions. The vetos are read out by $2$" PMTs, model R2154-02 from Hamamatsu Photonics \cite{DataSheetPMTsAveiro}. The output signal of these PMTs goes into an OR stage, which output is connected to the veto line shown in Figure \ref{fig:ElectronicSchemCounterBoard}. Thus, each veto is read in anticoincidence with the TRITIUM-Aveiro prototype.
 
-The PMT signals of the prototype, are identical and operate in time coincidence. Each PMT signal is introduced in a prepamplifier model CR111 from CREMAT Inc. \cite{CREMATPreAmplifierDataSheet}, that shapes and pre-amplifies the signal. To reduce electronic noise and signal loss, both preamplifiers are connected as close as possible to the PMTs and they are inside aluminum boxes which act as a Faraday cage.
+Both lines, used to process and analyze the PMT signals of the prototypes, are equal and they are used to operate in time coincidence. Each PMT signal is introduced in a preamplifier model CR111 from CREMAT Inc. \cite{CREMATPreAmplifierDataSheet}, that shapes and pre-amplifies the signal. To reduce electronic noise and signal loss, both preamplifiers are connected as close as possible to the PMTs and they are inside aluminum boxes which act as a Faraday cage.
 
-Each preamplifier is followed by a differentiator stage, which reduces the time width of the signal and an amplifier stages, that amplifies the signal. The amplifier is model OPA656 from Texas Instruments \cite{OPA656}. 
+Each preamplifier is followed by a differentiator stage, which reduces the time width of the signal and an amplifier stage, that amplifies the signal. The amplifier is model OPA656 from Texas Instruments \cite{OPA656}. 
 
 A fast comparator, model LT111 from Linear Technology \cite{LT111}, is used to set a threshold to remove PMT signals with low amplitude (dark counts of the PMT). A MAX5500 DAC is used to configure the thresholds.
 
-As the time width of the preamplfier output signal is too large, $200~\mu\second$, a second differenciator stage was included to avoid fake coincidences. A second comparator was added to restore a 5V square signal again.
+As the time width of the preamplifier output signal is too large, $200~\mu\second$, a second differentiator stage was included to reduce fake coincidences. A second comparator was added to restore a 5V square signal again.
 
-Finally a tunable pulse stretcher based on an OR gate, model SN74AHC1 from Texas Instruments company \cite{Stretcher}, is used to set the time width of each signal to $100~\nano\second$, with which the time coincidence windows of the system is $200~\nano\second$, that gives a negligible fake coincidence rate.
+Finally a tunable pulse stretcher based on an OR gate, model SN74AHC1 from Texas Instruments \cite{Stretcher}, is used to set the time width of each signal to $100~\nano\second$. The time coincidence windows of the system is $200~\nano\second$.
 
-The third line consists of an inverter, which gives a $5~\volt$ signal, except when a cosmic particle is detected, in which case the signal is $0~\volt$. An stretcher is used to set the signal time width to $100~\nano\second$.
+The third line consists of an inverter, which gives a $5~\volt$ signal, except when a cosmic particle is detected, in which case the signal is $0~\volt$. A stretcher is used to set the signal time width to $100~\nano\second$.
 
-The three signals are introduced into a 3-input AND gate, model SN74LVC1G11 from Texas Instruments \cite{ANDGate}, that makes a logic level comparison. With this last stage a temporal coincidence of both PMT signals in anti-coincidence with the veto signal is obtained. The output signal of this stage is connected to a pulse counter. 
+The signals from the three lines are introduced into a 3-input AND gate, model SN74LVC1G11 from Texas Instruments \cite{ANDGate}, that makes a logic level comparison. With this last stage a temporal coincidence of both PMT signals in anti-coincidence with the veto signal is obtained. The output signal of this stage is connected to a pulse counter. 
 
 The GPIO pins of a Raspberry Pi are used to communicate with the system and configure the threshold levels. A graphical user interface, shown in Figure \ref{fig:GUIcounts}, was developed to set the counter system in an easy way.
 
