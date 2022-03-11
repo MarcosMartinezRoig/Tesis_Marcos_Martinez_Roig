@@ -1,725 +1,773 @@
-\begin{thebibliography}{USDoEW16}
-
-\bibitem[Hof]{Hofstetter2}
-Wilson, H.~T. \emph{Continuous tritium effluent water monitor at the Savannah
-  River Site} .
-
-\bibitem[Mas]{EstimationTritiumDosi}
-Yoshioka, T. \emph{Estimation of radiation dose from ingested tritium in humans
-  by administration of deuterium-labelled compounds and food} Scientific
-  Reports .
-
-\bibitem[CA]{ExperimentalPaperCarlos}
-Yahlali, N. \emph{First prototype module development for a tritium in water
-  real-time monitor} accessed: 2021-06-09.
-
-\bibitem[Bla]{MeanFreePathDocument}
-Gill, J.~T. \emph{Health physics manual of good practices for tritium
-  facilities} .
-
-\bibitem[Bera]{FiberDetector1b}
-Jeffers, L.~A. \emph{IN-SITU TRITIUM BETA DETECTOR} .
-
-\bibitem[Berb]{FiberDetector1a}
-Jeffers, L.~A. \emph{Phase 1 Final Report for In-Situ Tritium Beta Detector} .
-
-\bibitem[MLO34]{TritiumDiscovery}
-Rutherford, E. \emph{Transmutation Effects observed with Heavy Hydrogen} {The
-  Royal Society Publishing} \textbf{{133}} (1934).
-
-\bibitem[Alv39]{TritiumIsolate}
-Cornog, R. \emph{Helium and Hydrogen of Mass 3} Phys. Rev. \textbf{56} (1939)
-  613--613.
-
-\bibitem[Mur67]{Muramatsu}
-Tokunaga, N. \emph{A scintillation probe for continuous monitoring of tritiated
-  water} Nuclear Instruments and Methods \textbf{54} (1967)(2) 325--326.
-
-\bibitem[Mog69]{Moghissi}
-Regnier, J. \emph{A tritium monitor based on scintillation} Nuclear Instruments
-  and Methods \textbf{68} (1969)(1) 159.
-
-\bibitem[Mar72]{EstimationTritiumDosiKangarooRats}
-Koranda, J.~J. \emph{Biological Half-Life Studies of Tritium in Chronically
-  Exposed Kangaroo Rats} Radiation Research \textbf{50} (1972)(2) 426--440.
-
-\bibitem[PF81]{EstimationTritiumDosiRats}
-Kowalska, M. \emph{{Tritium Incorporation in Rats Chronically Exposed to
-  Tritiated Food or Tritiated Water for Three Successive Generations}} Journal
-  of Radiation Research \textbf{22} (1981)(4) 434--442.
-
-\bibitem[Sin85]{Ratnakaran}
-Vohra, K. \emph{An on-line tritium-in-water monitor} Nuclear Instruments and
-  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
-  and Associated Equipment \textbf{236} (1985)(1) 159--164.
-
-\bibitem[Hof92a]{HofstetterSeveral}
-Wilson, H.~T. \emph{Aqueous Effluent Tritium Monitor Development} Fusion
-  Technology \textbf{21} (1992)(2P2) 446--451.
-
-\bibitem[Hof92b]{Hofstetter1}
-Wilson, H.~T. \emph{Aqueous Effluent Tritium Monitor Development} Fusion
-  Technology \textbf{21} (1992)(2P2) 446--451.
-
-\bibitem[Str93]{StraumeTritiumHazard}
-Carsten, A.~L. \emph{{Tritium radiobiology and relative biological
-  effectiveness}} Health Physics \textbf{65} (1993)(6) 657--72 pMID: 8244712.
-
-\bibitem[Bui94]{WaterPropertiesSimulation}
-Donze, M. \emph{{Optical properties of pure water}} \emph{in} \emph{Ocean
-  Optics XII}, vol. 2258 (Edited by J.~S. Jaffe) International Society for
-  Optics and Photonics,  (SPIE1994) 174 -- 183.
-
-\bibitem[Sig94]{OnlineLSC}
-Sanders, M. \emph{Real-time aqueous tritium monitor using liquid scintillation
-  counting} Nuclear Instruments and Methods in Physics Research Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment \textbf{353}
-  (1994)(1) 494--498.
-
-\bibitem[Sha97]{APD}
-Gordon, J. \emph{High efficiency detection of tritium using silicon avalanche
-  photodiodes} IEEE Transactions on Nuclear Science \textbf{44} (1997)(3)
-  774--776.
-
-\bibitem[Spi97]{CrosstalkProbability}
-Lacaita, A. \emph{Physics and numerical simulation of single photon avalanche
-  diodes} IEEE Transactions on Electron Devices \textbf{44} (1997)(11)
-  1931--1943.
-
-\bibitem[AH99]{LSCothers}
-Abu-Jarad, F. \emph{Calibration of a liquid scintillation counter to assess
-  tritium levels in various samples} Nuclear Instruments and Methods in Physics
-  Research Section A: Accelerators, Spectrometers, Detectors and Associated
-  Equipment \textbf{438} (1999)(2) 356--361.
-
-\bibitem[AS00]{TrackingTritium}
-Pawlyta, J. \emph{Measurements of Tritium Radioactivity in Surface Water on the
-  Upper Silesia Region} {Journal of Nuclear Fuel Cycle and Waste Technology}
-  \textbf{{18}} (2000) 23--28.
-
-\bibitem[MR00]{Ratnakaran2000}
-Abani, M.~C. (Eds.) \emph{A Real-time Tritium-In-Water Monitor for Measurement
-  Of Heavy Water Leak To The Secondary Coolant} vol.~32 IRPA-10 Proceedings of
-  the 10th international congress of the International Radiation Protection
-  Association on harmonization of radiation, human life and the ecosystem,
-  (Japan: Japan Health Physics Society2000) international congress of the
-  International Radiation Protection Association.
-
-\bibitem[SAG01]{HardCosmicMuonRate}
-URABE, I. \emph{Estimation of Absorbed Dose Rates in Air Based on Flux
-  Densities of Cosmic Ray Muons and Electrons on the Ground Level in Japan}
-  Journal of Nuclear Science and Technology \textbf{38} (2001)(12) 1103--1108.
+\begin{thebibliography}{{HAM}16b}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
 
 \bibitem[Ago03]{Geant4P}
-Zschiesche, D. \emph{Geant4—a simulation toolkit} Nuclear Instruments and
-  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
-  and Associated Equipment \textbf{506} (2003)(3) 250--303.
+Agostinelli, S. et~al., \emph{Geant4—a simulation toolkit}, Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment, \textbf{506} (2003)
+  250--303,
+  \urlprefix\url{http://dx.doi.org/https://doi.org/10.1016/S0168-9002(03)01368-8}.
 
-\bibitem[Law06]{TemperatureBlade}
-Large, M. \emph{Cleaving of microstructured polymer optical fibres} Optics
-  Communications \textbf{258} (2006)(2) 193--202.
+\bibitem[AH99]{LSCothers}
+Al-Haddad, M., Fayoumi, A. and Abu-Jarad, F., \emph{{Calibration of a liquid
+  scintillation counter to assess tritium levels in various samples}}, Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment, \textbf{{438}} (1999)
+  356--361, \urlprefix\url{http://dx.doi.org/10.1016/S0168-9002(99)00272-7}.
 
-\bibitem[Hag07]{CRYpaper}
-Wright, D. \emph{Cosmic-ray shower generator (CRY) for Monte Carlo transport
-  codes} \emph{in} \emph{2007 IEEE Nuclear Science Symposium Conference
-  Record}, vol.~2 (2007) 1143--1146.
+\bibitem[{Alb}17]{TFGAlberto}
+{Alberto Soler Cambra}, \emph{Contribución al Desarrollo de un Prototipo de
+  Ddetector de Fibras Centelleadoras para la Medición de Tritio en Agua}
+  (2017), {Trabajo final de grado (TFG) de la Universidad de Valencia}.
 
-\bibitem[Mat07]{XRays1}
-Watanabe, K. \emph{New technique for non-destructive measurements of tritium in
-  future fusion reactors} Nuclear Fusion \textbf{47} (2007)(7) S464--S468.
-
-\bibitem[Pal07]{0.6Bq_L}
-Borrull, F. \emph{Tritium activity levels in environmental water samples from
-  different origins} Applied Radiation and Isotopes \textbf{65} (2007)(9)
-  1048--1056.
-
-\bibitem[JB10]{Spectrometry}
-Alanic, G. \emph{3He mass spectrometry for very low-level measurement of
-  organic tritium in environmental samples} Journal of Environmental
-  Radioactivity \textbf{101} (2010)(2) 185--190.
-
-\bibitem[Cal10]{FranceTritiumEnvironment}
-Garnier-Laplace, J. \emph{Tritium and the environment} (2010) accessed:
-  2021-06-07.
-
-\bibitem[Lev11]{BirksCoefficient}
-Rosellini, R. \emph{A 1 mm Scintillating Fibre Tracker Readout by a Multi-anode
-  Photomultiplier} (2011).
-
-\bibitem[Arg11]{NEMODataSimulation}
-Žukauskas, A. \emph{Spectral modeling of scintillator for the NEMO-3 and
-  SuperNEMO detectors} Nuclear Instruments and Methods in Physics Research
-  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment
-  \textbf{625} (2011)(1) 20--28.
-
-\bibitem[Yah13]{PDEStudy}
-Lorca, D. \emph{Characterization of UV-enhanced SiPMs for imaging in a high
-  pressure xenon electroluminescent TPC} \emph{in} \emph{2013 3rd International
-  Conference on Advancements in Nuclear Instrumentation, Measurement Methods
-  and their Applications (ANIMMA)} (2013) 1--12.
-
-\bibitem[BD13]{Calorimeter2}
-Bornschein, B. \emph{First results with the upgraded TLK tritium calorimeter
-  IGC-V0.5} Fusion Engineering and Design \textbf{88} (2013)(11) 2865--2869.
-
-\bibitem[ZC13]{IonizationChamber2}
-Wang, H. \emph{Theoretical study of energy deposition in ionization chambers
-  for tritium measurements} AIP, Review of Scinetific Instruments \textbf{84}
-  (2013).
-
-\bibitem[Hai14]{OxigenTritium}
-Fikani, M. \emph{Tritium Production by Fast Neutrons on Oxygen: An Integral
-  Experiment} Journal of Nuclear Science and Technology \textbf{{39}}
-  (2014)(sup2) 1232--1235.
-
-\bibitem[Szu15]{HardCosmicMuonRatePlot}
-Zuber, K. \emph{Cosmic-ray-induced background intercomparison with actively
-  shielded HPGe detectors at underground locations} The European Physical
-  Journal A \textbf{51} (2015)(3).
-
-\bibitem[Nie15]{Bremstrahlung}
-Bornschein, B. \emph{High Level Tritiated Water Monitoring by Bremsstrahlung
-  Counting Using a Silicon Drift Detector} Fusion Science and Technology
-  \textbf{67} (2015)(3) 507--510.
-
-\bibitem[Mer15]{TritiumEmissionSpectrum}
-Weinheimer, C. \emph{Sensitivity of next-generation tritium beta-decay
-  experiments for {keV}-scale sterile neutrinos} Journal of Cosmology and
-  Astroparticle Physics \textbf{2015} (2015)(02) 020--020.
-
-\bibitem[SR15]{AngleBlade}
-Webb, D.~J. \emph{Simple Room Temperature Method for Polymer Optical Fibre
-  Cleaving} Journal of Lightwave Technology \textbf{33} (2015)(23) 4712--4716.
-
-\bibitem[Bra15]{Ring}
-Plumeri, S. \emph{Tritiated water detection in the 2.17muM spectral region by
-  cavity ring down spectroscopy} Nuclear Instruments and Methods in Physics
-  Research Section A: Accelerators, Spectrometers, Detectors and Associated
-  Equipment \textbf{789} (2015) 43--49.
-
-\bibitem[CGA17]{Calorimeter1}
-Wendel, J. \emph{Reachable Accuracy and Precision for Tritium Measurements by
-  Calorimetry at TLK} Fusion Science and Technology \textbf{84} (2017)
-  937--940.
-
-\bibitem[Lee18]{TissueDistribution}
-Kim, I.~G. \emph{Tissue distribution, excretion and effects on genotoxicity of
-  tritium following oral administration to rats} Nuclear Engineering and
-  Technology \textbf{51} (2018).
-
-\bibitem[Bor19]{Snell}
-Wolf, E. \emph{Principles of Optics: 60th Anniversary Edition},  (Cambridge
-  University Press2019) 7 ed.
-
-\bibitem[Aze20]{SimulationPaperCarlos}
-Yahlali, N. \emph{Simulation results of a real-time in water tritium monitor}
-  Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
-  Spectrometers, Detectors and Associated Equipment \textbf{982} (2020) 164555.
-
-\bibitem[AIdlE14]{PercentageEnergyWorld}
-Agencia Internacional de~la Energía, A. \emph{Key World Energy Statistics}
-  \url{https://www.iea.org/publications/freepublications/publication/KeyWorld2014.pdf}
-  (2014) accessed: 2021-07-03.
+\bibitem[Ale11]{Calorimeter1}
+Alecu, C.~G. et~al., \emph{{Reachable Accuracy and Precision for Tritium
+  Measurements by Calorimetry at TLK}}, {Fusion Science and Technology},
+  \textbf{{60}} (2011) 937--940,
+  \urlprefix\url{http://dx.doi.org/10.13182/FST11-A12569}.
 
 \bibitem[All12]{A4988Driver}
-Allegro \emph{Driver Pololu A4988, DMOS Microstepping Driver with Translator
-  And Overcurrent Protection} (2012)
+Allegro, \emph{Driver Pololu A4988, DMOS Microstepping Driver with Translator
+  And Overcurrent Protection} (2012),
   \url{https://www.alldatasheet.es/datasheet-pdf/pdf/455036/ALLEGRO/A4988.html}.
 
+\bibitem[Alv39]{TritiumIsolate}
+Alvarez, W., L. and Cornog, R., \emph{{Helium and Hydrogen of Mass 3}}, {Phys.
+  Rev.}, \textbf{{56}} (1939) 613--613,
+  \urlprefix\url{http://dx.doi.org/10.1103/PhysRev.56.613}.
+
 \bibitem[Amp]{DataSheetMCA}
-AmpTek \emph{MCA8000D, Pocket MCA, Digital Multichannel Analyzer, Manual
-  reference.}
+AmpTek, \emph{MCA8000D, Pocket MCA, Digital Multichannel Analyzer, Manual
+  reference.},
   \url{https://www.amptek.com/products/multichannel-analyzers/mca-8000d-digital-multichannel-analyzer}.
 
 \bibitem[ARD]{ArduinoUNO}
-ARDUINO \emph{Arduino UNO REV3} \url{https://www.arduino.cc/}.
+ARDUINO, \emph{Arduino UNO REV3}, \url{https://www.arduino.cc/}.
 
-\bibitem[Ass20]{ThreeMileIsland}
-Association, W.~N. \emph{Three mile island accident}
-  \url{www.world-nuclear.org/information-library/safety-and-security/safety-of-plants/three-mile-island-accident.aspx}
-  (2020) accessed: 2021-06-07.
+\bibitem[Arg11]{NEMODataSimulation}
+Argyriades, J. et~al., \emph{Spectral modeling of scintillator for the NEMO-3
+  and SuperNEMO detectors}, Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment,
+  \textbf{625} (2011) 20--28,
+  \urlprefix\url{http://dx.doi.org/https://doi.org/10.1016/j.nima.2010.09.027}.
 
 \bibitem[{Aus}21]{Australia_GL}
-{Australian Government, National Health and Medical Reserch Council and Natural
-  Resource Management Ministerial Council} \emph{Australian Drinking Water
-  Guideilnes 6. National Water Quality Managment Strategy.}
-  \url{https://www.nhmrc.gov.au/about-us/publications/australian-drinking-water-guidelines}
-  (2021) accessed: 2021-06-08.
+{Australian Government}, \emph{Australian Drinking Water Guideilnes 6. National
+  Water Quality Managment Strategy}, Technical report, {National Health and
+  Medical Research Council} (2021).
 
-\bibitem[BfS05]{Germany_GL}
-Bundesamt~für Strahlenschutz, B. F. O. f. R.~P. \emph{Environmental
-  Radioactivity and Radiation Exposure. Annual Report.}
-  \url{http://doris.bfs.de/jspui/handle/urn:nbn:de:0221-20100331990} (2005.)
-  accessed: 2021-06-08.
+\bibitem[Aze20]{SimulationPaperCarlos}
+Azevedo, C. et~al., \emph{Simulation results of a real-time in water tritium
+  monitor}, Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment, \textbf{982}
+  (2020) 164555,
+  \urlprefix\url{http://dx.doi.org/https://doi.org/10.1016/j.nima.2020.164555}.
+
+\bibitem[BD13]{Calorimeter2}
+Bükki-Deme, A., Alecu, C., Kloppe, B. and Bornschein, B., \emph{{First results
+  with the upgraded TLK tritium calorimeter IGC-V0.5}}, {Fusion Engineering and
+  Design}, \textbf{{88}} (2013) 2865--2869,
+  \urlprefix\url{http://dx.doi.org/10.1016/j.fusengdes.2013.05.066}.
+
+\bibitem[Ber98a]{FiberDetector1b}
+Berthold, J.~W. and Jeffers, L.~A., \emph{IN-SITU TRITIUM BETA DETECTOR},
+  Technical Report 836625, {Office of Scientific and Technical Information
+  (OSTI.GOV), U.S. Department of Energy} (1998),
+  \urlprefix\url{http://dx.doi.org/10.2172/836625}.
+
+\bibitem[Ber98b]{FiberDetector1a}
+Berthold, J.~W. and Jeffers, L.~A., \emph{Phase 1 Final Report for In-Situ
+  Tritium Beta Detector}, Technical Report 2225, {Office of Scientific and
+  Technical Information (OSTI.GOV), U.S. Department of Energy} (1998),
+  \urlprefix\url{http://dx.doi.org/10.2172/2225}.
 
 \bibitem[Bir51]{BirksPaper}
-Birks, J.~B. \emph{Scintillations from Organic Crystals: Specific Fluorescence
-  and Relative Response to Different Radiations} Proceedings of the Physical
-  Society. Section A \textbf{64} (1951)(10) 874--877.
+Birks, J.~B., \emph{Scintillations from Organic Crystals: Specific Fluorescence
+  and Relative Response to Different Radiations}, Proceedings of the Physical
+  Society. Section A, \textbf{64} (1951) 874--877,
+  \urlprefix\url{http://dx.doi.org/10.1088/0370-1298/64/10/303}.
 
-\bibitem[(BN]{BrookHavenNationalLaboratory}
-(BNL), B. N.~L. \emph{Why is the High Flux Beam Reactor Being Decommissioned?}
-  \url{https://www.bnl.gov/hfbr/decommission.php} accessed: 2021-06-07.
+\bibitem[Bla91]{MeanFreePathDocument}
+Blauvelt, R.~K., Deaton, M.~R. and Gill, J.~T., \emph{Health physics manual of
+  good practices for tritium facilities}, Technical Report 2225, {Office of
+  Scientific and Technical Information (OSTI.GOV), U.S. Department of Energy}
+  (1991), \urlprefix\url{http://dx.doi.org/10.2172/266889}.
+
+\bibitem[Bor19]{Snell}
+Born, M. and Wolf, E., \emph{Principles of Optics: 60th Anniversary Edition},
+  Cambridge University Press, 7 edition (2019),
+  \urlprefix\url{http://dx.doi.org/10.1017/9781108769914}.
+
+\bibitem[Bra15]{Ring}
+Bray, C., Pailloux, A. and Plumeri, S., \emph{{Tritiated water detection in the
+  2.17muM spectral region by cavity ring down spectroscopy}}, {Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment}, \textbf{{789}} (2015)
+  43--49, \urlprefix\url{http://dx.doi.org/10.1016/j.nima.2015.03.064}.
+
+\bibitem[{Bro}]{BrookHavenNationalLaboratory}
+{Brookhaven National Laboratory (BNL)}, \emph{Why is the High Flux Beam Reactor
+  Being Decommissioned?}, \url{https://www.bnl.gov/hfbr/decommission.php}.
+
+\bibitem[Bui94]{WaterPropertiesSimulation}
+Buiteveld, H., Hakvoort, J. H.~M. and Donze, M., \emph{{Optical properties of
+  pure water}}, in J.~S. Jaffe (Ed.), \emph{Ocean Optics XII}, volume 2258,
+  International Society for Optics and Photonics, SPIE, 174 -- 183,
+  \urlprefix\url{http://dx.doi.org/10.1117/12.190060}.
+
+\bibitem[{Bun}06]{Germany_GL}
+{Bundesamt für Strahlenschutz (BMU), Federal Office for Radiation Protection},
+  \emph{Environmental Radioactivity and Radiation Exposure. Annual Report},
+  Technical report, {Bundesamt für Strahlenschutz} (2006).
+
+\bibitem[CA]{ExperimentalPaperCarlos}
+C.D.R.~Azevedo, E. C. J. C. J. D. J. D. C. M. M. M.-R. F. P. J.~V., A.~Baeza
+  and Yahlali, N., \emph{First prototype module development for a tritium in
+  water real-time monitor}.
 
 \bibitem[CAE]{DataSheetDiscriminatorCAEN}
-CAEN \emph{Model 84, 4 channels discriminator.}
+CAEN, \emph{Model 84, 4 channels discriminator.},
   \url{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiLyonzjL_wAhULAWMBHYTOBVoQFjACegQIBRAD&url=https%3A%2F%2Fwwwusers.ts.infn.it%2F~rui%2Funiv%2FAcquisizione_Dati%2FManuals%2FCAEN%2520N84.pdf&usg=AOvVaw379eLskdwjPuXY6fUmnIPk}.
 
+\bibitem[Cal12]{FranceTritiumEnvironment}
+Calmon, P. and Garnier-Laplace, J., \emph{Tritium and the environment} (2012),
+  {Institut de Radioprotection et de Sureté Nucléaire (IRSN)}.
+
 \bibitem[Cam]{DataSheetHVSupplyTennelec}
-Camberra \emph{Tennelec Model TC 952 High Voltage Supply, Manual reference.}
+Camberra, \emph{Tennelec Model TC 952 High Voltage Supply, Manual reference.},
   \url{https://groups.nscl.msu.edu/nscl_library/manuals/tennelec/tennelec.htm}.
 
-\bibitem[Cam17]{TFGAlberto}
-Cambra, A.~S. \emph{Contribución al Desarrollo de un Prototipo de Ddetector de
-  Fibras Centelleadoras para la Medición de Tritio en Agua} (2017) trabajo
-  final de grado, TFG.
-
-\bibitem[Cap20]{EIAOutlook}
-Capuano, D.~L. \emph{International Energy Outlook 2013}
-  \url{https://www.eia.gov/outlooks/ieo/} (2020) accessed: 2021-06-07.
-
-\bibitem[CdSN13]{Spain_GL}
-Consejo~de Seguridad~Nuclear, C. N. S.~C. \emph{National Regulation of
-  Radionuclides.}
-  \url{https://www.csn.es/en/normativa-del-csn/normativa-espanola} (2013.)
-  accessed: 2021-06-08.
-
 \bibitem[CER]{DataSheetCoincidenceCERN}
-CERN \emph{Coincidence Unit Type N6234, Manual reference.} \url{}.
+CERN, \emph{Coincidence Unit Type N6234, Manual reference.}
+
+\bibitem[Che13]{IonizationChamber2}
+Chen, Z., Peng, S., Meng, D., He, Y. and Wang, H., \emph{{Theoretical study of
+  energy deposition in ionization chambers for tritium measurements}}, {AIP,
+  Review of Scinetific Instruments}, \textbf{{84}} (2013) 650--659,
+  \urlprefix\url{http://dx.doi.org/10.1063/1.4825032}.
 
 \bibitem[Cir19]{TMC2208Driver}
-Circuits, I. \emph{Driver TMC2208, Step/Dir Drivers for Two-Phase Bipolar
+Circuits, I., \emph{Driver TMC2208, Step/Dir Drivers for Two-Phase Bipolar
   Stepper Motors up to 2A peak- StealthChop for Quiet Movement- UART Interface
-  Option} (2019)
+  Option} (2019),
   \url{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiJ-7qPk4rxAhWlyoUKHeBEA9gQFjAAegQIBhAD&url=https%3A%2F%2Fwww.trinamic.com%2Ffileadmin%2Fassets%2FProducts%2FICs_Documents%2FTMC220x_TMC2224_datasheet_Rev1.09.pdf&usg=AOvVaw0PrHryfBPIuUenhXeS_hSS}.
 
 \bibitem[Col21]{ROOTWebPage}
-Collaboration, C. \emph{ROOT: analyzing petabytes of data, scientifically.}
-  \url{https://root.cern.ch/} (2021) accessed: 2021-07-19.
+Collaboration, C., \emph{ROOT: analyzing petabytes of data, scientifically.},
+  \url{https://root.cern.ch/} (2021).
 
 \bibitem[coma]{ScalerDataSheet}
-company, C. \emph{Quad Scaler And Preset Counter-Timer, N1145}
+company, C., \emph{Quad Scaler And Preset Counter-Timer, N1145},
   \url{https://www.caen.it/products/n1145/}.
 
 \bibitem[comb]{WettingProperty}
-company, S.~N. \emph{Wetting property}
+company, S.~N., \emph{Wetting property},
   \url{https://www.sannopco.co.jp/eng/products/function/function4.php}.
 
+\bibitem[{Con}a]{REA}
+{Consejo de Seguridad Nuclear (CSN)}, \emph{Red de Estaciones Automáticas
+  (REA)}, \url{https://www.csn.es/mapa-de-valores-ambientales}.
+
+\bibitem[{Con}b]{REM}
+{Consejo de Seguridad Nuclear (CSN)}, \emph{Red de Estaciones de Muestreo
+  (REM)}, \url{https://www.csn.es/kprgisweb2/index.html?lang=es}.
+
+\bibitem[{Con}c]{CSN}
+{Consejo de Seguridad Nuclear (CSN), Spain }, \url{https://www.csn.es/home}.
+
+\bibitem[{Con}13]{Spain_GL}
+{Consejo de Seguridad Nuclear (CSN), (Nuclear Safety Council)}, \emph{National
+  Regulation of Radionuclides}, Technical report, {} (2013).
+
 \bibitem[Cry20]{ScintillatorVeto}
-Crystal, E. \emph{Plastic scintillator of Epic Crystal, Manual reference}
-  (2020) \url{http://www.epic-crystal.com/others/plastic-scintillator.html}.
+Crystal, E., \emph{Plastic scintillator of Epic Crystal, Manual reference}
+  (2020), \url{http://www.epic-crystal.com/others/plastic-scintillator.html}.
 
-\bibitem[CSN21a]{CSN}
-CSN \emph{Consejo de Seguridad Nuclear, Spain} \url{https://www.csn.es/home}
-  (2021) accessed: 2021-06-07.
+\bibitem[{Dep}16]{TritiumHandling}
+{Departament of Energy (DOE) of U. S.}, \emph{DOE Handbook Primer on tritium
+  safe handling practices}, {U. S. Departament of Energy Washington, D.C.
+  20585} (2016).
 
-\bibitem[CSN21b]{REA}
-CSN \emph{Red de Estaciones Automáticas, REA}
-  \url{https://www.csn.es/mapa-de-valores-ambientales} (2021) accessed:
-  2021-06-07.
-
-\bibitem[CSN21c]{REM}
-CSN \emph{Red de Estaciones de Muestreo, REM}
-  \url{https://www.csn.es/kprgisweb2/index.html?lang=es} (2021) accessed:
-  2021-06-07.
-
-\bibitem[dE19]{PercentageEnergySpain}
-de~España, R.~E. \emph{El Sistema Electrico Español} (2019) accessed:
-  2021-06-07.
-
-\bibitem[Dfdl06]{Switzerland_GL}
-Departement federal~de l'interieur, D. F. D. o. t.~I. \emph{Ordonnance du DFI
-  sur les substances etrangeres et les composants dans les denrees alimentaires
-  (817.021.23).} \url{www.admin.ch/ch/f/rs/8/817.021.23.fr.pdf} (2006)
-  accessed: 2021-06-07.
-
-\bibitem[Dir21]{100BqL}
-Directive, E.~C. \emph{Council Directive 2013/59/Euratom of 5 December 2013
-  laying down basic safety standards for protection against the dangers arising
-  from exposure to ionising radiation, and repealing Directives 89/618/Euratom,
-  90/641/Euratom, 96/29/Euratom, 97/43/Euratom and 2003/122/Euratom}
-  \url{https://eur-lex.europa.eu/eli/dir/2013/59/oj} (2021) accessed:
-  2021-06-07.
+\bibitem[{Dep}17]{Switzerland_GL}
+{Departement federal de l'interieur, DFI (Federal Department of the Interior)},
+  \emph{Ordonnance du DFI sur les substances etrangeres et les composants dans
+  les denrees alimentaires (817.021.23)}, Technical report, {The Federal
+  Council (Swiss Government)} (2017).
 
 \bibitem[Div16]{DataSheetHammamatsu_1_SiPM_1375}
-Division, H. P. K. S.~S. \emph{MPPC )Multi-Pixel Photon Counter) S13360-1375.}
-  (2016)
+Division, H. P. K. S.~S., \emph{MPPC )Multi-Pixel Photon Counter) S13360-1375.}
+  (2016),
   \url{https://www.hamamatsu.com/jp/en/product/type/S13360-1375CS/index.html}.
 
+\bibitem[{Dr.}20]{EIAOutlook}
+{Dr. Linda Capuano}, \emph{International Energy Outlook 2013 with projections
+  to 2050}, Technical report, {Center for Strategic and International Studies,
+  U. E. Energy Information Administration, U.S. Department of Energy,
+  Washington, DC 20585} (2020).
+
 \bibitem[DYC]{ClimaticChamberIFIMED}
-DYCOMETAL \emph{DYCOMETAL model CCK 85} \url{https://www.dycometal.com/}.
+DYCOMETAL, \emph{DYCOMETAL model CCK 85}, \url{https://www.dycometal.com/}.
 
 \bibitem[ea20]{PDG}
-et~al., P.~Z. \emph{Particle Data Grup), PDG, Prog. Theor. Exp. Phys..} (2020)
-  \url{https://pdg.lbl.gov/}.
-
-\bibitem[EAEC13]{EURATOM_GL}
-European Atomic Energy~Community, E. \emph{Laying down requirements for the
-  protection of the health of the general public with regard to radioactive
-  substances in water intended for human consumption}
-  \url{https://eur-lex.europa.eu/eli/dir/2013/59/oj} (2013.) accessed:
-  2021-06-08.
+et~al., P.~Z., \emph{Particle Data Grup), PDG, Prog. Theor. Exp. Phys..}
+  (2020), \url{https://pdg.lbl.gov/}.
 
 \bibitem[Ele]{DataSheetHVSupplyWenzel}
-Electronik, W. \emph{Model N 1330-4 High Voltage Power Supply.}
+Electronik, W., \emph{Model N 1330-4 High Voltage Power Supply.},
   \url{https://wenzel-elektronik.de}.
 
-\bibitem[Eva96]{NaturalRadioactiveSeries2}
-Evans, R.~D. \emph{The Atomic Nucleus} (1996).
+\bibitem[{Ene}19]{35MillionsUSA}
+{Energy News}, \emph{Estados Unidos anuncia una inversi\'on de 35 millones para
+  las centrales nucleares},
+  \url{https://www.energynews.es/estados-unidos-centrales-nucleares/} (2019).
 
-\bibitem[Fer19]{FERMILAB}
-Fermilab \emph{Tritium at Fermilab} \url{https://www.fnal.gov/pub/tritium/}
-  (2019) accessed: 2021-06-07.
+\bibitem[{Eur}13]{EURATOM_GL}
+{European Atomic Energy Community, EURATOM}, \emph{Laying down requirements for
+  the protection of the health of the general public with regard to radioactive
+  substances in water intended for human consumption}, Technical report,
+  {Council directive 2013/15/euratom} (2013).
+
+\bibitem[{EUR}14]{100BqL}
+{EUROATOM}, \emph{Council Directive 2013/59/Euratom of 5 December 2013},
+  \url{https://eur-lex.europa.eu/eli/dir/2013/59/oj} (2014).
+
+\bibitem[{Eur}16]{60ReactorsChina}
+{Europa Press}, \emph{China construir\'a al menos 60 centrales nucleares en la
+  próxima d\'ecada},
+  \url{https://www.europapress.es/internacional/noticia-china-construira-menos-60-centrales-nucleares-proxima-decada-20160916210159.html}
+  (2016).
+
+\bibitem[Eva96]{NaturalRadioactiveSeries2}
+Evans, R.~D., \emph{The Atomic Nucleus} (1996),
+  \urlprefix\url{https://doi.org/10.1142/2800}.
+
+\bibitem[{Fer}19]{FERMILAB}
+{Fermilab}, \emph{Tritium at Fermilab}, \url{https://www.fnal.gov/pub/tritium/}
+  (2019).
 
 \bibitem[fo]{GuillotineIFO}
-fiber optical, I. \emph{POF Cutter block}
+fiber optical, I., \emph{POF Cutter block},
   \url{https://i-fiberoptics.com/tool-detail.php?id=105&cat=cutters}.
 
-\bibitem[{GEA}21]{Geant4WebPage}
-{GEANT4Collaboration} \emph{Geant4: A toolkit for the simulation of the passage
-  of particles through matter} \url{https://geant4.web.cern.ch/node/1} (2021)
-  accessed: 2021-06-08.
+\bibitem[{GEA}]{Geant4WebPage}
+{GEANT4 Collaboration}, \emph{Geant4: A toolkit for the simulation of the
+  passage of particles through matter},
+  \url{https://geant4.web.cern.ch/node/1}.
 
 \bibitem[Gmb10]{LEDRLT}
-Gmbh, R.~L. \emph{LED435-03, 20 mW, 20 mA} (2010)
+Gmbh, R.~L., \emph{LED435-03, 20 mW, 20 mA} (2010),
   \url{http://www.roithner-laser.com/led_diverse.html}.
 
 \bibitem[GRB]{GRBLDocumentation}
-\emph{GRBL package of Arduino} \url{https://github.com/grbl/grbl/wiki}.
+\emph{GRBL package of Arduino}, \url{https://github.com/grbl/grbl/wiki}.
 
-\bibitem[{HAM}]{DataSheetHammamatsu_1_SiPM_50}
-{HAMAMATSU PHOTONICS K.K. Solid State Division"}.
+\bibitem[Hag07]{CRYpaper}
+Hagmann, C., Lange, D. and Wright, D., \emph{Cosmic-ray shower generator (CRY)
+  for Monte Carlo transport codes}, in \emph{2007 IEEE Nuclear Science
+  Symposium Conference Record}, volume~2, 1143--1146,
+  \urlprefix\url{http://dx.doi.org/10.1109/NSSMIC.2007.4437209}.
+
+\bibitem[Hai14]{OxigenTritium}
+Haight, R., Wermer, J. and Fikani, M., \emph{{Tritium Production by Fast
+  Neutrons on Oxygen: An Integral Experiment}}, {Journal of Nuclear Science and
+  Technology}, \textbf{{39}} (2014) 1232--1235,
+  \urlprefix\url{http://dx.doi.org/10.1080/00223131.2002.10875326}.
 
 \bibitem[{HAM}16a]{DataSheetHammamatsu_1_SiPM_25}
-{HAMAMATSU PHOTONICS K.K. Solid State Division} \emph{MPPC Multi-Pixel Photon
-  Counter S13360-1325.} (2016)
+{HAMAMATSU PHOTONICS K.K. Solid State Division}, \emph{MPPC Multi-Pixel Photon
+  Counter S13360-1325.} (2016),
   \url{https://www.hamamatsu.com/eu/en/product/type/S13360-1325PE/index.html}.
 
-\bibitem[{HAM}16b]{DataSheetHammamatsu_1_SiPM_75}
-{HAMAMATSU PHOTONICS K.K. Solid State Division} \emph{MPPC Multi-Pixel Photon
-  Counter S13360-6075.} (2016)
+\bibitem[{HAM}16b]{DataSheetHammamatsu_1_SiPM_50}
+{HAMAMATSU PHOTONICS K.K. Solid State Division"}, \emph{MPPC Multi-Pixel Photon
+  Counter S13360-6050.} (2016),
+  \url{https://www.hamamatsu.com/eu/en/product/type/S13360-6050CS/index.html}.
+
+\bibitem[{HAM}16c]{DataSheetHammamatsu_1_SiPM_75}
+{HAMAMATSU PHOTONICS K.K. Solid State Division}, \emph{MPPC Multi-Pixel Photon
+  Counter S13360-6075.} (2016),
   \url{https://www.hamamatsu.com/eu/en/product/type/S13360-6075CS/index.html}.
 
-\bibitem[Her07]{CrossSeccionNeutrino}
-Hermosilla, M.~V. \emph{Interacción neutrino-núcleo a energías intermedias}
-  Ph.D. thesis University of Granada Granada, Spain (2007)
-  \url{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjZg5zB1IryAhUNz4UKHTNTA3IQFjABegQIAxAD&url=https%3A%2F%2Fific.uv.es%2Fnucth%2Ftesisvalverde.pdf&usg=AOvVaw2CMtRcRLi9K2AU-cF_NYYS}.
+\bibitem[Hof92a]{HofstetterSeveral}
+Hofstetter, K.~J. and Wilson, H.~T., \emph{{Aqueous Effluent Tritium Monitor
+  Development}}, Fusion Technology, \textbf{{21}} (1992) 446--451,
+  \urlprefix\url{http://dx.doi.org/10.13182/FST92-A29786}.
+
+\bibitem[Hof92b]{Hofstetter1}
+Hofstetter, K.~J. and Wilson, H.~T., \emph{{Aqueous Effluent Tritium Monitor
+  Development}}, {Fusion Technology}, \textbf{{21}} (1992) 446--451,
+  \urlprefix\url{http://dx.doi.org/10.13182/FST92-A29786}.
+
+\bibitem[Hof92c]{Hofstetter2}
+Hofstetter, K.~J. and Wilson, H.~T., \emph{Continuous tritium effluent water
+  monitor at the Savannah River Site}, Technical Report WSRC-MS-92-163;
+  CONF-9209261-1 ON: DE93002157, {Office of Scientific and Technical
+  Information (OSTI.GOV), U.S. Department of Energy} (1992).
 
 \bibitem[Hou18]{CommonEmissionTritium}
-Hou, X. \emph{{Tritium and $\ce{^{14}C}$ in the Environment and Nuclear
-  Facilities: Sources and Analytical Methods}} {Journal of Nuclear Fuel Cycle
-  and Waste Technology} \textbf{{16}} (2018) 11--39.
+Hou, X., \emph{{Tritium and $\ce{^{14}C}$ in the Environment and Nuclear
+  Facilities: Sources and Analytical Methods}}, {Journal of Nuclear Fuel Cycle
+  and Waste Technology}, \textbf{{16}} (2018) 11--39,
+  \urlprefix\url{http://dx.doi.org/10.7733/jnfcwt}.
 
-\bibitem[IAE21]{IAEA}
-IAEA \emph{The International Atomic Energy Agency} \url{https://www.iaea.org/}
-  (2021) accessed: 2021-06-07.
-
-\bibitem[IAEA]{TritiumDecayEnergyLevels}
-International Atomic Energy~Agency, I. \emph{Tritium energy levels}
-  \url{https://www-nds.iaea.org} accessed: 2021-06-07.
-
-\bibitem[ICfS07]{Russia_GL}
-International Council~for Science, W. D.~S., UCSU \emph{NRB-99 Radiation Safety
-  Norms.} \url{http://www.wdcb.ru/mining/zakon/NRB99.htm} (2007.) accessed:
-  2021-06-08.
-
-\bibitem[ICoRP91]{ICRP_GL}
-International Commission~on Radiological~Protection, I. \emph{1990
-  Recommendations of the International Commission on Radiological Protection}
-  vol.~21,  (Pergamon Press, Oxford, New York, Frankfurt, Seoul, Sydnel,
-  Tokyo1991).
-
-\bibitem[ICoRP96]{ICRP_factor}
-International Commission~on Radiological~Protection, I. \emph{Age-dependent
-  doses to members of the public from intake of radionuclides: Part 5.
-  Compilation of ingestion and inhalation dose coefficients.} vol.~26,
-  (Pergamon Press, Oxford, United Kingdom1996).
-
-\bibitem[ICR21a]{ICRP}
-ICRP \emph{Internation Commission of Radiological Protection}
-  \url{https://www.icrp.org/} (2021) accessed: 2021-06-07.
-
-\bibitem[ICR21b]{ICRU}
-ICRU \emph{Internation Commission of Radiological Units and Measurements}
-  \url{https://www.icru.org/} (2021) accessed: 2021-06-07.
+\bibitem[{Hyd}16]{Quebec_GL}
+{Hydro Quebec}, \emph{Resultats du programme de surveillance de
+  l’environnement du site de Gentilly-2}, Technical report, {National
+  Library} (2016).
 
 \bibitem[IGU]{StructureAxis}
-IGUS, P. f. l.~l. \emph{Carro transversal Drylin-SLW}
+IGUS, P. f. l.~l., \emph{Carro transversal Drylin-SLW},
   \url{https://www.igus.es/info/linear-guides-drylin-cross-slide}.
 
 \bibitem[Inc]{CREMATPreAmplifierDataSheet}
-Inc., C. \emph{CR 111-R2.1 Charge sensitive preamplifier}
+Inc., C., \emph{CR 111-R2.1 Charge sensitive preamplifier},
   \url{https://www.cremat.com/home/charge-sensitive-preamplifiers/}.
 
 \bibitem[Inc06]{DiamondThorlabs}
-Inc., T. \emph{Guide to connectorization and polishing optical fibers} (2006)
+Inc., T., \emph{Guide to connectorization and polishing optical fibers} (2006),
   \url{https://www.thorlabs.de/thorproduct.cfm?partnumber=FN96A}.
 
 \bibitem[Ins]{TurbiditySystem}
-Instruments, H. \emph{Multiparamétrico con opciones GPS, sonda
-  autoregistradora, turbidez e ISE}
+Instruments, H., \emph{Multiparamétrico con opciones GPS, sonda
+  autoregistradora, turbidez e ISE},
   \url{https://www.hannainst.es/parametros/4654-multiparametrico-portatil-con-portasondas-multisensor-ph-orp-ce-od-temperatura.html#/507-cable_m-4_m/512-portasondas-si/513-portasondas_registrador-no/514-gps-no/515-turbidez-no}.
 
 \bibitem[Ins15]{OPA656}
-Instruments, T. \emph{OPA656 Wideband, Unity-Gain Stable, FET-Input Operational
-  Amplifier} (2015) \url{https://www.ti.com/product/OPA656}.
+Instruments, T., \emph{OPA656 Wideband, Unity-Gain Stable, FET-Input
+  Operational Amplifier} (2015), \url{https://www.ti.com/product/OPA656}.
 
 \bibitem[Ins16]{ANDGate}
-Instruments, T. \emph{SN74LVC1G11DBVR Single 3-Input Positive-AND Gate} (2016)
-  \url{https://www.ti.com/store/ti/en/p/product/?p=SN74LVC1G11DBVR}.
+Instruments, T., \emph{SN74LVC1G11DBVR Single 3-Input Positive-AND Gate}
+  (2016), \url{https://www.ti.com/store/ti/en/p/product/?p=SN74LVC1G11DBVR}.
 
-\bibitem[{Ins}17a]{France_GL}
-{Institut de radioprotection et de sûreté nucléaire (IRSN) } \emph{Bilan de
-  l’état radiologique de l’environnement français de 2015 à 2017}
-  \url{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiskum8mYLwAhXLB2MBHWLgAkoQFjAAegQIBBAD&url=https%3A%2F%2Fwww.actu-environnement.com%2Fmedia%2Fpdf%2Fnews-32705-bilan.pdf&usg=AOvVaw0oCSJP78IgV1Tek0T4_6z1}
-  (2017.) accessed: 2021-06-08.
-
-\bibitem[Ins17b]{Stretcher}
-Instruments, T. \emph{SN74AHC1G32 Single 2-Input Positive-OR Gate} (2017)
+\bibitem[Ins17]{Stretcher}
+Instruments, T., \emph{SN74AHC1G32 Single 2-Input Positive-OR Gate} (2017),
   \url{https://www.ti.com/product/SN74AHC1G32}.
 
+\bibitem[{Ins}18]{France_GL}
+{Institut de radioprotection et de sûreté nucléaire (IRSN)}, \emph{Bilan de
+  l’état radiologique de l’environnement français de 2015 à 2017},
+  Technical report, {Réseau National de mesures de la radioactivité de
+  l'environmennement} (2018).
+
+\bibitem[{Int}a]{TritiumDecayEnergyLevels}
+{International Atomic Energy Agency (IAEA)}, \emph{Nuclear Data Services},
+  \url{https://www-nds.iaea.org}.
+
+\bibitem[{Int}b]{ICRP}
+{International Commission on Radiological Protection (ICRP)},
+  \url{https://www.icrp.org/}.
+
+\bibitem[{Int}c]{ICRU}
+{International Commission on Radiological Units and Measurements (ICRU)},
+  \url{https://www.icru.org/}.
+
+\bibitem[{Int}d]{ISR}
+{International Society of Radiology (ISR)}, \url{https://www.isradiology.org/}.
+
+\bibitem[{Int}91]{ICRP_GL}
+{International Commission on Radiological Protection (ICRP)}, \emph{1990
+  Recommendations of the International Commission on Radiological Protection},
+  volume~21, Pergamon Press, Oxford (1991),
+  \urlprefix\url{https://www.icrp.org/publication.asp?id=icrp%20publication%2060}.
+
+\bibitem[{Int}96]{ICRP_factor}
+{International Commission on Radiological Protection (ICRP)},
+  \emph{Age-dependent doses to members of the public from intake of
+  radionuclides: Part 5. Compilation of ingestion and inhalation dose
+  coefficients.}, volume~26, Pergamon Press, Oxford, United Kingdom (1996),
+  \urlprefix\url{https://www.icrp.org/publication.asp?id=ICRP%20Publication%2072}.
+
+\bibitem[{Int}07]{Russia_GL}
+{International Council for Science (UCSU), World Data System}, \emph{NRB-99
+  Radiation Safety Norms}, Technical report, {World Data Centers} (2007).
+
 \bibitem[Int09]{MAX5500DataSheet}
-Integrated, M. \emph{Low-Power, Quad, 12-Bit, Votlage-Output DACs with Serial
-  Interface} (2009)
+Integrated, M., \emph{Low-Power, Quad, 12-Bit, Votlage-Output DACs with Serial
+  Interface} (2009),
   \url{https://www.maximintegrated.com/en/products/analog/data-converters/digital-to-analog-converters/MAX5500.html}.
 
-\bibitem[ISR21]{ISR}
-ISR \emph{Internation Society of Radiology} \url{https://www.isradiology.org/}
-  (2021) accessed: 2021-06-07.
+\bibitem[{Int}14]{PercentageEnergyWorld}
+{International Energy Agency (IEA)}, \emph{Key World Energy Statistics},
+  \url{https://www.iea.org/publications/freepublications/publication/KeyWorld2014.pdf}
+  (2014).
 
 \bibitem[IT]{VoltageSourceISOTECH}
-ISO-TECH \emph{ISO-TECH GPS-4303 Digital Bench Power Supply With UKAS
-  Calibration, 4 Output.}
+ISO-TECH, \emph{ISO-TECH GPS-4303 Digital Bench Power Supply With UKAS
+  Calibration, 4 Output.},
   \url{https://www.enrgtech.co.uk/buy/product/ET14138881/IPS4303}.
 
+\bibitem[JB10]{Spectrometry}
+Jean-Baptiste, P. et~al., \emph{{3He mass spectrometry for very low-level
+  measurement of organic tritium in environmental samples}}, {Journal of
+  Environmental Radioactivity}, \textbf{{101}} (2010) 185--190,
+  \urlprefix\url{http://dx.doi.org/10.1016/j.jenvrad.2009.10.005}.
+
 \bibitem[Keh]{VoltageSourceKethley}
-Kehtley \emph{Model 6517B Electrometer User's Manual.}
+Kehtley, \emph{Model 6517B Electrometer User's Manual.},
   \url{https://www.tek.com/low-level-sensitive-and-specialty-instruments/high-resistance-low-current-electrometers-series-650-6}.
 
 \bibitem[{KEI}]{DataSheetKeithley6487}
-{KEITHLEY, a greater measure of confidence} \emph{Model 6487
-  Picoammeter/voltage source, Manual reference.}
+{KEITHLEY, a greater measure of confidence}, \emph{Model 6487
+  Picoammeter/voltage source, Manual reference.},
   \url{https://pdf.directindustry.com/pdf/keithley-instruments/6487-picoammeter-voltage-source/1438-619876.html}.
 
 \bibitem[Khe02]{IonizationChamber1}
-Kherani, N. \emph{An alternative approach to tritium-in-water monitoring}
-  Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
-  Spectrometers, Detectors and Associated Equipment \textbf{484} (2002)(1)
-  650--659.
+Kherani, N., \emph{{An alternative approach to tritium-in-water monitoring}},
+  {Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment}, \textbf{{484}} (2002)
+  650--659, \urlprefix\url{http://dx.doi.org/10.1016/S0168-9002(01)02008-3}.
 
 \bibitem[K.K10]{DataSheetPMTsAveiro}
-K.K., H.~P. \emph{Photonmultiplier tube R2154-02 2} (2010)
+K.K., H.~P., \emph{Photonmultiplier tube R2154-02 2} (2010),
   \url{https://www.hamamatsu.com/eu/en/product/type/R2154-02/index.html}.
 
 \bibitem[K.K15]{PowerSupplyAveiroDataSheet}
-K.K., H.~P. \emph{High Voltage Power Supply C11152-01} (2015)
+K.K., H.~P., \emph{High Voltage Power Supply C11152-01} (2015),
   \url{https://www.hamamatsu.com/jp/en/product/type/C11152-01/index.html}.
 
 \bibitem[K.K19]{DataSheetPMTs}
-K.K., H.~P. \emph{Photonmultiplier tube R8520-406/R8520-506.} (2019)
+K.K., H.~P., \emph{Photonmultiplier tube R8520-406/R8520-506.} (2019),
   \url{https://www.hamamatsu.com/eu/en/product/type/R8520-406/index.html}.
 
 \bibitem[Kno99]{Knoll}
-Knoll, G.~F. \emph{Radiation Detection and Measurement},  (John Wiley and Sons,
-  Inc.1999) 3 ed.
+Knoll, G.~F., \emph{Radiation Detection and Measurement}, John Wiley and Sons,
+  Inc., New York, Chichester, Weinheim, Brisbane, Toronto, Singapore, 3 edition
+  (1999).
 
 \bibitem[Kno10]{CurieLimit}
-Knoll, G.~F. \emph{Radiation Detection and Measurement, 4th Edition},  (Don
-  Fowley2010).
+Knoll, G.~F., \emph{Radiation Detection and Measurement, 4th Edition}, Don
+  Fowley (2010),
+  \urlprefix\url{https://www.wiley.com/en-sg/Radiation+Detection+and+Measurement,+4th+Edition-p-9780470131480}.
+
+\bibitem[Law06]{TemperatureBlade}
+Law, S. et~al., \emph{Cleaving of microstructured polymer optical fibres},
+  Optics Communications, \textbf{258} (2006) 193--202,
+  \urlprefix\url{http://dx.doi.org/https://doi.org/10.1016/j.optcom.2005.08.011}.
 
 \bibitem[LeC]{DataSheetCoincidenceLeCroy}
-LeCroy \emph{Model 465 Coincidence Unit, Manual reference.}
+LeCroy, \emph{Model 465 Coincidence Unit, Manual reference.},
   \url{https://prep.fnal.gov/catalog/hardware_info/lecroy/nim/465.html}.
 
 \bibitem[LEC17]{OscilloscopeIFIMED}
-LECROY, T. \emph{WaveRunner 6 Zi Oscilloscopes400 MHz –4 GHz .} (2017)
+LECROY, T., \emph{WaveRunner 6 Zi Oscilloscopes400 MHz –4 GHz .} (2017),
   \url{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiA-aaDo_bxAhWngVwKHYWTCNcQFjAAegQIBRAD&url=https%3A%2F%2Fcdn.teledynelecroy.com%2Ffiles%2Fpdf%2Fwaverunner-6zi-datasheet.pdf&usg=AOvVaw2TnF3v6ce4P0uvm7BNIuE1}.
 
+\bibitem[Lee18]{TissueDistribution}
+Lee, J. et~al., \emph{{Tissue distribution, excretion and effects on
+  genotoxicity of tritium following oral administration to rats}}, {Nuclear
+  Engineering and Technology}, \textbf{{51}},
+  \urlprefix\url{http://dx.doi.org/10.1016/j.net.2018.09.013}.
+
 \bibitem[Leo94]{Leo}
-Leo, W.~R. \emph{Techniques for Nuclear and Particle Physics Experiments: a
-  How-to Approach},  (Springer-Verlag Berlin Heidelberg GmbH.1994) 2 ed.
-  \url{https://doi.org/10.1007/978-3-642-57920-2}.
+Leo, W.~R., \emph{Techniques for Nuclear and Particle Physics Experiments: a
+  How-to Approach}, Springer-Verlag Berlin Heidelberg GmbH, New York, 2 edition
+  (1994), \urlprefix\url{http://dx.doi.org/10.13182/FST92-A29786}.
+
+\bibitem[Lev11]{BirksCoefficient}
+Leverington, B.~D., Anelli, M., Campana, P. and Rosellini, R., \emph{A 1 mm
+  Scintillating Fibre Tracker Readout by a Multi-anode Photomultiplier} (2011).
 
 \bibitem[Lin20]{TritiumEspectrum}
-Lin, Z. \emph{Simulation and Optimization Design of SiC-Based PN Betavoltaic
-  Microbattery Using Tritium Source} Crystals \textbf{10} (2020)(2).
+Lin, Z., \emph{{Simulation and Optimization Design of SiC-Based PN Betavoltaic
+  Microbattery Using Tritium Source}}, {Crystals}, \textbf{{10}} (2020) 105,
+  \urlprefix\url{http://dx.doi.org/10.3390/cryst10020105}.
+
+\bibitem[Mar72]{EstimationTritiumDosiKangarooRats}
+Martin, J.~R. and Koranda, J.~J., \emph{{Biological Half-Life Studies of
+  Tritium in Chronically Exposed Kangaroo Rats}}, {Radiation Research},
+  \textbf{{50}} (1972) 426--440,
+  \urlprefix\url{http://dx.doi.org/10.2307/3573500}.
+
+\bibitem[Mas21]{EstimationTritiumDosi}
+Masuda, T. and Yoshioka, T., \emph{{Estimation of radiation dose from ingested
+  tritium in humans by administration of deuterium-labelled compounds and
+  food}}, {Scientific Reports}, \textbf{{11}} (2021) 1232--1235,
+  \urlprefix\url{http://dx.doi.org/10.1038/s41598-021-82460-5}.
+
+\bibitem[Mat07]{XRays1}
+Matsuyama, M., Torikai, Y., Hara, M. and Watanabe, K., \emph{{New technique for
+  non-destructive measurements of tritium in future fusion reactors}},
+  {International Atomic Energy Agency (IAEA)}, \textbf{{47}} (2007) S464--S468,
+  \urlprefix\url{http://dx.doi.org/10.1088/0029-5515/47/7/s09}.
 
 \bibitem[Mat08]{XRays2}
-Matsuyama, M. \emph{Development of a new detection system for monitoring
-  high-level tritiated water} Fusion Engineering and Design \textbf{83}
-  (2008)(10) 1438--1441 proceedings of the Eight International Symposium of
-  Fusion Nuclear Technology.
+Matsuyama, M., \emph{{Development of a new detection system for monitoring
+  high-level tritiated water}}, {Fusion Engineering and Design}, \textbf{{83}}
+  (2008) 1438--1441,
+  \urlprefix\url{http://dx.doi.org/10.1016/j.fusengdes.2008.05.023},
+  proceedings of the Eight International Symposium of Fusion Nuclear
+  Technology.
+
+\bibitem[Mer15]{TritiumEmissionSpectrum}
+Mertens, S. et~al., \emph{Sensitivity of next-generation tritium beta-decay
+  experiments for {keV}-scale sterile neutrinos}, Journal of Cosmology and
+  Astroparticle Physics, \textbf{2015} (2015) 020--020,
+  \urlprefix\url{http://dx.doi.org/10.1088/1475-7516/2015/02/020}.
+
+\bibitem[Mog69]{Moghissi}
+Moghissi, A., Kelley, H., Phillips, C. and Regnier, J., \emph{{A tritium
+  monitor based on scintillation}}, {Nuclear Instruments and Methods},
+  \textbf{{68}} (1969) 159,
+  \urlprefix\url{http://dx.doi.org/10.1016/0029-554X(69)90705-8}.
+
+\bibitem[Mur67]{Muramatsu}
+Muramatsu, M., Koyano, A. and Tokunaga, N., \emph{{A scintillation probe for
+  continuous monitoring of tritiated water}}, {Nuclear Instruments and
+  Methods}, \textbf{{54}} (1967) 325--326,
+  \urlprefix\url{http://dx.doi.org/10.1016/0029-554X(67)90645-3}.
 
 \bibitem[(NA]{CRYwebsite}
-(NADS), P. N.~D. \emph{Physics simulation packages, CRY (cosmic-ray particle
-  showers)} \url{https://nuclear.llnl.gov/simulation/}.
+(NADS), P. N.~D., \emph{Physics simulation packages, CRY (cosmic-ray particle
+  showers)}, \url{https://nuclear.llnl.gov/simulation/}.
 
 \bibitem[Nan]{StepperMotors}
-Nanotec \emph{ST4209S1404-A - STEPPER MOTOR NEMA 17}
+Nanotec, \emph{ST4209S1404-A - STEPPER MOTOR NEMA 17},
   \url{https://en.nanotec.com/products/463-st4209s1404-a}.
 
-\bibitem[NEA93]{Finland_GL}
-Nuclear Energy~Agency, N. \emph{Radiation and Nuclear Safety Authority.
-  Radioactivity of Household Water.}
-  \url{https://www.oecd-nea.org/jcms/pl_23551/finland} (1993.) accessed:
-  2021-06-08.
+\bibitem[Nie15]{Bremstrahlung}
+Niemes, S., Sturm, M., Michling, R. and Bornschein, B., \emph{{High Level
+  Tritiated Water Monitoring by Bremsstrahlung Counting Using a Silicon Drift
+  Detector}}, {Fusion Science and Technology}, \textbf{{67}} (2015) 507--510,
+  \urlprefix\url{http://dx.doi.org/10.13182/FST14-T66}.
 
-\bibitem[New19]{35MillionsUSA}
-News, E. \emph{Estados Unidos anuncia una inversión de 35 millones para las
-  centrales nucleares}
-  \url{https://www.energynews.es/estados-unidos-centrales-nucleares/} (2019)
-  accessed: 2021-06-07.
+\bibitem[{Nuc}93]{Finland_GL}
+{Nuclear Energy Agency (NEA)}, \emph{Radiation and Nuclear Safety Authority.
+  Radioactivity of Household Water}, Technical report, {} (1993).
 
-\bibitem[OoEHHA07]{California_GL}
-Office~of Environmental Health Hazard~Assessment, O. \emph{Public Health Goals
-  for Chemicals in Drinking Water-Tritium.}
-  \url{https://oehha.ca.gov/water/public-health-goal/public-health-goals-six-chemicals-drinking-water}
-  (2007.) accessed: 2021-06-08.
+\bibitem[{Off}07]{California_GL}
+{Office of Environmental Health Hazard Assessment (OEHHA)}, \emph{Public Health
+  Goals for Chemicals in Drinking Water-Tritium}, Technical report, {OEHHA,
+  California Environmental Protection Agency} (2007).
+
+\bibitem[Oli34]{TritiumDiscovery}
+Oliphant, M.~L., Harteck, P. and Rutherford, E., \emph{{Transmutation Effects
+  observed with Heavy Hydrogen}}, {The Royal Society Publishing},
+  \textbf{{133}} (1934) 23--28,
+  \urlprefix\url{http://dx.doi.org/10.1098/rspa.1934.0077}.
+
+\bibitem[{Ont}94]{Ontario_GL}
+{Ontario Ministry of the Environment}, \emph{Ontario Drinking Water
+  Objectives}, Technical report, {The Federal Council (Swiss Government)}
+  (1994).
 
 \bibitem[Opt]{OSI}
-Optoelectronics, O. \emph{Characteristics and Applications}
+Optoelectronics, O., \emph{Characteristics and Applications},
   \url{https://osioptoelectronics.com/standard-products/default.aspx?gclid=EAIaIQobChMIkYrLif_37QIVDNTtCh3NuwpkEAAYASAAEgKMJ_D_BwE}.
 
 \bibitem[ORTa]{DataSheetGateAndDelay}
-ORTEC \emph{Model 416A Gate and Delay Generator, Manual reference.}
+ORTEC, \emph{Model 416A Gate and Delay Generator, Manual reference.},
   \url{https://www.ortec-online.com/products/electronics/delays-gates-and-logic-modules/416a}.
 
 \bibitem[ORTb]{DataSheet575Amp}
-ORTEC \emph{Model 575A Amplifier, Manual reference.}
+ORTEC, \emph{Model 575A Amplifier, Manual reference.},
   \url{https://www.ortec-online.com/products/electronics/amplifiers/575a}.
 
 \bibitem[ORTc]{DataSheet671Amp}
-ORTEC \emph{Model 671 Spectroscopy Amplifier, Manual reference.}
+ORTEC, \emph{Model 671 Spectroscopy Amplifier, Manual reference.},
   \url{https://www.ortec-online.com/products/electronics/amplifiers/671}.
 
 \bibitem[ORTd]{DataSheetPreAmp}
-ORTEC \emph{Model 9326 FastPreamplifier, Manual reference.}
+ORTEC, \emph{Model 9326 FastPreamplifier, Manual reference.},
   \url{https://www.ortec-online.com/products/electronics/preamplifiers/9326}.
 
 \bibitem[ORTe]{DataSheetDiscriminator}
-ORTEC \emph{Model CF8000 Octal Constant-Fraction Discriminator, Manual
-  reference.}
+ORTEC, \emph{Model CF8000 Octal Constant-Fraction Discriminator, Manual
+  reference.},
   \url{https://www.ortec-online.com/products/electronics/fast-timing-discriminators/cf8000}.
 
 \bibitem[Osb70]{Osborne}
-Osborne, R. \emph{Detector for tritium in water} Nuclear Instruments and
-  Methods \textbf{77} (1970)(1) 170--172.
+Osborne, R., \emph{{Detector for tritium in water}}, {Nuclear Instruments and
+  Methods}, \textbf{{77}} (1970) 170--172,
+  \urlprefix\url{http://dx.doi.org/10.1016/0029-554X(70)90596-3}.
 
 \bibitem[OSO17]{CNCShield}
-OSOYOO \emph{CNC shield V3.0} (2017)
+OSOYOO, \emph{CNC shield V3.0} (2017),
   \url{https://osoyoo.com/2017/04/07/arduino-uno-cnc-shield-v3-0-a4988/}.
 
-\bibitem[otE94]{Ontario_GL}
-of~the Environment, O.~M. \emph{Ontario Drinking Water Objectives.}
-  \url{https://atrium.lib.uoguelph.ca/xmlui/handle/10214/15832} (1994.)
-  accessed: 2021-06-07.
+\bibitem[Pal07]{0.6Bq_L}
+Palomo, M., Peñalver, A., Aguilar, C. and Borrull, F., \emph{{Tritium activity
+  levels in environmental water samples from different origins}}, Applied
+  Radiation and Isotopes, \textbf{{65}} (2007) 1048--1056,
+  \urlprefix\url{http://dx.doi.org/10.1016/j.apradiso.2007.03.013}.
 
 \bibitem[PET]{PETSYS}
-PETsys \emph{PETsys Electronics}
+PETsys, \emph{PETsys Electronics},
   \url{https://www.petsyselectronics.com/web/private/login}.
 
+\bibitem[PF81]{EstimationTritiumDosiRats}
+Pietrzak-Flis, Z., Radwan, I., Major, Z. and Kowalska, M., \emph{{Tritium
+  Incorporation in Rats Chronically Exposed to Tritiated Food or Tritiated
+  Water for Three Successive Generations}}, {Journal of Radiation Research},
+  \textbf{{22}} (1981) 434--442,
+  \urlprefix\url{http://dx.doi.org/10.1269/jrr.22.434}.
+
 \bibitem[{Phy}]{PTB}
-{Physikalish-Technische Bundesanstalt (PTB)} \url{https://www.ptb.de/cms/}.
-
-\bibitem[Pre16]{60ReactorsChina}
-Press, E. \emph{China construirá al menos 60 centrales nucleares en la
-  próxima década}
-  \url{https://www.europapress.es/internacional/noticia-china-construira-menos-60-centrales-nucleares-proxima-decada-20160916210159.html}
-  (2016) accessed: 2021-06-07.
-
-\bibitem[Pre19]{TritiumDecayImage}
-Press, W. \emph{Tritium decay image} \url{https://conexioncausal.wordpress.com}
-  (2019) accessed: 2021-06-07.
-
-\bibitem[Pro21]{TRITIUM}
-Program, I.~S. \emph{Tritium, Interreg Sudoe Program}
-  \url{https://www.interreg-sudoe.eu/gbr/projects/the-approved-projects/158-design-construction-and-commissioning-of-a-low-level-tritium-monitor-for-water}
-  (2021) accessed: 2021-06-08.
-
-\bibitem[Que16]{Quebec_GL}
-Quebec, H. \emph{Resultats du programme de surveillance de l’environnement du
-  site de Gentilly-2.}
-  \url{https://numerique.banq.qc.ca/patrimoine/details/52327/3582272?docref=fxoJ-qgA5cus5Upw-L_NHg}
-  (2016.) accessed: 2021-06-08.
+{Physikalish-Technische Bundesanstalt (PTB)}, \url{https://www.ptb.de/cms/}.
 
 \bibitem[Ras]{RaspberryPi}
-\emph{Raspberry Pi Foundation} \url{https://www.raspberrypi.org/}.
+\emph{Raspberry Pi Foundation}, \url{https://www.raspberrypi.org/}.
+
+\bibitem[Rat00]{Ratnakaran2000}
+Ratnakaran, M., Revetkar, R.~M., Samant, R.~K. and Abani, M.~C. (Eds.),
+  \emph{{A Real-time Tritium-In-Water Monitor for Measurement Of Heavy Water
+  Leak To The Secondary Coolant}}, \emph{{SPECIFIC NUCLEAR REACTORS AND
+  ASSOCIATED PLANTS (S21)}}, volume~32, International Atomic Energy Agency
+  (IAEA), Japan Health Physics Society, Japan (2000),
+  \urlprefix\url{https://inis.iaea.org/search/search.aspx?orig_q=RN:32015986}.
+
+\bibitem[{Red}19]{PercentageEnergySpain}
+{Red El\'ectrica de España}, \emph{El Sistema El\'ectrico {\-}Español},
+  \url{https://www.ree.es/es/datos/{\-}publicaciones/informe-anual-sistema/{\-}informe-del-sistema-electrico-espanol-2019}
+  (2019).
+
+\bibitem[SAG01]{HardCosmicMuonRate}
+SAGAWA, H. and URABE, I., \emph{Estimation of Absorbed Dose Rates in Air Based
+  on Flux Densities of Cosmic Ray Muons and Electrons on the Ground Level in
+  Japan}, Journal of Nuclear Science and Technology, \textbf{38} (2001)
+  1103--1108, \urlprefix\url{http://dx.doi.org/10.1080/18811248.2001.9715142}.
+
+\bibitem[Saw00]{TrackingTritium}
+Sawodni, A., Pazdur, A. and Pawlyta, J., \emph{{Measurements of Tritium
+  Radioactivity in Surface Water on the Upper Silesia Region}}, {Journal of
+  Nuclear Fuel Cycle and Waste Technology}, \textbf{{18}} (2000) 23--28,
+  \urlprefix\url{http://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-article-BAT3-0035-0005}.
 
 \bibitem[Sci]{DataSheetFANINOUT}
-Scientific, P. \emph{Model 740 Quad Linear Fan-In/Out, Manual reference.}
+Scientific, P., \emph{Model 740 Quad Linear Fan-In/Out, Manual reference.},
   \url{https://prep.fnal.gov/catalog/hardware_info/phillips_scientific/740.html}.
 
 \bibitem[SG]{VetoAveiro}
-Saint-Gobain \emph{Scintillating plastic grown with polymeric method}
+Saint-Gobain, \emph{Scintillating plastic grown with polymeric method},
   \url{https://www.epic-crystal.com/others/plastic-scintillator.html}.
 
 \bibitem[SGC]{OpticalGrease}
-Saint-Gobain~Crystals, I. \emph{BC-630, Silicone Optical Grease}
+Saint-Gobain~Crystals, I., \emph{BC-630, Silicone Optical Grease},
   \url{https://www.crystals.saint-gobain.com/}.
 
 \bibitem[SGC01]{DataSheetBCF10Fiber}
-Saint-Gobain~Crystals, I. \emph{Scintillating Optical Fibers, It's What's
-  Inside that Counts} (2001)
+Saint-Gobain~Crystals, I., \emph{Scintillating Optical Fibers, It's What's
+  Inside that Counts} (2001),
   \url{https://www.crystals.saint-gobain.com/products/scintillating-fiber}.
 
-\bibitem[SGC05]{DataSheetBCF12Fiber}
-Saint-Gobain~Crystals, I. \emph{Scintillating Optical Fibers, It's What's
-  Inside that Counts}
-  \url{https://www.crystals.saint-gobain.com/products/scintillating-fiber}
-  (2005) accessed: 2021-06-08.
-
-\bibitem[SGC21]{OpticalFibers}
-Saint-Gobain~Crystals, I. \emph{Optical fiber BCF-98, Manual reference.} (2021)
+\bibitem[SGC21a]{OpticalFibers}
+Saint-Gobain~Crystals, I., \emph{Optical fiber BCF-98, Manual reference.}
+  (2021),
   \url{https://www.crystals.saint-gobain.com/products/scintillating-fiber}.
+
+\bibitem[SGC21b]{DataSheetBCF12Fiber}
+Saint-Gobain~Crystals, I., \emph{Scintillating Optical Fibers, It's What's
+  Inside that Counts}, Saint-Gobain Crystals, Inc., United States (2021).
+
+\bibitem[Sha97]{APD}
+Shah, K.~S., Gothoskar, P., Farrell, R. and Gordon, J., \emph{{High efficiency
+  detection of tritium using silicon avalanche photodiodes}}, {IEEE
+  Transactions on Nuclear Science}, \textbf{{44}} (1997) 774--776,
+  \urlprefix\url{http://dx.doi.org/10.1109/23.603750}.
+
+\bibitem[Sig94]{OnlineLSC}
+Sigg, R., McCarty, J., Livingston, R. and Sanders, M., \emph{{Real-time aqueous
+  tritium monitor using liquid scintillation counting}}, Nuclear Instruments
+  and Methods in Physics Research Section A: Accelerators, Spectrometers,
+  Detectors and Associated Equipment, \textbf{{353}} (1994) 494--498,
+  \urlprefix\url{http://dx.doi.org/10.1016/0168-9002(94)91707-8}.
+
+\bibitem[Sin85]{Ratnakaran}
+Singh, A., Ratnakaran, M. and Vohra, K., \emph{{An on-line tritium-in-water
+  monitor}}, {Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  \textbf{{236}} (1985) 159--164,
+  \urlprefix\url{http://dx.doi.org/10.1016/0168-9002(85)90141-X}.
 
 \bibitem[sl17]{DataSheetSensL}
-sense light, S. \emph{Introduction to the SPM TECHNICAL NOTE.} (2017)
+sense light, S., \emph{Introduction to the SPM TECHNICAL NOTE.} (2017),
   \url{https://sensl.com/}.
 
+\bibitem[Spi97]{CrosstalkProbability}
+Spinelli, A. and Lacaita, A., \emph{Physics and numerical simulation of single
+  photon avalanche diodes}, IEEE Transactions on Electron Devices, \textbf{44}
+  (1997) 1931--1943, \urlprefix\url{http://dx.doi.org/10.1109/16.641363}.
+
+\bibitem[SR15]{AngleBlade}
+Sáez-Rodríguez, D., Nielsen, K., Bang, O. and Webb, D.~J., \emph{Simple Room
+  Temperature Method for Polymer Optical Fibre Cleaving}, Journal of Lightwave
+  Technology, \textbf{33} (2015) 4712--4716,
+  \urlprefix\url{http://dx.doi.org/10.1109/JLT.2015.2479365}.
+
+\bibitem[Str93]{StraumeTritiumHazard}
+Straume, T. and Carsten, A.~L., \emph{{Tritium radiobiology and relative
+  biological effectiveness}}, {Health Physics}, \textbf{{65}} (1993) 657--72,
+  \urlprefix\url{http://dx.doi.org/10.1097/00004032-199312000-00005}.
+
+\bibitem[Szu15]{HardCosmicMuonRatePlot}
+Szucs, T. et~al., \emph{Cosmic-ray-induced background intercomparison with
+  actively shielded HPGe detectors at underground locations}, The European
+  Physical Journal A, \textbf{51},
+  \urlprefix\url{http://dx.doi.org/10.1140/epja/i2015-15033-0}.
+
 \bibitem[Tec]{LT111}
-Technology, L. \emph{LT111A Voltage Comparator}
+Technology, L., \emph{LT111A Voltage Comparator},
   \url{https://datasheetspdf.com/pdf/57354/LinearTechnology/LT111/1}.
 
 \bibitem[Tek21]{Oscilloscope}
-Tektronix \emph{Mixed Signal Oscillocope, Model MSO44.} (2021)
+Tektronix, \emph{Mixed Signal Oscillocope, Model MSO44.} (2021),
   \url{https://www.testwall.com/es/product/tektronix-mso44-2/?gclid=CjwKCAjwn6GGBhADEiwAruUcKiKZTF8T6tclZyAhwBVb_3WS9N9BU9EtpWnX6DdFgttRyl85_ueO7xoCBmMQAvD_BwE}.
 
+\bibitem[{The}a]{IAEA}
+{The International Atomic Energy Agency (IAEA)}, \url{https://www.iaea.org/}.
+
+\bibitem[{The}b]{UNSCEAR}
+{The United Nations Scientific Committee on the Effects of Atomic Radiation
+  (UNSCEAR) }, \url{https://www.unscear.org/}.
+
 \bibitem[The96]{NaturalRadioactiveSeries1}
-Theodórsson, P. \emph{Measurement of weak radioactivity} (1996).
+Theodórsson, P., \emph{Measurement of weak radioactivity} (1996),
+  \urlprefix\url{https://doi.org/10.1142/2800}.
 
 \bibitem[Thoa]{BlackBlancket}
-Thorlabs \emph{BK5 - Black Nylon, Polyurethane-Coated Fabric, 5'x9' (1.5m x
-  2.7m) x 0.005}.
+Thorlabs, \emph{BK5 - Black Nylon, Polyurethane-Coated Fabric, 5'x9' (1.5m x
+  2.7m) x 0.005" (0.12 mm) Thick},
+  \url{https://www.thorlabs.com/thorproduct.cfm?partnumber=BK5}.
 
 \bibitem[Thob]{ThorlabsCompany}
-Thorlabs, I. \url{https://www.thorlabs.com/}.
+Thorlabs, I., \url{https://www.thorlabs.com/}.
 
 \bibitem[Tho18]{LEDThorlabs}
-Thorlabs, I. \emph{LED430L - 430 nm LED with a Glass Lens, 8 mW, TO-18.} (2018)
-  \url{https://www.thorlabs.com/thorproduct.cfm?partnumber=LED430L}.
+Thorlabs, I., \emph{LED430L - 430 nm LED with a Glass Lens, 8 mW, TO-18.}
+  (2018), \url{https://www.thorlabs.com/thorproduct.cfm?partnumber=LED430L}.
 
-\bibitem[UN21]{UN}
-UN \emph{United Nations} \url{https://www.un.org/en/} (2021) accessed:
-  2021-06-07.
+\bibitem[{Tri}]{TRITIUM}
+{Tritium Collaboration}, \emph{Tritium, Interreg Sudoe Program},
+  \url{https://www.interreg-sudoe.eu/gbr/projects/the-approved-projects/158-design-construction-and-commissioning-of-a-low-level-tritium-monitor-for-water}.
 
-\bibitem[UNS21]{UNSCEAR}
-UNSCEAR \emph{The United Nations Scientific Committee on the Effects of Atomic
-  Radiation} \url{https://www.unscear.org/} (2021) accessed: 2021-06-07.
+\bibitem[{Uni}76]{USEPA_GL}
+{United States Environmental Protection Agency (US EPA)}, \emph{Drinking Water
+  Requirements for States and Public Water Systems. Radionuclides Rule},
+  Technical report, {} (1976).
 
-\bibitem[USDoEW16]{TritiumHandling}
-U.~S. Departament~of Energy~Washington, D.~. \emph{DOE Handbook Primer on
-  tritium safe handling practices} \url{https://www.twirpx.com/file/1977676/}
-  (2016) accessed: 2021-06-07.
+\bibitem[{Val}07]{CrossSeccionNeutrino}
+{Valverde Hermosilla}, M., \emph{Interacción neutrino-núcleo a energías
+  intermedias}, Ph.D. thesis, University of Granada, Granada, Spain (2007).
 
-\bibitem[USEPA76]{USEPA_GL}
-United States Environmental Protection~Agency, U.~E. \emph{Drinking Water
-  Requirements for States and Public Water Systems. Radionuclides Rule.}
-  \url{https://www.epa.gov/dwreginfo/radionuclides-rule} (1976.) accessed:
-  2021-06-08.
+\bibitem[{Wor}17]{WHO_GL}
+{World Health Organization (WHO)}, \emph{Guidelines for Drinking-Water
+  Quality}, World Health Organization (WHO), Geneva (2017).
 
-\bibitem[WHO04]{WHO_GL}
-World Health~Organization, W. \emph{Guidelines for Drinking-Water Quality.}
-  \url{http://www.who.int/water_sanitation_health/dwq/ GDWQ2004web.pdf} (2004)
-  accessed: 2021-06-07.
+\bibitem[{Wor}20a]{ThreeMileIsland}
+{World Nuclear Association}, \emph{Three mile island accident},
+  \url{www.world-nuclear.org/information-library/safety-and-security/safety-of-plants/three-mile-island-accident.aspx}
+  (2020).
+
+\bibitem[{Wor}20b]{TritiumDecayImage}
+{World Press}, \emph{Tritium decay image},
+  \url{https://conexioncausal.wordpress.com} (2020).
+
+\bibitem[Yah13]{PDEStudy}
+Yahlali, N., Fernandes, L. and Lorca, D., \emph{Characterization of UV-enhanced
+  SiPMs for imaging in a high pressure xenon electroluminescent TPC}, in
+  \emph{2013 3rd International Conference on Advancements in Nuclear
+  Instrumentation, Measurement Methods and their Applications (ANIMMA)}, 1--12,
+  \urlprefix\url{http://dx.doi.org/10.1109/ANIMMA.2013.6728092}.
 
 \end{thebibliography}
