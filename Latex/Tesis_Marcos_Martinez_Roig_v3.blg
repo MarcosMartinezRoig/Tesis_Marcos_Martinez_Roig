@@ -3,7 +3,6 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Tesis_Marcos_Martinez_Roig_v3.aux
 The style file: marcosxx_new.bst
 Database file #1: tesis.bib
-Warning--I didn't find a database entry for "UN"
 Warning--I didn't find a database entry for "CrossSeccionNeutrons"
 Too many commas in name 1 of "C.D.R. Azevedo, A. Baeza, E. Chauveau, J.A. Corbacho, J. Díaz, J. Domange, C. Marquet, M. Martinez-Roig, F. Piquemal, J.F.C.A. Veloso and N. Yahlali" for entry ExperimentalPaperCarlos
 while executing---line 1436 of file marcosxx_new.bst
@@ -59,7 +58,7 @@ Warning--can't use both author and editor fields in NaturalRadioactiveSeries1
 Warning--missing publisher in NaturalRadioactiveSeries1
 You've used 157 entries,
             3016 wiz_defined-function locations,
-            1620 strings with 39733 characters,
+            1618 strings with 39729 characters,
 and the built_in function-call counts, 56006 in all, are:
 = -- 3994
 > -- 1673
