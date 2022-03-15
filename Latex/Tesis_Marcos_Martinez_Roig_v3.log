@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  14 MAR 2022 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  15 MAR 2022 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1825,10 +1825,6 @@ LaTeX Warning: Citation `CrossSeccionNeutrons' on page 6 undefined on input lin
 e 85.
 
 
-Underfull \vbox (badness 4156) has occurred while \output is active []
-
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
@@ -1892,9 +1888,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10 <./Figures/2Introduction/Espectro_tritio.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1902,25 +1895,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11]
-<Figures/2Introduction/CofrentesMaps.png, id=1262, 406.51875pt x 359.3425pt>
+<Figures/2Introduction/CofrentesMaps.png, id=1261, 406.51875pt x 359.3425pt>
 File: Figures/2Introduction/CofrentesMaps.png Graphic file (type png)
 <use Figures/2Introduction/CofrentesMaps.png>
 Package pdftex.def Info: Figures/2Introduction/CofrentesMaps.png  used on input
  line 81.
 (pdftex.def)             Requested size: 203.25887pt x 179.6708pt.
-<Figures/2Introduction/6km_before.png, id=1263, 883.04906pt x 426.84468pt>
+<Figures/2Introduction/6km_before.png, id=1262, 883.04906pt x 426.84468pt>
 File: Figures/2Introduction/6km_before.png Graphic file (type png)
 <use Figures/2Introduction/6km_before.png>
 Package pdftex.def Info: Figures/2Introduction/6km_before.png  used on input li
 ne 90.
 (pdftex.def)             Requested size: 268.87737pt x 129.96924pt.
-<Figures/2Introduction/1km_after.png, id=1264, 880.79062pt x 426.84468pt>
+<Figures/2Introduction/1km_after.png, id=1263, 880.79062pt x 426.84468pt>
 File: Figures/2Introduction/1km_after.png Graphic file (type png)
 <use Figures/2Introduction/1km_after.png>
 Package pdftex.def Info: Figures/2Introduction/1km_after.png  used on input lin
 e 96.
 (pdftex.def)             Requested size: 268.87737pt x 130.3014pt.
-<Figures/2Introduction/5km_after.png, id=1265, 883.80188pt x 426.09187pt>
+<Figures/2Introduction/5km_after.png, id=1264, 883.80188pt x 426.09187pt>
 File: Figures/2Introduction/5km_after.png Graphic file (type png)
 <use Figures/2Introduction/5km_after.png>
 Package pdftex.def Info: Figures/2Introduction/5km_after.png  used on input lin
@@ -1930,14 +1923,14 @@ e 102.
 
 LaTeX Warning: Float too large for page by 7.09772pt on input line 107.
 
-<Figures/2Introduction/Subterranea_before.png, id=1268, 889.07156pt x 426.84468
+<Figures/2Introduction/Subterranea_before.png, id=1267, 889.07156pt x 426.84468
 pt>
 File: Figures/2Introduction/Subterranea_before.png Graphic file (type png)
 <use Figures/2Introduction/Subterranea_before.png>
 Package pdftex.def Info: Figures/2Introduction/Subterranea_before.png  used on 
 input line 113.
 (pdftex.def)             Requested size: 268.87737pt x 129.08347pt.
-<Figures/2Introduction/Subterranea_1_km_later.png, id=1269, 881.54344pt x 428.3
+<Figures/2Introduction/Subterranea_1_km_later.png, id=1268, 881.54344pt x 428.3
 5031pt>
 File: Figures/2Introduction/Subterranea_1_km_later.png Graphic file (type png)
 <use Figures/2Introduction/Subterranea_1_km_later.png>
@@ -1945,7 +1938,7 @@ Package pdftex.def Info: Figures/2Introduction/Subterranea_1_km_later.png  used
  on input line 119.
 (pdftex.def)             Requested size: 268.87737pt x 130.64992pt.
 
-Underfull \vbox (badness 6510) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -1978,6 +1971,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [15 <./Figures/2Introduction/Subterranea_before.png> <./Figures/2Introduction/S
 ubterranea_1_km_later.png>]) (./Sections/1Introduction/13Legislation.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1992,12 +1988,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17]
-Overfull \hbox (31.11021pt too wide) in paragraph at lines 17--18
-[]\T1/cmr/m/n/12 Most of the USA states like Cali-for-nia es-tab-lish a RDL of 
-$\OT1/cmr/m/n/12 4 [][][] [](0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 04 [][][])$\T1/
-cmr/m/n/12 ,
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2021,7 +2011,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [20]
 Chapter 2.
 (./Sections/2TritiumDetection/21State_of_the_art.tex
-Overfull \hbox (2.93669pt too wide) in paragraph at lines 10--10
+Overfull \hbox (2.93669pt too wide) in paragraph at lines 11--11
  []\T1/cmr/m/n/12 Scintillation 
  []
 
@@ -2031,6 +2021,9 @@ Underfull \vbox (badness 1270) has occurred while \output is active []
  [21
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2045,7 +2038,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23]
-Overfull \hbox (0.91519pt too wide) in paragraph at lines 49--49
+Overfull \hbox (0.91519pt too wide) in paragraph at lines 51--51
 [][] [][][]$ 
  []
 
@@ -6462,7 +6455,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 372.
 Here is how much of TeX's memory you used:
  21984 strings out of 492982
  439484 string characters out of 6134895
- 517595 words of memory out of 5000000
+ 517594 words of memory out of 5000000
  23992 multiletter control sequences out of 15000+600000
  555821 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -6597,7 +6590,7 @@ mf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/publi
 c/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.
 pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texm
 f/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (285 pages, 35122457 bytes)
+Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (285 pages, 35122225 bytes)
 .
 PDF statistics:
  5844 PDF objects out of 6186 (max. 8388607)

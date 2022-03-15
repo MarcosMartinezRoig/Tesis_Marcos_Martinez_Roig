@@ -1,5 +1,6 @@
 Measurement of tritium activity is one of the routine environmental controls that are carried out in the vicinity of nuclear research facilities and nuclear power plants during their energy production lifetime. This measurement is carried out with different available technologies according to the state of the art of tritium detection. The most employed techniques are summarized in Table \ref{tab:DifferentThecnics}.
 
+{\renewcommand{\arraystretch}{1.8}
 \begin{table}[htbp]
 \centering{}%
 \begin{tabular}{lcccc}
@@ -9,38 +10,39 @@ Measurement of tritium activity is one of the routine environmental controls tha
 \midrule 
 \parbox{5em}{Measured\\ quantity} & \parbox{5em}{\centering Scintillation\\ photons} &  \parbox{5em}{\centering Ionization\\ current} & Heat & X-rays \tabularnewline
 MDA & $\sim\becquerel$ & $10-100~\kilo\becquerel$ & $\sim~\giga\becquerel$ & $\sim~\mega\becquerel$ \tabularnewline
-Sample form & Liquid & Gas, vapor & All & All \tabularnewline
+Sample state & Liquid & Gas, vapor & All & All \tabularnewline
 \bottomrule
 \end{tabular}
 \caption{State-of-the-art tritium detection techniques. This table shows the measured quantity, the minimum detectable activity (MDA) and the sample form for four different techniques, liquid scintillator counting (LSC), ionization chamber (IC), calorimetry and beta induced X-ray spectrometry (BIXS).}
 \label{tab:DifferentThecnics}
 \end{table}
+}
 
-Nowadays, the most used technique for measuring tritium in water is liquid scintillator counting (LSC). This technique consists of mixing a liquid sample (some milliliters for environmental measurements or less for higher activities) with liquid scintillator. This mixture is usually made in a ratio of 50:50 but it depends on the detection system and on the activity of the samples \cite{LSCothers, HofstetterSeveral}. In this technique, the $\beta$ particles emitted from the sample excite the molecular energy levels of the liquid scintillator which promptly decays emitting several photons with a well-know energy (fluorescence), usually in the visible spectrum. Finally, these photons are detected with photosensors, which convert the optical signal into a measurable electrical charge. The liquid scintillator technique has a very good detection sensitivity for low activity levels of tritiated water ($<1~\becquerel/\liter$) \cite{0.6Bq_L} but has the disadvantages of long measurement time (up to 2 days) and production of chemical waste, since liquid scintillators contain toluene which is toxic. In addition, the LSC technique requires special staff for sampling, chain of custody and laboratory analysis which require economical and time resources. In order to overcome these difficulties, some efforts have been made to build a tritium monitor LSC which hasave not achieved a low enough MDA\cite{OnlineLSC}. 
+Nowadays, the most used technique for measuring tritium in water is liquid scintillator counting (LSC). This technique consists of mixing a liquid sample (some milliliters for environmental measurements or less for higher activities) with liquid scintillator. This mixture is usually made in a ratio of 50:50 but it depends on the detection system and on the activity of the samples \cite{LSCothers, HofstetterSeveral}. In this technique, the $\beta$ particles emitted from the sample excite the molecular energy levels of the liquid scintillator which promptly decays emitting several photons with a well-known energy (fluorescence), usually in the visible spectrum. Finally, these photons are detected with photosensors which convert the optical signal into a measurable electrical charge. The liquid scintillator technique has a very good detection sensitivity for low activity levels of tritiated water ($<1~\becquerel/\liter$) \cite{0.6Bq_L} but has the disadvantages of long measurement time (up to 2 days) and production of chemical waste, since liquid scintillators contain toluene which is toxic. In addition, the LSC technique requires special staff for sampling, chain of custody and laboratory analysis which require economic and time resources. In order to overcome these difficulties, efforts were made to build a tritium monitor based on LSC which have not achieved a low enough MDA \cite{OnlineLSC}. 
 
-The ionization chamber technique (IC) consists of a gas chamber filled with gas (sample), which contains electrodes that collect the ionization current produced by the $\beta$ radiation in the gas. This is a simple and fast system, but has a high MDA ($> 10~\kilo\becquerel$) and requires samples in a state of gas or steam \cite{IonizationChamber1, IonizationChamber2}. The IC technique also requires sample conditioning, chain of custody and laboratory analysis. 
+The ionization chamber technique (IC) consists of a gas chamber filled with gas (sample), which contains electrodes that collect the ionization current produced by the $\beta$ radiation in the gas. This is a simple and fast system, but it has a high MDA ($> 10~\kilo\becquerel$) and requires samples in a state of gas or steam \cite{IonizationChamber1, IonizationChamber2}. The IC technique also requires sample conditioning, chain of custody and laboratory analysis. 
 
-The calorimetry method is based on the measurement of the heat generated in the detection medium (normally platinum) \cite{Calorimeter1, Calorimeter2}. The disadvantages of this technique are its high MDA, of the order of a $\giga\becquerel$, and the requeriment of a long measurement time, 2 days or more.
+The calorimetry method is based on the measurement of the heat generated in the detection medium (normally platinum) \cite{Calorimeter1, Calorimeter2}. The disadvantages of this technique are its high MDA (of the order of a $\giga\becquerel$) and the requeriment of a long measurement time (2 days or more).
 
-The Beta Induced X-ray Spectrometry (BIXS) is based on the measurement of the bremsstrahlung radiation produced by the tritium decay electrons, by a \ce{NaI(Tl)} crystal coupled to a PMT  \cite{XRays1, XRays2} or silicon drift detector (SDD) \cite{Bremstrahlung}. The problem with this technique is its high MDA, of the order of $\mega\becquerel$.
+The Beta Induced X-ray Spectrometry (BIXS) is based on the measurement of the bremsstrahlung radiation produced by the tritium decay electrons, by a \ce{NaI(Tl)} crystal coupled to a PMT  \cite{XRays1, XRays2} or silicon drift detector (SDD) \cite{Bremstrahlung}. The limitation with this technique is its high MDA (of the order of $\mega\becquerel$).
 
 There are additional methods for tritium detection, although they are less employed or less developed, each one with its own advantages and limitations. For example, the avalanche photodiode (APD) cannot be used in contact with water \cite{APD},  the mass spectrometry needs to store the sample during several months \cite{Spectrometry} and the cavity ring spectroscopy requires a special optical configuration that is not possible outside a laboratory \cite{Ring}.
 
-All the above techniques are offline methods that need a long time for sample collection, shipment to a laboratory and activity measurement. Therefore, they cannot be used for in-situ monitoring of tritium in water. The liquid scintillation technique is the only one with a MDA smaller than the requirement of $100~\becquerel/\liter$ of tritium in water, established by the EURATOM directive. 
+All the above techniques are offline methods that need a long time for sample collection, shipment to a laboratory and activity measurement. Therefore, they cannot be used for in-situ monitoring of tritium in water. The liquid scintillation technique is the only one with a MDA smaller than the requirement of $100~\becquerel/\liter$ of tritium in water established by the EURATOM directive. 
 
 The purpose of the TRITIUM project is to develop an alternative method, based on solid scintillators, that allows to accomplish the requirements of in-situ monitoring of levels as low as $100~\becquerel/\liter$ in quasi-real time. There are several studies with solid scintillators so far:
 
 \begin{enumerate}
 
-\item{} The study done by M. Muramatsu, A. Koyano and N. Tokunaga in 1967 who used a scintillator plate read out by two PMTs in coincidence \cite{Muramatsu}.
+\item{} The study by M. Muramatsu, A. Koyano and N. Tokunaga in 1967 used a scintillator plate read out by two PMTs in coincidence \cite{Muramatsu}.
 
-\item{} The study by A. A. Moghissi, H. L. Kelley, C. R. Phillips and J. E. Regnier in 1969 who used one hundred plastic fibers coated with anthracene powder and read out by two PMTs in coincidence \cite{Moghissi}.
+\item{} The study by A. A. Moghissi, H. L. Kelley, C. R. Phillips and J. E. Regnier in 1969 used one hundred plastic fibers coated with anthracene powder and read out by two PMTs in coincidence \cite{Moghissi}.
 
-\item{} The study by R. V. Osborne in 1969 who used sixty stacked scintillator plates read out by two PMTs in coincidence \cite{Osborne}.
+\item{} The study by R. V. Osborne in 1969 used sixty stacked scintillator plates read out by two PMTs in coincidence \cite{Osborne}.
 
-\item{} The study by A. N. Singh, M. Ratnakaran and K. G. Vohra in 1985, who used a scintillator with several holes read out by PMTs in electronic coincidence \cite{Ratnakaran, Ratnakaran2000}.
+\item{} The study by A. N. Singh, M. Ratnakaran and K. G. Vohra in 1985 used a scintillator with several holes read out by PMTs in electronic coincidence \cite{Ratnakaran, Ratnakaran2000}.
 
-\item{} The study by K. J. Hofstetter and H. T. Wilson in 1991, who tested different shapes of scintillator plastics like several sizes of beads, fibers, etc. The best result obtained for solid plastic scintillators was a tritium detection efficiency, $\varepsilon_{det}$, of the order of $10^{-3}(\liter\second^{-1}\kilo\becquerel^{-}1)$ \cite{Hofstetter1, Hofstetter2}.
+\item{} The study by K. J. Hofstetter and H. T. Wilson in 1991 tested different shapes of scintillator plastics like several sizes of beads, fibers, etc. The best result obtained for solid plastic scintillators was a tritium detection efficiency, $\varepsilon_{det}$, of the order of $10^{-3}(\liter\second^{-1}\kilo\becquerel^{-}1)$ \cite{Hofstetter1, Hofstetter2}.
 
 \begin{table}[htbp]
 \centering{}%
@@ -56,10 +58,10 @@ Reference & \parbox{5em}{$\varepsilon_{det}\times10^{-3}\\\liter~\kilo\becquerel
 \cite{Hofstetter1} & $2.22$ & $\sim~100$ & $<22.2$ & $25$ \tabularnewline
 \bottomrule
 \end{tabular}
-\caption{Results of scintillator detectors developed for experiments for tritiated water detection. This table shows for the quoted studies the efficiency of the detector ($\varepsilon_{det}$), active surface ($F_{sci}$), specific efficiency ($\eta_{det}=\varepsilon_{det}/F_{sci}$, defined as efficiency normalized to active surface), and MDA.}
+\caption{Results of scintillator detectors developed for experiments for tritiated water detection. This table shows for the quoted studies the efficiency of the detector ($\varepsilon_{det}$), its active surface ($F_{sci}$), its specific efficiency, defined as efficiency normalized to active surface ($\eta_{det}=\varepsilon_{det}/F_{sci}$), and MDA.}
 \label{tab:PlasticScinTritium}
 \end{table}
 
 \end{enumerate}
 
-The results of those studies are sumarized in Table \ref{tab:PlasticScinTritium}. As can be seen in the table, the $\varepsilon_{det}$ is very different in those experiments. As the active surface of the plastic scintillator, $F_{sci}$ varies largely with the detector type, the specific detector efficiency, $\eta_{det}$, which is the intrinsic efficiency normalized to its active surface, is used to compare them. It can be noticed that specific efficiencies span a narrower range. Finally the MDA in those studies are of the order of a few tens of $\kilo\becquerel/\liter$. The development of a detector with a much lower MDA is thus essential to comply with the EURATOM directive of 100 Bq/L of tritium in water for human consumption.
+The results of those studies are summarized in Table \ref{tab:PlasticScinTritium}. As the active surface of the plastic scintillator, $F_{sci}$ varies largely with the detector type, the specific detector efficiency, $\eta_{det}$, which is the intrinsic efficiency normalized to its active surface, is used to compare them. It can be noticed that specific efficiencies span a narrower range. Finally the MDA in those studies are of the order of a few tens of $\kilo\becquerel/\liter$. The development of a detector with a much lower MDA is thus essential to comply with the EURATOM directive of 100 Bq/L of tritium in water for human consumption.
