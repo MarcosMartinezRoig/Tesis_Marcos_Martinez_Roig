@@ -11,7 +11,7 @@
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Tritium activity levels in surface water around Cofrentes NPP from January $2006$ to November $2019$. a) $6~\ensuremath {\@text {k}}\meter $ upstream. b) $1~\ensuremath {\@text {k}}\meter $ downstream. c) $5~\ensuremath {\@text {k}}\meter $ downstream. The white points are the detection limits and the green points are the measured activity when this is above the detection limit~\cite {REM}. The maximum level of tritium measured since January 2, 2006 is around $32~\ensuremath {\@text {Bq}}/\ensuremath {\@text {L}}$.\relax }}{14}{figure.caption.18}
 \contentsline {figure}{\numberline {1.7}{\ignorespaces Tritium activity levels in groundwater around Cofrentes NPP from January $2006$ to November $2019$~\cite {REM}. a) $1~\ensuremath {\@text {k}}\meter $ upstream from the NPP. b) $1~\ensuremath {\@text {k}}\meter $ downstream from the NPP.\relax }}{15}{figure.caption.19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces a) Arrocampo dam and Almaraz Nuclear Power Plant. b) Tagus river along Spain and Portugal.\relax }}{27}{figure.caption.23}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces a) Arrocampo dam and Almaraz Nuclear Power Plant. b) Tagus river along Spain and Portugal.\relax }}{26}{figure.caption.23}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Scheme of the scintillator detector.\relax }}{31}{figure.caption.24}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Domain regions of the three most probable types of interactions of gamma rays with matter. The lines show the values of Z and $h\nu $ where two interaction processes are equally likely~\cite {Knoll}.\relax }}{33}{figure.caption.25}
@@ -21,10 +21,10 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Photon collection in a single clad fiber~\cite {DataSheetBCF12Fiber}.\relax }}{41}{figure.caption.29}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Scheme of a PMT~\cite {Knoll}.\relax }}{45}{figure.caption.33}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Quantum efficiency spectrum for the PMT used in TRITIUM R\&D studies (R8520-406)~\cite {DataSheetPMTs}.\relax }}{46}{figure.caption.34}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Hamamatsu commercial voltage divider electronic circuit with negative (up) and positive (below) supply high voltage~\cite {DataSheetPMTs}.\relax }}{48}{figure.caption.35}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Electronic scheme of the voltage divider circuit used for working with PMTs without internal gain).\relax }}{49}{figure.caption.36}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Hamamatsu commercial voltage divider electronic circuit with negative (up) and positive (below) supply high voltage~\cite {DataSheetPMTs}.\relax }}{47}{figure.caption.35}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Electronic scheme of the voltage divider circuit used for working with PMTs without internal gain).\relax }}{48}{figure.caption.36}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Scheme of a APD and electrical symbol used~\cite {OSI}.\relax }}{50}{figure.caption.38}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces SiPM output pulses displayed on oscilloscope, model MSO44X from Tektronix \cite {Oscilloscope}. Several height pulses are observed, associated to a different number of SiPM pixels fired at the same time. The persistence function of the oscilloscope is used.\relax }}{52}{figure.caption.39}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces SiPM output pulses displayed on oscilloscope, model MSO44X from Tektronix \cite {Oscilloscope}. Several height pulses are observed, associated to a different number of SiPM pixels fired at the same time. The persistence function of the oscilloscope is used.\relax }}{51}{figure.caption.39}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces (a) Electronic scheme of a SiPM and (b) output current of a SiPM as a function of the reverse voltage. As shown, the quenching is an essential working mechanism of SiPMs~\cite {DataSheetSensL}.\relax }}{53}{figure.caption.40}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Photon detection efficiency (PDE) spectrum for SiPM S13360-**75 models~\cite {DataSheetHammamatsu_1_SiPM_1375}.\relax }}{57}{figure.caption.42}
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Schemes of the different electronic for measuring with PMTs. a) Employed when only one PMT is used. b) Employed when two PMTs are used in time coincidence. c) Employed when four PMTs are used in time coincidence.\relax }}{61}{figure.caption.45}
@@ -35,11 +35,11 @@
 \contentsline {figure}{\numberline {3.20}{\ignorespaces Scheme of water purification system of TRITIUM.\relax }}{70}{figure.caption.51}
 \contentsline {figure}{\numberline {3.21}{\ignorespaces a) Lead Bricks b) and c) Two layers for the lead bricks of the shield.\relax }}{74}{figure.caption.53}
 \contentsline {figure}{\numberline {3.22}{\ignorespaces a) Scheme of the aluminium structure of the shield; b) The lead shield partially mounted.\relax }}{75}{figure.caption.54}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Cosmic veto and Tritium-IFIC-2 prototype in an aluminum mechanical structure developed at IFIC.\relax }}{76}{figure.caption.55}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Hard cosmic events detected with the cosmic veto of TRITIUM: a) Real coincidence event, b) randomly coincidence envent that may mimic a hard cosmic event.\relax }}{77}{figure.caption.56}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Hard cosmic muon rate at different depths with respect to the sea level ($10^0$) \cite {HardCosmicMuonRatePlot}.\relax }}{78}{figure.caption.57}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Emission energy spectrum of the plastic scintillator from Epic-Crystals used for the cosmic vetos~\cite {ScintillatorVeto}.\relax }}{79}{figure.caption.59}
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Different layers used to wrap the cosmic veto detectors. a) Scintillator without coating. b) PTFE coating. c) Aluminium coating. c) d) Black tape coating.\relax }}{80}{figure.caption.60}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Cosmic veto and Tritium-IFIC-2 prototype in an aluminum mechanical structure developed at IFIC.\relax }}{75}{figure.caption.55}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Hard cosmic events detected with the cosmic veto of TRITIUM: a) Real coincidence event, b) randomly coincidence envent that may mimic a hard cosmic event.\relax }}{76}{figure.caption.56}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Hard cosmic muon rate at different depths with respect to the sea level ($10^0$) \cite {HardCosmicMuonRatePlot}.\relax }}{77}{figure.caption.57}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Emission energy spectrum of the plastic scintillator from Epic-Crystals used for the cosmic vetos~\cite {ScintillatorVeto}.\relax }}{78}{figure.caption.59}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Different layers used to wrap the cosmic veto detectors. a) Scintillator without coating. b) PTFE coating. c) Aluminium coating. c) d) Black tape coating.\relax }}{79}{figure.caption.60}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Unsuccessful results of using commercial techniques for cleaving the scintillating fibers a) Fiber end deformation b) Fiber end cracks. Pictures taken with the microscope PB 4161 from EUROMEX.\relax }}{83}{figure.caption.62}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Plastic fiber cleaver developed in TRITIUM experiment. \relax }}{84}{figure.caption.63}

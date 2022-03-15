@@ -1,4 +1,4 @@
-Photomultiplier tubes are employed as photosensors in nuclear physics since decades. They detect the scintillating photons that reach its sensitive part, the photocathode, and produce an electronic signal, large enough to be easily measured. In Figure \ref{fig:SchemePMT} a schematic drawing of a PMT is given. This consists of a vacuum tube that has a glass window through which photons can penetrate. The electrons created in the photocathode travel in vacuum. 
+Photomultiplier tubes are employed as photosensors in nuclear physics since decades. They detect the scintillating photons that reach its sensitive part, the photocathode, and produce an electronic signal, large enough to be easily measured. In Figure \ref{fig:SchemePMT} a schematic drawing of a PMT is given. The PMTs consists of a vacuum tube that has a glass window through which photons can penetrate. The electrons created in the photocathode travel in vacuum. The signal production has two phases:
 
 \begin{figure}[htbp]
 \centering
@@ -6,11 +6,10 @@ Photomultiplier tubes are employed as photosensors in nuclear physics since deca
 \caption{Scheme of a PMT\label{fig:SchemePMT}~\cite{Knoll}.}
 \end{figure}
 
-The signal production has two phases:
 \begin{enumerate}
-\item{} In the photocathode, photons are converted into photoelectrons through photoelectric effect. The photocathode consists of a thin layer of material, of the order of nanometers, deposited on the inner surface of the PMT window. The material of the photocathode is chosen to optimize the probability of producing photoelectric effect with the scintillating photons. The PMTs used in different R\&D setups of the TRITIUM experiment in the University of Valencia are the model R8520-406 from Hammatsu \cite{DataSheetPMTs} and the material of their photocathode is Bialkali\footnote{The bialkali material is based on the elements $\ce{^{121}_{51}Sb}$, $\ce{^{85}_{37}Rb}$ and $\ce{^{132}_{55}Cs}$}.
+\item{} In the photocathode, photons are converted into photoelectrons through the photoelectric effect. The photocathode consists of a thin layer of material, of the order of nanometers, deposited on the inner surface of the PMT window. The material of the photocathode is chosen to optimize the probability of producing photoelectric effect with the scintillating photons. The PMTs used in different R\&D setups of the TRITIUM experiment in the University of Valencia are the model R8520-406 from Hammatsu \cite{DataSheetPMTs} and the material of their photocathode is Bialkali\footnote{The bialkali material is based on the elements $\ce{^{121}_{51}Sb}$, $\ce{^{85}_{37}Rb}$ and $\ce{^{132}_{55}Cs}$}.
 
-The response of the PMT for long wavelengths is very weak, mainly because photon energy is not enough to produce a photoelectric effect or the emitted photoelectron does not have enough energy to overcome the material-work function. The response of the PMT at short wavelengths is very weak due to absorption in the window material, quartz in our case. Thus, the response of the PMT has a strong dependence on the energy of the photon. The quantum efficiency (QE)  spectrum, shown in Figure \ref{fig:QuantumEfficiencyPMT} for the PMTs mentioned above, is defined as the ratio of the number of photoelectrons produced at the cathode of the PMT and the number of photons reaching it.
+The response of the PMT to long wavelengths is very small, mainly because photon energy is not enough to produce a photoelectric effect or the emitted photoelectron does not have enough energy to overcome the material work function. The response of the PMT at short wavelengths is very weak due to absorption in the window material, quartz in our case. Thus, the response of the PMT has a strong dependence on the energy of the photon. The quantum efficiency (QE)  spectrum, shown in Figure \ref{fig:QuantumEfficiencyPMT} for the PMTs mentioned above, is defined as the ratio of the number of photoelectrons produced at the cathode of the PMT and the number of photons reaching it.
 
 \begin{figure}[htbp]
 \centering
@@ -18,9 +17,9 @@ The response of the PMT for long wavelengths is very weak, mainly because photon
 \caption{Quantum efficiency spectrum for the PMT used in TRITIUM R\&D studies (R8520-406)\label{fig:QuantumEfficiencyPMT}~\cite{DataSheetPMTs}.}
 \end{figure}
 
-The maximum values of the PMT quantum efficiency is usually between $20\%$ and $30\%$ \cite{Knoll} (a little bit less than $30\%$ for the PMTs employed by us). The emission spectrum of the scintillating fibers used, Figure \ref{fig:EmissionSpectrumFibers}, matches the quantum efficiency spectrum of the PMTs used, Figure \ref{fig:QuantumEfficiencyPMT}, and the positions of both peaks are very close, $435~\nm$ and $420~\nm$ for fibers and PMT respectively. Because of that, the intrinsic efficiency of the TRITIUM detector is maximized.
+The maximum value of the PMT quantum efficiency is usually between $20\%$ and $30\%$ \cite{Knoll} (slightly less than $30\%$ for the PMTs employed by us). The emission spectrum of the scintillating fibers used, Figure \ref{fig:EmissionSpectrumFibers}, matches the quantum efficiency spectrum of the PMTs used, Figure \ref{fig:QuantumEfficiencyPMT}, and the positions of both peaks are very close, $435~\nm$ and $420~\nm$ for fibers and PMT respectively. Because of that, the intrinsic efficiency of the TRITIUM detector is maximized.
 
-\item{} As the number of photoelectrons produced in the photocatode is very small, an electron multiplication stage is employed to obtain an electronic signal of sufficient size to be processed by the electronic system. The amplification stage is based on three elements, focusing electrodes, dynodes and anode, which are metallic plates with a shape and position designed to optimize the collection and multiplication of electrons. A high voltage (HV) is applied to the PMT which is distributed between all this elements, including the photocathode, with the help of an electronic circuit. A positive HV, grounded in the photocathode, is convenient for measuring PMT currents, and a negative HV, grounded in the anode, gives a faster response. The electronic scheme of the used electron multiplication stage (with negative supply HV) of Hammatsu are shown in Figure \ref{fig:VoltageDividerCircuit}.
+\item{} As the number of photoelectrons produced in the photocatode is very small, an electron multiplication stage is employed to obtain an electronic signal of sufficient size to be processed by the electronic system. The amplification stage is based on three elements, focusing electrodes, dynodes and anode, which are metallic plates with a shape and position designed to optimize the collection and multiplication of electrons. A high voltage (HV) is applied to the PMT which is distributed between all these elements, including the photocathode, with the help of a voltage divider. A positive HV, grounded in the photocathode, is convenient for measuring PMT currents, and a negative HV, grounded in the anode, gives a faster response. The electronic scheme of the electron multiplication stage (with negative supply HV) of Hammatsu is shown in Figure \ref{fig:VoltageDividerCircuit}.
 
 \begin{figure}[h]
 \centering
@@ -30,12 +29,12 @@ The maximum values of the PMT quantum efficiency is usually between $20\%$ and $
 
 %The electronic circuit that can be supplied with negative voltage is faster due to the ausence of the capacitances C4 and C5, but the other circuit, supplied with positive voltage, can be interesting for other tasks like the measurement of PMT currents. We will use both, depends on the objective of the study.
 
-Focusing electrodes guide the photoelectrons to the first dinode. They have a collection efficiency (CE) defined as the ratio of the number of photoelectrons reaching the first dinode and the number of photoelectrons leaving the photocathode. The value of CE depends on the bias voltage and, normally, it has a maximum of $80\%$. The dynodes achieve the electron multiplication. A voltage difference between adjacent dynodes accelerates the electrons and produce their multiplication. The multiplication factor of each dynode, $\delta$, is usually around 5 and is strongly dependent on the HV. If all dynodes have the same gain, the overall gain of a PMT with N dynodes is \cite{Knoll}:
+Focusing electrodes guide the photoelectrons to the first dynode. They have a collection efficiency (CE) defined as the ratio of the number of photoelectrons reaching the first dynode and leaving the photocathode. The value of the CE depends on the bias voltage and, normally, it has a maximum of $80\%$. The dynodes produce the electron multiplication. A voltage difference between adjacent dynodes accelerates the electrons and produce their multiplication. The multiplication factor of each dynode, $\delta$, is usually around 5 and depends on the HV. If all dynodes have the same gain, the overall gain of a PMT with N dynodes is given by \cite{Knoll}:
 \begin{equation}
 G_{PMT} = CE\cdot{} \delta^N
 \label{eq:PMTGain}
 \end{equation}
-that gives an overall gain of a PMT of the order of $10^6$, strongly dependent on the applied HV.
+and is of the order of $10^6$, strongly dependent on the applied HV.
 
 The multiplication stage adds an uncertainty to the measurement. Working without gain allows us to count the number of photons that reach the PMT. This can be done by short-circuiting all the dynodes and the anode and collecting the signal directly from the first dynode. This special multiplication stage, shown in Figure \ref{fig:ElectronicSchemeBasePMTNoGain}, was used for fiber characterization.
 
@@ -45,11 +44,11 @@ The multiplication stage adds an uncertainty to the measurement. Working without
 \caption{Electronic scheme of the voltage divider circuit used for working with PMTs without internal gain).\label{fig:ElectronicSchemeBasePMTNoGain}}
 \end{figure}
 
-This PCB\footnote{PCB, Printed Circuit Board} was designed to be supplied with a positive voltage smaller than the usual running voltage because this voltage is only needed to create a voltage difference between the photocathode and the first dinode. 
+%This PCB\footnote{PCB, Printed Circuit Board} was designed to be supplied with a positive voltage smaller than the usual running voltage because this voltage is only needed to create a voltage difference between the photocathode and the first dinode. 
 
 \end{enumerate}
 
-The output pulse of a PMT has a width of the order of tens of nanoseconds. When the multiplication stage with gain are used, the multiplication process can be described as a Poisson statistical process. For each electron in the first dynode, $G_{PMT}$ new electrons are created with a variance of $\sqrt{G_{PMT}}$.
+The output pulse of a PMT has a width of the order of tens of nanoseconds. The multiplication process can be described as a Poisson statistical process. For each electron in the first dynode, $G_{PMT}$ new electrons are created with a variance of $\sqrt{G_{PMT}}$.
 
 The output signal of a PMT is linear with the number of photons that reach its sensitive part up to a saturation limit, at which the linearity is lost. This limit depends on the PMT characteristics.
 
