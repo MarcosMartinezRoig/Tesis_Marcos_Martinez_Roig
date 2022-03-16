@@ -9,7 +9,9 @@ Photomultiplier tubes are employed as photosensors in nuclear physics since deca
 \begin{enumerate}
 \item{} In the photocathode, photons are converted into photoelectrons through the photoelectric effect. The photocathode consists of a thin layer of material, of the order of nanometers, deposited on the inner surface of the PMT window. The material of the photocathode is chosen to optimize the probability of producing photoelectric effect with the scintillating photons. The PMTs used in different R\&D setups of the TRITIUM experiment in the University of Valencia are the model R8520-406 from Hammatsu \cite{DataSheetPMTs} and the material of their photocathode is Bialkali\footnote{The bialkali material is based on the elements $\ce{^{121}_{51}Sb}$, $\ce{^{85}_{37}Rb}$ and $\ce{^{132}_{55}Cs}$}.
 
-The response of the PMT to long wavelengths is very small, mainly because photon energy is not enough to produce a photoelectric effect or the emitted photoelectron does not have enough energy to overcome the material work function. The response of the PMT at short wavelengths is very weak due to absorption in the window material, quartz in our case. Thus, the response of the PMT has a strong dependence on the energy of the photon. The quantum efficiency (QE)  spectrum, shown in Figure \ref{fig:QuantumEfficiencyPMT} for the PMTs mentioned above, is defined as the ratio of the number of photoelectrons produced at the cathode of the PMT and the number of photons reaching it.
+%The response of the PMT to long wavelengths is very small, mainly because photon energy is not enough to produce a photoelectric effect or the emitted photoelectron does not have enough energy to overcome the material work function. The response of the PMT at short wavelengths is very weak due to absorption in the window material, quartz in our case. 
+
+The response of the PMT has a strong dependence on the energy of the photon. The quantum efficiency (QE)  spectrum, shown in Figure \ref{fig:QuantumEfficiencyPMT} for the PMTs mentioned above, is defined as the ratio of the number of photoelectrons produced at the cathode of the PMT and the number of photons reaching it.
 
 \begin{figure}[htbp]
 \centering
@@ -50,8 +52,6 @@ The multiplication stage adds an uncertainty to the measurement. Working without
 
 The output pulse of a PMT has a width of the order of tens of nanoseconds. The multiplication process can be described as a Poisson statistical process. For each electron in the first dynode, $G_{PMT}$ new electrons are created with a variance of $\sqrt{G_{PMT}}$.
 
-The output signal of a PMT is linear with the number of photons that reach its sensitive part up to a saturation limit, at which the linearity is lost. This limit depends on the PMT characteristics.
-
-The photocathode may emit electrons in absence of any scintillation light. This signal, called dark current, $I_{DC}$, can  arise due to thermoionic emission. For the PMTs employed in this work, this value is around $2~\nano\ampere$ according to their data sheet.
+The output signal of a PMT is linear with the number of photons that reach its sensitive part up to a saturation limit, after which the linearity is lost. This limit depends on the PMT characteristics. The photocathode may emit electrons in absence of any light. This signal, called dark current, $I_{DC}$, can  arise due to thermoionic emission. For the PMTs employed in this work, this value is around $2~\nano\ampere$ according to their data sheet.
 
 %The characterization of the used PMTs for dark current, gain versus HV, was done at IFIC in the framework of NEXT experiment \cite{CalibrationPMTsNEXT}. 
