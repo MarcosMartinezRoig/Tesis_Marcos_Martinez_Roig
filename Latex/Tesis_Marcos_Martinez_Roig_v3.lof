@@ -14,18 +14,18 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces a) Arrocampo dam and Almaraz Nuclear Power Plant. b) Tagus river along Spain and Portugal.\relax }}{26}{figure.caption.23}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Scheme of the scintillator detector.\relax }}{31}{figure.caption.24}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Domain regions of the three most probable types of interactions of gamma rays with matter. The lines show the values of Z and $h\nu $ where two interaction processes are equally likely~\cite {Knoll}.\relax }}{33}{figure.caption.25}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Jablonsky diagram~\cite {Knoll}.\relax }}{37}{figure.caption.26}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Stokes shift~\cite {Knoll}.\relax }}{38}{figure.caption.27}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Emission spectrum of BCF-12 scintillating fibers of Saint-Gobain~\cite {DataSheetBCF12Fiber}.\relax }}{40}{figure.caption.28}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Domain regions of the three most probable types of interactions of gamma rays with matter. The lines show the atomic number $Z$ and gamma energy $h\nu $ where two interaction processes are equally likely~\cite {Knoll}.\relax }}{33}{figure.caption.25}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Jablonsky diagram~\cite {Knoll}.\relax }}{36}{figure.caption.26}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Stokes shift~\cite {Knoll}.\relax }}{37}{figure.caption.27}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Emission spectrum of BCF-12 scintillating fibers of Saint-Gobain~\cite {DataSheetBCF12Fiber}.\relax }}{39}{figure.caption.28}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Photon collection in a single clad fiber~\cite {DataSheetBCF12Fiber}.\relax }}{41}{figure.caption.29}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Scheme of a PMT~\cite {Knoll}.\relax }}{45}{figure.caption.33}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Quantum efficiency spectrum for the PMT used in TRITIUM R\&D studies (R8520-406)~\cite {DataSheetPMTs}.\relax }}{46}{figure.caption.34}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Hamamatsu commercial voltage divider electronic circuit with negative (up) and positive (below) supply high voltage~\cite {DataSheetPMTs}.\relax }}{47}{figure.caption.35}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Scheme of a PMT~\cite {Knoll}.\relax }}{44}{figure.caption.33}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Quantum efficiency spectrum for the PMT used in TRITIUM R\&D studies (R8520-406)~\cite {DataSheetPMTs}.\relax }}{45}{figure.caption.34}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Hamamatsu commercial voltage divider electronic circuit with negative (up) and positive (below) supply high voltage~\cite {DataSheetPMTs}.\relax }}{46}{figure.caption.35}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Electronic scheme of the voltage divider circuit used for working with PMTs without internal gain).\relax }}{48}{figure.caption.36}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Scheme of a APD and electrical symbol used~\cite {OSI}.\relax }}{49}{figure.caption.38}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces SiPM output pulses displayed on oscilloscope, model MSO44X from Tektronix \cite {Oscilloscope}. Several height pulses are observed, associated to a different number of SiPM pixels fired at the same time. The persistence function of the oscilloscope is used.\relax }}{51}{figure.caption.39}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces (a) Electronic scheme of a SiPM and (b) output current of a SiPM as a function of the reverse voltage. As shown, the quenching is an essential working mechanism of SiPMs~\cite {DataSheetSensL}.\relax }}{52}{figure.caption.40}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces SiPM output pulses displayed on oscilloscope, model MSO44X from Tektronix \cite {Oscilloscope}. Several height pulses are observed, associated to a different number of SiPM pixels fired at the same time. The persistence function of the oscilloscope is used.\relax }}{50}{figure.caption.39}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces (a) Electronic scheme of a SiPM and (b) output current of a SiPM as a function of the reverse voltage. As shown, the quenching is an essential working mechanism of SiPMs~\cite {DataSheetSensL}.\relax }}{51}{figure.caption.40}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces PDE spectrum for SiPM S13360-**75 models~\cite {DataSheetHammamatsu_1_SiPM_1375}.\relax }}{55}{figure.caption.42}
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Schemes of the different electronic for measuring with PMTs. a) Employed when only one PMT is used. b) Employed when two PMTs are used in time coincidence. c) Employed when four PMTs are used in time coincidence.\relax }}{59}{figure.caption.45}
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Different possibilities when time coincidences with PMTs are done. a) Event detected in only one PMT, one detector. b) Event detected in two PMTs, one detector. c) Event detected in two PMTs, other detector. d) Event detected in all PMTs, both detector.\relax }}{62}{figure.caption.46}
@@ -34,7 +34,7 @@
 \contentsline {figure}{\numberline {3.19}{\ignorespaces a) Electronic board used to provide the SiPM bias voltage and to read the SiPM output signal. b) Electronical scheme in which this PCB is based.\relax }}{66}{figure.caption.50}
 \contentsline {figure}{\numberline {3.20}{\ignorespaces Scheme of water purification system of TRITIUM.\relax }}{68}{figure.caption.51}
 \contentsline {figure}{\numberline {3.21}{\ignorespaces a) Lead Bricks b) and c) Two layers for the lead bricks of the shield.\relax }}{72}{figure.caption.53}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces a) Scheme of the aluminium structure of the shield; b) The lead shield partially mounted.\relax }}{72}{figure.caption.54}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces a) Scheme of the aluminium structure of the shield; b) The lead shield partially mounted.\relax }}{73}{figure.caption.54}
 \contentsline {figure}{\numberline {3.23}{\ignorespaces Cosmic veto and Tritium-IFIC-2 prototype in an aluminum mechanical structure developed at IFIC.\relax }}{73}{figure.caption.55}
 \contentsline {figure}{\numberline {3.24}{\ignorespaces Hard cosmic events detected with the cosmic veto of TRITIUM: a) Real coincidence event, b) randomly coincidence envent that may mimic a hard cosmic event.\relax }}{74}{figure.caption.56}
 \contentsline {figure}{\numberline {3.25}{\ignorespaces Hard cosmic muon rate at different depths with respect to the sea level ($10^0$) \cite {HardCosmicMuonRatePlot}.\relax }}{75}{figure.caption.57}
