@@ -1,43 +1,43 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Tesis_Marcos_Martinez_Roig_v3.aux
-The style file: marcosxx_new.bst
+The style file: marcosxxnew.bst
 Database file #1: tesis.bib
 Warning--I didn't find a database entry for "CrossSeccionNeutrons"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 156 entries,
-            3016 wiz_defined-function locations,
-            1617 strings with 39738 characters,
-and the built_in function-call counts, 56285 in all, are:
-= -- 3880
+            3015 wiz_defined-function locations,
+            1617 strings with 39737 characters,
+and the built_in function-call counts, 56519 in all, are:
+= -- 3960
 > -- 1640
 < -- 165
 + -- 644
 - -- 468
-* -- 4083
-:= -- 7267
+* -- 4051
+:= -- 7347
 add.period$ -- 156
 call.type$ -- 156
 change.case$ -- 725
 chr.to.int$ -- 136
 cite$ -- 156
-duplicate$ -- 5099
-empty$ -- 5232
+duplicate$ -- 5105
+empty$ -- 5236
 format.name$ -- 814
-if$ -- 11186
+if$ -- 11272
 int.to.chr$ -- 21
 int.to.str$ -- 0
-missing$ -- 970
+missing$ -- 972
 newline$ -- 473
 num.names$ -- 317
-pop$ -- 2233
+pop$ -- 2235
 preamble$ -- 1
 purify$ -- 1013
 quote$ -- 0
 skip$ -- 1746
 stack$ -- 0
 substring$ -- 1985
-swap$ -- 2375
+swap$ -- 2381
 text.length$ -- 165
 text.prefix$ -- 147
 top$ -- 0
