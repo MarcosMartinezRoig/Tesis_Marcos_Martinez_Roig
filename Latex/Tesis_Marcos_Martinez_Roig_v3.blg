@@ -7,43 +7,43 @@ Warning--I didn't find a database entry for "CrossSeccionNeutrons"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 154 entries,
             3015 wiz_defined-function locations,
-            1620 strings with 39319 characters,
-and the built_in function-call counts, 55531 in all, are:
-= -- 3917
-> -- 1615
-< -- 162
-+ -- 632
-- -- 461
-* -- 3985
-:= -- 7218
+            1625 strings with 39531 characters,
+and the built_in function-call counts, 55879 in all, are:
+= -- 3939
+> -- 1636
+< -- 163
++ -- 645
+- -- 467
+* -- 4023
+:= -- 7251
 add.period$ -- 154
 call.type$ -- 154
-change.case$ -- 709
-chr.to.int$ -- 137
+change.case$ -- 710
+chr.to.int$ -- 136
 cite$ -- 154
-duplicate$ -- 5004
-empty$ -- 5149
-format.name$ -- 806
-if$ -- 11091
-int.to.chr$ -- 18
+duplicate$ -- 5025
+empty$ -- 5185
+format.name$ -- 813
+if$ -- 11174
+int.to.chr$ -- 19
 int.to.str$ -- 0
-missing$ -- 938
+missing$ -- 945
 newline$ -- 467
 num.names$ -- 311
-pop$ -- 2151
+pop$ -- 2156
 preamble$ -- 1
-purify$ -- 1000
+purify$ -- 1003
 quote$ -- 0
-skip$ -- 1728
+skip$ -- 1738
 stack$ -- 0
-substring$ -- 1949
-swap$ -- 2311
-text.length$ -- 162
+substring$ -- 1965
+swap$ -- 2333
+text.length$ -- 163
 text.prefix$ -- 149
 top$ -- 0
-type$ -- 1202
+type$ -- 1198
 warning$ -- 0
-while$ -- 354
+while$ -- 355
 width$ -- 157
-write$ -- 1285
+write$ -- 1290
 (There was 1 warning)

@@ -37,13 +37,13 @@
     
 @misc{REA,
       title        = "Red de Estaciones Automáticas (REA)",
-      author       =  { {Consejo de Seguridad Nuclear} },
+      author       =  { {CSN} },
       howpublished = "\url{https://www.csn.es/mapa-de-valores-ambientales}",
          }
     
 @misc{REM,
       title        = "Red de Estaciones de Muestreo (REM)",
-      author       = { {Consejo de Seguridad Nuclear} },
+      author       = { {CSN} },
       howpublished = "\url{https://www.csn.es/kprgisweb2/index.html?lang=es}"         }
     
 @phdthesis{CrossSeccionNeutrino,
@@ -89,7 +89,7 @@
 	doi 	= {10.2172/836625},
 	howpublised 	= "\url{https://www.osti.gov/biblio/836625}",
 	institution={ {Office of Scientific and Technical Information (OSTI.GOV), U.S. Department of Energy} },	
-	number={836625},
+	number={AC21-96MC33128},
 	journal = {},
 	place 	= {United States},
 	year 	= {1998},
@@ -170,7 +170,7 @@
 }
 
 @misc{BrookHavenNationalLaboratory,
-  author = { {Brookhaven National Laboratory (BNL)} },
+  author = { {Environmental Protection Division, BNL} },
   title  = {Why is the High Flux Beam Reactor Being Decommissioned?},
   month        = {},
   year   = {},
@@ -243,13 +243,13 @@
 	doi 	= {10.1080/00223131.2002.10875326}
 }
 
-@unpublished{FranceTritiumEnvironment,
-  author = {P. Calmon and J. Garnier-Laplace},
-  title  = {Tritium and the Environment},
-  month  = {08},
-  year   = {2012},
-  note = { {Institut de Radioprotection et de Sureté Nucléaire (IRSN)} },
-  howpublished ="\url{https://www.irsn.fr/EN/Research/publications-documentation/radionuclides-sheets/environment/Pages/Tritium-environment.aspx}"
+@misc{FranceTritiumEnvironment,
+  author       = {P. Calmon and J. Garnier-Laplace},
+  title        = {Tritium and the Environment},
+  howpublished = "\url{https://www.irsn.fr/EN/Research/publications-documentation/radionuclides-sheets/environment/Pages/Tritium-environment.aspx}",
+  month        = {08},
+  year         = {2012},
+  note         = { {Institut de Radioprotection et de Sureté Nucléaire (IRSN)} }
 }
 
 %%%%%REFERENCIA CROSSSECTIONNEUTRIONOOOOO!!!!!!
@@ -501,19 +501,21 @@
 	month 	= {}
 }
 
-@manual{California_GL,
-	title 	= {Public Health Goals for Six Chemicals in Drinking Water-Tritium},
-	author  = {{OEHHA}},
-	howpublised 	= "\url{https://oehha.ca.gov/water/public-health-goal/public-health-goals-six-chemicals-drinking-water}", 
-	institution={ {OEHHA, California Environmental Protection Agency} },
-	place 	= {California USA},
-	year 	= {2006},
-	month 	= {9}
+@book{California_GL,
+  author    = {California EPA},
+  title     = {Responses to Major Comments on Technical Support Document Public Health Goal For Tritium In Drinking Water},
+  publisher = {Office of Environmental Health Hazard Assessment, OEHHA},
+  address   = {California, USA},
+  edition	= {},
+  month		= {9},
+  year      = {2006},
+  howpublised 	= "\url{https://oehha.ca.gov/water/public-health-goal/public-health-goals-six-chemicals-drinking-water}", 
 }
 
 @techreport{USEPA_GL,
-	title 	= {Radionuclides Rule: A Quick Reference Guide, EPA 816-F-01-003},
+	title 	= {Radionuclides Rule: A Quick Reference Guide},
 	author  = {{EPA}},
+	number  = {EPA 816-F-01-003},
 	howpublised 	= "\url{https://www.epa.gov/dwreginfo/radionuclides-rule}", 
 	institution={ {} },
 	place 	= {United States},
@@ -523,9 +525,9 @@
 	
 @manual{France_GL,
 	title 	= {Bilan de l’État Radiologique  de l’Environnement Français de 2015 à 2017},
-	author  = {{Institut de Radioprotection et de Sûreté Nucléaire (IRSN)}},
+	author  = {{Réseau National de mesures de la radioactivité de l'environmennement, IRSN}},
 	howpublised 	= "\url{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiskum8mYLwAhXLB2MBHWLgAkoQFjAAegQIBBAD&url=https%3A%2F%2Fwww.actu-environnement.com%2Fmedia%2Fpdf%2Fnews-32705-bilan.pdf&usg=AOvVaw0oCSJP78IgV1Tek0T4_6z1}", 
-	organization={ {Réseau National de mesures de la radioactivité de l'environmennement} },
+	organization={ {Réseau National de mesures de la radioactivité de l'environmennement, Institut de Radioprotection et de Sûreté Nucléaire} },
 	address 	= {France},
 	year 	= {2018},
 	month 	= {11}
@@ -534,7 +536,7 @@
 %Hasta aquí 50	
 @techreport{Germany_GL,
 	title 	= {Environmental Radioactivity and Radiation Exposure. Annual Report},
-	author  = {{Bundesamt für Strahlenschutz (BMU), Federal Office for Radiation Protection}},
+	author  = {{Federal Office for Radiation Protection, BMU}},
 	howpublised 	= "\url{http://doris.bfs.de/jspui/handle/urn:nbn:de:0221-20100331990}", 
 	institution={ {Bundesamt für Strahlenschutz} },
 	place 	= {BMU, Bonn, Germany (in German)},
@@ -545,7 +547,7 @@
 
 @techreport{Spain_GL,
 	title 	= {Regulación Nacional de Radionúclidos},
-	author  = {{Consejo de Seguridad Nuclear}},
+	author  = {{CSN}},
 	howpublised 	= "\url{https://www.csn.es/en/normativa-del-csn/normativa-espanola}", 
 	institution={ {} },
 	place 	= {Spain},
@@ -558,7 +560,7 @@
 	author  = {{European Atomic Energy Community}},
 	howpublised 	= "\url{https://eur-lex.europa.eu/eli/dir/2013/59/oj}", 
 	organization={ {Council directive 2013/15/euratom} },
-	address 	= {Spain},
+	address 	= {},
 	year 	= {2013},
 	month 	= {10}
 }
@@ -954,7 +956,7 @@
 
 @manual{DataSheetHammamatsu_1_SiPM_25,
   title        = {MPPC Multi-Pixel Photon Counter S13360-1325},
-  author       = { {Hamamatsu Photonics K.K.} } },
+  author       = { {Hamamatsu Photonics K.K.} },
   organization = { {Hamamatsu Photonics K.K.} },
   address      = {Japan},
   month		   = {08},
@@ -1066,8 +1068,8 @@
 
 @manual{DataSheetHVSupplyTennelec,
   title        = {Tennelec Model TC 952 High Voltage Supply},
-  author       = {Camberra},
-  organization = {Camberra},
+  author       = {Mirion Technologies (Camberra) SAS},
+  organization = {Mirion Technologies (Camberra) SAS},
   address      = {},
   month		   = {},
   year         = {},
@@ -1139,8 +1141,8 @@
 
 @manual{DataSheetDiscriminatorCAEN,
   title        = {Model 84, 4 Channels Discriminator},
-  author       = { {CAEN, Tools for Discovery} },
-  organization = { {CAEN, Tools for Discovery} },
+  author       = { {CAEN SpA} },
+  organization = { {CAEN SpA} },
   address      = {},
   month		   = {05},
   year         = {1991},
@@ -1206,8 +1208,8 @@
 
 @manual{VoltageSourceKethley,
   title        = {Model 6517B Electrometer User's Manual},
-  author       = {Keithley Instruments},
-  organization = {Keithley Instruments},
+  author       = { {Keithley Instruments} },
+  organization = { {Keithley Instruments} },
   address      = {},
   month		   = {},
   year         = {},
@@ -1274,12 +1276,18 @@
 }
     
 %%Hasta aquí 115
-@manual{PDG,
-  author = { {P.A. Zyla et al.} },
-  title  = {Particle Data Grup (PDG), Prog. Theor. Exp. Phys.},
-  year   = {2020},
-  note   = {pp 219},
-  howpublished ="\url{https://pdg.lbl.gov/}"
+@article{PDG,
+	author	={ {P.A. Zyla et al.} },
+	title	={{Particle Data Group, Review of Particle Physics}},
+	journal	={{Prog. Theor. Exp. Phys.}},
+	volume	={{083C01}},
+	number = {8},
+	publisher={Oxford University Press},
+	month   ={},
+	year	={2020},
+	pages	={1-2093},
+	url	={https://pdg.lbl.gov/},
+	doi 	= {10.1093/ptep/ptaa104}
 }
     
 @article{HardCosmicMuonRate,
@@ -1519,8 +1527,8 @@
 %%Hasta aquí 140
 @manual{ScalerDataSheet,
   title        = {Quad Scaler And Preset Counter-Timer, N1145},
-  author       = { {CAEN, Tools for Discovery} },
-  organization = { {CAEN, Tools for Discovery} },
+  author       = { {CAEN SpA} },
+  organization = { {CAEN SpA} },
   address      = {},
   month		   = {},
   year         = {},
@@ -1726,7 +1734,7 @@
 
 %%Hasta aquí 160
 @unpublished{BirksCoefficient,
-  author = { {B. D. Leverington and M. Anelli and P. Campana and R. Rosellini} },
+  author = {B. D. Leverington and M. Anelli and P. Campana and R. Rosellini},
   title  = {A 1 mm Scintillating Fibre Tracker Readout by a Multi-anode Photomultiplier},
   month  = {07},
   year   = {2011},
@@ -1737,8 +1745,8 @@
 
 @manual{CAENV1724,
   title        = {CAEN V1724, 8 Channels, 14 bit, 100MS/s Digitalizer},
-  author       = { {CAEN, Tools for Discovery} },
-  organization = { {CAEN, Tools for Discovery} },
+  author       = { {CAEN SpA} },
+  organization = { {CAEN SpA} },
   address      = {},
   year         = {},
   howpublished = "\url{https://www.caen.it/products/v1724/}"

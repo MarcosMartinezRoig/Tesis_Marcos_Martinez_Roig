@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  29 MAR 2022 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  29 MAR 2022 17:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1484,9 +1484,9 @@ r-cuit with
  []
 
 
-Overfull \hbox (3.16823pt too wide) in paragraph at lines 27--27
- [][] [][]\T1/cmr/m/n/12 SiPM out-put pulses dis-played on os-cil-lo-scope, mod
-el MSO44X 
+Overfull \hbox (22.0942pt too wide) in paragraph at lines 27--27
+ [][] [][]\T1/cmr/m/n/12 SiPM out-put pulses dis-played on the os-cil-lo-scope,
+ model MSO44X 
  []
 
 
@@ -2390,7 +2390,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [49 <./Figures/3DesignPrinciples/32Tritium_detector/APD_scheme.png>]
-<Figures/3DesignPrinciples/32Tritium_detector/Several_SiPM_pulses.png, id=1716,
+<Figures/3DesignPrinciples/32Tritium_detector/Several_SiPM_pulses.png, id=1715,
  633.36626pt x 356.33125pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/Several_SiPM_pulses.png Grap
 hic file (type png)
@@ -2425,6 +2425,9 @@ Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/How_a_que
 nching_resistence_in_a_SiPM_works.png  used on input line 46.
 (pdftex.def)             Requested size: 172.84932pt x 146.23273pt.
 
+Underfull \vbox (badness 6825) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2441,7 +2444,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [52]
-<Figures/3DesignPrinciples/32Tritium_detector/SiPMPDE.png, id=1768, 472.76625pt
+<Figures/3DesignPrinciples/32Tritium_detector/SiPMPDE.png, id=1769, 472.76625pt
  x 460.72125pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/SiPMPDE.png Graphic file (ty
 pe png)
@@ -2449,7 +2452,7 @@ pe png)
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/SiPMPDE.p
 ng  used on input line 106.
 (pdftex.def)             Requested size: 283.66193pt x 276.43488pt.
-
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2473,18 +2476,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55 <./Figures/3DesignPrinciples/32Tritium_detector/SiPMPDE.png>])
+[55 <./Figures/3DesignPrinciples/32Tritium_detector/SiPMPDE.png>]
 (./Sections/3Design_Principles/32DetectorMonitor/323Photosensors/3234TRITIUM_Ph
 otosensors.tex)
 (./Sections/3Design_Principles/32DetectorMonitor/324ElectronicalSystem/3241Elec
-tronicalSystemIntro.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[56])
+tronicalSystemIntro.tex)
 (./Sections/3Design_Principles/32DetectorMonitor/324ElectronicalSystem/3242PMTs
 ElectronicalSystem.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2496,9 +2492,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57]
+[56]
 <Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_PMT.png, id
-=1805, 986.68625pt x 320.19624pt>
+=1799, 986.68625pt x 320.19624pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_PMT.pn
 g Graphic file (type png)
 <use Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_PMT.png
@@ -2507,7 +2503,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/Electroni
 cal_Scheme_1_PMT.png  used on input line 11.
 (pdftex.def)             Requested size: 384.11221pt x 124.65128pt.
 <Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_PMTs.png, i
-d=1806, 991.705pt x 369.38pt>
+d=1800, 991.705pt x 369.38pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_PMTs.p
 ng Graphic file (type png)
 <use Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_PMTs.pn
@@ -2516,7 +2512,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/Electroni
 cal_Scheme_2_PMTs.png  used on input line 17.
 (pdftex.def)             Requested size: 384.11221pt x 143.07126pt.
 <Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_4_PMTs.png, i
-d=1807, 1006.76125pt x 298.11375pt>
+d=1801, 1006.76125pt x 298.11375pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_4_PMTs.p
 ng Graphic file (type png)
 <use Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_4_PMTs.pn
@@ -2525,24 +2521,34 @@ Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/Electroni
 cal_Scheme_4_PMTs.png  used on input line 23.
 (pdftex.def)             Requested size: 384.11221pt x 113.73927pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58]
+[57]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59 <./Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_PMT.p
+[58 <./Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_1_PMT.p
 ng> <./Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_2_PMTs.
 png> <./Figures/3DesignPrinciples/32Tritium_detector/Electronical_Scheme_4_PMTs
 .png>]
-<Figures/3DesignPrinciples/32Tritium_detector/1_coincidences.png, id=1849, 1286
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[59]
+<Figures/3DesignPrinciples/32Tritium_detector/1_coincidences.png, id=1853, 1286
 .8075pt x 727.71875pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/1_coincidences.png Graphic f
 ile (type png)
@@ -2550,7 +2556,7 @@ ile (type png)
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/1_coincid
 ences.png  used on input line 71.
 (pdftex.def)             Requested size: 172.84932pt x 97.7492pt.
-<Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png, id=1850, 12
+<Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png, id=1854, 12
 85.80376pt x 727.71875pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png Graphic
  file (type png)
@@ -2558,7 +2564,7 @@ File: Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png Graphic
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/2_coincid
 ences_1.png  used on input line 77.
 (pdftex.def)             Requested size: 172.84932pt x 97.81583pt.
-<Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_2.png, id=1851, 12
+<Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_2.png, id=1855, 12
 86.8075pt x 728.7225pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_2.png Graphic
  file (type png)
@@ -2566,7 +2572,7 @@ File: Figures/3DesignPrinciples/32Tritium_detector/2_coincidences_2.png Graphic
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/2_coincid
 ences_2.png  used on input line 83.
 (pdftex.def)             Requested size: 172.84932pt x 97.88403pt.
-<Figures/3DesignPrinciples/32Tritium_detector/4_coincidences.png, id=1852, 1285
+<Figures/3DesignPrinciples/32Tritium_detector/4_coincidences.png, id=1856, 1285
 .80376pt x 726.715pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/4_coincidences.png Graphic f
 ile (type png)
@@ -2574,25 +2580,7 @@ ile (type png)
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/4_coincid
 ences.png  used on input line 89.
 (pdftex.def)             Requested size: 172.84932pt x 97.68091pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[60]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[61 <./Figures/3DesignPrinciples/32Tritium_detector/1_coincidences.png> <./Figu
-res/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png> <./Figures/3Desi
-gnPrinciples/32Tritium_detector/2_coincidences_2.png> <./Figures/3DesignPrincip
-les/32Tritium_detector/4_coincidences.png>]
-<Figures/3DesignPrinciples/32Tritium_detector/Input_MCA.png, id=1882, 1288.815p
+<Figures/3DesignPrinciples/32Tritium_detector/Input_MCA.png, id=1861, 1288.815p
 t x 726.715pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/Input_MCA.png Graphic file (
 type png)
@@ -2614,8 +2602,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62 <./Figures/3DesignPrinciples/32Tritium_detector/Input_MCA.png>]
-<Figures/3DesignPrinciples/32Tritium_detector/PETSYS_System.png, id=1898, 374.3
+[60]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[61 <./Figures/3DesignPrinciples/32Tritium_detector/1_coincidences.png> <./Figu
+res/3DesignPrinciples/32Tritium_detector/2_coincidences_1.png> <./Figures/3Desi
+gnPrinciples/32Tritium_detector/2_coincidences_2.png> <./Figures/3DesignPrincip
+les/32Tritium_detector/4_coincidences.png>]
+<Figures/3DesignPrinciples/32Tritium_detector/PETSYS_System.png, id=1889, 374.3
 9874pt x 309.155pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/PETSYS_System.png Graphic fi
 le (type png)
@@ -2625,13 +2623,26 @@ stem.png  used on input line 5.
 (pdftex.def)             Requested size: 299.5194pt x 247.32433pt.
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[62 <./Figures/3DesignPrinciples/32Tritium_detector/Input_MCA.png>]
+Underfull \vbox (badness 7030) has occurred while \output is active []
+
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [63 <./Figures/3DesignPrinciples/32Tritium_detector/PETSYS_System.png>]
-<Figures/3DesignPrinciples/32Tritium_detector/SiPMPCB.png, id=1907, 806.01125pt
+<Figures/3DesignPrinciples/32Tritium_detector/SiPMPCB.png, id=1908, 806.01125pt
  x 591.20876pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/SiPMPCB.png Graphic file (ty
 pe png)
@@ -2640,7 +2651,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/SiPMPCB.p
 ng  used on input line 18.
 (pdftex.def)             Requested size: 192.0561pt x 140.87361pt.
 <Figures/3DesignPrinciples/32Tritium_detector/ElectronicSchemePCBSiPM.png, id=1
-908, 604.2575pt x 468.75125pt>
+909, 604.2575pt x 468.75125pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/ElectronicSchemePCBSiPM.png 
 Graphic file (type png)
 <use Figures/3DesignPrinciples/32Tritium_detector/ElectronicSchemePCBSiPM.png>
@@ -2648,7 +2659,7 @@ Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/Electroni
 cSchemePCBSiPM.png  used on input line 24.
 (pdftex.def)             Requested size: 172.84932pt x 134.08186pt.
 )
-Underfull \vbox (badness 1014) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2660,16 +2671,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [64 <./Figures/3DesignPrinciples/32Tritium_detector/SiPMPCB.png> <./Figures/3De
 signPrinciples/32Tritium_detector/ElectronicSchemePCBSiPM.png>]
 (./Sections/3Design_Principles/33UltraPureWaterSystem/331IntroductionUltraPureW
-aterSystem.tex
+aterSystem.tex)
+(./Sections/3Design_Principles/33UltraPureWaterSystem/332SetUpUltraPureWaterSys
+tem.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[65])
-(./Sections/3Design_Principles/33UltraPureWaterSystem/332SetUpUltraPureWaterSys
-tem.tex
+[65]
 <Figures/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraPureWaterSystem.pn
 g, id=1931, 1516.66624pt x 873.2625pt>
 File: Figures/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraPureWaterSyst
@@ -2686,16 +2697,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[66])
+[66 <./Figures/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraPureWaterSys
+tem.png>])
+(./Sections/3Design_Principles/34BackgroundShields/341IntroBackgrund.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[67 <./Figures/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraPureWaterSys
-tem.png>]
-(./Sections/3Design_Principles/34BackgroundShields/341IntroBackgrund.tex
+[67]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2753,7 +2767,7 @@ pg>
 Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 AluminiumStructure.jpg  used on input line 38.
 (pdftex.def)             Requested size: 172.84932pt x 129.59407pt.
-
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2762,7 +2776,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [70 <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/LeadBricks.png> <.
 /Figures/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers.png> <./Figure
-s/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers2.png>])
+s/3DesignPrinciples/34BackgroundRejectionSystem/TwoLayers2.png>]
 (./Sections/3Design_Principles/34BackgroundShields/343SetUpActiveShield.tex
 <Figures/3DesignPrinciples/34BackgroundRejectionSystem/Vetos_y_prototipo.png, i
 d=1986, 478.03593pt x 381.67593pt>
@@ -2830,6 +2844,40 @@ umVetos.png>
 Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
 EmissionEnergySpectrumVetos.png  used on input line 61.
 (pdftex.def)             Requested size: 240.30135pt x 217.817pt.
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/NoCoating.jpeg, id=2012,
+ 482.55281pt x 1038.12843pt>
+File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/NoCoating.jpeg Grap
+hic file (type jpg)
+<use Figures/3DesignPrinciples/34BackgroundRejectionSystem/NoCoating.jpeg>
+Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
+NoCoating.jpeg  used on input line 72.
+(pdftex.def)             Requested size: 88.34416pt x 190.05484pt.
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/TeflonCoating.jpeg, id=2
+013, 432.11438pt x 810.02625pt>
+File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/TeflonCoating.jpeg 
+Graphic file (type jpg)
+<use Figures/3DesignPrinciples/34BackgroundRejectionSystem/TeflonCoating.jpeg>
+Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
+TeflonCoating.jpeg  used on input line 78.
+(pdftex.def)             Requested size: 88.34416pt x 165.59914pt.
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumCoating.jpeg, i
+d=2014, 276.28218pt x 657.2053pt>
+File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumCoating.jp
+eg Graphic file (type jpg)
+<use Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumCoating.jpe
+g>
+Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
+AluminiumCoating.jpeg  used on input line 84.
+(pdftex.def)             Requested size: 88.34416pt x 210.13951pt.
+<Figures/3DesignPrinciples/34BackgroundRejectionSystem/BlackTapeCoating.jpeg, i
+d=2015, 548.0475pt x 1050.17343pt>
+File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/BlackTapeCoating.jp
+eg Graphic file (type jpg)
+<use Figures/3DesignPrinciples/34BackgroundRejectionSystem/BlackTapeCoating.jpe
+g>
+Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
+BlackTapeCoating.jpeg  used on input line 90.
+(pdftex.def)             Requested size: 88.34416pt x 169.28108pt.
 
 Underfull \vbox (badness 1701) has occurred while \output is active []
 
@@ -2842,41 +2890,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [72 <./Figures/3DesignPrinciples/34BackgroundRejectionSystem/Vetos_y_prototipo.
 png>]
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/NoCoating.jpeg, id=2018,
- 482.55281pt x 1038.12843pt>
-File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/NoCoating.jpeg Grap
-hic file (type jpg)
-<use Figures/3DesignPrinciples/34BackgroundRejectionSystem/NoCoating.jpeg>
-Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
-NoCoating.jpeg  used on input line 72.
-(pdftex.def)             Requested size: 88.34416pt x 190.05484pt.
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/TeflonCoating.jpeg, id=2
-019, 432.11438pt x 810.02625pt>
-File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/TeflonCoating.jpeg 
-Graphic file (type jpg)
-<use Figures/3DesignPrinciples/34BackgroundRejectionSystem/TeflonCoating.jpeg>
-Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
-TeflonCoating.jpeg  used on input line 78.
-(pdftex.def)             Requested size: 88.34416pt x 165.59914pt.
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumCoating.jpeg, i
-d=2020, 276.28218pt x 657.2053pt>
-File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumCoating.jp
-eg Graphic file (type jpg)
-<use Figures/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumCoating.jpe
-g>
-Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
-AluminiumCoating.jpeg  used on input line 84.
-(pdftex.def)             Requested size: 88.34416pt x 210.13951pt.
-<Figures/3DesignPrinciples/34BackgroundRejectionSystem/BlackTapeCoating.jpeg, i
-d=2021, 548.0475pt x 1050.17343pt>
-File: Figures/3DesignPrinciples/34BackgroundRejectionSystem/BlackTapeCoating.jp
-eg Graphic file (type jpg)
-<use Figures/3DesignPrinciples/34BackgroundRejectionSystem/BlackTapeCoating.jpe
-g>
-Package pdftex.def Info: Figures/3DesignPrinciples/34BackgroundRejectionSystem/
-BlackTapeCoating.jpeg  used on input line 90.
-(pdftex.def)             Requested size: 88.34416pt x 169.28108pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -5561,13 +5574,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [226]
-Underfull \hbox (badness 2173) in paragraph at lines 96--99
+Underfull \hbox (badness 2173) in paragraph at lines 90--93
 []\T1/cmr/m/n/12 Born, Max and Wolf, Emil, \T1/cmr/m/it/12 Prin-ciples of Op-ti
 cs: 60th
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 96--99
+Underfull \hbox (badness 4967) in paragraph at lines 90--93
 \T1/cmr/m/it/12 An-niversary Edi-tion\T1/cmr/m/n/12 , Cam-bridge Uni-ver-sity P
 ress, Cam-
  []
@@ -5579,6 +5592,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [227]
+Underfull \hbox (badness 5667) in paragraph at lines 115--118
+[]\T1/cmr/m/n/12 Calmon, P. and Garnier-Laplace, J., \T1/cmr/m/it/12 Tri-tium a
+nd the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+\T1/cmr/m/it/12 En-vir-on-ment\T1/cmr/m/n/12 , []$\T1/cmtt/m/n/12 https : / / w
+ww . irsn . fr / EN / Research /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+\T1/cmtt/m/n/12 publications-[]documentation / radionuclides-[]sheets /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+\T1/cmtt/m/n/12 environment / Pages / Tritium-[]environment . aspx$[] \T1/cmr/m
+/n/12 (2012),
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -5586,19 +5621,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [228]
-Underfull \hbox (badness 10000) in paragraph at lines 159--161
-[]\T1/cmr/m/n/12 Consejo de Se-gur-idad Nuc-lear, \T1/cmr/m/it/12 Red de Es-ta-
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--161
-\T1/cmr/m/it/12 ciones Automát-icas (REA)\T1/cmr/m/n/12 , []$\T1/cmtt/m/n/12 ht
-tps : / / www . csn . es /
- []
-
-
-Underfull \hbox (badness 4805) in paragraph at lines 188--189
+Underfull \hbox (badness 4805) in paragraph at lines 168--169
 []\T1/cmr/m/n/12 DYCOMETAL, \T1/cmr/m/it/12 Cli-matic Cham-ber Model CCK 85\T1/
 cmr/m/n/12 , DY-
  []
@@ -5610,34 +5633,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [229]
-Underfull \hbox (badness 10000) in paragraph at lines 210--214
+Underfull \hbox (badness 10000) in paragraph at lines 200--204
 []\T1/cmr/m/n/12 Europa Press, \T1/cmr/m/it/12 China Con-stru-irá al Menos 60
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--214
+Underfull \hbox (badness 10000) in paragraph at lines 200--204
 \T1/cmr/m/it/12 Cent-rales Nuc-le-ares en la Próx-ima Década\T1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--214
+Underfull \hbox (badness 10000) in paragraph at lines 200--204
 []$\T1/cmtt/m/n/12 https : / / www . europapress . es / internacional /
  []
 
 
-Overfull \hbox (194.10458pt too wide) in paragraph at lines 210--214
+Overfull \hbox (194.10458pt too wide) in paragraph at lines 200--204
 \T1/cmtt/m/n/12 noticia-[]china-[]construira-[]menos-[]60-[]centrales-[]nuclear
 es-[]proxima-[]decada-[]20160916210159 .
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 216--218
+Underfull \hbox (badness 2884) in paragraph at lines 206--208
 \T1/cmr/m/n/12 (1995), URL []$\T1/cmtt/m/n/12 https : / / www . academia . edu 
 / 28858622 / Evans _
  []
 
 
-Underfull \hbox (badness 4096) in paragraph at lines 229--232
+Underfull \hbox (badness 4096) in paragraph at lines 224--227
 \T1/cmr/m/it/12 Edi-tion\T1/cmr/m/n/12 , volume 21, John Wiley & Sons, Inc. (20
 10),
  []
@@ -5649,25 +5672,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [230]
-Underfull \hbox (badness 3219) in paragraph at lines 257--259
+Underfull \hbox (badness 3219) in paragraph at lines 249--251
 []\T1/cmr/m/n/12 Hamamatsu Photon-ics K.K., \T1/cmr/m/it/12 High Voltage Power 
 Sup-ply
  []
 
 
-Underfull \hbox (badness 6658) in paragraph at lines 261--263
+Underfull \hbox (badness 6658) in paragraph at lines 257--259
 []\T1/cmr/m/n/12 Hamamatsu Photon-ics K.K., \T1/cmr/m/it/12 MPPC Multi-Pixel Ph
 oton
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 261--263
+Underfull \hbox (badness 1102) in paragraph at lines 257--259
 \T1/cmr/m/it/12 Counter) S13360-1375\T1/cmr/m/n/12 , Hama-matsu Photon-ics K.K.
 , Ja-pan
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 273--275
+Underfull \hbox (badness 1077) in paragraph at lines 269--271
 []\T1/cmr/m/n/12 Hamamatsu Photon-ics K.K., \T1/cmr/m/it/12 Photon-mul-ti-plier
  Tube R8520-
  []
@@ -5679,37 +5702,37 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [231]
-Underfull \hbox (badness 3439) in paragraph at lines 306--310
+Underfull \hbox (badness 3439) in paragraph at lines 302--306
 []\T1/cmr/m/n/12 ICRP, \T1/cmr/m/it/12 1990 Re-com-mend-a-tions of the In-ter-n
 a-tional Com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--310
+Underfull \hbox (badness 10000) in paragraph at lines 302--306
 \T1/cmr/m/n/12 URL []$\T1/cmtt/m/n/12 https : / / www . icrp . org / publicatio
 n . asp ? id = icrp %
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 312--317
+Underfull \hbox (badness 3503) in paragraph at lines 308--313
 \T1/cmr/m/it/12 In-take of Ra-di-o-nuc-lides: Part 5. Com-pil-a-tion of In-ges-
 
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 312--317
+Underfull \hbox (badness 1502) in paragraph at lines 308--313
 \T1/cmr/m/it/12 tion and In-hal-a-tion Dose Coef-fi-cients\T1/cmr/m/n/12 , Ann.
  ICRP 21 \T1/cmr/bx/n/12 26
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 312--317
+Underfull \hbox (badness 2884) in paragraph at lines 308--313
 \T1/cmr/m/n/12 (1996), URL []$\T1/cmtt/m/n/12 https : / / www . icrp . org / pu
 blication . asp ? id =
  []
 
 
-Underfull \hbox (badness 7851) in paragraph at lines 323--325
+Underfull \hbox (badness 7851) in paragraph at lines 319--321
 []\T1/cmr/m/n/12 Industrial Fiber Op-tics, \T1/cmr/m/it/12 POF Cut-ter Block\T1
 /cmr/m/n/12 , []$\T1/cmtt/m/n/12 https : / /
  []
@@ -5721,19 +5744,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [232]
-Underfull \hbox (badness 6412) in paragraph at lines 345--346
+Underfull \hbox (badness 6412) in paragraph at lines 331--332
 []\T1/cmr/m/n/12 International So-ci-ety of Ra-di-ology (ISR), []$\T1/cmtt/m/n/
 12 https : / / www .
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 352--355
+Underfull \hbox (badness 3209) in paragraph at lines 338--341
 []\T1/cmr/m/n/12 International En-ergy Agency, \T1/cmr/m/it/12 Key World En-erg
 y Stat-ist-
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 366--370
+Underfull \hbox (badness 1275) in paragraph at lines 352--356
 []\T1/cmr/m/n/12 Jean-Baptiste, P. et al., $[][][][]$ \T1/cmr/m/it/12 Mass Spec
 -tro-metry for Very
  []
@@ -5752,18 +5775,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [234]
-Underfull \hbox (badness 3364) in paragraph at lines 424--428
+Underfull \hbox (badness 3364) in paragraph at lines 420--424
 []\T1/cmr/m/n/12 Masuda, T. and Yosh-ioka, T., \T1/cmr/m/it/12 Es-tim-a-tion of
  Ra-di-ation
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 424--428
+Underfull \hbox (badness 1371) in paragraph at lines 420--424
 \T1/cmr/m/it/12 Dose from In-ges-ted Tri-tium in Hu-mans by Ad-min-is-tra-tion
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 424--428
+Underfull \hbox (badness 1342) in paragraph at lines 420--424
 \T1/cmr/m/it/12 of Deuterium-Labelled Com-pounds and Food\T1/cmr/m/n/12 , Sci-e
 ntific Re-
  []
@@ -5775,24 +5798,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [235]
-Underfull \hbox (badness 10000) in paragraph at lines 481--484
+Underfull \hbox (badness 10000) in paragraph at lines 477--480
 []\T1/cmr/m/n/12 Noelia Lopez Re-dondo, \T1/cmr/m/it/12 Es-ta-dos Unidos Anun-c
 ia una
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--484
+Underfull \hbox (badness 10000) in paragraph at lines 477--480
 \T1/cmr/m/it/12 In-ver-sión de 35 Mil-lones para las Cent-rales Nuc-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--484
+Underfull \hbox (badness 10000) in paragraph at lines 477--480
 \T1/cmr/m/it/12 le-ares, En-ergy News\T1/cmr/m/n/12 , []$\T1/cmtt/m/n/12 https 
 : / / www . energynews . es /
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 486--489
+Underfull \hbox (badness 6412) in paragraph at lines 482--485
 \T1/cmr/m/it/12 Au-thor-ity. Ra-dio-activ-ity of House-hold Wa-ter\T1/cmr/m/n/1
 2 , , Er-weko
  []
@@ -5804,26 +5827,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [236]
-Underfull \hbox (badness 2608) in paragraph at lines 512--514
+Underfull \hbox (badness 2608) in paragraph at lines 504--506
 []\T1/cmr/m/n/12 ORTEC, A., \T1/cmr/m/it/12 Model 671 Spec-tro-scopy Amp-li-fie
 r\T1/cmr/m/n/12 , OR-TEC,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--531
+Underfull \hbox (badness 10000) in paragraph at lines 521--523
 []\T1/cmr/m/n/12 OSI Op-to-elec-tron-ics, \T1/cmr/m/it/12 Char-ac-ter-ist-ics a
 nd Ap-plic-a-tions\T1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--531
+Underfull \hbox (badness 10000) in paragraph at lines 521--523
 []$\T1/cmtt/m/n/12 https : / / osioptoelectronics . com / standard-[]products /
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--531
+Underfull \hbox (badness 10000) in paragraph at lines 521--523
 \T1/cmtt/m/n/12 default . aspx ? gclid = EAIaIQobChMIkYrLif _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 539--541
+[]\T1/cmr/m/n/12 PETsys, \T1/cmr/m/it/12 PET-sys Elec-tron-ics\T1/cmr/m/n/12 , 
+[]$\T1/cmtt/m/n/12 https : / / www .
  []
 
 
@@ -5833,48 +5862,47 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [237]
-Underfull \hbox (badness 10000) in paragraph at lines 546--548
-[]\T1/cmr/m/n/12 PETsys, \T1/cmr/m/it/12 PET-sys Elec-tron-ics\T1/cmr/m/n/12 , 
-[]$\T1/cmtt/m/n/12 https : / / www .
- []
-
-
-Underfull \hbox (badness 2158) in paragraph at lines 561--562
+Underfull \hbox (badness 2158) in paragraph at lines 554--555
 []\T1/cmr/m/n/12 Physikalish-Technische Bundes-an-stalt (PTB), []$\T1/cmtt/m/n/
 12 https : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--583
+Underfull \hbox (badness 10000) in paragraph at lines 572--576
 []\T1/cmr/m/n/12 Red Eléc-trica de Es-paña, \T1/cmr/m/it/12 In-forme del Sis-te
 ma
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--583
+Underfull \hbox (badness 10000) in paragraph at lines 572--576
 \T1/cmr/m/it/12 Eléc-trico -Español\T1/cmr/m/n/12 , []$\T1/cmtt/m/n/12 https : 
 / / www . ree . es / es / datos /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--583
+Underfull \hbox (badness 10000) in paragraph at lines 572--576
 \T1/cmtt/m/n/12 {\protect \ discretionary{\char \ hyphenchar \
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--583
+Underfull \hbox (badness 10000) in paragraph at lines 572--576
 \T1/cmtt/m/n/12 font}{}{}}publicaciones / informe-[]anual-[]sistema /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--583
+Underfull \hbox (badness 10000) in paragraph at lines 572--576
 \T1/cmtt/m/n/12 {\protect \ discretionary{\char \ hyphenchar \
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--583
+Underfull \hbox (badness 10000) in paragraph at lines 572--576
 \T1/cmtt/m/n/12 font}{}{}}informe-[]del-[]sistema-[]electrico-[]espanol-[]2019$
 []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 582--587
+[]\T1/cmr/m/n/12 Réseau Na-tional de mesures de la ra-dio-activ-ité de
  []
 
 
@@ -5884,7 +5912,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [238]
-Underfull \hbox (badness 5519) in paragraph at lines 615--619
+Underfull \hbox (badness 5519) in paragraph at lines 619--623
 \T1/cmr/m/n/12 23--28, URL []$\T1/cmtt/m/n/12 http : / / yadda . icm . edu . pl
  / baztech / element /
  []
@@ -5896,6 +5924,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [239]
+Underfull \hbox (badness 10000) in paragraph at lines 666--669
+[]\T1/cmr/m/n/12 Straume, T. and Carsten, A. L., \T1/cmr/m/it/12 Tri-tium Ra-di
+obi-o-
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 666--669
+\T1/cmr/m/it/12 logy and Re-l-at-ive Bio-lo-gical Ef-fect-ive-ness\T1/cmr/m/n/1
+2 , Health Phys-ics
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 666--669
+\T1/cmr/bx/n/12 65 \T1/cmr/m/n/12 (1993) 657--72, URL []$\T1/cmtt/m/n/12 http :
+ / / dx . doi . org / 10 . 1097 /
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -5903,25 +5948,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [240]
-Underfull \hbox (badness 10000) in paragraph at lines 662--665
-[]\T1/cmr/m/n/12 Straume, T. and Carsten, A. L., \T1/cmr/m/it/12 Tri-tium Ra-di
-obi-o-
- []
-
-
-Underfull \hbox (badness 2894) in paragraph at lines 662--665
-\T1/cmr/m/it/12 logy and Re-l-at-ive Bio-lo-gical Ef-fect-ive-ness\T1/cmr/m/n/1
-2 , Health Phys-ics
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 662--665
-\T1/cmr/bx/n/12 65 \T1/cmr/m/n/12 (1993) 657--72, URL []$\T1/cmtt/m/n/12 http :
- / / dx . doi . org / 10 . 1097 /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--687
+Underfull \hbox (badness 10000) in paragraph at lines 689--691
 []\T1/cmr/m/n/12 Texas In-stru-ments, \T1/cmr/m/it/12 SN74LVC1G11DBVR Single 3-
 Input
  []
@@ -5933,46 +5960,46 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [241]
-Underfull \hbox (badness 10000) in paragraph at lines 720--722
+Underfull \hbox (badness 10000) in paragraph at lines 724--726
 []\T1/cmr/m/n/12 Tritium Col-lab-or-a-tion, \T1/cmr/m/it/12 Tri-tium, In-ter-re
 g
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--722
+Underfull \hbox (badness 10000) in paragraph at lines 724--726
 \T1/cmr/m/it/12 Sudoe Pro-gram\T1/cmr/m/n/12 , []$\T1/cmtt/m/n/12 https : / / w
 ww . interreg-[]sudoe .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--722
+Underfull \hbox (badness 10000) in paragraph at lines 724--726
 \T1/cmtt/m/n/12 eu / gbr / projects / the-[]approved-[]projects /
  []
 
 
-Overfull \hbox (186.52068pt too wide) in paragraph at lines 720--722
+Overfull \hbox (186.52068pt too wide) in paragraph at lines 724--726
 \T1/cmtt/m/n/12 158-[]design-[]construction-[]and-[]commissioning-[]of-[]a-[]lo
 w-[]level-[]tritium-[]monitor-[]for-[]water$[]\T1/cmr/m/n/12 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 736--739
+Underfull \hbox (badness 10000) in paragraph at lines 740--743
 []\T1/cmr/m/n/12 World Nuc-lear As-so-ci-ation, \T1/cmr/m/it/12 Three mile is-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 736--739
+Underfull \hbox (badness 10000) in paragraph at lines 740--743
 \T1/cmr/m/it/12 land ac-ci-dent\T1/cmr/m/n/12 , []$\T1/cmtt/m/n/12 https : / / 
 www . world-[]nuclear . org /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 736--739
+Underfull \hbox (badness 10000) in paragraph at lines 740--743
 \T1/cmtt/m/n/12 information-[]library / safety-[]and-[]security /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 736--739
+Underfull \hbox (badness 10000) in paragraph at lines 740--743
 \T1/cmtt/m/n/12 safety-[]of-[]plants / three-[]mile-[]island-[]accident . aspx$
 []
  []
@@ -6006,11 +6033,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 372.
 Here is how much of TeX's memory you used:
  21962 strings out of 492982
  439200 string characters out of 6134895
- 511512 words of memory out of 5000000
+ 511532 words of memory out of 5000000
  23987 multiletter control sequences out of 15000+600000
  555821 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,24n,69p,10424b,813s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,24n,69p,10424b,815s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.27} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -6119,11 +6146,11 @@ f/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public
 fb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf
 /fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/
 cm-super/sftt1200.pfb>
-Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (278 pages, 35116272 bytes)
+Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (278 pages, 35115646 bytes)
 .
 PDF statistics:
- 5679 PDF objects out of 6186 (max. 8388607)
- 3931 compressed objects within 40 object streams
+ 5684 PDF objects out of 6186 (max. 8388607)
+ 3936 compressed objects within 40 object streams
  840 named destinations out of 1000 (max. 500000)
  1388 words of extra memory for PDF output out of 10000 (max. 10000000)
 
