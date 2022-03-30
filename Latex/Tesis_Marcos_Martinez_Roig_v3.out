@@ -17,43 +17,53 @@
 \BOOKMARK [2][-]{subsection.3.2.1}{Interaction of Particles with Matter}{section.3.2}% 17
 \BOOKMARK [2][-]{subsection.3.2.2}{Plastic Scintillators}{section.3.2}% 18
 \BOOKMARK [2][-]{subsection.3.2.3}{Light Detection in Photosensors}{section.3.2}% 19
-\BOOKMARK [2][-]{subsection.3.2.4}{Electronics}{section.3.2}% 20
-\BOOKMARK [1][-]{section.3.3}{The Water Purification System}{chapter.3}% 21
-\BOOKMARK [2][-]{subsection.3.3.1}{Objectives}{section.3.3}% 22
-\BOOKMARK [2][-]{subsection.3.3.2}{Design of the Water Purification System}{section.3.3}% 23
-\BOOKMARK [1][-]{section.3.4}{The Background Rejection System}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.4.1}{Passive Shield \(Lead\)}{section.3.4}% 25
-\BOOKMARK [2][-]{subsection.3.4.2}{Active Shield \(Cosmic Veto\)}{section.3.4}% 26
-\BOOKMARK [0][-]{chapter.4}{TRITIUM Monitor R\046D}{}% 27
-\BOOKMARK [1][-]{section.4.1}{R\046D for the Scintillating Fibers}{chapter.4}% 28
-\BOOKMARK [2][-]{subsection.4.1.1}{Surface-Conditioning Method of Scintillating Fiber.}{section.4.1}% 29
-\BOOKMARK [2][-]{subsection.4.1.2}{Light Collection Characterization of BCF-12 Scintillating Fibers}{section.4.1}% 30
-\BOOKMARK [1][-]{section.4.2}{Characterization of the SiPM}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.3}{Characterization of the Water Purification System}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.4}{Characterization of the Cosmic Veto}{chapter.4}% 33
-\BOOKMARK [0][-]{chapter.5}{TRITIUM Detector Prototypes}{}% 34
-\BOOKMARK [1][-]{section.5.1}{First Prototypes}{chapter.5}% 35
-\BOOKMARK [2][-]{subsection.5.1.1}{TRITIUM-IFIC-0}{section.5.1}% 36
-\BOOKMARK [2][-]{subsection.5.1.2}{TRITIUM-IFIC-1}{section.5.1}% 37
-\BOOKMARK [1][-]{section.5.2}{Latest TRITIUM Prototypes}{chapter.5}% 38
-\BOOKMARK [2][-]{subsection.5.2.1}{TRITIUM-Aveiro}{section.5.2}% 39
-\BOOKMARK [2][-]{subsection.5.2.2}{TRITIUM-IFIC-2}{section.5.2}% 40
-\BOOKMARK [1][-]{section.5.3}{Experimental Results in Arrocampo Dam}{chapter.5}% 41
-\BOOKMARK [1][-]{section.5.4}{Modular TRITIUM Detector for In-Situ Tritium Monitoring}{chapter.5}% 42
-\BOOKMARK [0][-]{chapter.6}{Simulations}{}% 43
-\BOOKMARK [1][-]{section.6.1}{Geant4 Environment}{chapter.6}% 44
-\BOOKMARK [1][-]{section.6.2}{Simulations for the design of the TRITIUM Detector}{chapter.6}% 45
-\BOOKMARK [2][-]{subsection.6.2.1}{The Tritiated Water Source}{section.6.2}% 46
-\BOOKMARK [2][-]{subsection.6.2.2}{Energy Deposition and Light Output of Scintillating Fibers}{section.6.2}% 47
-\BOOKMARK [2][-]{subsection.6.2.3}{Optimization of the Fiber Length}{section.6.2}% 48
-\BOOKMARK [2][-]{subsection.6.2.4}{Fiber Diameter}{section.6.2}% 49
-\BOOKMARK [2][-]{subsection.6.2.5}{Effect of the PMMA windows}{section.6.2}% 50
-\BOOKMARK [1][-]{section.6.3}{Simulations of the TRITIUM Monitor}{chapter.6}% 51
-\BOOKMARK [2][-]{subsection.6.3.1}{Simulation of the TRITIUM-IFIC-2 Prototype}{section.6.3}% 52
-\BOOKMARK [2][-]{subsection.6.3.2}{Lead Shield and Cosmic Veto}{section.6.3}% 53
-\BOOKMARK [0][-]{chapter.7}{Present Status and Summary of the Results of the TRITIUM Project}{}% 54
-\BOOKMARK [0][-]{chapter.8}{Conclusions and Prospects}{}% 55
-\BOOKMARK [0][-]{appendix.A}{Electronics for the SiPM Characterization}{}% 56
-\BOOKMARK [0][-]{appendix.B}{Water Purification System}{}% 57
-\BOOKMARK [0][-]{appendix.C}{Preparation of Tritiated Water Sources}{}% 58
-\BOOKMARK [0][-]{appendix.D}{Electronic System of TRITIUM-Aveiro prototype}{}% 59
+\BOOKMARK [3][-]{subsubsection.3.2.3.1}{Photomultiplier Tubes \(PMTs\)}{subsection.3.2.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.3.2}{Silicon Photomultiplier Array}{subsection.3.2.3}% 21
+\BOOKMARK [3][-]{subsubsection.3.2.3.3}{Photosensors in TRITIUM}{subsection.3.2.3}% 22
+\BOOKMARK [2][-]{subsection.3.2.4}{Electronics}{section.3.2}% 23
+\BOOKMARK [3][-]{subsubsection.3.2.4.1}{Electronic for PMTs}{subsection.3.2.4}% 24
+\BOOKMARK [3][-]{subsubsection.3.2.4.2}{Electronics for SiPMs}{subsection.3.2.4}% 25
+\BOOKMARK [1][-]{section.3.3}{The Water Purification System}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.1}{Objectives}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.2}{Design of the Water Purification System}{section.3.3}% 28
+\BOOKMARK [1][-]{section.3.4}{The Background Rejection System}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.4.1}{Passive Shield \(Lead\)}{section.3.4}% 30
+\BOOKMARK [2][-]{subsection.3.4.2}{Active Shield \(Cosmic Veto\)}{section.3.4}% 31
+\BOOKMARK [0][-]{chapter.4}{TRITIUM Monitor R\046D}{}% 32
+\BOOKMARK [1][-]{section.4.1}{R\046D for the Scintillating Fibers}{chapter.4}% 33
+\BOOKMARK [2][-]{subsection.4.1.1}{Surface-Conditioning Method of Scintillating Fiber.}{section.4.1}% 34
+\BOOKMARK [3][-]{subsubsection.4.1.1.1}{Cleaving of Scintillating Fibers.}{subsection.4.1.1}% 35
+\BOOKMARK [3][-]{subsubsection.4.1.1.2}{Polishing of Scintillating Fibers.}{subsection.4.1.1}% 36
+\BOOKMARK [3][-]{subsubsection.4.1.1.3}{Cleaning of Scintillating Fibers.}{subsection.4.1.1}% 37
+\BOOKMARK [2][-]{subsection.4.1.2}{Light Collection Characterization of BCF-12 Scintillating Fibers}{section.4.1}% 38
+\BOOKMARK [3][-]{subsubsection.4.1.2.1}{Measurement Conditions.}{subsection.4.1.2}% 39
+\BOOKMARK [3][-]{subsubsection.4.1.2.2}{Results of the Characterization of Scintillating Fibers}{subsection.4.1.2}% 40
+\BOOKMARK [1][-]{section.4.2}{Characterization of the SiPM}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.3}{Characterization of the Water Purification System}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.4}{Characterization of the Cosmic Veto}{chapter.4}% 43
+\BOOKMARK [0][-]{chapter.5}{TRITIUM Detector Prototypes}{}% 44
+\BOOKMARK [1][-]{section.5.1}{First Prototypes}{chapter.5}% 45
+\BOOKMARK [2][-]{subsection.5.1.1}{TRITIUM-IFIC-0}{section.5.1}% 46
+\BOOKMARK [2][-]{subsection.5.1.2}{TRITIUM-IFIC-1}{section.5.1}% 47
+\BOOKMARK [1][-]{section.5.2}{Latest TRITIUM Prototypes}{chapter.5}% 48
+\BOOKMARK [2][-]{subsection.5.2.1}{TRITIUM-Aveiro}{section.5.2}% 49
+\BOOKMARK [2][-]{subsection.5.2.2}{TRITIUM-IFIC-2}{section.5.2}% 50
+\BOOKMARK [1][-]{section.5.3}{Experimental Results in Arrocampo Dam}{chapter.5}% 51
+\BOOKMARK [1][-]{section.5.4}{Modular TRITIUM Detector for In-Situ Tritium Monitoring}{chapter.5}% 52
+\BOOKMARK [0][-]{chapter.6}{Simulations}{}% 53
+\BOOKMARK [1][-]{section.6.1}{Geant4 Environment}{chapter.6}% 54
+\BOOKMARK [1][-]{section.6.2}{Simulations for the design of the TRITIUM Detector}{chapter.6}% 55
+\BOOKMARK [2][-]{subsection.6.2.1}{The Tritiated Water Source}{section.6.2}% 56
+\BOOKMARK [2][-]{subsection.6.2.2}{Energy Deposition and Light Output of Scintillating Fibers}{section.6.2}% 57
+\BOOKMARK [2][-]{subsection.6.2.3}{Optimization of the Fiber Length}{section.6.2}% 58
+\BOOKMARK [2][-]{subsection.6.2.4}{Fiber Diameter}{section.6.2}% 59
+\BOOKMARK [2][-]{subsection.6.2.5}{Effect of the PMMA windows}{section.6.2}% 60
+\BOOKMARK [1][-]{section.6.3}{Simulations of the TRITIUM Monitor}{chapter.6}% 61
+\BOOKMARK [2][-]{subsection.6.3.1}{Simulation of the TRITIUM-IFIC-2 Prototype}{section.6.3}% 62
+\BOOKMARK [2][-]{subsection.6.3.2}{Lead Shield and Cosmic Veto}{section.6.3}% 63
+\BOOKMARK [0][-]{chapter.7}{Present Status and Summary of the Results of the TRITIUM Project}{}% 64
+\BOOKMARK [0][-]{chapter.8}{Conclusions and Prospects}{}% 65
+\BOOKMARK [0][-]{appendix.A}{Electronics for the SiPM Characterization}{}% 66
+\BOOKMARK [0][-]{appendix.B}{Water Purification System}{}% 67
+\BOOKMARK [0][-]{appendix.C}{Preparation of Tritiated Water Sources}{}% 68
+\BOOKMARK [0][-]{appendix.D}{Electronic System of TRITIUM-Aveiro prototype}{}% 69
