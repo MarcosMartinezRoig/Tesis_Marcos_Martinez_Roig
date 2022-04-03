@@ -30,30 +30,28 @@ The result obtained after polishing is shown in Figure \ref{subfig:PolishFiberEn
 
 \textbf{Automatic Polishing Machine.}
 
-The main drawback of the manual polishing method is that it takes more than 10 minutes to polish a fiber, an unaffordable time to polish the thousands of fibers needed for the TRITIUM detector (see section \ref{sec:TritiumMonitor}). This is why an automated polishing process was developed within this thesis work. The goal of this effort was to ensure a better light coupling and transmission of light of the scintillating fibers to the photosensors. 
+The main drawback of the manual polishing method is that it takes more than 10 minutes to polish a fiber, an unaffordable time to polish the thousands of fibers needed for the TRITIUM detector (see section \ref{sec:TritiumMonitor}). This is why an automated polishing process was developed within this thesis work. The goal of this effort was to ensure an optimal light coupling and light transmission to the photosensors. 
 
 
 %As mentioned above, tens of thousands of fibers had to be prepared and conditioned for the TRITIUM monitor\footnote{Tritium monitor is composed of several modules based on hundred of scintillating fibers.} (see section \ref{sec:TritiumMonitor}). Cleaving this large number of fibers with out home-made cleaving device was a relatively fast process. Polishing them however is quite time consuming, as it takes ten minutes to hand polish one fiber. Hand polishing thoudands of fibers,  would result in an unaffordable amount of time. This is why an automated polishing process has been developed within this thesis work. The goal of this effort was to ensure a better light coupling and transmission of light of the scintillating fibers to the photosensors. 
 
-A machine was designed, built and tested in the laboratory for automatically polishing of up to one hundred plastic scintillating fibers at the same time and it is easily scalable to larger number of fibers.
+A machine was designed and built in the laboratory for automatically polishing up to one hundred plastic scintillating fibers at the same time and This machine is easily scalable to larger number of fibers. This automatic polishing machine, displayed in Figure \ref{fig:GeneralViewPolishingMachine}, consists of two main parts: 1) A polishing table, where the fibers are polished 2) The electronics, based on Arduino technology, that operates the movement of the polishing paper.
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.75]{4ResearchAndDevelopments/41Fibers/GeneralViewPolishingMchine.png}
 \caption{Polishing machine developed for TRITIUM.\label{fig:GeneralViewPolishingMachine}}
 \end{figure}
-This automatic polishing machine, displayed in Figure \ref{fig:GeneralViewPolishingMachine}, consists of two main parts: 1) A polishing table, where the fibers are polished 2) The electronics, based on Arduino technology, that operates the movement of the polishing paper:
 
-\begin{enumerate}
-\item{} The polishing table, shown in Figure \ref{subfig:PolishingTable}, is composed of two parts, a static part, where the fibers are fixed, and a movable part on bottom of the previous one, where the polishing papers are fixed. It was decided to establish the polishing movement on the plate with the polishing sheets, because of its lighter weight and in order to avoid possible damaging movements to the fibers.
+The polishing table, shown in Figure \ref{subfig:PolishingTable}, is composed of two parts, a static part, to which the fibers are attached, and a movable part on bottom of the previous one, where the polishing papers are fixed. It was decided to move the polishing paper instead of the fibers to avoid damaging the fibers.
 
-The static part (the fiber holder plate), shown in Figure \ref{subfig:PolishingTable}, consists of a plastic piece built with a 3D printer and locked to the system by four vertical screws. There are two nuts on each screw used to set the relative height and the inclination of fibers relative to the polishing papers. This piece contains one hundred holes in which a hundred fibers are lodged. 
+The static part that holds the fibers, shown in Figure \ref{subfig:PolishingTable}, consists of a plastic piece locked to the system by four vertical screws. There are two nuts on each screw used to set the relative height and the inclination of fibers relative to the polishing paper. This piece contains one hundred holes in which a hundred fibers are lodged. 
 
-As the fibers are too light ($0.16~\gram$) to make by gravity the necessary pressure on the polishing paper, a plastic belt and a piece of metal with a weight of about $1.5~\gram$ were attached to the individual fibers, as shown in Figure \ref{subfig:FiberMetailcPiece}, to increase their contact pressure, in a similar way as with the manual polishing connectors. 
+As the fibers are too light ($0.16~\gram$) to make the necessary pressure on the polishing paper by gravity, a plastic belt and a piece of metal of about $1.5~\gram$ weight were attached to the individual fibers, as shown in Figure \ref{subfig:FiberMetailcPiece}, to increase their contact pressure, in a similar way as with manual polishing connectors. 
 
-The movable part of the polishing table consists of a flat PMMA plate of $18 \times 18~\cm^2$ to which the polishing paper is attached. This part is locked to structure \cite{StructureAxis} that contains two horizontal screws, perpendicular to each other, which allow its movement in the XY plane (horizontal plane), as shown in Figure \ref{subfig:HorizontalAxis}.
+The movable part of the polishing table consists of a flat PMMA plate of $18 \times 18~\cm^2$ to which the polishing paper is attached. This part is locked to a structure \cite{StructureAxis} that contains two horizontal screws, perpendicular to each other, which allow a movement in the XY plane (horizontal plane), as shown in Figure \ref{subfig:HorizontalAxis}.
 
-The polishing system contains several subminiature switches with high repeat accuracy, model DB1 6A250, mounted on a piece made with a 3D printer, shown in Figures \ref{subfig:PolishingTable}, \ref{subfig:HorizontalAxis} and \ref{subfig:3DSwitchPiece}, which are used to find the origin of coordinates when the system is reinitiated and to stop the movable part when the end of the path is reached. 
+The polishing system contains several small switches, model DB1 6A250, of a high accuracy, shown in Figures \ref{subfig:PolishingTable}, \ref{subfig:HorizontalAxis} and \ref{subfig:3DSwitchPiece}, which are used to find the origin of coordinates when the system is reinitiated and to stop the movable part when the end of the path is reached. 
 
 \begin{figure}
 \centering
@@ -84,17 +82,13 @@ The polishing system contains several subminiature switches with high repeat acc
  \label{fig:PolishingTable}
 \end{figure}
 
-\item{} The electronics, shown in Figure \ref{fig:ElectronicSystemPolishingMachine}, which controls the automatic movement of the polishing paper, is based on Arduino technology. It consists of two stepper motors controlled by an Arduino UNO \cite{ArduinoUNO} that uses a CNC shield \cite{CNCShield} in which two different drivers are connected to control each of this stepper motors.
+The electronics, shown in Figure \ref{fig:ElectronicSystemPolishingMachine}, which controls the automatic movement of the polishing paper, is based on Arduino technology. It consists of two stepper motors controlled by an Arduino UNO \cite{ArduinoUNO} that uses a CNC shield \cite{CNCShield} to which two different drivers that control the stepper motors are connected.
 
 %This consists of two stepper motors which move the horizontal screws on which the PMMA plate holding the polishing paper is attached
 
-The stepper motor is a type of DC motor in which a full rotation is divided into a number of equal steps. This, it is manufactured with a number o steps per revolution, corresponding to a given stepping angle. The stepper motor used for he polishing machine are model NEMA ST4209S1404-A \cite{StepperMotors}, with bipolar voltage of $2.77~\volt_{DC}$, $1.33~\ampere$ maximum current and a stepping angle of $0.9~\degree$ ($400$ steps/rev). They can be operated with or without a position sensor for feedback control. These stepper motors are used to move the horizontal screws on which the PMMA plate that hold the polishing paper is attached.
+The stepper motor is a type of DC motor in which a full rotation is divided into a number of steps that define the stepping angle. The stepper motor used for he polishing machine are model NEMA ST4209S1404-A \cite{StepperMotors}, with bipolar voltage of $2.77~\volt_{DC}$, $1.33~\ampere$ maximum current and a stepping angle of $0.9~\degree$ ($400$ steps/rev). They can be operated with or without a position sensor for feedback control. These stepper motors are used to move the horizontal screws on which the PMMA plate that hold the polishing paper is attached.
 
-Drivers are controllers that allow to manage stepper motors in a simple and safe way as they are used to limit the current supplied to the motors. Choosing the right controllers, with the power and the stepping mode required for the chosen stepper motors, is crucial. This is because overpowering them could rapidly be damaging, while an inadequate stepping would result in inaccurate movements of the mobile part of the polishing paper. 
-
-Several drivers were succesively considered and tested: the most widely used driver Pololu A4988 \cite{A4988Driver} ($35~\volt$, $2~\ampere$ and $16$ steps), the driver DRV8825 ($45~\volt$, $2.5~\ampere$ and $32$ steps) and the TMC2208 \cite{TMC2208Driver} ($35~\volt$, $2.5~\ampere$ and $256$ steps) with more microstepping modes, which results in more accurate and smooth movements. This later includes a StealthChop funciton with which the driver operates in silence mode for low motor velocities. It is seen that the power provided by each stepper is enough to correctly move the stepper motors. Therefore, owing to these features, the TMC2208 driver is the one used for the control of the stepper motors since it produce the most accurate and smooth movement. The provided current to the motors is limited by the driver and the excess will be transformed into heat that has to be dissipated for the correct functioning of the drivers. 
-
-Indeed, overheating of the drivers may cause loss of steps, producing wrong movements or even destroying the driver. Therefore, a cooling system is needed to ensure the correct operation of the polishing system. The cooling system, shown in Figure \ref{fig:ElectronicSystemPolishingMachine}, consists of a copper heat sink\footnote{The copper is one of the best thermal conductor at STP} in contact with both controllers and a fan, used to prevent heat accumulation inside the electronics box. The cooling power can be inproved by using a PELTIER cell.
+Drivers are controllers that are used to limit the current supplied to the motors. Choosing the right drivers is crucial because overpowering the motors could damaging them, while an inadequate stepping would result in inaccurate movements of the mobile part of the polishing paper. Several drivers were succesively considered and tested: the driver Pololu A4988 ($35~\volt$, $2~\ampere$ and $16$ steps) \cite{A4988Driver}, the driver DRV8825 ($45~\volt$, $2.5~\ampere$ and $32$ steps) \cite{DRV8825Driver} and the TMC2208 ($35~\volt$, $2.5~\ampere$ and $256$ steps) \cite{TMC2208Driver} with more microstepping modes, which result in a more accurate and smooth movement. The last driver includes a StealthChop function that allows the driver operate in silence mode for low motor velocities. The power provided by each driver is enough to correctly move the stepper motors. The TMC2208 driver is the one used for the control of the stepper motors since it produce the most accurate and smooth movement. The provided current to the motors is limited by the driver and the excess is transformed into heat that has to be dissipated for the correct functioning of the drivers. Indeed, overheating of the drivers may cause loss of steps, producing wrong movements or even destroying the driver. Therefore, a cooling system was needed to ensure the correct operation of the polishing system. The cooling system, shown in Figure \ref{fig:ElectronicSystemPolishingMachine}, consists of a copper heat sink in contact with both controllers and a fan, that prevents heat accumulation inside the electronics box. The cooling power can be improved by a PELTIER cell.
 
 \begin{figure}[h]
 \centering
@@ -102,14 +96,11 @@ Indeed, overheating of the drivers may cause loss of steps, producing wrong move
 \caption{Electronic system of Polishing machine.\label{fig:ElectronicSystemPolishingMachine}}
 \end{figure}
 
-\end{enumerate}
-
-Finally, this polishing machine is controlled by a Raspberry Pi computer board \cite{RaspberryPi} using the Universal G-code Sender software, a grafical interface based on the GRBL package \cite{GRBLDocumentation}. There are several usefu are loaded in this way. 
-l pre-programmed functions such as "HOME" with which the system, using the switches, finds its origin of coordinate every time the system is turned on. The software also has the possibility of loading a file containing the G-code to be executed. In the fiber polishing machine, the 120 movements required for each polishing paper.
+Finally, the polishing machine is controlled by a Raspberry Pi computer board \cite{RaspberryPi} using the Universal G-code Sender software, a grafical interface based on the GRBL package \cite{GRBLDocumentation}. There are several pre-programmed functions such as "HOME" that, with the help of the switches, finds its origin of coordinate when the system is turned on. The GRBL software has the possibility of loading a file containing the G-code that defines the 120 movements required for the polishing paper.
 
 \textbf{Experimental Test.}
 
-Finally, this machine was tested with twenty uncladded scintillating fibers of $15~\cm$ length. These fibers were arranged in a bundle and were couplet at each end to two PMTs, as shown in Figure \ref{fig:BunchWith2PMTsCoincidence}, which were read out in coincidence. The electronic scheme shown in Figure \ref{subfig:ElectronicConfiguraiton2PMT} was used to process and analyze these signals and an energy spectrum was obtained. The goal of the test was to quantify the improvement in the relative light transmission of the scintillating fibers due to the polishing process.
+This machine was tested with twenty uncladded scintillating fibers of $15~\cm$ length. These fibers were arranged in a bundle that was coupled to two PMTs and read out in coincidence, as shown in Figure \ref{fig:BunchWith2PMTsCoincidence}. The electronic scheme shown in Figure \ref{subfig:ElectronicConfiguraiton2PMT} was used to process and analyze these signals and an energy spectrum was obtained. The improvement of the light transmission of scintillating fibers due to the polishing process.
 
 \begin{figure}[]
 \centering
@@ -117,23 +108,20 @@ Finally, this machine was tested with twenty uncladded scintillating fibers of $
 \caption{Setup used to test the effect of the fiber polishing on light transmission to the PMTs. This setup is placed in a dark test box for the measurements.\label{fig:BunchWith2PMTsCoincidence}}
 \end{figure}
 
-This experiment was carried out inside a special light-tight box, called black box, to ensure that the detected photons are generated by the scintillating fibers. The background was measured before and after applying the polishing process, shown in Figure \ref{fig:ResultsOfPolishingMachineBackground}.
-
+This experiment was carried out inside a light-tight box or black box, to avoid external light. The spectra produced by background radiation before and after the polishing process are displayed in Figure \ref{fig:ResultsOfPolishingMachineBackground}.
 \begin{figure}[]
 \centering
 \includegraphics[scale=0.65]{4ResearchAndDevelopments/41Fibers/PolishingTest_Background.pdf}
-\caption{Energy spectra recorded with polished and unpolished fibers for the background of the natural radioactivity.\label{fig:ResultsOfPolishingMachineBackground}}
+\caption{Energy spectra recorded with polished and unpolished fibers due to the natural radioactivity background.\label{fig:ResultsOfPolishingMachineBackground}}
 \end{figure}
-
-As it can be seen in this figure, the energy spectrum after applying the polishing process is shifted to the right, which means that the detected events have more energy than before the polishing process (more photons per event reach the PMTs). In addition, this improvement in the photon collection efficiency of the scintillating fibers allows more events to be detected, which can be quantified by a parameter $F$ definded as,
+As it can be seen in this figure, the energy spectrum after applying the polishing process is shifted to the right, which means that the detected events have more energy than before the polishing process, more photons per event reach the PMTs. The improvement of the photon collection efficiency of the scintillating fibers can be quantified by a parameter $F$ definded as,
 \begin{equation}
 F=\frac{A_{P}-A_{NP}}{A_{NP}}
 \label{eq:RelativeImprovement}
 \end{equation}
-where $A_{P}$ and $A_{NP}$ are the integrals of the energy spectrum measured after and before the polishing process, respectively. An improvement of detected events of almost a factor two was acheived with respect to the measurement made before polishing.
+where $A_{P}$ and $A_{NP}$ are the integrals of the energy spectrum measured after and before the polishing process, respectively. Polishing results in a factor 2 improvement. 
 
-These test were repited using two radioactive sources, an encapsulated $\ce{^{60}Co}$ source with gamma emissions of $1173.2~\keV$ and $1332.5~\keV$ and an activity of $715~\becquerel$, and a $\ce{^{90}Sr}$ beta source with a maximum beta energy of $545.9~\keV$ and an activity of $17.8~\kilo\becquerel$. The radioactive sources were placed next to the fiber bundle, in the middle of it (at $7.5~\cm$ from each PMT) and the energy spectra was recorded for both radioactive sources, which are shown in Figure \ref{fig:ResultsOfPolishingMachineSources}. 
-
+These test were repeated with two radioactive sources, an encapsulated $\ce{^{60}Co}$ source with a $715~\becquerel$ activity and a $\ce{^{90}Sr}$ beta source with a $17.8~\kilo\becquerel$ activity. The radioactive sources were placed next to the fiber bundle, in the middle of it (at $7.5~\cm$ from each PMT). The energy spectra recorded for both radioactive sources are shown in Figure \ref{fig:ResultsOfPolishingMachineSources}.
 \begin{figure}
 \centering
     \begin{subfigure}[b]{1\textwidth}
@@ -150,7 +138,6 @@ These test were repited using two radioactive sources, an encapsulated $\ce{^{60
  \caption{Energy spectra recorded with polished and unpolished fibers. a) for the $\ce{^{60}Co}$ source b) for the $\ce{^{90}Sr}$ source}
  \label{fig:ResultsOfPolishingMachineSources}
 \end{figure}
+It can be noticed that both energy spectra are shifted to the right after polishing, obtaining almost a factor two improvement with respect to the spectra before polishing. 
 
-Again, it can be appreciated that both energy spectra are shifted to the right after polishing, obtaining an improvement of almost a factor two with respect to the spectra before polishing. 
-
-In summary, with the polishing machine, the photon collection efficiency of the fibers was improved (mainly due to the improvement of the interface between fibers and PMTs). It is very important to achieve a high detection efficiency as the expected number of photons per tritium event is quite low, less than 20 as it has been demonstrated with simulations and experimental measurements.
+In summary, the photon collection efficiency of the fibers was improved by polishing (mainly due to the improvement of the interface between fibers and PMTs). As the expected number of photons per tritium event is quite low, less than 20 as was demonstrated by both simulations and measurements, to archive a high detection efficiency is crucial.

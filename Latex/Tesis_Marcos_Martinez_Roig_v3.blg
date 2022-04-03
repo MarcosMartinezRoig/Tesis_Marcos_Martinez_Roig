@@ -5,45 +5,45 @@ The style file: marcosxxnew.bst
 Database file #1: tesis.bib
 Warning--I didn't find a database entry for "CrossSeccionNeutrons"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 155 entries,
+You've used 156 entries,
             3015 wiz_defined-function locations,
-            1629 strings with 39741 characters,
-and the built_in function-call counts, 56189 in all, are:
-= -- 3961
-> -- 1643
-< -- 164
-+ -- 648
-- -- 469
-* -- 4043
-:= -- 7294
-add.period$ -- 155
-call.type$ -- 155
-change.case$ -- 714
-chr.to.int$ -- 136
-cite$ -- 155
-duplicate$ -- 5056
-empty$ -- 5215
-format.name$ -- 817
-if$ -- 11235
+            1633 strings with 40060 characters,
+and the built_in function-call counts, 56493 in all, are:
+= -- 3982
+> -- 1650
+< -- 165
++ -- 650
+- -- 471
+* -- 4062
+:= -- 7335
+add.period$ -- 156
+call.type$ -- 156
+change.case$ -- 718
+chr.to.int$ -- 137
+cite$ -- 156
+duplicate$ -- 5087
+empty$ -- 5245
+format.name$ -- 821
+if$ -- 11295
 int.to.chr$ -- 20
 int.to.str$ -- 0
-missing$ -- 950
-newline$ -- 470
-num.names$ -- 313
-pop$ -- 2166
+missing$ -- 955
+newline$ -- 473
+num.names$ -- 315
+pop$ -- 2177
 preamble$ -- 1
-purify$ -- 1009
+purify$ -- 1015
 quote$ -- 0
-skip$ -- 1747
+skip$ -- 1757
 stack$ -- 0
-substring$ -- 1972
-swap$ -- 2346
-text.length$ -- 164
-text.prefix$ -- 150
+substring$ -- 1979
+swap$ -- 2359
+text.length$ -- 165
+text.prefix$ -- 151
 top$ -- 0
-type$ -- 1206
+type$ -- 1214
 warning$ -- 0
-while$ -- 357
-width$ -- 159
-write$ -- 1299
+while$ -- 359
+width$ -- 160
+write$ -- 1307
 (There was 1 warning)
