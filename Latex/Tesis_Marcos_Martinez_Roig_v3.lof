@@ -27,7 +27,7 @@
 \contentsline {figure}{\numberline {3.12}{\ignorespaces SiPM output pulses displayed on the oscilloscope, model MSO44X from Tektronix \cite {Oscilloscope}. Several height pulses are observed, associated to a different number of SiPM pixels fired at the same time. The persistence function of the oscilloscope is used.\relax }}{50}{figure.caption.37}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces (a) Electronic scheme of a SiPM and (b) output current of a SiPM as a function of the reverse voltage. As shown, the quenching is an essential working mechanism of SiPMs~\cite {DataSheetSensL}.\relax }}{51}{figure.caption.38}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces PDE spectrum for SiPM S13360-**75 models~\cite {DataSheetHammamatsu_1_SiPM_1375}.\relax }}{55}{figure.caption.40}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Schemes of the different electronics for measuring with PMTs. a) Employed with only one PMT. b) Employed with two PMTs in time coincidence. c) Employed with four PMTs in time coincidence.\relax }}{58}{figure.caption.41}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Electronic schemes employed for measuring with a) one PMT, b) two PMTs in coincidence and c) four PMTs in coincidence.\relax }}{58}{figure.caption.41}
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Different possibilities for time coincidence of four PMTs. Case d) shows coincident events.\relax }}{59}{figure.caption.42}
 \contentsline {figure}{\numberline {3.17}{\ignorespaces Amplified signal and logic gate (input signals of the MCA).\relax }}{60}{figure.caption.43}
 \contentsline {figure}{\numberline {3.18}{\ignorespaces Different parts of PETsys system~\cite {PETSYS}.\relax }}{61}{figure.caption.44}
@@ -68,12 +68,12 @@
 \contentsline {figure}{\numberline {4.24}{\ignorespaces a) Fit of the SPS spectrum to Gaussian functions. b) Charge as a function of the number of pixels fired. Error bars are within point size. Data taken at $T=25\ensuremath {\@text {\degreecelsius }}$, $V_{bias}=53.98~\ensuremath {\@text {V}}$ and of $H=45\%$.\relax }}{106}{figure.caption.86}
 \contentsline {figure}{\numberline {4.25}{\ignorespaces SiPM gain versus a) Temperature. b) Bias voltage.\relax }}{108}{figure.caption.87}
 \contentsline {figure}{\numberline {4.26}{\ignorespaces SiPM gain as a function of the temperature after implementation of the gain stabilization method. \relax }}{110}{figure.caption.88}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Reference points used for veto mapping.\relax }}{114}{figure.caption.92}
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Measurement of a radioactive source $\ce {^{137}Cs}$ with the TRITIUM cosmic detector with and without wrapping.\relax }}{115}{figure.caption.93}
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Bidimensional graph of the counting rate (mapping) measured for two different TRITIUM cosmic detectors using a $\ce {^{60}Co}$ source.\relax }}{116}{figure.caption.94}
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Veto counting rate (semilogaritmic scale) a) as a function of HV for a fixed threshold and b) as function of threshold for fixed high voltage.\relax }}{118}{figure.caption.95}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Test points used for the cosmic veto mapping.\relax }}{114}{figure.caption.92}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Energy spectra measured with the $\ce {^{137}Cs}$ radioactive source with and without wrapping the veto.\relax }}{115}{figure.caption.93}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Bidimensional graph of the counting rate (mapping) measured for two different cosmic vetos using a $\ce {^{60}Co}$ source.\relax }}{116}{figure.caption.94}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Counting rate of two cosmic vetos in coincidence a) as a function of PMT HV for three different thresholds and b) as a function of threshold for three different high voltages.\relax }}{118}{figure.caption.95}
 \contentsline {figure}{\numberline {4.31}{\ignorespaces Energy spectrum measured with the cosmic veto.\relax }}{119}{figure.caption.96}
-\contentsline {figure}{\numberline {4.32}{\ignorespaces a) Energy spectra of the cosmic veto for several separator distances of the scintillators. b) Fit of the cosmic veto rate versus the separator distance of the scintillators to a second degree polynomial.\relax }}{120}{figure.caption.97}
+\contentsline {figure}{\numberline {4.32}{\ignorespaces a) Energy spectra of the cosmic veto for several separations of the scintillators. b) Fit to a second degree polynomial of the cosmic ray rate versus the separation of the veto scintillators.\relax }}{120}{figure.caption.97}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces a) Metallic piece of the fiber bundle. b) and c) Bundle of $35$ fibers, the length of which is $20~\ensuremath {\@text {\centi \ensuremath {\@text {m}}}}$, used in TRITIUM-IFIC-0 prototype.\relax }}{123}{figure.caption.98}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces TRITIUM-IFIC-0 Prototype.\relax }}{124}{figure.caption.99}
