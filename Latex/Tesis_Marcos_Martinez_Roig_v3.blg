@@ -4,46 +4,47 @@ The top-level auxiliary file: Tesis_Marcos_Martinez_Roig_v3.aux
 The style file: marcosxxnew.bst
 Database file #1: tesis.bib
 Warning--I didn't find a database entry for "CrossSeccionNeutrons"
+Warning--to sort, need author or key in SaintGobain
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 156 entries,
+You've used 157 entries,
             3015 wiz_defined-function locations,
-            1633 strings with 40060 characters,
-and the built_in function-call counts, 56493 in all, are:
-= -- 3982
-> -- 1650
+            1636 strings with 40132 characters,
+and the built_in function-call counts, 56734 in all, are:
+= -- 3999
+> -- 1651
 < -- 165
-+ -- 650
++ -- 651
 - -- 471
-* -- 4062
-:= -- 7335
-add.period$ -- 156
-call.type$ -- 156
-change.case$ -- 718
+* -- 4078
+:= -- 7355
+add.period$ -- 157
+call.type$ -- 157
+change.case$ -- 721
 chr.to.int$ -- 137
-cite$ -- 156
-duplicate$ -- 5087
-empty$ -- 5245
+cite$ -- 159
+duplicate$ -- 5110
+empty$ -- 5277
 format.name$ -- 821
-if$ -- 11295
-int.to.chr$ -- 20
+if$ -- 11349
+int.to.chr$ -- 21
 int.to.str$ -- 0
-missing$ -- 955
-newline$ -- 473
+missing$ -- 958
+newline$ -- 476
 num.names$ -- 315
-pop$ -- 2177
+pop$ -- 2192
 preamble$ -- 1
-purify$ -- 1015
+purify$ -- 1020
 quote$ -- 0
-skip$ -- 1757
+skip$ -- 1768
 stack$ -- 0
-substring$ -- 1979
-swap$ -- 2359
+substring$ -- 1987
+swap$ -- 2366
 text.length$ -- 165
 text.prefix$ -- 151
 top$ -- 0
-type$ -- 1214
-warning$ -- 0
+type$ -- 1222
+warning$ -- 1
 while$ -- 359
-width$ -- 160
-write$ -- 1307
-(There was 1 warning)
+width$ -- 161
+write$ -- 1313
+(There were 2 warnings)

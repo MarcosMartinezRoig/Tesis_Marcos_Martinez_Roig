@@ -220,11 +220,6 @@ Evans, R.~D., \emph{The Atomic Nucleus}, McGraw-Hill, Inc., Bombay (1995),
   Passage of Particles Through Matter},
   \url{https://geant4.web.cern.ch/node/1}.
 
-\bibitem[{Gle}10]{CurieLimit}
-{Glenn F. Knoll}, \emph{Radiation Detection and Measurement, 4th Edition},
-  volume~21, John Wiley \& Sons, Inc. (2010),
-  \urlprefix\url{https://www.wiley.com/en-sg/Radiation+Detection+and+Measurement,+4th+Edition-p-9780470131480}.
-
 \bibitem[GRB]{GRBLDocumentation}
 GRBL, \emph{{GRBL Package of Arduino}},
   \url{https://github.com/grbl/grbl/wiki}.
@@ -379,6 +374,11 @@ Kherani, N., \emph{{An Alternative Approach to Tritium-in-Water Monitoring}},
 \bibitem[Kno99]{Knoll}
 Knoll, G.~F., \emph{Radiation Detection and Measurement}, John Wiley and Sons,
   Inc., New York, 3 edition (1999).
+
+\bibitem[Kno10]{CurieLimit}
+Knoll, G.~F., \emph{Radiation Detection and Measurement, 4th Edition},
+  volume~21, John Wiley \& Sons, Inc. (2010),
+  \urlprefix\url{https://www.wiley.com/en-sg/Radiation+Detection+and+Measurement,+4th+Edition-p-9780470131480}.
 
 \bibitem[Law06]{TemperatureBlade}
 Law, S. et~al., \emph{{Cleaving of Microstructured Polymer Optical Fibres}},
@@ -590,7 +590,10 @@ Sagawa, H. and Urabe, I., \emph{{Estimation of Absorbed Dose Rates in Air Based
   Japan}}, {Journal of Nuclear Science and Technology} \textbf{{38}} (2012)
   1103--1108, \urlprefix\url{http://dx.doi.org/10.1080/18811248.2001.9715142}.
 
-\bibitem[{Sai}]{OpticalGrease}
+\bibitem[Saia]{SaintGobain}
+\emph{Saint-Gobain Crystals}, \url{https://www.crystals.saint-gobain.com/#}.
+
+\bibitem[{Sai}b]{OpticalGrease}
 {Saint-Gobain Crystals}, \emph{{BC-630, Silicone Optical Grease}},
   \url{https://www.crystals.saint-gobain.com/}.
 
