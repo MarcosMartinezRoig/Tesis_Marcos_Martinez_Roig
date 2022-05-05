@@ -1,0 +1,15 @@
+Geant4 is a software toolkit for the simulation of the passage of particles through matter developed at CERN, based on object-oriented technology implemented in the C ++ programming language. Geant4 allows the definition of the different aspects of the simulation process such as detector geometry, materials, particles, physical processes of particle and matter interactions, response of sensitive detectors, generation, storage and analysis of event data and visualization.
+
+Geant4 simulates particle-by-particle physics. This means that the tritium events are generated one by one, generating energy, momentum, position, etc. The propagation of each tritium decay electron and its interaction  with the scintillator is simulated, and optical photons are created. The propagation of these optical photons are also simulated one by one and the simulation ends when all the created optical photons have been absorbed by either the sensitive detector or other materials present in the simulation. The physics list used for these simulations is G4EmLivermorePhysics, which is specially designed to work with low energy particles. This list includes the most important electromagnetic processes at low energies such as bremsstrahlung, Coulomb scattering, atomic radiation and other related effects. The materials included in these simulations were water (the tritiated water source), PMMA (the optical windows of the prototype), polystyrene (the scintillating fibers), PTFE (the prototype vessel), silicone (the optical grease), silicate glass (windows of the PMTs) and bialkali (the photocatode material of the PMT). The properties of water, PTFE and polystyrene were taken from the Geant4 NIST database and the other materials were built by specifying their atomic composition. The following optical properties not included in the data base were added:
+
+\begin{enumerate}
+%
+\item{} The refraction index, the light attenuation coefficient obtained from ref. \cite{WaterPropertiesSimulation} and the tritium decay electron spectrum uniformly distributed in the volume obtained from ref. \cite{TritiumEmissionSpectrum} for water. 
+
+\item{} The spectra of refractive index, light attenuation, photon emission, scintillation yield and decay time coefficient obtained from the data sheet \cite{DataSheetBCF12Fiber} for polystyrene.
+
+\item{} The quantum efficiency spectrum for the photocatode material of the PMTs \cite{DataSheetPMTs}. A refraction index of 1.46 for optical grease \cite{OpticalGrease}.
+
+\item{} The optical data for PMMA windows, PTFE and silicate glass from ref. \cite{NEMODataSimulation}.
+
+\end{enumerate} 

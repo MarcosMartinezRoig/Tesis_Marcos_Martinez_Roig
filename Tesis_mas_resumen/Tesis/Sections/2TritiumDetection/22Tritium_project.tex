@@ -1,0 +1,73 @@
+As a conclusion of section \ref{sec:StateOfTheArt}, the current techniques cannot be used for tritium monitoring in quasi-real time since they have either a high MDA or they work in off-line mode. To overcome these limitations, the TRITIUM project \cite{TRITIUM}, with the title of "Design, construction and commissioning of automatic stations for quasi-real time monitoring of low radioactive levels of tritium in water", was proposed. The TRITIUM collaboration is an international consortium of six institutions from three European countries: The I3N\footnote{Institute for Nanostructures, Nanomodelling and Nanofabrication, University of Aveiro.}, in Portugal, the University of Bordeaux and the Centre National de la Recherche Scientifique (CNRS, Section Aquitaine-Limousin), in France and the University of Extremadura, the Junta de Extremadura and the University of Valencia, in Spain.
+
+This project was funded by the Interreg Sudoe program of the European Economic Community in the 2016 call, with reference number SOE1/P4/EO214. The purpose of this project is the development of an automatic station for in-water tritium monitoring, in situ and in quasi-real time. The tritium detector consists of a bundle of scintillating fibers in contact with the water sample which detect the tritium decay electrons. These fibers are read out with photosensors (PMTs or SiPM). The specific efficiency obtained by Moghissi et al. for scintillating fibers is sufficiently high to justify our choice of scintillating fibers as a detection medium. Additional elements are used to improve the tritium detection sensitivity such as a water purification system, which prepares the water sample before introducing it in the detector for tritium measurement, and a cosmic veto and a passive shielding, which reduce the natural radioactive background of the tritium detector. Several electronic modules which control the different parts of the monitor, analyze the tritium measurement and send an alarm if the configured limit ($100~\becquerel/\liter$) is exceeded.
+
+A crucial problem is to distinguish tritium signals from the background because tritium events have low energy ($\sim\keV$) and fall in an energy range of the spectrum where background events are significant. To reduce the background of TRITIUM monitor, coincidence techniques are employed.
+
+%It is important to check the water tightness of each prototype because if the water reaches the photosensor it will be irreparably damaged. On top of that if we use high concentrations of tritium in water for laboratory tests we can contaminate this laboratory, which could be dangerous for the healthy of the workers and it could spoil measurements of future experiments.
+
+The TRITIUM monitor will be installed in the Arrocampo dam, Almaraz (Spain), displayed in Figure \ref{fig:Arrocampo}, where the Almaraz NPP releases the water from its secundary cooling circuit. This NPP has two nuclear reactors of PWR type. Arrocampo dam is located near the Tagus river, shown in Figure \ref{subfig:TajusRiver}, which is the longest river in Spain, with a length of $1007~\kilo\meter$. This river, shown in Figure \ref{subfig:Arrocampo_Dam}, rises in Aragon (Spain) and flows into the Atlantic Ocean through Lisbon (Portugal). The water of this river is used for agriculture and drinking water by both Spanish and Portuguese people. For this reason, an international cooperation is necessary in order to control and maintain the quality of the Tagus river water.
+
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{2Introduction/ArrocampoDam.jpeg}  
+    \caption{\label{subfig:Arrocampo_Dam}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{2Introduction/RioTajo.jpeg}  
+    \caption{\label{subfig:TajusRiver}}
+    \end{subfigure}
+ \caption{a) Arrocampo dam and Almaraz Nuclear Power Plant. b) Tagus river along Spain and Portugal.}
+ \label{fig:Arrocampo}
+\end{figure}
+
+Each institution of the TRITIUM collaboration is dedicated to the development of a different part of this project:
+
+\begin{enumerate}
+\item{} The University of Extremadura group has developed and installed the water purification system to produce water with very low conductivity, $\sigma \approx 10~\mu\text{S}/\cm$ (two orders of magnitude less than raw water, $1000~\mu\text{S}/\cm$). This purification process is very important for two reasons. On the one hand, for maintaining the TRITIUM detector pristine, which is critical for its long-term functionality. On the other hand, to reduce the natural background since several natural radiactive isotopes present in this water (except tritium), such as $\ce{^{40}K}$ and natural radioactive series, are removed. This system is described in section \ref{sec:UltraPureWaterSystem}.
+
+\item{} The French group has developed the passive shielding for the detector. This shielding is made of lead with low intrinsic activity in order to reduce the external natural background of the system. This shielding is presented in section \ref{subsec:SetUpPassiveShield}.
+
+\item{} The Aveiro and Valencia groups have collaborated for designing, developing and building four different prototypes of the TRITIUM detector and active vetos for reducing cosmic events. These prototypes and vetos are described in chapter \ref{chap:Prototypes} and section \ref{subsec:SetUpActiveShield}, respectively. These groups have also carried out simulations of the detector, which are reported in chapter \ref{chap:Simulations}.
+
+\end{enumerate}
+
+The important characteristics required for the TRITIUM detector are:
+
+\begin{enumerate}
+
+\item{} \textit{Compactness}. This is an important requirement because in the place where the detector is planned to be installed there is little space. Compactness also allows portability and cost reduction.
+
+\item{} \textit{Modularity}. The modularity of the TRITIUM detector is important for flexible geometrical configuration and for improving its tritium detection sensitivity. Modularity also facilitates construction and maintenance.
+
+\item{} \textit{Thin active volume and large active area}. The mean free path of $\beta$ particle from tritium decay is very short. Thus, a thin detector active volume is needed. In practice, an active thickness beyond the mean free path of the tritium electrons only contributes to background. In addition, as reported in section \ref{sec:StateOfTheArt}, the efficiency of this type of detector scales with the active area, so it is crucial to design a detector with the largest possible active area.
+
+\item{} \textit{High detection efficiency for tritium}. As the tritium activities to be measured are very low, the loss of tritium events strongly affects the accuracy of measurements.
+
+\item{} \textit{High specificity to tritium}. The monitor must be able to distinguish tritium signals from other radiactive decays in the sample.
+
+\item{} \textit{Quasi-real time response}. It is crucial that the system operates in quasi-real time ($1~\hour$ or less) in order to detect any anomalous tritium release as fast as possible. 
+
+\item{} \textit{Ruggedness}. The final goal of the project is to install an automatic system working during a number of years requiring only occasional intervention of specialized operators. Therefore, a rugged monitor is required.
+
+\end{enumerate}
+
+In order to measure in quasi-real time, it is needed to work \textit{in situ}, that is, in the same place where the water sample is taken. Working \textit{in situ} has some advantages such as: 1) Cheap running cost, since sampling process, chain of custody, etc. are eliminated. 2) Quasi-real time measurements. 3) Safe monitoring since personal dose is reduced. 4) Changes in activity can be detected quickly.
+
+
+%In order to get the measurement in quasi-real time it is needed to work \textit{in situ}, that's, in the same place that the sample is taken. Working \textit{in situ} has some benefits:
+
+%\begin{itemize}
+%\item{} a faster monitor because we eliminates the process of taking the sample, the chain-of-custody until this sample arrive to this laboratory and the complexity which involve these tasks. 
+
+%\item{} a better monitor since if we can work \textit{in site}, our measurements can be more frequent hence we will can identify cahnges in the activity earlier.
+
+%\item{} a cheaper monitor because we have not only the material costs attached to the sample collection, chain-of-custody of this sample, shipping of this sample to the laboratory, etc. but we have also eliminated the costs attached to the specialized staff who are involving in these tasks. Our detector will only need frequent calibrations each time in order to ensure its correct operation.
+
+%\item{} a safer monitor since the personal exposure dose is reduced and the changes in activity are detected fastly. On top of that we remove the possibles mistakes which can be done by specialized staff.
+
+%\end{itemize} 

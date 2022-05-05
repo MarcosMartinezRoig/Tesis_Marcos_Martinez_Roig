@@ -1,0 +1,85 @@
+The characterization of the water purification system is described in this section. This system guarantees that the quality of the water sample fulfills the requirements of the TRITIUM detector. These requirements are:
+
+\begin{enumerate}
+\item{} A low water conductivity, around $10~\mu\text{S}/\cm$, to avoid that particles in the water be deposited on the fibers, which would drastically reduces the detector efficiency.
+
+\item{} The radioactive elements (other that tritium) in the water sample should be removed to avoid background.
+
+\item{} The tritium activity of the sample should not be affected by the water purification process. 
+
+\end{enumerate}
+
+To verify that these requirements are fulfilled, a characterization of the water sample for both raw and purified water was done. This characterization consisted in measuring the water sample conductivity, the activity of the different radioactive elements present in the sample, the turbidity and the chemical components of the water sample. The sample of raw water is taken at a depth of two meters in the river and 40 meters distance from the TRITIUM monitor site towards the NPP. The chemical composition of the water, shown in Table \ref{tab:ChemicalComponentsRawWater}, was measured by a physico-chemical analysis before the purification process. The water sample contains a number of components that must be removed to prevent their deposition on the scintillating fibers of the detector.
+%Variations of up to $25\%$ of the tritium activity was measured between both points due to the diffusion of tritium along the river. 
+
+\begin{table}[htbp]
+\centering{}%
+\begin{tabular}{lc}
+\toprule 
+Chemical components & Concentration ($\milli\gram/\liter$) \tabularnewline
+\midrule
+\midrule 
+$\ce{CO_{3}H^-}$ & $154$ \tabularnewline
+$\ce{Mg^{++}}$ & $46$ \tabularnewline
+$\ce{Ca^{++}}$ & $105$ \tabularnewline
+$\ce{NO_{3}^-}$ & $16$ \tabularnewline
+$\ce{Cl^-}$ & $196$ \tabularnewline
+$\ce{NO_{2}^-}$ & $0.03$ \tabularnewline
+$\ce{K^{+}}$ & $11$ \tabularnewline
+$\ce{Na^{+}}$ & $173$ \tabularnewline
+$\ce{SO_{4}^-}$ & $217$ \tabularnewline
+Dry Residue & $1029$ \tabularnewline
+\bottomrule
+\end{tabular}
+\caption{Chemical components measured in the raw water sample.}
+\label{tab:ChemicalComponentsRawWater}
+\end{table}
+
+The water turbidity\footnote{The turbidity of water is the loss of transparency due to dissolved particles, normally measured in Nephelometric Units of Turbidity, NTU, as the intensity of scattered light at 90 degrees.} was measured using the Hanna Hi 9829 portable multiparameter system from Hanna Instruments \cite{TurbiditySystem}, obtaining a value of $29$ NTU, much higher that the limit of $5$ NTU for drinking water recommended by the WHO. The water conductivity was also measured for raw, pure and reject water using the same instrument. The results are shown in Table \ref{tab:ConductivityValues}. As it can be seen in the first column, the raw water has a high conductivity due to its content of ions. It can be noticed in the second column of the table that the conductivity of pure water was reduced by almost two orders of magnitude, to values close to $10~\mu\text{S}/\cm$. In the third column, it can be remarked that the reject water conductivity is higher than that of raw water because this water contains the ions removed from the purified water.
+
+
+\begin{table}[htbp]
+\centering{}%
+\begin{tabular}{lccc}
+\toprule 
+& \multicolumn{3}{c}{Conductivity ($\mu\text{S}/\cm$)} \tabularnewline
+\midrule
+Date & Raw & Pure & Reject \tabularnewline
+\midrule
+\midrule 
+$1/8/18$ & $970$ & $11.85$ & $1442$ \tabularnewline
+$7/8/18$ & $958$ & $11.8$ & $1632$ \tabularnewline
+$14/8/18$ & $966$ & $12.04$ & $1725$ \tabularnewline
+$22/8/18$ & $980$ & $12.54$ & $1702$ \tabularnewline
+$28/8/18$ & $987$ & $9.9$ & $1692$ \tabularnewline
+$5/9/18$ & $1009$ & $12.02$ & $1645$ \tabularnewline
+\bottomrule
+\end{tabular}
+\caption{Conductivity of different samples of water.}
+\label{tab:ConductivityValues}
+\end{table}
+
+The gamma radioactive elements present in both raw and purified water were identified and their activities measured by a HPGe detector. A gamma analysis was carried out to determine the emitters with long enough lifetime to be measured. The radioactive isotopes found in the raw water with measurable activities were $\ce{^{40}K}$ and $\ce{^{226}Ra}$ which were not detected in the purified water.
+
+%A gamma analysis was carried out to find the natural gamma emitters (those that come from the natural radioactive series, Table \ref{tab:NaturalRadioactiveSeries}) and the artificial gamma emitters with long enough lifetime to be measured (those that come from the activation of nuclear fission of neutrons).  
+
+The tritium activity was measured by liquid scintillation counting (LSC) to check if it was modified by the purification process. The raw water was filtered at 0.45 microns to remove any particles that could cause extinction of the scintillation signal. Table \ref{tab:ActivityTritiumValues} shows the tritium activity measured for different water samples before and after purification. As seen in the table, tritium activity is not affected by the purification process.
+
+\begin{table}[htbp]
+\centering{}%
+\begin{tabular}{lcc}
+\toprule 
+& \multicolumn{2}{c}{Activity ($\becquerel/\liter$)} \tabularnewline
+\midrule
+Date & Raw & Pure \tabularnewline
+\midrule
+\midrule 
+$7/8/18$ & $24 \pm 3$ & $26 \pm 4$ \tabularnewline
+$11/12/19$ & $13.2 \pm 2.1$ & $13.9 \pm 2.2$ \tabularnewline
+$15/01/20$ & $31 \pm 4$ & $30 \pm 4$ \tabularnewline
+\bottomrule
+\end{tabular}
+\caption{Tritium activity measured for different samples of both raw and purified water.}
+\label{tab:ActivityTritiumValues}
+\end{table}
+

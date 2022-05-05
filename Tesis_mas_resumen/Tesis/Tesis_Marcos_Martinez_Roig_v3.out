@@ -1,0 +1,84 @@
+\BOOKMARK [0][-]{chapter*.3}{Acknowledgements}{}% 1
+\BOOKMARK [0][-]{chapter*.4}{Abstract}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{Nomenclature and Acronyms}{}% 3
+\BOOKMARK [0][-]{chapter*.7}{List of Figures}{}% 4
+\BOOKMARK [0][-]{chapter*.8}{List of Tables}{}% 5
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 6
+\BOOKMARK [1][-]{section.1.1}{Tritium and Nuclear Energy}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.2}{Tritium Properties and Radiological Hazards}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.3}{Current Legislation}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.4}{This Thesis}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{Methods of Detection of Tritium In Water}{}% 11
+\BOOKMARK [1][-]{section.2.1}{Tritium Detection State-of-the-Art}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.2}{The TRITIUM Project}{chapter.2}% 13
+\BOOKMARK [0][-]{chapter.3}{Design Principles and Components of TRITIUM}{}% 14
+\BOOKMARK [1][-]{section.3.1}{Detector System Overview}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.2}{TRITIUM Detector}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.2.1}{Interaction of Particles with Matter}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.2}{Plastic Scintillators}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.3}{Light Detection in Photosensors}{section.3.2}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.3.1}{Photomultiplier Tubes \(PMTs\)}{subsection.3.2.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.3.2}{Silicon Photomultiplier Array}{subsection.3.2.3}% 21
+\BOOKMARK [3][-]{subsubsection.3.2.3.3}{Photosensors in TRITIUM}{subsection.3.2.3}% 22
+\BOOKMARK [2][-]{subsection.3.2.4}{Electronics}{section.3.2}% 23
+\BOOKMARK [3][-]{subsubsection.3.2.4.1}{Electronic for PMTs}{subsection.3.2.4}% 24
+\BOOKMARK [3][-]{subsubsection.3.2.4.2}{Electronics for SiPMs}{subsection.3.2.4}% 25
+\BOOKMARK [1][-]{section.3.3}{The Water Purification System}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.1}{Objectives}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.2}{Design of the Water Purification System}{section.3.3}% 28
+\BOOKMARK [1][-]{section.3.4}{The Background Rejection System}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.4.1}{Passive Shield \(Lead\)}{section.3.4}% 30
+\BOOKMARK [2][-]{subsection.3.4.2}{Active Shield \(Cosmic Veto\)}{section.3.4}% 31
+\BOOKMARK [0][-]{chapter.4}{TRITIUM Monitor R\046D}{}% 32
+\BOOKMARK [1][-]{section.4.1}{R\046D for the Scintillating Fibers}{chapter.4}% 33
+\BOOKMARK [2][-]{subsection.4.1.1}{Preparation of Scintillating Fibers.}{section.4.1}% 34
+\BOOKMARK [3][-]{subsubsection.4.1.1.1}{Cleaving of Scintillating Fibers.}{subsection.4.1.1}% 35
+\BOOKMARK [3][-]{subsubsection.4.1.1.2}{Polishing of Scintillating Fibers.}{subsection.4.1.1}% 36
+\BOOKMARK [3][-]{subsubsection.4.1.1.3}{Cleaning of Scintillating Fibers.}{subsection.4.1.1}% 37
+\BOOKMARK [2][-]{subsection.4.1.2}{Characterization of Scintillating Fibers}{section.4.1}% 38
+\BOOKMARK [3][-]{subsubsection.4.1.2.1}{Measurement Conditions.}{subsection.4.1.2}% 39
+\BOOKMARK [3][-]{subsubsection.4.1.2.2}{Results of the Characterization of Scintillating Fibers}{subsection.4.1.2}% 40
+\BOOKMARK [1][-]{section.4.2}{Characterization of the SiPM}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.3}{Characterization of the Water Purification System}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.4}{Characterization of the Cosmic Veto}{chapter.4}% 43
+\BOOKMARK [0][-]{chapter.5}{TRITIUM Detector Prototypes}{}% 44
+\BOOKMARK [1][-]{section.5.1}{First Prototypes}{chapter.5}% 45
+\BOOKMARK [2][-]{subsection.5.1.1}{TRITIUM-IFIC-0}{section.5.1}% 46
+\BOOKMARK [2][-]{subsection.5.1.2}{TRITIUM-IFIC-1}{section.5.1}% 47
+\BOOKMARK [1][-]{section.5.2}{Latest TRITIUM Prototypes}{chapter.5}% 48
+\BOOKMARK [2][-]{subsection.5.2.1}{TRITIUM-Aveiro}{section.5.2}% 49
+\BOOKMARK [2][-]{subsection.5.2.2}{TRITIUM-IFIC-2}{section.5.2}% 50
+\BOOKMARK [1][-]{section.5.3}{Experimental Results in Arrocampo Dam}{chapter.5}% 51
+\BOOKMARK [1][-]{section.5.4}{Modular TRITIUM Detector}{chapter.5}% 52
+\BOOKMARK [0][-]{chapter.6}{Simulations}{}% 53
+\BOOKMARK [1][-]{section.6.1}{Geant4 Environment}{chapter.6}% 54
+\BOOKMARK [1][-]{section.6.2}{Simulations for the design of the TRITIUM Detector}{chapter.6}% 55
+\BOOKMARK [2][-]{subsection.6.2.1}{The Tritiated Water Source}{section.6.2}% 56
+\BOOKMARK [2][-]{subsection.6.2.2}{Energy Deposition and Light Output in Scintillating Fibers}{section.6.2}% 57
+\BOOKMARK [2][-]{subsection.6.2.3}{Optimization of the Fiber Length}{section.6.2}% 58
+\BOOKMARK [2][-]{subsection.6.2.4}{Fiber Diameter Influence on Cosmic Background}{section.6.2}% 59
+\BOOKMARK [2][-]{subsection.6.2.5}{Influence of the PMMA Windows on the Tritium Signal}{section.6.2}% 60
+\BOOKMARK [1][-]{section.6.3}{Simulations of the TRITIUM Monitor}{chapter.6}% 61
+\BOOKMARK [2][-]{subsection.6.3.1}{Simulation of the TRITIUM-IFIC-2 Prototype}{section.6.3}% 62
+\BOOKMARK [2][-]{subsection.6.3.2}{Lead Shield and Cosmic Veto}{section.6.3}% 63
+\BOOKMARK [0][-]{chapter.7}{Present Status and Summary of the Results of the TRITIUM Project}{}% 64
+\BOOKMARK [0][-]{chapter.8}{Conclusions and Prospects}{}% 65
+\BOOKMARK [0][-]{appendix.A}{Electronics for the SiPM Characterization}{}% 66
+\BOOKMARK [0][-]{appendix.B}{Water Purification System}{}% 67
+\BOOKMARK [0][-]{appendix.C}{Preparation of Tritiated Water Sources}{}% 68
+\BOOKMARK [0][-]{appendix.D}{Electronic System of TRITIUM-Aveiro prototype}{}% 69
+\BOOKMARK [0][-]{appendix.E}{Resum en Valenci\340}{}% 70
+\BOOKMARK [1][-]{section.E.1}{El triti i l'energia nuclear.}{appendix.E}% 71
+\BOOKMARK [1][-]{section.E.2}{Principis del disseny i components del detector de triti.}{appendix.E}% 72
+\BOOKMARK [2][-]{subsection.E.2.1}{Vista general del monitor de TRITIUM.}{section.E.2}% 73
+\BOOKMARK [2][-]{subsection.E.2.2}{Components del detector TRITIUM.}{section.E.2}% 74
+\BOOKMARK [3][-]{subsubsection.E.2.2.1}{Fibres de Centelleig.}{subsection.E.2.2}% 75
+\BOOKMARK [3][-]{subsubsection.E.2.2.2}{Photosensors.}{subsection.E.2.2}% 76
+\BOOKMARK [3][-]{subsubsection.E.2.2.3}{Electr\362nica.}{subsection.E.2.2}% 77
+\BOOKMARK [2][-]{subsection.E.2.3}{Sistema de purificaci\363 de l'aig\374a.}{section.E.2}% 78
+\BOOKMARK [2][-]{subsection.E.2.4}{Sistema de rebuig del fons radioactiu.}{section.E.2}% 79
+\BOOKMARK [1][-]{section.E.3}{Prototips del detector TRITIUM}{appendix.E}% 80
+\BOOKMARK [2][-]{subsection.E.3.1}{Prototips inicials.}{section.E.3}% 81
+\BOOKMARK [2][-]{subsection.E.3.2}{\332ltims prototips.}{section.E.3}% 82
+\BOOKMARK [2][-]{subsection.E.3.3}{Disseny modular del detector TRITIUM.}{section.E.3}% 83
+\BOOKMARK [1][-]{section.E.4}{Estat actual i resum dels resultats obtinguts en el projecte TRITIUM}{appendix.E}% 84

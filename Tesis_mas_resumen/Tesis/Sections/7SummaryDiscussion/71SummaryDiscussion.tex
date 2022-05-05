@@ -1,0 +1,101 @@
+In this chapter, the most important results obtained in this PhD thesis and in the TRITIUM project are summarized and discussed. These results were previously presented in chapters \ref{chap:ResearchandDevelopment} to \ref{chap:Simulations}.
+
+Tritium, which is a radioactive element, is one of the most abundantly produced radioisotopes in nuclear facilities such as nuclear power plants and research facilities. Due to its radiotoxicity, an excessive amount of tritium released to the environment could directly (drinking tritiated water) or indirectly (use of tritiated water for irrigation) affect human health and the environment.
+
+The legal limit of tritium for drinking water in Europe is $100~\becquerel/\liter$, which is one of the most restrictive limits in the world. This limit is established by the EURATOM Council Directive \cite{EURATOM_GL}. %Nowadays, tritium in water is mainly measured using the liquid scintillation counting technique. This technique has a very good detection sensitivity, being able to measure tritium activities as low as $1~\becquerel/\liter$. The drawback of this technique is that it takes more than 2 days to perform the measurement. In addition, the liquid scintillator is not reusable and contains toluene, a toxic chemical element. Significant progress has been done in the last decades in measurement in quasi-real time (times less than $1~\hour$) with plastic scintillators but without achieving the low sensitivity required to measure the low-levels of tritium in water of the order of $100~\becquerel/\liter$.
+
+The TRITIUM project was funded to investigate the feasibility of a monitor 
+for measuring in quasi-real time low tritium activities in water. The goal of this project is to design, build, install and commission a tritium monitor that measures tritium activities as low as $100~\becquerel/\liter$ in 1 hour or less. The TRITIUM monitor consists of three different parts:
+
+\begin{enumerate}
+
+\item{} The TRITIUM detector, where tritium measurements take place. This consists of modules of hundreds of uncladded scintillating fibers read out in parallel. Various configurations for the TRITIUM module were tested, such as different diameters of the scintillating fibers ($1~\mm$ or $2~\mm$) and types of photosensor (PMTs or SiPM arrays).
+
+\item{} The background rejection system, which is employed to suppress the radioactive background that affects the minimum detectable activity. This is based on a lead passive shield, that reduces the soft component of cosmic rays (energies below $200~\MeV$) and the environmental radioactive background, and an active veto that reduces the hard component of cosmic rays (energies above $200~\MeV$).
+
+\item{} The water purification system that removes particles and minerals present in the water sample measured by the TRITIUM detector.
+
+\end{enumerate} 
+
+The results obtained by the TRITIUM collaboration are the following:
+
+\begin{enumerate}
+\item{} During the R\&D activities, the TRITIUM module and the water purification and background rejection systems, were designed, built, characterized and optimized. 
+
+Regarding the detector development, the following tasks were carried out:
+
+\begin{enumerate}
+\item{} Simulations were performed by the TRITIUM Aveiro team using the Geant4 package to optimize tritium detection efficiency. It was found that in $25~\cm$ long fibers the light signal is a $23\%$ factor larger than in $1~\meter$ long fibers. %It was also found that the TRITIUM detector background caused by cosmic ray events is smaller when $1~\mm$ diameter fibers are used instead of $2~\mm$.
+
+\item{} A surface-conditioning method for scintillating fibers, which consists in cleaving, polishing and cleaning the fibers, was developed in the frame of this PhD thesis. A polishing machine, based on Arduino technology, was developed. The objective of this machine was to automate the polishing of hundreds of fibers simultaneously, a task that requires an unaffordable time for the amount of fibers needed for the TRITIUM monitor. The surface-conditioning method resulted in an increase of the light collected by the fibers, a factor of 2 due to polishing and an additional $25\%$ due to cleaning. 
+
+\item{} A characterization of the scintillating fibers was performed in this PhD thesis. A photon collection efficiency of $76\pm 8\%$ was obtained, smaller than stated by the manufacturer ($96\%$). The typical deviation of the photon collection efficiency after applying the surface-conditioning method was also measured, obtaining a $3\%$, which is acceptable for tritium measurements.
+
+\item{} A characterization of the S13360-1375 Hamamatsu SiPM was carried out in this PhD thesis. In this characterization, some of the most relevant parameters of the SiPM for detection of tritium, such as gain, breakdown voltage, temperature coefficient and others as the quenching resistance and the terminal capacitance, were measured and compared to the values provided by the manufacturer. The charge of the single photoelectron spectrum was measured with a resolution of $1\%$ for each photoelectron peak and up to $10$ photoelectron peaks were resolved. %small uncertainties in the single photon spectrum (about $1\%$ for each photopeak) and a very good agreement with the values expected by the manufacturer.
+
+%An additional calibration was carried out at the level of a SiPM matrix in which the probability of crosstalk between different SiPMs was measured, obtaining an insignificant probability of happening. The linearity of the SiPM signal as a function of the the number of scintillating fibers was also verified.
+
+\item{} Due to the strong dependence of the SiPM gain on temperature, a gain stabilization method was implemented in the temperature range of interest. This method consists in compensating the variation of the gain due to changes in the temperature by a variation of the bias voltage. Indeed, the gain depends linearly on both temperature and voltage, increasing with voltage and decreasing with temperature. This allows us to stabilize the gain to its nominal value at $25\celsius$ by a variation of $59.9 \pm 1.3 ~\milli\volt/\celsius$ of the bias voltage. This stabilization method was tested, obtaining variations of $0.1\%$ in the SiPM gain in the $[20-30]\celsius$ temperature range, which is the expected temperature range of operation. These results indicate that a stable operation of the SiPM readout can be obtained by an automatic implementation of a temperature dependent SiPM bias in the TRITIUM detector.
+
+\end{enumerate}
+
+\item{} The background rejection system consists of an active veto and a passive shield. The latter consists of a lead castle of $5~\cm$ thick walls, designed by the TRITIUM CENBG team and presently installed in the Arrocampo site. 
+
+A $5.5$ reduction factor for cosmic ray events due to the lead shield was obtained by simulations performed in this PhD thesis. In addition, the background of the environmental radioactivity (which was not included in these simulations) would also be suppressed by the shield. 
+
+The active veto, built and characterized in this PhD thesis, consists of two parallel plastic scintillating plates of $1~\cm$ thickness, separated $34.2~\cm$ distance, that enclose the TRITIUM modules. Each scintillator plate was read out by two photosensors. The plastic scintillator plates were threefold wrapped in PTFE, aluminium and black tape layers. This wrapping improved by a factor $2$ the light collection and produced a better response uniformity on the plate surface. In addition, the electronics settings that optimize the detection of hard cosmic events, such as discrimination thresholds and photosensor high voltage bias, were found. A hard cosmic rate of $2.5~\text{events}/\text{s}$ was measured, from which is drawn an efficiency of the cosmic veto of $85\%$ by comparison to the cosmic ray rate at sea level. Finally, the dependence of the hard cosmic rate on the distance between the scintillating plates was fitted to a second order polinomyal, which allows us to change this distance without needing to perform a new calibration of the veto. A $60\%$ reduction of the hard cosmic ray events due to the active veto was obtained through simulations. Therefore, a $92.7\%$ suppression of the cosmic ray rate by the whole background rejection system was obtained from simulations. The actual cosmic ray suppression will be measured at the Arrocampo site.
+
+\item{} Regarding the water purification system, a detailed analysis of the Arrocampo water was carried out. Due to the presence of the high concentrations of organic components at the site, a water purification system is needed. The TRITIUM LARUEX team designed and installed a water purification system at the Arrocampo site, consisting of several filtering stages that eliminate all organic matter and mineral particles of more than $1~\mu\meter$ size. Conductivities close to $10~\mu\text{S}/\cm$ (two orders of magnitud less than the raw water) were achieved. Furthermore, the water tritium activity did not change after the purification process.
+
+%Important results were obtained through simulations, which were implemented in the built prototypes. It was seen that the efficiency of tritium detection in the prototypes is larger when short fibers (about $20~\cm$) are used insted of long fibers ($1~\meter$). An improvement of a factor $5$ is acheived in the tritium count rate measured. Also, it was found that the tritium measurement is optimized when $1~\mm$ fibers are used, compared with  $2~\mm$, since a smaller background in the energy region of interest for the tritium measurement due to cosmic ray events is obtained.
+
+%Three different detector prototypes, called TRITIUM-IFIC-0, TRITIUM-IFIC-1 and TRITIUM-IFIC-2, were developed in this PhD theses and this results were compared to other prototype, TRITIUM-Aveiro, developed by the TRITIUM Aveiro team 
+
+\item{} Four different detector prototypes, called TRITIUM-IFIC-0, TRITIUM-IFIC-1, TRITIUM-Aveiro and TRITIUM-IFIC-2, listed in chronological order, were developed by the TRITIUM collaboration. The first two prototypes, TRITIUM-IFIC-0 and TRITIUM-IFIC-1, (developed in this PhD thesis) were used as a proof of concept for the detection of tritium in water with scintillating fibers and to identify the different issues that affect the detection efficiency. The latest prototypes, TRITIUM-Aveiro (developed by the TRITIUM Aveiro team) and TRITIUM-IFIC-2 (developed in this PhD thesis), have slightly different designs. Small tritium activities were used to measure their tritium detection efficiency and MDA. %Each design has its own advantages and disadvantages and the characteristics of each one with the best results will be implemented in the final design of the TRITIUM module.
+
+During the development of the first prototypes, a straight arrangement of the scintillating fibers was found crucial for tritium detection. In addition, a surface-conditioning method of scintillating fibers was implemented, that improved the tritium detection efficiency. The use of a PTFE vessel was also found to improve the light collection due to its optical properties (reflectivity close to $95\%$ for visible light). All these improvements were applied to the TRITIUM-IFIC-1 prototype, obtaining a factor $10$ increase of the measured count rate of tritium with respect to the first prototype. %Finally, the use of two photosensors in time coincidence  improved the prototype MDA, since this reduces the photosensor noise. %with almost no affecting to the tritium signal.
+
+In the latest prototypes, two photosensors in time coincidence were employed to improve the MDA, since this reduces the photosensor noise. These two prototypes have a similar design but with subtle differences. One of the most important differences is the scintillating fiber diameter ($2~\mm$ for the TRITIUM-Aveiro prototype and $1~\mm$ for the TRITIUM-IFIC-2 prototype). Fibers of $1~\mm$ allow us to fit more of them in the same volume. This increases the total active area of the prototype (and, therefore its tritium detection efficiency) and the signal-to-background ratio (improving the MDA). Fibers of $2~\mm$ may facilitate the water flow through the fiber bundle, which may increase the effective detection area. In addition, $2~\mm$ fibers are stiffer which could be important for high water fluxes. It was obtained from simulations that the cosmic ray rate in the energy range of interest is a factor $2$ higher for scintillating fibers of $2~\mm$. Additional measurements need to be done to decide the final fiber diameter. A possible way to take this decision could be to build two identical TRITIUM prototypes, one with $1~\mm$ and the other with $2~\mm$ fibers and compare their results. 
+
+The second important difference between the TRITIUM-Aveiro and TRITIUM-IFIC-2 prototypes is the type of photosensor proposed. TRITIUM-Aveiro uses PMTs and for TIRITIUM-IFIC-2, SiPM arrays are proposed. SiPM arrays have some advantages with respect to PMTs such as a higher photodetection efficiency, which would increase the detection efficiency of the TRITIUM detector. Furthermore, the SiPMs do not need high voltage, which implies a reduction of the TRITIUM monitor cost. However, SiPM arrays have some disadvantages as the need to read out more channels and the need to implement a gain stabilization method due to the strong dependence of SiPMs gain on temperature.
+
+The specific efficiency obtained with the TRITIUM-IFIC-2 prototype, $(141 \pm 6) \times 10^{-6}~ \second^{-1}  \liter ~ \kilo\becquerel^{-1} \cm^{-2}$, is an order of magnitud better than that obtained with the TRITIUM-Aveiro prototype, $(16 \pm 5)\times 10^{-6}~ \second^{-1}  \liter ~ \kilo\becquerel^{-1} \cm^{-2}$, most probably due to the surface-conditioning method applied to the fibers of the IFIC prototype. In addition, a MDA of $677~\becquerel/\liter$ was obtained for the TRITIUM-IFIC-2 prototype for an integration time of $10~\min$ and $218~\becquerel/\liter$ for an integration time of $1~\hour$. This is compared to a MDA of $29.8~\kilo\becquerel/\liter$ for an integration time of $1~\min$ and $5~\kilo\becquerel/\liter$ for an integration time of $1~\hour$ for the TRITIUM-Aveiro prototype. A lower MDA allows us to discriminate smaller tritium activities from the background. An integration time of $1~\hour$ can still be considered a quasi-real time.
+
+A summary of the state-of-the-art of the tritium detection in water is shown in Table \ref{tab:ComparisonResultsTritium}, which includes the results obtained with the four different prototypes developed by the TRITIUM collaboration. As it can be seen in this table, the TRITIUM-IFIC-2 prototype ameliorates significantly the current state-of-the-art. A specific efficiency and a MDA almost an order of magnitud better than the results reported in the literature are obtained.
+
+\begin{table}[htbp]
+\centering{}%
+\begin{tabular}{lcrcc}
+\toprule 
+Reference & \parbox{5em}{$\varepsilon_{det}\times10^{-3}\\\liter~\kilo\becquerel^{-1}\second^{-1}$}  & \parbox{3.5em}{\raggedleft $F_{sci}$\\ $\cm^2$}  & \parbox{6.5em}{$~\eta_{det}\times 10^{-6}\\\liter~\kilo\becquerel^{-1}\second~\cm^{-2}$} &  \parbox{3.5em}{MDA\\$\kilo\becquerel~\liter^{-1}$} \tabularnewline
+\midrule
+\midrule 
+\cite{Muramatsu} & $0.39$ & $123$ & $3.13$ & $370$ \tabularnewline
+\cite{Moghissi} & $4.50$ & $>424$ & $<10.6$ & $37$ \tabularnewline
+\cite{Osborne} & $12$ & $3000$ & $4$ & $37$ \tabularnewline
+\cite{Ratnakaran} & $41$ & $3000$ & $13.7$ & $<37$ \tabularnewline
+\cite{Hofstetter1} & $2.22$ & $\sim~100$ & $<22.2$ & $25$ \tabularnewline
+T-IFIC-0$\dagger$ & $2.1 \pm 0.8$ & $219$ & $10 \pm 4$ & $100$* \tabularnewline
+T-IFIC-1$\dagger$ & $38.4 \pm 1.6$ & $402$ & $96 \pm 4$ & $100$* \tabularnewline
+T-Aveiro$\dagger$ & $64 \pm 19$ & $4072$ & $16 \pm 5$ & $5$** \tabularnewline
+T-IFIC-2$\dagger$ & $711 \pm 27$ & $5027$ & $141 \pm 6$ & $0.22$** \tabularnewline
+\bottomrule
+\end{tabular}
+\caption{Results of scintillator detectors developed for experiments (including the TRITIUM project) for tritiated water detection. This table shows the efficiency of the detector ($\varepsilon_{det}$), active surface ($F_{sci}$), specific efficiency ($\eta_{det}=\varepsilon_{det}/F_{sci}$, defined as efficiency normalized to active surface), and MDA.\\
+* Specific activity measured, not MDA.\\ 
+** MDA measured for $1~\hour$ integration time.\\
+$\dagger$ This Thesis.}
+\label{tab:ComparisonResultsTritium}
+\end{table}
+
+One of the most relevant properties of the TRITIUM monitor is scalability, which means that a lower MDA can be achieved by using a larger number of modules. The MDA of the TRITIUM monitor is expected to decrease with the square root of the number of modules. Therefore, as shown in Figure \ref{fig:MDATRITIUMmonitor}, a MDA of  $100~\becquerel/\liter$ (goal of the TRITIUM project) could be achieved by using 5 TRITIUM-IFIC-2 modules and an integration time of $1~\hour$. It has to be taken into account that the MDA reported in this PhD work was measured without the background rejection system. The TRITIUM MDA is expected to improve when this system is included.
+
+The stability of the tritium detection efficiency of the latest TRITIUM prototypes was monitored during six months, obtaining a stable behavior of the detector during this time with a relative standard deviation of $2.5\%$ for the measured tritium rate. 
+
+\item{} Finally, simulations were carried out to determine the dependence of the tritium detection efficiency and activity resolution of the TRITIUM-IFIC-2 prototype on integration time and number of prototypes. These simulations, which agree with the experimental measurements, allow us to determine de number of modules needed in the TRITIUM monitor and the integration time to be used. With $5$ modules and an integration time of $1~\hour$ a tritium activity resolution of $100~\becquerel/\liter$ is expected. This configuration is also the one that has an MDA of $100~\becquerel/\liter$, goal of the TRITIUM project.
+
+%The present options are three modules read in parallel with an integration time of $30~\min$, with which an uncertainty in the tritium concentration of $250~\becquerel/\liter$ is expected to be measured or five modules with an integration time of $10~\min$ with which a difference of $200~\becquerel/\liter$ in the tritium concentration could be measured.
+
+\end{enumerate}
+
+At present, the lead shielding, the water purification system and a TRITIUM-Aveiro module are installed in the Arrocampo site. Two additional TRITIUM-Aveiro modules and an active veto are planned to be installed as soon as possible. Moreover, three TRITIUM-IFIC-2 modules and an active veto are ready to be installed too. Their installation was delayed due to the coronavirus pandemic.

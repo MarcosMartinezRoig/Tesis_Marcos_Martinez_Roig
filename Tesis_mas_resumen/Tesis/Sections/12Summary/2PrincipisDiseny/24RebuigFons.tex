@@ -1,0 +1,40 @@
+La mínima activitat de triti que el detector TRITIUM és capaç de mesurar està limitada per la incertesa del fons radioactiu la qual, degut a que segueix una estadística poissoniana, depèn del nombre d'esdeveniments que es detecten procedents del fons radioactiu. Per tant, per reduir en la mesura del possible la mínima activitat de triti mesurable s'ha de minimitzar tant com sigua possible els esdeveniments detectats procedents del fons radioactiu. 
+
+El fons radioactiu que es mesurat pel detector TRITIUM procedeix de dues fonts principals, una procedent dels elements radioactius presents al medi ambient (principalment $\ce{^{40}K}$ i $\ce{^{226}Ra}$) i una altra procedent de la radiació còsmica.
+
+Per realitzar aquesta tasca d'eliminació del fons s'ha dissenyat i construit un sistema de rebuig del fons radioactiu que consisteix de dues parts:
+
+\begin{itemize}
+
+\item{} Un castell de plom amb parets de $5~\cm$ de gruix, mostrat a la Figura \ref{subfig:CastellPlom}, a l'interior del qual se situa el detector. Aquest és capaç de frenar els esdeveniments de menor energia (fins a $200~\MeV$), les quals procedeixen principalment de les partícules radioactives del medi ambient i part dels raigs còsmics.
+
+\item{} Un veto actiu, que consisteix de dos blocs de plàstic de centelleig, amb un espectre d'emissió mostrat a la Figura \ref{subfig:EspectreEmisioVeto}, els quals són llegits per PMTs model R$8520-406$ de Hamamatsu Photonics. Aquests plàstics estan envoltats amb PTFE, alumini i cinta negra per millorar la col·lecció dels fotons generats i la uniformitat del senyal, millora quantificada experimentalment amb un factor dos.
+
+\begin{figure}
+\centering
+    \begin{subfigure}[b]{0.7\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{12Summary/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStructure.jpg}  
+        \caption{}\label{subfig:CastellPlom}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.7\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{12Summary/3DesignPrinciples/34BackgroundRejectionSystem/Vetos_y_prototipo.png}  
+    \caption{\label{subfig:VetoActiu}}
+    \end{subfigure}
+\caption{Parts del sistema de rebuig del fons radioactiu dissenyat per la col·laboració TRITIUM: a) Castell de plom b) Veto actiu. \label{fig:SistemaRebuigFonsRadioactiu}.}
+\end{figure}
+
+Aquests estan situats a l'interior del castell de plom, un dal l'altre baix del detector de triti, com es pot veure a la imatge \ref{subfig:VetoActiu}. Aquests són llegits en anticoincidència amb el detector de triti per eliminar els esdeveniments del fons que aconsegueixen travessar el castell de plom (esdeveniments amb energies superiors als $200~\MeV$, principalment còsmics). 
+
+També es va mesurar l'espectre energètic de raigs còsmics durs (més de $200~\MeV$) amb aquest veto actiu, el qual es mostra a la Figura \ref{fig:EspectreEnergeticVetoActiu}. Aquest espectre es va utilitzar per determinar la freqüència de raigs còsmics mesurats, $2.5~\text{events}/\sec$, el qual, comparant amb allò esperat per a un veto actiu d'aquestes dimensions al nivell del mar, va permetre obtenir una eficiència de detecció als raigs còsmics d'alta energia de al voltant d'un $85\%$.
+
+\begin{figure}[h]
+\includegraphics[scale=0.7]{12Summary/4ResearchAndDevelopments/43CosmicVetos/Cosmic_Energy_Spectrum_36_cm_Landau_Function_Val.pdf}
+\centering
+\caption{Espectre energètic dels raigs còsmics d'alta energia (més de $200~\MeV$) mesurat amb el veto actiu desenvolupat a la col·laboració TRITIUM\label{fig:EspectreEnergeticVetoActiu}.}
+\end{figure}
+
+\end{itemize} 
+

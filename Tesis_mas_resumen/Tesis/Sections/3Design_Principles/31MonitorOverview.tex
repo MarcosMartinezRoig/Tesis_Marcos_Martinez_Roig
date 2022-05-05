@@ -1,0 +1,16 @@
+The objective of the TRITIUM project is the design, development, construction and commissioning of an automatic station for real-time monitoring of low levels of tritium in water. To achieve this aim, the TRITIUM collaboration has developed a monitor consisting of several parts, listed below: 
+
+\begin{enumerate}
+
+\item{} The TRITIUM detector, described in chapter \ref{chap:Prototypes}, is based on several modules read out in parallel. Each module consists of hundreds of plastic scintillating fibers, which are in contact with the water sample measured, read out by two coincident photosensors. The photosensors considered are photomultiplier tubes (PMT) and silicon photomultipliers (SiPM) (section \ref{sec:TritiumDectectorIntro}).
+
+\item{} The water purification system (section \ref{sec:UltraPureWaterSystem}) that prepares for measurement the water sample, taken from the Arrocampo dam. This system removes all the organic particles dissolved and all the particles with a diameter greater than $1~\mu\meter$ without affecting the tritium content of the sample. This system is important for two reasons: First, because the mean free path of tritium in water is very short, $5$ to $6~\mu\meter$,  hence it is essential to avoid organic and mineral depositions onto the fibers surface since this would prevent the tritium decay electrons from reaching the fibers. Second, minerals dissolved in water may contain radioactive isotopes like $\ce{^{40}K}$, which would increase the background. As the activity limit to be measured is low (down to $100~\becquerel/\liter$), background reduction is crucial.
+
+\item{} The background rejection system (section \ref{sec:IntroductionBackground}) has two different parts. The first one is a passive shield, consisting of a lead castle inside which the TRITIUM detector is located. This castle is employed to suppress the background from natural radioactivity and cosmic rays with energies up to $200~\MeV$. The second part is an active veto, consisting of two plastic scintillating plates located inside the passive shield, above and below the tritium detector, which are read out by photosensors. The goal of this active veto is to suppress the remaining high energy events ($>200~\mega\eV$) from cosmic rays that cross the passive shield and contribute to the background. The technique employed to suppress their contribution consists in reading the tritium detector in anti-coincidence with the active veto.
+%to detect these high energy events and, for each of them, open narrow time windows in which we will not read the Tritium detector to prevent these events from affecting the tritium measurement.
+
+\item{} A readout electronic system which allows the acquisition and processing of the data, in order to provide an alarm signal in case the tritium level measurement within a short interval of time exceeds the required limit of $100~\becquerel/\liter$.
+
+\end{enumerate}
+
+The TRITIUM system is planned to be part of the network of automatic stations, REA.

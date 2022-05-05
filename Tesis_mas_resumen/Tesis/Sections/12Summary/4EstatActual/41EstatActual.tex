@@ -1,0 +1,33 @@
+El triti és un dels elements radioactius produïts més abundantment en instal·lacions nuclears. A causa de la seua radiotoxicitat, l'exposició a un excés de triti podria afectar la salut humana i el medi ambient, motiu per el qual molts països han implementat un límit legal per al triti en aigües potables. Aquest límit és establert a Espanya per la directiva del consell EURATOM \cite{100BqL} a $100~\becquerel/\liter$.
+
+El projecte TRITIUM es va fundar amb l'objectiu de dissenyar i construir un monitor capaç de mesurar en temps quasi-real ($1~\hour$ o menys) activitats de triti a l'aigua inferior al límit legal. El monitor construir fins ara, anomenat TRITIUM consta de tres parts, el detector de triti, on es pren la mesura de l'activitat del triti, el sistema de rebuig del fons radioactiu, destinat a minimitzar en la mesura del possible el fons radioactiu mesurat pel detector de triti, i el sistema de purificació de l'aigua, utilitzar per eliminar partícules i minerals dissolts a la mostra d'aigua que puguin reduir l'eficiència del detector.
+
+Els avanços realitzats fins ara per la col·laboració TRITIUM es llisten a continuació:
+
+\begin{enumerate}
+
+\item{} Es va construir un monitor per mesurar baixes activitats de triti en aigua. Aquesta presenta un disseny modular el qual li confereix la propietat d'escalabilitat, es a dir, algunes de les característiques rellevans del detector, com ara el MDA o la resolució, poden ser millorades mitjançant la utilització de diversos prototips, anomenats mòduls del monitor, llegits en paral·lel.
+
+\item{} Es van dissenyar, construir i caracteritzar un total de quatre prototips del detector de triti. Amb aquests fou possible identificar i solucionar problemes greus en el disseny, a més d'implementar possibles modificacions que optimitzaven la detecció del triti. Aquests prototips estan basats en fibres de centelleig llegits per fotosensors.
+
+\item{} Es van realitzar diverses simulacions amb la llibreria Geant4 per comparar diversos dissenys del detector. L'objectiu d'aquestes simulacions era decidir quina de les possibles configuracions optimitzava l'eficiència en la detecció del triti.
+
+\item{} Es va desenvolupar un protocol de neteja de la superfície de les fibres de centelleig que va ser testejat, obtenint un factor de millora de més de $2$. També es va realitzar una caracterització de les fibres de centelleig, obtenint una eficiència de col·lecció de $76 \pm 8\%$ i una incertesa en el nombre de fotons llegits per el fotosensor de $2.86\%$.
+
+\item{} També es va caracteritzar un SiPM, model S$13360-1375$ de Hamamatsu on molts dels paràmetres rellevants per al projecte TRTIUM, com per exemple la ganancia, van ser mesurats amb una molt bona precisió (resolució de l'espectre del photoelectró al voltant del $1\%$). A més, a causa de la forta dependència del comportament del SiPM amb la temperatura, es va aplicar amb èxit un mètode d'estabilització de la ganancia, que va ser testejat, obtenint variació al voltant del $0,1\%$.
+
+\item{} Es va dissenyar, construir i caracteritzar un sistema de rebuig del fons radioactiu basat en dues parts, un castell de plom amb parets de $5~\cm$ de gruix i un veto actiu basat en plàstics de centelleig. A partir de simulacions es va obtenir una reducció de raigs còsmics d'un factor $5.5$ a causa del castell de plom i del $60\%$ a causa del veto actiu, donant una reducció total del $92.7\%$.
+
+\item{} També es va dissenyar, construir i caracteritzar un sistema de purificació de l'aigua, necessari per eliminar les partícules i els minerals dissolts. Amb aquest sistema va ser possible assolir nivells de conductivitat de l'aigua al voltant de $10~\text{S}/\cm$ sense afectar l'activitat del triti.
+
+\item{} Amb el prototip TRITIUM-IFIC-2, l'últim prototip desenvolupat en la col·laboració TRITIUM, es va aconseguir obtenir una eficiència específica en la detecció del triti de
+$$S = (14.1 \pm 0.6)\cdot{} 10^{-5}~\frac{cps}{\kilo\becquerel/\liter \cdot{} \cm^{2}}$$
+i un MDA de $220~\becquerel/\liter$ per a mesures de $1$ hora, millorant l'actual estat de l'art de la detecció del triti.
+
+\item{} A partir de diverses simulacions realitzades amb la llibreria Geant4 es va comprovar que l'activitat objectiu del projecte TRITIUM, $100~\becquerel/\liter$, s'espera ser aconseguida amb la utilització de $5$ mòduls TRITIUM-IFIC-2 llegits en paral·lel.
+
+\item{} L'estabilitat del prototip TRITIUM-IFIC-2 va ser provada al llarg del temps, tant pel senyal com pel fons, obtenint una desviació estàndard realtiva al voltant de $2,5\%$.
+
+\end{enumerate}
+
+Actualment el prototip TRITIUM-Aveiro està instal·lat a Arrocampo juntament amb el sistema de purificació de l'aigua i el castell de plom. Aquest prototip ha estat realitzant mesures del fons radioactiu de Arrocampo durant més de quatre mesos, mostrant una gran estabilitat. En un futur proper s'espera poder instal·lar dos prototips TRITIUM-Aveiro addicionals i un veto actiu. A més, tres mòduls TRITIUM-IFIC-2 i un veto actiu estan llests per ser instal·lats tant pronte com siga possible.
