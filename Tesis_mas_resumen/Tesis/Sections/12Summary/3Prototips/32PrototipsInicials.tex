@@ -1,4 +1,4 @@
-El primer prototip del detector de triti desenvolupat en la col·laboració TRITIUM s'anomena TRITIUM-IFIC 0, el qual va ser dissenyat i construït als tallers de l'IFIC, a València. Aquest va consistir en un prototip a escala que pretenia ser una prova de concepte, és a dir, es pretenia provar la viabilitat de la tecnologia proposada per la col·laboració TRITIUM (fibres de centelleig llegides per fotosensors) per a la detecció de baixes activitats de triti al aigua.
+El primer prototip del detector de triti desenvolupat en la col·laboració TRITIUM s'anomena TRITIUM-IFIC-0, el qual va ser dissenyat i construït als tallers de l'IFIC, a València. Aquest va consistir en un prototip a escala que pretenia ser una prova de concepte, és a dir, es pretenia provar la viabilitat de la tecnologia proposada per la col·laboració TRITIUM (fibres de centelleig llegides per fotosensors) per a la detecció de baixes activitats de triti al aigua.
 
 Aquest prototip consisteix en un conjunt de $35$ fibres de centelleig, mostrades a la Figura \ref{subfig:FibresDobladesTritiumIFIC0}, cadascuna de les quals té $1~\mm$ de diàmetre i $20~\cm$ de longitud. Aquestes van ser polides manualment i es van unir amb una pesa metàl·lica als extrems la qual s'utilitzada per fixar-les en el atuell del prototip. Aquest atuell, mostrat a la Figura \ref{subfig:PrototipTritiumIFIC0}, consisteix en una estructura de PVC. La forma corbada d'aquest li confereix una major radioseguretat al preu d'una menor eficiència en la detecció del triti, un preu a pagar en els primers prototips ja que simplement es pretenia realitzar una prova de concepte i no un disseny final optimitzat. Dos PMTs calibrats, model R$8520-460$ de Hamamatsu Photonics \cite{DataSheetPMTs}, van ser ensamblats a aquestes fibres utilitzant greix òptic \cite{OpticalGrease} i llegits en coincidència temporal.
 
@@ -21,10 +21,10 @@ Aquest prototip consisteix en un conjunt de $35$ fibres de centelleig, mostrades
     \includegraphics[width=\textwidth]{12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Tritium_IFIC_0.jpg}  
     \caption{\label{subfig:PrototipTritiumIFIC0}}
     \end{subfigure}
- \caption{a) Pesa metàl·lica utilitzada per unir les fibres de centelleig del prototip TRITIUM-IFIC-0. b) Fibres de centelleig utilitzades en el prototip TRITIUM-IFIC-0. c) Prototip TRITIUM-IFIC-0.} \label{fig:TritiumIFIC0}
+ \caption{a) Pesa metàl·lica utilitzada per unir les fibres de centelleig del prototip TRITIUM-IFIC-0. b) Fibres de centelleig utilitzades en el prototip TRITIUM-IFIC-0. c) Prototip TRITIUM-IFIC-0.} \label{fig:TritiumIFIC0s}
 \end{figure}
 
-Com ja hem comentat a la secció \ref{subsec:SistemaRebuigFons}, el detector mesura radioactivitat en absència de font radioactiva a causa de l'existència del fons radioactiu (elements radioactius a l'entorn o raigs còsmics procedents de fonts extraterrestres). Aquesta radioactivitat mesurada pel detector ha de ser quantificada i sostreta de la mesura amb font radioactiva per determinar l'activitat de la font emprada (aigua tritada en el nostre cas). Per realitzar aquesta tasca es van construir dos prototips idèntics, un omplit únicament amb aigua hiperpura, que ens referirem com el prototip del fons i servirà per determinar aquest fons radioactiu, i un altre omplit amb una dissolució d'aigua tritiada d'activitat específica coneguda ($\text{A}=99.696~\kilo\becquerel/\liter$), al que ens referirem com el prototip del senyal. L'activitat del triti mesurada per el prototip es obtinguda com la diferència de la mesura dels dos prototips.
+Com ja hem comentat a la secció \ref{subsec:SistemaRebuigFons}, el detector presenta una taxa de recompte no nul·la en absència de font radioactiva a causa de l'existència del fons radioactiu (elements radioactius presents a l'entorn o raigs còsmics procedents de fonts extraterrestres). Aquesta radioactivitat mesurada pel detector ha de ser quantificada i sostreta de la mesura amb font radioactiva per determinar l'activitat de la font emprada (aigua tritada en el nostre cas). Per realitzar aquesta tasca es van construir dos prototips idèntics, un omplit únicament amb aigua hiperpura, que ens referirem com el prototip del fons i servirà per determinar aquest fons radioactiu, i un altre omplit amb una dissolució d'aigua tritiada d'activitat específica coneguda ($\text{A}=99.696~\kilo\becquerel/\liter$), al que ens referirem com el prototip del senyal. L'activitat del triti mesurada per el prototip es obtinguda com la diferència de la mesura dels dos prototips.
 
 Apenes es van mesurar esdeveniments utilitzant la coincidència temporal dels dos PMTs, probablement degut, entre altres coses, al disseny corbat del atuell, per tant es va realitzar la mesura individual dels PMTs. L'espectre energètic mesurat al prototip del senyal, el prototip del fons i la diferència (espectre energètic del triti) es mostren a la Figura \ref{fig:EspectresEnergeticsTritiumIFIC0}. Els contes per segon mesurats per a les tres situacions, obtinguts com la integral dels respectius espectres energètics, són mostrats a la Tabla \ref{tab:ContesPerSegonTRITIUMIFIC0}. 
 
@@ -65,7 +65,7 @@ Tenint en compte l'activitat inicial coneguda i l'àrea activa del detector, s'o
 $$S = (9.59 \pm 3.88)\cdot{} 10^{-6}~\frac{cps}{\kilo\becquerel/\liter \cdot{} \cm^{2}}$$
 eficiència similar a algunes de les obtingudes en detectors de triti desenvolupats en altres col·laboracions \cite{Muramatsu, Moghissi}.
 
-Alguns problemes van ser trobats en aquest disseny, problemes que van ser resolts en el disseny del següent prototip, TRITIUM-IFIC-1:
+Es van trobar alguns problemes que van ser resolts en el disseny del següent prototip, TRITIUM-IFIC-1:
 
 \begin{enumerate}
 \item{} Es va comprovar amb un test de laboratori que la curvatura de les fibres produïa una pèrdua exesiva de fotons ja que aquest necessitaven fer més reflexions fins a arribar als fotosensors. Aquest problema es va resoldre simplement dissenyant un atuell per al prototip TRITIUM-IFIC-1 on les fibres estigueren rectes.
@@ -78,12 +78,12 @@ Alguns problemes van ser trobats en aquest disseny, problemes que van ser resolt
 
 \end{enumerate}
 
-Tenint en compte tots aquests problemes identificats en el disseny del primer prototip, es va dissenyar i construir als tallers de l'IFIC un segon prototip, anomenat TRITIUM-IFIC-1, mostra a la Figura \ref{fig:TritumIFIC1}, on totes les solucions proposades foren implementades .
+Tenint en compte tots aquests problemes identificats en el disseny del primer prototip, es va dissenyar i construir als tallers de l'IFIC un segon prototip, anomenat TRITIUM-IFIC-1, mostra a la Figura \ref{fig:TritumIFIC1s}, on totes les solucions proposades foren implementades .
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.4]{12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1a.png}
-\caption{Vista general del prototip TRITIUM-IFIC-1.\label{fig:TritumIFIC1}}
+\caption{Vista general del prototip TRITIUM-IFIC-1.\label{fig:TritumIFIC1s}}
 \end{figure}
 
 El prototip TRITIUM-IFIC-1 consisteix en 64 fibres de $1~\mm$ de diàmetre i $20~\cm$ de longitud polides manualment i organitzades en una matriu de $8\times 8$ de PTFE, mostrada a la Figura \ref{fig:EstructuraPTFEFibresTritiumIFIC1}. Aquesta matriu està situada a l'interior d'un atuell de PTFE i llegides per un PMT calibrat model R$8520-460$ de Hamamatsu Photonics \cite{DataSheetPMTs} ensamblat amb greix òptic \cite{OpticalGrease}.
@@ -131,4 +131,4 @@ Espectre de triti & $3.83 \pm 0.13$ \tabularnewline
 
 L'eficiència específica en la detecció del triti obtinguda per a aquest detector es de
 $$S = (9.56 \pm 0.40)\cdot{} 10^{-5}~\frac{cps}{\kilo\becquerel/\liter \cdot{} \cm^{2}}$$
-un ordre de magnitud millor que l'obtinguda amb el prototip anterior. Aquest ordre de magnitud es deu al conjunt de totes les modificacions realitzades en aquest disseny, a més d'utilitzar aproximadament el doble de fibres de centelleig. Aquesta eficiència específica obtinguda és similar a la millor eficiència específica obtinguda fins ara amb detectors de triti similars desenvolupats en altres col·laboracions \cite{Hofstetter1, Hofstetter2}. Veiem per tant que el detector de triti desenvolupat en la col·laboració TRITIUM és competitiu amb els detectors similars desenvolupats fins ara.
+un ordre de magnitud millor que l'obtinguda amb el prototip anterior. Aquest ordre de magnitud es deu al conjunt de totes les modificacions realitzades en aquest disseny. Aquesta eficiència específica obtinguda és similar a la millor eficiència específica obtinguda fins ara amb detectors de triti similars desenvolupats en altres col·laboracions \cite{Hofstetter1, Hofstetter2}. Veiem per tant que el detector de triti desenvolupat en la col·laboració TRITIUM és competitiu amb els detectors similars desenvolupats fins ara.
