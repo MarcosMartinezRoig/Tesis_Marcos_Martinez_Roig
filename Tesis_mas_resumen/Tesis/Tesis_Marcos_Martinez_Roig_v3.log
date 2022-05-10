@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  9 MAY 2022 12:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  10 MAY 2022 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1816,13 +1816,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Overfull \hbox (1.66454pt too wide) in paragraph at lines 36--36
  \T1/cmr/m/n/12 dif-fer-ent in-teg-ra-tion times and dif-fer-ent num-ber of TRI
 TIUM- 
- []
-
-
-Overfull \hbox (6.67178pt too wide) in paragraph at lines 38--38
- \T1/cmr/m/n/12 act-ive sur-face ($\OML/cmm/m/it/12 F[]$\T1/cmr/m/n/12 ), spe-c
-ific ef-fi-ciency ($\OML/cmm/m/it/12 ^^Q[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 "
-[]=F[]$\T1/cmr/m/n/12 , defined 
  []
 
 LaTeX Info: Redefining \. on input line 40.
@@ -5109,14 +5102,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Chapter 7.
 (./Sections/7SummaryDiscussion/71SummaryDiscussion.tex
+Overfull \hbox (0.93251pt too wide) in paragraph at lines 3--4
+\T1/cmr/m/n/12 abund-antly pro-duced ra-dioiso-topes in nuc-lear fa-cil-it-ies 
+such as nuc-lear power
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [177]
-Overfull \hbox (0.12547pt too wide) in paragraph at lines 12--13
-[]\T1/cmr/m/n/12 The TRI-TIUM de-tector, where tri-tium meas-ure-ments take pla
-ce. This
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -5131,6 +5125,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [179]
+Overfull \hbox (3.93735pt too wide) in paragraph at lines 42--43
+\T1/cmr/m/n/12 ground of the en-vir-on-mental ra-dio-activ-ity in the Ar-rocamp
+o site (which
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -5138,7 +5137,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [180]
-Overfull \hbox (9.30818pt too wide) in paragraph at lines 54--55
+Overfull \hbox (9.30818pt too wide) in paragraph at lines 52--53
 []\T1/cmr/m/n/12 Four dif-fer-ent de-tector pro-to-types, called TRITIUM-IFIC-0
 , TRITIUM-
  []
@@ -5157,7 +5156,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [182]
-Overfull \hbox (0.91519pt too wide) in paragraph at lines 70--70
+Overfull \hbox (0.91519pt too wide) in paragraph at lines 68--68
 [][] [][][]$ 
  []
 
@@ -5168,22 +5167,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [183]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[184]
-Overfull \hbox (6.6964pt too wide) in paragraph at lines 95--96
+Overfull \hbox (6.6964pt too wide) in paragraph at lines 93--94
 \T1/cmr/m/n/12 the tri-tium de-tec-tion ef-fi-ciency and activ-ity res-ol-u-tio
 n of the TRITIUM-
- []
-
-
-Overfull \hbox (1.44032pt too wide) in paragraph at lines 95--96
-\T1/cmr/m/n/12 IFIC-2 pro-to-type on in-teg-ra-tion time and num-ber of pro-to-
-types. These
  []
 
 )
@@ -5193,18 +5179,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[185]
+[184]
+Chapter 8.
+(./Sections/8ConclusionsAndProspects/81ConclusionsProspects.tex [185
+
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[186
+[186]
 
-]
-Chapter 8.
-(./Sections/8ConclusionsAndProspects/81ConclusionsProspects.tex [187]
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[187])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -5212,20 +5205,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [188]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[189])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[190]
 LaTeX Info: Redefining \. on input line 335.
 LaTeX Info: Redefining \% on input line 335.
 
@@ -5255,7 +5234,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 339.
 (./Sections/12Summary/1Introduccio/11EnergiaNuclear.tex
-<Figures/12Summary/2Introduction/RadioactiveDosePopulation.png, id=5033, 558.08
+<Figures/12Summary/2Introduction/RadioactiveDosePopulation.png, id=5023, 558.08
 5pt x 347.2975pt>
 File: Figures/12Summary/2Introduction/RadioactiveDosePopulation.png Graphic fil
 e (type png)
@@ -5294,7 +5273,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 10.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 10.
- [191
+ [189
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5332,8 +5311,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 18.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 18.
-[192 <./Figures/12Summary/2Introduction/RadioactiveDosePopulation.png>]
-<Figures/12Summary/2Introduction/CofrentesMaps.png, id=5054, 406.51875pt x 359.
+[190 <./Figures/12Summary/2Introduction/RadioactiveDosePopulation.png>]
+<Figures/12Summary/2Introduction/CofrentesMaps.png, id=5045, 406.51875pt x 359.
 3425pt>
 File: Figures/12Summary/2Introduction/CofrentesMaps.png Graphic file (type png)
 
@@ -5341,21 +5320,21 @@ File: Figures/12Summary/2Introduction/CofrentesMaps.png Graphic file (type png)
 Package pdftex.def Info: Figures/12Summary/2Introduction/CofrentesMaps.png  use
 d on input line 22.
 (pdftex.def)             Requested size: 203.25887pt x 179.6708pt.
-<Figures/12Summary/2Introduction/6km_before.png, id=5055, 883.04906pt x 426.844
+<Figures/12Summary/2Introduction/6km_before.png, id=5046, 883.04906pt x 426.844
 68pt>
 File: Figures/12Summary/2Introduction/6km_before.png Graphic file (type png)
 <use Figures/12Summary/2Introduction/6km_before.png>
 Package pdftex.def Info: Figures/12Summary/2Introduction/6km_before.png  used o
 n input line 31.
 (pdftex.def)             Requested size: 268.87737pt x 129.96924pt.
-<Figures/12Summary/2Introduction/1km_after.png, id=5056, 880.79062pt x 426.8446
+<Figures/12Summary/2Introduction/1km_after.png, id=5047, 880.79062pt x 426.8446
 8pt>
 File: Figures/12Summary/2Introduction/1km_after.png Graphic file (type png)
 <use Figures/12Summary/2Introduction/1km_after.png>
 Package pdftex.def Info: Figures/12Summary/2Introduction/1km_after.png  used on
  input line 37.
 (pdftex.def)             Requested size: 268.87737pt x 130.3014pt.
-<Figures/12Summary/2Introduction/5km_after.png, id=5057, 883.80188pt x 426.0918
+<Figures/12Summary/2Introduction/5km_after.png, id=5048, 883.80188pt x 426.0918
 7pt>
 File: Figures/12Summary/2Introduction/5km_after.png Graphic file (type png)
 <use Figures/12Summary/2Introduction/5km_after.png>
@@ -5366,7 +5345,7 @@ Package pdftex.def Info: Figures/12Summary/2Introduction/5km_after.png  used on
 
 LaTeX Warning: Float too large for page by 7.09772pt on input line 48.
 
-<Figures/12Summary/2Introduction/Subterranea_before.png, id=5060, 889.07156pt x
+<Figures/12Summary/2Introduction/Subterranea_before.png, id=5051, 889.07156pt x
  426.84468pt>
 File: Figures/12Summary/2Introduction/Subterranea_before.png Graphic file (type
  png)
@@ -5374,7 +5353,7 @@ File: Figures/12Summary/2Introduction/Subterranea_before.png Graphic file (type
 Package pdftex.def Info: Figures/12Summary/2Introduction/Subterranea_before.png
   used on input line 54.
 (pdftex.def)             Requested size: 268.87737pt x 129.08347pt.
-<Figures/12Summary/2Introduction/Subterranea_1_km_later.png, id=5061, 881.54344
+<Figures/12Summary/2Introduction/Subterranea_1_km_later.png, id=5052, 881.54344
 pt x 428.35031pt>
 File: Figures/12Summary/2Introduction/Subterranea_1_km_later.png Graphic file (
 type png)
@@ -5418,7 +5397,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 68.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 68.
-[193]
+[191]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 72.
@@ -5454,7 +5433,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 72.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 72.
-[194 <./Figures/12Summary/2Introduction/CofrentesMaps.png>]
+[192 <./Figures/12Summary/2Introduction/CofrentesMaps.png>]
 LaTeX Info: Redefining \. on input line 72.
 LaTeX Info: Redefining \% on input line 72.
 
@@ -5488,7 +5467,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 72.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 72.
-[195 <./Figures/12Summary/2Introduction/6km_before.png> <./Figures/12Summary/2I
+[193 <./Figures/12Summary/2Introduction/6km_before.png> <./Figures/12Summary/2I
 ntroduction/1km_after.png> <./Figures/12Summary/2Introduction/5km_after.png>]
 LaTeX Info: Redefining \. on input line 72.
 LaTeX Info: Redefining \% on input line 72.
@@ -5523,7 +5502,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 72.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 72.
-[196 <./Figures/12Summary/2Introduction/Subterranea_before.png> <./Figures/12Su
+[194 <./Figures/12Summary/2Introduction/Subterranea_before.png> <./Figures/12Su
 mmary/2Introduction/Subterranea_1_km_later.png>])
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 343.
@@ -5586,7 +5565,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
-[197]
+[195]
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 
@@ -5620,7 +5599,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 12.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 12.
-[198])
+[196])
 Overfull \hbox (14.08078pt too wide) in paragraph at lines 19--349
 []\T1/cmr/m/n/12 La idea fi-nal se-ria po-der in-clou-re aquest mo-ni-tor a la 
 xar-xa d'estacions
@@ -5672,9 +5651,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
-[199]
+[197]
 <Figures/12Summary/3DesignPrinciples/32Tritium_detector/ScintillatorDetector.pn
-g, id=5111, 688.82344pt x 250.68657pt>
+g, id=5102, 688.82344pt x 250.68657pt>
 File: Figures/12Summary/3DesignPrinciples/32Tritium_detector/ScintillatorDetect
 or.png Graphic file (type png)
 <use Figures/12Summary/3DesignPrinciples/32Tritium_detector/ScintillatorDetecto
@@ -5734,10 +5713,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 4.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 4.
-[200 <./Figures/12Summary/3DesignPrinciples/32Tritium_detector/ScintillatorDete
+[198 <./Figures/12Summary/3DesignPrinciples/32Tritium_detector/ScintillatorDete
 ctor.png>]
 <Figures/12Summary/3DesignPrinciples/32Tritium_detector/EmisionBCF12.png, id=51
-18, 644.4075pt x 389.455pt>
+09, 644.4075pt x 389.455pt>
 File: Figures/12Summary/3DesignPrinciples/32Tritium_detector/EmisionBCF12.png G
 raphic file (type png)
 <use Figures/12Summary/3DesignPrinciples/32Tritium_detector/EmisionBCF12.png>
@@ -5745,7 +5724,7 @@ Package pdftex.def Info: Figures/12Summary/3DesignPrinciples/32Tritium_detector
 /EmisionBCF12.png  used on input line 9.
 (pdftex.def)             Requested size: 268.87737pt x 162.50626pt.
 <Figures/12Summary/3DesignPrinciples/34BackgroundRejectionSystem/EmissionEnergy
-SpectrumVetos.png, id=5119, 686.565pt x 622.325pt>
+SpectrumVetos.png, id=5110, 686.565pt x 622.325pt>
 File: Figures/12Summary/3DesignPrinciples/34BackgroundRejectionSystem/EmissionE
 nergySpectrumVetos.png Graphic file (type png)
 <use Figures/12Summary/3DesignPrinciples/34BackgroundRejectionSystem/EmissionEn
@@ -5754,7 +5733,7 @@ Package pdftex.def Info: Figures/12Summary/3DesignPrinciples/34BackgroundReject
 ionSystem/EmissionEnergySpectrumVetos.png  used on input line 15.
 (pdftex.def)             Requested size: 268.87737pt x 243.71233pt.
 <Figures/12Summary/4ResearchAndDevelopments/41Fibers/CuttingDeviceVS.png, id=51
-25, 726.715pt x 274.02374pt>
+16, 726.715pt x 274.02374pt>
 File: Figures/12Summary/4ResearchAndDevelopments/41Fibers/CuttingDeviceVS.png G
 raphic file (type png)
 <use Figures/12Summary/4ResearchAndDevelopments/41Fibers/CuttingDeviceVS.png>
@@ -5762,7 +5741,7 @@ Package pdftex.def Info: Figures/12Summary/4ResearchAndDevelopments/41Fibers/Cu
 ttingDeviceVS.png  used on input line 29.
 (pdftex.def)             Requested size: 192.0561pt x 72.41942pt.
 <Figures/12Summary/4ResearchAndDevelopments/41Fibers/PolishingTable.jpeg, id=51
-26, 758.835pt x 1349.04pt>
+17, 758.835pt x 1349.04pt>
 File: Figures/12Summary/4ResearchAndDevelopments/41Fibers/PolishingTable.jpeg G
 raphic file (type jpg)
 <use Figures/12Summary/4ResearchAndDevelopments/41Fibers/PolishingTable.jpeg>
@@ -5783,7 +5762,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 358.
  (./Sections/12Summary/2PrincipisDiseny/222Photosensors.tex
-<Figures/12Summary/3DesignPrinciples/32Tritium_detector/PMT.jpeg, id=5128, 318.
+<Figures/12Summary/3DesignPrinciples/32Tritium_detector/PMT.jpeg, id=5119, 318.
 18875pt x 159.59625pt>
 File: Figures/12Summary/3DesignPrinciples/32Tritium_detector/PMT.jpeg Graphic f
 ile (type jpg)
@@ -5792,7 +5771,7 @@ Package pdftex.def Info: Figures/12Summary/3DesignPrinciples/32Tritium_detector
 /PMT.jpeg  used on input line 9.
 (pdftex.def)             Requested size: 153.64253pt x 77.06314pt.
 <Figures/12Summary/3DesignPrinciples/32Tritium_detector/SiPM_Matrix.jpg, id=512
-9, 723.70375pt x 462.72874pt>
+0, 723.70375pt x 462.72874pt>
 File: Figures/12Summary/3DesignPrinciples/32Tritium_detector/SiPM_Matrix.jpg Gr
 aphic file (type jpg)
 <use Figures/12Summary/3DesignPrinciples/32Tritium_detector/SiPM_Matrix.jpg>
@@ -5832,7 +5811,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 20.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 20.
-[201]
+[199]
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
 
@@ -5866,11 +5845,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 20.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 20.
-[202 <./Figures/12Summary/3DesignPrinciples/32Tritium_detector/EmisionBCF12.png
+[200 <./Figures/12Summary/3DesignPrinciples/32Tritium_detector/EmisionBCF12.png
 > <./Figures/12Summary/3DesignPrinciples/34BackgroundRejectionSystem/EmissionEn
 ergySpectrumVetos.png>]
 <Figures/12Summary/3DesignPrinciples/32Tritium_detector/QuantumEfficiencyPMT.pn
-g, id=5141, 370.38374pt x 434.62375pt>
+g, id=5131, 370.38374pt x 434.62375pt>
 File: Figures/12Summary/3DesignPrinciples/32Tritium_detector/QuantumEfficiencyP
 MT.png Graphic file (type png)
 <use Figures/12Summary/3DesignPrinciples/32Tritium_detector/QuantumEfficiencyPM
@@ -5878,7 +5857,7 @@ T.png>
 Package pdftex.def Info: Figures/12Summary/3DesignPrinciples/32Tritium_detector
 /QuantumEfficiencyPMT.png  used on input line 28.
 (pdftex.def)             Requested size: 172.84932pt x 202.82745pt.
-<Figures/12Summary/3DesignPrinciples/32Tritium_detector/SiPMPDE.png, id=5142, 4
+<Figures/12Summary/3DesignPrinciples/32Tritium_detector/SiPMPDE.png, id=5132, 4
 72.76625pt x 460.72125pt>
 File: Figures/12Summary/3DesignPrinciples/32Tritium_detector/SiPMPDE.png Graphi
 c file (type png)
@@ -5919,7 +5898,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 44.
-[203 <./Figures/12Summary/4ResearchAndDevelopments/41Fibers/CuttingDeviceVS.png
+[201 <./Figures/12Summary/4ResearchAndDevelopments/41Fibers/CuttingDeviceVS.png
 > <./Figures/12Summary/4ResearchAndDevelopments/41Fibers/PolishingTable.jpeg> <
 ./Figures/12Summary/3DesignPrinciples/32Tritium_detector/PMT.jpeg> <./Figures/1
 2Summary/3DesignPrinciples/32Tritium_detector/SiPM_Matrix.jpg>]
@@ -5956,7 +5935,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 44.
-[204 <./Figures/12Summary/3DesignPrinciples/32Tritium_detector/QuantumEfficienc
+[202 <./Figures/12Summary/3DesignPrinciples/32Tritium_detector/QuantumEfficienc
 yPMT.png> <./Figures/12Summary/3DesignPrinciples/32Tritium_detector/SiPMPDE.png
 >])
 Package babel Info: Redefining spanish shorthand <<
@@ -6005,14 +5984,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
-[205]
+[203]
 Overfull \hbox (17.18134pt too wide) in paragraph at lines 7--8
 []\T1/cmr/m/n/12 L'electrónica em-plea-da per a cuan s'utilitzen ma-trius de Si
 PMs s'anomena
  []
 
 <Figures/12Summary/3DesignPrinciples/32Tritium_detector/PETSYS_System.png, id=5
-166, 374.39874pt x 309.155pt>
+157, 374.39874pt x 309.155pt>
 File: Figures/12Summary/3DesignPrinciples/32Tritium_detector/PETSYS_System.png 
 Graphic file (type png)
 <use Figures/12Summary/3DesignPrinciples/32Tritium_detector/PETSYS_System.png>
@@ -6066,10 +6045,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
-[206 <./Figures/12Summary/3DesignPrinciples/32Tritium_detector/PETSYS_System.pn
+[204 <./Figures/12Summary/3DesignPrinciples/32Tritium_detector/PETSYS_System.pn
 g>]
 <Figures/12Summary/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraPureWate
-rSystem.png, id=5173, 1516.66624pt x 873.2625pt>
+rSystem.png, id=5164, 1516.66624pt x 873.2625pt>
 File: Figures/12Summary/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraPur
 eWaterSystem.png Graphic file (type png)
 <use Figures/12Summary/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraPure
@@ -6113,7 +6092,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 14.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 14.
-[207])
+[205])
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand >>
@@ -6160,10 +6139,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
-[208 <./Figures/12Summary/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraP
+[206 <./Figures/12Summary/3DesignPrinciples/33UltraPureWaterSystem/SchemeUltraP
 ureWaterSystem.png>]
 <Figures/12Summary/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumStruc
-ture.jpg, id=5187, 4143.48pt x 3107.61pt>
+ture.jpg, id=5177, 4143.48pt x 3107.61pt>
 File: Figures/12Summary/3DesignPrinciples/34BackgroundRejectionSystem/Aluminium
 Structure.jpg Graphic file (type jpg)
 <use Figures/12Summary/3DesignPrinciples/34BackgroundRejectionSystem/AluminiumS
@@ -6172,7 +6151,7 @@ Package pdftex.def Info: Figures/12Summary/3DesignPrinciples/34BackgroundReject
 ionSystem/AluminiumStructure.jpg  used on input line 17.
 (pdftex.def)             Requested size: 268.87737pt x 201.62239pt.
 <Figures/12Summary/3DesignPrinciples/34BackgroundRejectionSystem/Vetos_y_protot
-ipo.png, id=5188, 478.03593pt x 381.67593pt>
+ipo.png, id=5178, 478.03593pt x 381.67593pt>
 File: Figures/12Summary/3DesignPrinciples/34BackgroundRejectionSystem/Vetos_y_p
 rototipo.png Graphic file (type png)
 <use Figures/12Summary/3DesignPrinciples/34BackgroundRejectionSystem/Vetos_y_pr
@@ -6213,7 +6192,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 32.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 32.
-[209]
+[207]
 LaTeX Info: Redefining \. on input line 32.
 LaTeX Info: Redefining \% on input line 32.
 
@@ -6247,11 +6226,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 32.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 32.
-[210 <./Figures/12Summary/3DesignPrinciples/34BackgroundRejectionSystem/Alumini
+[208 <./Figures/12Summary/3DesignPrinciples/34BackgroundRejectionSystem/Alumini
 umStructure.jpg> <./Figures/12Summary/3DesignPrinciples/34BackgroundRejectionSy
 stem/Vetos_y_prototipo.png>]
 <Figures/12Summary/4ResearchAndDevelopments/43CosmicVetos/Cosmic_Energy_Spectru
-m_36_cm_Landau_Function_Val.pdf, id=5199, 569.12625pt x 300.12125pt>
+m_36_cm_Landau_Function_Val.pdf, id=5190, 569.12625pt x 300.12125pt>
 File: Figures/12Summary/4ResearchAndDevelopments/43CosmicVetos/Cosmic_Energy_Sp
 ectrum_36_cm_Landau_Function_Val.pdf Graphic file (type pdf)
 <use Figures/12Summary/4ResearchAndDevelopments/43CosmicVetos/Cosmic_Energy_Spe
@@ -6312,7 +6291,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 377.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 377.
-[211 <./Figures/12Summary/4ResearchAndDevelopments/43CosmicVetos/Cosmic_Energy_
+[209 <./Figures/12Summary/4ResearchAndDevelopments/43CosmicVetos/Cosmic_Energy_
 Spectrum_36_cm_Landau_Function_Val.pdf, page is rotated 90 degrees>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 378.
@@ -6329,7 +6308,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 (./Sections/12Summary/3Prototips/32PrototipsInicials.tex
 <Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Metalic_p
-iece_of_fiber_bundle.png, id=5253, 685.56125pt x 437.635pt>
+iece_of_fiber_bundle.png, id=5244, 685.56125pt x 437.635pt>
 File: Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Meta
 lic_piece_of_fiber_bundle.png Graphic file (type png)
 <use Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Metal
@@ -6338,7 +6317,7 @@ Package pdftex.def Info: Figures/12Summary/5Prototypes/52PreliminarPrototypes/5
 21TritiumIFIC0/Metalic_piece_of_fiber_bundle.png  used on input line 9.
 (pdftex.def)             Requested size: 192.0561pt x 122.59706pt.
 <Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/FiberBund
-leBent.png, id=5254, 643.40375pt x 508.90125pt>
+leBent.png, id=5245, 643.40375pt x 508.90125pt>
 File: Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Fibe
 rBundleBent.png Graphic file (type png)
 <use Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Fiber
@@ -6347,7 +6326,7 @@ Package pdftex.def Info: Figures/12Summary/5Prototypes/52PreliminarPrototypes/5
 21TritiumIFIC0/FiberBundleBent.png  used on input line 15.
 (pdftex.def)             Requested size: 153.64253pt x 121.52534pt.
 <Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Tritium_I
-FIC_0.jpg, id=5255, 2569.6pt x 1927.2pt>
+FIC_0.jpg, id=5246, 2569.6pt x 1927.2pt>
 File: Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Trit
 ium_IFIC_0.jpg Graphic file (type jpg)
 <use Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Triti
@@ -6388,7 +6367,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 28.
-[212]
+[210]
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
 
@@ -6422,12 +6401,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 28.
-[213 <./Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Me
+[211 <./Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Me
 talic_piece_of_fiber_bundle.png> <./Figures/12Summary/5Prototypes/52PreliminarP
 rototypes/521TritiumIFIC0/FiberBundleBent.png> <./Figures/12Summary/5Prototypes
 /52PreliminarPrototypes/521TritiumIFIC0/Tritium_IFIC_0.jpg>]
 <Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/TritiumIF
-IC0Signals.pdf, id=5270, 569.12625pt x 300.12125pt>
+IC0Signals.pdf, id=5260, 569.12625pt x 300.12125pt>
 File: Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Trit
 iumIFIC0Signals.pdf Graphic file (type pdf)
 <use Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Triti
@@ -6436,7 +6415,7 @@ Package pdftex.def Info: Figures/12Summary/5Prototypes/52PreliminarPrototypes/5
 21TritiumIFIC0/TritiumIFIC0Signals.pdf  used on input line 35.
 (pdftex.def)             Requested size: 384.11221pt x 202.56393pt.
 <Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/TritiumIF
-IC0ClearRebin.pdf, id=5271, 569.12625pt x 300.12125pt>
+IC0ClearRebin.pdf, id=5261, 569.12625pt x 300.12125pt>
 File: Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Trit
 iumIFIC0ClearRebin.pdf Graphic file (type pdf)
 <use Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Triti
@@ -6477,7 +6456,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 68.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 68.
-[214]
+[212]
 LaTeX Info: Redefining \. on input line 68.
 LaTeX Info: Redefining \% on input line 68.
 
@@ -6511,7 +6490,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 68.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 68.
-[215 <./Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Tr
+[213 <./Figures/12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Tr
 itiumIFIC0Signals.pdf, page is rotated 90 degrees> <./Figures/12Summary/5Protot
 ypes/52PreliminarPrototypes/521TritiumIFIC0/TritiumIFIC0ClearRebin.pdf, page is
  rotated 90 degrees>]
@@ -6521,7 +6500,7 @@ onsegueix
  []
 
 <Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIF
-IC1a.png, id=5369, 365.365pt x 584.1825pt>
+IC1a.png, id=5360, 365.365pt x 584.1825pt>
 File: Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/Trit
 iumIFIC1a.png Graphic file (type png)
 <use Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/Triti
@@ -6564,9 +6543,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 90.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 90.
-[216]
+[214]
 <Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/FiberMatr
-ixTeflonStructure.png, id=5381, 810.02625pt x 420.57124pt>
+ixTeflonStructure.png, id=5372, 810.02625pt x 420.57124pt>
 File: Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/Fibe
 rMatrixTeflonStructure.png Graphic file (type png)
 <use Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/Fiber
@@ -6579,7 +6558,7 @@ Package pdftex.def Info: Figures/12Summary/5Prototypes/52PreliminarPrototypes/5
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIF
-IC1Signals.pdf, id=5384, 569.12625pt x 300.12125pt>
+IC1Signals.pdf, id=5375, 569.12625pt x 300.12125pt>
 File: Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/Trit
 iumIFIC1Signals.pdf Graphic file (type pdf)
 <use Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/Triti
@@ -6588,7 +6567,7 @@ Package pdftex.def Info: Figures/12Summary/5Prototypes/52PreliminarPrototypes/5
 22TritiumIFIC1/TritiumIFIC1Signals.pdf  used on input line 103.
 (pdftex.def)             Requested size: 384.11221pt x 202.56393pt.
 <Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIF
-IC1Clear.pdf, id=5385, 569.12625pt x 300.12125pt>
+IC1Clear.pdf, id=5376, 569.12625pt x 300.12125pt>
 File: Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/Trit
 iumIFIC1Clear.pdf Graphic file (type pdf)
 <use Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/Triti
@@ -6632,7 +6611,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 381.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 381.
-[217 <./Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/Tr
+[215 <./Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/Tr
 itiumIFIC1a.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 382.
@@ -6680,7 +6659,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
-[218 <./Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/Fi
+[216 <./Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/Fi
 berMatrixTeflonStructure.png>]
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
@@ -6715,7 +6694,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
-[219 <./Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/Tr
+[217 <./Figures/12Summary/5Prototypes/52PreliminarPrototypes/522TritiumIFIC1/Tr
 itiumIFIC1Signals.pdf, page is rotated 90 degrees> <./Figures/12Summary/5Protot
 ypes/52PreliminarPrototypes/522TritiumIFIC1/TritiumIFIC1Clear.pdf, page is rota
 ted 90 degrees>]
@@ -6752,9 +6731,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 12.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 12.
-[220]
+[218]
 <Figures/12Summary/5Prototypes/53FinalPrototypes/531TritiumAveiro/TeflonVessel_
-Fibers.png, id=5500, 493.845pt x 373.395pt>
+Fibers.png, id=5490, 493.845pt x 373.395pt>
 File: Figures/12Summary/5Prototypes/53FinalPrototypes/531TritiumAveiro/TeflonVe
 ssel_Fibers.png Graphic file (type png)
 <use Figures/12Summary/5Prototypes/53FinalPrototypes/531TritiumAveiro/TeflonVes
@@ -6763,7 +6742,7 @@ Package pdftex.def Info: Figures/12Summary/5Prototypes/53FinalPrototypes/531Tri
 tiumAveiro/TeflonVessel_Fibers.png  used on input line 24.
 (pdftex.def)             Requested size: 192.0561pt x 145.20753pt.
 <Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IFIC_2
-_vessel1.png, id=5501, 360.34625pt x 532.99126pt>
+_vessel1.png, id=5491, 360.34625pt x 532.99126pt>
 File: Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_I
 FIC_2_vessel1.png Graphic file (type png)
 <use Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium_IF
@@ -6772,7 +6751,7 @@ Package pdftex.def Info: Figures/12Summary/5Prototypes/53FinalPrototypes/532Tri
 tiumIFIC2/Tritium_IFIC_2_vessel1.png  used on input line 30.
 (pdftex.def)             Requested size: 192.0561pt x 284.06992pt.
 <Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TritiumIFIC2Si
-gnalsHigherZOOM_NP.pdf, id=5505, 569.12625pt x 300.12125pt>
+gnalsHigherZOOM_NP.pdf, id=5495, 569.12625pt x 300.12125pt>
 File: Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TritiumIF
 IC2SignalsHigherZOOM_NP.pdf Graphic file (type pdf)
 <use Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TritiumIFI
@@ -6781,7 +6760,7 @@ Package pdftex.def Info: Figures/12Summary/5Prototypes/53FinalPrototypes/532Tri
 tiumIFIC2/TritiumIFIC2SignalsHigherZOOM_NP.pdf  used on input line 44.
 (pdftex.def)             Requested size: 384.11221pt x 202.56393pt.
 <Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TritiumIFIC2Cl
-earHigherZOOM_NP.pdf, id=5506, 569.12625pt x 300.12125pt>
+earHigherZOOM_NP.pdf, id=5496, 569.12625pt x 300.12125pt>
 File: Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TritiumIF
 IC2ClearHigherZOOM_NP.pdf Graphic file (type pdf)
 <use Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/TritiumIFI
@@ -6827,7 +6806,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 75.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 75.
-[221]
+[219]
 LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
 
@@ -6861,7 +6840,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 75.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 75.
-[222 <./Figures/12Summary/5Prototypes/53FinalPrototypes/531TritiumAveiro/Teflon
+[220 <./Figures/12Summary/5Prototypes/53FinalPrototypes/531TritiumAveiro/Teflon
 Vessel_Fibers.png> <./Figures/12Summary/5Prototypes/53FinalPrototypes/532Tritiu
 mIFIC2/Tritium_IFIC_2_vessel1.png>]
 LaTeX Info: Redefining \. on input line 75.
@@ -6897,12 +6876,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 75.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 75.
-[223 <./Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium
+[221 <./Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Tritium
 IFIC2SignalsHigherZOOM_NP.pdf, page is rotated 90 degrees> <./Figures/12Summary
 /5Prototypes/53FinalPrototypes/532TritiumIFIC2/TritiumIFIC2ClearHigherZOOM_NP.p
 df, page is rotated 90 degrees>]
 <Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Signal_Backgro
-und_stability_ZOOM.pdf, id=5612, 569.12625pt x 300.12125pt>
+und_stability_ZOOM.pdf, id=5603, 569.12625pt x 300.12125pt>
 File: Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Signal_Ba
 ckground_stability_ZOOM.pdf Graphic file (type pdf)
 <use Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Signal_Bac
@@ -6950,9 +6929,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 89.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 89.
-[224]
+[222]
 <Figures/12Summary/5Prototypes/54ArrocampoMeasurements/721TRITIUMAVEIRO0/Backgr
-oundMeasurements.png, id=5619, 656.4525pt x 617.30624pt>
+oundMeasurements.png, id=5609, 656.4525pt x 617.30624pt>
 File: Figures/12Summary/5Prototypes/54ArrocampoMeasurements/721TRITIUMAVEIRO0/B
 ackgroundMeasurements.png Graphic file (type png)
 <use Figures/12Summary/5Prototypes/54ArrocampoMeasurements/721TRITIUMAVEIRO0/Ba
@@ -6979,7 +6958,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 386.
  (./Sections/12Summary/3Prototips/34DisenyModular.tex
 <Figures/12Summary/5Prototypes/55ModularTritiumDetector/Tritium_Detector_Based_
-On_Tritium_IFIC_2.PNG, id=5623, 413.29407pt x 394.47375pt>
+On_Tritium_IFIC_2.PNG, id=5613, 413.29407pt x 394.47375pt>
 File: Figures/12Summary/5Prototypes/55ModularTritiumDetector/Tritium_Detector_B
 ased_On_Tritium_IFIC_2.PNG Graphic file (type png)
 <use Figures/12Summary/5Prototypes/55ModularTritiumDetector/Tritium_Detector_Ba
@@ -7023,9 +7002,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 10.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 10.
-[225 <./Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Signal_
+[223 <./Figures/12Summary/5Prototypes/53FinalPrototypes/532TritiumIFIC2/Signal_
 Background_stability_ZOOM.pdf, page is rotated 90 degrees>]
-<Figures/12Summary/5Prototypes/55ModularTritiumDetector/MDA_vs_NP.pdf, id=5673,
+<Figures/12Summary/5Prototypes/55ModularTritiumDetector/MDA_vs_NP.pdf, id=5663,
  569.12625pt x 300.12125pt>
 File: Figures/12Summary/5Prototypes/55ModularTritiumDetector/MDA_vs_NP.pdf Grap
 hic file (type pdf)
@@ -7073,10 +7052,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 18.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 18.
-[226 <./Figures/12Summary/5Prototypes/54ArrocampoMeasurements/721TRITIUMAVEIRO0
+[224 <./Figures/12Summary/5Prototypes/54ArrocampoMeasurements/721TRITIUMAVEIRO0
 /BackgroundMeasurements.png>]
 <Figures/12Summary/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Results_Severa
-l_Detectors.pdf, id=5680, 569.12625pt x 300.12125pt>
+l_Detectors.pdf, id=5670, 569.12625pt x 300.12125pt>
 File: Figures/12Summary/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Results_S
 everal_Detectors.pdf Graphic file (type pdf)
 <use Figures/12Summary/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Results_Se
@@ -7135,7 +7114,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
-[227 <./Figures/12Summary/5Prototypes/55ModularTritiumDetector/Tritium_Detector
+[225 <./Figures/12Summary/5Prototypes/55ModularTritiumDetector/Tritium_Detector
 _Based_On_Tritium_IFIC_2.PNG>]
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
@@ -7170,7 +7149,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 10.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 10.
-[228 <./Figures/12Summary/5Prototypes/55ModularTritiumDetector/MDA_vs_NP.pdf, p
+[226 <./Figures/12Summary/5Prototypes/55ModularTritiumDetector/MDA_vs_NP.pdf, p
 age is rotated 90 degrees>]
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
@@ -7205,7 +7184,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 17.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 17.
-[229 <./Figures/12Summary/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Results
+[227 <./Figures/12Summary/6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Results
 _Several_Detectors.pdf, page is rotated 90 degrees>]
 Overfull \hbox (5.00084pt too wide) in paragraph at lines 27--28
 \T1/cmr/m/n/12 va com-pro-var que l'activitat ob-jec-tiu del pro-jec-te TRI-TIU
@@ -7244,7 +7223,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 28.
-[230])
+[228])
 LaTeX Info: Redefining \. on input line 392.
 LaTeX Info: Redefining \% on input line 392.
 
@@ -7278,7 +7257,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 392.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 392.
-[231]
+[229]
 LaTeX Info: Redefining \. on input line 397.
 LaTeX Info: Redefining \% on input line 397.
 
@@ -7288,14 +7267,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[232
+[230
 
-] [233] [234]
+] [231] [232]
 Appendix A.
-(./Sections/10Appendix/101SiPMsElectronicalSystemFutureCalibration.tex [235
+(./Sections/10Appendix/101SiPMsElectronicalSystemFutureCalibration.tex [233
 
 ]
-<Figures/3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg, id=5831,
+<Figures/3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg, id=5822,
  3131.7pt x 4175.6pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg Grap
 hic file (type jpg)
@@ -7303,7 +7282,7 @@ hic file (type jpg)
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/PCB1_SiPM
 _Black_Box.jpg  used on input line 16.
 (pdftex.def)             Requested size: 192.0561pt x 256.06834pt.
-<Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png, id=5832, 264.99pt
+<Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png, id=5823, 264.99pt
  x 264.99pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png Graphic file 
 (type png)
@@ -7311,7 +7290,7 @@ File: Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png Graphic file
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPM
 s.png  used on input line 22.
 (pdftex.def)             Requested size: 172.84932pt x 172.852pt.
-<Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png, id=5833, 705.6362
+<Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png, id=5824, 705.6362
 5pt x 497.86pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png Graphic file 
 (type png)
@@ -7319,7 +7298,7 @@ File: Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPMs.png Graphic file
 Package pdftex.def Info: Figures/3DesignPrinciples/32Tritium_detector/PCB3_SiPM
 s.png  used on input line 28.
 (pdftex.def)             Requested size: 153.64253pt x 108.39761pt.
-<Figures/3DesignPrinciples/32Tritium_detector/LED_DUNE.pdf, id=5834, 569.12625p
+<Figures/3DesignPrinciples/32Tritium_detector/LED_DUNE.pdf, id=5825, 569.12625p
 t x 303.1325pt>
 File: Figures/3DesignPrinciples/32Tritium_detector/LED_DUNE.pdf Graphic file (t
 ype pdf)
@@ -7334,14 +7313,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[236]
+[234]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 27.11469pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[237 <./Figures/3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg> <
+[235 <./Figures/3DesignPrinciples/32Tritium_detector/PCB1_SiPM_Black_Box.jpg> <
 ./Figures/3DesignPrinciples/32Tritium_detector/PCB2_SIPMs.png> <./Figures/3Desi
 gnPrinciples/32Tritium_detector/PCB3_SiPMs.png> <./Figures/3DesignPrinciples/32
 Tritium_detector/LED_DUNE.pdf, page is rotated 90 degrees>]
@@ -7351,13 +7330,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[238
+[236
 
 ]
 Appendix B.
 (./Sections/10Appendix/102UltraPureWaterSystem.tex
 <Figures/9Appendix/93UltraPureWaterSystem/SchemeUltraPureWaterSystem.png, id=58
-96, 1516.66624pt x 873.2625pt>
+86, 1516.66624pt x 873.2625pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/SchemeUltraPureWaterSystem.png G
 raphic file (type png)
 <use Figures/9Appendix/93UltraPureWaterSystem/SchemeUltraPureWaterSystem.png>
@@ -7369,7 +7348,7 @@ Overfull \hbox (14.22636pt too wide) in paragraph at lines 7--8
  [][] 
  []
 
-<Figures/9Appendix/93UltraPureWaterSystem/GrossFiltering.png, id=5898, 197.7387
+<Figures/9Appendix/93UltraPureWaterSystem/GrossFiltering.png, id=5888, 197.7387
 5pt x 261.97874pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/GrossFiltering.png Graphic file 
 (type png)
@@ -7377,7 +7356,7 @@ File: Figures/9Appendix/93UltraPureWaterSystem/GrossFiltering.png Graphic file
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/GrossFilterin
 g.png  used on input line 17.
 (pdftex.def)             Requested size: 115.23483pt x 152.67131pt.
-<Figures/9Appendix/93UltraPureWaterSystem/FineFiltering.png, id=5899, 363.60844
+<Figures/9Appendix/93UltraPureWaterSystem/FineFiltering.png, id=5889, 363.60844
 pt x 475.7775pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/FineFiltering.png Graphic file (
 type png)
@@ -7385,7 +7364,7 @@ type png)
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/FineFiltering
 .png  used on input line 23.
 (pdftex.def)             Requested size: 115.23483pt x 150.78543pt.
-<Figures/9Appendix/93UltraPureWaterSystem/SuperFineFiltering.png, id=5900, 378.
+<Figures/9Appendix/93UltraPureWaterSystem/SuperFineFiltering.png, id=5890, 378.
 66469pt x 511.9125pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/SuperFineFiltering.png Graphic f
 ile (type png)
@@ -7393,7 +7372,7 @@ ile (type png)
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/SuperFineFilt
 ering.png  used on input line 29.
 (pdftex.def)             Requested size: 115.23483pt x 155.78549pt.
-<Figures/9Appendix/93UltraPureWaterSystem/Osmosi.png, id=5903, 339.2675pt x 453
+<Figures/9Appendix/93UltraPureWaterSystem/Osmosi.png, id=5893, 339.2675pt x 453
 .695pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/Osmosi.png Graphic file (type pn
 g)
@@ -7401,7 +7380,7 @@ g)
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/Osmosi.png  u
 sed on input line 42.
 (pdftex.def)             Requested size: 115.23483pt x 154.09503pt.
-<Figures/9Appendix/93UltraPureWaterSystem/Containers.png, id=5904, 620.3175pt x
+<Figures/9Appendix/93UltraPureWaterSystem/Containers.png, id=5894, 620.3175pt x
  435.6275pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/Containers.png Graphic file (typ
 e png)
@@ -7409,7 +7388,7 @@ e png)
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/Containers.pn
 g  used on input line 48.
 (pdftex.def)             Requested size: 192.0561pt x 134.8703pt.
-<Figures/9Appendix/93UltraPureWaterSystem/Siemens1.png, id=5906, 429.605pt x 23
+<Figures/9Appendix/93UltraPureWaterSystem/Siemens1.png, id=5896, 429.605pt x 23
 8.8925pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/Siemens1.png Graphic file (type 
 png)
@@ -7417,7 +7396,7 @@ png)
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/Siemens1.png 
  used on input line 61.
 (pdftex.def)             Requested size: 230.46967pt x 128.15797pt.
-<Figures/9Appendix/93UltraPureWaterSystem/Siemens2.png, id=5907, 517.935pt x 34
+<Figures/9Appendix/93UltraPureWaterSystem/Siemens2.png, id=5897, 517.935pt x 34
 6.29375pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/Siemens2.png Graphic file (type 
 png)
@@ -7425,7 +7404,7 @@ png)
 Package pdftex.def Info: Figures/9Appendix/93UltraPureWaterSystem/Siemens2.png 
  used on input line 67.
 (pdftex.def)             Requested size: 230.46967pt x 154.0923pt.
-<Figures/9Appendix/93UltraPureWaterSystem/CompleteSystem.png, id=5909, 568.1225
+<Figures/9Appendix/93UltraPureWaterSystem/CompleteSystem.png, id=5899, 568.1225
 pt x 249.93375pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/CompleteSystem.png Graphic file 
 (type png)
@@ -7436,18 +7415,18 @@ m.png  used on input line 78.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [239]
+ [237]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[240 <./Figures/9Appendix/93UltraPureWaterSystem/SchemeUltraPureWaterSystem.png
+[238 <./Figures/9Appendix/93UltraPureWaterSystem/SchemeUltraPureWaterSystem.png
 > <./Figures/9Appendix/93UltraPureWaterSystem/GrossFiltering.png> <./Figures/9A
 ppendix/93UltraPureWaterSystem/FineFiltering.png> <./Figures/9Appendix/93UltraP
 ureWaterSystem/SuperFineFiltering.png>]
-<Figures/9Appendix/93UltraPureWaterSystem/ThreeTypesOfWater.png, id=5923, 583.1
+<Figures/9Appendix/93UltraPureWaterSystem/ThreeTypesOfWater.png, id=5914, 583.1
 7876pt x 450.68375pt>
 File: Figures/9Appendix/93UltraPureWaterSystem/ThreeTypesOfWater.png Graphic fi
 le (type png)
@@ -7462,7 +7441,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[241 <./Figures/9Appendix/93UltraPureWaterSystem/Osmosi.png> <./Figures/9Append
+[239 <./Figures/9Appendix/93UltraPureWaterSystem/Osmosi.png> <./Figures/9Append
 ix/93UltraPureWaterSystem/Containers.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -7470,7 +7449,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[242 <./Figures/9Appendix/93UltraPureWaterSystem/Siemens1.png> <./Figures/9Appe
+[240 <./Figures/9Appendix/93UltraPureWaterSystem/Siemens1.png> <./Figures/9Appe
 ndix/93UltraPureWaterSystem/Siemens2.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -7478,8 +7457,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[243 <./Figures/9Appendix/93UltraPureWaterSystem/CompleteSystem.png> <./Figures
+[241 <./Figures/9Appendix/93UltraPureWaterSystem/CompleteSystem.png> <./Figures
 /9Appendix/93UltraPureWaterSystem/ThreeTypesOfWater.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[242
+
+]
+Appendix C.
+(./Sections/10Appendix/103TritiumSource.tex) [243]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7489,20 +7479,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [244
 
 ]
-Appendix C.
-(./Sections/10Appendix/103TritiumSource.tex) [245]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[246
-
-]
 Appendix D.
 (./Sections/10Appendix/104ElectronicSystemAveiro.tex
-<Figures/9Appendix/94AveiroElectronics/TritiumHV-Board.pdf, id=5962, 845.1575pt
+<Figures/9Appendix/94AveiroElectronics/TritiumHV-Board.pdf, id=5953, 845.1575pt
  x 597.23125pt>
 File: Figures/9Appendix/94AveiroElectronics/TritiumHV-Board.pdf Graphic file (t
 ype pdf)
@@ -7510,7 +7489,7 @@ ype pdf)
 Package pdftex.def Info: Figures/9Appendix/94AveiroElectronics/TritiumHV-Board.
 pdf  used on input line 11.
 (pdftex.def)             Requested size: 172.84932pt x 122.14157pt.
-<Figures/9Appendix/94AveiroElectronics/GUIHVBoard.png, id=5963, 578.16pt x 600.
+<Figures/9Appendix/94AveiroElectronics/GUIHVBoard.png, id=5954, 578.16pt x 600.
 2425pt>
 File: Figures/9Appendix/94AveiroElectronics/GUIHVBoard.png Graphic file (type p
 ng)
@@ -7518,9 +7497,9 @@ ng)
 Package pdftex.def Info: Figures/9Appendix/94AveiroElectronics/GUIHVBoard.png  
 used on input line 17.
 (pdftex.def)             Requested size: 172.84932pt x 179.45132pt.
- [247]
-<Figures/9Appendix/94AveiroElectronics/ElectronicSchemeCounterBoard.png, id=597
-5, 780.9175pt x 351.3125pt>
+ [245]
+<Figures/9Appendix/94AveiroElectronics/ElectronicSchemeCounterBoard.png, id=596
+6, 780.9175pt x 351.3125pt>
 File: Figures/9Appendix/94AveiroElectronics/ElectronicSchemeCounterBoard.png Gr
 aphic file (type png)
 <use Figures/9Appendix/94AveiroElectronics/ElectronicSchemeCounterBoard.png>
@@ -7537,7 +7516,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[248 <./Figures/9Appendix/94AveiroElectronics/TritiumHV-Board.pdf> <./Figures/9
+[246 <./Figures/9Appendix/94AveiroElectronics/TritiumHV-Board.pdf> <./Figures/9
 Appendix/94AveiroElectronics/GUIHVBoard.png>]
 Overfull \hbox (11.82031pt too wide) in paragraph at lines 42--43
 []\T1/cmr/m/n/12 Finally a tun-able pulse stretcher based on an OR gate, model 
@@ -7550,9 +7529,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[249 <./Figures/9Appendix/94AveiroElectronics/ElectronicSchemeCounterBoard.png>
+[247 <./Figures/9Appendix/94AveiroElectronics/ElectronicSchemeCounterBoard.png>
 ]
-<Figures/9Appendix/94AveiroElectronics/CounterGUI.png, id=6010, 888.31876pt x 5
+<Figures/9Appendix/94AveiroElectronics/CounterGUI.png, id=6000, 888.31876pt x 5
 53.06625pt>
 File: Figures/9Appendix/94AveiroElectronics/CounterGUI.png Graphic file (type p
 ng)
@@ -7571,9 +7550,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[250 <./Figures/9Appendix/94AveiroElectronics/CounterGUI.png>]
+[248 <./Figures/9Appendix/94AveiroElectronics/CounterGUI.png>]
 <Figures/9Appendix/94AveiroElectronics/Event_accepted_Aveiro_prototype.png, id=
-6018, 413.545pt x 246.9225pt>
+6008, 413.545pt x 246.9225pt>
 File: Figures/9Appendix/94AveiroElectronics/Event_accepted_Aveiro_prototype.png
  Graphic file (type png)
 <use Figures/9Appendix/94AveiroElectronics/Event_accepted_Aveiro_prototype.png>
@@ -7582,7 +7561,7 @@ Package pdftex.def Info: Figures/9Appendix/94AveiroElectronics/Event_accepted_A
 veiro_prototype.png  used on input line 68.
 (pdftex.def)             Requested size: 161.32642pt x 96.32574pt.
 <Figures/9Appendix/94AveiroElectronics/Event_rejected_Aveiro_prototype.png, id=
-6019, 406.51875pt x 246.9225pt>
+6009, 406.51875pt x 246.9225pt>
 File: Figures/9Appendix/94AveiroElectronics/Event_rejected_Aveiro_prototype.png
  Graphic file (type png)
 <use Figures/9Appendix/94AveiroElectronics/Event_rejected_Aveiro_prototype.png>
@@ -7598,7 +7577,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[251 <./Figures/9Appendix/94AveiroElectronics/Event_accepted_Aveiro_prototype.p
+[249 <./Figures/9Appendix/94AveiroElectronics/Event_accepted_Aveiro_prototype.p
 ng> <./Figures/9Appendix/94AveiroElectronics/Event_rejected_Aveiro_prototype.pn
 g>]
 
@@ -7607,7 +7586,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[252
+[250
 
 ]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 9.
@@ -7616,7 +7595,7 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Underfull \vbox (badness 3803) has occurred while \output is active []
 
- [253]
+ [251]
 Underfull \hbox (badness 1789) in paragraph at lines 34--37
 []\T1/cmr/m/n/12 AmpTek, Ma-ter-i-als Ana-lysis Di-vi-sion, \T1/cmr/m/it/12 MCA
 8000D, Pocket
@@ -7628,7 +7607,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[254]
+[252]
 Underfull \hbox (badness 2173) in paragraph at lines 90--93
 []\T1/cmr/m/n/12 Born, Max and Wolf, Emil, \T1/cmr/m/it/12 Prin-ciples of Op-ti
 cs: 60th
@@ -7646,7 +7625,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[255]
+[253]
 Underfull \hbox (badness 5667) in paragraph at lines 115--118
 []\T1/cmr/m/n/12 Calmon, P. and Garnier-Laplace, J., \T1/cmr/m/it/12 Tri-tium a
 nd the
@@ -7675,7 +7654,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[256]
+[254]
 Underfull \hbox (badness 4805) in paragraph at lines 168--169
 []\T1/cmr/m/n/12 DYCOMETAL, \T1/cmr/m/it/12 Cli-matic Cham-ber Model CCK 85\T1/
 cmr/m/n/12 , DY-
@@ -7687,7 +7666,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[257]
+[255]
 Underfull \hbox (badness 10000) in paragraph at lines 200--204
 []\T1/cmr/m/n/12 Europa Press, \T1/cmr/m/it/12 China Con-stru-irá al Menos 60
  []
@@ -7720,7 +7699,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[258]
+[256]
 Underfull \hbox (badness 3219) in paragraph at lines 244--246
 []\T1/cmr/m/n/12 Hamamatsu Photon-ics K.K., \T1/cmr/m/it/12 High Voltage Power 
 Sup-ply
@@ -7750,7 +7729,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[259]
+[257]
 Underfull \hbox (badness 3439) in paragraph at lines 301--305
 []\T1/cmr/m/n/12 ICRP, \T1/cmr/m/it/12 1990 Re-com-mend-a-tions of the In-ter-n
 a-tional Com-
@@ -7792,7 +7771,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[260]
+[258]
 Underfull \hbox (badness 6412) in paragraph at lines 330--331
 []\T1/cmr/m/n/12 International So-ci-ety of Ra-di-ology (ISR), []$\T1/cmtt/m/n/
 12 https : / / www .
@@ -7816,7 +7795,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[261]
+[259]
 Underfull \hbox (badness 1881) in paragraph at lines 379--382
 []\T1/cmr/m/n/12 Knoll, G. F., \T1/cmr/m/it/12 Ra-di-ation De-tec-tion and Meas
 -ure-ment, 4th
@@ -7834,7 +7813,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[262]
+[260]
 Underfull \hbox (badness 3364) in paragraph at lines 424--428
 []\T1/cmr/m/n/12 Masuda, T. and Yosh-ioka, T., \T1/cmr/m/it/12 Es-tim-a-tion of
  Ra-di-ation
@@ -7857,7 +7836,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[263]
+[261]
 Underfull \hbox (badness 10000) in paragraph at lines 481--484
 []\T1/cmr/m/n/12 Noelia Lopez Re-dondo, \T1/cmr/m/it/12 Es-ta-dos Unidos Anun-c
 ia una
@@ -7886,7 +7865,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[264]
+[262]
 Underfull \hbox (badness 2608) in paragraph at lines 508--510
 []\T1/cmr/m/n/12 ORTEC, A., \T1/cmr/m/it/12 Model 671 Spec-tro-scopy Amp-li-fie
 r\T1/cmr/m/n/12 , OR-TEC,
@@ -7915,7 +7894,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[265]
+[263]
 Underfull \hbox (badness 10000) in paragraph at lines 538--540
 []\T1/cmr/m/n/12 PETsys, \T1/cmr/m/it/12 PET-sys Elec-tron-ics\T1/cmr/m/n/12 , 
 []$\T1/cmtt/m/n/12 https : / / www .
@@ -7966,7 +7945,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[266]
+[264]
 Underfull \hbox (badness 10000) in paragraph at lines 581--586
 []\T1/cmr/m/n/12 Réseau Na-tional de mesures de la ra-dio-activ-ité de
  []
@@ -7977,7 +7956,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[267]
+[265]
 Underfull \hbox (badness 5519) in paragraph at lines 621--625
 \T1/cmr/m/n/12 23--28, URL []$\T1/cmtt/m/n/12 http : / / yadda . icm . edu . pl
  / baztech / element /
@@ -7989,7 +7968,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[268]
+[266]
 Underfull \hbox (badness 10000) in paragraph at lines 668--671
 []\T1/cmr/m/n/12 Straume, T. and Carsten, A. L., \T1/cmr/m/it/12 Tri-tium Ra-di
 obi-o-
@@ -8019,7 +7998,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[269]
+[267]
 Underfull \hbox (badness 10000) in paragraph at lines 730--732
 []\T1/cmr/m/n/12 Tritium Col-lab-or-a-tion, \T1/cmr/m/it/12 Tri-tium, In-ter-re
 g
@@ -8070,7 +8049,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[270])
+[268])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 431.
 
 
@@ -8079,7 +8058,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[271]
+[269]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 431.
  (./Tesis_Marcos_Martinez_Roig_v3.aux
 LaTeX Info: Redefining \. on input line 27.
@@ -8099,9 +8078,9 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 431.
  ) 
 Here is how much of TeX's memory you used:
- 22413 strings out of 492982
- 460330 string characters out of 6134895
- 520432 words of memory out of 5000000
+ 22412 strings out of 492982
+ 460322 string characters out of 6134895
+ 520476 words of memory out of 5000000
  24275 multiletter control sequences out of 15000+600000
  555821 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -8189,11 +8168,11 @@ e1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
 fti0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/sh
 are/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sftt1200.pfb>
-Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (311 pages, 45248613 bytes)
+Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (309 pages, 45246990 bytes)
 .
 PDF statistics:
- 6578 PDF objects out of 7423 (max. 8388607)
- 4473 compressed objects within 45 object streams
- 930 named destinations out of 1000 (max. 500000)
+ 6569 PDF objects out of 7423 (max. 8388607)
+ 4466 compressed objects within 45 object streams
+ 929 named destinations out of 1000 (max. 500000)
  1778 words of extra memory for PDF output out of 10000 (max. 10000000)
 
