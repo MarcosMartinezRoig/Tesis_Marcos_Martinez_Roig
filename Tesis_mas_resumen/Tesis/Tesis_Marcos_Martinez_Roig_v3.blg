@@ -3,48 +3,52 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Tesis_Marcos_Martinez_Roig_v3.aux
 The style file: marcosxxnew.bst
 Database file #1: tesis.bib
+Warning--entry type for "FranceTritiumEnvironment" isn't style-file defined
+--line 243 of file tesis.bib
 Warning--I didn't find a database entry for "CrossSeccionNeutrons"
-Warning--to sort, need author or key in SaintGobain
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty journal in Spain_GL
+Warning--empty pages in Ratnakaran2000
+Warning--empty pages in ROOTWebPage2
 You've used 157 entries,
             3015 wiz_defined-function locations,
-            1636 strings with 40132 characters,
-and the built_in function-call counts, 56734 in all, are:
-= -- 3999
-> -- 1651
-< -- 165
-+ -- 651
-- -- 471
-* -- 4078
-:= -- 7355
+            1652 strings with 40865 characters,
+and the built_in function-call counts, 56957 in all, are:
+= -- 4012
+> -- 1656
+< -- 164
++ -- 652
+- -- 473
+* -- 4108
+:= -- 7397
 add.period$ -- 157
 call.type$ -- 157
-change.case$ -- 721
-chr.to.int$ -- 137
-cite$ -- 159
+change.case$ -- 717
+chr.to.int$ -- 138
+cite$ -- 160
 duplicate$ -- 5110
-empty$ -- 5277
-format.name$ -- 821
-if$ -- 11349
-int.to.chr$ -- 21
+empty$ -- 5299
+format.name$ -- 825
+if$ -- 11393
+int.to.chr$ -- 20
 int.to.str$ -- 0
-missing$ -- 958
+missing$ -- 959
 newline$ -- 476
-num.names$ -- 315
-pop$ -- 2192
+num.names$ -- 316
+pop$ -- 2194
 preamble$ -- 1
-purify$ -- 1020
+purify$ -- 1021
 quote$ -- 0
-skip$ -- 1768
+skip$ -- 1767
 stack$ -- 0
-substring$ -- 1987
-swap$ -- 2366
-text.length$ -- 165
-text.prefix$ -- 151
+substring$ -- 2043
+swap$ -- 2364
+text.length$ -- 164
+text.prefix$ -- 152
 top$ -- 0
-type$ -- 1222
-warning$ -- 1
-while$ -- 359
+type$ -- 1228
+warning$ -- 3
+while$ -- 364
 width$ -- 161
-write$ -- 1313
-(There were 2 warnings)
+write$ -- 1306
+(There were 5 warnings)
