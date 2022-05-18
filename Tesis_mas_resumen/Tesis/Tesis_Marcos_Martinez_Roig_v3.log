@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  17 MAY 2022 16:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.12)  18 MAY 2022 17:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5302,14 +5302,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[195]
+[195])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.61858pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[196]) (./Sections/12Summary/2PrincipisDiseny/22Detector.tex
+[196] (./Sections/12Summary/2PrincipisDiseny/22Detector.tex
 <Figures/12Summary/3DesignPrinciples/32Tritium_detector/ScintillatorDetector.pn
 g, id=5101, 688.82344pt x 250.68657pt>
 File: Figures/12Summary/3DesignPrinciples/32Tritium_detector/ScintillatorDetect
@@ -5388,6 +5388,23 @@ lishingTable.jpeg  used on input line 35.
 (pdftex.def)             Requested size: 758.83316pt x 1349.03671pt.
 )
 (./Sections/12Summary/2PrincipisDiseny/222Photosensors.tex
+<Figures/12Summary/3DesignPrinciples/32Tritium_detector/PMT.jpeg, id=5127, 318.
+18875pt x 159.59625pt>
+File: Figures/12Summary/3DesignPrinciples/32Tritium_detector/PMT.jpeg Graphic f
+ile (type jpg)
+<use Figures/12Summary/3DesignPrinciples/32Tritium_detector/PMT.jpeg>
+Package pdftex.def Info: Figures/12Summary/3DesignPrinciples/32Tritium_detector
+/PMT.jpeg  used on input line 9.
+(pdftex.def)             Requested size: 153.64253pt x 77.06314pt.
+<Figures/12Summary/3DesignPrinciples/32Tritium_detector/SiPM_Matrix.jpg, id=512
+8, 723.70375pt x 462.72874pt>
+File: Figures/12Summary/3DesignPrinciples/32Tritium_detector/SiPM_Matrix.jpg Gr
+aphic file (type jpg)
+<use Figures/12Summary/3DesignPrinciples/32Tritium_detector/SiPM_Matrix.jpg>
+Package pdftex.def Info: Figures/12Summary/3DesignPrinciples/32Tritium_detector
+/SiPM_Matrix.jpg  used on input line 15.
+(pdftex.def)             Requested size: 153.64253pt x 98.235pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.61858pt.
@@ -5396,22 +5413,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [200 <./Figures/12Summary/4ResearchAndDevelopments/41Fibers/CuttingDeviceVS.png
 > <./Figures/12Summary/4ResearchAndDevelopments/41Fibers/PolishingTable.jpeg>]
-<Figures/12Summary/3DesignPrinciples/32Tritium_detector/PMT.jpeg, id=5132, 318.
-18875pt x 159.59625pt>
-File: Figures/12Summary/3DesignPrinciples/32Tritium_detector/PMT.jpeg Graphic f
-ile (type jpg)
-<use Figures/12Summary/3DesignPrinciples/32Tritium_detector/PMT.jpeg>
-Package pdftex.def Info: Figures/12Summary/3DesignPrinciples/32Tritium_detector
-/PMT.jpeg  used on input line 9.
-(pdftex.def)             Requested size: 153.64253pt x 77.06314pt.
-<Figures/12Summary/3DesignPrinciples/32Tritium_detector/SiPM_Matrix.jpg, id=513
-3, 723.70375pt x 462.72874pt>
-File: Figures/12Summary/3DesignPrinciples/32Tritium_detector/SiPM_Matrix.jpg Gr
-aphic file (type jpg)
-<use Figures/12Summary/3DesignPrinciples/32Tritium_detector/SiPM_Matrix.jpg>
-Package pdftex.def Info: Figures/12Summary/3DesignPrinciples/32Tritium_detector
-/SiPM_Matrix.jpg  used on input line 15.
-(pdftex.def)             Requested size: 153.64253pt x 98.235pt.
 <Figures/12Summary/3DesignPrinciples/32Tritium_detector/QuantumEfficiencyPMT.pn
 g, id=5135, 370.38374pt x 434.62375pt>
 File: Figures/12Summary/3DesignPrinciples/32Tritium_detector/QuantumEfficiencyP
@@ -5432,6 +5433,10 @@ Package pdftex.def Info: Figures/12Summary/3DesignPrinciples/32Tritium_detector
 
 
 LaTeX Warning: Float too large for page by 171.90572pt on input line 39.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -5458,6 +5463,9 @@ Graphic file (type png)
 Package pdftex.def Info: Figures/12Summary/3DesignPrinciples/32Tritium_detector
 /PETSYS_System.png  used on input line 10.
 (pdftex.def)             Requested size: 187.19891pt x 154.57712pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6638,7 +6646,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 433.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 433.
 Package rerunfilecheck Info: File `Tesis_Marcos_Martinez_Roig_v3.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: B8F98BB312D9D947058B12C26DCC58D4;6624.
+(rerunfilecheck)             Checksum: B151701602D2F365D7C25C64575AB4AC;6622.
 
 
 LaTeX Warning: There were undefined references.
@@ -6648,7 +6656,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 433.
 Here is how much of TeX's memory you used:
  22454 strings out of 492982
  460947 string characters out of 6134895
- 524063 words of memory out of 5000000
+ 523065 words of memory out of 5000000
  24313 multiletter control sequences out of 15000+600000
  555821 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -6736,7 +6744,7 @@ e1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
 fti0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/sh
 are/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sftt1200.pfb>
-Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (307 pages, 45244071 bytes)
+Output written on Tesis_Marcos_Martinez_Roig_v3.pdf (307 pages, 45244097 bytes)
 .
 PDF statistics:
  6566 PDF objects out of 7423 (max. 8388607)
