@@ -1,6 +1,4 @@
-El primer prototip del detector de triti desenvolupat en la col·laboració TRITIUM s'anomena TRITIUM-IFIC-0, el qual va ser dissenyat i construït als tallers de l'IFIC, a València. Aquest va consistir en un prototip a escala que pretenia ser una prova de concepte, és a dir, es pretenia provar la viabilitat de la tecnologia proposada per la col·laboració TRITIUM (fibres centellejadores llegides per fotosensors) per a la detecció de baixes activitats de triti al aigua.
-
-Aquest prototip consisteix en un conjunt de $35$ fibres centellejadores, mostrades a la Figura \ref{subfig:FibresDobladesTritiumIFIC0}, cadascuna de les quals té $1~\mm$ de diàmetre i $20~\cm$ de longitud. Aquestes van ser polides manualment i es van unir amb una pesa metàl·lica als extrems la qual s'utilitzada per fixar-les en el atuell del prototip. Aquest atuell, mostrat a la Figura \ref{subfig:PrototipTritiumIFIC0}, consisteix en una estructura de PVC. La forma corbada d'aquest li confereix una major radioseguretat al preu d'una menor eficiència en la detecció del triti, un preu a pagar en els primers prototips ja que simplement es pretenia realitzar una prova de concepte i no un disseny final optimitzat. Dos PMTs calibrats, model R$8520-460$ de Hamamatsu Photonics \cite{DataSheetPMTs}, van ser ensamblats a aquestes fibres utilitzant greix òptic \cite{OpticalGrease} i llegits en coincidència temporal.
+El primer prototip del detector de triti desenvolupat en la col·laboració TRITIUM s'anomena TRITIUM-IFIC-0, el qual va ser dissenyat i construït als tallers de l'IFIC. Amb aquest prototip es pretenia provar la viabilitat de la tecnologia proposada per la col·laboració TRITIUM (fibres centellejadores llegides per fotosensors) per a la detecció de baixes activitats de triti a l'aigua. Aquest prototip consisteix en un conjunt de $35$ fibres centellejadores, mostrades a la Figura \ref{subfig:FibresDobladesTritiumIFIC0}, d'$1~\mm$ de diàmetre i $20~\cm$ de longitud. Aquestes van ser polides manualment i es van unir amb una peça metàl·lica als extrems, la qual es utilitzada per fixar-les a l'atuell del prototip. Aquest atuell, mostrat a la Figura \ref{subfig:PrototipTritiumIFIC0}, consisteix en una estructura de PVC. La forma corbada d'aquest li confereix una major radioseguretat al preu d'una menor eficiència de detecció del triti, un preu a pagar en els primers prototips, on simplement es pretenia realitzar una prova de concepte i no un disseny final optimitzat. Dos PMTs calibrats, model R$8520-06ESL$ de Hamamatsu Photonics \cite{DataSheetPMTs}, van ser assemblats a aquestes fibres amb greix òptic \cite{OpticalGrease} i llegits en coincidència.
 
 \begin{figure}
 \centering
@@ -21,12 +19,12 @@ Aquest prototip consisteix en un conjunt de $35$ fibres centellejadores, mostrad
     \includegraphics[width=\textwidth]{12Summary/5Prototypes/52PreliminarPrototypes/521TritiumIFIC0/Tritium_IFIC_0.jpg}  
     \caption{\label{subfig:PrototipTritiumIFIC0}}
     \end{subfigure}
- \caption{a) Pesa metàl·lica utilitzada per unir les fibres centellejadores del prototip TRITIUM-IFIC-0. b) Fibres centellejadores utilitzades en el prototip TRITIUM-IFIC-0. c) Prototip TRITIUM-IFIC-0.} \label{fig:TritiumIFIC0s}
+ \caption{a) Peça metàl·lica utilitzada per a unir les fibres centellejadores a l'atuell del prototip TRITIUM-IFIC-0. b) Feix de fibres centellejadores utilitzades en el prototip TRITIUM-IFIC-0. c) Atuell del prototip TRITIUM-IFIC-0.} \label{fig:TritiumIFIC0s}
 \end{figure}
 
-Com ja hem comentat a la secció \ref{subsec:SistemaRebuigFons}, el detector presenta una taxa de recompte no nul·la en absència de font radioactiva a causa de l'existència del fons radioactiu (elements radioactius presents a l'entorn o rajos còsmics procedents de fonts extraterrestres). Aquesta radioactivitat mesurada pel detector ha de ser quantificada i sostreta de la mesura amb font radioactiva per determinar l'activitat de la font emprada (aigua tritada en el nostre cas). Per realitzar aquesta tasca es van construir dos prototips idèntics, un omplit únicament amb aigua hiperpura, que ens referirem com el prototip del fons i servirà per determinar aquest fons radioactiu, i un altre omplit amb una dissolució d'aigua tritiada d'activitat específica coneguda ($\text{A}=99.696~\kilo\becquerel/\liter$), al que ens referirem com el prototip del senyal. L'activitat del triti mesurada per el prototip es obtinguda com la diferència de la mesura dels dos prototips.
+Com ja hem comentat a la secció \ref{subsec:SistemaRebuigFons}, el detector presenta una taxa de recompte no nul·la en absència de font radioactiva a causa de l'existència del fons radioactiu. Aquesta radioactivitat mesurada pel detector ha de ser quantificada i sostreta de la mesura amb font radioactiva per determinar l'activitat d'aquesta (aigua tritiada en el nostre cas). Per a complir aquesta tasca es van construir dos prototips idèntics, un omplit únicament amb aigua hiperpura, al que ens referirem com el prototip del fons i servirà per a determinar aquest fons radioactiu, i un altre omplit amb una dissolució d'aigua tritiada d'activitat específica coneguda ($\text{A}=99.696~\kilo\becquerel/\liter$), al que ens referirem com el prototip del senyal. L'activitat del triti mesurada pel prototip és obtinguda com la diferència de la mesura dels dos prototips.
 
-Apenes es van mesurar esdeveniments utilitzant la coincidència temporal dels dos PMTs, probablement degut, entre altres coses, al disseny corbat del atuell, per tant es va realitzar la mesura individual dels PMTs. L'espectre d'energia mesurat al prototip del senyal, el prototip del fons i la diferència (espectre d'energia del triti) es mostren a la Figura \ref{fig:EspectresEnergeticsTritiumIFIC0}. Els contes per segon mesurats per a les tres situacions, obtinguts com la integral dels respectius espectres d'energia, són mostrats a la Tabla \ref{tab:ContesPerSegonTRITIUMIFIC0}. 
+A penes es van mesurar esdeveniments utilitzant la coincidència dels dos PMTs, probablement a causa, entre altres coses, del disseny corbat de l'atuell, per tant es va fer la mesura individual dels PMTs. L'espectre d'energia mesurat al prototip del senyal, el prototip del fons i la diferència (espectre d'energia del triti) es mostren a la Figura \ref{fig:EspectresEnergeticsTritiumIFIC0}. Les taxes de comptatge mesurades per a les tres situacions, obtingudes com la integral dels respectius espectres d'energia, són mostrades a la Tabla \ref{tab:ContesPerSegonTRITIUMIFIC0}. 
 
 \begin{figure}
 \centering
@@ -49,15 +47,15 @@ Apenes es van mesurar esdeveniments utilitzant la coincidència temporal dels do
 \centering{}%
 \begin{tabular}{cc}
 \toprule 
-Espectres & Contes/segón \tabularnewline
+Espectres & Comptes/s\tabularnewline
 \midrule
 \midrule 
-Prototip del senyal & $2.27 \pm 0.06$ \tabularnewline
-Prototip del fons & $2.06 \pm 0.06$ \tabularnewline  
-Espectre de triti & $0.21 \pm 0.085$ \tabularnewline
+Prototip del senyal & $2,27 \pm 0,06$ \tabularnewline
+Prototip del fons & $2,06 \pm 0,06$ \tabularnewline  
+Espectre de triti & $0,21 \pm 0,085$ \tabularnewline
 \bottomrule
 \end{tabular}
-\caption{Contes per segon mesurats amb el prototip TRITIUM-IFIC-0.}
+\caption{Taxes de comptatge mesurades amb el prototip TRITIUM-IFIC-0.}
 \label{tab:ContesPerSegonTRITIUMIFIC0}
 \end{table}
 
@@ -94,7 +92,7 @@ El prototip TRITIUM-IFIC-1 consisteix en 64 fibres de $1~\mm$ de diàmetre i $20
 \caption{Estructura de PTFE utilitzada al prototip TRITIUM-IFIC-1.\label{fig:EstructuraPTFEFibresTritiumIFIC1}}
 \end{figure}
 
-Es van mesurar espectres d'energia similars al cas del prototip anterior, els quals es mostren a la Figura \ref{fig:EspectresEnergeticsTRITIUMIFIC1}. L'activitat de la dissolució de triti utilitzada va ser la mateixa que la utilitzada en l'experiència anterior. Els contes per segon mesurats pel prototip TRITIUM-IFIC-1 són mostrats a la Taula \ref{tab:ContesPerSegonTRITIUMIFIC1}
+Es van mesurar espectres d'energia similars al cas del prototip anterior, els quals es mostren a la Figura \ref{fig:EspectresEnergeticsTRITIUMIFIC1}. L'activitat de la dissolució de triti utilitzada va ser la mateixa que la utilitzada en l'experiència anterior. Els comptes per segon mesurats pel prototip TRITIUM-IFIC-1 són mostrats a la Taula \ref{tab:ContesPerSegonTRITIUMIFIC1}
 
 \begin{figure}
 \centering
@@ -117,7 +115,7 @@ Es van mesurar espectres d'energia similars al cas del prototip anterior, els qu
 \centering{}%
 \begin{tabular}{cc}
 \toprule 
-Espectres & Contes/segón  \tabularnewline
+Espectres & Comptes/segón  \tabularnewline
 \midrule
 \midrule 
 Prototip del senyal & $7.82 \pm 0.11$ \tabularnewline
@@ -125,7 +123,7 @@ Prototip del fons & $3.99 \pm 0.08$ \tabularnewline
 Espectre de triti & $3.83 \pm 0.13$ \tabularnewline
 \bottomrule
 \end{tabular}
-\caption{Contes per segon mesurats amb el prototip TRITIUM-IFIC-1.}
+\caption{Taxes de comptatge mesurades amb el prototip TRITIUM-IFIC-1.}
 \label{tab:ContesPerSegonTRITIUMIFIC1}
 \end{table}
 
