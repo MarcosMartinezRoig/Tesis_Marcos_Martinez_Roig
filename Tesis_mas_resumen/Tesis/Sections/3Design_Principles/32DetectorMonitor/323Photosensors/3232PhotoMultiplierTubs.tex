@@ -38,7 +38,7 @@ G_{PMT} = CE\cdot{} \delta^N
 \end{equation}
 and is of the order of $10^6$, strongly dependent on the applied HV.
 
-The multiplication stage adds an uncertainty to the measurement. Working without gain allows us to count the number of photons that reach the PMT. This can be done by short-circuiting all the dynodes and the anode and collecting the signal directly from the first dynode. This voltage divider circuit, shown in Figure \ref{fig:ElectronicSchemeBasePMTNoGain}, was used for fibre characterization.
+The multiplication process can be described as a Poisson statistical process. For each electron in the first dynode, $G_{PMT}$ new electrons are created with a variance of $\sqrt{G_{PMT}}$. Working without gain allows us to reduce the variance, which is needed to count the number of photons that reach the PMT. This can be done by short-circuiting all the dynodes and the anode and collecting the signal directly from the first dynode. This voltage divider circuit, shown in Figure \ref{fig:ElectronicSchemeBasePMTNoGain}, was used for fibre characterization.
 
 \begin{figure}[htbp]
 \centering
@@ -50,8 +50,6 @@ The multiplication stage adds an uncertainty to the measurement. Working without
 
 \end{enumerate}
 
-The output pulse of a PMT has a width of the order of tens of nanoseconds. The multiplication process can be described as a Poisson statistical process. For each electron in the first dynode, $G_{PMT}$ new electrons are created with a variance of $\sqrt{G_{PMT}}$.
-
-The output signal of a PMT is linear with the number of photons that reach its sensitive part up to a saturation limit, after which the linearity is lost. This limit depends on the PMT characteristics. The photocathode may emit electrons in absence of any light. This signal, called dark current, $I_{DC}$, can  arise due to thermoionic emission. For the PMTs employed in this work, this value is around $2~\nano\ampere$ according to their data sheet.
+The output pulse of a PMT has a width of the order of tens of nanoseconds and is linear with the number of photons that reach its sensitive part up to a saturation limit, after which the linearity is lost. This limit depends on the PMT characteristics. The photocathode may emit electrons in absence of any light. This signal, called dark current, $I_{DC}$, can  arise due to thermoionic emission. For the PMTs employed in this work, this value is around $2~\nano\ampere$ according to their data sheet.
 
 %The characterization of the used PMTs for dark current, gain versus HV, was done at IFIC in the framework of NEXT experiment \cite{CalibrationPMTsNEXT}. 

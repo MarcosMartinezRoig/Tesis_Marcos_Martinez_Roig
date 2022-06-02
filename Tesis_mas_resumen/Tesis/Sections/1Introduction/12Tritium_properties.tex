@@ -1,12 +1,10 @@
-Tritium is the only radioactive isotope of hydrogen present in the environment. Tritium was produced artificially for the first time in $1934$ in neutron capture on deuterium by Ernest Rutherford, Mark Oliphant and Paul Harteck \cite{TritiumDiscovery} and was isolated in 1939 by Luis Walter Alvarez and Robert Cornog \cite{TritiumIsolate}, who discovered that tritium is radiactive. 
-
-Tritium is a radioactive element with a half-life time of $T_{1/2}= 12.32$ years. It has one proton and two neutrons and decays exclusively through $\beta$ radiation to the ground state of the $\ce{^{3}_{2}He}$ isotope of helium, which is a stable nuclei, through the process,
+Tritium is the only radioactive isotope of hydrogen present in the environment. Tritium was produced artificially for the first time in $1934$ in neutron capture on deuterium by Ernest Rutherford, Mark Oliphant and Paul Harteck \cite{TritiumDiscovery} and was isolated in 1939 by Luis Walter Alvarez and Robert Cornog \cite{TritiumIsolate}, who discovered that tritium is radioactive. Tritium has a half-life time of $T_{1/2}= 12.32$ years. It decays exclusively through $\beta$ radiation to the ground state of the $\ce{^{3}_{2}He}$ isotope of helium, which is a stable nuclei, through the process,
 
 \begin{equation}
 \ce{^{3}_{1}H} \longrightarrow \ce{^{3}_{2}He}  + \ce{e^-}  + \ce{\overline{\nu}_e}
 \label{eq:TritiumDecay}
 \end{equation}
-In Figure \ref{fig:TritiumDecay}, the scheme of tritium energy levels is shown. In this decay it is not possible to detect the neutrino because of its extremely weak interaction with matter ($\sigma \approx 10^{-44} ~ \cm^2$) \cite{CrossSeccionNeutrino} and, since $\ce{^{3}He}$ has a much larger mass than electrons and neutrinos, the energy carried by the daughter nucleus is very small. Therefore, the detection of tritium is only feasible through its decay electron. 
+In Figure \ref{fig:TritiumDecay}, the scheme of tritium energy levels is shown. In this decay it is not possible to detect the neutrino because of its extremely weak interaction with matter ($\sigma \approx 10^{-44} ~ \cm^2$) \cite{CrossSeccionNeutrino} and, since $\ce{^{3}He}$ has a much larger mass than electrons and neutrinos, the energy carried by the daughter nucleus is very small. Therefore, the detection of tritium is done through its decay electron. 
 
 \begin{figure}
 \centering
@@ -21,11 +19,11 @@ In Figure \ref{fig:TritiumDecay}, the scheme of tritium energy levels is shown. 
     \includegraphics[width=\textwidth]{2Introduction/representacion_desintegracion.png}  
     \caption{\label{subfig:GraphicDesintegration}}
     \end{subfigure}
- \caption{(Above) Tritium energy levels \cite{TritiumDecayEnergyLevels}. (Below) Graphic representation of tritium decay \cite{TritiumDecayImage}.}
+ \caption{a) Tritium energy levels \cite{TritiumDecayEnergyLevels}. b) Graphical representation of tritium decay \cite{TritiumDecayImage}.}
  \label{fig:TritiumDecay}
 \end{figure}
 
-The energy released in the tritium decay is $Q_\beta=18.6~\keV$, shared between the decay products. Therefore, the energy spectrum of the decay electrons is a continuum with a maximum value of $18.6~\keV$, as shown in Figure \ref{fig:TritiumDecaySpectrum}. This energy spectrum has an average of $5.7~\keV$ and the most likely energy is around $4.5~\keV$. Tritium is the radioactive isotope with the lowest energy released in $\beta$ decay \cite{TritiumHandling}. Consequently, the $\beta$ particle emitted has a very short mean free path, given in Table \ref{tab:MeanFreePathTritium}. This short mean free path is a major issue in tritium detection, as the electron detection requires a highly sensitive detector. Tritium electrons have a low penetration in the human body and they are easily stopped by clothes or laboratory gloves, resulting in a low radiological hazard from external exposure. Nevertheless, the danger of tritium increases when it is ingested or inhaled since it binds and undergoes the same chemical reactions as hydrogen.
+The energy released in the tritium decay is $Q_\beta=18.6~\keV$, shared between the decay products. Therefore, the energy spectrum of the decay electrons is a continuum with a maximum value of $18.6~\keV$, as shown in Figure \ref{fig:TritiumDecaySpectrum}. This energy spectrum has an average of $5.7~\keV$ and the most likely energy is around $4.5~\keV$. Tritium is the radioactive isotope with the lowest energy released in $\beta$ decay \cite{TritiumHandling}. Consequently, the $\beta$ particle emitted has a very short mean free path, given in Table \ref{tab:MeanFreePathTritium}, which is a major issue in tritium detection, as the electron detection requires a highly sensitive detector. Tritium electrons have a low penetration in the human body and they are easily stopped by clothes or laboratory gloves, resulting in a low radiological hazard from external exposure. Nevertheless, the danger of tritium increases when it is ingested or inhaled since it binds to the molecules of the human body and undergoes the same chemical reactions as hydrogen.
 
 \begin{figure}[h]
 \includegraphics[scale=0.85]{2Introduction/Espectro_tritio.png}
@@ -33,14 +31,13 @@ The energy released in the tritium decay is $Q_\beta=18.6~\keV$, shared between 
 \caption{Energy spectrum of tritium electrons ~\cite{TritiumEspectrum}.\label{fig:TritiumDecaySpectrum}}
 \end{figure}
 
-\begin{table}[htbp]
+\begin{table}[h]
 \centering{}%
 \begin{tabular}{lcc}
 \toprule 
- & \multicolumn{2}{c}{Penetration Depth} \tabularnewline
-\midrule
 Energy & $5.7~\keV$ & $18.6~\keV$ \tabularnewline
-Material \tabularnewline
+\midrule
+Material & \multicolumn{2}{c}{Penetration Depth} \tabularnewline
 \midrule
 \midrule 
 $\ce{\ce{^{3}_{1}H_2}}$ & 0.26 cm & 3.2 cm \tabularnewline
@@ -73,9 +70,9 @@ $\ce{^{10}_{5}B}$ & \parbox{8em}{\centering Moderator,\\ control rods} & $\ce{^{
 \label{tab:NuclearReactionsTritiumProduction}
 \end{table}
 
-Tritium levels in water of the environment, excluding the current anthropogenic radioactive sources, are between $1$ and $4~\becquerel/\liter$, larger than expected from cosmogenic background levels ($0.6-1.2~\becquerel/\liter$) \cite{FranceTritiumEnvironment}. This is attributed to nuclear weapon tests. Tritium levels in rivers around a NPP are between $1$ and $10~\becquerel/\liter$ and even between $20$ and $50~\becquerel/\liter$ at the water discharge site of NPPs \cite{FranceTritiumEnvironment}, where the produced tritium is partially or totally released into the environment, mainly in $\ce{HTO}$ form.
+Tritium levels in water of the environment, excluding the current anthropogenic radioactive sources, are between $1$ and $4~\becquerel/\liter$, larger than expected from cosmogenic background levels ($0.6-1.2~\becquerel/\liter$) \cite{FranceTritiumEnvironment}. This excess is attributed to nuclear weapon tests. Tritium levels in rivers around a NPP are between $1$ and $10~\becquerel/\liter$ and even between $20$ and $50~\becquerel/\liter$ at the water discharge site of NPPs \cite{FranceTritiumEnvironment}, where the produced tritium is partially or totally released into the environment, mainly in $\ce{HTO}$ form.
 
-The effect of NPPs on tritium levels in the environment can be observed in the REM data, for example for the case of Cofrentes NPP. The tritium level is measured in three different places along the Jucar river, marked on the map shown in Figure \ref{fig:SamplingLocations}. P1 is located on the river $6~\kilo\meter$ upstream from the NPP, and P2 and P3 are located $1$ and $5~\kilo\meter$ downstream, respectively. The level of tritium measured in these three locations is shown as a function of time in Figures \ref{subfig:TritiumL6kB}, \ref{subfig:TritiumL1kA} and \ref{subfig:TritiumL5kA} respectively. In these figures, the detection limit and the measured activity are plotted with white and green dots, respectively. The measured activity is only displayed when it is larger than the corresponding detection limit. The tritium level in the river is larger near the discharge of the NPP and decreases $4~\kilo\meter$ downstream, as can be seen from these data. Two additional measurements of the tritium level in groundwater are included, points S1 and S2 on the map in Figure \ref{fig:SamplingLocations}, located $1~\kilo\meter$ upstream and downstream from the NPP, respectively. Both tritium levels are shown in Figures \ref{subfig:TritiumLG1kB} and \ref{subfig:TritiumLG1kA}, respectively, where it can be observed that they are below the detection limit. It is important to note that, although environmental tritium level is affected by the NPP in the case of Cofrentes, these levels are below the maximum allowed limit. The maximum level of tritium measured since January 2, 2006 is around $32~\becquerel/\liter$, below the limit of $100~\becquerel/\liter$ recommended by the Euratom 2013 directive.
+The effect of NPPs on tritium levels in the environment can be observed in the REM data, for example for the case of the Cofrentes NPP. The tritium level is measured in three different places along the Júcar river, marked on the map shown in Figure \ref{fig:SamplingLocations}. P1 is located on the river $6~\kilo\meter$ upstream from the NPP, and P2 and P3 are located $1$ and $5~\kilo\meter$ downstream, respectively. The level of tritium measured in these three locations is shown as a function of time in Figures \ref{subfig:TritiumL6kB}, \ref{subfig:TritiumL1kA} and \ref{subfig:TritiumL5kA} respectively. In these figures, the detection limit and the measured activity are plotted with white and green dots, respectively. The measured activity is only displayed when it is larger than the corresponding detection limit. The tritium level in the river is larger near the discharge of the NPP and decreases $4~\kilo\meter$ downstream, as can be seen from these data. Two additional measurements of the tritium level in groundwater, points S1 and S2 on the map in Figure \ref{fig:SamplingLocations}, located $1~\kilo\meter$ upstream and downstream from the NPP, respectively, are included. Both tritium levels are shown in Figures \ref{subfig:TritiumLG1kB} and \ref{subfig:TritiumLG1kA}, respectively, where it can be observed that they are below the detection limit. It is important to note that, although environmental tritium level is affected by the NPP in the case of Cofrentes, these levels are below the maximum allowed limit. The maximum level of tritium measured since January 2, 2006 is around $32~\becquerel/\liter$, below the limit of $100~\becquerel/\liter$ recommended by the Euratom 2013 directive.
 
 \begin{figure}[hbtp]
 \includegraphics[scale=0.5]{2Introduction/CofrentesMaps.png}
@@ -126,7 +123,7 @@ The effect of NPPs on tritium levels in the environment can be observed in the R
 Tritium can be absorbed in our body by inhalation and ingestion. Tritium is present in three different chemical forms, gaseous tritium (mainly HT), tritiated water (mainly HTO) and organically bound tritium (OBT):
 
 \begin{enumerate}
-\item{} Gaseous tritium, usually found mixed in the air, is the least harmful form since less than a $(3-5) \cdot{} 10^{-3}~\%$ is absorbed by the human body, which is negligible \cite{TritiumHandling}. However, gaseous tritium can be transformed into tritiated water, more harmful from the radiological point of view \cite{TritiumHandling}, through the oxidation and exchange reactions by
+\item{} Gaseous tritium, usually found mixed in the air, is the least harmful form since less than a $(3-5) \cdot{} 10^{-3}~\%$ is absorbed by the human body, which is negligible \cite{TritiumHandling}. However, gaseous tritium can be transformed into tritiated water, more harmful from the radiological point of view \cite{TritiumHandling}, through oxidation and exchange reactions,
 
 \begin{equation}
 \begin{split}
@@ -142,13 +139,11 @@ Tritium can be absorbed in our body by inhalation and ingestion. Tritium is pres
 \item{} Organically bound tritium (OBT), normally found in food, forms a covalent bond with carbon molecules in organs. This form corresponds to $5-10~\%$ of tritium absorbed in the body. Although OBT is less absorbed in the body than tritiated water, it can be more dangerous since it has a longer biological life time, that varies from twenty to more than fifty days \cite{EstimationTritiumDosiKangarooRats, TissueDistribution}, depending on the type of bond that tritium forms, either OBT exchange (e-OBT), an unstable bond that can be eliminated by metabolic processes, or tightly OBT (t-OBT), a stable bond that cannot be eliminated by metabolic processes \cite{FranceTritiumEnvironment, EstimationTritiumDosi, EstimationTritiumDosiRats, EstimationTritiumDosiKangarooRats}.
 \end{enumerate}
 
-Tritium can cause the same effects than X-rays or $\gamma$ rays, such as DNA mutations or cell death. In the worst cases, tritium can produce the loss of the functionality of the organ or the development of tumors. In fact, the consequences of tritium radiation may be worse than similar doses of $\gamma$ radiation since its biological efficiency\footnote{The biological efficiency is used to quantify the damage produced in the living cells due to an external radiation.} is two or three times higher \cite{StraumeTritiumHazard}.
+Tritium can cause the same effects as X-rays or $\gamma$ rays, such as DNA mutations or cell death. In the worst cases, tritium can produce the loss of the functionality of the organ or the development of tumors \cite{StraumeTritiumHazard}. %In fact, the consequences of tritium radiation may be worse than similar doses of $\gamma$ radiation since its biological efficiency\footnote{The biological efficiency is used to quantify the damage produced in the living cells due to an external radiation.} is two or three times higher \cite{StraumeTritiumHazard}.
 
 %There are many studies showing that tritium in living matter can cause the same effects than X-rays or $\gamma$ rays, such as DNA mutations, tumors, cancer, genetic effects, reproductive effects, etc \cite{StraumeTritiumHazard, RytoemaaTritiumHazard}. In fact, the consequences of tritium radiation may be worse than a similar doses of $\gamma$ radiations since its biological efficiency\footnote{The biological efficiency is used to quantify the damage produced in the living cells due to an external radiation.} is two or three times larger \cite{StraumeTritiumHazard}.
 
-In summary, tritium is a naturally occurring radioactive element. It affects health of living organisms if these are excessively or chronically exposed to tritium. Because of that, several countries have developed a legislation to manage the release of tritium into the environment and to ensure that tritium levels are safe for living organisms.
-
-
+In summary, tritium is a naturally occurring radioactive element. It affects health of living organisms if these are excessively or chronically exposed to tritium.
 
 %Tritium has different physical properties than other natural isotopes of the hydrogen like different boiling points as shown in Table \ref{tab:BoilingPoints} or the property of self-radiolysis which only happens when radioactive elements are involved. In the case of tritium dissolved in water, it is normally found forming the $\ce{HTO}$ molecule. There, the auto-radiolysis ocurrs because the energy released in tritium decay is larger than the energy bond of oxigen and hydrogen in water molecules ($5.2~\eV$) or the ionization energy of water molecules ($12.6~\eV$) so it can break up these molecules \cite{AutoRadyolisis}. Due to the auto-radiolysis, some radicals appear in the water, increasing its corrosivity. It is a fact that we have to take into account when choosing the materials that will make up the TRITIUM detector.
 
