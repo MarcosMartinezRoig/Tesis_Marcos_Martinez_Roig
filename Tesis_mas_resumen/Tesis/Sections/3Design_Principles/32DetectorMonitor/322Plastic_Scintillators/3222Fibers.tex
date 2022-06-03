@@ -1,6 +1,6 @@
 Plastic scintillators are easy to machine to any desired shape. The chosen shape for TRITIUM detector is the fibre, specifically, commercial fibres BCF-12 from Saint-Gobain Crystals Inc \cite{DataSheetBCF12Fiber}. This type of fibre was chosen as the result of a comparative study \cite{TFGAlberto} among some of the best-known commercial manufacturers. The BCF-12 fibres consist of a scintillating polystyrene core with the possibility of being covered by polymethylmethacrylate (PMMA) claddings. % (smaller refractive index than core in order to archieve a critical angle) or a multicladding (second cladding) with even smaller refractive index.
 
-When a particle deposits all or part of its kinetic energy in a scintillating fibre, photons are produced in the fibre core as a result of the fluorescence process. The number of photons produced depends on the scintillating efficiency and its value is around $2.4\%$ for the BCF-12 fibres, which means that a scintillation yield of about $8000$ photons per $\MeV$ is produced for a mip. For instance, for tritium electrons of $18.6~\keV$, these fibres emit at least 149 photons, as electrons of these energies are not mips. The emission spectrum of the fibres employed in this work is shown in Figure \ref{fig:EmissionSpectrumFibers}.
+When a particle deposits all or part of its kinetic energy in a scintillating fibre, photons are produced in the fibre core as a result of the fluorescence process. The number of photons produced depends on the scintillating efficiency and its value is around $2.4\%$ for the BCF-12 fibres, which means that a scintillation yield of about $8000$ photons per $\MeV$ is produced for a mip. For instance, for tritium electrons of $18.6~\keV$ these fibres emit at least 149 photons, since electrons of these energies are not mips. The emission spectrum of the fibres employed in this work is shown in Figure \ref{fig:EmissionSpectrumFibers}.
 
 \begin{figure}[htbp]
 \centering
@@ -8,7 +8,7 @@ When a particle deposits all or part of its kinetic energy in a scintillating fi
 \caption{Emission spectrum of BCF-12 scintillating fibres of Saint-Gobain\label{fig:EmissionSpectrumFibers}~\cite{DataSheetBCF12Fiber}.}
 \end{figure}
 
-The scintillation light is guided to the sensitive part of the photosensor. A single photon produces a signal with a probability called quantum efficiency. Photons are guided in fibres according to the Snell's law \cite{Snell}. The guiding mechanism is determined by the interface between the core and the surrounding material. When a photon hits this interface, it is refracted (and therefore lost) following the Snell equation \cite{Snell}, 
+The scintillation light is guided to the sensitive part of the photosensor according to the Snell's law \cite{Snell}. The guiding mechanism is determined by the interface between the core and the surrounding material. When a photon hits this interface, it is refracted (and therefore lost) following the Snell equation \cite{Snell}, 
 \begin{equation}
 n_0~sen\theta_0 = n_1~sen\theta_1
 \label{eq:Snell}
@@ -44,13 +44,13 @@ Cladding of PMMA & 1.49 & $68.63$ \tabularnewline
 \caption{Critical angles associated to different interfaces between polystyrene ($n_0=1.6$) and other materials.}
 \label{tab:CriticalAngles}
 \end{table}
-As can be seen, the critical angle for uncladded fibres surrounded by water or air is smaller than for cladded fibres, which implies a larger trapping efficiency. However, in practice, it is difficult to achieve a perfect air-core or water-core interface, and this affects light collection. As commercial claddings are thicker ($30~\micro \meter$) than the mean free path of tritium decay electrons in water (around $5~\micro\meter$), cladded fibres are not an option for the TRITIUM detector. Hence, special attention is needed for achieving a good enough water-core interface. To achieve this goal a special method was developed in the ICMOL laboratory\footnote{ICMOL, \textit{Instituto de Ciencia Molecular}, is a research institute located in the \textit{Parc Científic} of the University of Valencia.} for preparing fibres for tritium detection, described in section \ref{subsec:SurfaceConditioningProcess}. The relevant parameters of the scintillating fibres used for the TRITIUM detector are given in Table \ref{tab:ParametersFibersBCF12}.
+As can be seen, the critical angle for uncladded fibres surrounded by water or air is smaller than for cladded fibres, which implies a larger trapping efficiency. However, in practice, it is difficult to achieve a perfect air-core or water-core interface, and this affects light collection. As commercial claddings are thicker ($30~\micro \meter$) than the mean free path of tritium decay electrons in water (around $5~\micro\meter$), cladded fibres are not an option for the TRITIUM detector. Hence, special attention is needed for achieving a good enough water-core interface. To achieve this goal a special method was developed in the ICMOL laboratory\footnote{ICMOL, \textit{Instituto de Ciencia Molecular}, is a research institute located in the \textit{Parc Científic} of the University of Valencia.} for preparing fibres for tritium detection, described in section \ref{sec:CharacterizationScintillatingFibers}. The relevant parameters of the scintillating fibres used for the TRITIUM detector are given in Table \ref{tab:ParametersFibersBCF12}.
 
 \begin{table}[htbp]
 \centering{}%
 \begin{tabular}{lc}
 \toprule 
-Property & Value \tabularnewline
+Characteristics & Value \tabularnewline
 \midrule
 \midrule 
 Core material & Polystyrene \tabularnewline
@@ -72,6 +72,6 @@ Scintillator yield (\#$\gamma$/MeV) & $\sim 8000$ \tabularnewline
 Operating Temperature & $-20\celsius$ to $50\celsius$ \tabularnewline
 \bottomrule
 \end{tabular}
-\caption{Properties of BCF-12 scintillating fibres from Saint-Gobain Inc. \cite{DataSheetBCF12Fiber}.}
+\caption{Characteristics of BCF-12 scintillating fibres from Saint-Gobain Inc. \cite{DataSheetBCF12Fiber}.}
 \label{tab:ParametersFibersBCF12}
 \end{table}
