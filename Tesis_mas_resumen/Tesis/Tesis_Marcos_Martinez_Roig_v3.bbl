@@ -2,10 +2,6 @@
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 
-\bibitem[{ Mi}]{DataSheetHVSupplyTennelec}
-{ Mirion Technologies (Camberra) SAS}, \emph{Tennelec Model TC 952 High Voltage
-  Supply}, {Mirion Technologies (Camberra) SAS}.
-
 \bibitem[Ago03]{Geant4P}
 Agostinelli, S. et~al., \emph{{Geant4— A Simulation Toolkit}}, {Nuclear
   Instruments and Methods in Physics Research Section A: Accelerators,
@@ -152,9 +148,6 @@ Chen, Z., Peng, S., Meng, D., He, Y. and Wang, H., \emph{{Theoretical Study of
 {CREMAT Inc.}, \emph{CR 111-R2.1 Charge Sensitive Preamplifier}, {CREMAT Inc.},
   07 (2020).
 
-\bibitem[Cry]{SaintGobain}
-Crystals, S.-G., \url{https://www.crystals.saint-gobain.com/#}.
-
 \bibitem[{CSN}a]{REA}
 {CSN}, \emph{Red de Estaciones Automáticas (REA)},
   \url{https://www.csn.es/mapa-de-valores-ambientales}.
@@ -178,7 +171,7 @@ Crystals, S.-G., \url{https://www.crystals.saint-gobain.com/#}.
 
 \bibitem[EIA20]{EIAOutlook}
 EIA, \emph{International Energy Outlook 2021 with projections to 2050}, {U. S.
-  Energy Information Administration Office of Energy Analysis, U.S. Department
+  Energy Information Administration, Office of Energy Analysis, U.S. Department
   of Energy, Washington, DC 20585}, Washington, DC 20585, United States (2020).
 
 \bibitem[{Env}]{BrookHavenNationalLaboratory}
@@ -465,6 +458,10 @@ Mertens, S. et~al., \emph{{Sensitivity of Next-Generation Tritium Beta-Decay
   Astroparticle Physics} \textbf{{2015}} (2015) 1--24,
   \urlprefix\url{http://dx.doi.org/10.1088/1475-7516/2015/02/020}.
 
+\bibitem[{Mir}]{DataSheetHVSupplyTennelec}
+{Mirion Technologies (Camberra) SAS}, \emph{Tennelec Model TC 952 High Voltage
+  Supply}, {Mirion Technologies (Camberra) SAS}.
+
 \bibitem[Mog69]{Moghissi}
 Moghissi, A., Kelley, H., Phillips, C. and Regnier, J., \emph{{A Tritium
   Monitor Based on Scintillation}}, {Nuclear Instruments and Methods}
@@ -605,7 +602,10 @@ Sagawa, H. and Urabe, I., \emph{{Estimation of Absorbed Dose Rates in Air Based
   Japan}}, {Journal of Nuclear Science and Technology} \textbf{{38}} (2012)
   1103--1108, \urlprefix\url{http://dx.doi.org/10.1080/18811248.2001.9715142}.
 
-\bibitem[{Sai}]{OpticalGrease}
+\bibitem[{Sai}a]{SaintGobain}
+{Saint-Gobain Crystals}, \url{https://www.crystals.saint-gobain.com/#}.
+
+\bibitem[{Sai}b]{OpticalGrease}
 {Saint-Gobain Crystals}, \emph{{BC-630, Silicone Optical Grease}},
   \url{https://www.crystals.saint-gobain.com/}.
 
@@ -734,9 +734,10 @@ Theodórsson, P., \emph{Measurement of Weak Radioactivity}, World Scientific
 {Thorlabs, Inc.}, \emph{LED430L - 430 nm LED with a Glass Lens, 8 mW, TO-18},
   {Thorlabs, Inc.} (2018).
 
-\bibitem[{Tri}]{TRITIUM}
+\bibitem[{Tri}16]{TRITIUM}
 {Tritium Collaboration}, \emph{Tritium, Interreg Sudoe Program},
-  \url{https://www.interreg-sudoe.eu/gbr/projects/the-approved-projects/158-design-construction-and-commissioning-of-a-low-level-tritium-monitor-for-water}.
+  \url{https://www.interreg-sudoe.eu/gbr/projects/the-approved-projects/158-design-construction-and-commissioning-of-a-low-level-tritium-monitor-for-water}
+  (2016).
 
 \bibitem[{Val}07]{CrossSeccionNeutrino}
 {Valverde Hermosilla}, M., \emph{Interacción Neutrino-núcleo a Energías
