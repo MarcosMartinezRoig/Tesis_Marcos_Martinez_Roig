@@ -9,45 +9,45 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty journal in Spain_GL
 Warning--empty pages in Ratnakaran2000
 Warning--empty pages in ROOTWebPage2
-You've used 157 entries,
+You've used 158 entries,
             3015 wiz_defined-function locations,
-            1648 strings with 40768 characters,
-and the built_in function-call counts, 56971 in all, are:
-= -- 4015
-> -- 1656
-< -- 164
-+ -- 653
-- -- 473
-* -- 4110
-:= -- 7400
-add.period$ -- 157
-call.type$ -- 157
-change.case$ -- 717
-chr.to.int$ -- 137
-cite$ -- 160
-duplicate$ -- 5111
-empty$ -- 5300
-format.name$ -- 825
-if$ -- 11397
+            1656 strings with 41078 characters,
+and the built_in function-call counts, 57488 in all, are:
+= -- 4049
+> -- 1677
+< -- 165
++ -- 663
+- -- 479
+* -- 4149
+:= -- 7461
+add.period$ -- 158
+call.type$ -- 158
+change.case$ -- 723
+chr.to.int$ -- 138
+cite$ -- 161
+duplicate$ -- 5158
+empty$ -- 5346
+format.name$ -- 834
+if$ -- 11506
 int.to.chr$ -- 21
 int.to.str$ -- 0
-missing$ -- 959
-newline$ -- 476
-num.names$ -- 316
-pop$ -- 2191
+missing$ -- 969
+newline$ -- 479
+num.names$ -- 318
+pop$ -- 2217
 preamble$ -- 1
-purify$ -- 1021
+purify$ -- 1029
 quote$ -- 0
-skip$ -- 1766
+skip$ -- 1784
 stack$ -- 0
-substring$ -- 2043
-swap$ -- 2366
-text.length$ -- 164
-text.prefix$ -- 152
+substring$ -- 2052
+swap$ -- 2390
+text.length$ -- 165
+text.prefix$ -- 153
 top$ -- 0
-type$ -- 1228
+type$ -- 1236
 warning$ -- 3
-while$ -- 364
-width$ -- 161
-write$ -- 1307
+while$ -- 367
+width$ -- 162
+write$ -- 1317
 (There were 4 warnings)

@@ -37,14 +37,14 @@ To quantify the background attenuation by a lead shield, measurements without sh
 \caption{Background rate of the TRITIUM-Aveiro prototype. A) Without shielding. B) With a lead shield of $2.5~\mm$ thickness. C) With two lead shields of $2.5~\mm$ thickness each one \cite{ExperimentalPaperCarlos}.\label{fig:LeadShieldTest}}
 \end{figure}
 
-The prototype was installed in the LARUEX laboratory in order to be tested with tritiated water. The background was measured during 4 days with the prototype filled with pure water and shielded by $5~\cm$ lead. The events were grouped in $1$ minute time bins and the data were fitted to a Gaussian function as shown in Figure \ref{fig:BackgroundTritium1min}. An average rate of $N_b = 540~\min^{-1}$ with a standard deviation of $\sigma_{N_b}=23~\min^{-1}$ was obtained. To calculate the MDA, the detection limit concepts developed by Lloyd A. Currie \cite{Knoll} were applied. The minimum number of net counts with a probability of a false-negative less than $5\%$ is given by,
+The prototype was installed in the LARUEX laboratory in order to be tested with tritiated water. The background was measured during 4 days with the prototype filled with pure water and shielded by $5~\cm$ lead. The events were grouped in $1$ minute time bins and the data were fitted to a Gaussian function as shown in Figure \ref{fig:BackgroundTritium1min}. An average rate of $N_b = 540~\min^{-1}$ with a standard deviation of $\sigma_{N_b}=23~\min^{-1}$ was obtained. To calculate the MDA, the detection limit criterium developed by Lloyd A. Currie \cite{Knoll} was applied. This criterium defines a critical level $L_C$ above which the probability of a false-positive is less than $5\%$ and a level $N_D$ for which the probability of a false-negative is less than $5\%$. They are given by,
 \begin{equation}
-N_D = 4.65 \cdot{}\sigma_{N_b} + 2.71 = 111~\min{}^{-1}
-\label{eq:EquationNetCounts}
+  \begin{aligned}
+L_C = 2.33&\cdot{}\sigma_{N_b}=53 ~\min{}^{-1}\\
+N_D = 4.65 \cdot{}\sigma_{N_b}& + 2.71 = 111~\min{}^{-1}
+ \end{aligned}\label{eq:EquationNetCounts}
 \end{equation}
-which corresponds to a critical level of 
-$$L_C = 2.33\cdot{}\sigma_{N_b}=53 ~\min{}^{-1}$$
-$L_C$ and $N_D$ are calculateed after background subtraction. Therefore, the critical level $L_C'$ and the minimum count rate distinct from the background $N_D'$ are $$L_C'= N_b + L_C = 540 + 53 = 593~\min{}^{-1}$$ and $$N_D'= N_b + N_D = 540 + 111=651~\min{}^{-1}$$
+$L_C$ and $N_D$ are calculated from the total signal after background subtraction. Therefore, the critical level $L_C'$ and the minimum count rate distinct from the background $N_D'$ are $$L_C'= N_b + L_C = 540 + 53 = 593~\min{}^{-1}$$ and $$N_D'= N_b + N_D = 540 + 111=651~\min{}^{-1}$$
 \begin{figure}
 \centering
     \begin{subfigure}[b]{0.55\textwidth}
