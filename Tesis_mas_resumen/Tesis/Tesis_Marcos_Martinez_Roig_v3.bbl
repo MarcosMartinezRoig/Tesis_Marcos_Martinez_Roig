@@ -98,6 +98,16 @@ Bray, C., Pailloux, A. and Plumeri, S., \emph{{Tritiated Water Detection in the
   Spectrometers, Detectors and Associated Equipment} \textbf{{789}} (2015)
   43--49, \urlprefix\url{http://dx.doi.org/10.1016/j.nima.2015.03.064}.
 
+\bibitem[Bru19a]{ROOTWebPage}
+Brun, R. and Fons~Rademakers, R., \emph{{ROOT - An Object Oriented Data
+  Analysis Framework}}, {Nuclear Instrumentation and Method in Physics}
+  \textbf{{389}} (2019), \urlprefix\url{https://root.cern.ch/}.
+
+\bibitem[Bru19b]{ROOTWebPage2}
+Brun, R. and Fons~Rademakers, R., \emph{{ROOT - An Object Oriented Data
+  Analysis Framework}}, in \emph{AIHENP'96 Workshop}, AIHENP, Lausanne,
+  Switzerland, \urlprefix\url{https://root.cern.ch/}.
+
 \bibitem[Bui94]{WaterPropertiesSimulation}
 Buiteveld, H., Hakvoort, J. H.~M. and Donze, M., \emph{Optical Properties of
   Pure Water}, in J.~S. Jaffe (Ed.), \emph{Ocean Optics XII, Bergen, Norway, 26
@@ -160,6 +170,10 @@ Chen, Z., Peng, S., Meng, D., He, Y. and Wang, H., \emph{{Theoretical Study of
 {Departament of Energy (DOE)}, \emph{DOE Handbook Primer on Tritium Safe
   Handling Practices}, {U. S. Departament of Energy Washington, D.C. 20585}
   (2016).
+
+\bibitem[{Dia}20]{TritiumDecayImage}
+{Diaz, J.}, \emph{Tritium Decay Image},
+  \url{https://conexioncausal.wordpress.com} (2020), website: World Press.
 
 \bibitem[{DYC}]{ClimaticChamberIFIMED}
 {DYCOMETAL}, \emph{Climatic Chamber Model CCK 85}, {DYCOMETAL}.
@@ -372,10 +386,6 @@ Jean-Baptiste, P. et~al., \emph{{\ce{^{3}He} Mass Spectrometry for Very
   of Environmental Radioactivity} \textbf{{101}} (2010) 185--190,
   \urlprefix\url{http://dx.doi.org/10.1016/j.jenvrad.2009.10.005}.
 
-\bibitem[{Jor}20]{TritiumDecayImage}
-{Jorge Diaz}, \emph{Tritium Decay Image},
-  \url{https://conexioncausal.wordpress.com} (2020), website: World Press.
-
 \bibitem[{Kei}a]{DataSheetKeithley6487}
 {Keithley Instruments}, \emph{Model 6487 Picoammeter/Voltage Source}, {Keithley
   Instruments}.
@@ -397,7 +407,7 @@ Knoll, G.~F., \emph{Radiation Detection and Measurement}, John Wiley \& Sons,
 
 \bibitem[Law06]{TemperatureBlade}
 Law, S. et~al., \emph{{Cleaving of Microstructured Polymer Optical Fibres}},
-  {Optics Communications} \textbf{{258}} (206) 193--202,
+  {Optics Communications} \textbf{{258}} (2006) 193--202,
   \urlprefix\url{http://dx.doi.org/10.1016/j.optcom.2005.08.011}.
 
 \bibitem[LeC]{DataSheetCoincidenceLeCroy}
@@ -583,16 +593,6 @@ Rathnakaran, M., Revetkar, R.~M., Samant, R.~K. and Abani, M.~C., \emph{{A
   \url{https://www.ree.es/es/datos/publicaciones/informe-anual-sistema/informe-del-sistema-electrico-espanol-2019}
   (2019).
 
-\bibitem[{Ren}19a]{ROOTWebPage}
-{Rene Brun and Fons Rademakers, ROOT}, \emph{{ROOT - An Object Oriented Data
-  Analysis Framework}}, {Nuclear Instrumentation and Method in Physics}
-  \textbf{{389}} (2019), \urlprefix\url{https://root.cern.ch/}.
-
-\bibitem[{Ren}19b]{ROOTWebPage2}
-{Rene Brun and Fons Rademakers, ROOT}, \emph{{ROOT - An Object Oriented Data
-  Analysis Framework}}, in \emph{AIHENP'96 Workshop}, AIHENP, Lausanne,
-  Switzerland, \urlprefix\url{https://root.cern.ch/}.
-
 \bibitem[{Roi}10]{LEDRLT}
 {Roithner LaserTechnik Gmbh}, \emph{LED435-03, 20 mW, 20 mA}, {Roithner
   LaserTechnik Gmbh} (2010).
@@ -741,8 +741,8 @@ Theodórsson, P., \emph{Measurement of Weak Radioactivity}, World Scientific
 {Thorlabs, Inc.}, \emph{LED430L - 430 nm LED with a Glass Lens, 8 mW, TO-18},
   {Thorlabs, Inc.} (2018).
 
-\bibitem[{Tri}16]{TRITIUM}
-{Tritium Collaboration}, \emph{Tritium, Interreg Sudoe Program},
+\bibitem[{TRI}16]{TRITIUM}
+{TRITIUM Collaboration}, \emph{TRITIUM, Interreg Sudoe Program},
   \url{https://www.interreg-sudoe.eu/gbr/projects/the-approved-projects/158-design-construction-and-commissioning-of-a-low-level-tritium-monitor-for-water}
   (2016).
 

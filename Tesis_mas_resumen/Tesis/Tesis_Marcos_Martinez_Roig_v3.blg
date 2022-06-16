@@ -6,42 +6,42 @@ Database file #1: tesis.bib
 Warning--entry type for "FranceTritiumEnvironment" isn't style-file defined
 --line 243 of file tesis.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty pages in ROOTWebPage2
 Warning--empty journal in Spain_GL
 Warning--empty pages in Ratnakaran2000
-Warning--empty pages in ROOTWebPage2
 You've used 158 entries,
             3015 wiz_defined-function locations,
-            1656 strings with 41078 characters,
-and the built_in function-call counts, 57488 in all, are:
-= -- 4049
-> -- 1677
+            1655 strings with 41072 characters,
+and the built_in function-call counts, 57618 in all, are:
+= -- 4061
+> -- 1691
 < -- 165
-+ -- 663
-- -- 479
-* -- 4149
-:= -- 7461
++ -- 671
+- -- 483
+* -- 4161
+:= -- 7473
 add.period$ -- 158
 call.type$ -- 158
-change.case$ -- 723
+change.case$ -- 725
 chr.to.int$ -- 138
 cite$ -- 161
-duplicate$ -- 5158
-empty$ -- 5346
-format.name$ -- 834
-if$ -- 11506
+duplicate$ -- 5164
+empty$ -- 5348
+format.name$ -- 840
+if$ -- 11532
 int.to.chr$ -- 21
 int.to.str$ -- 0
-missing$ -- 969
+missing$ -- 971
 newline$ -- 479
 num.names$ -- 318
-pop$ -- 2217
+pop$ -- 2227
 preamble$ -- 1
-purify$ -- 1029
+purify$ -- 1031
 quote$ -- 0
-skip$ -- 1784
+skip$ -- 1790
 stack$ -- 0
 substring$ -- 2052
-swap$ -- 2390
+swap$ -- 2396
 text.length$ -- 165
 text.prefix$ -- 153
 top$ -- 0
