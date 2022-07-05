@@ -1,6 +1,6 @@
-The electronics of the TRITIUM-Aveiro prototype consists of:
+The electronics of the TRITIUM-Aveiro prototype consist of:
 \begin{enumerate}
-\item{} A PCB designed to power the PMTs with a negative high voltage which consists of several C11152-01  HV power supplies from Hamamatsu Photonics \cite{PowerSupplyAveiroDataSheet}. This PCB is controled by a MAX5500 DAC\footnote{Digital-to-Analog Converter} from Maxim Integrated \cite{MAX5500DataSheet}. Its electronic scheme is shown in Figure \ref{fig:ElectronicSchemeHVBoard}.  An Arduino Mega controls the DAC communication and is connected to a Raspberry Pi that runs the whole system. A graphical interface, shown in Figure \ref{fig:GUIHVBoard}, was developed to set up the different options in an easy way.
+\item{} A PCB designed to power the PMTs with a negative high voltage which consists of several C11152-01  HV power supplies from Hamamatsu Photonics \cite{PowerSupplyAveiroDataSheet}. This PCB is controlled by a MAX5500 DAC\footnote{Digital-to-Analogue Converter} from Maxim Integrated \cite{MAX5500DataSheet}. Its electronic scheme is shown in Figure \ref{fig:ElectronicSchemeHVBoard}.  An Arduino Mega controls the DAC communication and is connected to a Raspberry Pi that runs the whole system. A graphical interface, shown in Figure \ref{fig:GUIHVBoard}, was developed to set up the different options in an easy way.
 
 \begin{figure}[h]
 \centering
@@ -14,7 +14,7 @@ The electronics of the TRITIUM-Aveiro prototype consists of:
 \caption{Graphical user interface developed to control the prototype. \label{fig:GUIHVBoard}}
 \end{figure}
 
-\item{} An electronic chain which consists of several PCBs that process and analyze the system signals. Its scheme, shown in Figure \ref{fig:ElectronicSchemCounterBoard}, consists of two lines for the PMT signals of the prototype and another one for the active veto PMT.
+\item{} An electronic chain which consists of several PCBs that process and analyzes the system signals. Its scheme, shown in Figure \ref{fig:ElectronicSchemCounterBoard}, consists of two lines for the PMT signals of the prototype and another one for the active veto PMT.
 
 \begin{figure}[h]
 \centering
@@ -22,7 +22,7 @@ The electronics of the TRITIUM-Aveiro prototype consists of:
 \caption{Electronic scheme of the DAQ that process and analyze the signal of the TRITIUM-Aveiro prototype. \label{fig:ElectronicSchemCounterBoard}}
 \end{figure}
 
-To test this electronic chain, a plastic scintillator of $10 \times 10 \times 1~\cm^3$ was used as veto signal. Four different $50\times 30 \times 2~\cm^3$  rectangular vetos made of plastic scintillator from Saint-Gobain \cite{VetoAveiro} are being built. The vetos are read out by $2$" R2154-02 PMTs from Hamamatsu Photonics \cite{DataSheetPMTsAveiro}. The PMT signals of the prototype are preamplified and shaped by a CR111 preamplifier from CREMAT Inc. \cite{CREMATPreAmplifierDataSheet}. To reduce electronic noise and signal loss, both preamplifiers are connected as close as possible to the PMTs and they are placed inside aluminium boxes which act as Faraday cages. Each preamplifier is followed by a differentiator stage which reduces the width of the signal and an OPA656 operational amplifier from Texas Instruments \cite{OPA656}. A LT111 fast comparator from Linear Technology \cite{LT111} is used to set a threshold that removes PMT signals with low amplitude (dark counts of the PMTs). A MAX5500 DAC is used to configure the thresholds. As the time width of the amplifier output signal is $200~\mu\second$, a second differentiator was included to reduce random coincidences. To restore a 5V square signal a second comparator was added. Finally a tunable pulse stretcher based on an SN74AHC1 OR gate from Texas Instruments \cite{Stretcher} sets the signal time width to $100~\nano\second$, obtaining a system coincidence window of $200~\nano\second$.
+To test this electronic chain, a plastic scintillator of $10 \times 10 \times 1~\cm^3$ was used as a veto signal. Four different $50\times 30 \times 2~\cm^3$  rectangular vetoes made of plastic scintillator from Saint-Gobain \cite{VetoAveiro} are being built. The vetoes are read out by $2$" R2154-02 PMTs from Hamamatsu Photonics \cite{DataSheetPMTsAveiro}. The PMT signals of the prototype are preamplified and shaped by a CR111 preamplifier from CREMAT Inc. \cite{CREMATPreAmplifierDataSheet}. To reduce electronic noise and signal loss, both preamplifiers are connected as close as possible to the PMTs and they are placed inside aluminium boxes which act as Faraday cages. Each preamplifier is followed by a differentiator stage which reduces the width of the signal and an OPA656 operational amplifier from Texas Instruments \cite{OPA656}. An LT111 fast comparator from Linear Technology \cite{LT111} is used to set a threshold that removes PMT signals with low amplitude (dark counts of the PMTs). A MAX5500 DAC is used to configure the thresholds. As the time width of the amplifier output signal is $200~\mu\second$, a second differentiator was included to reduce random coincidences. To restore a 5V square signal a second comparator was added. Finally, a tunable pulse stretcher based on a SN74AHC1 OR gate from Texas Instruments \cite{Stretcher} sets the signal time width to $100~\nano\second$, obtaining a system coincidence window of $200~\nano\second$.
 
 The veto line consists of an inverter, which gives $0~\volt$ when there is a veto signal and $5~\volt$ otherwise. A stretcher sets the signal time width to $100~\nano\second$.
 
@@ -34,7 +34,7 @@ The GPIO pins of a Raspberry Pi are used to communicate with the system and conf
 \includegraphics[scale=0.45]{9Appendix/94AveiroElectronics/CounterGUI.png}
 \caption{Graphical user interface used to manage the counter system. \label{fig:GUIcounts}}
 \end{figure}
-In Figure \ref{fig:ScreenshotElectronic}, screenshots for accepted an rejected events are displayed.
+In Figure \ref{fig:ScreenshotElectronic}, screenshots for accepted and rejected events are displayed.
 \begin{figure}
 \centering
     \begin{subfigure}[b]{0.75\textwidth}
@@ -48,7 +48,7 @@ In Figure \ref{fig:ScreenshotElectronic}, screenshots for accepted an rejected e
     \includegraphics[width=\textwidth]{9Appendix/94AveiroElectronics/Event_rejected_Aveiro_prototype.png}  
     \caption{\label{subfig:FalseTritiumEvent}}
     \end{subfigure}
- \caption{The yellow and blue lines are the prototype PMT signals, the pink line is the veto PMT signal and the green line is the AND logic output. a) Tritium event accepted since veto is not fired. b) Background event rejected as veto is fired.}
+ \caption{The yellow and blue lines are the prototype PMT signals, the pink line is the veto PMT signal and the green line is the AND logic output. a) Tritium event accepted since the veto is not fired. b) Background event rejected as the veto is fired.}
  \label{fig:ScreenshotElectronic}
 \end{figure}
 

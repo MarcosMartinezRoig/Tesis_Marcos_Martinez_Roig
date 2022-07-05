@@ -24,12 +24,12 @@ The distribution of the number of photons detected by photosensors per tritium e
 \caption{Photons detected by both PMTs per tritium event in the simulated TRITIUM-IFIC-2 prototype.\label{fig:SimulatedPhotonsDetected}}
 \end{figure}
 
-Activities from $100~\becquerel/\liter$ to $5~\kilo\becquerel/\liter$ for three months of data taking and an integration time of $10~\min$ were simulated. The simulation results are presented in Figure \ref{fig:1Det10Min250BqL}. A difference of activity smaller than $250~\becquerel/\liter$ cannot distinguished because the overlapping of the distributions. To reduce the width, the statistics should be increased, either by increasing the integration time or the number of prototypes read out in parallel. To check the role of the integration time, distributions for integration times of $10~\min$, $30~\min$ and $60~\min$ were generated. The effect of increasing the integration time is to reduce the distribution width and to improve the activity resolution of the TRITIUM monitor, as seen in Figure \ref{fig:1Det250BqLseveralTimes}. Differences as low as $250~\becquerel/\liter$ are clearly discriminated with only one TRITIUM-IFIC-2 module and an integration time of $60~\min$ which could still be considered a quasi-real time measurement. Similarly, these distributions are shown in Figure \ref{fig:SeveralDet250BqL10min} for $10~\min$ integration time and for 1, 5 and 10 modules read out in parallel. A reduction of the distribution width with increasing number of modules is clearly visible in this figure that improves the activity resolution of the detector. Differences of $250~\becquerel/\liter$ are clearly distinguish with an integration time of $10~\min$ and 5 TRITIUM-IFIC-2 modules. The resolution, defined as
+Activities from $100~\becquerel/\liter$ to $5~\kilo\becquerel/\liter$, for three months of data taking and an integration time of $10~\min$, were simulated. The simulation results are presented in Figure \ref{fig:1Det10Min250BqL}. A difference in activity smaller than $250~\becquerel/\liter$ cannot be distinguished because of the overlapping of the distributions. To reduce the width, the statistics should be increased, either by increasing the integration time or the number of prototypes read out in parallel. To check the role of the integration time, distributions for integration times of $10~\min$, $30~\min$ and $60~\min$ were generated. The effect of increasing the integration time is to reduce the distribution width and improve the activity resolution of the TRITIUM monitor, as seen in Figure \ref{fig:1Det250BqLseveralTimes}. Differences as low as $250~\becquerel/\liter$ are clearly discriminated with only one TRITIUM-IFIC-2 module and an integration time of $60~\min$ which could still be considered a quasi-real-time measurement. Similarly, these distributions are shown in Figure \ref{fig:SeveralDet250BqL10min} for $10~\min$ integration time and 1, 5 and 10 modules read out in parallel. A reduction of the distribution width with the increasing number of modules which improves the activity resolution of the detector is visible in this figure. Differences of $250~\becquerel/\liter$ are clearly resolved with an integration time of $10~\min$ and 5 TRITIUM-IFIC-2 modules. The resolution, defined as
 \begin{equation}
 \text{Resolution(\%)}=\frac{\text{FWHM}}{\text{centroid}}\cdot{}100
 \label{eq:Resolution}
 \end{equation}
-is plotted as a function of the source activity for several integration time and number of modules in Figure \ref{fig:Resolution}. It can be observed that the resolution improves with integration time and number of modules. The studied cases are summarized in Table \ref{tab:DifferentCasesOfTI2}. The decision adopted by the TRITIUM collaboration is to install 5 TRITIUM-IFIC-2 modules with an integration time of $1~\hour$ that provide an MDA of $100~\becquerel/\liter$, as seen in Figure \ref{fig:MDATRITIUMmonitor}. With this configuration, differences of $100~\becquerel/\liter$ are expected to be resolved according to Table \ref{tab:DifferentCasesOfTI2}. 
+is plotted as a function of the source activity for several integration times and numbers of modules in Figure \ref{fig:Resolution}. It can be observed that the resolution improves with integration time and the number of modules. The studied cases are summarized in Table \ref{tab:DifferentCasesOfTI2}. The decision adopted by the TRITIUM collaboration is to install 5 TRITIUM-IFIC-2 modules with an integration time of $1~\hour$ that provide an MDA of $100~\becquerel/\liter$, as seen in Figure \ref{fig:MDATRITIUMmonitor}. With this configuration, differences of $100~\becquerel/\liter$ are expected to be resolved according to Table \ref{tab:DifferentCasesOfTI2}. 
 
 \begin{figure}
 \centering
@@ -44,7 +44,7 @@ is plotted as a function of the source activity for several integration time and
     \includegraphics[width=\textwidth]{6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_1Det_10min_250BqL_and_Gaus.pdf}  
     \caption{\label{subfig:Dist1Det10Min250BqL}}
     \end{subfigure}
- \caption{a) TRITIUM-IFIC-2 simulated statistics with an integration time of $10~\min$ during three months ($13248$ bins for each activity). b) Distribution of counting stadistics versus activity.}
+ \caption{a) TRITIUM-IFIC-2 simulated statistics with an integration time of $10~\min$ during three months ($13248$ bins for each activity). b) Distribution of counting statistics versus activity.}
  \label{fig:1Det10Min250BqL}
 \end{figure}
 
@@ -90,7 +90,7 @@ is plotted as a function of the source activity for several integration time and
     \includegraphics[width=\textwidth]{6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Dist_10Det_10min_250BqL.png}  
     \caption{\label{subfig:10Det10min250BqLSD}}
     \end{subfigure}
- \caption{Simulated counting distributions for three months and an integration time of $10~\min$ for each of the tritium activities in the insets and for different number of TRITIUM-IFIC-2 modules: a) 1 module, b) 5 modules and c) 10 modules.}
+ \caption{Simulated counting distributions for three months and an integration time of $10~\min$ for each of the tritium activities in the insets and different numbers of TRITIUM-IFIC-2 modules: a) 1 module, b) 5 modules and c) 10 modules.}
  \label{fig:SeveralDet250BqL10min}
 \end{figure}
 
@@ -107,7 +107,7 @@ is plotted as a function of the source activity for several integration time and
     \includegraphics[width=\textwidth]{6Simulations/62TRITIUMMonitor/621TRITIUMIFIC2/Results_Several_Detectors.pdf}  
     \caption{\label{subfig:ResolutionvsNumberDetectors}}
     \end{subfigure}
- \caption{a) Resolution of TRITIUM-IFIC-2 versus tritium activity for different integration times using one TRITIUM-IFIC-2 module. b) Resolution of TRITIUM-IFIC-2 versus tritium activity for different number of modules and $10~\min$ integration time.}
+ \caption{a) Resolution of TRITIUM-IFIC-2 versus tritium activity for different integration times using one TRITIUM-IFIC-2 module. b) Resolution of TRITIUM-IFIC-2 versus tritium activity for different numbers of modules and $10~\min$ integration time.}
  \label{fig:Resolution}
 \end{figure}
 
@@ -123,7 +123,7 @@ is plotted as a function of the source activity for several integration time and
 10 & $150~\becquerel/\liter$ & $100~\becquerel/\liter$ & $\approx 50~\becquerel/\liter$ \tabularnewline
 \bottomrule
 \end{tabular}
-\caption{Tritium activity difference that can be visually resolved for different integration times and different number of TRITIUM-IFIC-2 modules.}
+\caption{Tritium activity difference that can be visually resolved for different integration times and different numbers of TRITIUM-IFIC-2 modules.}
 \label{tab:DifferentCasesOfTI2}
 \end{table}
 

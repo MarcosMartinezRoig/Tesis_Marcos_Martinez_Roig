@@ -19,9 +19,9 @@
 \contentsline {section}{\numberline {2.2}The TRITIUM Project}{24}{section.2.2}
 \contentsline {chapter}{\numberline {3}Design Principles and Components of TRITIUM}{29}{chapter.3}
 \contentsline {section}{\numberline {3.1}Detector System Overview}{29}{section.3.1}
-\contentsline {section}{\numberline {3.2}TRITIUM Detector}{31}{section.3.2}
+\contentsline {section}{\numberline {3.2}TRITIUM Detector}{30}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Interaction of Particles with Matter}{31}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Plastic Scintillators}{35}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Plastic Scintillators}{34}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Light Detection in Photosensors}{41}{subsection.3.2.3}
 \contentsline {subsubsection}{\numberline {3.2.3.1}Photomultiplier Tubes (PMTs)}{43}{subsubsection.3.2.3.1}
 \contentsline {subsubsection}{\numberline {3.2.3.2}Silicon Photomultiplier Array}{48}{subsubsection.3.2.3.2}
@@ -33,8 +33,8 @@
 \contentsline {subsection}{\numberline {3.3.1}Objectives}{62}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Design of the Water Purification System}{62}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}The Background Rejection System}{64}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Passive Shield (Lead)}{66}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Active Shield (Cosmic Veto)}{67}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.1}Passive Shield}{66}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Active Shield}{67}{subsection.3.4.2}
 \contentsline {chapter}{\numberline {4}TRITIUM Monitor R\&D}{73}{chapter.4}
 \contentsline {section}{\numberline {4.1}R\&D for the Scintillating Fibres}{73}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Preparation of Scintillating Fibres}{74}{subsection.4.1.1}
@@ -44,50 +44,50 @@
 \contentsline {subsection}{\numberline {4.1.2}Characterization of Scintillating Fibres}{88}{subsection.4.1.2}
 \contentsline {subsubsection}{\numberline {4.1.2.1}Measurement Conditions}{91}{subsubsection.4.1.2.1}
 \contentsline {subsubsection}{\numberline {4.1.2.2}Results of the Characterization of Scintillating Fibres}{92}{subsubsection.4.1.2.2}
-\contentsline {section}{\numberline {4.2}Characterization of the SiPM}{100}{section.4.2}
-\contentsline {section}{\numberline {4.3}Characterization of the Water Purification System}{108}{section.4.3}
-\contentsline {section}{\numberline {4.4}Characterization of the Cosmic Veto}{111}{section.4.4}
+\contentsline {section}{\numberline {4.2}Characterization of the SiPM}{99}{section.4.2}
+\contentsline {section}{\numberline {4.3}Characterization of the Water Purification System}{109}{section.4.3}
+\contentsline {section}{\numberline {4.4}Characterization of the Cosmic Veto}{112}{section.4.4}
 \contentsline {chapter}{\numberline {5}TRITIUM Detector Prototypes}{119}{chapter.5}
-\contentsline {section}{\numberline {5.1}First Prototypes}{120}{section.5.1}
+\contentsline {section}{\numberline {5.1}First Prototypes}{119}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}TRITIUM-IFIC-0}{120}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}TRITIUM-IFIC-1}{125}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Latest TRITIUM Prototypes}{130}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}TRITIUM-Aveiro}{131}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.1.2}TRITIUM-IFIC-1}{123}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Latest TRITIUM Prototypes}{129}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}TRITIUM-Aveiro}{130}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}TRITIUM-IFIC-2}{137}{subsection.5.2.2}
 \contentsline {section}{\numberline {5.3}Experimental Results in Arrocampo Dam}{146}{section.5.3}
-\contentsline {section}{\numberline {5.4}Modular TRITIUM Detector}{148}{section.5.4}
-\contentsline {chapter}{\numberline {6}Simulations}{153}{chapter.6}
-\contentsline {section}{\numberline {6.1}Geant4 Environment}{153}{section.6.1}
-\contentsline {section}{\numberline {6.2}Simulations for the design of the TRITIUM Detector}{155}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}The Tritiated Water Source}{155}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Energy Deposition and Light Output in Scintillating Fibres}{157}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Optimization of the Fibre Length}{162}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Fibre Diameter Influence on Cosmic Background}{162}{subsection.6.2.4}
-\contentsline {subsection}{\numberline {6.2.5}Influence of the PMMA Windows on the Tritium Signal}{164}{subsection.6.2.5}
-\contentsline {section}{\numberline {6.3}Simulations of the TRITIUM Monitor}{165}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Simulation of the TRITIUM-IFIC-2 Prototype}{166}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Lead Shield and Cosmic Veto}{170}{subsection.6.3.2}
-\contentsline {chapter}{\numberline {7}Present Status and Summary of the Results of the TRITIUM Project}{177}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions of this thesis}{185}{chapter.8}
+\contentsline {section}{\numberline {5.4}Modular TRITIUM Detector}{147}{section.5.4}
+\contentsline {chapter}{\numberline {6}Simulations}{151}{chapter.6}
+\contentsline {section}{\numberline {6.1}Geant4 Environment}{151}{section.6.1}
+\contentsline {section}{\numberline {6.2}Simulations for the design of the TRITIUM Detector}{153}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}The Tritiated Water Source}{153}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Energy Deposition and Light Output in Scintillating Fibres}{155}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Optimization of the Fibre Length}{160}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Fibre Diameter Influence on Cosmic Background}{160}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Influence of the PMMA Windows on the Tritium Signal}{162}{subsection.6.2.5}
+\contentsline {section}{\numberline {6.3}Simulations of the TRITIUM Monitor}{163}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Simulation of the TRITIUM-IFIC-2 Prototype}{164}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Lead Shield and Cosmic Veto}{168}{subsection.6.3.2}
+\contentsline {chapter}{\numberline {7}Present Status and Summary of the Results of the TRITIUM Project}{175}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusions of this thesis}{183}{chapter.8}
 \babel@toc {catalan}{}
-\contentsline {chapter}{\numberline {9}Resum en Valenci\IeC {\`a}}{189}{chapter.9}
-\contentsline {section}{\numberline {9.1}El triti i l'energia nuclear}{189}{section.9.1}
-\contentsline {section}{\numberline {9.2}Principis del disseny i components del monitor TRITIUM}{196}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Vista general del monitor TRITIUM}{196}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}Components del detector TRITIUM}{197}{subsection.9.2.2}
-\contentsline {subsubsection}{\numberline {9.2.2.1}Fibres Centellejadores}{198}{subsubsection.9.2.2.1}
-\contentsline {subsubsection}{\numberline {9.2.2.2}Fotosensors}{200}{subsubsection.9.2.2.2}
-\contentsline {subsubsection}{\numberline {9.2.2.3}Electr\IeC {\`o}nica}{203}{subsubsection.9.2.2.3}
-\contentsline {subsection}{\numberline {9.2.3}Sistema de purificaci\IeC {\'o} de l'aig\IeC {\@umlaut u}a}{204}{subsection.9.2.3}
-\contentsline {subsection}{\numberline {9.2.4}Sistema de rebuig del fons radioactiu}{206}{subsection.9.2.4}
-\contentsline {section}{\numberline {9.3}Prototips del detector TRITIUM}{207}{section.9.3}
-\contentsline {subsection}{\numberline {9.3.1}Prototips inicials}{209}{subsection.9.3.1}
-\contentsline {subsection}{\numberline {9.3.2}\IeC {\'U}ltims prototips}{217}{subsection.9.3.2}
-\contentsline {subsection}{\numberline {9.3.3}Disseny modular del detector TRITIUM}{222}{subsection.9.3.3}
-\contentsline {section}{\numberline {9.4}Estat actual i resum dels resultats obtinguts en el projecte TRITIUM}{224}{section.9.4}
+\contentsline {chapter}{\numberline {9}Resum en Valenci\IeC {\`a}}{187}{chapter.9}
+\contentsline {section}{\numberline {9.1}El triti i l'energia nuclear}{187}{section.9.1}
+\contentsline {section}{\numberline {9.2}Principis del disseny i components del monitor TRITIUM}{194}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Vista general del monitor TRITIUM}{194}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Components del detector TRITIUM}{195}{subsection.9.2.2}
+\contentsline {subsubsection}{\numberline {9.2.2.1}Fibres Centellejadores}{196}{subsubsection.9.2.2.1}
+\contentsline {subsubsection}{\numberline {9.2.2.2}Fotosensors}{198}{subsubsection.9.2.2.2}
+\contentsline {subsubsection}{\numberline {9.2.2.3}Electr\IeC {\`o}nica}{201}{subsubsection.9.2.2.3}
+\contentsline {subsection}{\numberline {9.2.3}Sistema de purificaci\IeC {\'o} de l'aigua}{202}{subsection.9.2.3}
+\contentsline {subsection}{\numberline {9.2.4}Sistema de rebuig del fons radioactiu}{204}{subsection.9.2.4}
+\contentsline {section}{\numberline {9.3}Prototips del detector TRITIUM}{205}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Prototips inicials}{207}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}\IeC {\'U}ltims prototips}{215}{subsection.9.3.2}
+\contentsline {subsection}{\numberline {9.3.3}Disseny modular del detector TRITIUM}{220}{subsection.9.3.3}
+\contentsline {section}{\numberline {9.4}Estat actual i resum dels resultats obtinguts en el projecte TRITIUM}{222}{section.9.4}
 \babel@toc {british}{}
 \contentsline {chapter}{Appendices}{}{section*.175}
-\contentsline {chapter}{\numberline {A}Electronics for the SiPM Characterization}{231}{appendix.A}
-\contentsline {chapter}{\numberline {B}The Water Purification System}{237}{appendix.B}
-\contentsline {chapter}{\numberline {C}Preparation of Tritiated Water Sources}{243}{appendix.C}
-\contentsline {chapter}{\numberline {D}Electronic System of TRITIUM-Aveiro}{245}{appendix.D}
+\contentsline {chapter}{\numberline {A}Electronics for the SiPM Characterization}{229}{appendix.A}
+\contentsline {chapter}{\numberline {B}The Water Purification System}{235}{appendix.B}
+\contentsline {chapter}{\numberline {C}Preparation of Tritiated Water Sources}{241}{appendix.C}
+\contentsline {chapter}{\numberline {D}Electronic System of TRITIUM-Aveiro}{243}{appendix.D}

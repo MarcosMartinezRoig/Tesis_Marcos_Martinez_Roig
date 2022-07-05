@@ -1,6 +1,6 @@
-PMTs are used in the TRITIUM experiment for two main objectives. On the one hand, to determine the amount of incident photons that reach the PMT photocathode and, on the other hand, to measure the energy spectrum of tritium events in the laboratory prototypes.
+PMTs are used in the TRITIUM experiment for two main objectives. On the one hand, to determine the number of incident photons that reach the PMT photocathode and, on the other hand, to measure the energy spectrum of tritium events in the laboratory prototypes.
 
-To determine the amount of photons reaching the photocathode, the PMT should work without gain which is a source of uncertainty. For this, the bias circuit shown in Figure \ref{fig:ElectronicSchemeBasePMTNoGain} was employed. As electrons are not multiplied, the output current of the photosensor is very small (currents in the nanoampere range). This output current was read out by a Keithley 6487 Picoammeter/Voltage Source \cite{DataSheetKeithley6487}. 
+To determine the number of photons reaching the photocathode, the PMT should work without gain which is a source of uncertainty. For this, the bias circuit shown in Figure \ref{fig:ElectronicSchemeBasePMTNoGain} was employed. As electrons are not multiplied, the output current of the photosensor is very small (currents in the $\nano\ampere$ range). This output current was read out by a Keithley 6487 Picoammeter/Voltage Source \cite{DataSheetKeithley6487}. 
 
 The energy of the events was measured using PMTs powered with the voltage divider shown in Figure \ref{fig:VoltageDividerCircuit}. A scheme of the electronics is shown in Figure \ref{fig:ElectronicConfiguraitonsPMT}.
 \begin{figure}
@@ -25,7 +25,7 @@ The energy of the events was measured using PMTs powered with the voltage divide
  \caption{Electronic schemes employed for measuring with a) one PMT, b) two PMTs in coincidence and c) four PMTs in coincidence.}
  \label{fig:ElectronicConfiguraitonsPMT}
 \end{figure}
-The PMTs were powered by a TC 952 High Voltage Supply from Tennelec \cite{DataSheetHVSupplyTennelec} and a HV Power Supply N 1130-4 from Wenzel Elektronik \cite{DataSheetHVSupplyWenzel}. The PMT output signals were split by an analog FAN IN-OUT model 740 from Phillips Scientific \cite{DataSheetFANINOUT} to feed the amplification and time coincidence lines. The amplification line consists of a preamplifier, model 9326 FAST PREAMP from ORTEC \cite{DataSheetPreAmp}, which gives an output signal with a heigth proportional to the charge of the input pulse and of an amplifier, model 575A or 671 from ORTEC \cite{DataSheet575Amp, DataSheet671Amp}, which produces a Gaussian shaped output signal. An example of the 575A amplifier output signal is shown in Figure \ref{fig:InputSignalsMCA}, green color. 
+The PMTs were powered by a TC 952 High Voltage Supply from Tennelec \cite{DataSheetHVSupplyTennelec} and a HV Power Supply N 1130-4 from Wenzel Elektronik \cite{DataSheetHVSupplyWenzel}. The PMT output signals were split by an analogue FAN IN-OUT model 740 from Phillips Scientific \cite{DataSheetFANINOUT} to feed the amplification and time coincidence lines. The amplification line consists of a preamplifier, model 9326 FAST PREAMP from ORTEC \cite{DataSheetPreAmp}, which gives an output signal with a height proportional to the charge of the input pulse and of an amplifier, model 575A or 671 from ORTEC \cite{DataSheet575Amp, DataSheet671Amp}, which produces a Gaussian shaped output signal. An example of the 575A amplifier output signal is shown in Figure \ref{fig:InputSignalsMCA}, in green color. 
 
 The time coincidence line consists of the following branches:
 
@@ -33,9 +33,9 @@ The time coincidence line consists of the following branches:
 
 \item{}  A constant fraction discriminator, either module CF8000 from ORTEC \cite{DataSheetDiscriminator} or model 84 from CAEN \cite{DataSheetDiscriminatorCAEN}.
 
-\item{} In the case of two or four PMTs, a coincidence module either 465 from LeCroy \cite{DataSheetCoincidenceLeCroy} or Coincidence Type N6234 from CERN-NP \cite{DataSheetCoincidenceCERN}, used to generate an output signal of $20~\ns$ width when both inputs are in coincidence. 
+\item{} In the case of two or four PMTs, a coincidence module, either 465 from LeCroy \cite{DataSheetCoincidenceLeCroy} or Coincidence Type N6234 from CERN-NP \cite{DataSheetCoincidenceCERN}, to generate an output signal of $20~\ns$ width when both inputs are in coincidence. 
 
-\item{} In the case of four PMTs, an additional coincidence stage is employed. In Figure \ref{fig:DifferentCoincidences}, time coincidences of 4 PMTs are shown. Case d) shows coincident events.
+\item{} In the case of four PMTs, an additional coincidence stage is employed. In Figure \ref{fig:DifferentCoincidences}, coincidences of 4 PMTs signals are shown. Case d) shows a coincident event.
 
 %In Figure \ref{fig:DifferentCoincidences}, time coincidences of two detectors (4 PMTs) are shown. The four logic signals are displayed, two of them from each detector. The possible cases are:
 
@@ -71,15 +71,15 @@ The time coincidence line consists of the following branches:
     \includegraphics[width=\textwidth]{3DesignPrinciples/32Tritium_detector/4_coincidences.png}  
     \caption{\label{subfig:signalInAllPMTsBothDetector}}
     \end{subfigure}
- \caption{Different possibilities for time coincidence of four PMTs. Case d) shows coincident events.}
+ \caption{Different possibilities for coincidence of four PMTs. Case d) shows coincident events.}
  \label{fig:DifferentCoincidences}
 \end{figure}
 
-\item{} A Gate and Delay Generator, model 416A from ORTEC \cite{DataSheetGateAndDelay}, which produces a positive logic signal of $8~\volt$ height and $2~\mu\second$ width. This module delays the time windows until they overlap with the energy signal as shown in Figure \ref{fig:InputSignalsMCA}.
+\item{} A Gate and Delay Generator, model 416A from ORTEC \cite{DataSheetGateAndDelay}, to produce a positive logic signal of $8~\volt$ height and $2~\mu\second$ width. This module delays the time windows until they overlap with the energy signal as shown in Figure \ref{fig:InputSignalsMCA}.
 
 \end{enumerate}
 
-The energy signal and the coincidence signal, shown in Figure \ref{fig:InputSignalsMCA}, are recorded by a MCA model 8000D from AMPTEK \cite{DataSheetMCA}.
+The energy signal and the coincidence signal, shown in Figure \ref{fig:InputSignalsMCA}, are recorded by an MCA model 8000D from AMPTEK \cite{DataSheetMCA}.
 
 \begin{figure}[htbp]
 \centering

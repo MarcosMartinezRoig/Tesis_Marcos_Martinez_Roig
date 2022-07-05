@@ -1,15 +1,16 @@
-As can be seen in Figure \ref{fig:CleavingFiberEnd}, a slightly darkened zone at the bottom of the fibre is observed. This is an unavoidable effect of the cleaving process of plastic fibres which produces unpolished end-surfaces. To polish the end-surfeces, a method implemented by Thorlabs was applied \cite{DiamondThorlabs}. 
+As can be seen in Figure \ref{fig:CleavingFiberEnd}, a slightly darkened zone at the bottom of the fibre is observed. This is an unavoidable effect of the cleaving process of plastic fibres which produces unpolished end surfaces. To polish the end surfaces, a method implemented by Thorlabs was applied \cite{DiamondThorlabs}. 
 
+\newpage
 \textbf{Manual Polishing Method}
 
-The Thorlabs polishing method consists in rubbing the fibres ends with five different polishing papers made of aluminium oxyde grains with a decreasing grain size ($30~\mu\meter$, $20~\mu\meter$, $12~\mu\meter$, $5~\mu\meter$ and $0.3~\mu\meter$). To polish the fibre, this is placed into a polishing connector, shown in Figure \ref{fig:HandPolishingMethod}, and a shape of an 8 must be outlined on each polishing paper during 2 minutes (approximately 120 movements). 
+The Thorlabs polishing method consists in rubbing the fibre ends with five different polishing papers made of aluminium oxide grains with a decreasing grain size ($30~\mu\meter$, $20~\mu\meter$, $12~\mu\meter$, $5~\mu\meter$ and $0.3~\mu\meter$). To polish the fibre, this is placed into a polishing connector, shown in Figure \ref{fig:HandPolishingMethod}, and a shape of an 8 must be outlined on each polishing paper for 2 minutes (approximately 120 movements). 
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.75]{4ResearchAndDevelopments/41Fibers/Hand_Polishing_Kit.png}
 \caption{Manual polishing method implemented by Thorlabs.\label{fig:HandPolishingMethod}}
 \end{figure}
-The result obtained after polishing is shown in Figure \ref{subfig:PolishFiberEnd} where it can be noticed that the darkened zone has completely disappeared. The fibre end is uniform which favors optimal coupling and transmision of photons of the scintillating fibres to the photodetectors.
+The result obtained after polishing is shown in Figure \ref{subfig:PolishFiberEnd} where it can be noticed that the darkened zone has completely disappeared. The fibre end is uniform which favours optimal coupling and transmission of photons of the scintillating fibres to the photodetectors.
 
 \begin{figure}
 \centering
@@ -40,13 +41,13 @@ The main drawback of the manual polishing method is that it takes more than 10 m
 \end{figure}
 
 \begin{enumerate}
-\item{} A polishing table, shown in Figure \ref{subfig:PolishingTable}, where the fibres are polished. This is composed of two parts, a static part, to which the fibres are attached, and a movable part on bottom of the static part, where the polishing papers are attached. It was decided to move the polishing paper instead of the fibres to avoid damaging them.
+\item{} A polishing table, shown in Figure \ref{subfig:PolishingTable}, where the fibres are polished. This is composed of two parts, a static part, to which the fibres are attached, and a movable part on the bottom of the static part, where the polishing papers are attached. It was decided to move the polishing paper instead of the fibres to avoid damaging them.
 
 The static part that holds the fibres, shown in Figure \ref{subfig:PolishingTable}, consists of a plastic piece locked to the system by four vertical screws. There are two nuts on each screw used to set the height and the inclination of fibres relative to the polishing paper. This piece contains one hundred holes in which a hundred fibres can be lodged. 
 
-As the fibres are too light ($0.16~\gram$) to make the necessary pressure on the polishing paper by gravity, a plastic belt and a piece of metal of about $1.5~\gram$ weight were attached to the individual fibres, as shown in Figure \ref{subfig:FiberMetailcPiece}, to increase their contact pressure, in a similar way as with manual polishing connectors. 
+As the fibres are too light ($0.16~\gram$) to make the necessary pressure on the polishing paper by gravity, a plastic belt and a piece of metal of about $1.5~\gram$ weight were attached to the individual fibres, as shown in Figure \ref{subfig:FiberMetailcPiece}, to increase their contact pressure in a similar way as with manual polishing connectors. 
 
-The movable part of the polishing table consists of a flat PMMA plate of $18 \times 18~\cm^2$ to which the polishing paper is attached. This part is locked to a structure \cite{StructureAxis} that contains two horizontal screws, perpendicular to each other, which alloarew a movement in the horizontal plane, as shown in Figure \ref{subfig:HorizontalAxis}.
+The movable part of the polishing table consists of a flat PMMA plate of $18 \times 18~\cm^2$ to which the polishing paper is attached. This part is locked to a structure \cite{StructureAxis} that contains two horizontal screws, perpendicular to each other, which allow a movement in the horizontal plane, as shown in Figure \ref{subfig:HorizontalAxis}.
 
 The polishing system contains several high accuracy switches, model DB1 6A250, shown in Figures \ref{subfig:PolishingTable}, \ref{subfig:HorizontalAxis} and \ref{subfig:3DSwitchPiece}, which are used to find the origin of coordinates when the system is reinitiated and to stop the movable part when the end of the path is reached. 
 
@@ -79,7 +80,7 @@ The polishing system contains several high accuracy switches, model DB1 6A250, s
  \label{fig:PolishingTable}
 \end{figure}
 
-\item{} An Arduino-based electronics that controls the movement of the polishing paper, shown in Figure \ref{fig:ElectronicSystemPolishingMachine}. It consists of two stepper motors controlled by an Arduino UNO \cite{ArduinoUNO} that uses a CNC shield \cite{CNCShield}. The stepper motor is a type of DC motor in which a full rotation is divided into a number of steps that define the stepping angle. The stepper motors used for he polishing machine are model NEMA ST4209S1404-A \cite{StepperMotors}, with bipolar voltage of $2.77~\volt_{DC}$, $1.33~\ampere$ maximum current and a stepping angle of $0.9\degree$ ($400$ steps/rev). They can be operated with a position sensor for feedback control. These stepper motors are used to move the horizontal screws to which the PMMA plate that holds the polishing paper is attached. Two drivers connected to the CNC shield limit the current supplied to the motors. Choosing the right drivers is crucial because overpowering the motors could damage them, while underpowering them would induce an inadequate stepping. Several drivers were succesively tested: the driver Pololu A4988 ($35~\volt$, $2~\ampere$ and $16$ steps) \cite{A4988Driver}, the driver DRV8825 ($45~\volt$, $2.5~\ampere$ and $32$ steps) \cite{DRV8825Driver} and the TMC2208 ($35~\volt$, $2.5~\ampere$ and $256$ steps with more microstepping modes which result in a more accurate and smooth movement) \cite{TMC2208Driver}. The last driver includes a StealthChop function that allows to operate in silence mode for low motor velocities. The TMC2208 driver is the one used for the control of the stepper motors since it produces the most accurate and smooth movement. A cooling system, shown in Figure \ref{fig:ElectronicSystemPolishingMachine}, was needed to ensure the correct operation of the polishing system. This consists of a copper heat sink in contact with both controllers and a fan which prevents heat accumulation inside the electronics box. The cooling power can be improved by a PELTIER cell.
+\item{} An Arduino-based electronics that controls the movement of the polishing paper, shown in Figure \ref{fig:ElectronicSystemPolishingMachine}. It consists of two stepper motors controlled by an Arduino UNO \cite{ArduinoUNO} that uses a CNC shield \cite{CNCShield}. The stepper motor is a type of DC motor in which a full rotation is divided into a number of steps that define the stepping angle. The stepper motors used for the polishing machine are model NEMA ST4209S1404-A \cite{StepperMotors}, with a bipolar voltage of $2.77~\volt_{DC}$, $1.33~\ampere$ maximum current and a stepping angle of $0.9\degree$ ($400$ steps/rev). They can be operated with a position sensor for feedback control. These stepper motors are used to move the horizontal screws to which the PMMA plate that holds the polishing paper is attached. Two drivers connected to the CNC shield limit the current supplied to the motors. Choosing the right drivers is crucial because overpowering the motors could damage them while underpowering them would induce an inadequate stepping. Several drivers were successively tested: the driver Pololu A4988 ($35~\volt$, $2~\ampere$ and $16$ steps) \cite{A4988Driver}, the driver DRV8825 ($45~\volt$, $2.5~\ampere$ and $32$ steps) \cite{DRV8825Driver} and the TMC2208 ($35~\volt$, $2.5~\ampere$ and $256$ steps with more microstepping modes which result in a more accurate and smooth movement) \cite{TMC2208Driver}. The last driver includes a StealthChop function that allows operating in silence mode for low motor velocities. The TMC2208 driver is the one used for the control of the stepper motors since it produces the most accurate and smooth movement. A cooling system, shown in Figure \ref{fig:ElectronicSystemPolishingMachine}, was needed to ensure the correct operation of the polishing system. This consists of a copper heat sink in contact with both controllers and a fan which prevents heat accumulation inside the electronics box. The cooling power can be improved by a PELTIER cell.
 
 \begin{figure}[h]
 \centering
@@ -88,11 +89,11 @@ The polishing system contains several high accuracy switches, model DB1 6A250, s
 \end{figure}
 \end{enumerate}
 
-The polishing machine is controlled by a Raspberry Pi computer board \cite{RaspberryPi} through the Universal G-code Sender software, a grafical interface based on the GRBL package \cite{GRBLDocumentation}. In this software, there are several pre-programmed functions such as "HOME" that finds the system origin of coordinates when it is turned on. The GRBL software loads a file containing the G-code that defines the 120 movements required for polishing.
+The polishing machine is controlled by a Raspberry Pi computer board \cite{RaspberryPi} through the Universal G-code Sender software, a graphical interface based on the GRBL package \cite{GRBLDocumentation}. In this software, there are several pre-programmed functions such as "HOME" which finds the system origin of coordinates when it is turned on. The GRBL software loads a file containing the G-code that defines the 120 movements required for polishing.
 
 \textbf{Experimental Test}
 
-The improvement of the light transmission of scintillating fibres due to polishing was tested with twenty uncladded scintillating fibres of $15~\cm$ length. These fibres were arranged in a bundle that was coupled to two PMTs and read out in coincidence, as shown in Figure \ref{fig:BunchWith2PMTsCoincidence}.
+The improvement of the light transmission of scintillating fibres due to polishing was tested with twenty uncladded scintillating fibres of $15~\cm$ long. These fibres were arranged in a bundle that was coupled to two PMTs and read out in coincidence, as shown in Figure \ref{fig:BunchWith2PMTsCoincidence}.
 
 \begin{figure}[]
 \centering
@@ -111,7 +112,7 @@ As it can be seen in this figure, the energy spectrum after polishing is shifted
 F=\frac{A_{P}}{A_{NP}}
 \label{eq:RelativeImprovement}
 \end{equation}
-where $A_{P}$ and $A_{NP}$ are the integrals of the energy spectra measured after and before the polishing process, respectively. The polishing results in a factor $2.2$ improvement in light collection. The test was repeated with two radioactive sources, an encapsulated $\ce{^{60}Co}$ source of $715~\kilo\becquerel$ activity and a $\ce{^{90}Sr}$ source of $17.8~\kilo\becquerel$ activity. The radioactive sources were placed next to the center of the fibre bundle (at $7.5~\cm$ from each PMT). The energy spectra recorded for both radioactive sources are shown in Figure \ref{fig:ResultsOfPolishingMachineSources}.
+where $A_{P}$ and $A_{NP}$ are the integrals of the energy spectra measured after and before the polishing process, respectively. The polishing results in a factor $2.2$ improvement in the light collection. The test was repeated with two radioactive sources, an encapsulated $\ce{^{60}Co}$ source of $715~\kilo\becquerel$ activity and a $\ce{^{90}Sr}$ source of $17.8~\kilo\becquerel$ activity. The radioactive sources were placed next to the centre of the fibre bundle (at $7.5~\cm$ from each PMT). The energy spectra recorded for both radioactive sources are shown in Figure \ref{fig:ResultsOfPolishingMachineSources}.
 \begin{figure}
 \centering
     \begin{subfigure}[b]{1\textwidth}
@@ -128,6 +129,6 @@ where $A_{P}$ and $A_{NP}$ are the integrals of the energy spectra measured afte
  \caption{Energy spectra recorded with polished and unpolished fibres. a) $\ce{^{60}Co}$ source. b) $\ce{^{90}Sr}$ source.}
  \label{fig:ResultsOfPolishingMachineSources}
 \end{figure}
-It can be noticed that both energy spectra are shifted to the right after polishing, obtaining an improvement of a factor $1.7$ and $2$ with respect to the spectra before polishing for the $\ce{^{60}Co}$ and $\ce{^{90}Sr}$ sources, respectively. 
+It can be noticed that both energy spectra are shifted to the right after polishing, obtaining an improvement of factors $1.7$ and $2$ with respect to the spectra before polishing for the $\ce{^{60}Co}$ and $\ce{^{90}Sr}$ sources, respectively. 
 
-In summary, the photon collection efficiency of the fibres was significantly improved by polishing (mainly due to the improvement of the interface between fibres and PMTs). As the expected number of photons per tritium event is quite low (less than 20, as demonstrated by both simulations and measurements), it is crucial to achieve a high light collection.
+In summary, the photon collection efficiency of the fibres was significantly improved by polishing (mainly due to the improvement of the interface between fibres and PMTs). As the expected number of photons per tritium event is quite low (less than 20, as demonstrated by both simulations and measurements), it is crucial to achieving a high light collection.
