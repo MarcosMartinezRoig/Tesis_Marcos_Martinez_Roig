@@ -10,9 +10,15 @@
 $\ $
 \thispagestyle{empty}  %para que no se numere esta pagina
 \chapter*{} 
+\thispagestyle{empty}  %para que no se numere esta pagina
 
+\input{./Sections/0Previous_pages/tesis_certi}
+\newpage
 
-\pagenumbering{Roman} %for using romain numbers (page numering)
+$\ $
+\thispagestyle{empty}  %para que no se numere esta pagina
+\chapter*{} 
+\thispagestyle{empty}  %para que no se numere esta pagina
 
 \begin{flushright}
 \textit{Dedicated to \\my family}
@@ -29,9 +35,12 @@ who do the things that no one can imagine.
 \end{flushright} 
 
 \newpage
+\thispagestyle{empty}  %para que no se numere esta pagina
 \selectlanguage{Spanish}
+
 \chapter*{Acknowledgements} \label{chap:Acknowledgements}  %pongo el asterisco para que no se numere ni aparezca en el índice
 %%\cleardoublepage
+\pagenumbering{Roman} %for using romain numbers (page numering)
 \selectlanguage{british}
 \addcontentsline{toc}{chapter}{Acknowledgements} % para que aparezca en el indice de contenidos
 %%\vspace{-1.2cm}
@@ -269,7 +278,7 @@ who do the things that no one can imagine.
 		
 	\section[Experimental Results in Arrocampo Dam]{Results from Measurements at Arrocampo Dam}\label{sec:ResultsArrocampo}
 	\input{./Sections/5Prototypes/53LastestPrototypes/534ArrocampoMesaurements}
-	\newpage
+	%\newpage
 		
 	\section[Modular TRITIUM Detector]{Modular TRITIUM Detector}\label{sec:TritiumMonitor}
 	\input{./Sections/5Prototypes/54TritiumIFICMonitor}
